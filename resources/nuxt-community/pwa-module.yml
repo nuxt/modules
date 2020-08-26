@@ -11,7 +11,8 @@ long_description: >-
   Progressive Web Apps are web applications that use progressive enhancements.
   Using service workers and a web app manifest, your web application becomes
   reliable and installable.
-categories: performance
+labels:
+  - performance
 logo: 'https://pwa.nuxtjs.org/icon.png'
 image: 'https://pwa.nuxtjs.org/preview.png'
 website: 'https://pwa.nuxtjs.org'

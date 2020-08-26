@@ -10,7 +10,9 @@ short_description: >-
 long_description: >-
   Nuxt i18n uses Vue-i18n with added features so you can easily add
   internationalization to your Nuxt.js project
-categories: 'devtools,i18n'
+labels:
+  - devtools
+  - i18n
 logo: 'https://i18n.nuxtjs.org/icon.png'
 image: 'https://i18n.nuxtjs.org/preview.png'
 website: 'https://i18n.nuxtjs.org'

@@ -10,7 +10,8 @@ long_description: >-
   and delivery. All your media resources are optimized and delivered through a
   fast CDN using industry best practices.
 npm_name: '@nuxtjs/cloudinary'
-categories: cdn
+labels:
+  - cdn
 logo: 'https://cloudinary.nuxtjs.org/icon.png'
 image: 'https://cloudinary.nuxtjs.org/preview.png'
 website: 'https://cloudinary.nuxtjs.org'

@@ -11,7 +11,8 @@ long_description: >-
   Prismic is a Content Management System, a tool for editing online content.
   Also known as a headless CMS, an API CMS, a content platform, a tool that
   easily lets you manage your content.
-categories: cms
+labels:
+  - cms
 logo: 'https://prismic.nuxtjs.org/icon.png'
 image: 'https://prismic.nuxtjs.org/preview.png'
 website: 'https://prismic.nuxtjs.org'

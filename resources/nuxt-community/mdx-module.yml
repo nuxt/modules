@@ -10,7 +10,8 @@ short_description: >-
 long_description: >-
   @nuxtjs/mdx allows you to write JSX in your Markdown documents in your Nuxt
   application with MDX
-categories: devtools
+labels:
+  - devtools
 logo: 'https://mdx.nuxtjs.org/icon.png'
 image: 'https://mdx.nuxtjs.org/preview.png'
 website: 'https://mdx.nuxtjs.org'

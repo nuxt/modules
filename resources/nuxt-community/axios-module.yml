@@ -7,7 +7,8 @@ npm_name: '@nuxtjs/axios'
 long_description: >-
   Axios is a Promise based HTTP client for the browser and node.js so you can
   easily make http requests in your Nuxt.js application
-categories: devtools
+labels:
+  - devtools
 website: 'https://axios.nuxtjs.org'
 features:
   - Automatically set base URL for client & server side

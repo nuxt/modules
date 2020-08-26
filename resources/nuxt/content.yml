@@ -10,7 +10,9 @@ long_description: >-
   Empower your NuxtJS application with @nuxt/content module: write in a content/
   directory and fetch your Markdown, JSON, YAML, XML and CSV files through a
   MongoDB like API, acting as a Git-based Headless CMS.
-categories: 'cms,markdown'
+labels:
+  - cms
+  - markdown
 logo: 'https://content.nuxtjs.org/icon.png'
 image: 'https://content.nuxtjs.org/preview.png'
 website: 'https://content.nuxtjs.org'
