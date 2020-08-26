@@ -1,0 +1,4 @@
+repo: nuxt-community/date-fns-module
+description: Modern JavaScript date utility library - date-fns for Nuxt.js
+license: MIT
+npm_name: '@nuxtjs/date-fns'

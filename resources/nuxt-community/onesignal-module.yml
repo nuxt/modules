@@ -1,0 +1,4 @@
+repo: nuxt-community/onesignal-module
+description: OneSignal module for Nuxt.js
+license: MIT
+npm_name: '@nuxtjs/onesignal'

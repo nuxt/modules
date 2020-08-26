@@ -1,0 +1,4 @@
+repo: nuxt/http
+description: Universal HTTP Module for Nuxt.js
+license: MIT
+npm_name: '@nuxt/http'

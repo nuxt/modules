@@ -1,0 +1,4 @@
+repo: nuxt-community/recaptcha-module
+description: Simple and easy Google reCAPTCHA integration with Nuxt.js
+license: MIT
+npm_name: '@nuxtjs/recaptcha'

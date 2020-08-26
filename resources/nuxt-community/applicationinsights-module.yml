@@ -1,0 +1,4 @@
+repo: nuxt-community/applicationinsights-module
+description: AppInsights module for Nuxt.js
+license: MIT
+npm_name: '@nuxtjs/applicationinsights'

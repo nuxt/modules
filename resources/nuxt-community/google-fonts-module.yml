@@ -1,0 +1,4 @@
+repo: nuxt-community/google-fonts-module
+description: Google Fonts module for NuxtJS
+license: MIT
+npm_name: '@nuxtjs/google-fonts'

@@ -1,0 +1,8 @@
+repo: nuxt-community/color-mode-module
+description: Dark and Light mode for NuxtJS with auto detection
+license: MIT
+npm_name: '@nuxtjs/color-mode'
+maintainers:
+  - name: Sébastien Chopin
+    github: atinux
+    twitter: Atinux

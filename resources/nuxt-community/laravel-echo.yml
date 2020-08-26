@@ -1,0 +1,4 @@
+repo: nuxt-community/laravel-echo
+description: Laravel Echo for Nuxt.js
+license: MIT
+npm_name: '@nuxtjs/laravel-echo'

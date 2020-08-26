@@ -1,0 +1,4 @@
+repo: nuxt-community/motd
+description: Messages of the day lib for Nuxt.js
+license: MIT
+npm_name: '@nuxtjs/motd'

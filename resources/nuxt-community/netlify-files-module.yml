@@ -1,0 +1,6 @@
+repo: nuxt-community/netlify-files-module
+description: >-
+  Nuxt module to create new _headers, _redirects and netlify.toml files for
+  Netlify or to use existing ones
+license: MIT
+npm_name: '@nuxtjs/netlify-files'

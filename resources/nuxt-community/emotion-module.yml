@@ -1,0 +1,4 @@
+repo: nuxt-community/emotion-module
+description: The Next Generation of CSS-in-JS for Nuxt.js
+license: MIT
+npm_name: '@nuxtjs/emotion'

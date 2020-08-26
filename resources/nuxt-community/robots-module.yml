@@ -1,0 +1,4 @@
+repo: nuxt-community/robots-module
+description: A Nuxt.js module thats inject a middleware to generate a robots.txt file
+license: MIT
+npm_name: '@nuxtjs/robots'

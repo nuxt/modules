@@ -1,0 +1,4 @@
+repo: nuxt-community/separate-env-module
+description: Separated environment variables for server and client builds
+license: MIT
+npm_name: '@nuxtjs/separate-env'

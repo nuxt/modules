@@ -1,0 +1,4 @@
+repo: nuxt-community/svg-sprite-module
+description: Optimized and Easy way to use svg files in Nuxt.js
+license: MIT
+npm_name: '@nuxtjs/svg-sprite'

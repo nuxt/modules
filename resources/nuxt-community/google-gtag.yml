@@ -1,0 +1,4 @@
+repo: nuxt-community/google-gtag
+description: Google GTag for Nuxt.js
+license: MIT
+npm_name: '@nuxtjs/google-gtag'

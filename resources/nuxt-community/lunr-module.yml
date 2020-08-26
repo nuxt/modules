@@ -1,0 +1,4 @@
+repo: nuxt-community/lunr-module
+description: Full-text search with pre-build indexes for Nuxt.js using lunr.js
+license: MIT
+npm_name: '@nuxtjs/lunr-module'

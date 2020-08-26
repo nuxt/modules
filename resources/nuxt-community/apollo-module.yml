@@ -1,0 +1,4 @@
+repo: nuxt-community/apollo-module
+description: !<tag:yaml.org,2002:js/undefined> ''
+license: MIT
+npm_name: '@nuxtjs/apollo'

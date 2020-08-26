@@ -1,0 +1,4 @@
+repo: nuxt-community/stylelint-module
+description: Stylelint module for Nuxt.js
+license: MIT
+npm_name: '@nuxtjs/stylelint-module'
