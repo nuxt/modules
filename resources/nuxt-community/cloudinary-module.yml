@@ -30,4 +30,3 @@ features:
   - On-the-fly size optimization per browser and device
   - Fast loading speed with progressive images
   - Auto-detect the optimized format per browser for images and videos
-npm_name: '@nuxtjs/cloudinary'

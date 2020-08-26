@@ -27,4 +27,3 @@ features:
     authentication tokens
   - Automatically enables `withCredentials` when requesting to base URL
   - Proxy request headers in SSR (Useful for auth)
-npm_name: '@nuxtjs/axios'

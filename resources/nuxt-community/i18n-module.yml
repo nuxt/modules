@@ -30,4 +30,3 @@ features:
   - Automatic routes generation and custom paths
   - Search Engine Optimization
   - Lazy-loading of translation messages
-npm_name: nuxt-i18n

@@ -31,4 +31,3 @@ features:
   - Automatically generate manifest.json file
   - Automatically adds SEO friendly meta data with manifest integration
   - Automatically generates app icons with different sizes
-npm_name: '@nuxtjs/pwa'

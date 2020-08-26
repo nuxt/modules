@@ -27,4 +27,3 @@ features:
   - Set up auth middleware
   - Configure local scheme
   - Customize Options
-npm_name: '@nuxtjs/auth'

@@ -32,4 +32,3 @@ features:
   - Vue components in Markdown
   - Full-text search
   - Table of contents generation
-npm_name: nuxt-content

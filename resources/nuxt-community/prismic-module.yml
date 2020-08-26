@@ -31,4 +31,3 @@ features:
   - Access Prismic SDK with $prismic
   - Prismic previews supported
   - Compact configuration
-npm_name: '@nuxtjs/prismic'

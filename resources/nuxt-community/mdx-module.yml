@@ -29,4 +29,3 @@ features:
   - Import .mdx files as Vue components
   - Import Vue components in your .mdx files
   - Replace markdown elements with Vue components with the MDX Provider.
-npm_name: '@nuxtjs/mdx'
