@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/eslint-module'
 description: ESLint module for Nuxt.js
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/eslint-module'

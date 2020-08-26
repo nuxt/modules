@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/separate-env-module'
 description: Separated environment variables for server and client builds
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/separate-env'

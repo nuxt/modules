@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/webpackmonitor-module'
 description: Monitor Nuxt webpack optimization metrics through the development process
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/webpackmonitor'

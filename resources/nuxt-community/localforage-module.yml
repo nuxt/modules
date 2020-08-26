@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/localforage-module'
 description: Localforage module for Nuxt.js
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/localforage'

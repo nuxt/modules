@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/google-fonts-module'
 description: Google Fonts module for NuxtJS
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/google-fonts'

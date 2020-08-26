@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/router-extras-module'
 description: Extra Add-ons for nuxt router
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/router-extras'

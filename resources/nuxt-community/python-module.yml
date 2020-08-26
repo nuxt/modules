@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/python-module'
 description: Write Nuxt.js Apps in Python
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/python'

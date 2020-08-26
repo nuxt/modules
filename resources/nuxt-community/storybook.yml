@@ -3,6 +3,9 @@ github: 'https://github.com/nuxt-community/storybook'
 description: Storybook integration with NuxtJS
 license: MIT
 module: {}
+labels:
+  - devtools
+  - community
 npm_name: '@nuxtjs/storybook'
 short_description: >-
   Easily integrate Storybook in your Nuxt.js application to design, build, and
@@ -10,8 +13,6 @@ short_description: >-
 long_description: >-
   Storybook is an open source tool for developing UI components in isolation. It
   makes building stunning UIs organized and efficient.
-labels:
-  - devtools
 logo: 'https://storybook.nuxtjs.org/icon.png'
 image: 'https://storybook.nuxtjs.org/preview.png'
 website: 'https://storybook.nuxtjs.org'

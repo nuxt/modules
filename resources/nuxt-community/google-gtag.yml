@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/google-gtag'
 description: Google GTag for Nuxt.js
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/google-gtag'

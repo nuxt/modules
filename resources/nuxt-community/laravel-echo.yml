@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/laravel-echo'
 description: Laravel Echo for Nuxt.js
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/laravel-echo'

@@ -3,6 +3,10 @@ github: 'https://github.com/nuxt-community/i18n-module'
 description: i18n for Nuxt
 license: MIT
 module: {}
+labels:
+  - devtools
+  - i18n
+  - community
 npm_name: nuxt-i18n
 short_description: >-
   i18n features for your Nuxt project so you can easily add
@@ -10,9 +14,6 @@ short_description: >-
 long_description: >-
   Nuxt i18n uses Vue-i18n with added features so you can easily add
   internationalization to your Nuxt.js project
-labels:
-  - devtools
-  - i18n
 logo: 'https://i18n.nuxtjs.org/icon.png'
 image: 'https://i18n.nuxtjs.org/preview.png'
 website: 'https://i18n.nuxtjs.org'

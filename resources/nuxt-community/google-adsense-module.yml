@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/google-adsense-module'
 description: Google Adsense Module for Nuxt.js
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/google-adsense'

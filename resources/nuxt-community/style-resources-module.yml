@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/style-resources-module'
 description: ''
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/style-resources'

@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/router-module'
 description: Nuxt.js module to use router.js instead of pages/ directory
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/router'

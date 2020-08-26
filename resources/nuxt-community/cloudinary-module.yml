@@ -3,6 +3,9 @@ github: 'https://github.com/nuxt-community/cloudinary-module'
 description: Cloudinary module for Nuxt
 license: MIT
 module: {}
+labels:
+  - cdn
+  - community
 short_description: Optimize images and videos in your Nuxt.js application
 long_description: >-
   Cloudinary is a cloud-based SaaS that provides an end-to-end image and video
@@ -10,8 +13,6 @@ long_description: >-
   and delivery. All your media resources are optimized and delivered through a
   fast CDN using industry best practices.
 npm_name: '@nuxtjs/cloudinary'
-labels:
-  - cdn
 logo: 'https://cloudinary.nuxtjs.org/icon.png'
 image: 'https://cloudinary.nuxtjs.org/preview.png'
 website: 'https://cloudinary.nuxtjs.org'

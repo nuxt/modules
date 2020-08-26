@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt/http'
 description: Universal HTTP Module for Nuxt.js
 license: MIT
 module: {}
+labels:
+  - core
 npm_name: '@nuxt/http'

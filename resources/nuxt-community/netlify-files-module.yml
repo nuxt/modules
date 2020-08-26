@@ -5,4 +5,6 @@ description: >-
   Netlify or to use existing ones
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/netlify-files'

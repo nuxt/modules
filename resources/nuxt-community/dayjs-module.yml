@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/dayjs-module'
 description: The best way for use Day.js easily in your Nuxt.js project.
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/dayjs'

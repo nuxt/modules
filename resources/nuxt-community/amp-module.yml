@@ -3,4 +3,6 @@ github: 'https://github.com/nuxt-community/amp-module'
 description: AMP Module for Nuxt
 license: MIT
 module: {}
+labels:
+  - community
 npm_name: '@nuxtjs/amp'
