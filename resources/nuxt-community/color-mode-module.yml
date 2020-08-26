@@ -1,6 +1,8 @@
 repo: nuxt-community/color-mode-module
+github: 'https://github.com/nuxt-community/color-mode-module'
 description: Dark and Light mode for NuxtJS with auto detection
 license: MIT
+module: {}
 npm_name: '@nuxtjs/color-mode'
 maintainers:
   - name: Sébastien Chopin

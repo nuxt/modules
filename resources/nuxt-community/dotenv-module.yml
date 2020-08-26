@@ -1,4 +1,6 @@
 repo: nuxt-community/dotenv-module
+github: 'https://github.com/nuxt-community/dotenv-module'
 description: A Nuxt.js module that loads your .env file into your context options
 license: MIT
+module: {}
 npm_name: '@nuxtjs/dotenv'

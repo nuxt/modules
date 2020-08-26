@@ -1,4 +1,6 @@
 repo: nuxt-community/module-test-utils
+github: 'https://github.com/nuxt-community/module-test-utils'
 description: Test utilities for Nuxt.js module
 license: MIT
+module: {}
 npm_name: '@nuxtjs/module-test-utils'

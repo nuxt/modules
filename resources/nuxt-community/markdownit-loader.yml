@@ -1,4 +1,6 @@
 repo: nuxt-community/markdownit-loader
+github: 'https://github.com/nuxt-community/markdownit-loader'
 description: Webpack loader to translate markdown to HTML using markdownit.
 license: MIT
+module: {}
 npm_name: '@nuxtjs/markdownit-loader'

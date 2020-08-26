@@ -1,4 +1,6 @@
 repo: nuxt-community/date-fns-module
+github: 'https://github.com/nuxt-community/date-fns-module'
 description: Modern JavaScript date utility library - date-fns for Nuxt.js
 license: MIT
+module: {}
 npm_name: '@nuxtjs/date-fns'

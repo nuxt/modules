@@ -1,18 +1,26 @@
 repo: nuxt/content
-short_description: 'Use markdown, JSON, YAML, XML or CSV in your nuxt application to easily write content fetched using a MongoDB like API.'
-long_description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML, XML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
+github: 'https://github.com/nuxt/content'
+description: Write your content inside your Nuxt app
 license: MIT
-categories: cms,markdown
+module: {}
+short_description: >-
+  Use markdown, JSON, YAML, XML or CSV in your nuxt application to easily write
+  content fetched using a MongoDB like API.
+long_description: >-
+  Empower your NuxtJS application with @nuxt/content module: write in a content/
+  directory and fetch your Markdown, JSON, YAML, XML and CSV files through a
+  MongoDB like API, acting as a Git-based Headless CMS.
+categories: 'cms,markdown'
 logo: 'https://content.nuxtjs.org/icon.png'
 image: 'https://content.nuxtjs.org/preview.png'
-github: 'https://github.com/nuxt/content'
 website: 'https://content.nuxtjs.org'
 features:
-  - 'Blazing fast hot reload in development'
-  - 'Vue components in Markdown'
-  - 'Full-text search'
-  - 'Table of contents generation'
+  - Blazing fast hot reload in development
+  - Vue components in Markdown
+  - Full-text search
+  - Table of contents generation
 maintainers:
   - name: Benjamin Canac
     github: benjamincanac
     twitter: benjamincanac
+npm_name: nuxt-content

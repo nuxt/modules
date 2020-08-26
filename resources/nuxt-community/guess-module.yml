@@ -1,4 +1,6 @@
 repo: nuxt-community/guess-module
+github: 'https://github.com/nuxt-community/guess-module'
 description: Guess.js module for Nuxt.js
 license: MIT
+module: {}
 npm_name: '@nuxtjs/guess-module'

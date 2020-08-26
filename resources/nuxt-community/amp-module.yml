@@ -1,4 +1,6 @@
 repo: nuxt-community/amp-module
+github: 'https://github.com/nuxt-community/amp-module'
 description: AMP Module for Nuxt
 license: MIT
+module: {}
 npm_name: '@nuxtjs/amp'

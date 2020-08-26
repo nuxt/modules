@@ -1,4 +1,6 @@
 repo: nuxt-community/router-extras-module
+github: 'https://github.com/nuxt-community/router-extras-module'
 description: Extra Add-ons for nuxt router
 license: MIT
+module: {}
 npm_name: '@nuxtjs/router-extras'

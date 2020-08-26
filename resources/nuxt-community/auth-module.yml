@@ -1,17 +1,21 @@
 repo: nuxt-community/auth-module
+github: 'https://github.com/nuxt-community/auth-module'
 description: Authentication module for Nuxt.js
 license: MIT
+module: {}
 npm_name: '@nuxtjs/auth'
-long_description: Zero-boilerplate authentication support for your Nuxt.js application with various possibilities to authenticate your users
+long_description: >-
+  Zero-boilerplate authentication support for your Nuxt.js application with
+  various possibilities to authenticate your users
 categories: authentication
-logo: https://raw.githubusercontent.com/nuxt-community/auth-module/dev/docs/static/icon.png
-github: 'https://github.com/nuxt-community/auth-module'
+logo: >-
+  https://raw.githubusercontent.com/nuxt-community/auth-module/dev/docs/static/icon.png
 website: 'https://auth.nuxtjs.org'
 features:
-  - 'Zero Configuration'
-  - 'Set up auth middleware'
-  - 'Configure local scheme'
-  - 'Customize Options'
+  - Zero Configuration
+  - Set up auth middleware
+  - Configure local scheme
+  - Customize Options
 maintainers:
   - name: Pooya Parsa
     github: pi0

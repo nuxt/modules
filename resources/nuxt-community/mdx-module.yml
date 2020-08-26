@@ -1,18 +1,23 @@
 repo: nuxt-community/mdx-module
+github: 'https://github.com/nuxt-community/mdx'
 description: MDX module for Nuxt.js
 license: MIT
+module: {}
 npm_name: '@nuxtjs/mdx'
-short_description: 'Write JSX in your Markdown with Nuxt and import Vue Components in your .mdx files'
-long_description: '@nuxtjs/mdx allows you to write JSX in your Markdown documents in your Nuxt application with MDX'
+short_description: >-
+  Write JSX in your Markdown with Nuxt and import Vue Components in your .mdx
+  files
+long_description: >-
+  @nuxtjs/mdx allows you to write JSX in your Markdown documents in your Nuxt
+  application with MDX
 categories: devtools
 logo: 'https://mdx.nuxtjs.org/icon.png'
 image: 'https://mdx.nuxtjs.org/preview.png'
-github: 'https://github.com/nuxt-community/mdx'
 website: 'https://mdx.nuxtjs.org'
 features:
-  - 'Import .mdx files as Vue components'
-  - 'Import Vue components in your .mdx files'
-  - 'Replace markdown elements with Vue components with the MDX Provider.'
+  - Import .mdx files as Vue components
+  - Import Vue components in your .mdx files
+  - Replace markdown elements with Vue components with the MDX Provider.
 maintainers:
   - name: Jonathan Bakebwa
     github: codebender828

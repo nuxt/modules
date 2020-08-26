@@ -1,6 +1,8 @@
 repo: nuxt-community/proxy-module
+github: 'https://github.com/nuxt-community/proxy-module'
 description: >-
   The one-liner node.js http-proxy middleware solution for Nuxt.js using
   http-proxy-middleware
 license: MIT
+module: {}
 npm_name: '@nuxtjs/proxy'

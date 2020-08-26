@@ -1,4 +1,6 @@
 repo: nuxt-community/gtm-module
+github: 'https://github.com/nuxt-community/gtm-module'
 description: Google Tag Manager Module for Nuxt.js
 license: MIT
+module: {}
 npm_name: '@nuxtjs/gtm'

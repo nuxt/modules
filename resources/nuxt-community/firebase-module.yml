@@ -1,4 +1,6 @@
 repo: nuxt-community/firebase-module
+github: 'https://github.com/nuxt-community/firebase-module'
 description: Intergrate Firebase into your Nuxt project.
 license: MIT
+module: {}
 npm_name: '@nuxtjs/firebase'
