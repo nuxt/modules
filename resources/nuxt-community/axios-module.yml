@@ -1,6 +1,7 @@
+name: axios
+description: Secure and easy Axios integration with Nuxt.js
+license: MIT
 repo: nuxt-community/axios-module
-github: 'https://github.com/nuxt-community/axios-module'
-website: 'https://axios.nuxtjs.org'
 module: {}
 npm:
   name: '@nuxtjs/axios'
@@ -14,6 +15,8 @@ maintainers:
     github: pi0
     twitter: _pi0_
     avatar: 'https://github.com/pi0.png'
+github: 'https://github.com/nuxt-community/axios-module'
+website: 'https://axios.nuxtjs.org'
 long_description: >-
   Axios is a Promise based HTTP client for the browser and node.js so you can
   easily make http requests in your Nuxt.js application
@@ -24,3 +27,4 @@ features:
     authentication tokens
   - Automatically enables `withCredentials` when requesting to base URL
   - Proxy request headers in SSR (Useful for auth)
+npm_name: '@nuxtjs/axios'

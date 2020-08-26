@@ -1,6 +1,7 @@
+name: dayjs
+description: The best way for use Day.js easily in your Nuxt.js project.
+license: MIT
 repo: nuxt-community/dayjs-module
-github: 'https://github.com/nuxt-community/dayjs-module'
-website: 'https://github.com/nuxt-community/dayjs-module'
 module: {}
 npm:
   name: '@nuxtjs/dayjs'
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/dayjs-module'
+website: 'https://github.com/nuxt-community/dayjs-module'
+npm_name: '@nuxtjs/dayjs'

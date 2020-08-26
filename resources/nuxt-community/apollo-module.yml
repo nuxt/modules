@@ -1,6 +1,7 @@
+name: apollo
+description: !<tag:yaml.org,2002:js/undefined> ''
+license: MIT
 repo: nuxt-community/apollo-module
-github: 'https://github.com/nuxt-community/apollo-module'
-website: 'https://github.com/nuxt-community/apollo-module'
 module: {}
 npm:
   name: '@nuxtjs/apollo'
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/apollo-module'
+website: 'https://github.com/nuxt-community/apollo-module'
+npm_name: '@nuxtjs/apollo'

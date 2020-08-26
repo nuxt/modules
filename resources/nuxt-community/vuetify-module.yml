@@ -1,6 +1,7 @@
+name: vuetify
+description: Vuetify Module for Nuxt.js
+license: MIT
 repo: nuxt-community/vuetify-module
-github: 'https://github.com/nuxt-community/vuetify-module'
-website: 'https://github.com/nuxt-community/vuetify-module'
 module: {}
 npm:
   name: '@nuxtjs/vuetify'
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/vuetify-module'
+website: 'https://github.com/nuxt-community/vuetify-module'
+npm_name: '@nuxtjs/vuetify'

@@ -1,6 +1,7 @@
+name: content
+description: Write your content inside your Nuxt app
+license: MIT
 repo: nuxt/content
-github: 'https://github.com/nuxt/content'
-website: 'https://content.nuxtjs.org'
 module: {}
 npm:
   name: nuxt-content
@@ -15,6 +16,8 @@ maintainers:
     github: benjamincanac
     twitter: benjamincanac
     avatar: 'https://github.com/benjamincanac.png'
+github: 'https://github.com/nuxt/content'
+website: 'https://content.nuxtjs.org'
 short_description: >-
   Use markdown, JSON, YAML, XML or CSV in your nuxt application to easily write
   content fetched using a MongoDB like API.
@@ -29,3 +32,4 @@ features:
   - Vue components in Markdown
   - Full-text search
   - Table of contents generation
+npm_name: nuxt-content

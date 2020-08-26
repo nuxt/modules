@@ -1,6 +1,7 @@
+name: logrocket
+description: LogRocket module for Nuxt.js
+license: MIT
 repo: nuxt-community/nuxt-logrocket
-github: 'https://github.com/nuxt-community/nuxt-logrocket'
-website: 'https://github.com/nuxt-community/nuxt-logrocket'
 module: {}
 npm:
   name: nuxt-logrocket
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/nuxt-logrocket'
+website: 'https://github.com/nuxt-community/nuxt-logrocket'
+npm_name: nuxt-logrocket

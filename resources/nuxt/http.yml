@@ -1,6 +1,7 @@
+name: http
+description: Universal HTTP Module for Nuxt.js
+license: MIT
 repo: nuxt/http
-github: 'https://github.com/nuxt/http'
-website: 'https://github.com/nuxt/http'
 module: {}
 npm:
   name: '@nuxt/http'
@@ -9,3 +10,6 @@ npm:
 labels:
   - core
 maintainers: []
+github: 'https://github.com/nuxt/http'
+website: 'https://github.com/nuxt/http'
+npm_name: '@nuxt/http'

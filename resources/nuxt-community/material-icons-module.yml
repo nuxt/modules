@@ -1,6 +1,7 @@
+name: material-icons
+description: !<tag:yaml.org,2002:js/undefined> ''
+license: MIT
 repo: nuxt-community/material-icons-module
-github: 'https://github.com/nuxt-community/material-icons-module'
-website: 'https://github.com/nuxt-community/material-icons-module'
 module: {}
 npm:
   name: '@nuxtjs/material-icons'
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/material-icons-module'
+website: 'https://github.com/nuxt-community/material-icons-module'
+npm_name: '@nuxtjs/material-icons'

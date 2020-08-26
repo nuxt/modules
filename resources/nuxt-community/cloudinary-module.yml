@@ -1,6 +1,7 @@
+name: cloudinary
+description: Cloudinary module for Nuxt
+license: MIT
 repo: nuxt-community/cloudinary-module
-github: 'https://github.com/nuxt-community/cloudinary-module'
-website: 'https://cloudinary.nuxtjs.org'
 module: {}
 npm:
   name: '@nuxtjs/cloudinary'
@@ -14,6 +15,8 @@ maintainers:
     github: mayashavin
     twitter: mayashavin
     avatar: 'https://github.com/mayashavin.png'
+github: 'https://github.com/nuxt-community/cloudinary-module'
+website: 'https://cloudinary.nuxtjs.org'
 short_description: Optimize images and videos in your Nuxt.js application
 long_description: >-
   Cloudinary is a cloud-based SaaS that provides an end-to-end image and video
@@ -27,3 +30,4 @@ features:
   - On-the-fly size optimization per browser and device
   - Fast loading speed with progressive images
   - Auto-detect the optimized format per browser for images and videos
+npm_name: '@nuxtjs/cloudinary'

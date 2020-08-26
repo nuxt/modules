@@ -1,6 +1,7 @@
+name: python
+description: Write Nuxt.js Apps in Python
+license: MIT
 repo: nuxt-community/python-module
-github: 'https://github.com/nuxt-community/python-module'
-website: 'https://github.com/nuxt-community/python-module'
 module: {}
 npm:
   name: '@nuxtjs/python'
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/python-module'
+website: 'https://github.com/nuxt-community/python-module'
+npm_name: '@nuxtjs/python'

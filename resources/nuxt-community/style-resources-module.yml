@@ -1,6 +1,7 @@
+name: style-resources
+description: ''
+license: MIT
 repo: nuxt-community/style-resources-module
-github: 'https://github.com/nuxt-community/style-resources-module'
-website: 'https://github.com/nuxt-community/style-resources-module'
 module: {}
 npm:
   name: '@nuxtjs/style-resources'
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/style-resources-module'
+website: 'https://github.com/nuxt-community/style-resources-module'
+npm_name: '@nuxtjs/style-resources'

@@ -1,6 +1,7 @@
+name: event-trace
+description: !<tag:yaml.org,2002:js/undefined> ''
+license: MIT
 repo: nuxt-community/nuxt-event-trace
-github: 'https://github.com/nuxt-community/nuxt-event-trace'
-website: 'https://github.com/nuxt-community/nuxt-event-trace'
 module: {}
 npm:
   name: nuxt-event-trace
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/nuxt-event-trace'
+website: 'https://github.com/nuxt-community/nuxt-event-trace'
+npm_name: nuxt-event-trace

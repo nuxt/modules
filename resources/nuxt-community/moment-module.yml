@@ -1,6 +1,7 @@
+name: moment
+description: Efficient Moment.js integration for Nuxt.js
+license: MIT
 repo: nuxt-community/moment-module
-github: 'https://github.com/nuxt-community/moment-module'
-website: 'https://github.com/nuxt-community/moment-module'
 module: {}
 npm:
   name: '@nuxtjs/moment'
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/moment-module'
+website: 'https://github.com/nuxt-community/moment-module'
+npm_name: '@nuxtjs/moment'

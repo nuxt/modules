@@ -2,27 +2,22 @@ import { existsSync, readFile, writeFile, mkdirp } from 'fs-extra'
 import { resolve, dirname, join } from 'path'
 import * as yml from 'js-yaml'
 import globby from 'globby'
+import defu from 'defu'
 import { resourcesDir, rootDir, fetchGithubPkg } from './utils'
 
 export async function sync(repo) {
-  let resource = {
-    repo,
-    github: 'https://github.com/' + repo,
-    website: 'https://github.com/' + repo,
-    description: '',
-    license: '',
-    module: {},
-    npm: {},
-    labels: [],
-    maintainers: [],
-  }
+  let resource: ReturnType<typeof createResource>
 
-  // Read resoure file
+  // Read resource
   const resourceFile = resolve(resourcesDir, repo + '.yml')
-  await mkdirp(dirname(resourceFile))
-
   if (existsSync(resourceFile)) {
-    Object.assign(resource, await readResource(resourceFile))
+    resource = createResource(await readResource(resourceFile))
+  } else {
+    resource = createResource({
+      repo,
+      github: 'https://github.com/' + repo,
+      website: 'https://github.com/' + repo,
+    })
   }
 
   // Fetch latest package.json from github
@@ -47,6 +42,14 @@ export async function sync(repo) {
   }
   resource.labels = Array.from(new Set(resource.labels))
 
+  // Auto name
+  if (!resource.name) {
+    resource.name = (resource.npm.name.startsWith('@') ?
+      resource.npm.name.split('/')[1] : resource.npm.name)
+      .replace('nuxt-', '')
+      .replace('-module', '')
+  }
+
   // Maintainers
   // TODO: Sync with maintainers.app
   for (const maintainer of resource.maintainers) {
@@ -56,9 +59,29 @@ export async function sync(repo) {
   }
 
   // Write resource
+  await mkdirp(dirname(resourceFile))
   await writeResource(resourceFile, resource)
 
   return { resource, resourceFile }
+}
+
+export function createResource(rc) {
+  const defaults = {
+    name: '',
+    description: '',
+    license: '',
+    repo: '',
+    module: {},
+    npm: {
+      name: '',
+      description: '',
+      license: ''
+    },
+    labels: [],
+    maintainers: [],
+  }
+
+  return defu<typeof defaults>(rc, defaults)
 }
 
 export async function readResource(resourceFile) {

@@ -1,6 +1,7 @@
+name: html-minifier
+description: ''
+license: MIT
 repo: nuxt-community/html-minifier-module
-github: 'https://github.com/nuxt-community/html-minifier-module'
-website: 'https://github.com/nuxt-community/html-minifier-module'
 module: {}
 npm:
   name: '@nuxtjs/html-minifier'
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/html-minifier-module'
+website: 'https://github.com/nuxt-community/html-minifier-module'
+npm_name: '@nuxtjs/html-minifier'

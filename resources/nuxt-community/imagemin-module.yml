@@ -1,6 +1,7 @@
+name: imagemin
+description: Automatically optimize (compress) all images used in Nuxt.js
+license: MIT
 repo: nuxt-community/imagemin-module
-github: 'https://github.com/nuxt-community/imagemin-module'
-website: 'https://github.com/nuxt-community/imagemin-module'
 module: {}
 npm:
   name: '@nuxtjs/imagemin'
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/imagemin-module'
+website: 'https://github.com/nuxt-community/imagemin-module'
+npm_name: '@nuxtjs/imagemin'

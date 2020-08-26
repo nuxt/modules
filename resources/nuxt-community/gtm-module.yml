@@ -1,6 +1,7 @@
+name: gtm
+description: Google Tag Manager Module for Nuxt.js
+license: MIT
 repo: nuxt-community/gtm-module
-github: 'https://github.com/nuxt-community/gtm-module'
-website: 'https://github.com/nuxt-community/gtm-module'
 module: {}
 npm:
   name: '@nuxtjs/gtm'
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/gtm-module'
+website: 'https://github.com/nuxt-community/gtm-module'
+npm_name: '@nuxtjs/gtm'

@@ -1,6 +1,7 @@
+name: storybook
+description: Storybook integration with NuxtJS
+license: MIT
 repo: nuxt-community/storybook
-github: 'https://github.com/nuxt-community/storybook'
-website: 'https://storybook.nuxtjs.org'
 module: {}
 npm:
   name: '@nuxtjs/storybook'
@@ -10,6 +11,8 @@ labels:
   - devtools
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/storybook'
+website: 'https://storybook.nuxtjs.org'
 short_description: >-
   Easily integrate Storybook in your Nuxt.js application to design, build, and
   organize your UI components in isolation.
@@ -27,3 +30,4 @@ authors:
   - name: Ahad Birang
     github: farnabaz
     twitter: a_birang
+npm_name: '@nuxtjs/storybook'

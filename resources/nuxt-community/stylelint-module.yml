@@ -1,6 +1,7 @@
+name: stylelint
+description: Stylelint module for Nuxt.js
+license: MIT
 repo: nuxt-community/stylelint-module
-github: 'https://github.com/nuxt-community/stylelint-module'
-website: 'https://github.com/nuxt-community/stylelint-module'
 module: {}
 npm:
   name: '@nuxtjs/stylelint-module'
@@ -9,3 +10,6 @@ npm:
 labels:
   - community
 maintainers: []
+github: 'https://github.com/nuxt-community/stylelint-module'
+website: 'https://github.com/nuxt-community/stylelint-module'
+npm_name: '@nuxtjs/stylelint-module'
