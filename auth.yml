@@ -1,0 +1,18 @@
+title: 'Auth Module'
+short_description: 'Easily add authentication for your Nuxt.js application!'
+long_description: 'Zero-boilerplate authentication support for your Nuxt.js application with various possibilities to authenticate your users.'
+categories: security,auth
+logo: 'https://auth.nuxtjs.org/icon.png'
+image: 'https://auth.nuxtjs.org/preview.png'
+github: 'https://github.com/nuxt-community/auth-module'
+website: 'https://auth.nuxtjs.org'
+hidden: true
+features:
+  - 'Zero Configuration'
+  - 'Set up auth middleware'
+  - 'Configure local scheme'
+  - 'Customize Options'
+authors:
+  - name: Nuxt
+    avatarUrl: https://avatars1.githubusercontent.com/u/29566738?s=200&v=4
+    link: https://twitter.com/nuxt_js
