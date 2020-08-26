@@ -3,11 +3,11 @@ import { resolve, dirname, join } from 'path'
 import * as yml from 'js-yaml'
 import globby from 'globby'
 import { resourcesDir, rootDir, fetchGithubPkg } from './utils'
-import { fstat } from 'fs'
 
 export async function sync(repo) {
   let resource = {
     repo,
+    github: 'https://github.com/' + repo,
     description: '',
     license: '',
     module: {}
@@ -53,9 +53,10 @@ export async function readRerosources() {
 
 export async function syncAll() {
   const resources = await readRerosources()
-  await Promise.all(resources.map(({ resource }) => {
-    sync(resource.repo)
+  const updatedResources = await Promise.all(resources.map(({ resource }) => {
+    return sync(resource.repo)
   }))
+  return updatedResources
 }
 
 export async function dump() {

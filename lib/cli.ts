@@ -11,7 +11,8 @@ async function main() {
         console.log('Synced', resourceFile)
       } else {
         console.log('Syncing all resources')
-        await syncAll()
+        const resources = await syncAll()
+        console.log('Sync ' + resources.length + ' resources!')
       }
       break
     case 'dump':
