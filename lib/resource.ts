@@ -92,7 +92,7 @@ export async function writeResource(resourceFile, resource) {
   await writeFile(resourceFile, yml.dump(resource))
 }
 
-export async function readRerosources() {
+export async function readResources() {
   const resourceFiles = await globby(join(resourcesDir, '**/*.yml'))
   return Promise.all(resourceFiles.map(async resourceFile => ({
     resourceFile,
@@ -101,7 +101,7 @@ export async function readRerosources() {
 }
 
 export async function syncAll() {
-  const resources = await readRerosources()
+  const resources = await readResources()
   const updatedResources = await Promise.all(resources.map(({ resource }) => {
     return sync(resource.repo)
   }))
@@ -109,7 +109,7 @@ export async function syncAll() {
 }
 
 export async function dump() {
-  const resources = (await readRerosources()).map(r => r.resource)
+  const resources = (await readResources()).map(r => r.resource)
   const distDir = join(rootDir, 'dist')
   await mkdirp(distDir)
   await writeFile(resolve(distDir, 'resources.json'), JSON.stringify(resources, null, 2))
