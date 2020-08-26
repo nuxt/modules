@@ -1,6 +1,0 @@
-repo: nuxt-community/nuxt-generate-cluster
-github: 'https://github.com/nuxt-community/nuxt-generate-cluster'
-description: Multi-threaded generate for nuxt using cluster
-license: MIT
-module: {}
-npm_name: nuxt-generate-cluster

@@ -1,6 +1,0 @@
-repo: nuxt-community/styled-vue
-github: 'https://github.com/nuxt-community/styled-vue'
-description: Zero-runtime CSS-in-JS for Vue.js.
-license: MIT
-module: {}
-npm_name: styled-vue
