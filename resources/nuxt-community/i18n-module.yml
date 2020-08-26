@@ -1,9 +1,11 @@
 repo: nuxt-community/i18n-module
 github: 'https://github.com/nuxt-community/i18n-module'
 website: 'https://i18n.nuxtjs.org'
-description: i18n for Nuxt
-license: MIT
 module: {}
+npm:
+  name: nuxt-i18n
+  description: i18n for Nuxt
+  license: MIT
 labels:
   - devtools
   - i18n
@@ -12,7 +14,6 @@ maintainers:
   - name: Rafał Chłodnicki
     github: rchl
     avatar: 'https://github.com/rchl.png'
-npm_name: nuxt-i18n
 short_description: >-
   i18n features for your Nuxt project so you can easily add
   internationalization.

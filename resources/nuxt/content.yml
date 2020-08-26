@@ -1,9 +1,11 @@
 repo: nuxt/content
 github: 'https://github.com/nuxt/content'
 website: 'https://content.nuxtjs.org'
-description: Write your content inside your Nuxt app
-license: MIT
 module: {}
+npm:
+  name: nuxt-content
+  description: Write your content inside your Nuxt app
+  license: MIT
 labels:
   - cms
   - markdown
@@ -27,4 +29,3 @@ features:
   - Vue components in Markdown
   - Full-text search
   - Table of contents generation
-npm_name: nuxt-content

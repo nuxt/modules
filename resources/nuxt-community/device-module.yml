@@ -1,10 +1,11 @@
 repo: nuxt-community/device-module
 github: 'https://github.com/nuxt-community/device-module'
 website: 'https://github.com/nuxt-community/device-module'
-description: Device detection module for Nuxt.js
-license: MIT
 module: {}
+npm:
+  name: '@nuxtjs/device'
+  description: Device detection module for Nuxt.js
+  license: MIT
 labels:
   - community
 maintainers: []
-npm_name: '@nuxtjs/device'

@@ -1,10 +1,11 @@
 repo: nuxt-community/svg-module
 github: 'https://github.com/nuxt-community/svg-module'
 website: 'https://github.com/nuxt-community/svg-module'
-description: Super simple svg loading module for Nuxt.js
-license: MIT
 module: {}
+npm:
+  name: '@nuxtjs/svg'
+  description: Super simple svg loading module for Nuxt.js
+  license: MIT
 labels:
   - community
 maintainers: []
-npm_name: '@nuxtjs/svg'

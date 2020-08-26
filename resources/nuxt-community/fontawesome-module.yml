@@ -1,10 +1,11 @@
 repo: nuxt-community/fontawesome-module
 github: 'https://github.com/nuxt-community/fontawesome-module'
 website: 'https://github.com/nuxt-community/fontawesome-module'
-description: Module to join nuxt and Fontawesome 5
-license: MIT
 module: {}
+npm:
+  name: '@nuxtjs/fontawesome'
+  description: Module to join nuxt and Fontawesome 5
+  license: MIT
 labels:
   - community
 maintainers: []
-npm_name: '@nuxtjs/fontawesome'

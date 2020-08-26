@@ -1,10 +1,11 @@
 repo: nuxt-community/emotion-module
 github: 'https://github.com/nuxt-community/emotion-module'
 website: 'https://github.com/nuxt-community/emotion-module'
-description: The Next Generation of CSS-in-JS for Nuxt.js
-license: MIT
 module: {}
+npm:
+  name: '@nuxtjs/emotion'
+  description: The Next Generation of CSS-in-JS for Nuxt.js
+  license: MIT
 labels:
   - community
 maintainers: []
-npm_name: '@nuxtjs/emotion'

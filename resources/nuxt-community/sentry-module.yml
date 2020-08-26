@@ -1,14 +1,15 @@
 repo: nuxt-community/sentry-module
 github: 'https://github.com/nuxt-community/sanity-module'
 website: 'https://sanity.nuxtjs.org'
-description: Sentry module for Nuxt.js
-license: MIT
 module: {}
+npm:
+  name: '@nuxtjs/sentry'
+  description: Sentry module for Nuxt.js
+  license: MIT
 labels:
   - cms
   - community
 maintainers: []
-npm_name: '@nuxtjs/sentry'
 short_description: 'Access text, images, and other media with Nuxt.js and the Sanity headless CMS.'
 long_description: >-
   Sanity lets you treat content as structured data so you can flow it across

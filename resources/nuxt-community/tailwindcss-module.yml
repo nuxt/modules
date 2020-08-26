@@ -1,9 +1,11 @@
 repo: nuxt-community/tailwindcss-module
 github: 'https://github.com/nuxt-community/tailwindcss-module'
 website: 'https://tailwindcss.nuxtjs.org'
-description: TailwindCSS module for Nuxt.js
-license: MIT
 module: {}
+npm:
+  name: '@nuxtjs/tailwindcss'
+  description: TailwindCSS module for Nuxt.js
+  license: MIT
 labels:
   - ui
   - community
@@ -12,7 +14,6 @@ maintainers:
     github: atinux
     twitter: Atinux
     avatar: 'https://github.com/atinux.png'
-npm_name: '@nuxtjs/tailwindcss'
 short_description: >-
   Add Tailwind CSS to your Nuxt application in seconds with PurgeCSS included
   for minimal CSS.

@@ -1,10 +1,11 @@
 repo: nuxt-community/style-resources-module
 github: 'https://github.com/nuxt-community/style-resources-module'
 website: 'https://github.com/nuxt-community/style-resources-module'
-description: ''
-license: MIT
 module: {}
+npm:
+  name: '@nuxtjs/style-resources'
+  description: ''
+  license: MIT
 labels:
   - community
 maintainers: []
-npm_name: '@nuxtjs/style-resources'

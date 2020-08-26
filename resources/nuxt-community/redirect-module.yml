@@ -1,10 +1,11 @@
 repo: nuxt-community/redirect-module
 github: 'https://github.com/nuxt-community/redirect-module'
 website: 'https://github.com/nuxt-community/redirect-module'
-description: Nuxt module to dynamically redirect initial requests
-license: MIT
 module: {}
+npm:
+  name: '@nuxtjs/redirect-module'
+  description: Nuxt module to dynamically redirect initial requests
+  license: MIT
 labels:
   - community
 maintainers: []
-npm_name: '@nuxtjs/redirect-module'

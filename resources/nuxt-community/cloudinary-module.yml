@@ -1,9 +1,11 @@
 repo: nuxt-community/cloudinary-module
 github: 'https://github.com/nuxt-community/cloudinary-module'
 website: 'https://cloudinary.nuxtjs.org'
-description: Cloudinary module for Nuxt
-license: MIT
 module: {}
+npm:
+  name: '@nuxtjs/cloudinary'
+  description: Cloudinary module for Nuxt
+  license: MIT
 labels:
   - cdn
   - community
@@ -18,7 +20,6 @@ long_description: >-
   management solution including uploads, storage, manipulations, optimizations
   and delivery. All your media resources are optimized and delivered through a
   fast CDN using industry best practices.
-npm_name: '@nuxtjs/cloudinary'
 logo: 'https://cloudinary.nuxtjs.org/icon.png'
 image: 'https://cloudinary.nuxtjs.org/preview.png'
 features:

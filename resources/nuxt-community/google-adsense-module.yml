@@ -1,10 +1,11 @@
 repo: nuxt-community/google-adsense-module
 github: 'https://github.com/nuxt-community/google-adsense-module'
 website: 'https://github.com/nuxt-community/google-adsense-module'
-description: Google Adsense Module for Nuxt.js
-license: MIT
 module: {}
+npm:
+  name: '@nuxtjs/google-adsense'
+  description: Google Adsense Module for Nuxt.js
+  license: MIT
 labels:
   - community
 maintainers: []
-npm_name: '@nuxtjs/google-adsense'

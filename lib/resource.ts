@@ -12,6 +12,7 @@ export async function sync(repo) {
     description: '',
     license: '',
     module: {},
+    npm: {},
     labels: [],
     maintainers: [],
   }
@@ -31,6 +32,11 @@ export async function sync(repo) {
     description: pkg.description,
     license: pkg.license
   })
+  resource.npm = {
+    name: pkg.name,
+    description: pkg.description,
+    license: pkg.license
+  }
 
   // Labels
   if (resource.repo.startsWith('nuxt-community/')) {

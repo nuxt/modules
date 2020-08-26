@@ -1,10 +1,11 @@
 repo: nuxt-community/nuxt-event-trace
 github: 'https://github.com/nuxt-community/nuxt-event-trace'
 website: 'https://github.com/nuxt-community/nuxt-event-trace'
-description: !<tag:yaml.org,2002:js/undefined> ''
-license: MIT
 module: {}
+npm:
+  name: nuxt-event-trace
+  description: !<tag:yaml.org,2002:js/undefined> ''
+  license: MIT
 labels:
   - community
 maintainers: []
-npm_name: nuxt-event-trace
