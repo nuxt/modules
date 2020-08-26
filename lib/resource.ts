@@ -18,7 +18,7 @@ export async function sync(repo) {
   await mkdirp(dirname(resourceFile))
 
   if (existsSync(resourceFile)) {
-    Object.assign(resource, readResource(resourceFile))
+    Object.assign(resource, await readResource(resourceFile))
   }
 
   // Fetch latest package.json from github
