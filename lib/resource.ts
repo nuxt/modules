@@ -8,10 +8,12 @@ export async function sync(repo) {
   let resource = {
     repo,
     github: 'https://github.com/' + repo,
+    website: 'https://github.com/' + repo,
     description: '',
     license: '',
     module: {},
-    labels: []
+    labels: [],
+    maintainers: [],
   }
 
   // Read resoure file
@@ -38,6 +40,14 @@ export async function sync(repo) {
     resource.labels.push('core')
   }
   resource.labels = Array.from(new Set(resource.labels))
+
+  // Maintainers
+  // TODO: Sync with maintainers.app
+  for (const maintainer of resource.maintainers) {
+    if (maintainer.github && !maintainer.avatar) {
+      maintainer.avatar = 'https://github.com/' + maintainer.github + '.png'
+    }
+  }
 
   // Write resource
   await writeResource(resourceFile, resource)

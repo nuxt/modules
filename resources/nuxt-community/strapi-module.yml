@@ -1,11 +1,13 @@
 repo: nuxt-community/strapi-module
 github: 'https://github.com/nuxt-community/strapi-module'
+website: 'https://strapi.nuxtjs.org'
 description: Strapi module for NuxtJS
 license: MIT
 module: {}
 labels:
   - cms
   - community
+maintainers: []
 npm_name: '@nuxtjs/strapi'
 short_description: Design APIs fast and manage content easily using REST or GraphQL.
 long_description: >-
@@ -13,7 +15,6 @@ long_description: >-
   customizable and developer-first
 logo: 'https://strapi.nuxtjs.org/icon.png'
 image: 'https://strapi.nuxtjs.org/preview.png'
-website: 'https://strapi.nuxtjs.org'
 features:
   - Authentication support
   - RESTful methods

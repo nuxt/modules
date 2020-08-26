@@ -1,11 +1,17 @@
 repo: nuxt-community/prismic-module
 github: 'https://github.com/nuxt-community/prismic-module'
+website: 'https://prismic.nuxtjs.org'
 description: Add Prismic to your NuxtJS project
 license: MIT
 module: {}
 labels:
   - cms
   - community
+maintainers:
+  - name: Lihbr
+    github: li_hbr
+    twitter: li_hbr
+    avatar: 'https://github.com/li_hbr.png'
 npm_name: '@nuxtjs/prismic'
 short_description: >-
   Connect your Nuxt application to your content hosted on Prismic and setup
@@ -16,13 +22,8 @@ long_description: >-
   easily lets you manage your content.
 logo: 'https://prismic.nuxtjs.org/icon.png'
 image: 'https://prismic.nuxtjs.org/preview.png'
-website: 'https://prismic.nuxtjs.org'
 features:
   - Add Prismic to your Nuxt app in seconds
   - Access Prismic SDK with $prismic
   - Prismic previews supported
   - Compact configuration
-maintainers:
-  - name: Lihbr
-    github: li_hbr
-    twitter: li_hbr

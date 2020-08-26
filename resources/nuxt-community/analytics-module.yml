@@ -1,8 +1,10 @@
 repo: nuxt-community/analytics-module
 github: 'https://github.com/nuxt-community/analytics-module'
+website: 'https://github.com/nuxt-community/analytics-module'
 description: Google Analytics Module for Nuxt.js
 license: MIT
 module: {}
 labels:
   - community
+maintainers: []
 npm_name: '@nuxtjs/google-analytics'

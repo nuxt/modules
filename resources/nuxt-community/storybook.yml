@@ -1,11 +1,13 @@
 repo: nuxt-community/storybook
 github: 'https://github.com/nuxt-community/storybook'
+website: 'https://storybook.nuxtjs.org'
 description: Storybook integration with NuxtJS
 license: MIT
 module: {}
 labels:
   - devtools
   - community
+maintainers: []
 npm_name: '@nuxtjs/storybook'
 short_description: >-
   Easily integrate Storybook in your Nuxt.js application to design, build, and
@@ -15,7 +17,6 @@ long_description: >-
   makes building stunning UIs organized and efficient.
 logo: 'https://storybook.nuxtjs.org/icon.png'
 image: 'https://storybook.nuxtjs.org/preview.png'
-website: 'https://storybook.nuxtjs.org'
 features:
   - Zero configuration
   - Nuxt webpack configuration

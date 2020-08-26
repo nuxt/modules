@@ -1,8 +1,10 @@
 repo: nuxt-community/laravel-echo
 github: 'https://github.com/nuxt-community/laravel-echo'
+website: 'https://github.com/nuxt-community/laravel-echo'
 description: Laravel Echo for Nuxt.js
 license: MIT
 module: {}
 labels:
   - community
+maintainers: []
 npm_name: '@nuxtjs/laravel-echo'

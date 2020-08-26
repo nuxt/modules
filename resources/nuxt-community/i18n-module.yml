@@ -1,5 +1,6 @@
 repo: nuxt-community/i18n-module
 github: 'https://github.com/nuxt-community/i18n-module'
+website: 'https://i18n.nuxtjs.org'
 description: i18n for Nuxt
 license: MIT
 module: {}
@@ -7,6 +8,10 @@ labels:
   - devtools
   - i18n
   - community
+maintainers:
+  - name: Rafał Chłodnicki
+    github: rchl
+    avatar: 'https://github.com/rchl.png'
 npm_name: nuxt-i18n
 short_description: >-
   i18n features for your Nuxt project so you can easily add
@@ -16,12 +21,8 @@ long_description: >-
   internationalization to your Nuxt.js project
 logo: 'https://i18n.nuxtjs.org/icon.png'
 image: 'https://i18n.nuxtjs.org/preview.png'
-website: 'https://i18n.nuxtjs.org'
 features:
   - Integration with vue-i18n
   - Automatic routes generation and custom paths
   - Search Engine Optimization
   - Lazy-loading of translation messages
-maintainers:
-  - name: Rafał Chłodnicki
-    github: rchl

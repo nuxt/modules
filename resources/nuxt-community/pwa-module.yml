@@ -1,11 +1,17 @@
 repo: nuxt-community/pwa-module
 github: 'https://github.com/nuxt-community/pwa-module'
+website: 'https://pwa.nuxtjs.org'
 description: Zero config PWA solution for Nuxt.js
 license: MIT
 module: {}
 labels:
   - performance
   - community
+maintainers:
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'
 npm_name: '@nuxtjs/pwa'
 short_description: >-
   Easily build a Progressive Web App for your Nuxt.js application to improve
@@ -16,13 +22,8 @@ long_description: >-
   reliable and installable.
 logo: 'https://pwa.nuxtjs.org/icon.png'
 image: 'https://pwa.nuxtjs.org/preview.png'
-website: 'https://pwa.nuxtjs.org'
 features:
   - Registers a service worker for offline caching
   - Automatically generate manifest.json file
   - Automatically adds SEO friendly meta data with manifest integration
   - Automatically generates app icons with different sizes
-maintainers:
-  - name: Pooya Parsa
-    github: pi0
-    twitter: _pi0_

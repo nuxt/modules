@@ -1,8 +1,10 @@
 repo: nuxt-community/onesignal-module
 github: 'https://github.com/nuxt-community/onesignal-module'
+website: 'https://github.com/nuxt-community/onesignal-module'
 description: OneSignal module for Nuxt.js
 license: MIT
 module: {}
 labels:
   - community
+maintainers: []
 npm_name: '@nuxtjs/onesignal'
