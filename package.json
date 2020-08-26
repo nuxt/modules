@@ -1,12 +1,16 @@
 {
   "name": "@nuxt/resources",
   "version": "0.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "dist",
+    "resources"
+  ],
   "scripts": {
     "rc": "ts-node ./lib/cli"
   },
-  "dependencies": {
+  "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^3.0.0",
     "@types/node": "^14.6.0",
     "axios": "^0.20.0",
