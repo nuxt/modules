@@ -13,7 +13,8 @@ keywords:
   - community
   - sanity
   - sanity-io
-categories: []
+categories:
+  - cms
 maintainers:
   - name: Daniel Roe
     github: danielroe

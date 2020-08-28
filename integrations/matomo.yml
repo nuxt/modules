@@ -13,7 +13,8 @@ keywords:
   - nuxt.js
   - nuxtjs
   - piwik
-categories: []
+categories:
+  - analytics
 maintainers:
   - name: pimlie
     github: pimlie

@@ -12,7 +12,8 @@ keywords:
   - grecaptcha
   - nuxtjs
   - recaptcha
-categories: []
+categories:
+  - security
 maintainers:
   - name: mvrlin
     github: mvrlin

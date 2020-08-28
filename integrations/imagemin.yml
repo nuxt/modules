@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/imagemin-module'
 website: 'https://github.com/nuxt-community/imagemin-module'
 keywords:
   - community
-categories: []
+categories:
+  - images
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

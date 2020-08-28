@@ -1,0 +1,16 @@
+name: storyblok-nuxt
+description: Storyblok Nuxt.js module
+long_description: ''
+repo: storyblok/storyblok-nuxt
+npm: storyblok-nuxt
+type: module
+github: 'https://github.com/storyblok/storyblok-nuxt'
+website: 'https://github.com/storyblok/storyblok-nuxt'
+keywords:
+  - external
+categories:
+  - cms
+maintainers:
+  - name: storyblok
+    github: storyblok
+    avatar: 'https://github.com/storyblok.png'

@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/cloudinary-module'
 website: 'https://github.com/nuxt-community/cloudinary-module'
 keywords:
   - community
-categories: []
+categories:
+  - images
 maintainers:
   - name: Maya Shavin
     github: mayashavin

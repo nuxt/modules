@@ -49,7 +49,10 @@ export async function sync(name, repo?: string) {
   }
 
   // Make keywords are unique and sorted
-  integration.keywords = Array.from(new Set(integration.keywords)).sort()
+  integration.keywords = Array.from(new Set(integration.keywords)).map(s => s.toLowerCase()).sort()
+
+  // Categories
+  integration.categories = Array.from(new Set(integration.categories)).map(s => s.toLowerCase()).sort()
 
   // Auto name
   if (!integration.name) {

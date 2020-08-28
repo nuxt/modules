@@ -1,0 +1,16 @@
+name: winston-log
+description: Enable logging to Winston in your Nuxt application
+long_description: ''
+repo: aaronransley/nuxt-winston-log
+npm: nuxt-winston-log
+type: module
+github: 'https://github.com/aaronransley/nuxt-winston-log'
+website: 'https://github.com/aaronransley/nuxt-winston-log'
+keywords:
+  - external
+categories:
+  - reporting
+maintainers:
+  - name: aaronransley
+    github: aaronransley
+    avatar: 'https://github.com/aaronransley.png'

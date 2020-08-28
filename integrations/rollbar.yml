@@ -1,14 +1,15 @@
 name: rollbar
 description: 'Rollbar module for NuxtJS '
 long_description: ''
-repo: zevran/nuxt-rollbar-module
+repo: gaelreyrol/nuxt-rollbar-module
 npm: nuxt-rollbar-module
 type: module
 github: 'https://github.com/zevran/nuxt-rollbar-module'
 website: 'https://github.com/zevran/nuxt-rollbar-module'
 keywords:
   - external
-categories: []
+categories:
+  - reporting
 maintainers:
   - name: zevran
     github: zevran

@@ -18,7 +18,8 @@ keywords:
   - nuxtjs
   - security
   - x-frame-options
-categories: []
+categories:
+  - security
 maintainers:
   - name: victor-perez
     github: victor-perez

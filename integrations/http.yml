@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt/http'
 website: 'https://github.com/nuxt/http'
 keywords:
   - official
-categories: []
+categories:
+  - request
 maintainers:
   - name: Pooya Parsa
     github: pi0

@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/axios-module'
 website: 'https://github.com/nuxt-community/axios-module'
 keywords:
   - community
-categories: []
+categories:
+  - request
 maintainers:
   - name: Pooya Parsa
     github: pi0

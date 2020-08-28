@@ -10,7 +10,8 @@ github: 'https://github.com/bazzite/nuxt-optimized-images'
 website: 'https://github.com/bazzite/nuxt-optimized-images'
 keywords:
   - external
-categories: []
+categories:
+  - images
 maintainers:
   - name: bazzite
     github: bazzite

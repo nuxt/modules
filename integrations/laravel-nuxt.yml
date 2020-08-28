@@ -11,7 +11,8 @@ keywords:
   - laravel
   - spa
   - vue
-categories: []
+categories:
+  - cms
 maintainers:
   - name: skyrpex
     github: skyrpex

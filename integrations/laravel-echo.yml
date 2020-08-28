@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/laravel-echo'
 website: 'https://github.com/nuxt-community/laravel-echo'
 keywords:
   - community
-categories: []
+categories:
+  - cms
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

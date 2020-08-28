@@ -9,7 +9,8 @@ website: 'https://github.com/scaccogatto/contentful-module'
 keywords:
   - contentful
   - external
-categories: []
+categories:
+  - cms
 maintainers:
   - name: scaccogatto
     github: scaccogatto

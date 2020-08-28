@@ -13,7 +13,8 @@ keywords:
   - shopify
   - shopify-buy
   - vue
-categories: []
+categories:
+  - ecommerce
 maintainers:
   - name: Gomah
     github: Gomah

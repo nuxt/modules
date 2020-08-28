@@ -7,20 +7,20 @@ type: module
 github: 'https://github.com/nuxt-community/google-adsense-module'
 website: 'https://github.com/nuxt-community/google-adsense-module'
 keywords:
-  - AdSense
-  - Google
-  - Nuxt
-  - Nuxt.js
-  - NuxtJS
-  - PWA
-  - SSR
-  - Vue
-  - Vue2
-  - VueJS
-  - VueRouter
-  - Web
+  - adsense
   - community
+  - google
+  - nuxt
+  - nuxt.js
+  - nuxtjs
+  - pwa
+  - ssr
+  - vue
   - vue-router
+  - vue2
+  - vuejs
+  - vuerouter
+  - web
 categories: []
 maintainers:
   - name: Troy Morehouse

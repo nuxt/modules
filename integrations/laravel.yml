@@ -3,7 +3,7 @@ description: Nuxt cli extension for use with laravel as backend
 long_description: ''
 repo: m2sd/nuxt-laravel
 npm: nuxt-laravel
-type: module
+type: cli
 github: 'https://github.com/m2sd/nuxt-laravel'
 website: 'https://github.com/m2sd/nuxt-laravel'
 keywords:
@@ -12,7 +12,8 @@ keywords:
   - pwa
   - spa
   - vue
-categories: []
+categories:
+  - cms
 maintainers:
   - name: m2sd
     github: m2sd

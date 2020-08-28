@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/vuetify-module'
 website: 'https://github.com/nuxt-community/vuetify-module'
 keywords:
   - community
-categories: []
+categories:
+  - ui
 maintainers:
   - name: Kevin Marrec
     github: kevinmarrec

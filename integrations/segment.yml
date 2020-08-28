@@ -1,0 +1,16 @@
+name: segment
+description: Nuxt.js module for Segment Analytics.js
+long_description: ''
+repo: dansmaculotte/nuxt-segment
+npm: '@dansmaculotte/nuxt-segment'
+type: module
+github: 'https://github.com/dansmaculotte/nuxt-segment'
+website: 'https://github.com/dansmaculotte/nuxt-segment'
+keywords:
+  - external
+categories:
+  - analytics
+maintainers:
+  - name: dansmaculotte
+    github: dansmaculotte
+    avatar: 'https://github.com/dansmaculotte.png'

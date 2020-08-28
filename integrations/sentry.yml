@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/sentry-module'
 website: 'https://github.com/nuxt-community/sentry-module'
 keywords:
   - community
-categories: []
+categories:
+  - reporting
 maintainers:
   - name: Rafał Chłodnicki
     github: rchl

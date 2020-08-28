@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/gtm-module'
 website: 'https://github.com/nuxt-community/gtm-module'
 keywords:
   - community
-categories: []
+categories:
+  - analytics
 maintainers:
   - name: Pooya Parsa
     github: pi0

@@ -13,7 +13,8 @@ keywords:
   - google
   - googleauthentication
   - realtimedatabase
-categories: []
+categories:
+  - database
 maintainers:
   - name: Pascal Luther
     github: lupas

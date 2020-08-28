@@ -1,0 +1,16 @@
+name: stripe
+description: NuxtJS module for Stripe.js
+long_description: ''
+repo: WilliamDASILVA/nuxt-stripe-module
+npm: nuxt-stripe-module
+type: module
+github: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
+website: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
+keywords:
+  - external
+categories:
+  - payment
+maintainers:
+  - name: WilliamDASILVA
+    github: WilliamDASILVA
+    avatar: 'https://github.com/WilliamDASILVA.png'

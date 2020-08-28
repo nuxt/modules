@@ -18,7 +18,8 @@ keywords:
   - sass
   - scss
   - slim
-categories: []
+categories:
+  - ui
 maintainers:
   - name: mustardamus
     github: mustardamus
