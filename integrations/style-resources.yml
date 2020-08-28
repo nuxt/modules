@@ -1,0 +1,19 @@
+name: style-resources
+description: ''
+long_description: ''
+repo: nuxt-community/style-resources-module
+npm: '@nuxtjs/style-resources'
+type: module
+github: 'https://github.com/nuxt-community/style-resources-module'
+website: 'https://github.com/nuxt-community/style-resources-module'
+keywords:
+  - community
+  - import
+  - less
+  - nuxt-module
+  - nuxtjs
+  - sass
+  - style-resources
+  - stylus
+categories: []
+maintainers: []

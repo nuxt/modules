@@ -1,0 +1,12 @@
+name: emotion
+description: The Next Generation of CSS-in-JS for Nuxt.js
+long_description: ''
+repo: nuxt-community/emotion-module
+npm: '@nuxtjs/emotion'
+type: module
+github: 'https://github.com/nuxt-community/emotion-module'
+website: 'https://github.com/nuxt-community/emotion-module'
+keywords:
+  - community
+categories: []
+maintainers: []

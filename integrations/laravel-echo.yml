@@ -1,0 +1,12 @@
+name: laravel-echo
+description: Laravel Echo for Nuxt.js
+long_description: ''
+repo: nuxt-community/laravel-echo
+npm: '@nuxtjs/laravel-echo'
+type: module
+github: 'https://github.com/nuxt-community/laravel-echo'
+website: 'https://github.com/nuxt-community/laravel-echo'
+keywords:
+  - community
+categories: []
+maintainers: []

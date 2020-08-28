@@ -1,0 +1,14 @@
+name: dayjs
+description: The best way for use Day.js easily in your Nuxt.js project.
+long_description: ''
+repo: nuxt-community/dayjs-module
+npm: '@nuxtjs/dayjs'
+type: module
+github: 'https://github.com/nuxt-community/dayjs-module'
+website: 'https://github.com/nuxt-community/dayjs-module'
+keywords:
+  - community
+  - nuxt.js
+  - vue
+categories: []
+maintainers: []

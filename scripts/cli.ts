@@ -5,14 +5,15 @@ async function main() {
 
   switch (command) {
     case 'sync':
-      const [repo] = args
-      if (repo) {
-        const { integrationFile } = await sync(repo)
-        console.log('Synced', integrationFile)
+      const [name, repo] = args
+      if (name) {
+        console.log('Syncing ' + name)
+        const integration = await sync(name, repo)
+        console.log('Synced', integration.name)
       } else {
         console.log('Syncing all integrations')
         const integrations = await syncAll()
-        console.log('Sync ' + integrations.length + ' integrations!')
+        console.log('Sync ' + integrations.length + ' integrations')
       }
       break
     case 'dump':

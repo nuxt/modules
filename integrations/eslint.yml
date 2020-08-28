@@ -1,0 +1,12 @@
+name: eslint
+description: ESLint module for Nuxt.js
+long_description: ''
+repo: nuxt-community/eslint-module
+npm: '@nuxtjs/eslint-module'
+type: module
+github: 'https://github.com/nuxt-community/eslint-module'
+website: 'https://github.com/nuxt-community/eslint-module'
+keywords:
+  - community
+categories: []
+maintainers: []

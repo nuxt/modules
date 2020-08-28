@@ -1,0 +1,12 @@
+name: router
+description: Nuxt.js module to use router.js instead of pages/ directory
+long_description: ''
+repo: nuxt-community/router-module
+npm: '@nuxtjs/router'
+type: module
+github: 'https://github.com/nuxt-community/router-module'
+website: 'https://github.com/nuxt-community/router-module'
+keywords:
+  - community
+categories: []
+maintainers: []

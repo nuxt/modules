@@ -1,0 +1,16 @@
+name: svg
+description: Super simple svg loading module for Nuxt.js
+long_description: ''
+repo: nuxt-community/svg-module
+npm: '@nuxtjs/svg'
+type: module
+github: 'https://github.com/nuxt-community/svg-module'
+website: 'https://github.com/nuxt-community/svg-module'
+keywords:
+  - community
+  - nuxt-module
+  - nuxtjs
+  - svg
+  - vue
+categories: []
+maintainers: []

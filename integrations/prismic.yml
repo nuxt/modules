@@ -1,0 +1,15 @@
+name: prismic
+description: Add Prismic to your NuxtJS project
+long_description: ''
+repo: nuxt-community/prismic-module
+npm: '@nuxtjs/prismic'
+type: module
+github: 'https://github.com/nuxt-community/prismic-module'
+website: 'https://github.com/nuxt-community/prismic-module'
+keywords:
+  - cms
+  - community
+  - prismic
+  - vue
+categories: []
+maintainers: []

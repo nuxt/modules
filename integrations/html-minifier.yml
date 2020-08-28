@@ -1,0 +1,12 @@
+name: html-minifier
+description: ''
+long_description: ''
+repo: nuxt-community/html-minifier-module
+npm: '@nuxtjs/html-minifier'
+type: module
+github: 'https://github.com/nuxt-community/html-minifier-module'
+website: 'https://github.com/nuxt-community/html-minifier-module'
+keywords:
+  - community
+categories: []
+maintainers: []

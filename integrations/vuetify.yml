@@ -1,0 +1,12 @@
+name: vuetify
+description: Vuetify Module for Nuxt.js
+long_description: ''
+repo: nuxt-community/vuetify-module
+npm: '@nuxtjs/vuetify'
+type: module
+github: 'https://github.com/nuxt-community/vuetify-module'
+website: 'https://github.com/nuxt-community/vuetify-module'
+keywords:
+  - community
+categories: []
+maintainers: []

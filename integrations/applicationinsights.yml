@@ -1,0 +1,12 @@
+name: applicationinsights
+description: AppInsights module for Nuxt.js
+long_description: ''
+repo: nuxt-community/applicationinsights-module
+npm: '@nuxtjs/applicationinsights'
+type: module
+github: 'https://github.com/nuxt-community/applicationinsights-module'
+website: 'https://github.com/nuxt-community/applicationinsights-module'
+keywords:
+  - community
+categories: []
+maintainers: []

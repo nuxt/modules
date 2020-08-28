@@ -1,0 +1,12 @@
+name: apollo
+description: !<tag:yaml.org,2002:js/undefined> ''
+long_description: ''
+repo: nuxt-community/apollo-module
+npm: '@nuxtjs/apollo'
+type: module
+github: 'https://github.com/nuxt-community/apollo-module'
+website: 'https://github.com/nuxt-community/apollo-module'
+keywords:
+  - community
+categories: []
+maintainers: []

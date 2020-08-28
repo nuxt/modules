@@ -1,0 +1,12 @@
+name: google-gtag
+description: Google GTag for Nuxt.js
+long_description: ''
+repo: nuxt-community/google-gtag
+npm: '@nuxtjs/google-gtag'
+type: module
+github: 'https://github.com/nuxt-community/google-gtag'
+website: 'https://github.com/nuxt-community/google-gtag'
+keywords:
+  - community
+categories: []
+maintainers: []

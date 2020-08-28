@@ -1,0 +1,12 @@
+name: axios
+description: Secure and easy Axios integration with Nuxt.js
+long_description: ''
+repo: nuxt-community/axios-module
+npm: '@nuxtjs/axios'
+type: module
+github: 'https://github.com/nuxt-community/axios-module'
+website: 'https://github.com/nuxt-community/axios-module'
+keywords:
+  - community
+categories: []
+maintainers: []

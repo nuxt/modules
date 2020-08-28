@@ -1,0 +1,12 @@
+name: auth
+description: Authentication module for Nuxt.js
+long_description: ''
+repo: nuxt-community/auth-module
+npm: '@nuxtjs/auth'
+type: module
+github: 'https://github.com/nuxt-community/auth-module'
+website: 'https://github.com/nuxt-community/auth-module'
+keywords:
+  - community
+categories: []
+maintainers: []

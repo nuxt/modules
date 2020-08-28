@@ -1,0 +1,12 @@
+name: router-extras
+description: Extra Add-ons for nuxt router
+long_description: ''
+repo: nuxt-community/router-extras-module
+npm: '@nuxtjs/router-extras'
+type: module
+github: 'https://github.com/nuxt-community/router-extras-module'
+website: 'https://github.com/nuxt-community/router-extras-module'
+keywords:
+  - community
+categories: []
+maintainers: []

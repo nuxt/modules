@@ -1,0 +1,12 @@
+name: logrocket
+description: LogRocket module for Nuxt.js
+long_description: ''
+repo: nuxt-community/nuxt-logrocket
+npm: nuxt-logrocket
+type: module
+github: 'https://github.com/nuxt-community/nuxt-logrocket'
+website: 'https://github.com/nuxt-community/nuxt-logrocket'
+keywords:
+  - community
+categories: []
+maintainers: []

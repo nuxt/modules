@@ -1,0 +1,12 @@
+name: tailwindcss
+description: TailwindCSS module for Nuxt.js
+long_description: ''
+repo: nuxt-community/tailwindcss-module
+npm: '@nuxtjs/tailwindcss'
+type: module
+github: 'https://github.com/nuxt-community/tailwindcss-module'
+website: 'https://github.com/nuxt-community/tailwindcss-module'
+keywords:
+  - community
+categories: []
+maintainers: []

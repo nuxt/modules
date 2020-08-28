@@ -1,0 +1,12 @@
+name: moment
+description: Efficient Moment.js integration for Nuxt.js
+long_description: ''
+repo: nuxt-community/moment-module
+npm: '@nuxtjs/moment'
+type: module
+github: 'https://github.com/nuxt-community/moment-module'
+website: 'https://github.com/nuxt-community/moment-module'
+keywords:
+  - community
+categories: []
+maintainers: []

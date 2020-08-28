@@ -1,31 +1,40 @@
-import { existsSync, readFile, writeFile, mkdirp } from 'fs-extra'
-import { resolve, dirname, join } from 'path'
+import { existsSync, readFile, writeFile, remove, mkdirp } from 'fs-extra'
+import { resolve, join, basename, extname } from 'path'
 import * as yml from 'js-yaml'
 import globby from 'globby'
 import defu from 'defu'
-import { integrationsDir, rootDir, fetchGithubPkg } from './utils'
+import {fetchGithubPkg } from './utils'
 
-export async function sync(repo) {
-  let integration: ReturnType<typeof createIntegration>
+export const rootDir = resolve(__dirname, '..')
+export const integrationsDir = resolve(rootDir, 'integrations')
 
-  // Read integration
-  const integrationFile = resolve(integrationsDir, repo + '.yml')
-  if (existsSync(integrationFile)) {
-    integration = createIntegration(await readIntegration(integrationFile))
-  } else {
-    integration = createIntegration({
-      repo,
-      github: 'https://github.com/' + repo,
-      website: 'https://github.com/' + repo,
-    })
+export async function sync(name, repo?: string) {
+  const integration = await getIntegration(name)
+
+  // Repo
+  if (repo) {
+    integration.repo = repo
+  }
+  if (!integration.repo) {
+    throw new Error('repo not provided for ' + name)
+  }
+
+  // Defaults
+  if (!integration.repo) {
+    integration.repo = repo
+  }
+  if (!integration.github) {
+    integration.github = 'https://github.com/' + integration.repo
+  }
+  if (!integration.website) {
+    integration.website = integration.github
   }
 
   // Fetch latest package.json from github
-  const pkg = await fetchGithubPkg(repo)
+  const pkg = await fetchGithubPkg(integration.repo)
   integration.npm = pkg.name
 
   // Keywords
-
   if (integration.repo.startsWith('nuxt-community/')) {
     integration.keywords.push('community')
   } else if (integration.repo.startsWith('nuxt/')) {
@@ -34,7 +43,7 @@ export async function sync(repo) {
     integration.keywords.push('external')
   }
   if (pkg.keywords) {
-    const specialKeyworkds = ['community', 'official', 'external', 'nuxt', 'module', 'script']
+    const specialKeyworkds = ['community', 'official', 'external', 'nuxt', 'module', 'script', 'nuxt-module']
     integration.keywords.push(...pkg.keywords.filter(k => !specialKeyworkds.includes(k)))
   }
 
@@ -63,54 +72,63 @@ export async function sync(repo) {
   }
 
   // Write integration
-  await mkdirp(dirname(integrationFile))
-  await writeIntegration(integrationFile, integration)
+  await writeIntegration(integration)
 
-  return { integration, integrationFile }
+  return integration
 }
 
-export function createIntegration(rc) {
-  const defaults = {
+export async function getIntegration(name) {
+  let integration = {
     name: '',
     description: '',
     long_description: '',
     repo: '',
     npm: '',
     type: 'module',
+    github: '',
+    website: '',
     keywords: [],
     categories: [],
     maintainers: [],
   }
 
-  return defu<typeof defaults>(rc, defaults)
+  const file = resolve(integrationsDir, name + '.yml')
+  if (existsSync(file)) {
+    integration = defu(yml.load(await readFile(file, 'utf-8')), integration)
+  }
+
+  return integration
 }
 
-export async function readIntegration(integrationFile) {
-  return yml.load(await readFile(integrationFile, 'utf-8'))
-}
-
-export async function writeIntegration(integrationFile, integration) {
-  await writeFile(integrationFile, yml.dump(integration))
+export async function writeIntegration(integration) {
+  const file = resolve(integrationsDir, integration.name + '.yml')
+  await writeFile(file, yml.dump(integration))
 }
 
 export async function readIntegrations() {
-  const integrationFiles = await globby(join(integrationsDir, '**/*.yml'))
-  return Promise.all(integrationFiles.map(async integrationFile => ({
-    integrationFile,
-    integration: await readIntegration(integrationFile)
-  })))
+  const names = (await globby(join(integrationsDir, '*.yml'))).map(p => basename(p, extname(p)))
+
+  // for (const name of names) {
+  //   const p = resolve(integrationsDir, name + '.yml')
+  //   const data = yml.load(await readFile(p, 'utf-8'))
+  //   if (data.name !== name) {
+  //     await remove(p)
+  //   }
+  // }
+
+  return Promise.all(names.map(n => getIntegration(n)))
 }
 
 export async function syncAll() {
   const integrations = await readIntegrations()
-  const updatedIntegrations = await Promise.all(integrations.map(({ integration }) => {
-    return sync(integration.repo)
+  const updatedIntegrations = await Promise.all(integrations.map(integration => {
+    return sync(integration.name, integration.repo)
   }))
   return updatedIntegrations
 }
 
 export async function dump() {
-  const integrations = (await readIntegrations()).map(r => r.integration)
+  const integrations = await readIntegrations()
   const distDir = join(rootDir, 'dist')
   await mkdirp(distDir)
   await writeFile(resolve(distDir, 'integrations.json'), JSON.stringify(integrations, null, 2))

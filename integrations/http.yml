@@ -1,0 +1,12 @@
+name: http
+description: Universal HTTP Module for Nuxt.js
+long_description: ''
+repo: nuxt/http
+npm: '@nuxt/http'
+type: module
+github: 'https://github.com/nuxt/http'
+website: 'https://github.com/nuxt/http'
+keywords:
+  - official
+categories: []
+maintainers: []

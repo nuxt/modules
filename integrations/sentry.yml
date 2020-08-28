@@ -1,0 +1,12 @@
+name: sentry
+description: Sentry module for Nuxt.js
+long_description: ''
+repo: nuxt-community/sentry-module
+npm: '@nuxtjs/sentry'
+type: module
+github: 'https://github.com/nuxt-community/sentry-module'
+website: 'https://github.com/nuxt-community/sentry-module'
+keywords:
+  - community
+categories: []
+maintainers: []

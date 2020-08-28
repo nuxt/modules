@@ -1,0 +1,12 @@
+name: cloudinary
+description: Cloudinary module for Nuxt
+long_description: ''
+repo: nuxt-community/cloudinary-module
+npm: '@nuxtjs/cloudinary'
+type: module
+github: 'https://github.com/nuxt-community/cloudinary-module'
+website: 'https://github.com/nuxt-community/cloudinary-module'
+keywords:
+  - community
+categories: []
+maintainers: []

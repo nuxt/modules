@@ -1,0 +1,12 @@
+name: mdx
+description: MDX module for Nuxt.js
+long_description: ''
+repo: nuxt-community/mdx-module
+npm: '@nuxtjs/mdx'
+type: module
+github: 'https://github.com/nuxt-community/mdx-module'
+website: 'https://github.com/nuxt-community/mdx-module'
+keywords:
+  - community
+categories: []
+maintainers: []

@@ -1,0 +1,12 @@
+name: stylelint
+description: Stylelint module for Nuxt.js
+long_description: ''
+repo: nuxt-community/stylelint-module
+npm: '@nuxtjs/stylelint-module'
+type: module
+github: 'https://github.com/nuxt-community/stylelint-module'
+website: 'https://github.com/nuxt-community/stylelint-module'
+keywords:
+  - community
+categories: []
+maintainers: []

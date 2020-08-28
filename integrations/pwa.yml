@@ -1,0 +1,12 @@
+name: pwa
+description: Zero config PWA solution for Nuxt.js
+long_description: ''
+repo: nuxt-community/pwa-module
+npm: '@nuxtjs/pwa'
+type: module
+github: 'https://github.com/nuxt-community/pwa-module'
+website: 'https://github.com/nuxt-community/pwa-module'
+keywords:
+  - community
+categories: []
+maintainers: []

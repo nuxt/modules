@@ -1,0 +1,12 @@
+name: event-trace
+description: !<tag:yaml.org,2002:js/undefined> ''
+long_description: ''
+repo: nuxt-community/nuxt-event-trace
+npm: nuxt-event-trace
+type: module
+github: 'https://github.com/nuxt-community/nuxt-event-trace'
+website: 'https://github.com/nuxt-community/nuxt-event-trace'
+keywords:
+  - community
+categories: []
+maintainers: []

@@ -1,0 +1,12 @@
+name: onesignal
+description: OneSignal module for Nuxt.js
+long_description: ''
+repo: nuxt-community/onesignal-module
+npm: '@nuxtjs/onesignal'
+type: module
+github: 'https://github.com/nuxt-community/onesignal-module'
+website: 'https://github.com/nuxt-community/onesignal-module'
+keywords:
+  - community
+categories: []
+maintainers: []

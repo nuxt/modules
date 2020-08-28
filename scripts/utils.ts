@@ -1,8 +1,4 @@
 import axios from 'axios'
-import { resolve } from 'path'
-
-export const rootDir = resolve(__dirname, '..')
-export const integrationsDir = resolve(rootDir, 'modules')
 
 export async function fetchPKG(name) {
   return axios.get('http://registry.npmjs.org/' + name).then(r => r.data)
@@ -13,5 +9,8 @@ export async function fetchRawGithub(path) {
 }
 
 export async function fetchGithubPkg(repo, branch = 'master') {
+  if (repo.includes('#')) {
+    [repo, branch] = repo.split('#')
+  }
   return fetchRawGithub(repo + '/' + branch + '/' + 'package.json')
 }

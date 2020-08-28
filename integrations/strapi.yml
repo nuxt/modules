@@ -1,0 +1,12 @@
+name: strapi
+description: Strapi module for NuxtJS
+long_description: ''
+repo: nuxt-community/strapi-module
+npm: '@nuxtjs/strapi'
+type: module
+github: 'https://github.com/nuxt-community/strapi-module'
+website: 'https://github.com/nuxt-community/strapi-module'
+keywords:
+  - community
+categories: []
+maintainers: []
