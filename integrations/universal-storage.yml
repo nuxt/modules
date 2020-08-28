@@ -9,4 +9,12 @@ website: 'https://github.com/nuxt-community/universal-storage-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'
+  - name: Farzad Soltani
+    github: farzadso
+    twitter: farzadso
+    avatar: 'https://github.com/farzadso.png'

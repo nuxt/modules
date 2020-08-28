@@ -9,4 +9,8 @@ website: 'https://github.com/nuxt-community/axios-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'

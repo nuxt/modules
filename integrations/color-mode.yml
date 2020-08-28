@@ -9,4 +9,8 @@ website: 'https://github.com/nuxt-community/color-mode-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Sébastien Chopin
+    github: Atinux
+    twitter: Atinux
+    avatar: 'https://github.com/Atinux.png'

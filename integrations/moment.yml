@@ -9,4 +9,11 @@ website: 'https://github.com/nuxt-community/moment-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'
+  - name: Ricardo Gobbo de Souza
+    github: ricardogobbosouza
+    avatar: 'https://github.com/ricardogobbosouza.png'

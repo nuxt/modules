@@ -9,4 +9,7 @@ website: 'https://github.com/nuxt-community/eslint-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Ricardo Gobbo de Souza
+    github: ricardogobbosouza
+    avatar: 'https://github.com/ricardogobbosouza.png'

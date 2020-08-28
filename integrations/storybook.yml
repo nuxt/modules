@@ -13,7 +13,15 @@ website: 'https://storybook.nuxtjs.org'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Ahad Birang
+    github: farnabaz
+    twitter: a_birang
+    avatar: 'https://github.com/farnabaz.png'
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'
 logo: 'https://storybook.nuxtjs.org/icon.png'
 image: 'https://storybook.nuxtjs.org/preview.png'
 features:
@@ -21,7 +29,3 @@ features:
   - Nuxt webpack configuration
   - Nuxt plugins support
   - Story discovery from nuxt modules
-maintainers:
-  - name: Ahad Birang
-    github: farnabaz
-    twitter: a_birang

@@ -14,6 +14,11 @@ keywords:
   - sanity
   - sanity-io
 categories: []
+maintainers:
+  - name: Daniel Roe
+    github: danielroe
+    twitter: danielcroe
+    avatar: 'https://github.com/danielroe.png'
 logo: 'https://sanity.nuxtjs.org/icon.png'
 image: 'https://sanity.nuxtjs.org/preview.png'
 features:
@@ -21,7 +26,3 @@ features:
   - Ultra-lightweight Sanity client
   - Zero-config image component
   - Supports GROQ syntax highlighting
-maintainers:
-  - name: Daniel Roe
-    github: danielroe
-    twitter: danielcroe
