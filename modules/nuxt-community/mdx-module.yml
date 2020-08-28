@@ -7,6 +7,7 @@ long_description: >-
   application with MDX
 repo: nuxt-community/mdx-module
 npm: '@nuxtjs/mdx'
+type: module
 keywords:
   - community
 categories: []

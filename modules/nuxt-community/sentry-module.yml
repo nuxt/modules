@@ -5,6 +5,7 @@ long_description: >-
   APIs to power experiences wherever you might need them.
 repo: nuxt-community/sentry-module
 npm: '@nuxtjs/sentry'
+type: module
 keywords:
   - community
 categories: []

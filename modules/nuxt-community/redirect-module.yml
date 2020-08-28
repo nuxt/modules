@@ -3,6 +3,7 @@ description: Nuxt module to dynamically redirect initial requests
 long_description: ''
 repo: nuxt-community/redirect-module
 npm: '@nuxtjs/redirect-module'
+type: module
 keywords:
   - community
   - nuxt

@@ -3,6 +3,7 @@ description: ''
 long_description: ''
 repo: nuxt-community/html-minifier-module
 npm: '@nuxtjs/html-minifier'
+type: module
 keywords:
   - community
 categories: []

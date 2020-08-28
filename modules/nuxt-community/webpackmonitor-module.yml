@@ -3,6 +3,7 @@ description: Monitor Nuxt webpack optimization metrics through the development p
 long_description: ''
 repo: nuxt-community/webpackmonitor-module
 npm: '@nuxtjs/webpackmonitor'
+type: module
 keywords:
   - community
 categories: []

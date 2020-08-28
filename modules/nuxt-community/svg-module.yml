@@ -3,6 +3,7 @@ description: Super simple svg loading module for Nuxt.js
 long_description: ''
 repo: nuxt-community/svg-module
 npm: '@nuxtjs/svg'
+type: module
 keywords:
   - community
   - nuxt

@@ -3,6 +3,7 @@ description: Simple and easy Google reCAPTCHA integration with Nuxt.js
 long_description: ''
 repo: nuxt-community/recaptcha-module
 npm: '@nuxtjs/recaptcha'
+type: module
 keywords:
   - captcha
   - community

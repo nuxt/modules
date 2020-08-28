@@ -3,6 +3,7 @@ description: Google Tag Manager Module for Nuxt.js
 long_description: ''
 repo: nuxt-community/gtm-module
 npm: '@nuxtjs/gtm'
+type: module
 keywords:
   - community
 categories: []

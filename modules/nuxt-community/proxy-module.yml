@@ -5,6 +5,7 @@ description: >-
 long_description: ''
 repo: nuxt-community/proxy-module
 npm: '@nuxtjs/proxy'
+type: module
 keywords:
   - community
 categories: []

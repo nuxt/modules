@@ -3,6 +3,7 @@ description: Google Fonts module for NuxtJS
 long_description: ''
 repo: nuxt-community/google-fonts-module
 npm: '@nuxtjs/google-fonts'
+type: module
 keywords:
   - community
 categories: []

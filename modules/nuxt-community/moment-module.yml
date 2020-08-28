@@ -3,6 +3,7 @@ description: Efficient Moment.js integration for Nuxt.js
 long_description: ''
 repo: nuxt-community/moment-module
 npm: '@nuxtjs/moment'
+type: module
 keywords:
   - community
 categories: []

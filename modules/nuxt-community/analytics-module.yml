@@ -3,6 +3,7 @@ description: Google Analytics Module for Nuxt.js
 long_description: ''
 repo: nuxt-community/analytics-module
 npm: '@nuxtjs/google-analytics'
+type: module
 keywords:
   - community
 categories: []

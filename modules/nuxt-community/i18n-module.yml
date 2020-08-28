@@ -7,6 +7,7 @@ long_description: >-
   internationalization to your Nuxt.js project
 repo: nuxt-community/i18n-module
 npm: nuxt-i18n
+type: module
 keywords:
   - community
 categories: []

@@ -3,6 +3,7 @@ description: Device detection module for Nuxt.js
 long_description: ''
 repo: nuxt-community/device-module
 npm: '@nuxtjs/device'
+type: module
 keywords:
   - community
 categories: []

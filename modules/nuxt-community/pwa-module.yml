@@ -8,6 +8,7 @@ long_description: >-
   reliable and installable.
 repo: nuxt-community/pwa-module
 npm: '@nuxtjs/pwa'
+type: module
 keywords:
   - community
 categories: []

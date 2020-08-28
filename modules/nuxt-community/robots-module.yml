@@ -3,6 +3,7 @@ description: A Nuxt.js module thats inject a middleware to generate a robots.txt
 long_description: ''
 repo: nuxt-community/robots-module
 npm: '@nuxtjs/robots'
+type: module
 keywords:
   - community
 categories: []

@@ -3,6 +3,7 @@ description: !<tag:yaml.org,2002:js/undefined> ''
 long_description: ''
 repo: nuxt-community/nuxt-event-trace
 npm: nuxt-event-trace
+type: module
 keywords:
   - community
 categories: []

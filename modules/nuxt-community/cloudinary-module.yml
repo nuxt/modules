@@ -7,6 +7,7 @@ long_description: >-
   fast CDN using industry best practices.
 repo: nuxt-community/cloudinary-module
 npm: '@nuxtjs/cloudinary'
+type: module
 keywords:
   - community
 categories: []

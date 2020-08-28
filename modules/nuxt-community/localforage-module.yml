@@ -3,6 +3,7 @@ description: Localforage module for Nuxt.js
 long_description: ''
 repo: nuxt-community/localforage-module
 npm: '@nuxtjs/localforage'
+type: module
 keywords:
   - community
 categories: []

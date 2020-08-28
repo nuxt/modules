@@ -3,6 +3,7 @@ description: AppInsights module for Nuxt.js
 long_description: ''
 repo: nuxt-community/applicationinsights-module
 npm: '@nuxtjs/applicationinsights'
+type: module
 keywords:
   - community
 categories: []

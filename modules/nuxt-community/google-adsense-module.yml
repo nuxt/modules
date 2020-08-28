@@ -3,6 +3,7 @@ description: Google Adsense Module for Nuxt.js
 long_description: ''
 repo: nuxt-community/google-adsense-module
 npm: '@nuxtjs/google-adsense'
+type: module
 keywords:
   - AdSense
   - Google

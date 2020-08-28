@@ -8,6 +8,7 @@ long_description: >-
   MongoDB like API, acting as a Git-based Headless CMS.
 repo: nuxt/content
 npm: nuxt-content
+type: module
 keywords:
   - official
 categories: []

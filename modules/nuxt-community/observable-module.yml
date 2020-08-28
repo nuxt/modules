@@ -3,6 +3,7 @@ description: Vue.observable() state module for Nuxt.js
 long_description: ''
 repo: nuxt-community/observable-module
 npm: '@nuxtjs/observable'
+type: module
 keywords:
   - community
 categories: []

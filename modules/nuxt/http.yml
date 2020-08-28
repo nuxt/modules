@@ -3,6 +3,7 @@ description: Universal HTTP Module for Nuxt.js
 long_description: ''
 repo: nuxt/http
 npm: '@nuxt/http'
+type: module
 keywords:
   - official
 categories: []

@@ -3,6 +3,7 @@ description: Laravel Echo for Nuxt.js
 long_description: ''
 repo: nuxt-community/laravel-echo
 npm: '@nuxtjs/laravel-echo'
+type: module
 keywords:
   - community
 categories: []

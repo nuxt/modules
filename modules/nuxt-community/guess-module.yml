@@ -3,6 +3,7 @@ description: Guess.js module for Nuxt.js
 long_description: ''
 repo: nuxt-community/guess-module
 npm: '@nuxtjs/guess-module'
+type: module
 keywords:
   - community
 categories: []

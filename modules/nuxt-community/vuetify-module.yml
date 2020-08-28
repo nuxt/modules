@@ -3,6 +3,7 @@ description: Vuetify Module for Nuxt.js
 long_description: ''
 repo: nuxt-community/vuetify-module
 npm: '@nuxtjs/vuetify'
+type: module
 keywords:
   - community
 categories: []

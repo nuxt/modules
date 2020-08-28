@@ -5,6 +5,7 @@ long_description: >-
   easily make http requests in your Nuxt.js application
 repo: nuxt-community/axios-module
 npm: '@nuxtjs/axios'
+type: module
 keywords:
   - community
 categories: []

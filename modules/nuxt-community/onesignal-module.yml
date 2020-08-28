@@ -3,6 +3,7 @@ description: OneSignal module for Nuxt.js
 long_description: ''
 repo: nuxt-community/onesignal-module
 npm: '@nuxtjs/onesignal'
+type: module
 keywords:
   - community
 categories: []

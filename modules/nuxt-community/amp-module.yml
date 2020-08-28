@@ -3,6 +3,7 @@ description: AMP Module for Nuxt
 long_description: ''
 repo: nuxt-community/amp-module
 npm: '@nuxtjs/amp'
+type: module
 keywords:
   - community
 categories: []

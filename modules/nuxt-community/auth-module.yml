@@ -5,6 +5,7 @@ long_description: >-
   various possibilities to authenticate your users
 repo: nuxt-community/auth-module
 npm: '@nuxtjs/auth'
+type: module
 keywords:
   - community
 categories: []

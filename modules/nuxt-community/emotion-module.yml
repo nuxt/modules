@@ -3,6 +3,7 @@ description: The Next Generation of CSS-in-JS for Nuxt.js
 long_description: ''
 repo: nuxt-community/emotion-module
 npm: '@nuxtjs/emotion'
+type: module
 keywords:
   - community
 categories: []

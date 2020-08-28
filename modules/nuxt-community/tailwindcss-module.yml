@@ -8,6 +8,7 @@ long_description: >-
   annoying opinionated styles you have to fight to override.
 repo: nuxt-community/tailwindcss-module
 npm: '@nuxtjs/tailwindcss'
+type: module
 keywords:
   - community
 categories: []

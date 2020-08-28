@@ -5,6 +5,7 @@ description: >-
 long_description: ''
 repo: nuxt-community/netlify-files-module
 npm: '@nuxtjs/netlify-files'
+type: module
 keywords:
   - community
 categories: []

@@ -8,6 +8,7 @@ long_description: >-
   easily lets you manage your content.
 repo: nuxt-community/prismic-module
 npm: '@nuxtjs/prismic'
+type: module
 keywords:
   - cms
   - community

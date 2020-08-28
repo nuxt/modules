@@ -7,6 +7,7 @@ long_description: >-
   makes building stunning UIs organized and efficient.
 repo: nuxt-community/storybook
 npm: '@nuxtjs/storybook'
+type: cli
 keywords:
   - community
 categories: []

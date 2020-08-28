@@ -34,7 +34,7 @@ export async function sync(repo) {
     integration.keywords.push('external')
   }
   if (pkg.keywords) {
-    const specialKeyworkds = ['community', 'official', 'external']
+    const specialKeyworkds = ['community', 'official', 'external', 'nuxt', 'module', 'script']
     integration.keywords.push(...pkg.keywords.filter(k => !specialKeyworkds.includes(k)))
   }
 
@@ -76,6 +76,7 @@ export function createIntegration(rc) {
     long_description: '',
     repo: '',
     npm: '',
+    type: 'module',
     keywords: [],
     categories: [],
     maintainers: [],

@@ -3,6 +3,7 @@ description: Extra Add-ons for nuxt router
 long_description: ''
 repo: nuxt-community/router-extras-module
 npm: '@nuxtjs/router-extras'
+type: module
 keywords:
   - community
 categories: []

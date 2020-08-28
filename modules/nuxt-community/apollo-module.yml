@@ -3,6 +3,7 @@ description: !<tag:yaml.org,2002:js/undefined> ''
 long_description: ''
 repo: nuxt-community/apollo-module
 npm: '@nuxtjs/apollo'
+type: module
 keywords:
   - community
 categories: []

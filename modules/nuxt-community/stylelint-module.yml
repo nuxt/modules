@@ -3,6 +3,7 @@ description: Stylelint module for Nuxt.js
 long_description: ''
 repo: nuxt-community/stylelint-module
 npm: '@nuxtjs/stylelint-module'
+type: module
 keywords:
   - community
 categories: []

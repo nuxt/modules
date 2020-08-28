@@ -3,6 +3,7 @@ description: Write Nuxt.js Apps in Python
 long_description: ''
 repo: nuxt-community/python-module
 npm: '@nuxtjs/python'
+type: module
 keywords:
   - community
 categories: []

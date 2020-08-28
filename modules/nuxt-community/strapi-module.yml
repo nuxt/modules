@@ -5,6 +5,7 @@ long_description: >-
   customizable and developer-first
 repo: nuxt-community/strapi-module
 npm: '@nuxtjs/strapi'
+type: module
 keywords:
   - community
 categories: []

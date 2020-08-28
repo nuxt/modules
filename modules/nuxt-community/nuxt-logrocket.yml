@@ -3,6 +3,7 @@ description: LogRocket module for Nuxt.js
 long_description: ''
 repo: nuxt-community/nuxt-logrocket
 npm: nuxt-logrocket
+type: module
 keywords:
   - community
 categories: []

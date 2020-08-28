@@ -3,6 +3,7 @@ description: A Nuxt.js module that loads your .env file into your context option
 long_description: ''
 repo: nuxt-community/dotenv-module
 npm: '@nuxtjs/dotenv'
+type: module
 keywords:
   - community
 categories: []

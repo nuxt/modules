@@ -3,6 +3,7 @@ description: ''
 long_description: ''
 repo: nuxt-community/style-resources-module
 npm: '@nuxtjs/style-resources'
+type: module
 keywords:
   - community
   - import
