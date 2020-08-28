@@ -1,14 +1,11 @@
 name: material-icons
-short_description: ''
+description: !<tag:yaml.org,2002:js/undefined> ''
 long_description: ''
 repo: nuxt-community/material-icons-module
-module: {}
-npm:
-  name: '@nuxtjs/material-icons'
-  description: ''
-  license: MIT
-labels:
+npm: '@nuxtjs/material-icons'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/material-icons-module'
 website: 'https://github.com/nuxt-community/material-icons-module'

@@ -1,14 +1,11 @@
 name: stylelint
-short_description: Stylelint module for Nuxt.js
+description: Stylelint module for Nuxt.js
 long_description: ''
 repo: nuxt-community/stylelint-module
-module: {}
-npm:
-  name: '@nuxtjs/stylelint-module'
-  description: Stylelint module for Nuxt.js
-  license: MIT
-labels:
+npm: '@nuxtjs/stylelint-module'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/stylelint-module'
 website: 'https://github.com/nuxt-community/stylelint-module'

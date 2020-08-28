@@ -1,14 +1,11 @@
 name: dotenv
-short_description: A Nuxt.js module that loads your .env file into your context options
+description: A Nuxt.js module that loads your .env file into your context options
 long_description: ''
 repo: nuxt-community/dotenv-module
-module: {}
-npm:
-  name: '@nuxtjs/dotenv'
-  description: A Nuxt.js module that loads your .env file into your context options
-  license: MIT
-labels:
+npm: '@nuxtjs/dotenv'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/dotenv-module'
 website: 'https://github.com/nuxt-community/dotenv-module'

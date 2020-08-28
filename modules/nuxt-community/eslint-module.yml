@@ -1,14 +1,11 @@
 name: eslint
-short_description: ESLint module for Nuxt.js
+description: ESLint module for Nuxt.js
 long_description: ''
 repo: nuxt-community/eslint-module
-module: {}
-npm:
-  name: '@nuxtjs/eslint-module'
-  description: ESLint module for Nuxt.js
-  license: MIT
-labels:
+npm: '@nuxtjs/eslint-module'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/eslint-module'
 website: 'https://github.com/nuxt-community/eslint-module'

@@ -1,14 +1,11 @@
 name: google-fonts
-short_description: Google Fonts module for NuxtJS
+description: Google Fonts module for NuxtJS
 long_description: ''
 repo: nuxt-community/google-fonts-module
-module: {}
-npm:
-  name: '@nuxtjs/google-fonts'
-  description: Google Fonts module for NuxtJS
-  license: MIT
-labels:
+npm: '@nuxtjs/google-fonts'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/google-fonts-module'
 website: 'https://github.com/nuxt-community/google-fonts-module'

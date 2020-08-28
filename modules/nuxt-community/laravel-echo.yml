@@ -1,14 +1,11 @@
 name: laravel-echo
-short_description: Laravel Echo for Nuxt.js
+description: Laravel Echo for Nuxt.js
 long_description: ''
 repo: nuxt-community/laravel-echo
-module: {}
-npm:
-  name: '@nuxtjs/laravel-echo'
-  description: Laravel Echo for Nuxt.js
-  license: MIT
-labels:
+npm: '@nuxtjs/laravel-echo'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/laravel-echo'
 website: 'https://github.com/nuxt-community/laravel-echo'

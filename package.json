@@ -1,14 +1,15 @@
 {
-  "name": "@nuxt/modules",
-  "version": "0.0.2",
+  "name": "@nuxt/integrations",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "index.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "rc": "ts-node ./scripts/cli",
-    "build": "yarn rc dump",
+    "cli": "ts-node ./scripts/cli",
+    "sync": "yarn cli sync",
+    "build": "yarn cli dump",
     "prepublish": "yarn build"
   },
   "devDependencies": {

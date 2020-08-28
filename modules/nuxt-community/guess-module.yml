@@ -1,14 +1,11 @@
 name: guess
-short_description: Guess.js module for Nuxt.js
+description: Guess.js module for Nuxt.js
 long_description: ''
 repo: nuxt-community/guess-module
-module: {}
-npm:
-  name: '@nuxtjs/guess-module'
-  description: Guess.js module for Nuxt.js
-  license: MIT
-labels:
+npm: '@nuxtjs/guess-module'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/guess-module'
 website: 'https://github.com/nuxt-community/guess-module'

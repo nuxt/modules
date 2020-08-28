@@ -1,14 +1,11 @@
 name: google-gtag
-short_description: Google GTag for Nuxt.js
+description: Google GTag for Nuxt.js
 long_description: ''
 repo: nuxt-community/google-gtag
-module: {}
-npm:
-  name: '@nuxtjs/google-gtag'
-  description: Google GTag for Nuxt.js
-  license: MIT
-labels:
+npm: '@nuxtjs/google-gtag'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/google-gtag'
 website: 'https://github.com/nuxt-community/google-gtag'

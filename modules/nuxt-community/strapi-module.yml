@@ -1,17 +1,13 @@
 name: strapi
-short_description: Design APIs fast and manage content easily using REST or GraphQL.
+description: Design APIs fast and manage content easily using REST or GraphQL.
 long_description: >-
   Strapi is an open-source headless CMS. It’s 100% Javascript, fully
   customizable and developer-first
 repo: nuxt-community/strapi-module
-module: {}
-npm:
-  name: '@nuxtjs/strapi'
-  description: Strapi module for NuxtJS
-  license: MIT
-labels:
-  - cms
+npm: '@nuxtjs/strapi'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/strapi-module'
 website: 'https://strapi.nuxtjs.org'

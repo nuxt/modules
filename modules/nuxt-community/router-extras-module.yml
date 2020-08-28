@@ -1,14 +1,11 @@
 name: router-extras
-short_description: Extra Add-ons for nuxt router
+description: Extra Add-ons for nuxt router
 long_description: ''
 repo: nuxt-community/router-extras-module
-module: {}
-npm:
-  name: '@nuxtjs/router-extras'
-  description: Extra Add-ons for nuxt router
-  license: MIT
-labels:
+npm: '@nuxtjs/router-extras'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/router-extras-module'
 website: 'https://github.com/nuxt-community/router-extras-module'

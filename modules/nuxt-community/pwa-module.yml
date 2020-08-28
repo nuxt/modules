@@ -1,5 +1,5 @@
 name: pwa
-short_description: >-
+description: >-
   Easily build a Progressive Web App for your Nuxt.js application to improve
   your apps performance.
 long_description: >-
@@ -7,14 +7,10 @@ long_description: >-
   Using service workers and a web app manifest, your web application becomes
   reliable and installable.
 repo: nuxt-community/pwa-module
-module: {}
-npm:
-  name: '@nuxtjs/pwa'
-  description: Zero config PWA solution for Nuxt.js
-  license: MIT
-labels:
-  - performance
+npm: '@nuxtjs/pwa'
+keywords:
   - community
+categories: []
 maintainers:
   - name: Pooya Parsa
     github: pi0

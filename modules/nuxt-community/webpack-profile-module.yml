@@ -1,14 +1,11 @@
 name: webpack-profile
-short_description: Nuxt module to display webpack build progress steps with core ProgressPlugin
+description: Nuxt module to display webpack build progress steps with core ProgressPlugin
 long_description: ''
 repo: nuxt-community/webpack-profile-module
-module: {}
-npm:
-  name: '@nuxtjs/webpack-profile'
-  description: Nuxt module to display webpack build progress steps with core ProgressPlugin
-  license: MIT
-labels:
+npm: '@nuxtjs/webpack-profile'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/webpack-profile-module'
 website: 'https://github.com/nuxt-community/webpack-profile-module'

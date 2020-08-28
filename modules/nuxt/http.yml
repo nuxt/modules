@@ -1,14 +1,11 @@
 name: http
-short_description: Universal HTTP Module for Nuxt.js
+description: Universal HTTP Module for Nuxt.js
 long_description: ''
 repo: nuxt/http
-module: {}
-npm:
-  name: '@nuxt/http'
-  description: Universal HTTP Module for Nuxt.js
-  license: MIT
-labels:
-  - core
+npm: '@nuxt/http'
+keywords:
+  - official
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt/http'
 website: 'https://github.com/nuxt/http'

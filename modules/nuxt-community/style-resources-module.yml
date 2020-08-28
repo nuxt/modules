@@ -1,14 +1,19 @@
 name: style-resources
-short_description: ''
+description: ''
 long_description: ''
 repo: nuxt-community/style-resources-module
-module: {}
-npm:
-  name: '@nuxtjs/style-resources'
-  description: ''
-  license: MIT
-labels:
+npm: '@nuxtjs/style-resources'
+keywords:
   - community
+  - import
+  - less
+  - nuxt
+  - nuxt-module
+  - nuxtjs
+  - sass
+  - style-resources
+  - stylus
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/style-resources-module'
 website: 'https://github.com/nuxt-community/style-resources-module'

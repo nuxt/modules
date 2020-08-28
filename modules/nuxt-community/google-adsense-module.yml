@@ -1,14 +1,24 @@
 name: google-adsense
-short_description: Google Adsense Module for Nuxt.js
+description: Google Adsense Module for Nuxt.js
 long_description: ''
 repo: nuxt-community/google-adsense-module
-module: {}
-npm:
-  name: '@nuxtjs/google-adsense'
-  description: Google Adsense Module for Nuxt.js
-  license: MIT
-labels:
+npm: '@nuxtjs/google-adsense'
+keywords:
+  - AdSense
+  - Google
+  - Nuxt
+  - Nuxt.js
+  - NuxtJS
+  - PWA
+  - SSR
+  - Vue
+  - Vue2
+  - VueJS
+  - VueRouter
+  - Web
   - community
+  - vue-router
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/google-adsense-module'
 website: 'https://github.com/nuxt-community/google-adsense-module'

@@ -1,14 +1,11 @@
 name: html-minifier
-short_description: ''
+description: ''
 long_description: ''
 repo: nuxt-community/html-minifier-module
-module: {}
-npm:
-  name: '@nuxtjs/html-minifier'
-  description: ''
-  license: MIT
-labels:
+npm: '@nuxtjs/html-minifier'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/html-minifier-module'
 website: 'https://github.com/nuxt-community/html-minifier-module'

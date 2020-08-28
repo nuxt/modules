@@ -1,4 +1,4 @@
-import { sync, syncAll, dump } from './resource'
+import { sync, syncAll, dump } from './integration'
 
 async function main() {
   const [command, ...args] = process.argv.splice(2)
@@ -7,12 +7,12 @@ async function main() {
     case 'sync':
       const [repo] = args
       if (repo) {
-        const { resourceFile } = await sync(repo)
-        console.log('Synced', resourceFile)
+        const { integrationFile } = await sync(repo)
+        console.log('Synced', integrationFile)
       } else {
-        console.log('Syncing all resources')
-        const resources = await syncAll()
-        console.log('Sync ' + resources.length + ' resources!')
+        console.log('Syncing all integrations')
+        const integrations = await syncAll()
+        console.log('Sync ' + integrations.length + ' integrations!')
       }
       break
     case 'dump':

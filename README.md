@@ -1,4 +1,4 @@
-# Nuxt Resources
+# Nuxt Integrations
 
 ## Contribution
 

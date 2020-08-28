@@ -1,18 +1,13 @@
 name: proxy
-short_description: >-
+description: >-
   The one-liner node.js http-proxy middleware solution for Nuxt.js using
   http-proxy-middleware
 long_description: ''
 repo: nuxt-community/proxy-module
-module: {}
-npm:
-  name: '@nuxtjs/proxy'
-  description: >-
-    The one-liner node.js http-proxy middleware solution for Nuxt.js using
-    http-proxy-middleware
-  license: MIT
-labels:
+npm: '@nuxtjs/proxy'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/proxy-module'
 website: 'https://github.com/nuxt-community/proxy-module'

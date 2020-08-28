@@ -1,17 +1,13 @@
 name: axios
-short_description: Secure and easy Axios integration with Nuxt.js
+description: Secure and easy Axios integration with Nuxt.js
 long_description: >-
   Axios is a Promise based HTTP client for the browser and node.js so you can
   easily make http requests in your Nuxt.js application
 repo: nuxt-community/axios-module
-module: {}
-npm:
-  name: '@nuxtjs/axios'
-  description: Secure and easy Axios integration with Nuxt.js
-  license: MIT
-labels:
-  - devtools
+npm: '@nuxtjs/axios'
+keywords:
   - community
+categories: []
 maintainers:
   - name: Pooya Parsa
     github: pi0

@@ -1,14 +1,11 @@
 name: google-optimize
-short_description: SSR friendly Google Optimize module for Nuxt.js
+description: SSR friendly Google Optimize module for Nuxt.js
 long_description: ''
 repo: nuxt-community/google-optimize-module
-module: {}
-npm:
-  name: nuxt-google-optimize
-  description: SSR friendly Google Optimize module for Nuxt.js
-  license: MIT
-labels:
+npm: nuxt-google-optimize
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/google-optimize-module'
 website: 'https://github.com/nuxt-community/google-optimize-module'

@@ -1,14 +1,11 @@
 name: localforage
-short_description: Localforage module for Nuxt.js
+description: Localforage module for Nuxt.js
 long_description: ''
 repo: nuxt-community/localforage-module
-module: {}
-npm:
-  name: '@nuxtjs/localforage'
-  description: Localforage module for Nuxt.js
-  license: MIT
-labels:
+npm: '@nuxtjs/localforage'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/localforage-module'
 website: 'https://github.com/nuxt-community/localforage-module'

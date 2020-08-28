@@ -1,14 +1,11 @@
 name: lunr
-short_description: Full-text search with pre-build indexes for Nuxt.js using lunr.js
+description: Full-text search with pre-build indexes for Nuxt.js using lunr.js
 long_description: ''
 repo: nuxt-community/lunr-module
-module: {}
-npm:
-  name: '@nuxtjs/lunr-module'
-  description: Full-text search with pre-build indexes for Nuxt.js using lunr.js
-  license: MIT
-labels:
+npm: '@nuxtjs/lunr-module'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/lunr-module'
 website: 'https://github.com/nuxt-community/lunr-module'

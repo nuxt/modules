@@ -1,10 +1,10 @@
 # Contribution Guide
 
-## `resources/` directory
+## `integrations/` directory
 
-Structure is `resources/<owner>/<repo>.yml`
+Structure is `integrations/<owner>/<repo>.yml`
 
-## Resource file
+## Integration file
 
 (WIP)
 
@@ -12,12 +12,12 @@ Structure is `resources/<owner>/<repo>.yml`
 
 ### Add/Update repository
 
-`yarn rc sync <owner>/<name>`
+`yarn sync <owner>/<name>`
 
-### Auto update all current resources
+### Auto update all current integrations
 
-`yarn rc sync`
+`yarn  sync`
 
-### Generate `dist/resource.json`
+### Generate `dist/integration.json`
 
-`yarn dump`
+`yarn build`

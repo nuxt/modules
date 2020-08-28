@@ -1,5 +1,5 @@
 name: prismic
-short_description: >-
+description: >-
   Connect your Nuxt application to your content hosted on Prismic and setup
   features like Prismic previews.
 long_description: >-
@@ -7,14 +7,14 @@ long_description: >-
   Also known as a headless CMS, an API CMS, a content platform, a tool that
   easily lets you manage your content.
 repo: nuxt-community/prismic-module
-module: {}
-npm:
-  name: '@nuxtjs/prismic'
-  description: Add Prismic to your NuxtJS project
-  license: MIT
-labels:
+npm: '@nuxtjs/prismic'
+keywords:
   - cms
   - community
+  - nuxt
+  - prismic
+  - vue
+categories: []
 maintainers:
   - name: Lihbr
     github: li_hbr

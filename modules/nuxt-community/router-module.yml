@@ -1,14 +1,11 @@
 name: router
-short_description: Nuxt.js module to use router.js instead of pages/ directory
+description: Nuxt.js module to use router.js instead of pages/ directory
 long_description: ''
 repo: nuxt-community/router-module
-module: {}
-npm:
-  name: '@nuxtjs/router'
-  description: Nuxt.js module to use router.js instead of pages/ directory
-  license: MIT
-labels:
+npm: '@nuxtjs/router'
+keywords:
   - community
+categories: []
 maintainers: []
 github: 'https://github.com/nuxt-community/router-module'
 website: 'https://github.com/nuxt-community/router-module'
