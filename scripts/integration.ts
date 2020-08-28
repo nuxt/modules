@@ -53,6 +53,9 @@ export async function sync(name, repo?: string) {
 
   // Categories
   integration.categories = Array.from(new Set(integration.categories)).map(s => s.toLowerCase()).sort()
+  if (!integration.categories.length) {
+    console.warn('No categories for ' + integration.name)
+  }
 
   // Auto name
   if (!integration.name) {

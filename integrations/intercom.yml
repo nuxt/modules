@@ -8,7 +8,8 @@ github: 'https://github.com/hex-digital/nuxt-intercom'
 website: 'https://github.com/hex-digital/nuxt-intercom'
 keywords:
   - external
-categories: []
+categories:
+  - ecommerce
 maintainers:
   - name: hex-digital
     github: hex-digital

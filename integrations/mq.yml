@@ -14,7 +14,8 @@ keywords:
   - vue
   - vue.js
   - vuejs
-categories: []
+categories:
+  - libraries
 maintainers:
   - name: vanhoofmaarten
     github: vanhoofmaarten

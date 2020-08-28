@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/i18n-module'
 website: 'https://github.com/nuxt-community/i18n-module'
 keywords:
   - community
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Paul Gascou-Vaillancourt
     github: paulgv

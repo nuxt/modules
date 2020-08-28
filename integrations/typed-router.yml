@@ -14,7 +14,8 @@ keywords:
   - nuxt typed
   - nuxt typed router
   - nuxt typed routes
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: victorgarciaesgi
     github: victorgarciaesgi

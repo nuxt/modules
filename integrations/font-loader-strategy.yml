@@ -14,7 +14,8 @@ keywords:
   - preload
   - webfont
   - webworker
-categories: []
+categories:
+  - fonts
 maintainers:
   - name: GrabarzUndPartner
     github: GrabarzUndPartner

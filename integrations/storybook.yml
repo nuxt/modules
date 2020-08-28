@@ -12,7 +12,8 @@ github: 'https://github.com/nuxt-community/storybook'
 website: 'https://storybook.nuxtjs.org'
 keywords:
   - community
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Ahad Birang
     github: farnabaz

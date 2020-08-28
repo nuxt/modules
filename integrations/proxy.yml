@@ -10,7 +10,8 @@ github: 'https://github.com/nuxt-community/proxy-module'
 website: 'https://github.com/nuxt-community/proxy-module'
 keywords:
   - community
-categories: []
+categories:
+  - request
 maintainers:
   - name: Pooya Parsa
     github: pi0

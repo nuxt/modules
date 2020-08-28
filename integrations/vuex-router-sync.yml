@@ -8,7 +8,8 @@ github: 'https://github.com/paulgv/nuxt-vuex-router-sync'
 website: 'https://github.com/paulgv/nuxt-vuex-router-sync'
 keywords:
   - external
-categories: []
+categories:
+  - libraries
 maintainers:
   - name: paulgv
     github: paulgv

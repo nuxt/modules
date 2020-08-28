@@ -8,7 +8,9 @@ github: 'https://github.com/nuxt-community/stylelint-module'
 website: 'https://github.com/nuxt-community/stylelint-module'
 keywords:
   - community
-categories: []
+categories:
+  - css
+  - devtools
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

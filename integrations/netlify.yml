@@ -10,7 +10,8 @@ github: 'https://github.com/bazzite/nuxt-netlify'
 website: 'https://github.com/bazzite/nuxt-netlify'
 keywords:
   - external
-categories: []
+categories:
+  - deployment
 maintainers:
   - name: bazzite
     github: bazzite

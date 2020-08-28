@@ -7,7 +7,7 @@ repo: ezypeeze/nuxt-neo
 npm: nuxt-neo
 type: module
 github: 'https://github.com/ezypeeze/nuxt-neo'
-website: 'https://github.com/ezypeeze/nuxt-neo'
+website: 'https://ezypeeze.github.io/nuxt-neo'
 keywords:
   - action
   - api
@@ -22,7 +22,8 @@ keywords:
   - service
   - universal
   - vue
-categories: []
+categories:
+  - uncategorized
 maintainers:
   - name: ezypeeze
     github: ezypeeze

@@ -12,7 +12,8 @@ keywords:
   - nuxtjs
   - svg
   - svg-loader
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Developmint
     github: Developmint

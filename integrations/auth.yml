@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/auth-module'
 website: 'https://github.com/nuxt-community/auth-module'
 keywords:
   - community
-categories: []
+categories:
+  - security
 maintainers:
   - name: Pooya Parsa
     github: pi0

@@ -12,7 +12,8 @@ keywords:
   - nuxtjs
   - visualize
   - webpack
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Developmint
     github: Developmint

@@ -8,7 +8,8 @@ github: 'https://github.com/gitana/cloudcms-nuxt'
 website: 'https://github.com/gitana/cloudcms-nuxt'
 keywords:
   - external
-categories: []
+categories:
+  - cms
 maintainers:
   - name: gitana
     github: gitana

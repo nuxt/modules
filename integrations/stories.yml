@@ -11,7 +11,8 @@ keywords:
   - painless
   - stories
   - storybook
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: richardeschloss
     github: richardeschloss

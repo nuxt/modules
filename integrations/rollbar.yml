@@ -9,7 +9,7 @@ website: 'https://github.com/zevran/nuxt-rollbar-module'
 keywords:
   - external
 categories:
-  - reporting
+  - monitoring
 maintainers:
   - name: zevran
     github: zevran

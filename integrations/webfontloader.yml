@@ -12,7 +12,8 @@ keywords:
   - nuxtjs
   - webfont
   - webfontloader
-categories: []
+categories:
+  - fonts
 maintainers:
   - name: Developmint
     github: Developmint

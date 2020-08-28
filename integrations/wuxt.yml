@@ -12,7 +12,8 @@ keywords:
   - wordpress
   - wp
   - wp-rest-api
-categories: []
+categories:
+  - cms
 maintainers:
   - name: northosts
     github: northosts

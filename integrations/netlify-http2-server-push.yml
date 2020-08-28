@@ -11,7 +11,8 @@ keywords:
   - http2-server-push
   - netlify
   - nuxtjs
-categories: []
+categories:
+  - deployment
 maintainers:
   - name: jmblog
     github: jmblog

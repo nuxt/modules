@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/pwa-module'
 website: 'https://github.com/nuxt-community/pwa-module'
 keywords:
   - community
-categories: []
+categories:
+  - performance
 maintainers:
   - name: Pooya Parsa
     github: pi0

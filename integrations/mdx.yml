@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/mdx-module'
 website: 'https://github.com/nuxt-community/mdx-module'
 keywords:
   - community
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Jonathan Bakebwa
     github: codebender828

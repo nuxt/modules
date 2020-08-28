@@ -9,6 +9,7 @@ website: 'https://github.com/nuxt-community/tailwindcss-module'
 keywords:
   - community
 categories:
+  - css
   - ui
 maintainers:
   - name: Sébastien Chopin

@@ -8,7 +8,8 @@ github: 'https://github.com/ChanningDefoe/nuxt-mobile-detect'
 website: 'https://github.com/ChanningDefoe/nuxt-mobile-detect'
 keywords:
   - external
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: ChanningDefoe
     github: ChanningDefoe

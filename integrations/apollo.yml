@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/apollo-module'
 website: 'https://github.com/nuxt-community/apollo-module'
 keywords:
   - community
-categories: []
+categories:
+  - request
 maintainers:
   - name: Lam Kieu
     github: kieusonlam

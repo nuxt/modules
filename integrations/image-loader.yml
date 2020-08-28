@@ -13,7 +13,8 @@ keywords:
   - graphicsmagick
   - image-processing
   - images
-categories: []
+categories:
+  - images
 maintainers:
   - name: reallifedigital
     github: reallifedigital

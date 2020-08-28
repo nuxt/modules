@@ -8,7 +8,8 @@ github: 'https://github.com/pimlie/nuxt-rfg-icon'
 website: 'https://github.com/pimlie/nuxt-rfg-icon'
 keywords:
   - external
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: pimlie
     github: pimlie

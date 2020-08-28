@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/lunr-module'
 website: 'https://github.com/nuxt-community/lunr-module'
 keywords:
   - community
-categories: []
+categories:
+  - libraries
 maintainers:
   - name: Pim
     github: pimlie

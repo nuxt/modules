@@ -11,7 +11,8 @@ keywords:
   - nuxtjs
   - redirect
   - seo
-categories: []
+categories:
+  - ceo
 maintainers:
   - name: Alexander Lichter
     github: manniL

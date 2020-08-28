@@ -20,7 +20,8 @@ keywords:
   - vue-plugin
   - vue-warehouse
   - vue.js
-categories: []
+categories:
+  - libraries
 maintainers:
   - name: bazzite
     github: bazzite

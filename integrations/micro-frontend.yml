@@ -8,7 +8,8 @@ github: 'https://github.com/FEMessage/nuxt-micro-frontend'
 website: 'https://github.com/FEMessage/nuxt-micro-frontend'
 keywords:
   - external
-categories: []
+categories:
+  - fonts
 maintainers:
   - name: FEMessage
     github: FEMessage

@@ -8,7 +8,8 @@ github: 'https://github.com/DreaMinder/nuxt-netlify-cache'
 website: 'https://github.com/DreaMinder/nuxt-netlify-cache'
 keywords:
   - external
-categories: []
+categories:
+  - deployment
 maintainers:
   - name: DreaMinder
     github: DreaMinder

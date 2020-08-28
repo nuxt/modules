@@ -13,7 +13,8 @@ keywords:
   - socket.io-client
   - vue
   - vuejs
-categories: []
+categories:
+  - request
 maintainers:
   - name: richardeschloss
     github: richardeschloss

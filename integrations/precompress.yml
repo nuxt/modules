@@ -15,7 +15,8 @@ keywords:
   - gzip
   - nuxt.js
   - vue
-categories: []
+categories:
+  - performance
 maintainers:
   - name: frenchrabbit
     github: frenchrabbit

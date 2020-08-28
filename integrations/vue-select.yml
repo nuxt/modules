@@ -8,7 +8,8 @@ github: 'https://github.com/madmod/nuxt-vue-select'
 website: 'https://github.com/madmod/nuxt-vue-select'
 keywords:
   - external
-categories: []
+categories:
+  - libraries
 maintainers:
   - name: madmod
     github: madmod

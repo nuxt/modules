@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/google-gtag'
 website: 'https://github.com/nuxt-community/google-gtag'
 keywords:
   - community
-categories: []
+categories:
+  - analytics
 maintainers:
   - name: Dominic Garms
     github: dohomi

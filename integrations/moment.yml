@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/moment-module'
 website: 'https://github.com/nuxt-community/moment-module'
 keywords:
   - community
-categories: []
+categories:
+  - time
 maintainers:
   - name: Pooya Parsa
     github: pi0

@@ -13,7 +13,8 @@ keywords:
   - payload-extractor
   - routes
   - static-site-generator
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: GrabarzUndPartner
     github: GrabarzUndPartner

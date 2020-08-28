@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/eslint-module'
 website: 'https://github.com/nuxt-community/eslint-module'
 keywords:
   - community
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

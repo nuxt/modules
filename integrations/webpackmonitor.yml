@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/webpackmonitor-module'
 website: 'https://github.com/nuxt-community/webpackmonitor-module'
 keywords:
   - community
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Pooya Parsa
     github: pi0

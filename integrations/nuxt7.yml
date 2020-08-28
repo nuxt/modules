@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/nuxt7'
 website: 'https://github.com/nuxt-community/nuxt7'
 keywords:
   - community
-categories: []
+categories:
+  - ui
 maintainers:
   - name: Pooya Parsa
     github: pi0

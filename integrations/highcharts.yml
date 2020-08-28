@@ -11,7 +11,8 @@ keywords:
   - highcharts
   - vue
   - vuejs
-categories: []
+categories:
+  - ui
 maintainers:
   - name: richardeschloss
     github: richardeschloss

@@ -12,7 +12,8 @@ keywords:
   - nuxtjs
   - svg
   - vue
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Sam Holmes
     github: sam3d

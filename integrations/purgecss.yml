@@ -11,7 +11,8 @@ keywords:
   - external
   - nuxtjs
   - purgecss
-categories: []
+categories:
+  - css
 maintainers:
   - name: Developmint
     github: Developmint

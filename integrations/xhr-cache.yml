@@ -5,7 +5,7 @@ repo: gaetansenn/xhr-cache
 npm: '@dewib/xhr-cache'
 type: module
 github: 'https://github.com/gaetansenn/xhr-cache'
-website: 'https://github.com/gaetansenn/xhr-cache'
+website: 'https://xhr-cache.dewib.com'
 keywords:
   - api
   - cache
@@ -14,7 +14,9 @@ keywords:
   - nuxtjs
   - ssr
   - static
-categories: []
+categories:
+  - performance
+  - request
 maintainers:
   - name: gaetansenn
     github: gaetansenn

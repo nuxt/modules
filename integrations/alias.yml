@@ -13,7 +13,8 @@ keywords:
   - nuxt-alias-module
   - nuxtjs
   - path
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: kdydesign
     github: kdydesign

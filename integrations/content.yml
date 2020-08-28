@@ -13,7 +13,8 @@ github: 'https://github.com/nuxt/content'
 website: 'https://content.nuxtjs.org'
 keywords:
   - official
-categories: []
+categories:
+  - cms
 maintainers:
   - name: Benjamin Canac
     github: benjamincanac

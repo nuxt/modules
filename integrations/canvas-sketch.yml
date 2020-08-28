@@ -21,7 +21,8 @@ keywords:
   - three-js
   - threejs
   - vuejs
-categories: []
+categories:
+  - uncategorized
 maintainers:
   - name: LuXDAmore
     github: LuXDAmore

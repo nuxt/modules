@@ -10,7 +10,8 @@ keywords:
   - external
   - notifications
   - sweetalert2
-categories: []
+categories:
+  - libraries
 maintainers:
   - name: ImreC
     github: ImreC

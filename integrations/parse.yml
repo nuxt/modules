@@ -10,7 +10,8 @@ keywords:
   - external
   - nuxt.js
   - vue
-categories: []
+categories:
+  - security
 maintainers:
   - name: cierrateam
     github: cierrateam

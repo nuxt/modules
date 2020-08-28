@@ -10,7 +10,8 @@ github: 'https://github.com/nuxt-community/netlify-files-module'
 website: 'https://github.com/nuxt-community/netlify-files-module'
 keywords:
   - community
-categories: []
+categories:
+  - deployment
 maintainers:
   - name: Alexander Lichter
     github: manniL

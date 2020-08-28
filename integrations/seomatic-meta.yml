@@ -14,7 +14,8 @@ keywords:
   - seo
   - seomatic
   - vue
-categories: []
+categories:
+  - cms
 maintainers:
   - name: ben-rogerson
     github: ben-rogerson

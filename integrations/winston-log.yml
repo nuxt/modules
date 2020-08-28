@@ -9,7 +9,7 @@ website: 'https://github.com/aaronransley/nuxt-winston-log'
 keywords:
   - external
 categories:
-  - reporting
+  - monitoring
 maintainers:
   - name: aaronransley
     github: aaronransley

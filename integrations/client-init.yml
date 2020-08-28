@@ -8,7 +8,8 @@ github: 'https://github.com/potato4d/nuxt-client-init-module'
 website: 'https://github.com/potato4d/nuxt-client-init-module'
 keywords:
   - external
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: potato4d
     github: potato4d

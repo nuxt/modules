@@ -8,7 +8,9 @@ github: 'https://github.com/nuxt-community/material-icons-module'
 website: 'https://github.com/nuxt-community/material-icons-module'
 keywords:
   - community
-categories: []
+categories:
+  - fonts
+  - ui
 maintainers:
   - name: Samuell1
     github: Samuell1

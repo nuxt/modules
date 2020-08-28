@@ -8,7 +8,8 @@ github: 'https://github.com/JulianMar/nuxt-bugsnag'
 website: 'https://github.com/JulianMar/nuxt-bugsnag'
 keywords:
   - external
-categories: []
+categories:
+  - monitoring
 maintainers:
   - name: JulianMar
     github: JulianMar

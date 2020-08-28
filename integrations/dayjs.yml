@@ -10,7 +10,8 @@ keywords:
   - community
   - nuxt.js
   - vue
-categories: []
+categories:
+  - time
 maintainers:
   - name: Takuma HANATANI
     github: potato4d

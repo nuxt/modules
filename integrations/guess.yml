@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/guess-module'
 website: 'https://github.com/nuxt-community/guess-module'
 keywords:
   - community
-categories: []
+categories:
+  - performance
 maintainers:
   - name: Xin Du
     github: clarkdo

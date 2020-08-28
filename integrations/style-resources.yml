@@ -15,7 +15,8 @@ keywords:
   - sass
   - style-resources
   - stylus
-categories: []
+categories:
+  - css
 maintainers:
   - name: Alexander Lichter
     github: manniL

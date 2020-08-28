@@ -12,7 +12,8 @@ keywords:
   - material design
   - vue
   - vue material
-categories: []
+categories:
+  - ui
 maintainers:
   - name: vaso2
     github: vaso2

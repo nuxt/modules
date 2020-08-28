@@ -12,7 +12,8 @@ keywords:
   - feature-toggle
   - nuxtjs
   - toggle
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: stephenkr
     github: stephenkr

@@ -8,20 +8,34 @@ github: 'https://github.com/nuxt-community/google-adsense-module'
 website: 'https://github.com/nuxt-community/google-adsense-module'
 keywords:
   - adsense
+  - adsense
   - community
   - google
+  - google
+  - nuxt
   - nuxt
   - nuxt.js
+  - nuxt.js
+  - nuxtjs
   - nuxtjs
   - pwa
+  - pwa
   - ssr
+  - ssr
+  - vue
   - vue
   - vue-router
   - vue2
+  - vue2
+  - vuejs
   - vuejs
   - vuerouter
+  - vuerouter
   - web
-categories: []
+  - web
+categories:
+  - analytics
+  - ecommerce
 maintainers:
   - name: Troy Morehouse
     github: tmorehouse

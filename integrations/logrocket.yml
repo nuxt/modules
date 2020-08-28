@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/nuxt-logrocket'
 website: 'https://github.com/nuxt-community/nuxt-logrocket'
 keywords:
   - community
-categories: []
+categories:
+  - monitoring
 maintainers:
   - name: Farzad Soltani
     github: farzadso

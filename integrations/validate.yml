@@ -12,7 +12,8 @@ keywords:
   - validation
   - vee-validate
   - vuejs
-categories: []
+categories:
+  - libraries
 maintainers:
   - name: lewyuburi
     github: lewyuburi

@@ -8,7 +8,8 @@ github: 'https://github.com/mmoollllee/nuxt-protected-mailto'
 website: 'https://github.com/mmoollllee/nuxt-protected-mailto'
 keywords:
   - external
-categories: []
+categories:
+  - security
 maintainers:
   - name: mmoollllee
     github: mmoollllee

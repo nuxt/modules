@@ -9,8 +9,11 @@ website: 'https://github.com/fukuiretu/nuxt-user-agent'
 keywords:
   - external
   - nuxt.js
+  - nuxt.js
   - useragent
-categories: []
+  - useragent
+categories:
+  - devtools
 maintainers:
   - name: fukuiretu
     github: fukuiretu

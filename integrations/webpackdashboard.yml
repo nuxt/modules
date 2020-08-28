@@ -8,7 +8,8 @@ github: 'https://github.com/paulgv/nuxt-webpackdashboard'
 website: 'https://github.com/paulgv/nuxt-webpackdashboard'
 keywords:
   - external
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: paulgv
     github: paulgv

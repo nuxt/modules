@@ -11,7 +11,9 @@ keywords:
   - fontawesome
   - nuxt-module
   - vue
-categories: []
+categories:
+  - fonts
+  - ui
 maintainers:
   - name: Pim
     github: pimlie

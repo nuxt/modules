@@ -13,7 +13,8 @@ keywords:
   - nuxtjs
   - separate
   - variables
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Alexander Lichter
     github: manniL

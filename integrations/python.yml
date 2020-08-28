@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/python-module'
 website: 'https://github.com/nuxt-community/python-module'
 keywords:
   - community
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Sebastian Silva
     github: icarito

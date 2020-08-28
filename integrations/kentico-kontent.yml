@@ -12,7 +12,8 @@ keywords:
   - kontent
   - nuxtjs
   - vuejs
-categories: []
+categories:
+  - cms
 maintainers:
   - name: Domitnator
     github: Domitnator

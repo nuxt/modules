@@ -8,7 +8,8 @@ github: 'https://github.com/DansMaCulotte/nuxt-zendesk'
 website: 'https://github.com/DansMaCulotte/nuxt-zendesk'
 keywords:
   - external
-categories: []
+categories:
+  - ecommerce
 maintainers:
   - name: DansMaCulotte
     github: DansMaCulotte

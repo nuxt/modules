@@ -8,7 +8,8 @@ github: 'https://github.com/schlunsen/nuxt-leaflet'
 website: 'https://github.com/schlunsen/nuxt-leaflet'
 keywords:
   - external
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: schlunsen
     github: schlunsen

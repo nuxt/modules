@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/robots-module'
 website: 'https://github.com/nuxt-community/robots-module'
 keywords:
   - community
-categories: []
+categories:
+  - ceo
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/date-fns-module'
 website: 'https://github.com/nuxt-community/date-fns-module'
 keywords:
   - community
-categories: []
+categories:
+  - time
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

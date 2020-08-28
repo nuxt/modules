@@ -8,7 +8,8 @@ github: 'https://github.com/moso/nuxt-ghost-blog'
 website: 'https://github.com/moso/nuxt-ghost-blog'
 keywords:
   - external
-categories: []
+categories:
+  - cms
 maintainers:
   - name: moso
     github: moso

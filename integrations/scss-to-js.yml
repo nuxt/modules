@@ -18,7 +18,8 @@ keywords:
   - theme
   - vue
   - vuetify
-categories: []
+categories:
+  - css
 maintainers:
   - name: sugoidesune
     github: sugoidesune

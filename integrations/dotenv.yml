@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/dotenv-module'
 website: 'https://github.com/nuxt-community/dotenv-module'
 keywords:
   - community
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Julien Tant
     github: JulienTant

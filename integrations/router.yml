@@ -8,7 +8,8 @@ github: 'https://github.com/nuxt-community/router-module'
 website: 'https://github.com/nuxt-community/router-module'
 keywords:
   - community
-categories: []
+categories:
+  - devtools
 maintainers:
   - name: Sébastien Chopin
     github: Atinux
