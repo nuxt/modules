@@ -1,6 +1,6 @@
 name: applicationinsights
-description: AppInsights module for Nuxt.js
-license: MIT
+short_description: AppInsights module for Nuxt.js
+long_description: ''
 repo: nuxt-community/applicationinsights-module
 module: {}
 npm:

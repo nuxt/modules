@@ -1,11 +1,11 @@
 name: event-trace
-description: !<tag:yaml.org,2002:js/undefined> ''
-license: MIT
+short_description: ''
+long_description: ''
 repo: nuxt-community/nuxt-event-trace
 module: {}
 npm:
   name: nuxt-event-trace
-  description: !<tag:yaml.org,2002:js/undefined> ''
+  description: ''
   license: MIT
 labels:
   - community

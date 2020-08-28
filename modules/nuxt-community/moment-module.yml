@@ -1,6 +1,6 @@
 name: moment
-description: Efficient Moment.js integration for Nuxt.js
-license: MIT
+short_description: Efficient Moment.js integration for Nuxt.js
+long_description: ''
 repo: nuxt-community/moment-module
 module: {}
 npm:

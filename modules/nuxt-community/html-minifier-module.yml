@@ -1,6 +1,6 @@
 name: html-minifier
-description: ''
-license: MIT
+short_description: ''
+long_description: ''
 repo: nuxt-community/html-minifier-module
 module: {}
 npm:

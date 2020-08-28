@@ -1,6 +1,6 @@
 name: svg
-description: Super simple svg loading module for Nuxt.js
-license: MIT
+short_description: Super simple svg loading module for Nuxt.js
+long_description: ''
 repo: nuxt-community/svg-module
 module: {}
 npm:

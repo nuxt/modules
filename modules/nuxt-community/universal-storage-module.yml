@@ -1,6 +1,6 @@
 name: universal-storage
-description: Universal Storage Utilities for Nuxt.js
-license: MIT
+short_description: Universal Storage Utilities for Nuxt.js
+long_description: ''
 repo: nuxt-community/universal-storage-module
 module: {}
 npm:

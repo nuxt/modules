@@ -1,11 +1,10 @@
 {
   "name": "@nuxt/modules",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "dist",
-    "modules"
+    "dist"
   ],
   "scripts": {
     "rc": "ts-node ./scripts/cli",

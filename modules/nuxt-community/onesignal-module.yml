@@ -1,6 +1,6 @@
 name: onesignal
-description: OneSignal module for Nuxt.js
-license: MIT
+short_description: OneSignal module for Nuxt.js
+long_description: ''
 repo: nuxt-community/onesignal-module
 module: {}
 npm:

@@ -22,15 +22,10 @@ export async function sync(repo) {
 
   // Fetch latest package.json from github
   const pkg = await fetchGithubPkg(repo)
-  Object.assign(resource, {
-    npm_name: pkg.name,
-    description: pkg.description,
-    license: pkg.license
-  })
   resource.npm = {
     name: pkg.name,
-    description: pkg.description,
-    license: pkg.license
+    description: pkg.description || '',
+    license: pkg.license || ''
   }
 
   // Labels
@@ -58,6 +53,11 @@ export async function sync(repo) {
     }
   }
 
+  // Default description
+  if (!resource.short_description) {
+    resource.short_description = resource.npm.description
+  }
+
   // Write resource
   await mkdirp(dirname(resourceFile))
   await writeResource(resourceFile, resource)
@@ -68,7 +68,8 @@ export async function sync(repo) {
 export function createResource(rc) {
   const defaults = {
     name: '',
-    description: '',
+    short_description: '',
+    long_description: '',
     license: '',
     repo: '',
     module: {},

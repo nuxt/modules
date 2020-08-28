@@ -1,6 +1,6 @@
 name: router
-description: Nuxt.js module to use router.js instead of pages/ directory
-license: MIT
+short_description: Nuxt.js module to use router.js instead of pages/ directory
+long_description: ''
 repo: nuxt-community/router-module
 module: {}
 npm:

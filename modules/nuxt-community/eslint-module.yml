@@ -1,6 +1,6 @@
 name: eslint
-description: ESLint module for Nuxt.js
-license: MIT
+short_description: ESLint module for Nuxt.js
+long_description: ''
 repo: nuxt-community/eslint-module
 module: {}
 npm:

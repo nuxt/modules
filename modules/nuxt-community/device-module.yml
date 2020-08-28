@@ -1,6 +1,6 @@
 name: device
-description: Device detection module for Nuxt.js
-license: MIT
+short_description: Device detection module for Nuxt.js
+long_description: ''
 repo: nuxt-community/device-module
 module: {}
 npm:

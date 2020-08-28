@@ -1,11 +1,11 @@
 name: apollo
-description: !<tag:yaml.org,2002:js/undefined> ''
-license: MIT
+short_description: ''
+long_description: ''
 repo: nuxt-community/apollo-module
 module: {}
 npm:
   name: '@nuxtjs/apollo'
-  description: !<tag:yaml.org,2002:js/undefined> ''
+  description: ''
   license: MIT
 labels:
   - community

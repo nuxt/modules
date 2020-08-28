@@ -1,6 +1,6 @@
 name: amp
-description: AMP Module for Nuxt
-license: MIT
+short_description: AMP Module for Nuxt
+long_description: ''
 repo: nuxt-community/amp-module
 module: {}
 npm:

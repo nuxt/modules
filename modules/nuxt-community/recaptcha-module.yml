@@ -1,6 +1,6 @@
 name: recaptcha
-description: Simple and easy Google reCAPTCHA integration with Nuxt.js
-license: MIT
+short_description: Simple and easy Google reCAPTCHA integration with Nuxt.js
+long_description: ''
 repo: nuxt-community/recaptcha-module
 module: {}
 npm:

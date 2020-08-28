@@ -1,6 +1,6 @@
 name: vuetify
-description: Vuetify Module for Nuxt.js
-license: MIT
+short_description: Vuetify Module for Nuxt.js
+long_description: ''
 repo: nuxt-community/vuetify-module
 module: {}
 npm:

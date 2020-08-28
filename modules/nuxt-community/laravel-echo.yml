@@ -1,6 +1,6 @@
 name: laravel-echo
-description: Laravel Echo for Nuxt.js
-license: MIT
+short_description: Laravel Echo for Nuxt.js
+long_description: ''
 repo: nuxt-community/laravel-echo
 module: {}
 npm:

@@ -1,6 +1,6 @@
 name: emotion
-description: The Next Generation of CSS-in-JS for Nuxt.js
-license: MIT
+short_description: The Next Generation of CSS-in-JS for Nuxt.js
+long_description: ''
 repo: nuxt-community/emotion-module
 module: {}
 npm:

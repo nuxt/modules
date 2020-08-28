@@ -1,6 +1,6 @@
 name: http
-description: Universal HTTP Module for Nuxt.js
-license: MIT
+short_description: Universal HTTP Module for Nuxt.js
+long_description: ''
 repo: nuxt/http
 module: {}
 npm:

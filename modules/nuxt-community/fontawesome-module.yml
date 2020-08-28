@@ -1,6 +1,6 @@
 name: fontawesome
-description: Module to join nuxt and Fontawesome 5
-license: MIT
+short_description: Module to join nuxt and Fontawesome 5
+long_description: ''
 repo: nuxt-community/fontawesome-module
 module: {}
 npm:

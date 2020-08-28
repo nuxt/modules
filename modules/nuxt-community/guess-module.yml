@@ -1,6 +1,6 @@
 name: guess
-description: Guess.js module for Nuxt.js
-license: MIT
+short_description: Guess.js module for Nuxt.js
+long_description: ''
 repo: nuxt-community/guess-module
 module: {}
 npm:

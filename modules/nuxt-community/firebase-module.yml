@@ -1,6 +1,6 @@
 name: firebase
-description: Intergrate Firebase into your Nuxt project.
-license: MIT
+short_description: Intergrate Firebase into your Nuxt project.
+long_description: ''
 repo: nuxt-community/firebase-module
 module: {}
 npm:

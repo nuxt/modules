@@ -1,6 +1,6 @@
 name: lunr
-description: Full-text search with pre-build indexes for Nuxt.js using lunr.js
-license: MIT
+short_description: Full-text search with pre-build indexes for Nuxt.js using lunr.js
+long_description: ''
 repo: nuxt-community/lunr-module
 module: {}
 npm:

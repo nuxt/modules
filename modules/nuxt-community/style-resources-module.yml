@@ -1,6 +1,6 @@
 name: style-resources
-description: ''
-license: MIT
+short_description: ''
+long_description: ''
 repo: nuxt-community/style-resources-module
 module: {}
 npm:

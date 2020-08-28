@@ -1,6 +1,6 @@
 name: observable
-description: Vue.observable() state module for Nuxt.js
-license: MIT
+short_description: Vue.observable() state module for Nuxt.js
+long_description: ''
 repo: nuxt-community/observable-module
 module: {}
 npm:

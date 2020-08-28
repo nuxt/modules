@@ -1,6 +1,6 @@
 name: redirect
-description: Nuxt module to dynamically redirect initial requests
-license: MIT
+short_description: Nuxt module to dynamically redirect initial requests
+long_description: ''
 repo: nuxt-community/redirect-module
 module: {}
 npm:

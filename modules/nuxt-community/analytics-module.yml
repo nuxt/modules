@@ -1,6 +1,6 @@
 name: google-analytics
-description: Google Analytics Module for Nuxt.js
-license: MIT
+short_description: Google Analytics Module for Nuxt.js
+long_description: ''
 repo: nuxt-community/analytics-module
 module: {}
 npm:

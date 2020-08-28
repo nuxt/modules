@@ -1,6 +1,6 @@
 name: logrocket
-description: LogRocket module for Nuxt.js
-license: MIT
+short_description: LogRocket module for Nuxt.js
+long_description: ''
 repo: nuxt-community/nuxt-logrocket
 module: {}
 npm:
