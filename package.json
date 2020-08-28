@@ -8,7 +8,8 @@
     "modules"
   ],
   "scripts": {
-    "rc": "ts-node ./lib/cli"
+    "rc": "ts-node ./scripts/cli",
+    "build": "yarn rc dump"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^3.0.0",
