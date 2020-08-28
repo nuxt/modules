@@ -21,10 +21,9 @@ maintainers:
     github: Atinux
     twitter: Atinux
     avatar: 'https://github.com/Atinux.png'
-  - name: Lihbr
-    github: lihbr
-    twitter: li_hbr
-    avatar: 'https://github.com/li_hbr.png'
+  - name: James Pegg
+    github: jamespegg
+    avatar: 'https://github.com/jamespegg.png'
 logo: 'https://prismic.nuxtjs.org/icon.png'
 image: 'https://prismic.nuxtjs.org/preview.png'
 features:

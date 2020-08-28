@@ -1,5 +1,5 @@
 name: apollo
-description: !<tag:yaml.org,2002:js/undefined> ''
+description: Nuxt.js module to use vue-apollo
 long_description: ''
 repo: nuxt-community/apollo-module
 npm: '@nuxtjs/apollo'
