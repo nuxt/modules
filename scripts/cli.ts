@@ -7,7 +7,7 @@ async function main() {
     case 'sync':
       const [name, repo] = args
       if (name) {
-        console.log('Syncing ' + name)
+        console.log('Syncing ' + (name === '-' ? repo : name))
         const integration = await sync(name, repo)
         console.log('Synced', integration.name)
       } else {

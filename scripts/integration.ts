@@ -15,6 +15,7 @@ export async function sync(name, repo?: string) {
   if (repo) {
     integration.repo = repo
   }
+
   if (!integration.repo) {
     throw new Error('repo not provided for ' + name)
   }
