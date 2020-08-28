@@ -12,4 +12,7 @@ keywords:
   - nuxt-module
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: Pim
+    github: pimlie
+    avatar: 'https://github.com/pimlie.png'

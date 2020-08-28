@@ -22,4 +22,7 @@ keywords:
   - community
   - vue-router
 categories: []
-maintainers: []
+maintainers:
+  - name: Troy Morehouse
+    github: tmorehouse
+    avatar: 'https://github.com/tmorehouse.png'

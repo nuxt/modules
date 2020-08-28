@@ -14,4 +14,7 @@ keywords:
   - googleauthentication
   - realtimedatabase
 categories: []
-maintainers: []
+maintainers:
+  - name: Pascal Luther
+    github: lupas
+    avatar: 'https://github.com/lupas.png'

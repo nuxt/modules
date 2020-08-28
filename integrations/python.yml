@@ -9,4 +9,7 @@ website: 'https://github.com/nuxt-community/python-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Sebastian Silva
+    github: icarito
+    avatar: 'https://github.com/icarito.png'

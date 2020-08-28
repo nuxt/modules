@@ -12,4 +12,8 @@ keywords:
   - redirect
   - seo
 categories: []
-maintainers: []
+maintainers:
+  - name: Alexander Lichter
+    github: manniL
+    twitter: TheAlexLichter
+    avatar: 'https://github.com/manniL.png'

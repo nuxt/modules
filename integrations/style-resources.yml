@@ -16,4 +16,8 @@ keywords:
   - style-resources
   - stylus
 categories: []
-maintainers: []
+maintainers:
+  - name: Alexander Lichter
+    github: manniL
+    twitter: TheAlexLichter
+    avatar: 'https://github.com/manniL.png'

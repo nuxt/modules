@@ -13,4 +13,7 @@ keywords:
   - svg
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: Sam Holmes
+    github: sam3d
+    avatar: 'https://github.com/sam3d.png'

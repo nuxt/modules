@@ -9,4 +9,7 @@ website: 'https://github.com/nuxt-community/dotenv-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Julien Tant
+    github: JulienTant
+    avatar: 'https://github.com/JulienTant.png'

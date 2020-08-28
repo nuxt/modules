@@ -9,4 +9,11 @@ website: 'https://github.com/nuxt-community/vuetify-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Kevin Marrec
+    github: kevinmarrec
+    avatar: 'https://github.com/kevinmarrec.png'
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'

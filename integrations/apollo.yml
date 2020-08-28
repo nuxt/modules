@@ -9,4 +9,10 @@ website: 'https://github.com/nuxt-community/apollo-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Lam Kieu
+    github: kieusonlam
+    avatar: 'https://github.com/kieusonlam.png'
+  - name: Dominic Garms
+    github: dohomi
+    avatar: 'https://github.com/dohomi.png'

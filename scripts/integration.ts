@@ -68,6 +68,8 @@ export async function sync(name, repo?: string) {
         name: owner,
         github: owner
       })
+    } else {
+      console.warn('No maintainer for ' + integration.name)
     }
   }
 

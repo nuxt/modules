@@ -9,4 +9,7 @@ website: 'https://github.com/nuxt-community/sentry-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Rafał Chłodnicki
+    github: rchl
+    avatar: 'https://github.com/rchl.png'

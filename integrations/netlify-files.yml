@@ -11,4 +11,8 @@ website: 'https://github.com/nuxt-community/netlify-files-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Alexander Lichter
+    github: manniL
+    twitter: TheAlexLichter
+    avatar: 'https://github.com/manniL.png'

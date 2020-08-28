@@ -9,4 +9,7 @@ website: 'https://github.com/nuxt-community/lunr-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Pim
+    github: pimlie
+    avatar: 'https://github.com/pimlie.png'

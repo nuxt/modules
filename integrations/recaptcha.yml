@@ -13,4 +13,7 @@ keywords:
   - nuxtjs
   - recaptcha
 categories: []
-maintainers: []
+maintainers:
+  - name: mvrlin
+    github: mvrlin
+    avatar: 'https://github.com/mvrlin.png'

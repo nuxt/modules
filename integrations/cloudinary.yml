@@ -9,4 +9,8 @@ website: 'https://github.com/nuxt-community/cloudinary-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Maya Shavin
+    github: mayashavin
+    twitter: MayaShavin
+    avatar: 'https://github.com/mayashavin.png'

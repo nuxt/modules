@@ -9,4 +9,8 @@ website: 'https://github.com/nuxt-community/nuxt-logrocket'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Farzad Soltani
+    github: farzadso
+    twitter: farzadso
+    avatar: 'https://github.com/farzadso.png'

@@ -9,4 +9,8 @@ website: 'https://github.com/nuxt-community/mdx-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Jonathan Bakebwa
+    github: codebender828
+    twitter: codebender828
+    avatar: 'https://github.com/codebender828.png'

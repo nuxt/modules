@@ -9,4 +9,8 @@ website: 'https://github.com/nuxt-community/amp-module'
 keywords:
   - community
 categories: []
-maintainers: []
+maintainers:
+  - name: Ahad Birang
+    github: farnabaz
+    twitter: a_birang
+    avatar: 'https://github.com/farnabaz.png'
