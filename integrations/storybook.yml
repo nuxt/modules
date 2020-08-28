@@ -21,7 +21,7 @@ features:
   - Nuxt webpack configuration
   - Nuxt plugins support
   - Story discovery from nuxt modules
-authors:
+maintainers:
   - name: Ahad Birang
     github: farnabaz
     twitter: a_birang
