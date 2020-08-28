@@ -1,0 +1,12 @@
+name: mobile
+description: Nuxt mobile-detect integration
+long_description: ''
+repo: ChanningDefoe/nuxt-mobile-detect
+npm: nuxt-mobile
+type: module
+github: 'https://github.com/ChanningDefoe/nuxt-mobile-detect'
+website: 'https://github.com/ChanningDefoe/nuxt-mobile-detect'
+keywords:
+  - external
+categories: []
+maintainers: []

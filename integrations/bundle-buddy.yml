@@ -1,0 +1,16 @@
+name: bundle-buddy
+description: 'Don''t fight your webpack bundle, become friends!'
+long_description: ''
+repo: Developmint/nuxt-bundle-buddy
+npm: nuxt-bundle-buddy
+type: module
+github: 'https://github.com/Developmint/nuxt-bundle-buddy'
+website: 'https://github.com/Developmint/nuxt-bundle-buddy'
+keywords:
+  - bundle-buddy
+  - external
+  - nuxtjs
+  - visualize
+  - webpack
+categories: []
+maintainers: []

@@ -1,0 +1,26 @@
+name: neo
+description: >-
+  A nuxt.js module that implements a universal api layer, same-way compatible
+  between server and client side.
+long_description: ''
+repo: ezypeeze/nuxt-neo
+npm: nuxt-neo
+type: module
+github: 'https://github.com/ezypeeze/nuxt-neo'
+website: 'https://github.com/ezypeeze/nuxt-neo'
+keywords:
+  - action
+  - api
+  - asyncdata
+  - controller
+  - external
+  - fetch
+  - javascript
+  - middleware
+  - neo
+  - node
+  - service
+  - universal
+  - vue
+categories: []
+maintainers: []

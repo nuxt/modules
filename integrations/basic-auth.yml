@@ -1,0 +1,16 @@
+name: basic-auth
+description: Provide basic authentication to your Nuxt.js application
+long_description: ''
+repo: potato4d/nuxt-basic-auth-module
+npm: nuxt-basic-auth-module
+type: module
+github: 'https://github.com/potato4d/nuxt-basic-auth-module'
+website: 'https://github.com/potato4d/nuxt-basic-auth-module'
+keywords:
+  - authentication
+  - basic auth
+  - external
+  - nuxt.js
+  - vue
+categories: []
+maintainers: []

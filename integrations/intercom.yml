@@ -1,0 +1,12 @@
+name: intercom
+description: Intercom Module for Nuxt.js
+long_description: ''
+repo: hex-digital/nuxt-intercom
+npm: '@hexdigital/nuxt-intercom'
+type: module
+github: 'https://github.com/hex-digital/nuxt-intercom'
+website: 'https://github.com/hex-digital/nuxt-intercom'
+keywords:
+  - external
+categories: []
+maintainers: []

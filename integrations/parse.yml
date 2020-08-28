@@ -1,0 +1,14 @@
+name: parse
+description: A parse module for Nuxt.js
+long_description: ''
+repo: cierrateam/nuxt-parse
+npm: nuxt-parse
+type: module
+github: 'https://github.com/cierrateam/nuxt-parse'
+website: 'https://github.com/cierrateam/nuxt-parse'
+keywords:
+  - external
+  - nuxt.js
+  - vue
+categories: []
+maintainers: []

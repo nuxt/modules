@@ -1,0 +1,12 @@
+name: vue-multiselect
+description: Leverage vue-multiselect
+long_description: ''
+repo: spektrummedia/nuxt-vue-multiselect
+npm: nuxt-vue-multiselect
+type: module
+github: 'https://github.com/spektrummedia/nuxt-vue-multiselect'
+website: 'https://github.com/spektrummedia/nuxt-vue-multiselect'
+keywords:
+  - external
+categories: []
+maintainers: []

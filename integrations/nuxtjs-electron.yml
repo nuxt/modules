@@ -1,0 +1,15 @@
+name: nuxtjs-electron
+description: !<tag:yaml.org,2002:js/undefined> ''
+long_description: ''
+repo: nurdism/nuxtjs-electron
+npm: nuxtjs-electron
+type: module
+github: 'https://github.com/nurdism/nuxtjs-electron'
+website: 'https://github.com/nurdism/nuxtjs-electron'
+keywords:
+  - electron
+  - external
+  - nuxtjs
+  - vue
+categories: []
+maintainers: []

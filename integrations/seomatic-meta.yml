@@ -1,0 +1,18 @@
+name: seomatic-meta
+description: A Nuxt.js module connecting Nuxt.js to the Craft CMS SEOmatic plugin
+long_description: ''
+repo: ben-rogerson/nuxt-seomatic-meta
+npm: nuxt-seomatic-meta
+type: module
+github: 'https://github.com/ben-rogerson/nuxt-seomatic-meta'
+website: 'https://github.com/ben-rogerson/nuxt-seomatic-meta'
+keywords:
+  - craft
+  - craftcms
+  - external
+  - nuxtjs
+  - seo
+  - seomatic
+  - vue
+categories: []
+maintainers: []

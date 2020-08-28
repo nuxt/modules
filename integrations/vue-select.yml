@@ -1,0 +1,12 @@
+name: vue-select
+description: Nuxt module for vue-select
+long_description: ''
+repo: madmod/nuxt-vue-select
+npm: nuxt-vue-select
+type: module
+github: 'https://github.com/madmod/nuxt-vue-select'
+website: 'https://github.com/madmod/nuxt-vue-select'
+keywords:
+  - external
+categories: []
+maintainers: []

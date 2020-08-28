@@ -1,0 +1,18 @@
+name: font-loader-strategy
+description: Helps to load fonts and activate them by preloading.
+long_description: ''
+repo: GrabarzUndPartner/nuxt-font-loader-strategy
+npm: nuxt-font-loader-strategy
+type: module
+github: 'https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy'
+website: 'https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy'
+keywords:
+  - external
+  - font
+  - nuxtjs
+  - prefetch
+  - preload
+  - webfont
+  - webworker
+categories: []
+maintainers: []

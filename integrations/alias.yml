@@ -1,0 +1,17 @@
+name: alias
+description: It automatically creates an alias for the components and page of the path
+long_description: ''
+repo: kdydesign/nuxt-alias-module
+npm: nuxt-alias
+type: module
+github: 'https://github.com/kdydesign/nuxt-alias-module'
+website: 'https://github.com/kdydesign/nuxt-alias-module'
+keywords:
+  - alias
+  - external
+  - nuxt-alias
+  - nuxt-alias-module
+  - nuxtjs
+  - path
+categories: []
+maintainers: []

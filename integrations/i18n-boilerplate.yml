@@ -1,0 +1,12 @@
+name: i18n-boilerplate
+description: A boilerplate for rapid application development using Nuxt i18n.
+long_description: ''
+repo: Wssn/nuxt-i18n-boilerplate
+npm: nuxt-i18n-boilerplate
+type: module
+github: 'https://github.com/Wssn/nuxt-i18n-boilerplate'
+website: 'https://github.com/Wssn/nuxt-i18n-boilerplate'
+keywords:
+  - external
+categories: []
+maintainers: []

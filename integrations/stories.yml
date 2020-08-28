@@ -1,0 +1,15 @@
+name: stories
+description: Nuxt stories module -- Painless storybooking for Nuxt
+long_description: ''
+repo: richardeschloss/nuxt-stories
+npm: nuxt-stories
+type: module
+github: 'https://github.com/richardeschloss/nuxt-stories'
+website: 'https://github.com/richardeschloss/nuxt-stories'
+keywords:
+  - external
+  - painless
+  - stories
+  - storybook
+categories: []
+maintainers: []

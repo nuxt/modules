@@ -1,0 +1,17 @@
+name: matomo
+description: Matomo analytics for Nuxt.js
+long_description: ''
+repo: pimlie/nuxt-matomo
+npm: nuxt-matomo
+type: module
+github: 'https://github.com/pimlie/nuxt-matomo'
+website: 'https://github.com/pimlie/nuxt-matomo'
+keywords:
+  - analytics
+  - external
+  - matomo
+  - nuxt.js
+  - nuxtjs
+  - piwik
+categories: []
+maintainers: []

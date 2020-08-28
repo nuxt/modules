@@ -1,0 +1,15 @@
+name: babel
+description: This plugin allows to have normal .babelrc file with your Nuxt app
+long_description: ''
+repo: wemake-services/nuxt-babel
+npm: nuxt-babel
+type: module
+github: 'https://github.com/wemake-services/nuxt-babel'
+website: 'https://github.com/wemake-services/nuxt-babel'
+keywords:
+  - babel
+  - babelrc
+  - external
+  - vue
+categories: []
+maintainers: []

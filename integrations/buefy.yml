@@ -1,0 +1,12 @@
+name: buefy
+description: Nuxt buefy
+long_description: ''
+repo: buefy/nuxt-buefy
+npm: nuxt-buefy
+type: module
+github: 'https://github.com/buefy/nuxt-buefy'
+website: 'https://github.com/buefy/nuxt-buefy'
+keywords:
+  - external
+categories: []
+maintainers: []

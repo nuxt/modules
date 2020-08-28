@@ -1,0 +1,12 @@
+name: micro-frontend
+description: Using front-end microservices with Nuxt
+long_description: ''
+repo: FEMessage/nuxt-micro-frontend
+npm: '@femessage/nuxt-micro-frontend'
+type: module
+github: 'https://github.com/FEMessage/nuxt-micro-frontend'
+website: 'https://github.com/FEMessage/nuxt-micro-frontend'
+keywords:
+  - external
+categories: []
+maintainers: []

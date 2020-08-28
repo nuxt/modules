@@ -1,0 +1,16 @@
+name: webfontloader
+description: Efficient web font loading has never been easier!
+long_description: ''
+repo: Developmint/nuxt-webfontloader
+npm: nuxt-webfontloader
+type: module
+github: 'https://github.com/Developmint/nuxt-webfontloader'
+website: 'https://github.com/Developmint/nuxt-webfontloader'
+keywords:
+  - external
+  - font
+  - nuxtjs
+  - webfont
+  - webfontloader
+categories: []
+maintainers: []

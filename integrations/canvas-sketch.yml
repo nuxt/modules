@@ -1,0 +1,25 @@
+name: canvas-sketch
+description: >-
+  Generative Art is the idea realized as genetic code of artificial events, as
+  construction of dynamic complex systems able to generate endless variations.
+  And to make it easy to do, this is also a nuxt-module (nuxt-canvas-sketch) -
+  (threejs is not included).
+long_description: ''
+repo: LuXDAmore/generative-art
+npm: '@luxdamore/nuxt-canvas-sketch'
+type: module
+github: 'https://github.com/LuXDAmore/generative-art'
+website: 'https://github.com/LuXDAmore/generative-art'
+keywords:
+  - canvas
+  - canvas-sketch
+  - external
+  - generative-art
+  - modules
+  - nuxtjs
+  - performance
+  - three-js
+  - threejs
+  - vuejs
+categories: []
+maintainers: []

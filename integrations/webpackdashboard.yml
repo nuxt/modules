@@ -1,0 +1,12 @@
+name: webpackdashboard
+description: Webpack Dashboard integration for Nuxt
+long_description: ''
+repo: paulgv/nuxt-webpackdashboard
+npm: nuxt-webpackdashboard
+type: module
+github: 'https://github.com/paulgv/nuxt-webpackdashboard'
+website: 'https://github.com/paulgv/nuxt-webpackdashboard'
+keywords:
+  - external
+categories: []
+maintainers: []

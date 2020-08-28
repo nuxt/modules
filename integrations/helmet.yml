@@ -1,0 +1,22 @@
+name: helmet
+description: Helmet for nuxt
+long_description: ''
+repo: victor-perez/nuxt-helmet
+npm: nuxt-helmet
+type: module
+github: 'https://github.com/victor-perez/nuxt-helmet'
+website: 'https://github.com/victor-perez/nuxt-helmet'
+keywords:
+  - clickjack
+  - csp
+  - external
+  - headers
+  - helmet
+  - helmet.js
+  - hsts
+  - nuxt.js
+  - nuxtjs
+  - security
+  - x-frame-options
+categories: []
+maintainers: []

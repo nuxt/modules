@@ -1,0 +1,13 @@
+name: typescript
+description: TypeScript module for Nuxt
+long_description: ''
+repo: wagerfield/nuxt-typescript
+npm: nuxt-typescript
+type: module
+github: 'https://github.com/wagerfield/nuxt-typescript'
+website: 'https://github.com/wagerfield/nuxt-typescript'
+keywords:
+  - external
+  - typescript
+categories: []
+maintainers: []

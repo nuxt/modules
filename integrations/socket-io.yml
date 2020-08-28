@@ -1,0 +1,17 @@
+name: socket-io
+description: Socket.io client and server module for Nuxt. Just plug it in and GO
+long_description: ''
+repo: richardeschloss/nuxt-socket-io
+npm: nuxt-socket-io
+type: module
+github: 'https://github.com/richardeschloss/nuxt-socket-io'
+website: 'https://github.com/richardeschloss/nuxt-socket-io'
+keywords:
+  - easy
+  - external
+  - socket.io
+  - socket.io-client
+  - vue
+  - vuejs
+categories: []
+maintainers: []

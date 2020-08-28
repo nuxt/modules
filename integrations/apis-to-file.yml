@@ -1,0 +1,24 @@
+name: apis-to-file
+description: >-
+  Nuxt module to merge and transform API calls into a single file, like a
+  payload extractor
+long_description: ''
+repo: LuXDAmore/nuxt-apis-to-file
+npm: '@luxdamore/nuxt-apis-to-file'
+type: module
+github: 'https://github.com/LuXDAmore/nuxt-apis-to-file'
+website: 'https://github.com/LuXDAmore/nuxt-apis-to-file'
+keywords:
+  - apis
+  - axios
+  - build
+  - external
+  - file
+  - json
+  - json-data
+  - modules
+  - nuxtjs
+  - performance
+  - vuejs
+categories: []
+maintainers: []

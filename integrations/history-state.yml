@@ -1,0 +1,12 @@
+name: history-state
+description: Nuxt.js module to backup or restore historical states
+long_description: ''
+repo: hidekatsu-izuno/nuxt-history-state
+npm: nuxt-history-state
+type: module
+github: 'https://github.com/hidekatsu-izuno/nuxt-history-state'
+website: 'https://github.com/hidekatsu-izuno/nuxt-history-state'
+keywords:
+  - external
+categories: []
+maintainers: []

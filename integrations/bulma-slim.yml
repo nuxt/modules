@@ -1,0 +1,22 @@
+name: bulma-slim
+description: >-
+  Nuxt.js module to automatically make a slim Bulma build of used features with
+  Purgecss
+long_description: ''
+repo: mustardamus/nuxt-bulma-slim
+npm: nuxt-bulma-slim
+type: module
+github: 'https://github.com/mustardamus/nuxt-bulma-slim'
+website: 'https://github.com/mustardamus/nuxt-bulma-slim'
+keywords:
+  - bulma
+  - bulma css
+  - external
+  - nuxt module
+  - nuxt.js
+  - purgecss
+  - sass
+  - scss
+  - slim
+categories: []
+maintainers: []

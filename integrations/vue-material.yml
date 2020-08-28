@@ -1,0 +1,16 @@
+name: vue-material
+description: Module to join nuxt and vue-material framework
+long_description: ''
+repo: vaso2/nuxt-vue-material
+npm: nuxt-vue-material
+type: module
+github: 'https://github.com/vaso2/nuxt-vue-material'
+website: 'https://github.com/vaso2/nuxt-vue-material'
+keywords:
+  - external
+  - material
+  - material design
+  - vue
+  - vue material
+categories: []
+maintainers: []

@@ -1,0 +1,15 @@
+name: test-utils
+description: Nuxt test utilities (a single home for all your favorite testing utils)
+long_description: ''
+repo: richardeschloss/nuxt-test-utils
+npm: nuxt-test-utils
+type: module
+github: 'https://github.com/richardeschloss/nuxt-test-utils'
+website: 'https://github.com/richardeschloss/nuxt-test-utils'
+keywords:
+  - external
+  - test
+  - utils
+  - vue
+categories: []
+maintainers: []

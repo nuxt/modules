@@ -1,0 +1,16 @@
+name: kentico-kontent
+description: Add Kentico Kontent super power to your nuxt app
+long_description: ''
+repo: Domitnator/kentico-kontent-nuxt-module
+npm: kentico-kontent-nuxt-module
+type: module
+github: 'https://github.com/Domitnator/kentico-kontent-nuxt-module'
+website: 'https://github.com/Domitnator/kentico-kontent-nuxt-module'
+keywords:
+  - external
+  - kentico
+  - kontent
+  - nuxtjs
+  - vuejs
+categories: []
+maintainers: []

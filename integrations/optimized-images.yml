@@ -1,0 +1,14 @@
+name: optimized-images
+description: >-
+  Automatically optimizes images used in Nuxt.js projects (jpeg, png, svg, webp
+  and gif).
+long_description: ''
+repo: bazzite/nuxt-optimized-images
+npm: '@aceforth/nuxt-optimized-images'
+type: module
+github: 'https://github.com/bazzite/nuxt-optimized-images'
+website: 'https://github.com/bazzite/nuxt-optimized-images'
+keywords:
+  - external
+categories: []
+maintainers: []

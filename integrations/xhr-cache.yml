@@ -1,0 +1,18 @@
+name: xhr-cache
+description: Cache api resources and serve it as static resource
+long_description: ''
+repo: gaetansenn/xhr-cache
+npm: '@dewib/xhr-cache'
+type: module
+github: 'https://github.com/gaetansenn/xhr-cache'
+website: 'https://github.com/gaetansenn/xhr-cache'
+keywords:
+  - api
+  - cache
+  - external
+  - faster
+  - nuxtjs
+  - ssr
+  - static
+categories: []
+maintainers: []

@@ -1,0 +1,14 @@
+name: payload-extractor
+description: >-
+  Nuxt.js module that makes `nuxt generate` command to store html and payload
+  separately.
+long_description: ''
+repo: DreaMinder/nuxt-payload-extractor
+npm: nuxt-payload-extractor
+type: module
+github: 'https://github.com/DreaMinder/nuxt-payload-extractor'
+website: 'https://github.com/DreaMinder/nuxt-payload-extractor'
+keywords:
+  - external
+categories: []
+maintainers: []

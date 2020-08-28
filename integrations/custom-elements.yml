@@ -1,0 +1,17 @@
+name: custom-elements
+description: Publish your Components as a vue-custom-element standalone build.
+long_description: ''
+repo: GrabarzUndPartner/nuxt-custom-elements
+npm: nuxt-custom-elements
+type: module
+github: 'https://github.com/GrabarzUndPartner/nuxt-custom-elements'
+website: 'https://github.com/GrabarzUndPartner/nuxt-custom-elements'
+keywords:
+  - custom-element
+  - external
+  - nuxtjs
+  - shadow-dom
+  - vue-custom-element
+  - vuejs
+categories: []
+maintainers: []

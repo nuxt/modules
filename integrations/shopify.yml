@@ -1,0 +1,17 @@
+name: shopify
+description: Easy Shopify Buy client integration with Nuxt.js
+long_description: ''
+repo: Gomah/nuxt-shopify
+npm: nuxt-shopify
+type: module
+github: 'https://github.com/Gomah/nuxt-shopify'
+website: 'https://github.com/Gomah/nuxt-shopify'
+keywords:
+  - external
+  - nuxt-shopify
+  - nuxt.js
+  - shopify
+  - shopify-buy
+  - vue
+categories: []
+maintainers: []

@@ -1,0 +1,17 @@
+name: image-loader
+description: >-
+  An image loader module for nuxt.js that allows you to configure image style
+  derivatives.
+long_description: ''
+repo: reallifedigital/nuxt-image-loader-module
+npm: '@reallifedigital/nuxt-image-loader-module'
+type: module
+github: 'https://github.com/reallifedigital/nuxt-image-loader-module'
+website: 'https://github.com/reallifedigital/nuxt-image-loader-module'
+keywords:
+  - external
+  - graphicsmagick
+  - image-processing
+  - images
+categories: []
+maintainers: []

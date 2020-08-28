@@ -1,0 +1,12 @@
+name: nuxt7
+description: !<tag:yaml.org,2002:js/undefined> ''
+long_description: ''
+repo: nuxt-community/nuxt7
+npm: nuxt7
+type: module
+github: 'https://github.com/nuxt-community/nuxt7'
+website: 'https://github.com/nuxt-community/nuxt7'
+keywords:
+  - community
+categories: []
+maintainers: []

@@ -1,0 +1,12 @@
+name: ghost-blog
+description: Ghost theme using the Ghost Content API
+long_description: ''
+repo: moso/nuxt-ghost-blog
+npm: nuxt-ghost-blog
+type: module
+github: 'https://github.com/moso/nuxt-ghost-blog'
+website: 'https://github.com/moso/nuxt-ghost-blog'
+keywords:
+  - external
+categories: []
+maintainers: []

@@ -1,0 +1,12 @@
+name: xui
+description: !<tag:yaml.org,2002:js/undefined> ''
+long_description: ''
+repo: MetaCorp/xui-module
+npm: xui-module
+type: module
+github: 'https://github.com/MetaCorp/xui-module'
+website: 'https://github.com/MetaCorp/xui-module'
+keywords:
+  - external
+categories: []
+maintainers: []

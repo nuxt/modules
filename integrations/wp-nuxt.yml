@@ -1,0 +1,12 @@
+name: wp-nuxt
+description: ''
+long_description: ''
+repo: yashha/wp-nuxt
+npm: wp-nuxt
+type: module
+github: 'https://github.com/yashha/wp-nuxt'
+website: 'https://github.com/yashha/wp-nuxt'
+keywords:
+  - external
+categories: []
+maintainers: []

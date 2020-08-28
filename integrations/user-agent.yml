@@ -1,0 +1,14 @@
+name: user-agent
+description: Nuxt.js module for handling User-Agent.
+long_description: ''
+repo: fukuiretu/nuxt-user-agent
+npm: nuxt-user-agent
+type: module
+github: 'https://github.com/fukuiretu/nuxt-user-agent'
+website: 'https://github.com/fukuiretu/nuxt-user-agent'
+keywords:
+  - Nuxt.js
+  - UserAgent
+  - external
+categories: []
+maintainers: []

@@ -1,0 +1,16 @@
+name: simple-line-icons
+description: 'Nuxt module to add simple-line-icons '
+long_description: ''
+repo: vaso2/nuxt-simple-line-icons
+npm: nuxt-simple-line-icons
+type: module
+github: 'https://github.com/vaso2/nuxt-simple-line-icons'
+website: 'https://github.com/vaso2/nuxt-simple-line-icons'
+keywords:
+  - external
+  - plugin
+  - simple-line-icons
+  - vue
+  - vuejs
+categories: []
+maintainers: []

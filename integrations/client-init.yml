@@ -1,0 +1,12 @@
+name: client-init
+description: Provide client version of `nuxtServerInit`.
+long_description: ''
+repo: potato4d/nuxt-client-init-module
+npm: nuxt-client-init-module
+type: module
+github: 'https://github.com/potato4d/nuxt-client-init-module'
+website: 'https://github.com/potato4d/nuxt-client-init-module'
+keywords:
+  - external
+categories: []
+maintainers: []

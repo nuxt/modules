@@ -1,0 +1,12 @@
+name: zendesk
+description: Nuxt.js module for Zendesk
+long_description: ''
+repo: DansMaCulotte/nuxt-zendesk
+npm: '@dansmaculotte/nuxt-zendesk'
+type: module
+github: 'https://github.com/DansMaCulotte/nuxt-zendesk'
+website: 'https://github.com/DansMaCulotte/nuxt-zendesk'
+keywords:
+  - external
+categories: []
+maintainers: []

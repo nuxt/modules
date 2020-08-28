@@ -1,0 +1,20 @@
+name: nuxtjs-ghost
+description: NuxtJS module to easily interact with the Ghost API
+long_description: ''
+repo: ditschedev/nuxtjs-ghost
+npm: nuxtjs-ghost
+type: module
+github: 'https://github.com/ditschedev/nuxtjs-ghost'
+website: 'https://github.com/ditschedev/nuxtjs-ghost'
+keywords:
+  - external
+  - ghost
+  - ghost-content-api
+  - nuxt-ghost
+  - nuxt.js
+  - nuxtjs
+  - nuxtjs-ghost
+  - vue
+  - vuejs
+categories: []
+maintainers: []

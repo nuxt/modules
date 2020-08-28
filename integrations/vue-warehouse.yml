@@ -1,0 +1,24 @@
+name: vue-warehouse
+description: >-
+  A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy
+  extensibility based on Store.js
+long_description: ''
+repo: bazzite/vue-warehouse
+npm: vue-warehouse
+type: module
+github: 'https://github.com/bazzite/vue-warehouse'
+website: 'https://github.com/bazzite/vue-warehouse'
+keywords:
+  - cookie
+  - cross-browser
+  - external
+  - julio-marquez
+  - localstorage
+  - nuxt.js
+  - storage
+  - vue
+  - vue-plugin
+  - vue-warehouse
+  - vue.js
+categories: []
+maintainers: []

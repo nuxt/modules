@@ -1,0 +1,13 @@
+name: ts
+description: A tiny module to use Typescript within Nuxt 2.
+long_description: ''
+repo: chanlito/nuxt-ts-module
+npm: nuxt-ts-module
+type: module
+github: 'https://github.com/chanlito/nuxt-ts-module'
+website: 'https://github.com/chanlito/nuxt-ts-module'
+keywords:
+  - external
+  - typescript
+categories: []
+maintainers: []

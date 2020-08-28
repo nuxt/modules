@@ -1,0 +1,16 @@
+name: feature-toggle
+description: Feature toggle module for Nuxt.js
+long_description: ''
+repo: stephenkr/nuxt-feature-toggle
+npm: nuxt-feature-toggle
+type: module
+github: 'https://github.com/stephenkr/nuxt-feature-toggle'
+website: 'https://github.com/stephenkr/nuxt-feature-toggle'
+keywords:
+  - external
+  - feature-switch
+  - feature-toggle
+  - nuxtjs
+  - toggle
+categories: []
+maintainers: []

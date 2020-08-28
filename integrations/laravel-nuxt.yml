@@ -1,0 +1,15 @@
+name: laravel-nuxt
+description: Build a SPA with Laravel and Nuxt
+long_description: ''
+repo: skyrpex/laravel-nuxt-js
+npm: laravel-nuxt
+type: module
+github: 'https://github.com/skyrpex/laravel-nuxt-js'
+website: 'https://github.com/skyrpex/laravel-nuxt-js'
+keywords:
+  - external
+  - laravel
+  - spa
+  - vue
+categories: []
+maintainers: []

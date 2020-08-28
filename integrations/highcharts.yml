@@ -1,0 +1,15 @@
+name: highcharts
+description: Highcharts for Nuxt
+long_description: ''
+repo: richardeschloss/nuxt-highcharts
+npm: nuxt-highcharts
+type: module
+github: 'https://github.com/richardeschloss/nuxt-highcharts'
+website: 'https://github.com/richardeschloss/nuxt-highcharts'
+keywords:
+  - external
+  - highcharts
+  - vue
+  - vuejs
+categories: []
+maintainers: []

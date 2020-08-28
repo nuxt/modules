@@ -1,0 +1,16 @@
+name: fullpage-nuxt
+description: Nuxt module for fullpage-vue plugin
+long_description: ''
+repo: vaso2/fullpage-nuxt
+npm: fullpage-nuxt
+type: module
+github: 'https://github.com/vaso2/fullpage-nuxt'
+website: 'https://github.com/vaso2/fullpage-nuxt'
+keywords:
+  - directive
+  - external
+  - fullpage
+  - fullpage-vue
+  - vue
+categories: []
+maintainers: []

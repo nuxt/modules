@@ -1,0 +1,16 @@
+name: validate
+description: Simple Nuxt input validation module using vee-validate
+long_description: ''
+repo: lewyuburi/nuxt-validate
+npm: nuxt-validate
+type: module
+github: 'https://github.com/lewyuburi/nuxt-validate'
+website: 'https://github.com/lewyuburi/nuxt-validate'
+keywords:
+  - external
+  - validate
+  - validation
+  - vee-validate
+  - vuejs
+categories: []
+maintainers: []

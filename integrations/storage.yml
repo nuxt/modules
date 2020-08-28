@@ -1,0 +1,16 @@
+name: storage
+description: "\U0001F6E2 Utilities for easy read and write browser's storage in Nuxt.js project"
+long_description: ''
+repo: mazipan/nuxt-storage
+npm: nuxt-storage
+type: module
+github: 'https://github.com/mazipan/nuxt-storage'
+website: 'https://github.com/mazipan/nuxt-storage'
+keywords:
+  - browser-storage
+  - external
+  - local-storage
+  - nuxt-storage
+  - session-storage
+categories: []
+maintainers: []

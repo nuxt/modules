@@ -1,0 +1,12 @@
+name: vuex-router-sync
+description: vuex-router-sync integration for Nuxt
+long_description: ''
+repo: paulgv/nuxt-vuex-router-sync
+npm: nuxt-vuex-router-sync
+type: module
+github: 'https://github.com/paulgv/nuxt-vuex-router-sync'
+website: 'https://github.com/paulgv/nuxt-vuex-router-sync'
+keywords:
+  - external
+categories: []
+maintainers: []

@@ -1,0 +1,12 @@
+name: netlify-cache
+description: Nuxt.js module that uses netlify cache to speed up redeploy
+long_description: ''
+repo: DreaMinder/nuxt-netlify-cache
+npm: nuxt-netlify-cache
+type: module
+github: 'https://github.com/DreaMinder/nuxt-netlify-cache'
+website: 'https://github.com/DreaMinder/nuxt-netlify-cache'
+keywords:
+  - external
+categories: []
+maintainers: []

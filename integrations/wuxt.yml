@@ -1,0 +1,16 @@
+name: wuxt
+description: WordPress and nuxt.js in an awesome dev environment
+long_description: ''
+repo: northosts/wuxt
+npm: wuxt
+type: module
+github: 'https://github.com/northosts/wuxt'
+website: 'https://github.com/northosts/wuxt'
+keywords:
+  - external
+  - nuxt.js
+  - wordpress
+  - wp
+  - wp-rest-api
+categories: []
+maintainers: []

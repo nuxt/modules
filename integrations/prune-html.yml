@@ -1,0 +1,30 @@
+name: prune-html
+description: >-
+  Nuxt module to prune html before sending it to the browser (it removes
+  elements matching CSS selector(s)), useful for boosting performance showing a
+  different HTML for bots by removing all the scripts with dynamic rendering
+long_description: ''
+repo: LuXDAmore/nuxt-prune-html
+npm: '@luxdamore/nuxt-prune-html'
+type: module
+github: 'https://github.com/LuXDAmore/nuxt-prune-html'
+website: 'https://github.com/LuXDAmore/nuxt-prune-html'
+keywords:
+  - audit
+  - bot
+  - build
+  - cheerio
+  - dynamic-rendering
+  - external
+  - html
+  - lighthouse
+  - lighthouse-audit
+  - measure
+  - modules
+  - nuxtjs
+  - pagespeed-insight
+  - performance
+  - prune
+  - vuejs
+categories: []
+maintainers: []

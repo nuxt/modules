@@ -1,0 +1,19 @@
+name: precompress
+description: Precompress files to gzip and brotli and serve them automatically
+long_description: ''
+repo: frenchrabbit/nuxt-precompress
+npm: nuxt-precompress
+type: module
+github: 'https://github.com/frenchrabbit/nuxt-precompress'
+website: 'https://github.com/frenchrabbit/nuxt-precompress'
+keywords:
+  - brotli
+  - build
+  - compress
+  - compression
+  - external
+  - gzip
+  - nuxt.js
+  - vue
+categories: []
+maintainers: []

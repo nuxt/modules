@@ -1,0 +1,16 @@
+name: svg-loader
+description: ''
+long_description: ''
+repo: Developmint/nuxt-svg-loader
+npm: nuxt-svg-loader
+type: module
+github: 'https://github.com/Developmint/nuxt-svg-loader'
+website: 'https://github.com/Developmint/nuxt-svg-loader'
+keywords:
+  - external
+  - loader
+  - nuxtjs
+  - svg
+  - svg-loader
+categories: []
+maintainers: []
