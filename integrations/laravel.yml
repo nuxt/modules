@@ -13,4 +13,7 @@ keywords:
   - spa
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: m2sd
+    github: m2sd
+    avatar: 'https://github.com/m2sd.png'

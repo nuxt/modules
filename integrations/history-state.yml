@@ -9,4 +9,7 @@ website: 'https://github.com/hidekatsu-izuno/nuxt-history-state'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: hidekatsu-izuno
+    github: hidekatsu-izuno
+    avatar: 'https://github.com/hidekatsu-izuno.png'

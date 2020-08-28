@@ -19,4 +19,7 @@ keywords:
   - security
   - x-frame-options
 categories: []
-maintainers: []
+maintainers:
+  - name: victor-perez
+    github: victor-perez
+    avatar: 'https://github.com/victor-perez.png'

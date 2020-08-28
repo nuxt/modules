@@ -13,4 +13,7 @@ keywords:
   - nuxtjs
   - toggle
 categories: []
-maintainers: []
+maintainers:
+  - name: stephenkr
+    github: stephenkr
+    avatar: 'https://github.com/stephenkr.png'

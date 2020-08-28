@@ -15,4 +15,7 @@ keywords:
   - seomatic
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: ben-rogerson
+    github: ben-rogerson
+    avatar: 'https://github.com/ben-rogerson.png'

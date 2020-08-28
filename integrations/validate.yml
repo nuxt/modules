@@ -13,4 +13,7 @@ keywords:
   - vee-validate
   - vuejs
 categories: []
-maintainers: []
+maintainers:
+  - name: lewyuburi
+    github: lewyuburi
+    avatar: 'https://github.com/lewyuburi.png'

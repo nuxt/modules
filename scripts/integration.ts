@@ -61,6 +61,16 @@ export async function sync(name, repo?: string) {
 
   // Maintainers
   // TODO: Sync with maintainers.app
+  if (!integration.maintainers.length) {
+    const owner = integration.repo.split('/')[0]
+    if (owner !== 'nuxt-community' && owner !== 'nuxt') {
+      integration.maintainers.push({
+        name: owner,
+        github: owner
+      })
+    }
+  }
+
   for (const maintainer of integration.maintainers) {
     if (maintainer.github && !maintainer.avatar) {
       maintainer.avatar = 'https://github.com/' + maintainer.github + '.png'

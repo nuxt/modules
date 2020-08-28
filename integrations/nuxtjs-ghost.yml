@@ -17,4 +17,7 @@ keywords:
   - vue
   - vuejs
 categories: []
-maintainers: []
+maintainers:
+  - name: ditschedev
+    github: ditschedev
+    avatar: 'https://github.com/ditschedev.png'

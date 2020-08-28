@@ -10,4 +10,7 @@ keywords:
   - contentful
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: scaccogatto
+    github: scaccogatto
+    avatar: 'https://github.com/scaccogatto.png'

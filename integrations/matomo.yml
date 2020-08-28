@@ -14,4 +14,7 @@ keywords:
   - nuxtjs
   - piwik
 categories: []
-maintainers: []
+maintainers:
+  - name: pimlie
+    github: pimlie
+    avatar: 'https://github.com/pimlie.png'

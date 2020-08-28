@@ -19,4 +19,7 @@ keywords:
   - vue
   - vuetify
 categories: []
-maintainers: []
+maintainers:
+  - name: sugoidesune
+    github: sugoidesune
+    avatar: 'https://github.com/sugoidesune.png'

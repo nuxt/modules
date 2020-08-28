@@ -12,4 +12,7 @@ keywords:
   - nuxtjs
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: nurdism
+    github: nurdism
+    avatar: 'https://github.com/nurdism.png'

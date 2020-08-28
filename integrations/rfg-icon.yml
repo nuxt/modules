@@ -9,4 +9,7 @@ website: 'https://github.com/pimlie/nuxt-rfg-icon'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: pimlie
+    github: pimlie
+    avatar: 'https://github.com/pimlie.png'

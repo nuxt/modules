@@ -9,4 +9,7 @@ website: 'https://github.com/uptownhr/nuxt-express-module'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: uptownhr
+    github: uptownhr
+    avatar: 'https://github.com/uptownhr.png'

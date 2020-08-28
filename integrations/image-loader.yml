@@ -14,4 +14,7 @@ keywords:
   - image-processing
   - images
 categories: []
-maintainers: []
+maintainers:
+  - name: reallifedigital
+    github: reallifedigital
+    avatar: 'https://github.com/reallifedigital.png'

@@ -14,4 +14,7 @@ keywords:
   - nuxtjs
   - path
 categories: []
-maintainers: []
+maintainers:
+  - name: kdydesign
+    github: kdydesign
+    avatar: 'https://github.com/kdydesign.png'

@@ -10,4 +10,7 @@ keywords:
   - external
   - typescript
 categories: []
-maintainers: []
+maintainers:
+  - name: chanlito
+    github: chanlito
+    avatar: 'https://github.com/chanlito.png'

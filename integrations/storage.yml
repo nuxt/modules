@@ -13,4 +13,7 @@ keywords:
   - nuxt-storage
   - session-storage
 categories: []
-maintainers: []
+maintainers:
+  - name: mazipan
+    github: mazipan
+    avatar: 'https://github.com/mazipan.png'

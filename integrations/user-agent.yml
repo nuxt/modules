@@ -11,4 +11,7 @@ keywords:
   - UserAgent
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: fukuiretu
+    github: fukuiretu
+    avatar: 'https://github.com/fukuiretu.png'

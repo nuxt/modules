@@ -15,4 +15,7 @@ keywords:
   - ssr
   - static
 categories: []
-maintainers: []
+maintainers:
+  - name: gaetansenn
+    github: gaetansenn
+    avatar: 'https://github.com/gaetansenn.png'

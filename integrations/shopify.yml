@@ -14,4 +14,7 @@ keywords:
   - shopify-buy
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: Gomah
+    github: Gomah
+    avatar: 'https://github.com/Gomah.png'

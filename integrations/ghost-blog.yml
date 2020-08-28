@@ -9,4 +9,7 @@ website: 'https://github.com/moso/nuxt-ghost-blog'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: moso
+    github: moso
+    avatar: 'https://github.com/moso.png'

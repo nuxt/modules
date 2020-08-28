@@ -9,4 +9,7 @@ website: 'https://github.com/ChanningDefoe/nuxt-mobile-detect'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: ChanningDefoe
+    github: ChanningDefoe
+    avatar: 'https://github.com/ChanningDefoe.png'

@@ -9,4 +9,7 @@ website: 'https://github.com/madmod/nuxt-vue-select'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: madmod
+    github: madmod
+    avatar: 'https://github.com/madmod.png'

@@ -16,4 +16,7 @@ keywords:
   - nuxt.js
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: frenchrabbit
+    github: frenchrabbit
+    avatar: 'https://github.com/frenchrabbit.png'

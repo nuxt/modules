@@ -9,4 +9,7 @@ website: 'https://github.com/Maxbrain0/nuxt-ghost-starter'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: Maxbrain0
+    github: Maxbrain0
+    avatar: 'https://github.com/Maxbrain0.png'

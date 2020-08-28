@@ -11,4 +11,7 @@ keywords:
   - nuxt.js
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: cierrateam
+    github: cierrateam
+    avatar: 'https://github.com/cierrateam.png'

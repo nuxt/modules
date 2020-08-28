@@ -12,4 +12,7 @@ keywords:
   - external
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: wemake-services
+    github: wemake-services
+    avatar: 'https://github.com/wemake-services.png'

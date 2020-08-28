@@ -11,4 +11,7 @@ website: 'https://github.com/AlekseyPleshkov/nuxt-social-meta'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: AlekseyPleshkov
+    github: AlekseyPleshkov
+    avatar: 'https://github.com/AlekseyPleshkov.png'

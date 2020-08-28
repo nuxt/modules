@@ -14,4 +14,7 @@ keywords:
   - vue-custom-element
   - vuejs
 categories: []
-maintainers: []
+maintainers:
+  - name: GrabarzUndPartner
+    github: GrabarzUndPartner
+    avatar: 'https://github.com/GrabarzUndPartner.png'

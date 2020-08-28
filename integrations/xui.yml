@@ -9,4 +9,7 @@ website: 'https://github.com/MetaCorp/xui-module'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: MetaCorp
+    github: MetaCorp
+    avatar: 'https://github.com/MetaCorp.png'

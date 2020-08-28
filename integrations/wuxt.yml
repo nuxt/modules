@@ -13,4 +13,7 @@ keywords:
   - wp
   - wp-rest-api
 categories: []
-maintainers: []
+maintainers:
+  - name: northosts
+    github: northosts
+    avatar: 'https://github.com/northosts.png'

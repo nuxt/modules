@@ -9,4 +9,7 @@ website: 'https://github.com/mmoollllee/nuxt-protected-mailto'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: mmoollllee
+    github: mmoollllee
+    avatar: 'https://github.com/mmoollllee.png'

@@ -13,4 +13,7 @@ keywords:
   - nuxtjs
   - vuejs
 categories: []
-maintainers: []
+maintainers:
+  - name: Domitnator
+    github: Domitnator
+    avatar: 'https://github.com/Domitnator.png'

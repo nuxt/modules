@@ -9,4 +9,7 @@ website: 'https://github.com/paulgv/nuxt-webpackdashboard'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: paulgv
+    github: paulgv
+    avatar: 'https://github.com/paulgv.png'

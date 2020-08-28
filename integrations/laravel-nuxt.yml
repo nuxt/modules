@@ -12,4 +12,7 @@ keywords:
   - spa
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: skyrpex
+    github: skyrpex
+    avatar: 'https://github.com/skyrpex.png'

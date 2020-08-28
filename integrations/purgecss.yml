@@ -12,4 +12,7 @@ keywords:
   - nuxtjs
   - purgecss
 categories: []
-maintainers: []
+maintainers:
+  - name: Developmint
+    github: Developmint
+    avatar: 'https://github.com/Developmint.png'

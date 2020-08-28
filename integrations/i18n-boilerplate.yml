@@ -9,4 +9,7 @@ website: 'https://github.com/Wssn/nuxt-i18n-boilerplate'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: Wssn
+    github: Wssn
+    avatar: 'https://github.com/Wssn.png'

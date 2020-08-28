@@ -9,4 +9,7 @@ website: 'https://github.com/FEMessage/nuxt-micro-frontend'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: FEMessage
+    github: FEMessage
+    avatar: 'https://github.com/FEMessage.png'

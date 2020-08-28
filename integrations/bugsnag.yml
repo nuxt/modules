@@ -9,4 +9,7 @@ website: 'https://github.com/JulianMar/nuxt-bugsnag'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: JulianMar
+    github: JulianMar
+    avatar: 'https://github.com/JulianMar.png'

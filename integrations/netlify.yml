@@ -11,4 +11,7 @@ website: 'https://github.com/bazzite/nuxt-netlify'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: bazzite
+    github: bazzite
+    avatar: 'https://github.com/bazzite.png'

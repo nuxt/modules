@@ -9,4 +9,7 @@ website: 'https://github.com/yashha/wp-nuxt'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: yashha
+    github: yashha
+    avatar: 'https://github.com/yashha.png'

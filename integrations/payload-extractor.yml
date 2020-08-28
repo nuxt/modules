@@ -11,4 +11,7 @@ website: 'https://github.com/DreaMinder/nuxt-payload-extractor'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: DreaMinder
+    github: DreaMinder
+    avatar: 'https://github.com/DreaMinder.png'

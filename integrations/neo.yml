@@ -23,4 +23,7 @@ keywords:
   - universal
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: ezypeeze
+    github: ezypeeze
+    avatar: 'https://github.com/ezypeeze.png'

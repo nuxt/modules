@@ -14,4 +14,7 @@ keywords:
   - vue
   - vuejs
 categories: []
-maintainers: []
+maintainers:
+  - name: richardeschloss
+    github: richardeschloss
+    avatar: 'https://github.com/richardeschloss.png'

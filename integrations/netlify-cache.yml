@@ -9,4 +9,7 @@ website: 'https://github.com/DreaMinder/nuxt-netlify-cache'
 keywords:
   - external
 categories: []
-maintainers: []
+maintainers:
+  - name: DreaMinder
+    github: DreaMinder
+    avatar: 'https://github.com/DreaMinder.png'

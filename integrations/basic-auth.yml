@@ -13,4 +13,7 @@ keywords:
   - nuxt.js
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: potato4d
+    github: potato4d
+    avatar: 'https://github.com/potato4d.png'

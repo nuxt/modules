@@ -11,4 +11,7 @@ keywords:
   - notifications
   - sweetalert2
 categories: []
-maintainers: []
+maintainers:
+  - name: ImreC
+    github: ImreC
+    avatar: 'https://github.com/ImreC.png'

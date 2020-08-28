@@ -12,4 +12,7 @@ keywords:
   - netlify
   - nuxtjs
 categories: []
-maintainers: []
+maintainers:
+  - name: jmblog
+    github: jmblog
+    avatar: 'https://github.com/jmblog.png'

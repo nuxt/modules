@@ -27,4 +27,7 @@ keywords:
   - prune
   - vuejs
 categories: []
-maintainers: []
+maintainers:
+  - name: LuXDAmore
+    github: LuXDAmore
+    avatar: 'https://github.com/LuXDAmore.png'

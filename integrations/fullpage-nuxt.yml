@@ -13,4 +13,7 @@ keywords:
   - fullpage-vue
   - vue
 categories: []
-maintainers: []
+maintainers:
+  - name: vaso2
+    github: vaso2
+    avatar: 'https://github.com/vaso2.png'
