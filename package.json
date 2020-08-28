@@ -1,6 +1,6 @@
 {
   "name": "@nuxt/modules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "index.js",
   "files": [
@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "rc": "ts-node ./scripts/cli",
-    "build": "yarn rc dump"
+    "build": "yarn rc dump",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^3.0.0",
