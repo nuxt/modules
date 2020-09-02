@@ -1,9 +1,7 @@
-# Nuxt Integrations
+# Nuxt Integrations DB (WIP)
 
-This is a WIP project
-
-PR: https://github.com/nuxt/nuxtjs.org/pull/605
-Preview: https://deploy-preview-605--nuxt.netlify.app/integrations/cat/all
+- PR: https://github.com/nuxt/nuxtjs.org/pull/605
+- Preview: https://deploy-preview-605--nuxt.netlify.app/integrations/cat/all
 
 ## Contribution
 
