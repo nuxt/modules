@@ -6,6 +6,7 @@ long_description: ''
 repo: nuxt-community/netlify-files-module
 npm: '@nuxtjs/netlify-files'
 type: module
+icon: netlify.png
 github: 'https://github.com/nuxt-community/netlify-files-module'
 website: 'https://github.com/nuxt-community/netlify-files-module'
 keywords:

@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/gtm-module
 npm: '@nuxtjs/gtm'
 type: module
+icon: gtm.png
 github: 'https://github.com/nuxt-community/gtm-module'
 website: 'https://github.com/nuxt-community/gtm-module'
 keywords:

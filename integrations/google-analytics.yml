@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/analytics-module
 npm: '@nuxtjs/google-analytics'
 type: module
+icon: google-analytics.png
 github: 'https://github.com/nuxt-community/analytics-module'
 website: 'https://github.com/nuxt-community/analytics-module'
 keywords:

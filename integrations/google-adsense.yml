@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/google-adsense-module
 npm: '@nuxtjs/google-adsense'
 type: module
+icon: google-adsense.png
 github: 'https://github.com/nuxt-community/google-adsense-module'
 website: 'https://github.com/nuxt-community/google-adsense-module'
 keywords:

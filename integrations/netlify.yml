@@ -6,6 +6,7 @@ long_description: ''
 repo: bazzite/nuxt-netlify
 npm: '@aceforth/nuxt-netlify'
 type: module
+icon: netlify.png
 github: 'https://github.com/bazzite/nuxt-netlify'
 website: 'https://github.com/bazzite/nuxt-netlify'
 keywords:
