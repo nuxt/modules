@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/stylelint-module
 npm: '@nuxtjs/stylelint-module'
 type: module
+icon: stylelint.png
 github: 'https://github.com/nuxt-community/stylelint-module'
 website: 'https://github.com/nuxt-community/stylelint-module'
 keywords:

@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/recaptcha-module
 npm: '@nuxtjs/recaptcha'
 type: module
+icon: recaptcha.png
 github: 'https://github.com/nuxt-community/recaptcha-module'
 website: 'https://github.com/nuxt-community/recaptcha-module'
 keywords:

@@ -4,6 +4,7 @@ long_description: ''
 repo: vaso2/nuxt-vue-material
 npm: nuxt-vue-material
 type: module
+icon: vue-material.png
 github: 'https://github.com/vaso2/nuxt-vue-material'
 website: 'https://github.com/vaso2/nuxt-vue-material'
 keywords:

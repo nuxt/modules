@@ -4,6 +4,7 @@ long_description: ''
 repo: JulianMar/nuxt-bugsnag
 npm: nuxt-bugsnag
 type: module
+icon: bugsnag.png
 github: 'https://github.com/JulianMar/nuxt-bugsnag'
 website: 'https://github.com/JulianMar/nuxt-bugsnag'
 keywords:

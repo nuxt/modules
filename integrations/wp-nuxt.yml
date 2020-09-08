@@ -4,6 +4,7 @@ long_description: ''
 repo: yashha/wp-nuxt
 npm: wp-nuxt
 type: module
+icon: wordpress.png
 github: 'https://github.com/yashha/wp-nuxt'
 website: 'https://github.com/yashha/wp-nuxt'
 keywords:

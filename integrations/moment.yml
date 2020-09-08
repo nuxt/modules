@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/moment-module
 npm: '@nuxtjs/moment'
 type: module
+icon: momentjs.png
 github: 'https://github.com/nuxt-community/moment-module'
 website: 'https://github.com/nuxt-community/moment-module'
 keywords:

@@ -4,6 +4,7 @@ long_description: ''
 repo: pimlie/nuxt-rfg-icon
 npm: nuxt-rfg-icon
 type: module
+icon: real-favicon-generator.png
 github: 'https://github.com/pimlie/nuxt-rfg-icon'
 website: 'https://github.com/pimlie/nuxt-rfg-icon'
 keywords:

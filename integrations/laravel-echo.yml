@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/laravel-echo
 npm: '@nuxtjs/laravel-echo'
 type: module
+icon: laravel-echo.png
 github: 'https://github.com/nuxt-community/laravel-echo'
 website: 'https://github.com/nuxt-community/laravel-echo'
 keywords:

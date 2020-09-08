@@ -4,6 +4,7 @@ long_description: ''
 repo: gaelreyrol/nuxt-rollbar-module
 npm: nuxt-rollbar-module
 type: module
+icon: rollbar.png
 github: 'https://github.com/zevran/nuxt-rollbar-module'
 website: 'https://github.com/zevran/nuxt-rollbar-module'
 keywords:

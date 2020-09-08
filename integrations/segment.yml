@@ -4,6 +4,7 @@ long_description: ''
 repo: dansmaculotte/nuxt-segment
 npm: '@dansmaculotte/nuxt-segment'
 type: module
+icon: segment.png
 github: 'https://github.com/dansmaculotte/nuxt-segment'
 website: 'https://github.com/dansmaculotte/nuxt-segment'
 keywords:

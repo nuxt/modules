@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/google-optimize-module
 npm: nuxt-google-optimize
 type: module
+icon: google-optimize
 github: 'https://github.com/nuxt-community/google-optimize-module'
 website: 'https://github.com/nuxt-community/google-optimize-module'
 keywords:

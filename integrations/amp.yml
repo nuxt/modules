@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/amp-module
 npm: '@nuxtjs/amp'
 type: module
+icon: amp.png
 github: 'https://github.com/nuxt-community/amp-module'
 website: 'https://github.com/nuxt-community/amp-module'
 keywords:

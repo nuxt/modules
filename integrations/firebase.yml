@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/firebase-module
 npm: '@nuxtjs/firebase'
 type: module
+icon: firebase.png
 github: 'https://github.com/nuxt-community/firebase-module'
 website: 'https://github.com/nuxt-community/firebase-module'
 keywords:

@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/nuxt-logrocket
 npm: nuxt-logrocket
 type: module
+icon: logrocket.png
 github: 'https://github.com/nuxt-community/nuxt-logrocket'
 website: 'https://github.com/nuxt-community/nuxt-logrocket'
 keywords:

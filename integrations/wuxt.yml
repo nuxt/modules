@@ -4,6 +4,7 @@ long_description: ''
 repo: northosts/wuxt
 npm: wuxt
 type: module
+icon: wordpress.png
 github: 'https://github.com/northosts/wuxt'
 website: 'https://github.com/northosts/wuxt'
 keywords:

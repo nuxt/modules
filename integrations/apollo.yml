@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/apollo-module
 npm: '@nuxtjs/apollo'
 type: module
+icon: apollo.png
 github: 'https://github.com/nuxt-community/apollo-module'
 website: 'https://github.com/nuxt-community/apollo-module'
 keywords:

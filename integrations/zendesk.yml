@@ -4,6 +4,7 @@ long_description: ''
 repo: DansMaCulotte/nuxt-zendesk
 npm: '@dansmaculotte/nuxt-zendesk'
 type: module
+icon: zendesk.png
 github: 'https://github.com/DansMaCulotte/nuxt-zendesk'
 website: 'https://github.com/DansMaCulotte/nuxt-zendesk'
 keywords:

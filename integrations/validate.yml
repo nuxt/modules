@@ -4,6 +4,7 @@ long_description: ''
 repo: lewyuburi/nuxt-validate
 npm: nuxt-validate
 type: module
+icon: vee-validate.png
 github: 'https://github.com/lewyuburi/nuxt-validate'
 website: 'https://github.com/lewyuburi/nuxt-validate'
 keywords:

@@ -4,6 +4,7 @@ long_description: ''
 repo: DreaMinder/nuxt-netlify-cache
 npm: nuxt-netlify-cache
 type: module
+icon: netlify.png
 github: 'https://github.com/DreaMinder/nuxt-netlify-cache'
 website: 'https://github.com/DreaMinder/nuxt-netlify-cache'
 keywords:
