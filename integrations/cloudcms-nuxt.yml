@@ -4,7 +4,6 @@ long_description: ''
 repo: gitana/cloudcms-nuxt
 npm: cloudcms-nuxt
 type: module
-icon: cloud-cms.jpeg
 github: 'https://github.com/gitana/cloudcms-nuxt'
 website: 'https://github.com/gitana/cloudcms-nuxt'
 keywords:

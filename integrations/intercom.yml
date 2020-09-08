@@ -4,7 +4,7 @@ long_description: ''
 repo: hex-digital/nuxt-intercom
 npm: '@hexdigital/nuxt-intercom'
 type: module
-icon: intercom.svg
+icon: intercom.png
 github: 'https://github.com/hex-digital/nuxt-intercom'
 website: 'https://github.com/hex-digital/nuxt-intercom'
 keywords:
