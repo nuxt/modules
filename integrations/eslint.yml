@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/eslint-module
 npm: '@nuxtjs/eslint-module'
 type: module
+icon: eslint.png
 github: 'https://github.com/nuxt-community/eslint-module'
 website: 'https://github.com/nuxt-community/eslint-module'
 keywords:

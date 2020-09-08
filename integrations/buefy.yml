@@ -4,6 +4,7 @@ long_description: ''
 repo: buefy/nuxt-buefy
 npm: nuxt-buefy
 type: module
+icon: buefy.png
 github: 'https://github.com/buefy/nuxt-buefy'
 website: 'https://github.com/buefy/nuxt-buefy'
 keywords:

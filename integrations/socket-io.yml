@@ -4,6 +4,7 @@ long_description: ''
 repo: richardeschloss/nuxt-socket-io
 npm: nuxt-socket-io
 type: module
+icon: socket-io.svg
 github: 'https://github.com/richardeschloss/nuxt-socket-io'
 website: 'https://github.com/richardeschloss/nuxt-socket-io'
 keywords:

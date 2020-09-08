@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/python-module
 npm: '@nuxtjs/python'
 type: module
+icon: python.png
 github: 'https://github.com/nuxt-community/python-module'
 website: 'https://github.com/nuxt-community/python-module'
 keywords:

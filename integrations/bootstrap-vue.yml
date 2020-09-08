@@ -9,6 +9,7 @@ long_description: ''
 repo: bootstrap-vue/bootstrap-vue
 npm: bootstrap-vue
 type: module
+icon: bootstrap-vue.png
 github: 'https://github.com/bootstrap-vue/bootstrap-vue'
 website: 'https://bootstrap-vue.org/docs#nuxtjs-module'
 keywords:

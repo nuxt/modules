@@ -4,6 +4,7 @@ long_description: ''
 repo: WilliamDASILVA/nuxt-stripe-module
 npm: nuxt-stripe-module
 type: module
+icon: stripe.png
 github: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
 website: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
 keywords:

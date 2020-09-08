@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/webpack-profile-module
 npm: '@nuxtjs/webpack-profile'
 type: module
+icon: webpack.png
 github: 'https://github.com/nuxt-community/webpack-profile-module'
 website: 'https://github.com/nuxt-community/webpack-profile-module'
 keywords:

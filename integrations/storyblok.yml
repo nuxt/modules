@@ -4,6 +4,7 @@ long_description: ''
 repo: storyblok/storyblok-nuxt
 npm: storyblok-nuxt
 type: module
+icon: storyblok.png
 github: 'https://github.com/storyblok/storyblok-nuxt'
 website: 'https://github.com/storyblok/storyblok-nuxt'
 keywords:

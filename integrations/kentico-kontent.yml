@@ -4,6 +4,7 @@ long_description: ''
 repo: Domitnator/kentico-kontent-nuxt-module
 npm: kentico-kontent-nuxt-module
 type: module
+icon: kentiko-content.png
 github: 'https://github.com/Domitnator/kentico-kontent-nuxt-module'
 website: 'https://github.com/Domitnator/kentico-kontent-nuxt-module'
 keywords:

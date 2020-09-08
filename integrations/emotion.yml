@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/emotion-module
 npm: '@nuxtjs/emotion'
 type: module
+icon: emotion.png
 github: 'https://github.com/nuxt-community/emotion-module'
 website: 'https://github.com/nuxt-community/emotion-module'
 keywords:

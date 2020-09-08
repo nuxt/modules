@@ -4,6 +4,7 @@ long_description: ''
 repo: ben-rogerson/nuxt-seomatic-meta
 npm: nuxt-seomatic-meta
 type: module
+icon: seomatic.png
 github: 'https://github.com/ben-rogerson/nuxt-seomatic-meta'
 website: 'https://github.com/ben-rogerson/nuxt-seomatic-meta'
 keywords:

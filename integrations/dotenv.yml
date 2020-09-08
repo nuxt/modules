@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/dotenv-module
 npm: '@nuxtjs/dotenv'
 type: module
+icon: dotenv.png
 github: 'https://github.com/nuxt-community/dotenv-module'
 website: 'https://github.com/nuxt-community/dotenv-module'
 keywords:

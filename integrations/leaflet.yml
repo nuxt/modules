@@ -4,6 +4,7 @@ long_description: ''
 repo: schlunsen/nuxt-leaflet
 npm: nuxt-leaflet
 type: module
+icon: leaflet.png
 github: 'https://github.com/schlunsen/nuxt-leaflet'
 website: 'https://github.com/schlunsen/nuxt-leaflet'
 keywords:

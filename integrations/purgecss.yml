@@ -4,6 +4,7 @@ long_description: ''
 repo: Developmint/nuxt-purgecss
 npm: nuxt-purgecss
 type: module
+icon: purgecss.png
 github: 'https://github.com/Developmint/nuxt-purgecss'
 website: 'https://github.com/Developmint/nuxt-purgecss'
 keywords:

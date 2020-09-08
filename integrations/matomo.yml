@@ -4,6 +4,7 @@ long_description: ''
 repo: pimlie/nuxt-matomo
 npm: nuxt-matomo
 type: module
+icon: matomo.png
 github: 'https://github.com/pimlie/nuxt-matomo'
 website: 'https://github.com/pimlie/nuxt-matomo'
 keywords:

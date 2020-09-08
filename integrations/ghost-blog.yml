@@ -4,6 +4,7 @@ long_description: ''
 repo: moso/nuxt-ghost-blog
 npm: nuxt-ghost-blog
 type: module
+icon: ghost-blog.png
 github: 'https://github.com/moso/nuxt-ghost-blog'
 website: 'https://github.com/moso/nuxt-ghost-blog'
 keywords:

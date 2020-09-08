@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/date-fns-module
 npm: '@nuxtjs/date-fns'
 type: module
+icon: date-fns.png
 github: 'https://github.com/nuxt-community/date-fns-module'
 website: 'https://github.com/nuxt-community/date-fns-module'
 keywords:

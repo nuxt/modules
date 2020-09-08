@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/google-fonts-module
 npm: '@nuxtjs/google-fonts'
 type: module
+icon: google-fonts.jpeg
 github: 'https://github.com/nuxt-community/google-fonts-module'
 website: 'https://github.com/nuxt-community/google-fonts-module'
 keywords:

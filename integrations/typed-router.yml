@@ -4,6 +4,7 @@ long_description: ''
 repo: victorgarciaesgi/nuxt-typed-router
 npm: nuxt-typed-router
 type: module
+icon: vue.png
 github: 'https://github.com/victorgarciaesgi/nuxt-typed-router'
 website: 'https://github.com/victorgarciaesgi/nuxt-typed-router'
 keywords:

@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/webpackmonitor-module
 npm: '@nuxtjs/webpackmonitor'
 type: module
+icon: webpack.png
 github: 'https://github.com/nuxt-community/webpackmonitor-module'
 website: 'https://github.com/nuxt-community/webpackmonitor-module'
 keywords:

@@ -4,6 +4,7 @@ long_description: ''
 repo: nuxt-community/router-extras-module
 npm: '@nuxtjs/router-extras'
 type: module
+icon: vue.png
 github: 'https://github.com/nuxt-community/router-extras-module'
 website: 'https://github.com/nuxt-community/router-extras-module'
 keywords:
