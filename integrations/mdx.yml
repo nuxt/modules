@@ -19,7 +19,7 @@ maintainers:
     github: codebender828
     twitter: codebender828
     avatar: 'https://github.com/codebender828.png'
-logo: 'https://mdx.nuxtjs.org/icon.png'
+icon: 'https://mdx.nuxtjs.org/icon.png'
 image: 'https://mdx.nuxtjs.org/preview.png'
 features:
   - Import .mdx files as Vue components

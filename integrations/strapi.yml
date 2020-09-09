@@ -17,7 +17,7 @@ maintainers:
     github: Atinux
     twitter: Atinux
     avatar: 'https://github.com/Atinux.png'
-logo: 'https://strapi.nuxtjs.org/icon.png'
+icon: 'https://strapi.nuxtjs.org/icon.png'
 image: 'https://strapi.nuxtjs.org/preview.png'
 features:
   - Authentication support

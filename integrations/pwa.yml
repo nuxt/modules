@@ -20,7 +20,7 @@ maintainers:
     github: pi0
     twitter: _pi0_
     avatar: 'https://github.com/pi0.png'
-logo: 'https://pwa.nuxtjs.org/icon.png'
+icon: 'https://pwa.nuxtjs.org/icon.png'
 image: 'https://pwa.nuxtjs.org/preview.png'
 features:
   - Registers a service worker for offline caching

@@ -20,7 +20,7 @@ maintainers:
     github: benjamincanac
     twitter: benjamincanac
     avatar: 'https://github.com/benjamincanac.png'
-logo: 'https://content.nuxtjs.org/icon.png'
+icon: 'https://content.nuxtjs.org/icon.png'
 image: 'https://content.nuxtjs.org/preview.png'
 features:
   - Blazing fast hot reload in development

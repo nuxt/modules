@@ -21,7 +21,7 @@ maintainers:
   - name: Rafał Chłodnicki
     github: rchl
     avatar: 'https://github.com/rchl.png'
-logo: 'https://i18n.nuxtjs.org/icon.png'
+icon: 'https://i18n.nuxtjs.org/icon.png'
 image: 'https://i18n.nuxtjs.org/preview.png'
 features:
   - Integration with vue-i18n

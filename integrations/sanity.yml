@@ -20,7 +20,7 @@ maintainers:
     github: danielroe
     twitter: danielcroe
     avatar: 'https://github.com/danielroe.png'
-logo: 'https://sanity.nuxtjs.org/icon.png'
+icon: 'https://sanity.nuxtjs.org/icon.png'
 image: 'https://sanity.nuxtjs.org/preview.png'
 features:
   - Just bring your sanity.json - no additional configuration required

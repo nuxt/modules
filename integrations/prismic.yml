@@ -24,7 +24,7 @@ maintainers:
   - name: James Pegg
     github: jamespegg
     avatar: 'https://github.com/jamespegg.png'
-logo: 'https://prismic.nuxtjs.org/icon.png'
+icon: 'https://prismic.nuxtjs.org/icon.png'
 image: 'https://prismic.nuxtjs.org/preview.png'
 features:
   - Add Prismic to your Nuxt app in seconds
