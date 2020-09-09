@@ -10,6 +10,7 @@ npm: '@nuxtjs/cloudinary'
 type: module
 github: 'https://github.com/nuxt-community/cloudinary-module'
 website: 'https://cloudinary.nuxtjs.org'
+external_link: https://cloudinary.com
 keywords:
   - community
 categories:
