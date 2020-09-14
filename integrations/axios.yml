@@ -8,6 +8,7 @@ npm: '@nuxtjs/axios'
 type: module
 github: 'https://github.com/nuxt-community/axios-module'
 website: 'https://axios.nuxtjs.org'
+learn_more: https://github.com/axios/axios
 keywords:
   - community
 categories:

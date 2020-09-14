@@ -8,6 +8,7 @@ npm: '@nuxtjs/sanity'
 type: module
 github: 'https://github.com/nuxt-community/sanity-module#main'
 website: 'https://sanity.nuxtjs.org'
+learn_more: https://www.sanity.io/
 keywords:
   - cms
   - community

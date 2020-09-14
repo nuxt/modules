@@ -11,6 +11,7 @@ npm: '@nuxtjs/pwa'
 type: module
 github: 'https://github.com/nuxt-community/pwa-module'
 website: 'https://pwa.nuxtjs.org'
+learn_more: https://web.dev/progressive-web-apps/
 keywords:
   - community
 categories:

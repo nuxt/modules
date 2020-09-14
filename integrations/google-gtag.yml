@@ -1,11 +1,12 @@
 name: google-gtag
 description: Google GTag for Nuxt.js
-long_description: ''
+long_description: 'Enable google gtagjs for NuxtJs'
 repo: nuxt-community/google-gtag
 npm: '@nuxtjs/google-gtag'
 type: module
 github: 'https://github.com/nuxt-community/google-gtag'
 website: 'https://github.com/nuxt-community/google-gtag'
+learn_more: https://developers.google.com/analytics/devguides/collection/gtagjs/
 keywords:
   - community
 categories:

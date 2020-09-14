@@ -1,12 +1,13 @@
 name: purgecss
 description: Drop superfluous CSS! A neat PurgeCSS wrapper for Nuxt.js
-long_description: ''
+long_description: Drop superfluous CSS! A neat PurgeCSS wrapper for Nuxt.js
 repo: Developmint/nuxt-purgecss
 npm: nuxt-purgecss
 type: module
 icon: purgecss.png
 github: 'https://github.com/Developmint/nuxt-purgecss'
 website: 'https://github.com/Developmint/nuxt-purgecss'
+learn_more: https://purgecss.com/
 keywords:
   - css
   - external

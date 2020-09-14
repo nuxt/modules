@@ -1,6 +1,6 @@
 name: html-minifier
-description: ''
-long_description: ''
+description: 'Minify the html for each request served by nuxt server (nuxt start)'
+long_description: 'Minify the html for each request served by nuxt server (nuxt start)'
 repo: nuxt-community/html-minifier-module
 npm: '@nuxtjs/html-minifier'
 type: module

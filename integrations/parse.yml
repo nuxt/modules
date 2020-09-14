@@ -1,6 +1,6 @@
 name: parse
-description: A parse module for Nuxt.js
-long_description: ''
+description: Parse package for Nuxt.js
+long_description: Parse package for Nuxt.js
 repo: cierrateam/nuxt-parse
 npm: nuxt-parse
 type: module

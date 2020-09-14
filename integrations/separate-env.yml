@@ -1,6 +1,6 @@
 name: separate-env
 description: Separated environment variables for server and client builds
-long_description: ''
+long_description: Separated environment variables for server and client build.
 repo: nuxt-community/separate-env-module
 npm: '@nuxtjs/separate-env'
 type: module

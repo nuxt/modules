@@ -1,6 +1,6 @@
 name: feature-toggle
 description: Feature toggle module for Nuxt.js
-long_description: ''
+long_description: 'This is a simple module for Nuxt.js to add support for a feature toggle system.'
 repo: stephenkr/nuxt-feature-toggle
 npm: nuxt-feature-toggle
 type: module

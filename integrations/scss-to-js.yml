@@ -1,6 +1,6 @@
 name: scss-to-js
 description: Load SCSS Variables into Nuxt instance for use in Templates/Scripts.
-long_description: ''
+long_description: Load SCSS Variables into Nuxt instance for use in Templates/Scripts.
 repo: sugoidesune/nuxt-scss-to-js
 npm: nuxt-scss-to-js
 type: module

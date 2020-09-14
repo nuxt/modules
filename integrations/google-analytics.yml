@@ -1,12 +1,13 @@
 name: google-analytics
 description: Google analytics Module for Nuxt.js
-long_description: ''
+long_description: 'Google Analytics integration for Nuxt.js with vue-analytics'
 repo: nuxt-community/analytics-module
 npm: '@nuxtjs/google-analytics'
 type: module
 icon: google-analytics.png
 github: 'https://github.com/nuxt-community/analytics-module'
 website: 'https://github.com/nuxt-community/analytics-module'
+learn_more: https://marketingplatform.google.com/about/analytics/
 keywords:
   - community
 categories:

@@ -1,12 +1,13 @@
 name: firebase
 description: Intergrate Firebase into your Nuxt project.
-long_description: ''
+long_description: 'The Nuxt.js Firebase Module is a module that helps you integrate the Firebase JavaScript SDK into your application with ease. By simply configuring this module in your nuxt.config.js file, you can use all Firebase Services throughout your app.'
 repo: nuxt-community/firebase-module
 npm: '@nuxtjs/firebase'
 type: module
 icon: firebase.png
 github: 'https://github.com/nuxt-community/firebase-module'
 website: 'https://github.com/nuxt-community/firebase-module'
+learn_more: https://firebase.google.com/
 keywords:
   - community
   - firebase

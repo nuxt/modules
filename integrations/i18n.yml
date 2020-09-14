@@ -10,6 +10,7 @@ npm: nuxt-i18n
 type: module
 github: 'https://github.com/nuxt-community/i18n-module'
 website: 'https://i18n.nuxtjs.org'
+learn_more: https://kazupon.github.io/vue-i18n/
 keywords:
   - community
 categories:

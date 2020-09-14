@@ -1,11 +1,13 @@
 name: nuxt7
-description: !<tag:yaml.org,2002:js/undefined> ''
-long_description: ''
+description: Full Featured iOS & Android PWA Apps with Nuxt.js and Framework7
+long_description: Nuxt7 integrates universal nuxt.js applications with Framework7-Vue to rapidly create efficient and feature-reach PWA mobile applications with help of pwa-module. Production builds can be statically hosted or running offline.
 repo: nuxt-community/nuxt7
 npm: nuxt7
 type: module
 github: 'https://github.com/nuxt-community/nuxt7'
 website: 'https://github.com/nuxt-community/nuxt7'
+learn_more: https://framework7.io/
+demo: https://nuxt7.netlify.app/
 keywords:
   - community
 categories:

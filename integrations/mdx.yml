@@ -4,12 +4,13 @@ description: >-
   files
 long_description: >-
   @nuxtjs/mdx allows you to write JSX in your Markdown documents in your Nuxt
-  application with MDX
+  application with MDX. MDX is an authorable format that lets you seamlessly write JSX in your Markdown documents. You can import components, such as interactive charts or alerts, and embed them within your content.
 repo: nuxt-community/mdx-module
 npm: '@nuxtjs/mdx'
 type: module
 github: 'https://github.com/nuxt-community/mdx-module'
 website: 'https://mdx.nuxtjs.org'
+learn_more: https://mdxjs.com/
 keywords:
   - community
 categories:

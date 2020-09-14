@@ -1,11 +1,12 @@
 name: stories
 description: Nuxt stories module -- Painless storybooking for Nuxt
-long_description: ''
+long_description: Nuxt stories module -- Painless (and now insanely fast) storybooking for Nuxt
 repo: richardeschloss/nuxt-stories
 npm: nuxt-stories
 type: module
 github: 'https://github.com/richardeschloss/nuxt-stories'
 website: 'https://github.com/richardeschloss/nuxt-stories'
+demo: https://nuxt-stories.netlify.app/stories
 keywords:
   - external
   - painless

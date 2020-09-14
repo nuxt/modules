@@ -1,12 +1,14 @@
 name: socket-io
 description: Socket.io client and server module for Nuxt. Just plug it in and GO
-long_description: ''
+long_description: Socket.io client and server module for Nuxt. Sockets have traditionally been the solution around which most real-time chat systems are architected, providing a bi-directional communication channel between a client and a server.
 repo: richardeschloss/nuxt-socket-io
 npm: nuxt-socket-io
 type: module
 icon: socket-io.png
 github: 'https://github.com/richardeschloss/nuxt-socket-io'
-website: 'https://github.com/richardeschloss/nuxt-socket-io'
+website: 'https://nuxt-socket-io.netlify.app/'
+learn_more: https://socket.io/
+demo: https://nuxt-socket-io.herokuapp.com/
 keywords:
   - easy
   - external

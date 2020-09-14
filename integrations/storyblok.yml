@@ -15,3 +15,8 @@ maintainers:
   - name: storyblok
     github: storyblok
     avatar: 'https://github.com/storyblok.png'
+articles:
+  - name: The Complete Guide to Build a Full Blown Multilanguage Website with Nuxt.js
+    link: https://www.storyblok.com/tp/nuxt-js-multilanguage-website-tutorial
+    author: Alexander Feiglstorfer
+    twitter: https://twitter.com/feiglstorfer

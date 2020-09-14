@@ -1,11 +1,12 @@
 name: fullpage
 description: Nuxt module for fullpage-vue plugin
-long_description: ''
+long_description: 'Nuxt module for fullpage-vue plugin. A by-page scroll, support horizontal scroll and vertical scroll, support all the animation instructions of animate.css.'
 repo: vaso2/fullpage-nuxt
 npm: fullpage-nuxt
 type: module
 github: 'https://github.com/vaso2/fullpage-nuxt'
 website: 'https://github.com/vaso2/fullpage-nuxt'
+demo: https://river-lee.github.io/vue-fullpage/examples/
 keywords:
   - directive
   - external

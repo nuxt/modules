@@ -1,6 +1,6 @@
 name: precompress
 description: Precompress files to gzip and brotli and serve them automatically
-long_description: ''
+long_description: Compress files to gzip and brotli at build-time, And serve them if browser supports them.
 repo: frenchrabbit/nuxt-precompress
 npm: nuxt-precompress
 type: module

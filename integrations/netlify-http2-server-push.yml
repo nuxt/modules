@@ -1,12 +1,13 @@
 name: netlify-http2-server-push
 description: Nuxt.js module for enabling HTTP/2 server push on Netlify
-long_description: ''
+long_description: This module generates a _headers file which enables HTTP/2 server push on Netlify.
 repo: jmblog/nuxt-netlify-http2-server-push
 npm: nuxt-netlify-http2-server-push
 type: module
 icon: netlify.png
 github: 'https://github.com/jmblog/nuxt-netlify-http2-server-push'
 website: 'https://github.com/jmblog/nuxt-netlify-http2-server-push'
+learn_more: https://www.netlify.com/
 keywords:
   - external
   - http2-server-push
@@ -18,3 +19,5 @@ maintainers:
   - name: jmblog
     github: jmblog
     avatar: 'https://github.com/jmblog.png'
+hide: yes
+reason: support for Netlify http2 server push has been dropped - https://community.netlify.com/t/why-was-http-2-server-push-support-dropped/14770/4
