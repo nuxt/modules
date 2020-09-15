@@ -1,13 +1,13 @@
 name: color-mode
 description: Dark and Light mode for NuxtJS with auto detection
-long_description: '🌑 Dark and 🌕 Light mode with auto detection made easy with NuxtJS'
+long_description: 'Dark and Light mode with auto detection made easy with NuxtJS'
 repo: nuxt-community/color-mode-module
 npm: '@nuxtjs/color-mode'
 type: module
 github: 'https://github.com/nuxt-community/color-mode-module'
 website: 'https://github.com/nuxt-community/color-mode-module'
 demo: https://color-mode.nuxtjs.app/
-gif: https://user-images.githubusercontent.com/904724/79349768-f09cf080-7f36-11ea-93bb-20fae8c94811.gif
+video: https://nuxtjs.org/blog/going-dark-with-nuxtjs-color-mode/final-working-version.mp4
 keywords:
   - community
 categories:
@@ -23,3 +23,9 @@ features:
   - Auto detect the system color-mode
   - Sync between tabs
   - Supports IE9+
+articles:
+  - title: Going dark with Nuxt.js color mode
+  - link: https://nuxtjs.org/blog/going-dark-with-nuxtjs-color-mode
+  - author: Debbie O'Brien
+  - twitter: debs_obrien
+  - avatar: https://pbs.twimg.com/profile_images/1252900852156772352/JLIVJ-TC_400x400.jpg
