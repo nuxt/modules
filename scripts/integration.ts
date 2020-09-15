@@ -25,7 +25,7 @@ export async function sync(name, repo?: string) {
     integration.repo = repo
   }
   if (!integration.github) {
-    integration.github = 'https://github.com/' + integration.repo
+    integration.github = 'https://github.com/' + integration.repo.replace('#', '/tree/')
   }
   if (!integration.website) {
     integration.website = integration.github
