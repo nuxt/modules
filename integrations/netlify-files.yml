@@ -12,10 +12,11 @@ icon: netlify.png
 github: 'https://github.com/nuxt-community/netlify-files-module'
 website: 'https://github.com/nuxt-community/netlify-files-module'
 learn_more: 'https://www.netlify.com/'
-keywords:
-  - community
+keywords: []
 categories:
   - deployment
+labels:
+  - community
 maintainers:
   - name: Alexander Lichter
     github: manniL

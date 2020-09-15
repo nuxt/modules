@@ -12,10 +12,11 @@ icon: webpack.png
 github: 'https://github.com/paulgv/nuxt-webpackdashboard'
 website: 'https://github.com/paulgv/nuxt-webpackdashboard'
 learn_more: 'https://github.com/FormidableLabs/webpack-dashboard'
-keywords:
-  - external
+keywords: []
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: paulgv
     github: paulgv

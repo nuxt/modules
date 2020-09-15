@@ -9,13 +9,14 @@ github: 'https://github.com/Developmint/nuxt-svg-loader'
 website: 'https://github.com/Developmint/nuxt-svg-loader'
 learn_more: ''
 keywords:
-  - external
   - loader
   - nuxtjs
   - svg
   - svg-loader
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: Developmint
     github: Developmint

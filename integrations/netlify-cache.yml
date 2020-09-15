@@ -12,10 +12,11 @@ icon: netlify.png
 github: 'https://github.com/DreaMinder/nuxt-netlify-cache'
 website: 'https://github.com/DreaMinder/nuxt-netlify-cache'
 learn_more: 'https://www.netlify.com/'
-keywords:
-  - external
+keywords: []
 categories:
   - deployment
+labels:
+  - 3rd-party
 maintainers:
   - name: DreaMinder
     github: DreaMinder

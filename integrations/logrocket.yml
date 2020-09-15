@@ -12,10 +12,11 @@ icon: logrocket.png
 github: 'https://github.com/nuxt-community/nuxt-logrocket'
 website: 'https://github.com/nuxt-community/nuxt-logrocket'
 learn_more: 'https://docs.logrocket.com/docs'
-keywords:
-  - community
+keywords: []
 categories:
   - monitoring
+labels:
+  - community
 maintainers:
   - name: Farzad Soltani
     github: farzadso

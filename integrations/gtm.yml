@@ -11,10 +11,11 @@ icon: gtm.png
 github: 'https://github.com/nuxt-community/gtm-module'
 website: 'https://github.com/nuxt-community/gtm-module'
 learn_more: 'https://marketingplatform.google.com/about/tag-manager/'
-keywords:
-  - community
+keywords: []
 categories:
   - analytics
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

@@ -12,10 +12,11 @@ icon: emotion.png
 github: 'https://github.com/nuxt-community/emotion-module'
 website: 'https://github.com/nuxt-community/emotion-module'
 learn_more: 'https://emotion.sh/'
-keywords:
-  - community
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

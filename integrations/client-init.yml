@@ -12,10 +12,11 @@ icon: ''
 github: 'https://github.com/potato4d/nuxt-client-init-module'
 website: 'https://github.com/potato4d/nuxt-client-init-module'
 learn_more: ''
-keywords:
-  - external
+keywords: []
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: potato4d
     github: potato4d

@@ -12,7 +12,6 @@ github: 'https://github.com/victorgarciaesgi/nuxt-typed-router'
 website: 'https://github.com/victorgarciaesgi/nuxt-typed-router'
 learn_more: ''
 keywords:
-  - external
   - nuxt generate route ts
   - nuxt router
   - nuxt safe router
@@ -21,6 +20,8 @@ keywords:
   - nuxt typed routes
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: victorgarciaesgi
     github: victorgarciaesgi

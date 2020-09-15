@@ -12,10 +12,11 @@ icon: application-insights.png
 github: 'https://github.com/nuxt-community/applicationinsights-module'
 website: 'https://github.com/nuxt-community/applicationinsights-module'
 learn_more: 'https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview'
-keywords:
-  - community
+keywords: []
 categories:
   - monitoring
+labels:
+  - community
 maintainers:
   - name: Dmitry Molotkov
     github: aldarund

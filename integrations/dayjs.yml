@@ -12,11 +12,11 @@ github: 'https://github.com/nuxt-community/dayjs-module'
 website: 'https://github.com/nuxt-community/dayjs-module'
 learn_more: 'https://day.js.org/'
 keywords:
-  - community
   - nuxt.js
-  - vue
 categories:
   - time
+labels:
+  - community
 maintainers:
   - name: Takuma HANATANI
     github: potato4d

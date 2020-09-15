@@ -11,13 +11,12 @@ github: 'https://github.com/nuxt-community/fontawesome-module'
 website: 'https://github.com/nuxt-community/fontawesome-module'
 learn_more: 'https://fontawesome.com/'
 keywords:
-  - community
   - fontawesome
-  - nuxt-module
-  - vue
 categories:
   - fonts
   - ui
+labels:
+  - community
 maintainers:
   - name: Pim
     github: pimlie

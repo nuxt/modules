@@ -13,10 +13,11 @@ icon: zendesk.png
 github: 'https://github.com/DansMaCulotte/nuxt-zendesk'
 website: 'https://github.com/DansMaCulotte/nuxt-zendesk'
 learn_more: 'https://developer.zendesk.com/embeddables/docs/widget/introduction'
-keywords:
-  - external
+keywords: []
 categories:
   - ecommerce
+labels:
+  - 3rd-party
 maintainers:
   - name: DansMaCulotte
     github: DansMaCulotte

@@ -17,17 +17,17 @@ learn_more: ''
 keywords:
   - cookie
   - cross-browser
-  - external
   - julio-marquez
   - localstorage
   - nuxt.js
   - storage
-  - vue
   - vue-plugin
   - vue-warehouse
   - vue.js
 categories:
   - libraries
+labels:
+  - 3rd-party
 maintainers:
   - name: bazzite
     github: bazzite

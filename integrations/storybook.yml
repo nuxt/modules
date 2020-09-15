@@ -12,10 +12,11 @@ icon: storybook.png
 github: 'https://github.com/nuxt-community/storybook'
 website: 'https://storybook.nuxtjs.org'
 learn_more: 'https://storybook.js.org/'
-keywords:
-  - community
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Ahad Birang
     github: farnabaz

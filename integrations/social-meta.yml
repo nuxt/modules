@@ -12,10 +12,11 @@ icon: ''
 github: 'https://github.com/AlekseyPleshkov/nuxt-social-meta'
 website: 'https://github.com/AlekseyPleshkov/nuxt-social-meta'
 learn_more: ''
-keywords:
-  - external
+keywords: []
 categories:
   - seo
+labels:
+  - 3rd-party
 maintainers:
   - name: AlekseyPleshkov
     github: AlekseyPleshkov

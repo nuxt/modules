@@ -11,11 +11,11 @@ learn_more: ''
 keywords:
   - authentication
   - basic auth
-  - external
   - nuxt.js
-  - vue
 categories:
   - security
+labels:
+  - 3rd-party
 maintainers:
   - name: potato4d
     github: potato4d

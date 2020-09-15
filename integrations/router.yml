@@ -8,10 +8,11 @@ icon: vue.png
 github: 'https://github.com/nuxt-community/router-module'
 website: 'https://github.com/nuxt-community/router-module'
 learn_more: ''
-keywords:
-  - community
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Sébastien Chopin
     github: Atinux

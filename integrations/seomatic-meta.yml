@@ -15,13 +15,13 @@ learn_more: 'https://plugins.craftcms.com/seomatic'
 keywords:
   - craft
   - craftcms
-  - external
   - nuxtjs
   - seo
   - seomatic
-  - vue
 categories:
   - cms
+labels:
+  - 3rd-party
 maintainers:
   - name: ben-rogerson
     github: ben-rogerson

@@ -9,7 +9,6 @@ github: 'https://github.com/nuxt-community/separate-env-module'
 website: 'https://github.com/nuxt-community/separate-env-module'
 learn_more: ''
 keywords:
-  - community
   - env
   - environment
   - nuxtjs
@@ -17,6 +16,8 @@ keywords:
   - variables
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Alexander Lichter
     github: manniL

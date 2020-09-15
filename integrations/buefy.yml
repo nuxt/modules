@@ -12,10 +12,11 @@ icon: buefy.png
 github: 'https://github.com/buefy/nuxt-buefy'
 website: 'https://github.com/buefy/nuxt-buefy'
 learn_more: 'https://buefy.org/'
-keywords:
-  - external
+keywords: []
 categories:
   - ui
+labels:
+  - 3rd-party
 maintainers:
   - name: buefy
     github: buefy

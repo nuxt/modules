@@ -12,10 +12,11 @@ icon: one-signal.png
 github: 'https://github.com/nuxt-community/onesignal-module'
 website: 'https://github.com/nuxt-community/onesignal-module'
 learn_more: 'https://onesignal.com/'
-keywords:
-  - community
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

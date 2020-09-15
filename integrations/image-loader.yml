@@ -14,12 +14,13 @@ github: 'https://github.com/reallifedigital/nuxt-image-loader-module'
 website: 'https://github.com/reallifedigital/nuxt-image-loader-module'
 learn_more: 'http://www.graphicsmagick.org/'
 keywords:
-  - external
   - graphicsmagick
   - image-processing
   - images
 categories:
   - images
+labels:
+  - 3rd-party
 maintainers:
   - name: reallifedigital
     github: reallifedigital

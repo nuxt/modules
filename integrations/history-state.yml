@@ -10,10 +10,11 @@ icon: ''
 github: 'https://github.com/hidekatsu-izuno/nuxt-history-state'
 website: 'https://github.com/hidekatsu-izuno/nuxt-history-state'
 learn_more: ''
-keywords:
-  - external
+keywords: []
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: hidekatsu-izuno
     github: hidekatsu-izuno

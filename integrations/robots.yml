@@ -12,10 +12,11 @@ icon: ''
 github: 'https://github.com/nuxt-community/robots-module'
 website: 'https://github.com/nuxt-community/robots-module'
 learn_more: 'https://support.google.com/webmasters/answer/6062608?hl=en'
-keywords:
-  - community
+keywords: []
 categories:
   - seo
+labels:
+  - community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

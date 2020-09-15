@@ -8,10 +8,11 @@ icon: google-optimize.png
 github: 'https://github.com/nuxt-community/google-optimize-module'
 website: 'https://github.com/nuxt-community/google-optimize-module'
 learn_more: 'https://marketingplatform.google.com/about/optimize/'
-keywords:
-  - community
+keywords: []
 categories:
   - analytics
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

@@ -10,10 +10,11 @@ icon: dotenv.png
 github: 'https://github.com/nuxt-community/dotenv-module'
 website: 'https://github.com/nuxt-community/dotenv-module'
 learn_more: 'https://www.npmjs.com/package/dotenv'
-keywords:
-  - community
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Julien Tant
     github: JulienTant

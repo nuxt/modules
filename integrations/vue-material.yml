@@ -16,13 +16,13 @@ github: 'https://github.com/vaso2/nuxt-vue-material'
 website: 'https://github.com/vaso2/nuxt-vue-material'
 learn_more: 'https://vuematerial.io/'
 keywords:
-  - external
   - material
   - material design
-  - vue
   - vue material
 categories:
   - ui
+labels:
+  - 3rd-party
 maintainers:
   - name: vaso2
     github: vaso2

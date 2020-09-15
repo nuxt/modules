@@ -8,10 +8,11 @@ icon: ''
 github: 'https://github.com/nuxt-community/html-minifier-module'
 website: 'https://github.com/nuxt-community/html-minifier-module'
 learn_more: ''
-keywords:
-  - community
+keywords: []
 categories:
   - performance
+labels:
+  - community
 maintainers:
   - name: Xin Du
     github: clarkdo

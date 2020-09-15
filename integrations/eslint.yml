@@ -11,10 +11,11 @@ icon: eslint.png
 github: 'https://github.com/nuxt-community/eslint-module'
 website: 'https://github.com/nuxt-community/eslint-module'
 learn_more: 'https://eslint.org/'
-keywords:
-  - community
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

@@ -15,12 +15,12 @@ keywords:
   - build
   - compress
   - compression
-  - external
   - gzip
   - nuxt.js
-  - vue
 categories:
   - performance
+labels:
+  - 3rd-party
 maintainers:
   - name: frenchrabbit
     github: frenchrabbit

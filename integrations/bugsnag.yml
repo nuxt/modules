@@ -10,10 +10,11 @@ icon: bugsnag.png
 github: 'https://github.com/JulianMar/nuxt-bugsnag'
 website: 'https://github.com/JulianMar/nuxt-bugsnag'
 learn_more: 'https://www.bugsnag.com/'
-keywords:
-  - external
+keywords: []
 categories:
   - monitoring
+labels:
+  - 3rd-party
 maintainers:
   - name: JulianMar
     github: JulianMar

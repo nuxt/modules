@@ -8,11 +8,12 @@ icon: amp.png
 github: 'https://github.com/nuxt-community/amp-module'
 website: 'https://github.com/nuxt-community/amp-module'
 learn_more: 'https://amp.dev/'
-keywords:
-  - community
+keywords: []
 categories:
   - analytics
   - performance
+labels:
+  - community
 maintainers:
   - name: Ahad Birang
     github: farnabaz

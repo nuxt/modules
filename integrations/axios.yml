@@ -10,10 +10,11 @@ icon: ''
 github: 'https://github.com/nuxt-community/axios-module'
 website: 'https://axios.nuxtjs.org'
 learn_more: 'https://github.com/axios/axios'
-keywords:
-  - community
+keywords: []
 categories:
   - request
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

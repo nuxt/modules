@@ -9,11 +9,11 @@ github: 'https://github.com/cierrateam/nuxt-parse'
 website: 'https://github.com/cierrateam/nuxt-parse'
 learn_more: ''
 keywords:
-  - external
   - nuxt.js
-  - vue
 categories:
   - security
+labels:
+  - 3rd-party
 maintainers:
   - name: cierrateam
     github: cierrateam

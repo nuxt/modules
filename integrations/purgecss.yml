@@ -10,11 +10,12 @@ website: 'https://github.com/Developmint/nuxt-purgecss'
 learn_more: 'https://purgecss.com/'
 keywords:
   - css
-  - external
   - nuxtjs
   - purgecss
 categories:
   - css
+labels:
+  - 3rd-party
 maintainers:
   - name: Developmint
     github: Developmint

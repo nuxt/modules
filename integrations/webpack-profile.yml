@@ -8,10 +8,11 @@ icon: webpack.png
 github: 'https://github.com/nuxt-community/webpack-profile-module'
 website: 'https://github.com/nuxt-community/webpack-profile-module'
 learn_more: 'https://webpack.js.org/plugins/profiling-plugin/'
-keywords:
-  - community
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

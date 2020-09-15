@@ -8,10 +8,11 @@ icon: real-favicon-generator.png
 github: 'https://github.com/pimlie/nuxt-rfg-icon'
 website: 'https://github.com/pimlie/nuxt-rfg-icon'
 learn_more: 'https://realfavicongenerator.net/'
-keywords:
-  - external
+keywords: []
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: pimlie
     github: pimlie

@@ -13,10 +13,11 @@ icon: content.png
 github: 'https://github.com/nuxt/content'
 website: 'https://content.nuxtjs.org'
 learn_more: ''
-keywords:
-  - official
+keywords: []
 categories:
   - cms
+labels:
+  - official
 maintainers:
   - name: Benjamin Canac
     github: benjamincanac

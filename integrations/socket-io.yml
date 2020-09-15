@@ -14,13 +14,13 @@ website: 'https://nuxt-socket-io.netlify.app/'
 learn_more: 'https://socket.io/'
 keywords:
   - easy
-  - external
   - socket.io
   - socket.io-client
-  - vue
   - vuejs
 categories:
   - request
+labels:
+  - 3rd-party
 maintainers:
   - name: richardeschloss
     github: richardeschloss

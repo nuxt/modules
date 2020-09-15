@@ -10,10 +10,11 @@ icon: leaflet.png
 github: 'https://github.com/schlunsen/nuxt-leaflet'
 website: 'https://github.com/schlunsen/nuxt-leaflet'
 learn_more: 'https://vue2-leaflet.netlify.app/quickstart/'
-keywords:
-  - external
+keywords: []
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: schlunsen
     github: schlunsen

@@ -11,10 +11,11 @@ icon: ''
 github: 'https://github.com/nuxt-community/nuxt7'
 website: 'https://github.com/nuxt-community/nuxt7'
 learn_more: 'https://framework7.io/'
-keywords:
-  - community
+keywords: []
 categories:
   - ui
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

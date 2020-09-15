@@ -12,10 +12,11 @@ icon: rollbar.png
 github: 'https://github.com/zevran/nuxt-rollbar-module'
 website: 'https://github.com/zevran/nuxt-rollbar-module'
 learn_more: 'https://docs.rollbar.com/docs/javascript'
-keywords:
-  - external
+keywords: []
 categories:
   - monitoring
+labels:
+  - 3rd-party
 maintainers:
   - name: zevran
     github: zevran

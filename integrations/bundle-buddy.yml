@@ -10,12 +10,13 @@ website: 'https://github.com/Developmint/nuxt-bundle-buddy'
 learn_more: ''
 keywords:
   - bundle-buddy
-  - external
   - nuxtjs
   - visualize
   - webpack
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: Developmint
     github: Developmint

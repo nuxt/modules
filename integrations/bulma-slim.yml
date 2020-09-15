@@ -15,7 +15,6 @@ learn_more: 'https://bulma.io/'
 keywords:
   - bulma
   - bulma css
-  - external
   - nuxt module
   - nuxt.js
   - purgecss
@@ -24,6 +23,8 @@ keywords:
   - slim
 categories:
   - ui
+labels:
+  - 3rd-party
 maintainers:
   - name: mustardamus
     github: mustardamus

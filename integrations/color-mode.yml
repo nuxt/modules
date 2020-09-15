@@ -8,10 +8,11 @@ icon: color-mode.png
 github: 'https://github.com/nuxt-community/color-mode-module'
 website: 'https://github.com/nuxt-community/color-mode-module'
 learn_more: ''
-keywords:
-  - community
+keywords: []
 categories:
   - ui
+labels:
+  - community
 maintainers:
   - name: Sébastien Chopin
     github: Atinux

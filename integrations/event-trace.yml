@@ -8,10 +8,11 @@ icon: ''
 github: 'https://github.com/nuxt-community/nuxt-event-trace'
 website: 'https://github.com/nuxt-community/nuxt-event-trace'
 learn_more: ''
-keywords:
-  - community
+keywords: []
 categories:
   - monitoring
+labels:
+  - community
 maintainers:
   - name: Xin Du
     github: clarkdo

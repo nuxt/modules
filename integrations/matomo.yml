@@ -14,13 +14,14 @@ website: 'https://github.com/pimlie/nuxt-matomo'
 learn_more: 'https://developer.matomo.org/api-reference/tracking-javascript'
 keywords:
   - analytics
-  - external
   - matomo
   - nuxt.js
   - nuxtjs
   - piwik
 categories:
   - analytics
+labels:
+  - 3rd-party
 maintainers:
   - name: pimlie
     github: pimlie

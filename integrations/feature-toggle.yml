@@ -11,13 +11,14 @@ github: 'https://github.com/stephenkr/nuxt-feature-toggle'
 website: 'https://github.com/stephenkr/nuxt-feature-toggle'
 learn_more: ''
 keywords:
-  - external
   - feature-switch
   - feature-toggle
   - nuxtjs
   - toggle
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: stephenkr
     github: stephenkr

@@ -12,10 +12,11 @@ icon: cloudinary.png
 github: 'https://github.com/nuxt-community/cloudinary-module'
 website: 'https://cloudinary.nuxtjs.org'
 learn_more: 'https://cloudinary.com'
-keywords:
-  - community
+keywords: []
 categories:
   - images
+labels:
+  - community
 maintainers:
   - name: Maya Shavin
     github: mayashavin

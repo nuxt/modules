@@ -12,10 +12,11 @@ icon: ''
 github: 'https://github.com/nuxt-community/svg-sprite-module'
 website: 'https://github.com/nuxt-community/svg-sprite-module'
 learn_more: ''
-keywords:
-  - community
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Ahad Birang
     github: farnabaz

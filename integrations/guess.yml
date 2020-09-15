@@ -10,10 +10,11 @@ icon: guessjs.png
 github: 'https://github.com/nuxt-community/guess-module'
 website: 'https://github.com/nuxt-community/guess-module'
 learn_more: 'https://guess-js.github.io/'
-keywords:
-  - community
+keywords: []
 categories:
   - performance
+labels:
+  - community
 maintainers:
   - name: Xin Du
     github: clarkdo

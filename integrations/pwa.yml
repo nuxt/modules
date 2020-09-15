@@ -13,10 +13,11 @@ icon: pwa.png
 github: 'https://github.com/nuxt-community/pwa-module'
 website: 'https://pwa.nuxtjs.org'
 learn_more: 'https://web.dev/progressive-web-apps/'
-keywords:
-  - community
+keywords: []
 categories:
   - performance
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

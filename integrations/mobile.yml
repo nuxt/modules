@@ -13,10 +13,11 @@ icon: ''
 github: 'https://github.com/ChanningDefoe/nuxt-mobile-detect'
 website: 'https://github.com/ChanningDefoe/nuxt-mobile-detect'
 learn_more: 'https://github.com/hgoebl/mobile-detect.js'
-keywords:
-  - external
+keywords: []
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: ChanningDefoe
     github: ChanningDefoe

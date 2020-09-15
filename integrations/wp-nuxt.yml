@@ -11,10 +11,11 @@ icon: wordpress.png
 github: 'https://github.com/yashha/wp-nuxt'
 website: 'https://github.com/yashha/wp-nuxt'
 learn_more: 'https://github.com/WP-API/node-wpapi'
-keywords:
-  - external
+keywords: []
 categories:
   - cms
+labels:
+  - 3rd-party
 maintainers:
   - name: yashha
     github: yashha

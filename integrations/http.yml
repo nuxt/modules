@@ -11,10 +11,11 @@ icon: ''
 github: 'https://github.com/nuxt/http'
 website: 'https://http.nuxtjs.org/'
 learn_more: ''
-keywords:
-  - official
+keywords: []
 categories:
   - request
+labels:
+  - official
 maintainers:
   - name: Pooya Parsa
     github: pi0

@@ -13,10 +13,11 @@ icon: stripe.png
 github: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
 website: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
 learn_more: 'https://stripe.com/'
-keywords:
-  - external
+keywords: []
 categories:
   - payment
+labels:
+  - 3rd-party
 maintainers:
   - name: WilliamDASILVA
     github: WilliamDASILVA

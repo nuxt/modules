@@ -19,7 +19,6 @@ keywords:
   - api
   - asyncdata
   - controller
-  - external
   - fetch
   - javascript
   - middleware
@@ -27,9 +26,10 @@ keywords:
   - node
   - service
   - universal
-  - vue
 categories:
   - uncategorized
+labels:
+  - 3rd-party
 maintainers:
   - name: ezypeeze
     github: ezypeeze

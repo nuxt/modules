@@ -8,10 +8,11 @@ icon: google-analytics.png
 github: 'https://github.com/nuxt-community/analytics-module'
 website: 'https://github.com/nuxt-community/analytics-module'
 learn_more: 'https://marketingplatform.google.com/about/analytics/'
-keywords:
-  - community
+keywords: []
 categories:
   - analytics
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

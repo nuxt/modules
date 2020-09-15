@@ -12,11 +12,12 @@ website: 'https://sanity.nuxtjs.org'
 learn_more: 'https://www.sanity.io/'
 keywords:
   - cms
-  - community
   - sanity
   - sanity-io
 categories:
   - cms
+labels:
+  - community
 maintainers:
   - name: Daniel Roe
     github: danielroe

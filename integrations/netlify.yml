@@ -13,10 +13,11 @@ icon: netlify.png
 github: 'https://github.com/bazzite/nuxt-netlify'
 website: 'https://marquez.co/docs/nuxt-netlify/'
 learn_more: ''
-keywords:
-  - external
+keywords: []
 categories:
   - deployment
+labels:
+  - 3rd-party
 maintainers:
   - name: bazzite
     github: bazzite

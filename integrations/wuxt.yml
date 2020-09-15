@@ -13,13 +13,14 @@ github: 'https://github.com/northosts/wuxt'
 website: 'https://github.com/northosts/wuxt'
 learn_more: ''
 keywords:
-  - external
   - nuxt.js
   - wordpress
   - wp
   - wp-rest-api
 categories:
   - cms
+labels:
+  - 3rd-party
 maintainers:
   - name: northosts
     github: northosts

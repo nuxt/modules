@@ -11,13 +11,12 @@ github: 'https://github.com/nuxt-community/svg-module'
 website: 'https://github.com/nuxt-community/svg-module'
 learn_more: ''
 keywords:
-  - community
-  - nuxt-module
   - nuxtjs
   - svg
-  - vue
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Sam Holmes
     github: sam3d

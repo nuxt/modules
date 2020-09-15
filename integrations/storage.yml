@@ -15,12 +15,13 @@ website: 'https://github.com/mazipan/nuxt-storage'
 learn_more: 'https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage'
 keywords:
   - browser-storage
-  - external
   - local-storage
   - nuxt-storage
   - session-storage
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: mazipan
     github: mazipan

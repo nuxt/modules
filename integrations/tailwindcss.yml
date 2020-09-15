@@ -14,11 +14,12 @@ icon: tailwindcss.png
 github: 'https://github.com/nuxt-community/tailwindcss-module'
 website: 'https://tailwindcss.nuxtjs.org'
 learn_more: 'https://tailwindcss.com/'
-keywords:
-  - community
+keywords: []
 categories:
   - css
   - ui
+labels:
+  - community
 maintainers:
   - name: Sébastien Chopin
     github: Atinux

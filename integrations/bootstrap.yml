@@ -57,7 +57,6 @@ keywords:
   - dropdown
   - dropzone
   - dropzone
-  - external
   - flexbox
   - flexbox
   - form
@@ -120,8 +119,6 @@ keywords:
   - uiv
   - upload
   - upload
-  - vue
-  - vue
   - vue-bootstrap
   - vue-strap
   - vue2
@@ -135,6 +132,8 @@ keywords:
   - webcomponents
 categories:
   - ui
+labels:
+  - 3rd-party
 maintainers:
   - name: Troy Morehouse
     github: tmorehouse

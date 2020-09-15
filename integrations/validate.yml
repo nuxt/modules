@@ -13,13 +13,14 @@ github: 'https://github.com/lewyuburi/nuxt-validate'
 website: 'https://github.com/lewyuburi/nuxt-validate'
 learn_more: 'https://logaretm.github.io/vee-validate/'
 keywords:
-  - external
   - validate
   - validation
   - vee-validate
   - vuejs
 categories:
   - libraries
+labels:
+  - 3rd-party
 maintainers:
   - name: lewyuburi
     github: lewyuburi

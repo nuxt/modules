@@ -12,7 +12,6 @@ github: 'https://github.com/GrabarzUndPartner/nuxt-page-generator-helper'
 website: 'https://github.com/GrabarzUndPartner/nuxt-page-generator-helper'
 learn_more: ''
 keywords:
-  - external
   - nuxtjs
   - page
   - payload-extractor
@@ -20,6 +19,8 @@ keywords:
   - static-site-generator
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: GrabarzUndPartner
     github: GrabarzUndPartner

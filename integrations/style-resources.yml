@@ -14,16 +14,16 @@ github: 'https://github.com/nuxt-community/style-resources-module'
 website: 'https://github.com/nuxt-community/style-resources-module'
 learn_more: ''
 keywords:
-  - community
   - import
   - less
-  - nuxt-module
   - nuxtjs
   - sass
   - style-resources
   - stylus
 categories:
   - css
+labels:
+  - community
 maintainers:
   - name: Alexander Lichter
     github: manniL

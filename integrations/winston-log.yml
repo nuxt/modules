@@ -12,10 +12,11 @@ icon: winston.png
 github: 'https://github.com/aaronransley/nuxt-winston-log'
 website: 'https://github.com/aaronransley/nuxt-winston-log'
 learn_more: 'https://www.npmjs.com/package/winston'
-keywords:
-  - external
+keywords: []
 categories:
   - monitoring
+labels:
+  - 3rd-party
 maintainers:
   - name: aaronransley
     github: aaronransley

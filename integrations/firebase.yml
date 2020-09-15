@@ -13,7 +13,6 @@ github: 'https://github.com/nuxt-community/firebase-module'
 website: 'https://github.com/nuxt-community/firebase-module'
 learn_more: 'https://firebase.google.com/'
 keywords:
-  - community
   - firebase
   - firestore
   - google
@@ -21,6 +20,8 @@ keywords:
   - realtimedatabase
 categories:
   - database
+labels:
+  - community
 maintainers:
   - name: Pascal Luther
     github: lupas

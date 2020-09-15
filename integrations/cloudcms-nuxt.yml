@@ -11,10 +11,11 @@ icon: ''
 github: 'https://github.com/gitana/cloudcms-nuxt'
 website: 'https://github.com/gitana/cloudcms-nuxt'
 learn_more: 'https://www.cloudcms.com/'
-keywords:
-  - external
+keywords: []
 categories:
   - cms
+labels:
+  - 3rd-party
 maintainers:
   - name: gitana
     github: gitana

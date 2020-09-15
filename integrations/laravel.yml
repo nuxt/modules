@@ -12,13 +12,13 @@ github: 'https://github.com/m2sd/nuxt-laravel'
 website: 'https://github.com/m2sd/nuxt-laravel'
 learn_more: 'https://laravel.com/'
 keywords:
-  - external
   - laravel
   - pwa
   - spa
-  - vue
 categories:
   - cms
+labels:
+  - 3rd-party
 maintainers:
   - name: m2sd
     github: m2sd

@@ -12,10 +12,11 @@ icon: auth.png
 github: 'https://github.com/nuxt-community/auth-module'
 website: 'https://auth.nuxtjs.org'
 learn_more: ''
-keywords:
-  - community
+keywords: []
 categories:
   - security
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

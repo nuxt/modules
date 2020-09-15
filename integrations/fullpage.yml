@@ -13,13 +13,13 @@ website: 'https://github.com/vaso2/fullpage-nuxt'
 learn_more: ''
 keywords:
   - directive
-  - external
   - fullpage
   - fullpage-vue
-  - vue
 categories:
   - css
   - ui
+labels:
+  - 3rd-party
 maintainers:
   - name: vaso2
     github: vaso2

@@ -12,11 +12,12 @@ icon: stylelint.png
 github: 'https://github.com/nuxt-community/stylelint-module'
 website: 'https://github.com/nuxt-community/stylelint-module'
 learn_more: 'https://stylelint.io/'
-keywords:
-  - community
+keywords: []
 categories:
   - css
   - devtools
+labels:
+  - community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

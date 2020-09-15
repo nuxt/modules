@@ -15,7 +15,6 @@ learn_more: 'https://github.com/mattdesl/canvas-sketch/blob/master/docs/README.m
 keywords:
   - canvas
   - canvas-sketch
-  - external
   - generative-art
   - modules
   - nuxtjs
@@ -25,6 +24,8 @@ keywords:
   - vuejs
 categories:
   - uncategorized
+labels:
+  - 3rd-party
 maintainers:
   - name: LuXDAmore
     github: LuXDAmore

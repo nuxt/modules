@@ -10,10 +10,11 @@ icon: ''
 github: 'https://github.com/nuxt-community/device-module'
 website: 'https://github.com/nuxt-community/device-module'
 learn_more: ''
-keywords:
-  - community
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Shinji Yamada
     github: dotneet

@@ -12,12 +12,13 @@ github: 'https://github.com/nuxt-community/redirect-module'
 website: 'https://github.com/nuxt-community/redirect-module'
 learn_more: ''
 keywords:
-  - community
   - nuxtjs
   - redirect
   - seo
 categories:
   - seo
+labels:
+  - community
 maintainers:
   - name: Alexander Lichter
     github: manniL

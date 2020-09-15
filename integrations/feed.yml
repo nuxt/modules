@@ -11,13 +11,14 @@ learn_more: ''
 keywords:
   - atom
   - blog
-  - community
   - feed
   - json
   - nuxtjs
   - rss
 categories:
   - seo
+labels:
+  - community
 maintainers:
   - name: Alexander Lichter
     github: manniL

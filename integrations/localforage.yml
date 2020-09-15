@@ -12,10 +12,11 @@ icon: ''
 github: 'https://github.com/nuxt-community/localforage-module'
 website: 'https://github.com/nuxt-community/localforage-module'
 learn_more: 'https://localforage.github.io/localForage/'
-keywords:
-  - community
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Alexandre Chopin
     github: alexchopin

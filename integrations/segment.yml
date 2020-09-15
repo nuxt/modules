@@ -9,10 +9,11 @@ github: 'https://github.com/dansmaculotte/nuxt-segment'
 website: 'https://github.com/dansmaculotte/nuxt-segment'
 learn_more: >-
   https://segment.com/docs/connections/sources/catalog/libraries/website/javascript/
-keywords:
-  - external
+keywords: []
 categories:
   - analytics
+labels:
+  - 3rd-party
 maintainers:
   - name: dansmaculotte
     github: dansmaculotte

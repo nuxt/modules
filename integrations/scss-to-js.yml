@@ -10,7 +10,6 @@ website: 'https://github.com/sugoidesune/nuxt-scss-to-js'
 learn_more: ''
 keywords:
   - bootstrap
-  - external
   - json
   - material
   - nuxtjs
@@ -18,10 +17,11 @@ keywords:
   - svg
   - tailwind
   - theme
-  - vue
   - vuetify
 categories:
   - css
+labels:
+  - 3rd-party
 maintainers:
   - name: sugoidesune
     github: sugoidesune

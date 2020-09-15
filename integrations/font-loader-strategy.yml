@@ -11,7 +11,6 @@ github: 'https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy'
 website: 'https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy'
 learn_more: ''
 keywords:
-  - external
   - font
   - nuxtjs
   - prefetch
@@ -20,6 +19,8 @@ keywords:
   - webworker
 categories:
   - fonts
+labels:
+  - 3rd-party
 maintainers:
   - name: GrabarzUndPartner
     github: GrabarzUndPartner

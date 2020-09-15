@@ -11,12 +11,12 @@ github: 'https://github.com/richardeschloss/nuxt-highcharts'
 website: 'https://github.com/richardeschloss/nuxt-highcharts'
 learn_more: 'https://www.highcharts.com/'
 keywords:
-  - external
   - highcharts
-  - vue
   - vuejs
 categories:
   - ui
+labels:
+  - 3rd-party
 maintainers:
   - name: richardeschloss
     github: richardeschloss

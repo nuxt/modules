@@ -8,10 +8,11 @@ icon: ghost-blog.png
 github: 'https://github.com/moso/nuxt-ghost-blog'
 website: 'https://github.com/moso/nuxt-ghost-blog'
 learn_more: ''
-keywords:
-  - external
+keywords: []
 categories:
   - cms
+labels:
+  - 3rd-party
 maintainers:
   - name: moso
     github: moso

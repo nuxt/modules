@@ -13,12 +13,13 @@ website: 'https://github.com/nuxt-community/recaptcha-module'
 learn_more: 'https://www.google.com/recaptcha/about/'
 keywords:
   - captcha
-  - community
   - grecaptcha
   - nuxtjs
   - recaptcha
 categories:
   - security
+labels:
+  - community
 maintainers:
   - name: mvrlin
     github: mvrlin

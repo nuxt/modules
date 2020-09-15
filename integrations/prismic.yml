@@ -13,11 +13,11 @@ website: 'https://github.com/nuxt-community/prismic-module'
 learn_more: 'https://prismic.io/'
 keywords:
   - cms
-  - community
   - prismic
-  - vue
 categories:
   - cms
+labels:
+  - community
 maintainers:
   - name: Sébastien Chopin
     github: Atinux

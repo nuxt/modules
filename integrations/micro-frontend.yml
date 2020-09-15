@@ -11,10 +11,11 @@ icon: ''
 github: 'https://github.com/FEMessage/nuxt-micro-frontend'
 website: 'https://github.com/FEMessage/nuxt-micro-frontend'
 learn_more: 'https://qiankun.umijs.org/'
-keywords:
-  - external
+keywords: []
 categories:
   - fonts
+labels:
+  - 3rd-party
 maintainers:
   - name: FEMessage
     github: FEMessage

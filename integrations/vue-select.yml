@@ -15,10 +15,11 @@ icon: ''
 github: 'https://github.com/madmod/nuxt-vue-select'
 website: 'https://github.com/madmod/nuxt-vue-select'
 learn_more: 'https://vue-select.org/'
-keywords:
-  - external
+keywords: []
 categories:
   - libraries
+labels:
+  - 3rd-party
 maintainers:
   - name: madmod
     github: madmod

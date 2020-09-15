@@ -10,11 +10,12 @@ icon: ''
 github: 'https://github.com/nuxt-community/material-icons-module'
 website: 'https://github.com/nuxt-community/material-icons-module'
 learn_more: 'https://material.io/resources/icons/?style=baseline'
-keywords:
-  - community
+keywords: []
 categories:
   - fonts
   - ui
+labels:
+  - community
 maintainers:
   - name: Samuell1
     github: Samuell1

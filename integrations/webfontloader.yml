@@ -13,13 +13,14 @@ github: 'https://github.com/Developmint/nuxt-webfontloader'
 website: 'https://github.com/Developmint/nuxt-webfontloader'
 learn_more: 'https://www.npmjs.com/package/webfontloader'
 keywords:
-  - external
   - font
   - nuxtjs
   - webfont
   - webfontloader
 categories:
   - fonts
+labels:
+  - 3rd-party
 maintainers:
   - name: Developmint
     github: Developmint

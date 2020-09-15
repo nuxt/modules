@@ -10,10 +10,11 @@ icon: ''
 github: 'https://github.com/MetaCorp/xui-module'
 website: 'https://github.com/MetaCorp/xui-module'
 learn_more: ''
-keywords:
-  - external
+keywords: []
 categories:
   - ui
+labels:
+  - 3rd-party
 maintainers:
   - name: MetaCorp
     github: MetaCorp

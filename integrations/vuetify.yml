@@ -13,10 +13,11 @@ icon: vuetify.png
 github: 'https://github.com/nuxt-community/vuetify-module'
 website: 'https://github.com/nuxt-community/vuetify-module'
 learn_more: 'https://vuetifyjs.com/en/'
-keywords:
-  - community
+keywords: []
 categories:
   - ui
+labels:
+  - community
 maintainers:
   - name: Kevin Marrec
     github: kevinmarrec

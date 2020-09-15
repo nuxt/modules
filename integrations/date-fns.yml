@@ -11,10 +11,11 @@ icon: date-fns.png
 github: 'https://github.com/nuxt-community/date-fns-module'
 website: 'https://github.com/nuxt-community/date-fns-module'
 learn_more: 'https://date-fns.org/'
-keywords:
-  - community
+keywords: []
 categories:
   - time
+labels:
+  - community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

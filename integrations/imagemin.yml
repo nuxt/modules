@@ -8,10 +8,11 @@ icon: imagemin.png
 github: 'https://github.com/nuxt-community/imagemin-module'
 website: 'https://github.com/nuxt-community/imagemin-module'
 learn_more: 'https://github.com/imagemin/imagemin'
-keywords:
-  - community
+keywords: []
 categories:
   - images
+labels:
+  - community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

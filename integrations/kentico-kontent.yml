@@ -13,13 +13,14 @@ github: 'https://github.com/Domitnator/kentico-kontent-nuxt-module'
 website: 'https://github.com/Domitnator/kentico-kontent-nuxt-module'
 learn_more: 'https://kontent.ai/'
 keywords:
-  - external
   - kentico
   - kontent
   - nuxtjs
   - vuejs
 categories:
   - cms
+labels:
+  - 3rd-party
 maintainers:
   - name: Domitnator
     github: Domitnator

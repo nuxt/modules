@@ -19,7 +19,6 @@ keywords:
   - build
   - cheerio
   - dynamic-rendering
-  - external
   - html
   - lighthouse
   - lighthouse-audit
@@ -32,6 +31,8 @@ keywords:
   - vuejs
 categories:
   - performance
+labels:
+  - 3rd-party
 maintainers:
   - name: LuXDAmore
     github: LuXDAmore

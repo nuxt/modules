@@ -13,10 +13,11 @@ icon: sentry.png
 github: 'https://github.com/nuxt-community/sentry-module'
 website: 'https://github.com/nuxt-community/sentry-module'
 learn_more: 'https://sentry.io/welcome/'
-keywords:
-  - community
+keywords: []
 categories:
   - monitoring
+labels:
+  - community
 maintainers:
   - name: Rafał Chłodnicki
     github: rchl

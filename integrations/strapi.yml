@@ -10,10 +10,11 @@ icon: strapi.png
 github: 'https://github.com/nuxt-community/strapi-module'
 website: 'https://strapi.nuxtjs.org'
 learn_more: 'https://strapi.io/'
-keywords:
-  - community
+keywords: []
 categories:
   - cms
+labels:
+  - community
 maintainers:
   - name: Sébastien Chopin
     github: Atinux

@@ -12,10 +12,11 @@ icon: ''
 github: 'https://github.com/nuxt-community/proxy-module'
 website: 'https://github.com/nuxt-community/proxy-module'
 learn_more: ''
-keywords:
-  - community
+keywords: []
 categories:
   - request
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

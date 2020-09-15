@@ -12,10 +12,11 @@ icon: ''
 github: 'https://github.com/mmoollllee/nuxt-protected-mailto'
 website: 'https://github.com/mmoollllee/nuxt-protected-mailto'
 learn_more: ''
-keywords:
-  - external
+keywords: []
 categories:
   - security
+labels:
+  - 3rd-party
 maintainers:
   - name: mmoollllee
     github: mmoollllee

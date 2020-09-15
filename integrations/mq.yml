@@ -13,15 +13,15 @@ github: 'https://github.com/vanhoofmaarten/nuxt-mq'
 website: 'https://github.com/vanhoofmaarten/nuxt-mq'
 learn_more: 'https://github.com/AlexandreBonaventure/vue-mq'
 keywords:
-  - external
   - media queries
   - nuxt.js
   - nuxtjs
-  - vue
   - vue.js
   - vuejs
 categories:
   - libraries
+labels:
+  - 3rd-party
 maintainers:
   - name: vanhoofmaarten
     github: vanhoofmaarten

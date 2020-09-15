@@ -10,10 +10,11 @@ icon: laravel-echo.png
 github: 'https://github.com/nuxt-community/laravel-echo'
 website: 'https://github.com/nuxt-community/laravel-echo'
 learn_more: 'https://laravel.com/docs/8.x/broadcasting#installing-laravel-echo'
-keywords:
-  - community
+keywords: []
 categories:
   - cms
+labels:
+  - community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza

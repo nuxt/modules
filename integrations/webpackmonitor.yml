@@ -11,10 +11,11 @@ icon: webpack.png
 github: 'https://github.com/nuxt-community/webpackmonitor-module'
 website: 'https://github.com/nuxt-community/webpackmonitor-module'
 learn_more: 'http://webpackmonitor.com/'
-keywords:
-  - community
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

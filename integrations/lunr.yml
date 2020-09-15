@@ -11,10 +11,11 @@ icon: ''
 github: 'https://github.com/nuxt-community/lunr-module'
 website: 'https://github.com/nuxt-community/lunr-module'
 learn_more: 'https://lunrjs.com/'
-keywords:
-  - community
+keywords: []
 categories:
   - libraries
+labels:
+  - community
 maintainers:
   - name: Pim
     github: pimlie

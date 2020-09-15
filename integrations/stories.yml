@@ -9,12 +9,13 @@ github: 'https://github.com/richardeschloss/nuxt-stories'
 website: 'https://github.com/richardeschloss/nuxt-stories'
 learn_more: ''
 keywords:
-  - external
   - painless
   - stories
   - storybook
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: richardeschloss
     github: richardeschloss

@@ -11,12 +11,12 @@ github: 'https://github.com/skyrpex/laravel-nuxt-js'
 website: 'https://github.com/skyrpex/laravel-nuxt-js'
 learn_more: 'https://laravel.com/'
 keywords:
-  - external
   - laravel
   - spa
-  - vue
 categories:
   - cms
+labels:
+  - 3rd-party
 maintainers:
   - name: skyrpex
     github: skyrpex

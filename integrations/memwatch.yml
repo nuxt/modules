@@ -13,7 +13,6 @@ website: 'https://github.com/pimlie/nuxt-memwatch'
 learn_more: 'https://github.com/pimlie/node-memwatcher'
 keywords:
   - dump
-  - external
   - heap
   - leak
   - memory
@@ -21,6 +20,8 @@ keywords:
   - statistics
 categories:
   - monitoring
+labels:
+  - 3rd-party
 maintainers:
   - name: pimlie
     github: pimlie

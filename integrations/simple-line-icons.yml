@@ -11,13 +11,13 @@ github: 'https://github.com/vaso2/nuxt-simple-line-icons'
 website: 'https://github.com/vaso2/nuxt-simple-line-icons'
 learn_more: 'https://thesabbir.github.io/simple-line-icons/'
 keywords:
-  - external
   - plugin
   - simple-line-icons
-  - vue
   - vuejs
 categories:
   - fonts
+labels:
+  - 3rd-party
 maintainers:
   - name: vaso2
     github: vaso2

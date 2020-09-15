@@ -12,10 +12,11 @@ icon: momentjs.png
 github: 'https://github.com/nuxt-community/moment-module'
 website: 'https://github.com/nuxt-community/moment-module'
 learn_more: 'https://momentjs.com/'
-keywords:
-  - community
+keywords: []
 categories:
   - time
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

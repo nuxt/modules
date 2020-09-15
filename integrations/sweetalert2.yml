@@ -12,11 +12,12 @@ github: 'https://github.com/ImreC/nuxt-sweetalert2'
 website: 'https://github.com/ImreC/nuxt-sweetalert2'
 learn_more: 'https://sweetalert2.github.io/'
 keywords:
-  - external
   - notifications
   - sweetalert2
 categories:
   - libraries
+labels:
+  - 3rd-party
 maintainers:
   - name: ImreC
     github: ImreC

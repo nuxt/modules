@@ -10,13 +10,14 @@ website: 'https://github.com/kdydesign/nuxt-alias-module'
 learn_more: ''
 keywords:
   - alias
-  - external
   - nuxt-alias
   - nuxt-alias-module
   - nuxtjs
   - path
 categories:
   - devtools
+labels:
+  - 3rd-party
 maintainers:
   - name: kdydesign
     github: kdydesign

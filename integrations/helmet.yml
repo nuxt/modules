@@ -16,7 +16,6 @@ learn_more: 'https://helmetjs.github.io/'
 keywords:
   - clickjack
   - csp
-  - external
   - headers
   - helmet
   - helmet.js
@@ -27,6 +26,8 @@ keywords:
   - x-frame-options
 categories:
   - security
+labels:
+  - 3rd-party
 maintainers:
   - name: victor-perez
     github: victor-perez
