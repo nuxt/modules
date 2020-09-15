@@ -10,13 +10,14 @@ npm: '@nuxtjs/auth'
 type: module
 icon: auth.png
 github: 'https://github.com/nuxt-community/auth-module'
-website: 'https://auth.nuxtjs.org'
+website: 'https://dev.auth.nuxtjs.org/'
 learn_more: ''
 keywords: []
 categories:
   - security
 labels:
   - community
+  - unstable
 maintainers:
   - name: Pooya Parsa
     github: pi0
@@ -31,5 +32,3 @@ features:
   - Set up auth middleware
   - Configure local scheme
   - Customize Options
-hide: 'yes'
-reason: 'module not ready for release, improvements needed'
