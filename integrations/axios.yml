@@ -6,12 +6,15 @@ long_description: >-
 repo: nuxt-community/axios-module
 npm: '@nuxtjs/axios'
 type: module
+icon: ''
 github: 'https://github.com/nuxt-community/axios-module'
 website: 'https://axios.nuxtjs.org'
-keywords:
-  - community
+learn_more: 'https://github.com/axios/axios'
+keywords: []
 categories:
   - request
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0
@@ -24,3 +27,7 @@ features:
     authentication tokens
   - Automatically enables `withCredentials` when requesting to base URL
   - Proxy request headers in SSR (Useful for auth)
+  - Fetch Style requests
+  - Integrated with Nuxt.js Progressbar while making requests
+  - Integrated with Proxy Module
+  - Auto retry requests with axios-retry

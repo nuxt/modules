@@ -8,12 +8,15 @@ long_description: >-
 repo: nuxt-community/storybook
 npm: '@nuxtjs/storybook'
 type: cli
+icon: storybook.png
 github: 'https://github.com/nuxt-community/storybook'
 website: 'https://storybook.nuxtjs.org'
-keywords:
-  - community
+learn_more: 'https://storybook.js.org/'
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Ahad Birang
     github: farnabaz
@@ -23,10 +26,15 @@ maintainers:
     github: pi0
     twitter: _pi0_
     avatar: 'https://github.com/pi0.png'
-icon: 'https://storybook.nuxtjs.org/icon.png'
+demo: 'https://storybook.nuxtjs.org/examples'
+video: >-
+  https://res.cloudinary.com/nuxt/video/upload/q_auto/v1596201190/nuxt-storybook_nn9hcf.webm
 image: 'https://storybook.nuxtjs.org/preview.png'
 features:
   - Zero configuration
   - Nuxt webpack configuration
   - Nuxt plugins support
   - Story discovery from nuxt modules
+  - Nuxt components support
+  - Storybook Generate
+  - Hot reload support

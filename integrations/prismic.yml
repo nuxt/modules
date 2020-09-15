@@ -1,5 +1,5 @@
 name: prismic
-description: Add Prismic to your NuxtJS project
+description: Easily connect your Nuxt.js application to your content hosted on Prismic
 long_description: >-
   Prismic is a Content Management System, a tool for editing online content.
   Also known as a headless CMS, an API CMS, a content platform, a tool that
@@ -7,15 +7,17 @@ long_description: >-
 repo: nuxt-community/prismic-module
 npm: '@nuxtjs/prismic'
 type: module
+icon: prismic.png
 github: 'https://github.com/nuxt-community/prismic-module'
 website: 'https://github.com/nuxt-community/prismic-module'
+learn_more: 'https://prismic.io/'
 keywords:
   - cms
-  - community
   - prismic
-  - vue
 categories:
   - cms
+labels:
+  - community
 maintainers:
   - name: Sébastien Chopin
     github: Atinux
@@ -24,7 +26,8 @@ maintainers:
   - name: James Pegg
     github: jamespegg
     avatar: 'https://github.com/jamespegg.png'
-icon: 'https://prismic.nuxtjs.org/icon.png'
+demo: 'https://nuxt-prismic.surge.sh/'
+video: 'https://youtu.be/2DtDsnWe2MU'
 image: 'https://prismic.nuxtjs.org/preview.png'
 features:
   - Add Prismic to your Nuxt app in seconds

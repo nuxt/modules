@@ -8,12 +8,15 @@ long_description: >-
 repo: nuxt-community/i18n-module
 npm: nuxt-i18n
 type: module
+icon: 'https://i18n.nuxtjs.org/icon.png'
 github: 'https://github.com/nuxt-community/i18n-module'
 website: 'https://i18n.nuxtjs.org'
-keywords:
-  - community
+learn_more: 'https://kazupon.github.io/vue-i18n/'
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Paul Gascou-Vaillancourt
     github: paulgv
@@ -21,10 +24,12 @@ maintainers:
   - name: Rafał Chłodnicki
     github: rchl
     avatar: 'https://github.com/rchl.png'
-icon: 'https://i18n.nuxtjs.org/icon.png'
 image: 'https://i18n.nuxtjs.org/preview.png'
 features:
   - Integration with vue-i18n
   - Automatic routes generation and custom paths
   - Search Engine Optimization
   - Lazy-loading of translation messages
+  - Redirection based on auto-detected language
+  - Different domain names for different languages
+  - Storing current locale and messages with Vuex

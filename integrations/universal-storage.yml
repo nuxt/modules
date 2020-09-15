@@ -1,15 +1,18 @@
 name: universal-storage
 description: Universal Storage Utilities for Nuxt.js
-long_description: ''
+long_description: Universal Storage Utilities for Nuxt.js based on @nuxt-community/auth-module
 repo: nuxt-community/universal-storage-module
 npm: '@nuxtjs/universal-storage'
 type: module
+icon: ''
 github: 'https://github.com/nuxt-community/universal-storage-module'
 website: 'https://github.com/nuxt-community/universal-storage-module'
-keywords:
-  - community
+learn_more: 'https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage'
+keywords: []
 categories:
   - devtools
+labels:
+  - community
 maintainers:
   - name: Pooya Parsa
     github: pi0

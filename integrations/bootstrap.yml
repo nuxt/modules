@@ -1,17 +1,18 @@
-name: bootstrap-vue
-description: >-
+name: bootstrap
+description: bootstrap-vue integration
+long_description: >-
   With more than 85 components, over 45 available plugins, several directives,
   and 1000+ icons, BootstrapVue provides one of the most comprehensive
   implementations of the Bootstrap v4 component and grid system available for
   Vue.js v2.6, complete with extensive and automated WAI-ARIA accessibility
   markup.
-long_description: ''
 repo: bootstrap-vue/bootstrap-vue
 npm: bootstrap-vue
 type: module
-icon: bootstrap-vue.png
+icon: bootstrap.png
 github: 'https://github.com/bootstrap-vue/bootstrap-vue'
 website: 'https://bootstrap-vue.org/docs#nuxtjs-module'
+learn_more: ''
 keywords:
   - a11y
   - accessibility
@@ -56,7 +57,6 @@ keywords:
   - dropdown
   - dropzone
   - dropzone
-  - external
   - flexbox
   - flexbox
   - form
@@ -119,8 +119,6 @@ keywords:
   - uiv
   - upload
   - upload
-  - vue
-  - vue
   - vue-bootstrap
   - vue-strap
   - vue2
@@ -134,6 +132,8 @@ keywords:
   - webcomponents
 categories:
   - ui
+labels:
+  - 3rd-party
 maintainers:
   - name: Troy Morehouse
     github: tmorehouse

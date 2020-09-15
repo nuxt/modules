@@ -6,18 +6,20 @@ long_description: >-
 repo: nuxt-community/strapi-module
 npm: '@nuxtjs/strapi'
 type: module
+icon: strapi.png
 github: 'https://github.com/nuxt-community/strapi-module'
 website: 'https://strapi.nuxtjs.org'
-keywords:
-  - community
+learn_more: 'https://strapi.io/'
+keywords: []
 categories:
   - cms
+labels:
+  - community
 maintainers:
   - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
     avatar: 'https://github.com/Atinux.png'
-icon: 'https://strapi.nuxtjs.org/icon.png'
 image: 'https://strapi.nuxtjs.org/preview.png'
 features:
   - Authentication support

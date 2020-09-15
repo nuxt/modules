@@ -8,12 +8,16 @@ long_description: >-
 repo: nuxt-community/auth-module
 npm: '@nuxtjs/auth'
 type: module
+icon: auth.png
 github: 'https://github.com/nuxt-community/auth-module'
-website: 'https://auth.nuxtjs.org'
-keywords:
-  - community
+website: 'https://dev.auth.nuxtjs.org/'
+learn_more: ''
+keywords: []
 categories:
   - security
+labels:
+  - community
+  - unstable
 maintainers:
   - name: Pooya Parsa
     github: pi0
@@ -22,8 +26,7 @@ maintainers:
   - name: João Pedro Antunes Silva
     github: JoaoPedroAS51
     avatar: 'https://github.com/JoaoPedroAS51.png'
-icon: >-
-  https://raw.githubusercontent.com/nuxt-community/auth-module/dev/docs/static/icon.png
+demo: 'https://nuxt-auth.herokuapp.com/'
 features:
   - Zero Configuration
   - Set up auth middleware

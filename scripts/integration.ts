@@ -35,21 +35,24 @@ export async function sync(name, repo?: string) {
   const pkg = await fetchGithubPkg(integration.repo)
   integration.npm = pkg.name
 
-  // Keywords
+  // Labels
   if (integration.repo.startsWith('nuxt-community/')) {
-    integration.keywords.push('community')
+    integration.labels.push('community')
   } else if (integration.repo.startsWith('nuxt/')) {
-    integration.keywords.push('official')
+    integration.labels.push('official')
   } else {
-    integration.keywords.push('external')
+    integration.labels.push('3rd-party')
   }
-  if (pkg.keywords) {
-    const specialKeyworkds = ['community', 'official', 'external', 'nuxt', 'module', 'script', 'nuxt-module']
-    integration.keywords.push(...pkg.keywords.filter(k => !specialKeyworkds.includes(k)))
-  }
+  integration.labels = Array.from(new Set(integration.labels)).map(s => s.toLowerCase()).sort()
 
-  // Make keywords are unique and sorted
-  integration.keywords = Array.from(new Set(integration.keywords)).map(s => s.toLowerCase()).sort()
+  // Keywords
+  if (pkg.keywords) {
+    integration.keywords.push(...pkg.keywords)
+  }
+  const specialKeyworkds = [...integration.labels, 'external', 'vue', 'nuxt', 'module', 'script', 'nuxt-module']
+  integration.keywords = Array.from(new Set(integration.keywords)).map(s => s.toLowerCase())
+    .filter(k => !specialKeyworkds.includes(k))
+    .sort()
 
   // Categories
   integration.categories = Array.from(new Set(integration.categories)).map(s => s.toLowerCase()).sort()
@@ -104,10 +107,13 @@ export async function getIntegration(name) {
     repo: '',
     npm: '',
     type: 'module',
+    icon: '',
     github: '',
     website: '',
+    learn_more: '',
     keywords: [],
     categories: [],
+    labels: [],
     maintainers: [],
   }
 
