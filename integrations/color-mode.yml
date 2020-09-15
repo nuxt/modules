@@ -6,6 +6,7 @@ npm: '@nuxtjs/color-mode'
 type: module
 github: 'https://github.com/nuxt-community/color-mode-module'
 website: 'https://github.com/nuxt-community/color-mode-module'
+icon: 'https://color-mode.nuxtjs.org/icon.png'
 keywords:
   - community
 categories:
