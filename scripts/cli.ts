@@ -1,4 +1,5 @@
-import { sync, syncAll, dump } from './integration'
+import { sync, syncAll, build } from './integration'
+import { version } from './version'
 
 async function main() {
   const [command, ...args] = process.argv.splice(2)
@@ -16,8 +17,11 @@ async function main() {
         console.log('Sync ' + integrations.length + ' integrations')
       }
       break
-    case 'dump':
-      await dump()
+    case 'build':
+      await build()
+      break
+    case 'version':
+      await version()
       break
     default:
       console.error('Unknown command: ' + command)

@@ -1,4 +1,10 @@
 import axios from 'axios'
+import { resolve } from 'path'
+
+export const rootDir = resolve(__dirname, '..')
+export const integrationsDir = resolve(rootDir, 'integrations')
+export const distDir = resolve(rootDir, 'dist')
+export const distFile = resolve(distDir, 'integrations.json')
 
 export async function fetchPKG(name) {
   return axios.get('http://registry.npmjs.org/' + name).then(r => r.data)

@@ -37,3 +37,9 @@ jobs:
 
       - name: Build
         run: yarn build
+
+      - name: publish
+        if: github.event_name == 'push')
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}

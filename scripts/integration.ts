@@ -3,10 +3,7 @@ import { resolve, join, basename, extname } from 'path'
 import * as yml from 'js-yaml'
 import globby from 'globby'
 import defu from 'defu'
-import { fetchGithubPkg, uniq } from './utils'
-
-export const rootDir = resolve(__dirname, '..')
-export const integrationsDir = resolve(rootDir, 'integrations')
+import { fetchGithubPkg, uniq, integrationsDir, rootDir, distDir, distFile  } from './utils'
 
 export async function sync(name, repo?: string) {
   const integration = await getIntegration(name)
@@ -167,9 +164,8 @@ export async function syncAll() {
   return updatedIntegrations
 }
 
-export async function dump() {
+export async function build() {
   const integrations = await readIntegrations()
-  const distDir = join(rootDir, 'dist')
   await mkdirp(distDir)
-  await writeFile(resolve(distDir, 'integrations.json'), JSON.stringify(integrations, null, 2))
+  await writeFile(distFile, JSON.stringify(integrations, null, 2))
 }
