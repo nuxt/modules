@@ -1,7 +1,5 @@
 name: bootstrap
-description: >-
-  With more than 85 components, over 45 available plugins, several directives,
-  and 1000+ icons.
+description: bootstrap-vue integration
 long_description:
   'With more than 85 components, over 45 available plugins, several directives,
   and 1000+ icons, BootstrapVue provides one of the most comprehensive
