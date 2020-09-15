@@ -4,7 +4,7 @@ long_description: 'The module makes it easy to do delivery client api calls via 
 repo: Domitnator/kentico-kontent-nuxt-module
 npm: kentico-kontent-nuxt-module
 type: module
-icon: kentiko-content.png
+icon: kentiko-kontent.png
 github: 'https://github.com/Domitnator/kentico-kontent-nuxt-module'
 website: 'https://github.com/Domitnator/kentico-kontent-nuxt-module'
 learn_more: https://kontent.ai/
