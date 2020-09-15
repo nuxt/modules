@@ -10,7 +10,6 @@ website: 'https://github.com/Developmint/nuxt-bundle-buddy'
 learn_more: ''
 keywords:
   - bundle-buddy
-  - nuxtjs
   - visualize
   - webpack
 categories:

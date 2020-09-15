@@ -3,7 +3,7 @@ import { resolve, join, basename, extname } from 'path'
 import * as yml from 'js-yaml'
 import globby from 'globby'
 import defu from 'defu'
-import {fetchGithubPkg } from './utils'
+import { fetchGithubPkg, uniq } from './utils'
 
 export const rootDir = resolve(__dirname, '..')
 export const integrationsDir = resolve(rootDir, 'integrations')
@@ -43,19 +43,34 @@ export async function sync(name, repo?: string) {
   } else {
     integration.labels.push('3rd-party')
   }
-  integration.labels = Array.from(new Set(integration.labels)).map(s => s.toLowerCase()).sort()
+  integration.labels = uniq(integration.labels.map(s => s.toLowerCase())).sort()
 
   // Keywords
   if (pkg.keywords) {
     integration.keywords.push(...pkg.keywords)
   }
-  const specialKeyworkds = [...integration.labels, 'external', 'vue', 'vue.js', 'nuxt', 'nuxt.js', 'module', 'script', 'nuxt-module']
-  integration.keywords = Array.from(new Set(integration.keywords)).map(s => s.toLowerCase())
+  const specialKeyworkds = [
+    ...integration.labels,
+    'community',
+    'official',
+    '3rd-party',
+    'external',
+    'vue',
+    'vuejs',
+    'vue.js',
+    'nuxt',
+    'nuxt.js',
+    'nuxtjs',
+    'module',
+    'script',
+    'nuxt-module'
+  ]
+  integration.keywords = uniq(integration.keywords.map(s => s.toLowerCase()))
     .filter(k => !specialKeyworkds.includes(k))
     .sort()
 
   // Categories
-  integration.categories = Array.from(new Set(integration.categories)).map(s => s.toLowerCase()).sort()
+  integration.categories = integration.categories.map(s => s.toLowerCase()).sort()
   if (!integration.categories.length) {
     console.warn('No categories for ' + integration.name)
   }

@@ -14,7 +14,6 @@ website: 'https://github.com/Developmint/nuxt-webfontloader'
 learn_more: 'https://www.npmjs.com/package/webfontloader'
 keywords:
   - font
-  - nuxtjs
   - webfont
   - webfontloader
 categories:

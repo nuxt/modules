@@ -14,7 +14,6 @@ learn_more: 'https://www.google.com/recaptcha/about/'
 keywords:
   - captcha
   - grecaptcha
-  - nuxtjs
   - recaptcha
 categories:
   - security

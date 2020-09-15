@@ -13,7 +13,6 @@ github: 'https://github.com/northosts/wuxt'
 website: 'https://github.com/northosts/wuxt'
 learn_more: ''
 keywords:
-  - nuxt.js
   - wordpress
   - wp
   - wp-rest-api

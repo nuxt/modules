@@ -10,7 +10,6 @@ website: 'https://github.com/Developmint/nuxt-purgecss'
 learn_more: 'https://purgecss.com/'
 keywords:
   - css
-  - nuxtjs
   - purgecss
 categories:
   - css

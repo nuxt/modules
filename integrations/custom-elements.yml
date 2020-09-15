@@ -12,10 +12,8 @@ website: 'https://github.com/GrabarzUndPartner/nuxt-custom-elements'
 learn_more: 'https://github.com/karol-f/vue-custom-element'
 keywords:
   - custom-element
-  - nuxtjs
   - shadow-dom
   - vue-custom-element
-  - vuejs
 categories:
   - devtools
 labels:

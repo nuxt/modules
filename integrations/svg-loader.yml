@@ -10,7 +10,6 @@ website: 'https://github.com/Developmint/nuxt-svg-loader'
 learn_more: ''
 keywords:
   - loader
-  - nuxtjs
   - svg
   - svg-loader
 categories:

@@ -12,7 +12,6 @@ website: 'https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy'
 learn_more: ''
 keywords:
   - font
-  - nuxtjs
   - prefetch
   - preload
   - webfont

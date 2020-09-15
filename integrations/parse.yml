@@ -8,8 +8,7 @@ icon: ''
 github: 'https://github.com/cierrateam/nuxt-parse'
 website: 'https://github.com/cierrateam/nuxt-parse'
 learn_more: ''
-keywords:
-  - nuxt.js
+keywords: []
 categories:
   - security
 labels:

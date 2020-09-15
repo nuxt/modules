@@ -12,7 +12,6 @@ website: 'https://github.com/richardeschloss/nuxt-highcharts'
 learn_more: 'https://www.highcharts.com/'
 keywords:
   - highcharts
-  - vuejs
 categories:
   - ui
 labels:

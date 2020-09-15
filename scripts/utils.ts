@@ -14,3 +14,7 @@ export async function fetchGithubPkg(repo, branch = 'master') {
   }
   return fetchRawGithub(repo + '/' + branch + '/' + 'package.json')
 }
+
+export function uniq(items: any[]) {
+  return Array.from(new Set(items))
+}

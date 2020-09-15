@@ -11,8 +11,7 @@ icon: day-js.png
 github: 'https://github.com/nuxt-community/dayjs-module'
 website: 'https://github.com/nuxt-community/dayjs-module'
 learn_more: 'https://day.js.org/'
-keywords:
-  - nuxt.js
+keywords: []
 categories:
   - time
 labels:
