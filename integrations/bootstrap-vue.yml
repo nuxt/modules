@@ -1,4 +1,4 @@
-name: bootstrap-vue
+name: bootstrap
 description: >-
   With more than 85 components, over 45 available plugins, several directives,
   and 1000+ icons.
@@ -11,7 +11,7 @@ long_description:
 repo: bootstrap-vue/bootstrap-vue
 npm: bootstrap-vue
 type: module
-icon: bootstrap-vue.png
+icon: bootstrap.png
 github: 'https://github.com/bootstrap-vue/bootstrap-vue'
 website: 'https://bootstrap-vue.org/docs#nuxtjs-module'
 keywords:
