@@ -8,6 +8,7 @@ github: 'https://github.com/nuxt-community/color-mode-module'
 website: 'https://github.com/nuxt-community/color-mode-module'
 demo: https://color-mode.nuxtjs.app/
 video: https://nuxtjs.org/blog/going-dark-with-nuxtjs-color-mode/final-working-version.mp4
+icon: 'https://color-mode.nuxtjs.org/icon.png'
 keywords:
   - community
 categories:
