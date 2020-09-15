@@ -20,3 +20,8 @@ maintainers:
   - name: m2sd
     github: m2sd
     avatar: 'https://github.com/m2sd.png'
+features:
+  - Easily deploy an existing Nuxt app inside a Laravel application or vice versa
+  - Test your Nuxt app with live reloading, HMR and the auto-configured Laravel test server
+  - Seamlessly integrate Nuxt into the URL resolution of Laravel
+  - Share cookies and session state between frontend (Nuxt) and backend (Laravel) without the need for an API token

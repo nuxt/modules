@@ -21,3 +21,9 @@ maintainers:
   - name: GrabarzUndPartner
     github: GrabarzUndPartner
     avatar: 'https://github.com/GrabarzUndPartner.png'
+features:
+  - Use preload to prevent font flashs.
+  - Generates the @font-face definitions automatically and includes them in the layout.
+  - Increases the Pagespeed Insight Score 🎉
+  - Take the fonts from Minimize critical request depth and load them via WebWorker.
+  - Deactivate fonts at low connection. (Show Browser-Support)

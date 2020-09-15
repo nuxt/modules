@@ -17,3 +17,6 @@ maintainers:
     github: farzadso
     twitter: farzadso
     avatar: 'https://github.com/farzadso.png'
+features:
+  - Supports logrocket-vuex plugin integration by default
+  - Ability to run in development mode

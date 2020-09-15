@@ -10,6 +10,9 @@ npm: '@nuxtjs/storybook'
 type: cli
 github: 'https://github.com/nuxt-community/storybook'
 website: 'https://storybook.nuxtjs.org'
+learn_more: https://storybook.js.org/
+demo: https://storybook.nuxtjs.org/examples
+video: https://res.cloudinary.com/nuxt/video/upload/q_auto/v1596201190/nuxt-storybook_nn9hcf.webm
 keywords:
   - community
 categories:
@@ -30,3 +33,6 @@ features:
   - Nuxt webpack configuration
   - Nuxt plugins support
   - Story discovery from nuxt modules
+  - Nuxt components support
+  - Storybook Generate
+  - Hot reload support

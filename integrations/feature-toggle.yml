@@ -18,3 +18,7 @@ maintainers:
   - name: stephenkr
     github: stephenkr
     avatar: 'https://github.com/stephenkr.png'
+features:
+  - Dynamically pull in your feature toggles when the application starts
+  - Set a static list of feature toggles
+  - Optional query string support to override a feature toggle

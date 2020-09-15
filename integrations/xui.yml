@@ -1,6 +1,6 @@
 name: xui
-description: !<tag:yaml.org,2002:js/undefined> ''
-long_description: ''
+description: Light module to help design websites with Nuxt.
+long_description: Light module to help design websites with Nuxt. This module install several libraries to make designing a website with Vue and Nuxt easy.
 repo: MetaCorp/xui-module
 npm: xui-module
 type: module

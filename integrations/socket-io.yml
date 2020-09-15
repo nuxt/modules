@@ -22,3 +22,14 @@ maintainers:
   - name: richardeschloss
     github: richardeschloss
     avatar: 'https://github.com/richardeschloss.png'
+features:
+  - Configuration of multiple IO sockets
+  - Configuration of per-socket namespaces
+  - Automatic IO Server Registration
+  - Socket IO Status
+  - Automatic Error Handling
+  - Debug logging, enabled with localStorage item 'debug' set to 'nuxt-socket-io'
+  - Automatic Teardown, enabled by default
+  - $nuxtSocket vuex module and socket persistence in vuex
+  - Support for dynamic APIs using the KISS API format
+  - Support for the IO config in the new Nuxt runtime config (for Nuxt versions >= 2.13)

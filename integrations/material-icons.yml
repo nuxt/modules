@@ -16,3 +16,5 @@ maintainers:
   - name: Samuell1
     github: Samuell1
     avatar: 'https://github.com/Samuell1.png'
+hide: yes
+reason: package not found

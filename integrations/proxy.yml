@@ -17,3 +17,11 @@ maintainers:
     github: pi0
     twitter: _pi0_
     avatar: 'https://github.com/pi0.png'
+features:
+  - Path rewrites
+  - Host based router (useful for staging/test)
+  - Logs / Proxy Events
+  - WebSockets
+  - Auth / Cookie
+  - and more! (see http-proxy-middleware docs)
+  - Does not work in generated/static mode!

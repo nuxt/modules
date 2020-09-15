@@ -17,3 +17,11 @@ maintainers:
     github: pi0
     twitter: _pi0_
     avatar: 'https://github.com/pi0.png'
+features:
+  - Fully compatible with Framework7 5.x
+  - Development mode with hot reloading
+  - Optimized production builds suitable for 100% static hosting
+  - Fully PWA compatible out of the box
+  - Page based router for Framework7
+  - Use vuex store in your apps
+  - Familiar nuxt.js development experience with a super easy learning curve

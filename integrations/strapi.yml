@@ -8,6 +8,7 @@ npm: '@nuxtjs/strapi'
 type: module
 github: 'https://github.com/nuxt-community/strapi-module'
 website: 'https://strapi.nuxtjs.org'
+learn_more: https://strapi.io/
 keywords:
   - community
 categories:

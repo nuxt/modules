@@ -17,3 +17,7 @@ maintainers:
     github: farnabaz
     twitter: a_birang
     avatar: 'https://github.com/farnabaz.png'
+features:
+  - Define custom paths for a page
+  - Define multiple aliases for a single page
+  - Define multiple params regardless of pages directory structure

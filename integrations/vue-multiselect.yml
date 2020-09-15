@@ -1,11 +1,12 @@
 name: vue-multiselect
-description: Leverage vue-multiselect
-long_description: ''
+description: Single / multiple select plugin for Nuxt.js using vue-multiselect.
+long_description: Single / multiple select plugin for Nuxt.js using vue-multiselect with single/multiple select, dropdowns, searchable, tagging and SSR support.
 repo: spektrummedia/nuxt-vue-multiselect
 npm: nuxt-vue-multiselect
 type: module
 github: 'https://github.com/spektrummedia/nuxt-vue-multiselect'
 website: 'https://github.com/spektrummedia/nuxt-vue-multiselect'
+learn: https://vue-multiselect.js.org/
 keywords:
   - external
 categories:

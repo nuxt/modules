@@ -20,3 +20,6 @@ maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
     avatar: 'https://github.com/ricardogobbosouza.png'
+features:
+  - Remove unused Moment.js locales using moment-locales-webpack-plugin for much less bundle size.
+  - Inject $moment to the context everywhere.

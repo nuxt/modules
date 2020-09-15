@@ -15,3 +15,12 @@ maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
     avatar: 'https://github.com/ricardogobbosouza.png'
+features:
+  - Specify fonts by name/variant
+  - Parse head links to Google Fonts
+  - Creates only an external link to Google Fonts
+  - Support CSS API v2
+  - Add dns-prefetch
+  - Add preconnect
+  - Download css/fonts to local project (No need external resources)
+  - Encode fonts to base64

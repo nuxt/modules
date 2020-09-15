@@ -15,3 +15,14 @@ maintainers:
   - name: moso
     github: moso
     avatar: 'https://github.com/moso.png'
+features:
+  - Fully hackable
+  - Based on flexbox featuring Flexgrid
+  - Mobile-first
+  - 'Websafe fonts: Source Sans Pro for main text, Roboto Mono for code, inserted with nuxt-webfontloader including display=swap'
+  - Tags page (a collection of all the tags and post count)
+  - Code injection for head/footer
+  - Better vue-meta and structured data handling
+  - Syntax highlight with highlight.js featuring the Nord color palette
+  - Support for menu links to external/absolute URLs
+  - Automatic RSS feed generation (defaults to /rss.xml)

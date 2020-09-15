@@ -19,3 +19,9 @@ maintainers:
     github: Atinux
     twitter: Atinux
     avatar: 'https://github.com/Atinux.png'
+features:
+  - The fluent ky API has been extended with enhancements and shortcuts
+  - Highly customizable options support for BaseURL
+  - Automatically proxy cookies and headers when making requests from server side
+  - Best practices to avoid token sharing when making server side requests
+  - Easy proxy support to avoid CORS problems and making deployment easier

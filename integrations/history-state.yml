@@ -14,3 +14,7 @@ maintainers:
   - name: hidekatsu-izuno
     github: hidekatsu-izuno
     avatar: 'https://github.com/hidekatsu-izuno.png'
+features:
+  - Restore a last state when going forward or back.
+  - Restore a state when reloading.
+  - Restore a last state when going forward or back after reloading. (optional)

@@ -1,12 +1,13 @@
 name: stripe
-description: NuxtJS module for Stripe.js
-long_description: ''
+description: Import the StripeJS client script to accept payments, send payouts, and manage your businesses online.
+long_description: A NuxtJS module to import the StripeJS client script. You can use Stripe’s software and APIs to accept payments, send payouts, and manage your businesses online.
 repo: WilliamDASILVA/nuxt-stripe-module
 npm: nuxt-stripe-module
 type: module
 icon: stripe.png
 github: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
 website: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
+learn_more: https://stripe.com/
 keywords:
   - external
 categories:

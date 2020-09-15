@@ -1,6 +1,6 @@
 name: storyblok
 description: Storyblok Nuxt.js module
-long_description: ''
+long_description: Storyblok Nuxt.js module. Storyblok helps your team to tell your story and manage content for every use-case- corporate websites, e-commerce, helpdesks, mobile apps, and screen displays.
 repo: storyblok/storyblok-nuxt
 npm: storyblok-nuxt
 type: module
@@ -20,3 +20,4 @@ articles:
     link: https://www.storyblok.com/tp/nuxt-js-multilanguage-website-tutorial
     author: Alexander Feiglstorfer
     twitter: https://twitter.com/feiglstorfer
+    avatar: https://img.storyblok.com/mCsclV_DH5KA0bT3kM70LpsHnHA=/200x200/filters:filters:quality(50)/f/39898/f7bd2956f2/_mg_3166.jpg

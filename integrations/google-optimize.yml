@@ -25,3 +25,10 @@ maintainers:
     github: hecktarzuli
     twitter: JoshDeltener
     avatar: 'https://github.com/hecktarzuli.png'
+features:
+  - Support multiple experiments (AB or MVT[Multi-Variant])
+  - Auto assign experiment/variant to users
+  - SSR support using cookies
+  - CSS and state injection
+  - Automatically revoke expired experiments from testers
+  - Ability to assign experiments based on context conditions (Route, State, etc)

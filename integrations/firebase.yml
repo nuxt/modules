@@ -21,3 +21,7 @@ maintainers:
   - name: Pascal Luther
     github: lupas
     avatar: 'https://github.com/lupas.png'
+features:
+  - Minimal setup required to integrate all Firebase services into your Nuxt.js application.
+  - The module uses dynamic imports of each individual Firebase service to reduce bundle sizes and improve performance.
+  - Enjoy the benefits of additional features such as automated setup of .onAuthStateChanged() for Firebase Authentication and more.

@@ -28,3 +28,8 @@ maintainers:
   - name: ezypeeze
     github: ezypeeze
     avatar: 'https://github.com/ezypeeze.png'
+features:
+  - Auto-generate routes based on the folder/file tree your api folder.
+  - Easy middleware injection (for all API or controller/action specific)
+  - One single way to access your API.
+  - Global HTTP Errors for better error handling

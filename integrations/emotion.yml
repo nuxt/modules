@@ -17,3 +17,12 @@ maintainers:
     github: pi0
     twitter: _pi0_
     avatar: 'https://github.com/pi0.png'
+features:
+  - Server Side Rendering (SSR)
+  - Critical Path CSS with Hydration
+  - Hot Reloads (HMR)
+  - Style inlining
+  - Minification
+  - Dead Code Elimination
+  - Source Maps
+  - Contextual Class Names

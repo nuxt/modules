@@ -1,11 +1,12 @@
 name: svg-loader
-description: ''
-long_description: ''
+description: Nuxt SVG Loader - SVGs as components, also on the server side!
+long_description: Nuxt SVG Loader - SVGs as components, also on the server side!
 repo: Developmint/nuxt-svg-loader
 npm: nuxt-svg-loader
 type: module
 github: 'https://github.com/Developmint/nuxt-svg-loader'
 website: 'https://github.com/Developmint/nuxt-svg-loader'
+demo: https://codesandbox.io/s/github/Developmint/nuxt-svg-loader/tree/master
 keywords:
   - external
   - loader
@@ -18,3 +19,9 @@ maintainers:
   - name: Developmint
     github: Developmint
     avatar: 'https://github.com/Developmint.png'
+features:
+  - Full support of SVGs as components. Import them like your Vue SFCs
+  - Use Vue bindings as you'd do it with normal components
+  - Built on top of svg-to-vue-component
+  - Nuxt 2 (and only Nuxt 2) support
+  - Fully tested!

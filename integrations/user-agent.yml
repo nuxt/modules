@@ -1,6 +1,6 @@
 name: user-agent
 description: Nuxt.js module for handling User-Agent.
-long_description: ''
+long_description: Nuxt.js module for handling User-Agent.
 repo: fukuiretu/nuxt-user-agent
 npm: nuxt-user-agent
 type: module

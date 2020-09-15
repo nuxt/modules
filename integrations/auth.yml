@@ -10,6 +10,7 @@ npm: '@nuxtjs/auth'
 type: module
 github: 'https://github.com/nuxt-community/auth-module'
 website: 'https://auth.nuxtjs.org'
+demo: https://nuxt-auth.herokuapp.com/
 keywords:
   - community
 categories:
@@ -29,3 +30,5 @@ features:
   - Set up auth middleware
   - Configure local scheme
   - Customize Options
+hide: yes
+reason: module not ready for release, improvements needed
