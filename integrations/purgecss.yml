@@ -7,7 +7,7 @@ type: module
 icon: purgecss.png
 github: 'https://github.com/Developmint/nuxt-purgecss'
 website: 'https://github.com/Developmint/nuxt-purgecss'
-learn_more: https://purgecss.com/
+learn_more: 'https://purgecss.com/'
 keywords:
   - css
   - external

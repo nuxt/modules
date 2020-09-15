@@ -7,7 +7,7 @@ type: module
 icon: vue.png
 github: 'https://github.com/nuxt-community/router-extras-module'
 website: 'https://github.com/nuxt-community/router-extras-module'
-demo: https://codesandbox.io/s/github/nuxt-community/router-extras-module
+learn_more: ''
 keywords:
   - community
 categories:
@@ -17,6 +17,7 @@ maintainers:
     github: farnabaz
     twitter: a_birang
     avatar: 'https://github.com/farnabaz.png'
+demo: 'https://codesandbox.io/s/github/nuxt-community/router-extras-module'
 features:
   - Define custom paths for a page
   - Define multiple aliases for a single page

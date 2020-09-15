@@ -7,7 +7,8 @@ type: module
 icon: segment.png
 github: 'https://github.com/dansmaculotte/nuxt-segment'
 website: 'https://github.com/dansmaculotte/nuxt-segment'
-learn_more: https://segment.com/docs/connections/sources/catalog/libraries/website/javascript/
+learn_more: >-
+  https://segment.com/docs/connections/sources/catalog/libraries/website/javascript/
 keywords:
   - external
 categories:

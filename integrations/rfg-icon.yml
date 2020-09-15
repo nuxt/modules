@@ -7,7 +7,7 @@ type: module
 icon: real-favicon-generator.png
 github: 'https://github.com/pimlie/nuxt-rfg-icon'
 website: 'https://github.com/pimlie/nuxt-rfg-icon'
-learn_more: https://realfavicongenerator.net/
+learn_more: 'https://realfavicongenerator.net/'
 keywords:
   - external
 categories:
@@ -18,4 +18,6 @@ maintainers:
     avatar: 'https://github.com/pimlie.png'
 features:
   - This module adds link and meta tags for the appropiate favicon's to head
-  - The generated manifest.json is added to @nuxtjs/manifest, so should not overwrite existing properties
+  - >-
+    The generated manifest.json is added to @nuxtjs/manifest, so should not
+    overwrite existing properties

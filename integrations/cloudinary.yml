@@ -8,9 +8,10 @@ long_description: >-
 repo: nuxt-community/cloudinary-module
 npm: '@nuxtjs/cloudinary'
 type: module
+icon: cloudinary.png
 github: 'https://github.com/nuxt-community/cloudinary-module'
 website: 'https://cloudinary.nuxtjs.org'
-learn_more: https://cloudinary.com
+learn_more: 'https://cloudinary.com'
 keywords:
   - community
 categories:
@@ -20,7 +21,6 @@ maintainers:
     github: mayashavin
     twitter: MayaShavin
     avatar: 'https://github.com/mayashavin.png'
-icon: cloudinary.png
 image: 'https://cloudinary.nuxtjs.org/preview.png'
 features:
   - On-the-fly url generating for images and videos

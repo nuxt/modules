@@ -4,9 +4,10 @@ long_description: Cache api resources and serve it as static resource with Nuxt.
 repo: gaetansenn/xhr-cache
 npm: '@dewib/xhr-cache'
 type: module
+icon: ''
 github: 'https://github.com/gaetansenn/xhr-cache'
 website: 'https://xhr-cache.dewib.com'
-demo: https://zjwws.sse.codesandbox.io/
+learn_more: ''
 keywords:
   - api
   - cache
@@ -22,3 +23,4 @@ maintainers:
   - name: gaetansenn
     github: gaetansenn
     avatar: 'https://github.com/gaetansenn.png'
+demo: 'https://zjwws.sse.codesandbox.io/'

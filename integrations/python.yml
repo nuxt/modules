@@ -7,8 +7,7 @@ type: module
 icon: python.png
 github: 'https://github.com/nuxt-community/python-module'
 website: 'https://github.com/nuxt-community/python-module'
-learn_more: https://www.python.org/
-demo: https://nuxt-python.surge.sh/
+learn_more: 'https://www.python.org/'
 keywords:
   - community
 categories:
@@ -17,5 +16,6 @@ maintainers:
   - name: Sebastian Silva
     github: icarito
     avatar: 'https://github.com/icarito.png'
-hide: yes
+demo: 'https://nuxt-python.surge.sh/'
+hide: 'yes'
 reason: 3 years old still with experimental flag and demo link is broken

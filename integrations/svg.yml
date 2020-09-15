@@ -1,11 +1,15 @@
 name: svg
 description: Super simple svg loading module for Nuxt.js
-long_description: This package is for loading SVG's into Nuxt.js pages. It allows you to import .svg files in multiple ways depending on the resource query you provide.
+long_description: >-
+  This package is for loading SVG's into Nuxt.js pages. It allows you to import
+  .svg files in multiple ways depending on the resource query you provide.
 repo: nuxt-community/svg-module
 npm: '@nuxtjs/svg'
 type: module
+icon: ''
 github: 'https://github.com/nuxt-community/svg-module'
 website: 'https://github.com/nuxt-community/svg-module'
+learn_more: ''
 keywords:
   - community
   - nuxt-module

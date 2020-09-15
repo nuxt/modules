@@ -4,9 +4,10 @@ long_description: Universal Storage Utilities for Nuxt.js based on @nuxt-communi
 repo: nuxt-community/universal-storage-module
 npm: '@nuxtjs/universal-storage'
 type: module
+icon: ''
 github: 'https://github.com/nuxt-community/universal-storage-module'
 website: 'https://github.com/nuxt-community/universal-storage-module'
-learn_more: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+learn_more: 'https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage'
 keywords:
   - community
 categories:

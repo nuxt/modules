@@ -2,12 +2,18 @@ name: neo
 description: >-
   A nuxt.js module that implements a universal api layer, same-way compatible
   between server and client side.
-long_description: This module allows you to make a middleware API between the browser, your server and other private API's. Opinated, yet flexible, you can take care of your data flow in the same way, no matter if you are executing code on server or client side.
+long_description: >-
+  This module allows you to make a middleware API between the browser, your
+  server and other private API's. Opinated, yet flexible, you can take care of
+  your data flow in the same way, no matter if you are executing code on server
+  or client side.
 repo: ezypeeze/nuxt-neo
 npm: nuxt-neo
 type: module
+icon: ''
 github: 'https://github.com/ezypeeze/nuxt-neo'
 website: 'https://ezypeeze.github.io/nuxt-neo'
+learn_more: ''
 keywords:
   - action
   - api

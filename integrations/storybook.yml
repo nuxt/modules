@@ -8,11 +8,10 @@ long_description: >-
 repo: nuxt-community/storybook
 npm: '@nuxtjs/storybook'
 type: cli
+icon: storybook.png
 github: 'https://github.com/nuxt-community/storybook'
 website: 'https://storybook.nuxtjs.org'
-learn_more: https://storybook.js.org/
-demo: https://storybook.nuxtjs.org/examples
-video: https://res.cloudinary.com/nuxt/video/upload/q_auto/v1596201190/nuxt-storybook_nn9hcf.webm
+learn_more: 'https://storybook.js.org/'
 keywords:
   - community
 categories:
@@ -26,7 +25,9 @@ maintainers:
     github: pi0
     twitter: _pi0_
     avatar: 'https://github.com/pi0.png'
-icon: storybook.png
+demo: 'https://storybook.nuxtjs.org/examples'
+video: >-
+  https://res.cloudinary.com/nuxt/video/upload/q_auto/v1596201190/nuxt-storybook_nn9hcf.webm
 image: 'https://storybook.nuxtjs.org/preview.png'
 features:
   - Zero configuration

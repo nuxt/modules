@@ -1,12 +1,15 @@
 name: material-icons
 description: Use Material Icons in your Nuxt.js application.
-long_description: Use Material Icons in your Nuxt.js application. Material Icons are beautifully crafted, delightful, and easy to use in your web, Android, and iOS projects.
+long_description: >-
+  Use Material Icons in your Nuxt.js application. Material Icons are beautifully
+  crafted, delightful, and easy to use in your web, Android, and iOS projects.
 repo: nuxt-community/material-icons-module
 npm: '@nuxtjs/material-icons'
 type: module
+icon: ''
 github: 'https://github.com/nuxt-community/material-icons-module'
 website: 'https://github.com/nuxt-community/material-icons-module'
-learn_more: https://material.io/resources/icons/?style=baseline
+learn_more: 'https://material.io/resources/icons/?style=baseline'
 keywords:
   - community
 categories:
@@ -16,5 +19,5 @@ maintainers:
   - name: Samuell1
     github: Samuell1
     avatar: 'https://github.com/Samuell1.png'
-hide: yes
+hide: 'yes'
 reason: package not found

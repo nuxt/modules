@@ -4,8 +4,10 @@ long_description: Load SCSS Variables into Nuxt instance for use in Templates/Sc
 repo: sugoidesune/nuxt-scss-to-js
 npm: nuxt-scss-to-js
 type: module
+icon: ''
 github: 'https://github.com/sugoidesune/nuxt-scss-to-js'
 website: 'https://github.com/sugoidesune/nuxt-scss-to-js'
+learn_more: ''
 keywords:
   - bootstrap
   - external

@@ -6,9 +6,10 @@ long_description: >-
 repo: nuxt-community/strapi-module
 npm: '@nuxtjs/strapi'
 type: module
+icon: strapi.png
 github: 'https://github.com/nuxt-community/strapi-module'
 website: 'https://strapi.nuxtjs.org'
-learn_more: https://strapi.io/
+learn_more: 'https://strapi.io/'
 keywords:
   - community
 categories:
@@ -18,7 +19,6 @@ maintainers:
     github: Atinux
     twitter: Atinux
     avatar: 'https://github.com/Atinux.png'
-icon: strapi.png
 image: 'https://strapi.nuxtjs.org/preview.png'
 features:
   - Authentication support

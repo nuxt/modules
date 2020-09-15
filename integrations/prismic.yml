@@ -7,11 +7,10 @@ long_description: >-
 repo: nuxt-community/prismic-module
 npm: '@nuxtjs/prismic'
 type: module
+icon: prismic.png
 github: 'https://github.com/nuxt-community/prismic-module'
 website: 'https://github.com/nuxt-community/prismic-module'
-learn_more: https://prismic.io/
-demo: https://nuxt-prismic.surge.sh/
-video: https://youtu.be/2DtDsnWe2MU
+learn_more: 'https://prismic.io/'
 keywords:
   - cms
   - community
@@ -27,7 +26,8 @@ maintainers:
   - name: James Pegg
     github: jamespegg
     avatar: 'https://github.com/jamespegg.png'
-icon: prismic.png
+demo: 'https://nuxt-prismic.surge.sh/'
+video: 'https://youtu.be/2DtDsnWe2MU'
 image: 'https://prismic.nuxtjs.org/preview.png'
 features:
   - Add Prismic to your Nuxt app in seconds

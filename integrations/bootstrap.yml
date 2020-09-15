@@ -1,80 +1,137 @@
 name: bootstrap
 description: bootstrap-vue integration
-long_description:
-  'With more than 85 components, over 45 available plugins, several directives,
+long_description: >-
+  With more than 85 components, over 45 available plugins, several directives,
   and 1000+ icons, BootstrapVue provides one of the most comprehensive
   implementations of the Bootstrap v4 component and grid system available for
   Vue.js v2.6, complete with extensive and automated WAI-ARIA accessibility
-  markup.'
+  markup.
 repo: bootstrap-vue/bootstrap-vue
 npm: bootstrap-vue
 type: module
 icon: bootstrap.png
 github: 'https://github.com/bootstrap-vue/bootstrap-vue'
 website: 'https://bootstrap-vue.org/docs#nuxtjs-module'
+learn_more: ''
 keywords:
   - a11y
   - accessibility
+  - accessibility
+  - alert
   - alert
   - aria
+  - aria
+  - bootstrap
   - bootstrap
   - bootstrap for vue
+  - bootstrap for vue
+  - bootstrap icons
   - bootstrap icons
   - bootstrap v4
+  - bootstrap v4
+  - breadcrumb
   - breadcrumb
   - button
+  - button
+  - calendar
   - calendar
   - card
+  - card
+  - carousel
   - carousel
   - checkbox
+  - checkbox
+  - collapse
   - collapse
   - components
+  - components
+  - css
   - css
   - date picker
+  - date picker
+  - datepicker
   - datepicker
   - directives
+  - directives
   - dropdown
+  - dropdown
+  - dropzone
   - dropzone
   - external
   - flexbox
+  - flexbox
+  - form
   - form
   - icons
+  - icons
+  - input
   - input
   - jquery
   - jumbotron
+  - jumbotron
+  - list
   - list
   - messagebox
+  - messagebox
+  - modal
   - modal
   - nav
+  - nav
+  - navbar
   - navbar
   - option
+  - option
+  - pagination
   - pagination
   - polymer
+  - polymer
+  - popover
   - popover
   - popper
+  - popper
+  - popper.js
   - popper.js
   - progress
+  - progress
+  - radio
   - radio
   - scss
+  - scss
+  - select
   - select
   - slider
+  - slider
+  - spinner
   - spinner
   - ssr
+  - ssr
+  - tab
   - tab
   - table
+  - table
+  - tag
   - tag
   - tags
+  - tags
   - toast
+  - toast
+  - tooltip
   - tooltip
   - uiv
   - upload
+  - upload
+  - vue
   - vue
   - vue-bootstrap
   - vue-strap
   - vue2
+  - vue2
+  - vuejs
   - vuejs
   - vuestrap
   - web
+  - web
+  - webcomponents
   - webcomponents
 categories:
   - ui

@@ -4,8 +4,10 @@ long_description: Parse package for Nuxt.js
 repo: cierrateam/nuxt-parse
 npm: nuxt-parse
 type: module
+icon: ''
 github: 'https://github.com/cierrateam/nuxt-parse'
 website: 'https://github.com/cierrateam/nuxt-parse'
+learn_more: ''
 keywords:
   - external
   - nuxt.js
