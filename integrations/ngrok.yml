@@ -1,0 +1,15 @@
+name: ngrok
+description: !<tag:yaml.org,2002:js/undefined> ''
+long_description: ''
+repo: nuxt-community/modules#master/packages/ngrok
+npm: '@nuxtjs/ngrok'
+type: module
+icon: ''
+github: 'https://github.com/nuxt-community/modules/tree/master/packages/ngrok'
+website: 'https://github.com/nuxt-community/modules/tree/master/packages/ngrok'
+learn_more: ''
+keywords: []
+categories: []
+labels:
+  - community
+maintainers: []

@@ -1,0 +1,15 @@
+name: component-cache
+description: !<tag:yaml.org,2002:js/undefined> ''
+long_description: ''
+repo: nuxt-community/modules#master/packages/component-cache
+npm: '@nuxtjs/component-cache'
+type: module
+icon: ''
+github: 'https://github.com/nuxt-community/modules/tree/master/packages/component-cache'
+website: 'https://github.com/nuxt-community/modules/tree/master/packages/component-cache'
+learn_more: ''
+keywords: []
+categories: []
+labels:
+  - community
+maintainers: []

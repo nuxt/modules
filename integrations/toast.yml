@@ -1,0 +1,15 @@
+name: toast
+description: !<tag:yaml.org,2002:js/undefined> ''
+long_description: ''
+repo: nuxt-community/modules#master/packages/toast
+npm: '@nuxtjs/toast'
+type: module
+icon: ''
+github: 'https://github.com/nuxt-community/modules/tree/master/packages/toast'
+website: 'https://github.com/nuxt-community/modules/tree/master/packages/toast'
+learn_more: ''
+keywords: []
+categories: []
+labels:
+  - community
+maintainers: []
