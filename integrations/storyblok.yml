@@ -18,6 +18,7 @@ maintainers:
 articles:
   - title: The Complete Guide to Build a Full Blown Multilanguage Website with Nuxt.js
     link: https://www.storyblok.com/tp/nuxt-js-multilanguage-website-tutorial
-    author: Alexander Feiglstorfer
-    twitter: feiglstorfer
-    avatar: https://img.storyblok.com/mCsclV_DH5KA0bT3kM70LpsHnHA=/200x200/filters:filters:quality(50)/f/39898/f7bd2956f2/_mg_3166.jpg
+    authors:
+      - name: Alexander Feiglstorfer
+      - twitter: feiglstorfer
+      - avatar: https://img.storyblok.com/mCsclV_DH5KA0bT3kM70LpsHnHA=/200x200/filters:filters:quality(50)/f/39898/f7bd2956f2/_mg_3166.jpg
