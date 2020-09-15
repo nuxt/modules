@@ -49,7 +49,7 @@ export async function sync(name, repo?: string) {
   if (pkg.keywords) {
     integration.keywords.push(...pkg.keywords)
   }
-  const specialKeyworkds = [...integration.labels, 'external', 'vue', 'nuxt', 'module', 'script', 'nuxt-module']
+  const specialKeyworkds = [...integration.labels, 'external', 'vue', 'vue.js', 'nuxt', 'nuxt.js', 'module', 'script', 'nuxt-module']
   integration.keywords = Array.from(new Set(integration.keywords)).map(s => s.toLowerCase())
     .filter(k => !specialKeyworkds.includes(k))
     .sort()
