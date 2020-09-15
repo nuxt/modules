@@ -13,10 +13,10 @@ categories:
   - devtools
 labels:
   - community
+  - experimental
+  - stalled
 maintainers:
   - name: Sebastian Silva
     github: icarito
     avatar: 'https://github.com/icarito.png'
 demo: 'https://nuxt-python.surge.sh/'
-hide: 'yes'
-reason: 3 years old still with experimental flag and demo link is broken
