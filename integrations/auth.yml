@@ -23,8 +23,7 @@ maintainers:
   - name: João Pedro Antunes Silva
     github: JoaoPedroAS51
     avatar: 'https://github.com/JoaoPedroAS51.png'
-icon: >-
-  https://raw.githubusercontent.com/nuxt-community/auth-module/dev/docs/static/icon.png
+icon: auth.png
 features:
   - Zero Configuration
   - Set up auth middleware

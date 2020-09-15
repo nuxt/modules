@@ -23,7 +23,7 @@ maintainers:
     github: Atinux
     twitter: Atinux
     avatar: 'https://github.com/Atinux.png'
-icon: 'https://tailwindcss.nuxtjs.org/icon.png'
+icon: tailwindcss.png
 image: 'https://tailwindcss.nuxtjs.org/preview.png'
 features:
   - Zero configuration to start

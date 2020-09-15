@@ -26,7 +26,7 @@ maintainers:
     github: pi0
     twitter: _pi0_
     avatar: 'https://github.com/pi0.png'
-icon: 'https://storybook.nuxtjs.org/icon.png'
+icon: storybook.png
 image: 'https://storybook.nuxtjs.org/preview.png'
 features:
   - Zero configuration

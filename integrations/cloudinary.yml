@@ -20,7 +20,7 @@ maintainers:
     github: mayashavin
     twitter: MayaShavin
     avatar: 'https://github.com/mayashavin.png'
-icon: 'https://cloudinary.nuxtjs.org/icon.png'
+icon: cloudinary.png
 image: 'https://cloudinary.nuxtjs.org/preview.png'
 features:
   - On-the-fly url generating for images and videos
