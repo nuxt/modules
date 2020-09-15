@@ -19,4 +19,8 @@ categories:
   - seo
 labels:
   - community
-maintainers: []
+maintainers:
+  - name: Nicolas PENNEC
+    github: NicoPennec
+    twitter: NicoPennec
+    avatar: 'https://github.com/NicoPennec.png'
