@@ -1,0 +1,32 @@
+name: speedcurve
+description: Speedcurve LUX integration for Nuxt
+long_description: >-
+  LUX (which stands for Live User eXperience) gives you standard RUM (Real User
+  Monitoring) metrics like page load time and start render. It also tracks
+  metrics that give you a better sense of how fast your site feels to visitors
+  such as number of critical blocking resources, images above the fold, and
+  custom metrics
+repo: nuxt-community/speedcurve-module
+npm: '@nuxtjs/speedcurve'
+type: module
+icon: speedcurve.png
+github: 'https://github.com/nuxt-community/speedcurve-module'
+website: 'https://speedcurve.nuxtjs.org'
+learn_more: 'https://speedcurve.com'
+keywords: []
+categories:
+  - analytics
+labels:
+  - community
+maintainers:
+  - name: Josh Deltener
+    github: hecktarzuli
+    twitter: JoshDeltener
+    avatar: 'https://github.com/hecktarzuli.png'
+features:
+  - Collect performance metrics from real users
+  - See Javascript errors in your Speedcurve dashboard
+  - Add user data to visits to cross reference cohorts and performance
+  - Create custom performance markers for deep insights
+  - Minimal configuration with sensible defaults
+  - On-the-fly runtime config support
