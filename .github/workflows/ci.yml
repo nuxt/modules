@@ -40,6 +40,9 @@ jobs:
 
       - name: Release
         if: github.event_name == 'push'
-        run: yarn release
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
+          echo "//registry.yarnpkg.com/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
+          yarn release
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
