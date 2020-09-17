@@ -6,7 +6,7 @@ long_description: >-
 repo: nuxt-community/modules#master/packages/ngrok
 npm: '@nuxtjs/ngrok'
 type: module
-icon: ngirok.png
+icon: ngrok.png
 github: 'https://github.com/nuxt-community/modules/tree/master/packages/ngrok'
 website: 'https://github.com/nuxt-community/modules/tree/master/packages/ngrok'
 learn_more: 'https://github.com/bubenshchykov/ngrok'
