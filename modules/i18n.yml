@@ -26,7 +26,7 @@ maintainers:
     avatar: 'https://github.com/rchl.png'
 image: 'https://i18n.nuxtjs.org/preview.png'
 features:
-  - Integration with vue-i18n
+  - Module with vue-i18n
   - Automatic routes generation and custom paths
   - Search Engine Optimization
   - Lazy-loading of translation messages

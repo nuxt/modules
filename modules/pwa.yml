@@ -27,5 +27,5 @@ image: 'https://pwa.nuxtjs.org/preview.png'
 features:
   - Registers a service worker for offline caching
   - Automatically generate manifest.json file
-  - Automatically adds SEO friendly meta data with manifest integration
+  - Automatically adds SEO friendly meta data with manifest module
   - Automatically generates app icons with different sizes

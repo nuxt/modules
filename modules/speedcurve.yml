@@ -1,5 +1,5 @@
 name: speedcurve
-description: Speedcurve LUX integration for Nuxt
+description: Speedcurve LUX module for Nuxt
 long_description: >-
   LUX (which stands for Live User eXperience) gives you standard RUM (Real User
   Monitoring) metrics like page load time and start render. It also tracks

@@ -1,5 +1,5 @@
 name: yandex-metrika
-description: ''
+description: !<tag:yaml.org,2002:js/undefined> ''
 long_description: ''
 repo: nuxt-community/modules#master/packages/yandex-metrika
 npm: '@nuxtjs/yandex-metrika'

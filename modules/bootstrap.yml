@@ -1,5 +1,5 @@
 name: bootstrap
-description: bootstrap-vue integration
+description: bootstrap-vue module
 long_description: >-
   With more than 85 components, over 45 available plugins, several directives,
   and 1000+ icons, BootstrapVue provides one of the most comprehensive
@@ -18,6 +18,8 @@ keywords:
   - accessibility
   - alert
   - aria
+  - avatar
+  - badge
   - bootstrap
   - bootstrap for vue
   - bootstrap icons
@@ -48,6 +50,7 @@ keywords:
   - nav
   - navbar
   - option
+  - overlay
   - pagination
   - polymer
   - popover
@@ -57,6 +60,8 @@ keywords:
   - radio
   - scss
   - select
+  - sidebar
+  - skeleton
   - slider
   - spinner
   - ssr
@@ -64,10 +69,13 @@ keywords:
   - table
   - tag
   - tags
+  - time picker
+  - timepicker
   - toast
   - tooltip
   - uiv
   - upload
+  - vue v2
   - vue-bootstrap
   - vue-strap
   - vue2

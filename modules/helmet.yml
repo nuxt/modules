@@ -1,5 +1,5 @@
 name: helmet
-description: Easy Helmet integration with Nuxt.js'
+description: Easy Helmet module with Nuxt.js'
 long_description: >-
   Helmet helps you secure your Nuxt apps by setting various HTTP headers. By
   default Helmet will set the X-DNS-Prefetch-Control, X-Frame-Options,

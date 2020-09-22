@@ -1,8 +1,8 @@
 name: google-adsense
 description: Google Adsense Module for Nuxt.js
 long_description: >-
-  Google AdSense integration for Nuxt.js. Advertisements will update whenever
-  the page route changes
+  Google AdSense module for Nuxt.js. Advertisements will update whenever the
+  page route changes
 repo: nuxt-community/google-adsense-module
 npm: '@nuxtjs/google-adsense'
 type: module

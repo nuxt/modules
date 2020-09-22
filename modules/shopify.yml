@@ -1,9 +1,9 @@
 name: shopify
-description: Easy Shopify Buy client integration with Nuxt.js for ecommerce websites.
+description: Easy Shopify Buy client module with Nuxt.js for ecommerce websites.
 long_description: >-
-  Seamless Shopify Buy SDK integration with Nuxt.js. With Shopify you can create
-  an ecommerce website backed by powerful tools that help you find customers,
-  drive sales, and manage your day-to-day.
+  Seamless Shopify Buy SDK module with Nuxt.js. With Shopify you can create an
+  ecommerce website backed by powerful tools that help you find customers, drive
+  sales, and manage your day-to-day.
 repo: Gomah/nuxt-shopify
 npm: nuxt-shopify
 type: module

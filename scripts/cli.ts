@@ -1,4 +1,4 @@
-import { sync, syncAll, build } from './integration'
+import { sync, syncAll, build } from './module'
 import { version } from './version'
 
 async function main() {
@@ -9,12 +9,12 @@ async function main() {
       const [name, repo] = args
       if (name) {
         console.log('Syncing ' + (name === '-' ? repo : name))
-        const integration = await sync(name, repo)
-        console.log('Synced', integration.name)
+        const module = await sync(name, repo)
+        console.log('Synced', module.name)
       } else {
-        console.log('Syncing all integrations')
-        const integrations = await syncAll()
-        console.log('Sync ' + integrations.length + ' integrations')
+        console.log('Syncing all modules')
+        const modules = await syncAll()
+        console.log('Sync ' + modules.length + ' modules')
       }
       break
     case 'build':

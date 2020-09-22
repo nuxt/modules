@@ -34,6 +34,6 @@ features:
   - Backed by the great library Store.js
   - 'Support for multiple Storages (localStorage, cookies, etc.)'
   - Basic key/value storage functionality (get/set/remove/each)
-  - Easy integration with Vue.js
+  - Easy module with Vue.js
   - Support for Nuxt.js
   - Get notified with Vuex when the stored values change
