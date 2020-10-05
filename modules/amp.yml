@@ -10,7 +10,6 @@ website: 'https://github.com/nuxt-community/amp-module'
 learn_more: 'https://amp.dev/'
 keywords: []
 categories:
-  - analytics
   - performance
 labels:
   - community
