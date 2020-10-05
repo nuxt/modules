@@ -1,6 +1,6 @@
 ## nuxtjs.dev
 
-Discover Nuxt module on [nuxtjs.dev](https://nuxtjs.dev)
+Discover Nuxt modules on [nuxtjs.dev](https://nuxtjs.dev)
 
 ### Development
 
