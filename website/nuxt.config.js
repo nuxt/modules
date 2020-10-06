@@ -10,9 +10,10 @@ export default {
     // Doc: https://http.nuxtjs.org
     '@nuxt/http'
   ],
+  plugins: ['~/plugins/v-tooltip.js'],
   googleFonts: {
     families: {
-      Inter: true
+      'DM Sans': true
     }
   }
 }

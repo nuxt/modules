@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans]
+        sans: ['DM Sans', ...defaultTheme.fontFamily.sans]
       },
       colors: {
         'forest-night': '#003c3c',
@@ -12,9 +12,12 @@ module.exports = {
         'campfire-orange': '#ff6446',
         'sky-blue': '#28AAf0',
         'sun-yellow': '#ffe65a',
+        'sun-yellow-darker': '#FFDA0C',
+        'sun-yellow-darkest': '#E9C600',
         'stone-green': '#648282',
         'clay-brown': '#b4b48c',
         'rainy-grey': '#d1e2e2',
+        'grey-light': '#A5CBCB',
         green: {
           50: '#F2FDF9',
           100: '#E6FCF3',
