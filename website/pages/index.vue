@@ -129,6 +129,8 @@ export default {
       })
     })
 
+    modules.sort((m1, m2) => m2.downloads - m1.downloads)
+
     return {
       modules,
       categories,
