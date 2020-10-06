@@ -121,7 +121,7 @@ export default {
         return `https://cdn.jsdelivr.net/gh/nuxt/integrations@feat/website/icons/${icon}`
       }
       const category = categories.length ? categories[0] : 'uncategorized'
-      return `/icons/${category}.svg`
+      return `/categories/${category}.svg`
     },
     npmUrl ({ npm }) {
       return `https://npmjs.com/package/${npm}`
