@@ -4,7 +4,7 @@ long_description: Enable google gtagjs for NuxtJs
 repo: nuxt-community/google-gtag
 npm: '@nuxtjs/google-gtag'
 type: module
-icon: google-gtag.svg
+icon: gtm.png
 github: 'https://github.com/nuxt-community/google-gtag'
 website: 'https://github.com/nuxt-community/google-gtag'
 learn_more: 'https://developers.google.com/analytics/devguides/collection/gtagjs/'
