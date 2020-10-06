@@ -1,14 +1,16 @@
 export default {
   components: true,
   buildModules: [
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+    // Doc: https://tailwindcss.nuxtjs.org
     '@nuxtjs/tailwindcss',
     // Doc: https://github.com/nuxt-community/google-fonts-module
     '@nuxtjs/google-fonts'
   ],
   modules: [
     // Doc: https://http.nuxtjs.org
-    '@nuxt/http'
+    '@nuxt/http',
+    // Doc: https://pwa.nuxtjs.org
+    '@nuxtjs/pwa'
   ],
   plugins: ['~/plugins/v-tooltip.js'],
   googleFonts: {
