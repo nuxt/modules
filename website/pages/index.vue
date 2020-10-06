@@ -49,7 +49,7 @@
     </div>
     <div class="container mx-auto mt-12 grid md:grid-cols-2 xl:grid-cols-3 gap-5">
       <a v-for="module of filteredModules" :key="module.name" :href="module.website" target="_blank" rel="noopener" class="flex flex-col space-y-2 bg-white shadow rounded-md p-6 hover:shadow-lg cursor-pointer">
-        <img :src="iconUrl(module)" :alt="module.name" class="w-8 h-8" />
+        <img :src="iconUrl(module)" :alt="module.name" class="w-10 h-10" />
         <h2 class="text-3xl">{{ module.name }}</h2>
         <p class="text-gray-800">{{ module.description }}</p>
         <a :href="npmUrl(module)" target=" _blank" rel="noopener" class="group flex items-center space-x-2.5">
@@ -113,15 +113,14 @@ export default {
     downloadsFormat(downloads) {
       return Intl.NumberFormat('en-US', { notation: 'compact' }).format(downloads)
     },
-    iconUrl ({ icon, categories }) {
+    iconUrl ({ name, icon, categories }) {
       if (/^https?:\/\//.test(icon)) {
         return icon
       }
       if (icon) {
-        return `https://cdn.jsdelivr.net/gh/nuxt/integrations@master/icons/${icon}`
+        return `https://cdn.jsdelivr.net/gh/nuxt/integrations@feat/website/icons/${icon}`
       }
-      const category = categories.lenth ? categories[0] : 'uncategorized'
-
+      const category = categories.length ? categories[0] : 'uncategorized'
       return `/icons/${category}.svg`
     },
     npmUrl ({ npm }) {
@@ -135,6 +134,9 @@ export default {
         el.focus()
       }
     }
+  },
+  head: {
+    title: 'Browse Nuxt Modules'
   }
 }
 </script>
