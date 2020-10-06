@@ -9,7 +9,8 @@ github: 'https://github.com/nuxt-community/applicationinsights-module'
 website: 'https://github.com/nuxt-community/applicationinsights-module'
 learn_more: ''
 keywords: []
-categories: []
+categories:
+  - analytics
 labels:
   - community
 maintainers:

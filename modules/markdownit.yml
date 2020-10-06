@@ -1,5 +1,5 @@
 name: markdownit
-description: 'Use Markdown in your Nuxt application with the markdownit-loader'
+description: Use Markdown in your Nuxt application with the markdownit-loader
 long_description: ''
 repo: nuxt-community/modules#master/packages/markdownit
 npm: '@nuxtjs/markdownit'
