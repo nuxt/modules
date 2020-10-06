@@ -6,7 +6,7 @@ long_description: >-
 repo: nuxt-community/axios-module
 npm: '@nuxtjs/axios'
 type: module
-icon: ''
+icon: axios.svg
 github: 'https://github.com/nuxt-community/axios-module'
 website: 'https://axios.nuxtjs.org'
 learn_more: 'https://github.com/axios/axios'
