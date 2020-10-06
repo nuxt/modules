@@ -4,7 +4,7 @@ long_description: ''
 repo: nuxt-community/applicationinsights-module
 npm: '@nuxtjs/applicationinsights'
 type: module
-icon: 'application-insights.png'
+icon: application-insights.png
 github: 'https://github.com/nuxt-community/applicationinsights-module'
 website: 'https://github.com/nuxt-community/applicationinsights-module'
 learn_more: ''

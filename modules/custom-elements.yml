@@ -19,6 +19,9 @@ categories:
 labels:
   - 3rd-party
 maintainers:
+  - name: Thorn Walli
+    github: ThornWalli
+    avatar: 'https://github.com/ThornWalli.png'
   - name: GrabarzUndPartner
     github: GrabarzUndPartner
     avatar: 'https://github.com/GrabarzUndPartner.png'
