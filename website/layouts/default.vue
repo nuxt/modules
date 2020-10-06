@@ -6,7 +6,7 @@
 export default {
   head: {
     bodyAttrs: {
-      class: 'bg-gray-100 min-h-screen'
+      class: 'bg-cloudy-grey min-h-screen'
     }
   }  
 }

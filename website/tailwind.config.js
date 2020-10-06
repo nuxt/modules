@@ -7,6 +7,14 @@ module.exports = {
         sans: ['Inter', ...defaultTheme.fontFamily.sans]
       },
       colors: {
+        'forest-night': '#003c3c',
+        'cloudy-grey': '#e6f0f0',
+        'campfire-orange': '#ff6446',
+        'sky-blue': '#28AAf0',
+        'sun-yellow': '#ffe65a',
+        'stone-green': '#648282',
+        'clay-brown': '#b4b48c',
+        'rainy-grey': '#d1e2e2',
         green: {
           50: '#F2FDF9',
           100: '#E6FCF3',
@@ -21,6 +29,9 @@ module.exports = {
         }
       }
     }
+  },
+  variants: {
+    opacity: ({ after }) => after(['group-hover'])
   },
   plugins: [require('@tailwindcss/ui')]
 }
