@@ -1,6 +1,6 @@
 name: amp
-description: AMP (Accelerated Mobile Pages) Module for Nuxt
-long_description: AMP (Accelerated Mobile Pages) Module for Nuxt
+description: AMP (Accelerated Mobile Pages) module for Nuxt
+long_description: AMP (Accelerated Mobile Pages) module for Nuxt
 repo: nuxt-community/amp-module
 npm: '@nuxtjs/amp'
 type: module

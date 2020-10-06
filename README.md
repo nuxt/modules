@@ -10,11 +10,13 @@
 
 ### Add/Update repository
 
-`yarn sync <owner>/<name>`
+`yarn sync <name> <repo>`
+
+Example: `yarn sync tailwindcss nuxt-community/tailwindcss-module`
 
 ### Auto update all current modules
 
-`yarn  sync`
+`yarn sync`
 
 ### Generate `dist/module.json`
 

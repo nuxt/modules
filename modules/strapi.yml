@@ -16,6 +16,10 @@ categories:
 labels:
   - community
 maintainers:
+  - name: Benjamin Canac
+    github: benjamincanac
+    twitter: benjamincanac
+    avatar: 'https://github.com/benjamincanac.png'
   - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux

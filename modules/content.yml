@@ -23,6 +23,10 @@ maintainers:
     github: benjamincanac
     twitter: benjamincanac
     avatar: 'https://github.com/benjamincanac.png'
+  - name: Sebastien Chopin
+    github: Atinux
+    twitter: Atinux
+    avatar: 'https://github.com/Atinux.png'
 video: >-
   https://res.cloudinary.com/nuxt/video/upload/q_auto/v1588091670/nuxt-content_wxnjje.webm
 demo: 'https://blog-with-nuxt-content.netlify.app/'
