@@ -12,7 +12,7 @@
   "author": "Nuxt.js Team",
   "license": "MIT",
   "dependencies": {
-    "@nuxt/modules": "^0.5.0-c77b65",
+    "@nuxt/modules": "latest",
     "@nuxtjs/pwa": "^3.1.0",
     "@octokit/rest": "^18.0.6",
     "got": "^11.7.0"

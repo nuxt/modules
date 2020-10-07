@@ -23,6 +23,6 @@ module.exports = async (req, res) => {
   }))
   console.log('Stats fetched')
 
-  res.setHeader('Cache-Control', 'max-age=0, s-maxage=86400')
+  res.setHeader('Cache-Control', 'max-age=0, s-maxage=600')
   res.json(nuxtModules)
 }
