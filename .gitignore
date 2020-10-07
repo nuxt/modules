@@ -5,3 +5,4 @@ dist
 .vercel
 .nuxt
 sw.js
+.env
