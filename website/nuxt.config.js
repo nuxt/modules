@@ -18,5 +18,10 @@ export default {
     families: {
       'DM Sans': true
     }
+  },
+  pwa: {
+    meta: {
+      name: 'modules.nuxtjs.org'
+    }
   }
 }
