@@ -11,7 +11,7 @@ export default {
     // Doc: https://http.nuxtjs.org
     '@nuxt/http',
     // Doc: https://pwa.nuxtjs.org
-    '@nuxtjs/pwa'
+    // '@nuxtjs/pwa'
   ],
   plugins: ['~/plugins/v-tooltip.js'],
   googleFonts: {
