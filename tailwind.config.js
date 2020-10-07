@@ -36,5 +36,11 @@ module.exports = {
   variants: {
     opacity: ({ after }) => after(['group-hover'])
   },
-  plugins: [require('@tailwindcss/ui')]
+  plugins: [
+    require('@tailwindcss/ui')
+  ],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true
+  },
 }

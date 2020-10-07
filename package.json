@@ -9,20 +9,36 @@
   "scripts": {
     "build": "yarn cli build",
     "cli": "ts-node ./scripts/cli",
+    "dev": "nuxt-ts",
+    "generate": "nuxt-ts generate",
     "release": "yarn cli version && npm publish",
+    "start": "nuxt-ts start",
     "sync": "yarn cli sync"
   },
   "devDependencies": {
+    "@nuxt/http": "^0.6.0",
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxt/typescript-runtime": "^2.0.0",
     "@nuxtjs/eslint-config-typescript": "^3.0.0",
+    "@nuxtjs/google-fonts": "^1.0.3",
+    "@nuxtjs/pwa": "^3.1.2",
+    "@nuxtjs/tailwindcss": "^3.1.0",
+    "@octokit/rest": "^18.0.6",
+    "@tailwindcss/ui": "^0.6.2",
     "@types/node": "^14.6.0",
     "axios": "^0.20.0",
     "defu": "^3.1.0",
     "execa": "^4.0.3",
     "fs-extra": "^9.0.1",
+    "fs-memo": "^1.0.1",
     "globby": "^11.0.1",
+    "got": "^11.7.0",
     "hasha": "^5.2.0",
     "js-yaml": "^3.14.0",
+    "nuxt": "^2.14.6",
     "ts-node": "^9.0.0",
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.2",
+    "v-tooltip": "^2.0.3"
   }
 }
