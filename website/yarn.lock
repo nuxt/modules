@@ -1060,10 +1060,10 @@
     node-res "^5.0.1"
     serve-static "^1.14.1"
 
-"@nuxt/modules@^0.5.0-c77b65":
-  version "0.5.0-c77b65"
-  resolved "https://registry.yarnpkg.com/@nuxt/modules/-/modules-0.5.0-c77b65.tgz#cda5f02a606a8fe096f56e50d8f638c8d997da45"
-  integrity sha512-LACU3GGa9eVBFT7zYpYacKEzlmYiaUiALljbDcu6Ae+y7WFnwgY/nrTs0fBqVzqauHJ4p4ryLz+RK8ON3saMig==
+"@nuxt/modules@latest":
+  version "0.5.0-ca63c4"
+  resolved "https://registry.yarnpkg.com/@nuxt/modules/-/modules-0.5.0-ca63c4.tgz#7f7c54642101bc04a47073520e459a6c6f4bef39"
+  integrity sha512-yiYea23Rd/TBPbc/PAHf8YAATzE8MtqRpVUsxg5SW0Mnlna5ANDzBhT7HLNA3gazl7rIisINPnNJenAj/xoxXw==
 
 "@nuxt/opencollective@^0.3.0":
   version "0.3.0"
@@ -1239,10 +1239,10 @@
     consola "^2.11.3"
     http-proxy-middleware "^1.0.4"
 
-"@nuxtjs/pwa@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-3.1.0.tgz#082c173ca3d27268657d82ef1d7a94a55be58559"
-  integrity sha512-LpVMAsKbSfmg/802EGId3DZop4YfUwLTgO4wbo9ALvAb2PolIBdRA2DhXF9y3bRuMDf9/tP8ErmkJ8MjcbJRmw==
+"@nuxtjs/pwa@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-3.1.1.tgz#bd30e02e6edae85a64476459862f600d5ee75c76"
+  integrity sha512-myVxdSCmUwXWky+BkEjia3w/UEUG5VpNKk/CbQn7jaWNPECUr++GA+qT0Uto5w4n/2VLCFDuTMBqTmuaDAeOtw==
   dependencies:
     defu "^3.1.0"
     execa "^4.0.3"
