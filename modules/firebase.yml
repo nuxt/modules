@@ -8,9 +8,9 @@ long_description: >-
 repo: nuxt-community/firebase-module
 npm: '@nuxtjs/firebase'
 type: module
-icon: firebase.png
+icon: 'https://firebase.nuxtjs.org/icon.png'
 github: 'https://github.com/nuxt-community/firebase-module'
-website: 'https://github.com/nuxt-community/firebase-module'
+website: 'https://firebase.nuxtjs.org'
 learn_more: 'https://firebase.google.com/'
 keywords:
   - firebase
@@ -26,6 +26,7 @@ maintainers:
   - name: Pascal Luther
     github: lupas
     avatar: 'https://github.com/lupas.png'
+image: 'https://firebase.nuxtjs.org/preview.png'
 features:
   - >-
     Minimal setup required to integrate all Firebase services into your Nuxt.js

@@ -8,9 +8,9 @@ long_description: >-
 repo: nuxt-community/auth-module
 npm: '@nuxtjs/auth'
 type: module
-icon: auth.png
+icon: 'https://dev.auth.nuxtjs.org/icon.png'
 github: 'https://github.com/nuxt-community/auth-module'
-website: 'https://dev.auth.nuxtjs.org/'
+website: 'https://dev.auth.nuxtjs.org'
 learn_more: ''
 keywords: []
 categories:

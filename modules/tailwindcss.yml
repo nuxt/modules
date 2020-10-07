@@ -10,7 +10,7 @@ long_description: >-
 repo: nuxt-community/tailwindcss-module
 npm: '@nuxtjs/tailwindcss'
 type: module
-icon: tailwindcss.png
+icon: 'https://tailwindcss.nuxtjs.org/icon.png'
 github: 'https://github.com/nuxt-community/tailwindcss-module'
 website: 'https://tailwindcss.nuxtjs.org'
 learn_more: 'https://tailwindcss.com/'

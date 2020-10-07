@@ -8,7 +8,7 @@ long_description: >-
 repo: nuxt-community/storybook
 npm: '@nuxtjs/storybook'
 type: cli
-icon: storybook.png
+icon: 'https://storybook.nuxtjs.org/icon.png'
 github: 'https://github.com/nuxt-community/storybook'
 website: 'https://storybook.nuxtjs.org'
 learn_more: 'https://storybook.js.org/'

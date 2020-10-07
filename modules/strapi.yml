@@ -6,7 +6,7 @@ long_description: >-
 repo: nuxt-community/strapi-module
 npm: '@nuxtjs/strapi'
 type: module
-icon: strapi.png
+icon: 'https://strapi.nuxtjs.org/icon.png'
 github: 'https://github.com/nuxt-community/strapi-module'
 website: 'https://strapi.nuxtjs.org'
 learn_more: 'https://strapi.io/'

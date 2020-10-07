@@ -9,7 +9,7 @@ long_description: >-
 repo: nuxt-community/speedcurve-module
 npm: '@nuxtjs/speedcurve'
 type: module
-icon: speedcurve.png
+icon: 'https://speedcurve.nuxtjs.org/icon.png'
 github: 'https://github.com/nuxt-community/speedcurve-module'
 website: 'https://speedcurve.nuxtjs.org'
 learn_more: 'https://speedcurve.com'
@@ -23,6 +23,7 @@ maintainers:
     github: hecktarzuli
     twitter: JoshDeltener
     avatar: 'https://github.com/hecktarzuli.png'
+image: 'https://speedcurve.nuxtjs.org/preview.png'
 features:
   - Collect performance metrics from real users
   - See Javascript errors in your Speedcurve dashboard

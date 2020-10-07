@@ -4,9 +4,9 @@ long_description: Dark and Light mode with auto detection made easy with NuxtJS
 repo: nuxt-community/color-mode-module
 npm: '@nuxtjs/color-mode'
 type: module
-icon: color-mode.png
+icon: 'https://color-mode.nuxtjs.org/icon.png'
 github: 'https://github.com/nuxt-community/color-mode-module'
-website: 'https://github.com/nuxt-community/color-mode-module'
+website: 'https://color-mode.nuxtjs.org'
 learn_more: ''
 keywords: []
 categories:
@@ -21,6 +21,7 @@ maintainers:
 demo: 'https://color-mode.nuxtjs.app/'
 video: >-
   https://nuxtjs.org/blog/going-dark-with-nuxtjs-color-mode/final-working-version.mp4
+image: 'https://color-mode.nuxtjs.org/preview.png'
 features:
   - 'Add .${color}-mode class to <html> for easy CSS theming'
   - >-

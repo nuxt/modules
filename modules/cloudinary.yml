@@ -8,7 +8,7 @@ long_description: >-
 repo: nuxt-community/cloudinary-module
 npm: '@nuxtjs/cloudinary'
 type: module
-icon: cloudinary.png
+icon: 'https://cloudinary.nuxtjs.org/icon.png'
 github: 'https://github.com/nuxt-community/cloudinary-module'
 website: 'https://cloudinary.nuxtjs.org'
 learn_more: 'https://cloudinary.com'

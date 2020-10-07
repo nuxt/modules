@@ -7,9 +7,9 @@ long_description: >-
 repo: nuxt-community/prismic-module
 npm: '@nuxtjs/prismic'
 type: module
-icon: prismic.png
+icon: 'https://prismic.nuxtjs.org/icon.png'
 github: 'https://github.com/nuxt-community/prismic-module'
-website: 'https://github.com/nuxt-community/prismic-module'
+website: 'https://prismic.nuxtjs.org'
 learn_more: 'https://prismic.io/'
 keywords:
   - cms
