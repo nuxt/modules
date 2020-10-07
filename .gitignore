@@ -6,3 +6,4 @@ dist
 .nuxt
 sw.js
 .env
+.vscode

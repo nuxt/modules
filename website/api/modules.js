@@ -1,4 +1,4 @@
-const nuxtModules = require('../dist/modules')
+const nuxtModules = require('@nuxt/modules')
 const { Octokit } = require('@octokit/rest')
 const got = require('got')
 
