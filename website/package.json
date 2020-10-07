@@ -20,8 +20,6 @@
     "v-tooltip": "^2.0.3"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^3.1.0",
-    "@octokit/rest": "^18.0.6",
-    "got": "^11.7.0"
+    "@nuxtjs/pwa": "^3.1.0"
   }
 }
