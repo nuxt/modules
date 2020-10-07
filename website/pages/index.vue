@@ -114,7 +114,7 @@ export default {
     }
   },
   async asyncData ({ $http }) {
-    let url = process.dev ? 'http://localhost:3000' : 'https://nuxtjs.dev'
+    let url = process.dev ? 'http://localhost:3000' : 'https://nuxt-modules.vercel.app'
     const modules = await $http.$get(`${url}/api/modules`)
     const categories = []
     const maintainers = []
