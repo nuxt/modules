@@ -206,6 +206,7 @@ export default {
       meta: [
         { hid: 'description', name: 'description', content: description },
         { hid: 'og:site_name', property: 'og:site_name', content: title },
+        { hid: 'og:description', property: 'og:description', content: description },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:url', property: 'og:url', content: url },
         { hid: 'og:image', property: 'og:image', content: `${url}/preview.png` },
@@ -213,6 +214,7 @@ export default {
         { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
         { hid: 'twitter:site', name: 'twitter:site', content: '@nuxt_js' },
         { hid: 'twitter:title', name: 'twitter:title', content: title },
+        { hid: 'twitter:description', name: 'twitter:description', content: description },
         { hid: 'twitter:image', name: 'twitter:image', content: `${url}/preview.png` },
         { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: title }
       ]
