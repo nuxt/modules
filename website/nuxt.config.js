@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   components: true,
   buildModules: [
     // Doc: https://tailwindcss.nuxtjs.org

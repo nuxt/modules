@@ -11,18 +11,18 @@
   "keywords": [],
   "author": "Nuxt.js Team",
   "license": "MIT",
-  "devDependencies": {
-    "@nuxt/http": "^0.6.0",
-    "@nuxtjs/google-fonts": "^1.0.3",
-    "@nuxtjs/tailwindcss": "^3.1.0",
-    "@tailwindcss/ui": "^0.6.2",
-    "nuxt-edge": "^2.14.7-26697638.61e93d01",
-    "v-tooltip": "^2.0.3"
-  },
   "dependencies": {
     "@nuxt/modules": "^0.5.0-c77b65",
     "@nuxtjs/pwa": "^3.1.0",
     "@octokit/rest": "^18.0.6",
     "got": "^11.7.0"
+  },
+  "devDependencies": {
+    "@nuxt/http": "^0.6.0",
+    "@nuxtjs/google-fonts": "^1.0.3",
+    "@nuxtjs/tailwindcss": "^3.1.0",
+    "@tailwindcss/ui": "^0.6.2",
+    "nuxt": "^2.14.6",
+    "v-tooltip": "^2.0.3"
   }
 }
