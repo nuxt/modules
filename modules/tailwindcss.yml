@@ -16,7 +16,6 @@ website: 'https://tailwindcss.nuxtjs.org'
 learn_more: 'https://tailwindcss.com/'
 keywords: []
 categories:
-  - css
   - ui
 labels:
   - community
