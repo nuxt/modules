@@ -1,28 +1,67 @@
-![nuxt/modules](https://modules.nuxtjs.org/preview.png)
+[![nuxt/modules](https://modules.nuxtjs.org/preview.png)](https://modules.nuxtjs.org)
+
+> Official and community [Nuxt](https://nuxtjs.org) modules united on [modules.nuxtjs.org](https://modules.nuxtjs.org)
 
 # Nuxt Modules
 
 [![automated](https://flat.badgen.net/badge/publish/automated/green)](#)
 [![npm version](https://flat.badgen.net/npm/v/@nuxt/modules)](https://www.npmjs.com/package/@nuxt/modules)
 
-## Contribution
+## Usage
+
+### API Endpoint
+
+You can access the list of modules using our API: https://modules.nuxtjs.org/api/modules
+
+Using JavaScript to fetch our modules:
+
+```js
+const modules = await fetch('https://modules.nuxtjs.org/api/modules').then(res => res.json())
+```
+
+### NPM
+
+You can use the `@nuxt/modules` package by installing it in your project:
+
+```bash
+npm install @nuxt/modules
+# Or yarn add @nuxt/modules
+```
+
+Then you can directly import the list of modules:
+
+```js
+const modules = require('@nuxt/modules')
+// modules is an array of objects
+// See https://unpkg.com/@nuxt/modules/dist/modules.json
+```
+
+Note that the list **does not include NPM downloads and GitHub stars**, for this we recommend to use the [API endpoint](#api-endpoint).
+
+## Contributing
 
 - If you feel a module is missing, please create a new [issue](https://github.com/nuxt/modules/issues/new)
 - If some meta is wrong, feel free directly opening a pull request
 
 ### Add or update repository
 
-`yarn sync <name> <repo>`
+```bash
+yarn sync <name> <repo>
+```
 
 Example: `yarn sync tailwindcss nuxt-community/tailwindcss-module`
 
 ### Auto update all current modules
 
-`yarn sync`
+```bash
+yarn sync
+```
 
 ### Generate `dist/module.json`
 
-`yarn build`
+```
+yarn build
+```
 
 ## Website
 
@@ -47,8 +86,15 @@ Create a [personnal GitHub token](https://github.com/settings/tokens) (no scope 
 GITHUB_TOKEN=<my-generated-github-token>
 ```
 
+Generate the website:
+
 ```
-yarn build
+yarn generate
+```
+
+Start the production website:
+
+```bash
 yarn start
 ```
 
