@@ -1,3 +1,5 @@
+![nuxt/modules](https://modules.nuxtjs.org/preview.png)
+
 # Nuxt Modules
 
 [![automated](https://flat.badgen.net/badge/publish/automated/green)](#)
