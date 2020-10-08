@@ -36,7 +36,7 @@
               downloads last 30 days
             </dt>
             <dd class="order-1 text-2xl sm:text-4xl leading-none font-extrabold text-green-600">
-              {{ downloads }}
+              {{ numberFormat(downloads) }}
             </dd>
           </div>
           <div class="flex justify-center sm:flex-col border-t border-gray-100 p-4 sm:p-6 text-center sm:border-0 sm:border-l">
@@ -141,7 +141,7 @@ export default {
       modules,
       categories,
       maintainers,
-      downloads: Intl.NumberFormat('en-US', { notation: 'compact' }).format(downloads)
+      downloads
     }
   },
   computed: {
@@ -158,11 +158,11 @@ export default {
         const search = [module.name, module.npm, module.repo, module.description].concat(module.maintainers.map(m => m.name + ' ' + m.github)).concat(module.categories).join(' ')
         return search.toLowerCase().indexOf(q) !== -1
       })
-    }
+    },
   },
   methods: {
-    numberFormat (downloads) {
-      return Intl.NumberFormat('en-US', { notation: 'compact' }).format(downloads)
+    numberFormat (num) {
+      return Intl.NumberFormat('en-US', { notation: 'compact' }).format(num)
     },
     iconUrl ({ name, icon, categories }) {
       if (/^https?:\/\//.test(icon)) {
