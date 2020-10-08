@@ -1,12 +1,13 @@
-import { existsSync, readFile, writeFile, remove, mkdirp } from 'fs-extra'
+import { existsSync, readFile, readJson, writeFile, mkdirp } from 'fs-extra'
 import { resolve, join, basename, extname } from 'path'
 import * as yml from 'js-yaml'
 import globby from 'globby'
 import defu from 'defu'
-import { fetchGithubPkg, uniq, modulesDir, rootDir, distDir, distFile  } from './utils'
+import { fetchGithubPkg, modulesDir, distDir, distFile  } from './utils'
 
 export async function sync(name, repo?: string) {
   const module = await getModule(name)
+  const categories = await readJson(join(__dirname, '..', 'modules', '_categories.json'))
 
   // Repo
   if (repo) {
@@ -14,7 +15,7 @@ export async function sync(name, repo?: string) {
   }
 
   if (!module.repo) {
-    throw new Error('repo not provided for ' + name)
+    throw new Error(`repo not provided for ${name}`)
   }
 
   // Defaults
@@ -22,7 +23,7 @@ export async function sync(name, repo?: string) {
     module.repo = repo
   }
   if (!module.github) {
-    module.github = 'https://github.com/' + module.repo.replace('#', '/tree/')
+    module.github = `https://github.com/${module.repo.replace('#', '/tree/')}`
   }
   if (!module.website) {
     module.website = module.github
@@ -34,42 +35,19 @@ export async function sync(name, repo?: string) {
 
   // Labels
   if (module.repo.startsWith('nuxt-community/')) {
-    module.labels.push('community')
+    module.label = 'community'
   } else if (module.repo.startsWith('nuxt/')) {
-    module.labels.push('official')
+    module.label = 'official'
   } else {
-    module.labels.push('3rd-party')
+    module.label = '3rd-party'
   }
-  module.labels = uniq(module.labels.map(s => s.toLowerCase())).sort()
-
-  // Keywords
-  if (pkg.keywords) {
-    module.keywords.push(...pkg.keywords)
-  }
-  const specialKeyworkds = [
-    ...module.labels,
-    'community',
-    'official',
-    '3rd-party',
-    'external',
-    'vue',
-    'vuejs',
-    'vue.js',
-    'nuxt',
-    'nuxt.js',
-    'nuxtjs',
-    'module',
-    'script',
-    'nuxt-module'
-  ]
-  module.keywords = uniq(module.keywords.map(s => s.toLowerCase()))
-    .filter(k => !specialKeyworkds.includes(k))
-    .sort()
 
   // Categories
-  module.categories = module.categories.map(s => s.toLowerCase()).sort()
-  if (!module.categories.length) {
-    console.warn('No categories for ' + module.name)
+  if (!module.category) {
+    console.warn(`No category for ${module.name}`)
+  } else if (!categories.includes(module.category)) {
+    console.warn(`Wrong category ${module.category} for ${module.name}`)
+    module.category = ''
   }
 
   // Auto name
@@ -90,13 +68,13 @@ export async function sync(name, repo?: string) {
         github: owner
       })
     } else {
-      console.warn('No maintainer for ' + module.name)
+      console.warn(`No maintainer for ${module.name}`)
     }
   }
 
   for (const maintainer of module.maintainers) {
     if (maintainer.github && !maintainer.avatar) {
-      maintainer.avatar = 'https://github.com/' + maintainer.github + '.png'
+      maintainer.avatar = `https://github.com/${maintainer.github}.png`
     }
   }
 
@@ -115,17 +93,14 @@ export async function getModule(name) {
   let module = {
     name: '',
     description: '',
-    long_description: '',
-    repo: '',
-    npm: '',
-    type: 'module',
-    icon: '',
-    github: '',
+    repo: '', // nuxt/example
+    npm: '', // @nuxt/core
+    icon: '', // url or filename from /static/icons
+    github: '', // github link
     website: '',
     learn_more: '',
-    keywords: [],
-    categories: [],
-    labels: [],
+    category: '', // see modules/_categories.json
+    label: '', // official, community, 3rd-party
     maintainers: [],
   }
 
@@ -138,20 +113,12 @@ export async function getModule(name) {
 }
 
 export async function writeModule(module) {
-  const file = resolve(modulesDir, module.name + '.yml')
+  const file = resolve(modulesDir, `${module.name}.yml`)
   await writeFile(file, yml.dump(module))
 }
 
 export async function readModules() {
   const names = (await globby(join(modulesDir, '*.yml'))).map(p => basename(p, extname(p)))
-
-  // for (const name of names) {
-  //   const p = resolve(modulesDir, name + '.yml')
-  //   const data = yml.load(await readFile(p, 'utf-8'))
-  //   if (data.name !== name) {
-  //     await remove(p)
-  //   }
-  // }
 
   return Promise.all(names.map(n => getModule(n)))
 }

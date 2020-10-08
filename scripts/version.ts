@@ -2,7 +2,7 @@ import fs from 'fs-extra'
 import path from 'path'
 import hasha from 'hasha'
 import { rootDir, distFile } from './utils'
-import { build } from './module'
+import { build } from './modules'
 
 export async function version() {
   await build()

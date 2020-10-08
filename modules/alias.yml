@@ -1,6 +1,5 @@
 name: alias
 description: It automatically creates an alias for the components and page of the path
-long_description: It automatically creates an alias for the components and page of the path
 repo: kdydesign/nuxt-alias-module
 npm: nuxt-alias
 type: module

@@ -169,7 +169,7 @@ export default {
         return icon
       }
       if (icon) {
-        return `https://cdn.jsdelivr.net/gh/nuxt/integrations@feat/website/icons/${icon}`
+        return `/icons/${icon}`
       }
       const category = categories.length ? categories[0] : 'uncategorized'
       return `/categories/${category}.svg`

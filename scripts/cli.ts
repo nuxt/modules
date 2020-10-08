@@ -1,4 +1,4 @@
-import { sync, syncAll, build } from './module'
+import { sync, syncAll, build } from './modules'
 import { version } from './version'
 
 async function main() {
