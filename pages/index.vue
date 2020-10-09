@@ -102,7 +102,7 @@
             <div class="maintainers-list group flex items-center space-x-1 py-3 px-4 z-0 overflow-hidden">
               <img alt="maintainer" src="~/assets/icons/maintainer.svg" width="24" height="24" />
               <a v-for="maintainer of module.maintainers" :key="maintainer.github" :aria-label="maintainer.github" :href="maintainer.github" v-tooltip="{ content: maintainer.github, classes: ['bg-forest-night', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }" target="_blank" rel="noopener">
-                <img class="relative inline-block h-6 w-6 rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100" :src="maintainer.avatar + '&s=24'" :alt="maintainer.name" width="24" height="24">
+                <img class="relative inline-block rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100" :src="maintainer.avatar + '&s=24'" :alt="maintainer.name" width="24" height="24">
               </a>
             </div>
           </div>
