@@ -1,18 +1,13 @@
 name: components
 description: Auto Import Components for Nuxt.js
-long_description: ''
 repo: nuxt/components
 npm: '@nuxt/components'
-type: module
 icon: nuxt-components.svg
 github: 'https://github.com/nuxt/components'
 website: 'https://github.com/nuxt/components'
 learn_more: ''
-keywords: []
-categories:
-  - ui
-labels:
-  - official
+category: UI
+type: official
 maintainers:
   - name: Kevin Marrec
     github: kevinmarrec

@@ -2,20 +2,14 @@ name: image
 description: >-
   Optimised images for NuxtJS, with progressive processing, lazy-loading,
   real-time resizes and providers support.
-long_description: ''
 repo: nuxt/image
 npm: '@nuxt/image'
-type: module
 icon: 'https://image.nuxtjs.org/icon.png'
 github: 'https://github.com/nuxt/image'
 website: 'https://image.nuxtjs.org'
 learn_more: ''
-keywords: []
-categories:
-  - images
-  - performance
-labels:
-  - official
+category: Images
+type: official
 maintainers:
   - name: Ahad Birang
     github: farnabaz

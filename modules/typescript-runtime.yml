@@ -1,18 +1,13 @@
 name: typescript-runtime
 description: TypeScript Runtime support for Nuxt
-long_description: ''
 repo: nuxt/typescript#master/packages/typescript-runtime
 npm: '@nuxt/typescript-runtime'
-type: module
 icon: typescript.svg
 github: 'https://github.com/nuxt/typescript/tree/master/packages/typescript-runtime'
 website: 'https://typescript.nuxtjs.org/guide/runtime.html'
 learn_more: ''
-keywords: []
-categories:
-  - devtools
-labels:
-  - official
+category: Devtools
+type: official
 maintainers:
   - name: Kevin Marrec
     github: kevinmarrec

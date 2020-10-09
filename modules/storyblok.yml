@@ -1,21 +1,13 @@
 name: storyblok
 description: Storyblok Nuxt.js module
-long_description: >-
-  Storyblok Nuxt.js module. Storyblok helps your team to tell your story and
-  manage content for every use-case- corporate websites, e-commerce, helpdesks,
-  mobile apps, and screen displays.
 repo: storyblok/storyblok-nuxt
 npm: storyblok-nuxt
-type: module
 icon: storyblok.png
 github: 'https://github.com/storyblok/storyblok-nuxt'
 website: 'https://github.com/storyblok/storyblok-nuxt'
 learn_more: ''
-keywords: []
-categories:
-  - cms
-labels:
-  - 3rd-party
+category: CMS
+type: 3rd-party
 maintainers:
   - name: storyblok
     github: storyblok

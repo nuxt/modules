@@ -33,23 +33,32 @@ export async function sync(name, repo?: string) {
   const pkg = await fetchGithubPkg(module.repo)
   module.npm = pkg.name
 
-  // Labels
+  // Type
   if (module.repo.startsWith('nuxt-community/')) {
-    module.label = 'community'
+    module.type = 'community'
   } else if (module.repo.startsWith('nuxt/')) {
-    module.label = 'official'
+    module.type = 'official'
   } else {
-    module.label = '3rd-party'
+    module.type = '3rd-party'
   }
 
-  // Categories
+  // Category
   if (!module.category) {
-    console.warn(`No category for ${module.name}`)
+    throw new Error(`No category for ${module.name}`)
   } else if (!categories.includes(module.category)) {
-    console.warn(`Wrong category ${module.category} for ${module.name}`)
-    module.category = ''
+    let newCat = module.category[0].toUpperCase() + module.category.substr(1)
+    if (newCat.length <= 3) {
+      newCat = newCat.toUpperCase()
+    }
+    if (categories.includes(newCat)) {
+      module.category = newCat
+    } else {
+      throw new Error(`Unknown category ${module.category} for ${module.name}.\nSupported categories: ${categories.join(', ')}`)
+    }
   }
 
+  // TODO: Remove extra fields
+  
   // Auto name
   if (!module.name) {
     module.name = (pkg.name.startsWith('@') ?
@@ -68,7 +77,7 @@ export async function sync(name, repo?: string) {
         github: owner
       })
     } else {
-      console.warn(`No maintainer for ${module.name}`)
+      throw new Error(`No maintainer for ${module.name}`)
     }
   }
 
@@ -100,8 +109,8 @@ export async function getModule(name) {
     website: '',
     learn_more: '',
     category: '', // see modules/_categories.json
-    label: '', // official, community, 3rd-party
-    maintainers: [],
+    type: '', // official, community, 3rd-party
+    maintainers: []
   }
 
   const file = resolve(modulesDir, name + '.yml')
@@ -118,9 +127,10 @@ export async function writeModule(module) {
 }
 
 export async function readModules() {
-  const names = (await globby(join(modulesDir, '*.yml'))).map(p => basename(p, extname(p)))
+  const names = (await globby(join(modulesDir, '*.yml'))).map(p => basename(p, extname(p))).filter(_ => _)
 
   return Promise.all(names.map(n => getModule(n)))
+    .then(modules => modules.filter(m => m.name))
 }
 
 export async function syncAll() {

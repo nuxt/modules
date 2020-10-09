@@ -1,91 +1,13 @@
 name: bootstrap
 description: Add Bootstrap to your Nuxt app in seconds.
-long_description: >-
-  With more than 85 components, over 45 available plugins, several directives,
-  and 1000+ icons, BootstrapVue provides one of the most comprehensive
-  implementations of the Bootstrap v4 component and grid system available for
-  Vue.js v2.6, complete with extensive and automated WAI-ARIA accessibility
-  markup.
 repo: bootstrap-vue/bootstrap-vue
 npm: bootstrap-vue
-type: module
 icon: bootstrap.png
 github: 'https://github.com/bootstrap-vue/bootstrap-vue'
 website: 'https://bootstrap-vue.org/docs#nuxtjs-module'
 learn_more: ''
-keywords:
-  - a11y
-  - accessibility
-  - alert
-  - aria
-  - avatar
-  - badge
-  - bootstrap
-  - bootstrap for vue
-  - bootstrap icons
-  - bootstrap v4
-  - breadcrumb
-  - button
-  - calendar
-  - card
-  - carousel
-  - checkbox
-  - collapse
-  - components
-  - css
-  - date picker
-  - datepicker
-  - directives
-  - dropdown
-  - dropzone
-  - flexbox
-  - form
-  - icons
-  - input
-  - jquery
-  - jumbotron
-  - list
-  - messagebox
-  - modal
-  - nav
-  - navbar
-  - option
-  - overlay
-  - pagination
-  - polymer
-  - popover
-  - popper
-  - popper.js
-  - progress
-  - radio
-  - scss
-  - select
-  - sidebar
-  - skeleton
-  - slider
-  - spinner
-  - ssr
-  - tab
-  - table
-  - tag
-  - tags
-  - time picker
-  - timepicker
-  - toast
-  - tooltip
-  - uiv
-  - upload
-  - vue v2
-  - vue-bootstrap
-  - vue-strap
-  - vue2
-  - vuestrap
-  - web
-  - webcomponents
-categories:
-  - ui
-labels:
-  - 3rd-party
+category: UI
+type: 3rd-party
 maintainers:
   - name: Troy Morehouse
     github: tmorehouse

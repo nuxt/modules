@@ -1,18 +1,13 @@
 name: yandex-metrika
 description: !<tag:yaml.org,2002:js/undefined> ''
-long_description: ''
 repo: nuxt-community/modules#master/packages/yandex-metrika
 npm: '@nuxtjs/yandex-metrika'
-type: module
 icon: ''
 github: 'https://github.com/nuxt-community/modules/tree/master/packages/yandex-metrika'
 website: 'https://github.com/nuxt-community/modules/tree/master/packages/yandex-metrika'
 learn_more: 'https://metrica.yandex.com/about'
-keywords: []
-categories:
-  - analytics
-labels:
-  - community
+category: Analytics
+type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0

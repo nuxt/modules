@@ -1,18 +1,13 @@
 name: apollo
 description: Integrate GraphQL in your Nuxt.js apps using vue-apollo.
-long_description: Integrate GraphQL in your Nuxt.js apps using vue-apollo.
 repo: nuxt-community/apollo-module
 npm: '@nuxtjs/apollo'
-type: module
 icon: apollo.png
 github: 'https://github.com/nuxt-community/apollo-module'
 website: 'https://github.com/nuxt-community/apollo-module'
 learn_more: 'https://apollo.vuejs.org/guide/#what-is-graphql'
-keywords: []
-categories:
-  - request
-labels:
-  - community
+category: Request
+type: community
 maintainers:
   - name: Lam Kieu
     github: kieusonlam
@@ -20,7 +15,3 @@ maintainers:
   - name: Dominic Garms
     github: dohomi
     avatar: 'https://github.com/dohomi.png'
-features:
-  - Automatic updates
-  - In-template components
-  - SSR-ready
