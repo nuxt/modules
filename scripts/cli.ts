@@ -9,7 +9,7 @@ async function main() {
       const [name, repo] = args
       if (name) {
         console.log('Syncing ' + (name === '-' ? repo : name))
-        const module = await sync(name, repo)
+        const module = await sync(name, repo, true)
         console.log('Synced', module.name)
       } else {
         console.log('Syncing all modules')

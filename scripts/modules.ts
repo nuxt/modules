@@ -5,7 +5,7 @@ import globby from 'globby'
 import defu from 'defu'
 import { fetchGithubPkg, modulesDir, distDir, distFile  } from './utils'
 
-export async function sync(name, repo?: string) {
+export async function sync(name, repo?: string, isNew: boolean = false) {
   const module = await getModule(name)
   const categories = await readJson(join(__dirname, '..', 'modules', '_categories.json'))
 
@@ -44,7 +44,11 @@ export async function sync(name, repo?: string) {
 
   // Category
   if (!module.category) {
-    throw new Error(`No category for ${module.name}`)
+    if (!isNew) {
+      throw new Error(`No category for ${name}`)
+    } else {
+      console.log(`[TODO] Add a category to ./modules/${name}.yml`)
+    }
   } else if (!categories.includes(module.category)) {
     let newCat = module.category[0].toUpperCase() + module.category.substr(1)
     if (newCat.length <= 3) {
@@ -58,6 +62,27 @@ export async function sync(name, repo?: string) {
   }
 
   // TODO: Remove extra fields
+  const validFields = [
+    'name',
+    'description',
+    'repo',
+    'icon',
+    'github',
+    'website',
+    'learn_more',
+    'category',
+    'type',
+    'maintainers'
+  ]
+  const invalidFields = []
+  for (const key in module) {
+    if (!validFields.includes(key)) {
+      invalidFields.push(key)
+    }
+  }
+  if (invalidFields.length) {
+    console.warn(`Invalid fields for ./modules/${module.name}`, invalidFields)
+  }
   
   // Auto name
   if (!module.name) {
@@ -77,7 +102,11 @@ export async function sync(name, repo?: string) {
         github: owner
       })
     } else {
-      throw new Error(`No maintainer for ${module.name}`)
+      if (!isNew) {
+        throw new Error(`No maintainer for ${module.name}`)
+      } else {
+        console.log(`[TODO] Add a maintain to ./modules/${name}.yml`)
+      }
     }
   }
 
@@ -100,7 +129,7 @@ export async function sync(name, repo?: string) {
 
 export async function getModule(name) {
   let module = {
-    name: '',
+    name,
     description: '',
     repo: '', // nuxt/example
     npm: '', // @nuxt/core

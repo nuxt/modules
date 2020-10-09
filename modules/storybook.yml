@@ -19,7 +19,3 @@ maintainers:
     github: pi0
     twitter: _pi0_
     avatar: 'https://github.com/pi0.png'
-demo: 'https://storybook.nuxtjs.org/examples'
-video: >-
-  https://res.cloudinary.com/nuxt/video/upload/q_auto/v1596201190/nuxt-storybook_nn9hcf.webm
-image: 'https://storybook.nuxtjs.org/preview.png'

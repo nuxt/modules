@@ -130,11 +130,11 @@ export default {
       selectedCategory: null
     }
   },
-  async asyncData ({ $http }) {
-    let url = process.dev ? 'http://localhost:3000' : 'https://modules.nuxtjs.org'
-    const modules = await $http.$get(`/api/modules`)
+  async asyncData ({ $content }) {
+    const modules = await $content().fetch()
     const categories = []
     const maintainers = []
+
     let downloads = 0
 
     modules.forEach(module => {

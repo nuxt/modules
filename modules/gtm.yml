@@ -1,0 +1,16 @@
+name: gtm
+description: Google Tag Manager Module for Nuxt.js
+repo: nuxt-community/gtm-module
+npm: '@nuxtjs/gtm'
+icon: gtm.png
+github: 'https://github.com/nuxt-community/gtm-module'
+website: 'https://github.com/nuxt-community/gtm-module'
+learn_more: 'https://marketingplatform.google.com/about/tag-manager/'
+keywords: []
+category: Analytics
+type: community
+maintainers:
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'

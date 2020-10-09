@@ -1,0 +1,14 @@
+name: precompress
+description: Precompress files to gzip and brotli and serve them automatically
+repo: frenchrabbit/nuxt-precompress
+npm: nuxt-precompress
+icon: ''
+github: 'https://github.com/frenchrabbit/nuxt-precompress'
+website: 'https://github.com/frenchrabbit/nuxt-precompress'
+learn_more: ''
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: frenchrabbit
+    github: frenchrabbit
+    avatar: 'https://github.com/frenchrabbit.png'

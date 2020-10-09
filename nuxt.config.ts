@@ -11,21 +11,22 @@ export default /*<NuxtConfig>*/ {
     '@nuxt/typescript-build'
   ],
   modules: [
-    // Doc: https://http.nuxtjs.org
-    '@nuxt/http',
+    // Doc: https://content.nuxtjs.org
+    '@nuxt/content',
     // Doc: https://pwa.nuxtjs.org
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '~/scripts/content'
   ],
   plugins: [
     '~/plugins/v-tooltip.ts'
   ],
+  content: {
+    dir: 'modules'
+  },
   googleFonts: {
     families: {
       'DM Sans': true
     }
-  },
-  serverMiddleware: {
-    '/api/modules': '~/api/modules.ts'
   },
   pwa: {
     meta: {
