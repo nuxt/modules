@@ -205,23 +205,26 @@ export default {
       this.selectedCategory = category
     },
     clearFilters() {
-      window.location.replace('/')
+      this.selectedCategory = null
+      this.q = null
+    },
+    syncURL() {
+      let url = this.$route.path
+      if (this.q) {
+        url += '?q=' + this.q
+      }
+      if (this.selectedCategory) {
+        url += '#' + this.selectedCategory
+      }
+      window.history.pushState('', '', url)
     }
   },
   watch: {
     selectedCategory(value) {
-      this.$router.replace({
-        path: this.$route.path,
-        query: this.$route.query,
-        hash: value ? `#${value}` : undefined
-      })
+      this.syncURL()
     },
-    q(value) {
-      this.$router.replace({
-        path: this.$route.path,
-        query: createKeyVal('q', value),
-        hash: this.$route.hash
-      })
+    q() {
+      this.syncURL()
     }
   },
   directives: {
