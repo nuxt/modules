@@ -6,7 +6,6 @@ icon: gtm.png
 github: 'https://github.com/nuxt-community/gtm-module'
 website: 'https://github.com/nuxt-community/gtm-module'
 learn_more: 'https://marketingplatform.google.com/about/tag-manager/'
-keywords: []
 category: Analytics
 type: community
 maintainers:
@@ -14,3 +13,4 @@ maintainers:
     github: pi0
     twitter: _pi0_
     avatar: 'https://github.com/pi0.png'
+keywords: []
