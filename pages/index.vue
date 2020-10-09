@@ -92,17 +92,15 @@
           </div>
           <div class="border-t border-gray-200 bg-gray-100 grid grid-cols-3">
             <a :href="npmUrl(module)" target=" _blank" rel="noopener" class="group flex items-center space-x-2 border-r border-gray-200 py-3 px-4 pl-6">
-              <IconNpm />
+              <img src="~/assets/icons/npm.svg" width="24" height="24" />
               <div class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium">{{ numberFormat(module.downloads) }}</div>
             </a>
             <a :href="module.github" target=" _blank" rel="noopener" class="group flex items-center space-x-1 py-3 px-4 border-r border-gray-200">
-              <IconGithub />
+              <img src="~/assets/icons/star.svg" width="24" height="24" />
               <div class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium truncate">{{ numberFormat(module.stars) }} <span class="hidden md:inline-block">star{{ module.stars !== 1 ? 's' : '' }}</span></div>
             </a>
             <div class="maintainers-list group flex items-center space-x-1 py-3 px-4 z-0 overflow-hidden">
-              <svg class="w-5 h-5 mr-1 text-gray-600 group-hover:text-sky-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-              </svg>
+              <img src="~/assets/icons/maintainer.svg" width="24" height="24" />
               <a v-for="maintainer of module.maintainers" :key="maintainer.github" :href="maintainer.github" v-tooltip="{ content: maintainer.github, classes: ['bg-forest-night', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }" target="_blank" rel="noopener">
                 <img class="relative inline-block h-6 w-6 rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100" :src="maintainer.avatar" :alt="maintainer.name">
               </a>
