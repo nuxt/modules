@@ -164,7 +164,7 @@ export default {
       }
       const q = this.q.trim().toLowerCase()
       return modules.filter(module => {
-        const search = [module.name, module.npm, module.repo, module.description].concat(module.maintainers.map(m => m.name + ' ' + m.github)).concat(module.categories).join(' ')
+        const search = [module.name, module.npm, module.repo, module.description].concat(module.maintainers.map(m => m.name + ' ' + m.github)).concat(module.category).join(' ')
         return search.toLowerCase().indexOf(q) !== -1
       })
     },
