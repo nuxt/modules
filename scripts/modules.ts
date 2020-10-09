@@ -3,6 +3,7 @@ import { resolve, join, basename, extname } from 'path'
 import * as yml from 'js-yaml'
 import globby from 'globby'
 import defu from 'defu'
+import fetch from 'node-fetch'
 import { fetchGithubPkg, modulesDir, distDir, distFile  } from './utils'
 
 export async function sync(name, repo?: string, isNew: boolean = false) {
@@ -85,7 +86,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   if (invalidFields.length) {
     console.warn(`Invalid fields for ./modules/${module.name}.yml`, invalidFields)
   }
-  
+
   // Auto name
   if (!module.name) {
     module.name = (pkg.name.startsWith('@') ?
@@ -113,8 +114,11 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   }
 
   for (const maintainer of module.maintainers) {
-    if (maintainer.github && !maintainer.avatar) {
-      maintainer.avatar = `https://github.com/${maintainer.github}.png`
+    if (maintainer.github) {
+      if (!maintainer.avatar || maintainer.avatar.startsWith('https://github.com')) {
+        const url = await fetch(`https://github.com/${maintainer.github}.png`, { redirect: 'follow' }).then(r => r.url)
+        maintainer.avatar = url
+      }
     }
   }
 

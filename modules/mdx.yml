@@ -4,7 +4,7 @@ description: >-
   files
 repo: nuxt-community/mdx-module
 npm: '@nuxtjs/mdx'
-icon: 'mdx.png'
+icon: mdx.png
 github: 'https://github.com/nuxt-community/mdx-module'
 website: 'https://mdx.nuxtjs.org'
 learn_more: 'https://mdxjs.com/'
@@ -14,4 +14,4 @@ maintainers:
   - name: Jonathan Bakebwa
     github: codebender828
     twitter: codebender828
-    avatar: 'https://github.com/codebender828.png'
+    avatar: 'https://avatars2.githubusercontent.com/u/21237954?v=4'
