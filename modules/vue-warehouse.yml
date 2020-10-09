@@ -2,15 +2,16 @@ name: vue-warehouse
 description: >-
   A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy
   extensibility based on Store.js
-repo: bazzite/vue-warehouse
+repo: juliomrqz/vue-warehouse
 npm: vue-warehouse
 icon: ''
-github: 'https://github.com/bazzite/vue-warehouse'
+github: 'https://github.com/juliomrqz/vue-warehouse'
 website: 'https://marquez.co/docs/vue-warehouse'
 learn_more: ''
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: bazzite
-    github: bazzite
-    avatar: 'https://avatars1.githubusercontent.com/u/66133254?v=4'
+  - name: Julio Marquez
+    github: juliomrqz
+    twitter: juliomrqz
+    avatar: 'https://avatars1.githubusercontent.com/u/1911993?v=4'
