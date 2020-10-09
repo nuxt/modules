@@ -24,7 +24,7 @@
             <dt class="order-2 sm:mt-2 ml-2 sm:ml-0 sm:text-md leading-6 font-medium text-gray-500 sm:capitalize" id="item-1">
               modules
             </dt>
-            <dd class="order-1 text-2xl sm:text-4xl leading-none font-extrabold text-green-600" aria-describedby="item-1">
+            <dd class="order-1 text-2xl sm:text-4xl leading-none font-extrabold text-green-700" aria-describedby="item-1">
               {{ modules.length }}
             </dd>
           </div>
@@ -32,7 +32,7 @@
             <dt class="order-2 sm:mt-2 ml-2 sm:ml-0 sm:text-md leading-6 font-medium text-gray-500 sm:capitalize">
               downloads last 30 days
             </dt>
-            <dd class="order-1 text-2xl sm:text-4xl leading-none font-extrabold text-green-600">
+            <dd class="order-1 text-2xl sm:text-4xl leading-none font-extrabold text-green-700">
               {{ numberFormat(downloads) }}
             </dd>
           </div>
@@ -40,7 +40,7 @@
             <dt class="order-2 sm:mt-2 ml-2 sm:ml-0 sm:text-md leading-6 font-medium text-gray-500 sm:capitalize">
               maintainers
             </dt>
-            <dd class="order-1 text-2xl sm:text-4xl leading-none font-extrabold text-green-600">
+            <dd class="order-1 text-2xl sm:text-4xl leading-none font-extrabold text-green-700">
               {{ maintainersTotal }}
             </dd>
           </div>
@@ -66,7 +66,7 @@
     <!-- Modules list -->
     <div class="container mx-auto px-4 sm:px-0">
       <!-- Clear filters -->
-      <p class="mb-4 text-stone-green">
+      <p class="mb-4 text-forest-night">
         {{ filteredModules.length }} module{{ filteredModules.length !== 1 ? 's' : '' }} found
         <template v-if="selectedCategory || q">
           <a @click.prevent="clearFilters" href="/">(clear filters)</a>
