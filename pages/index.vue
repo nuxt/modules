@@ -78,7 +78,7 @@
           <div class="relative flex flex-1 flex-col space-y-2 px-6 py-8 group">
             <a :href="module.website" :aria-label="module.website" target="_blank" rel="noopener" class="absolute inset-0"></a>
             <div class="transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 text-stone-green absolute top-4 right-6">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              <img alt="website" src="~/assets/icons/ext.svg" width="24" height="24" />
             </div>
 
             <nuxt-image legacy v-if="!iconUrl(module).includes('.svg')" :src="iconUrl(module)" :alt="module.name" class="w-10 h-10" width="40px" height="40px" />
@@ -86,7 +86,7 @@
 
             <h2 class="flex text-2xl items-center pt-2">
               <span>{{ module.name }}</span>
-              <svg v-if="module.type === 'official'" xmlns="http://www.w3.org/2000/svg" class="ml-2 mt-1 h-5 w-5 text-clay-brown" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              <img v-if="module.type === 'official'" alt="official" src="~/assets/icons/official.svg" width="24" height="24" />
             </h2>
             <p class="text-gray-500 group-hover:text-gray-800">{{ module.description }}</p>
           </div>
