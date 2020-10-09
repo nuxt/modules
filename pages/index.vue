@@ -51,15 +51,15 @@
     <!-- Search and filters -->
     <div class="pt-12 pb-8 container mx-auto px-4 sm:px-0">
       <!-- Search -->
-      <div class="sm:max-w-lg sm:mx-auto flex border border-rainy-grey rounded-md overflow-hidden shadow-sm">
-        <input v-model="q" v-focus aria-label="Search" class="flex-1 appearance-none block p-3 text-base leading-6 placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out sm:flex-1" placeholder="Search a module (name, category, username, etc.)">
-        <button aria-label="search" class="px-6 py-3 bg-rainy-grey hover:bg-grey-light text-gray-700 text-base leading-6 font-medium shadow-sm focus:outline-none transition duration-150 ease-in-out sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
+      <div class="sm:max-w-lg sm:mx-auto flex shadow-sm">
+        <input v-model="q" v-focus aria-label="Search" class="flex-1 appearance-none block p-3 text-base leading-6 placeholder-gray-500 border border-rainy-grey rounded-tl-md rounded-bl-md focus:outline-none focus:placeholder-gray-400 focus:shadow-outline-green transition duration-150 ease-in-out sm:flex-1" placeholder="Search a module (name, category, username, etc.)">
+        <button aria-label="search" class="px-6 py-3 bg-rainy-grey hover:bg-grey-light focus:bg-grey-light text-gray-700 text-base leading-6 font-medium rounded-tr-md rounded-br-md focus:outline-none focus:shadow-outline-green transition duration-150 ease-in-out sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
           <IconSearch alt="Search" />
         </button>
       </div>
       <!-- Categories -->
       <div class="flex sm:flex-wrap space-x-2 sm:justify-center pt-6 overflow-x-auto">
-        <button v-for="category of categories" :key="category" @click="toggleCategory(category)" class="px-4 py-2 text-sm rounded focus:outline-none mb-2 cursor-pointer" :class="[ selectedCategory === category ? 'bg-forest-night text-white' : 'text-forest-night bg-rainy-grey hover:bg-grey-light']">{{ category }}</button>
+        <button v-for="category of categories" :key="category" @click="toggleCategory(category)" class="px-4 py-2 text-sm rounded focus:outline-none mb-2 cursor-pointer" :class="[ selectedCategory === category ? 'bg-forest-night text-white' : 'text-forest-night bg-rainy-grey hover:bg-grey-light focus:bg-grey-light']">{{ category }}</button>
       </div>
     </div>
 
@@ -74,7 +74,7 @@
       </p>
       <!-- Module cards -->
       <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-        <div v-for="module of filteredModules" :key="module.name" class="relative flex flex-col bg-white shadow rounded-md overflow-hidden hover:shadow-lg">
+        <div v-for="module of filteredModules" :key="module.name" class="relative flex flex-col bg-white transform transition-transform duration-150 ease-in-out shadow rounded-md overflow-hidden hover:shadow-lg hover:-translate-y-1">
           <div class="relative flex flex-1 flex-col space-y-2 px-6 py-8 group">
             <a :href="module.website" :aria-label="module.website" target="_blank" rel="noopener" class="absolute inset-0"></a>
             <div class="transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 text-stone-green absolute top-4 right-6">
@@ -91,15 +91,15 @@
             <p class="text-gray-500 group-hover:text-gray-800">{{ module.description }}</p>
           </div>
           <div class="border-t border-gray-200 bg-gray-100 grid grid-cols-3">
-            <a :href="npmUrl(module)" aria-label="npm" target=" _blank" rel="noopener" class="group flex items-center space-x-2 border-r border-gray-200 py-3 px-4 pl-6">
+            <a :href="npmUrl(module)" aria-label="npm" target=" _blank" rel="noopener" class="group flex items-center space-x-2 border-r border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 py-3 px-4 pl-6">
               <img alt="npm" src="~/assets/icons/npm.svg" width="24" height="24" />
               <div class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium">{{ numberFormat(module.downloads) }}</div>
             </a>
-            <a :href="module.github" aria-label="stars" target=" _blank" rel="noopener" class="group flex items-center space-x-1 py-3 px-4 border-r border-gray-200">
+            <a :href="module.github" aria-label="stars" target=" _blank" rel="noopener" class="group flex items-center space-x-1 py-3 px-4 border-r border-gray-200 hover:bg-gray-200 hover:bg-opacity-50">
               <img alt="stars" src="~/assets/icons/star.svg" width="24" height="24" />
               <div class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium truncate">{{ numberFormat(module.stars) }} <span class="hidden md:inline-block">star{{ module.stars !== 1 ? 's' : '' }}</span></div>
             </a>
-            <div class="maintainers-list group flex items-center space-x-1 py-3 px-4 z-0 overflow-hidden">
+            <div class="maintainers-list group flex items-center space-x-1 py-3 px-4 z-0 overflow-hidden hover:bg-gray-200 hover:bg-opacity-50">
               <img alt="maintainer" src="~/assets/icons/maintainer.svg" width="24" height="24" />
               <a v-for="maintainer of module.maintainers" :key="maintainer.github" :aria-label="maintainer.github" :href="githubUrl(maintainer)" v-tooltip="{ content: maintainer.github, classes: ['bg-forest-night', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }" target="_blank" rel="noopener">
                 <img class="relative inline-block rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100" :src="maintainer.avatar + '&s=24'" :alt="maintainer.name" width="24" height="24">
