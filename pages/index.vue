@@ -124,6 +124,7 @@
 
 <script>
 import millify from 'millify'
+import Fuse from 'fuse.js/dist/fuse.basic.esm'
 import categories from '~/categories'
 
 const createKeyVal = (key, val) => val ? { [key]: val } : {}
@@ -150,7 +151,6 @@ export default {
       })
     })
 
-
     return {
       modules,
       categories,
@@ -158,7 +158,18 @@ export default {
       downloads
     }
   },
-  mounted() {
+  async mounted() {
+    const fuseOptions = {
+      keys: [
+        { name: 'name', wight: 5},
+        { name: 'description', wight: 4},
+        { name: 'repo', wight: 3},
+        { name: 'npm', wight: 3},
+      ]
+    }
+    const index = Fuse.createIndex(fuseOptions.keys, this.modules)
+    this.fuse = new Fuse(this.modules, fuseOptions, index)
+
     const selectedCategory = (window.location.hash || '').substr(1)
     if (selectedCategory) {
       this.toggleCategory(selectedCategory)
@@ -171,17 +182,13 @@ export default {
   computed: {
     filteredModules () {
       let modules = this.modules
+      if (this.q) {
+        modules = this.fuse.search(this.q).map(r => r.item)
+      }
       if (this.selectedCategory) {
         modules = modules.filter(module => module.category === this.selectedCategory)
       }
-      if (!this.q) {
-        return modules
-      }
-      const q = this.q.trim().toLowerCase()
-      return modules.filter(module => {
-        const search = [module.name, module.npm, module.repo, module.description].concat(module.maintainers.map(m => m.name + ' ' + m.github)).concat(module.category).join(' ')
-        return search.toLowerCase().indexOf(q) !== -1
-      })
+      return modules
     },
   },
   methods: {
