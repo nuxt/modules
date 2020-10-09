@@ -1,6 +1,5 @@
 name: auth
-description: >-
-  Zero-boilerplate authentication support for Nuxt.js.
+description: Zero-boilerplate authentication support for Nuxt.js.
 repo: nuxt-community/auth-module
 npm: '@nuxtjs/auth'
 icon: auth.png
