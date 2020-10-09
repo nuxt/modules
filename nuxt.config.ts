@@ -6,8 +6,6 @@ export default /*<NuxtConfig>*/ {
   buildModules: [
     // Doc: https://tailwindcss.nuxtjs.org
     '@nuxtjs/tailwindcss',
-    // Doc: https://github.com/nuxt-community/google-fonts-module
-    '@nuxtjs/google-fonts',
     '@nuxt/typescript-build',
     // Doc: https://image.nuxtjs.org
     '@nuxt/image',
@@ -24,12 +22,6 @@ export default /*<NuxtConfig>*/ {
   ],
   content: {
     dir: 'modules'
-  },
-  googleFonts: {
-    display: 'swap',
-    families: {
-      'DM Sans': true
-    }
   },
   meta: {
     name: 'Nuxt Modules',
