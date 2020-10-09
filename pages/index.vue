@@ -76,7 +76,7 @@
       <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
         <div v-for="module of filteredModules" :key="module.name" class="relative flex flex-col bg-white shadow rounded-md overflow-hidden hover:shadow-lg">
           <div class="relative flex flex-1 flex-col space-y-2 px-6 py-8 group">
-            <a :href="module.website" target="_blank" rel="noopener" class="absolute inset-0"></a>
+            <a :href="module.website" :aria-label="module.website" target="_blank" rel="noopener" class="absolute inset-0"></a>
             <div class="transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 text-stone-green absolute top-4 right-6">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
             </div>
@@ -91,17 +91,17 @@
             <p class="text-gray-500 group-hover:text-gray-800">{{ module.description }}</p>
           </div>
           <div class="border-t border-gray-200 bg-gray-100 grid grid-cols-3">
-            <a :href="npmUrl(module)" target=" _blank" rel="noopener" class="group flex items-center space-x-2 border-r border-gray-200 py-3 px-4 pl-6">
+            <a :href="npmUrl(module)" aria-label="npm" target=" _blank" rel="noopener" class="group flex items-center space-x-2 border-r border-gray-200 py-3 px-4 pl-6">
               <img alt="npm" src="~/assets/icons/npm.svg" width="24" height="24" />
               <div class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium">{{ numberFormat(module.downloads) }}</div>
             </a>
-            <a :href="module.github" target=" _blank" rel="noopener" class="group flex items-center space-x-1 py-3 px-4 border-r border-gray-200">
+            <a :href="module.github" aria-label="stars" target=" _blank" rel="noopener" class="group flex items-center space-x-1 py-3 px-4 border-r border-gray-200">
               <img alt="stars" src="~/assets/icons/star.svg" width="24" height="24" />
               <div class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium truncate">{{ numberFormat(module.stars) }} <span class="hidden md:inline-block">star{{ module.stars !== 1 ? 's' : '' }}</span></div>
             </a>
             <div class="maintainers-list group flex items-center space-x-1 py-3 px-4 z-0 overflow-hidden">
               <img alt="maintainer" src="~/assets/icons/maintainer.svg" width="24" height="24" />
-              <a v-for="maintainer of module.maintainers" :key="maintainer.github" :href="maintainer.github" v-tooltip="{ content: maintainer.github, classes: ['bg-forest-night', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }" target="_blank" rel="noopener">
+              <a v-for="maintainer of module.maintainers" :key="maintainer.github" :aria-label="maintainer.github" :href="maintainer.github" v-tooltip="{ content: maintainer.github, classes: ['bg-forest-night', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }" target="_blank" rel="noopener">
                 <img class="relative inline-block h-6 w-6 rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100" :src="maintainer.avatar + '&s=24'" :alt="maintainer.name" width="24" height="24">
               </a>
             </div>
@@ -112,10 +112,10 @@
 
     <!-- Footer -->
     <div class="container mx-auto flex justify-center px-4 sm:px-0 pt-12 text-stone-green items-center space-x-2">
-      <a href="https://vercel.com" rel=noopener target="_blank">
+      <a href="https://vercel.com" rel=noopener target="_blank" aria-label="go to vercel">
         <IconVercel alt="Vercel" />
       </a>
-      <a href="https://nuxtjs.org" rel=noopener target="_blank">
+      <a href="https://nuxtjs.org" rel=noopener target="_blank" aria-label="go to nuxt">
         <IconWithNuxt alt="Nuxt" />
       </a>
     </div>
