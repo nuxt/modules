@@ -2,7 +2,7 @@ name: sanity
 description: 'Access text, images, and other media with Nuxt.js and the Sanity headless CMS.'
 repo: nuxt-community/sanity-module#main
 npm: '@nuxtjs/sanity'
-icon: 'https://sanity.nuxtjs.org/icon.png'
+icon: 'sanity.png'
 github: 'https://github.com/nuxt-community/sanity-module#main'
 website: 'https://sanity.nuxtjs.org'
 learn_more: 'https://www.sanity.io/'

@@ -4,7 +4,7 @@ description: >-
   files
 repo: nuxt-community/mdx-module
 npm: '@nuxtjs/mdx'
-icon: 'https://mdx.nuxtjs.org/icon.png'
+icon: 'mdx.png'
 github: 'https://github.com/nuxt-community/mdx-module'
 website: 'https://mdx.nuxtjs.org'
 learn_more: 'https://mdxjs.com/'

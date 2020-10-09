@@ -4,7 +4,7 @@ description: >-
   internationalization.
 repo: nuxt-community/i18n-module
 npm: nuxt-i18n
-icon: 'https://i18n.nuxtjs.org/icon.png'
+icon: 'i18n.png'
 github: 'https://github.com/nuxt-community/i18n-module'
 website: 'https://i18n.nuxtjs.org'
 learn_more: 'https://kazupon.github.io/vue-i18n/'

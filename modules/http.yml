@@ -2,7 +2,7 @@ name: http
 description: Universal HTTP Module for Nuxt.js
 repo: nuxt/http
 npm: '@nuxt/http'
-icon: 'https://http.nuxtjs.org/icon.png'
+icon: 'http.png'
 github: 'https://github.com/nuxt/http'
 website: 'https://http.nuxtjs.org/'
 learn_more: ''

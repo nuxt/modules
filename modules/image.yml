@@ -4,7 +4,7 @@ description: >-
   real-time resizes and providers support.
 repo: nuxt/image
 npm: '@nuxt/image'
-icon: 'https://image.nuxtjs.org/icon.png'
+icon: 'image.png'
 github: 'https://github.com/nuxt/image'
 website: 'https://image.nuxtjs.org'
 learn_more: ''
