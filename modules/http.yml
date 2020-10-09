@@ -7,7 +7,7 @@ long_description: >-
 repo: nuxt/http
 npm: '@nuxt/http'
 type: module
-icon: ''
+icon: https://http.nuxtjs.org/icon.png
 github: 'https://github.com/nuxt/http'
 website: 'https://http.nuxtjs.org/'
 learn_more: ''
