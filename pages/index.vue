@@ -161,10 +161,12 @@ export default {
   async mounted() {
     const fuseOptions = {
       keys: [
-        { name: 'name', wight: 5},
-        { name: 'description', wight: 4},
-        { name: 'repo', wight: 3},
-        { name: 'npm', wight: 3},
+        { name: 'name', wight: 2},
+        { name: 'npm', wight: 2},
+        { name: 'category', wight: 2},
+        { name: 'maintainers.name', wigth: 2},
+        { name: 'description', wight: 1},
+        { name: 'repo', wight: 1},
       ]
     }
     const index = Fuse.createIndex(fuseOptions.keys, this.modules)
