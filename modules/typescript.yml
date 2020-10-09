@@ -1,0 +1,22 @@
+name: typescript
+description: TypeScript Support for Nuxt
+repo: nuxt/typescript#master/packages/typescript-build
+npm: '@nuxt/typescript-build'
+icon: typescript.svg
+github: 'https://github.com/nuxt/typescript/tree/master/packages/typescript-build'
+website: 'https://typescript.nuxtjs.org'
+learn_more: ''
+category: Devtools
+type: official
+maintainers:
+  - name: Kevin Marrec
+    github: kevinmarrec
+    avatar: 'https://github.com/kevinmarrec.png'
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'
+  - name: Daniel Roe
+    github: danielroe
+    twitter: danielcroe
+    avatar: 'https://github.com/danielroe.png'

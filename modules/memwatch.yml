@@ -1,0 +1,14 @@
+name: memwatch
+description: Quickly watch real-time memory stats of your nuxt app
+repo: pimlie/nuxt-memwatch
+npm: nuxt-memwatch
+icon: ''
+github: 'https://github.com/pimlie/nuxt-memwatch'
+website: 'https://github.com/pimlie/nuxt-memwatch'
+learn_more: 'https://github.com/pimlie/node-memwatcher'
+category: Monitoring
+type: 3rd-party
+maintainers:
+  - name: pimlie
+    github: pimlie
+    avatar: 'https://github.com/pimlie.png'

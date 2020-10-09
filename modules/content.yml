@@ -1,0 +1,21 @@
+name: content
+description: >-
+  Use markdown, JSON, YAML, XML or CSV in your nuxt application to easily write
+  content fetched using a MongoDB like API.
+repo: nuxt/content#master/packages/content
+npm: '@nuxt/content'
+icon: content.png
+github: 'https://github.com/nuxt/content'
+website: 'https://content.nuxtjs.org'
+learn_more: ''
+category: CMS
+type: official
+maintainers:
+  - name: Benjamin Canac
+    github: benjamincanac
+    twitter: benjamincanac
+    avatar: 'https://github.com/benjamincanac.png'
+  - name: Sebastien Chopin
+    github: Atinux
+    twitter: Atinux
+    avatar: 'https://github.com/Atinux.png'

@@ -1,0 +1,19 @@
+name: i18n
+description: >-
+  i18n features for your Nuxt project so you can easily add
+  internationalization.
+repo: nuxt-community/i18n-module
+npm: nuxt-i18n
+icon: 'https://i18n.nuxtjs.org/icon.png'
+github: 'https://github.com/nuxt-community/i18n-module'
+website: 'https://i18n.nuxtjs.org'
+learn_more: 'https://kazupon.github.io/vue-i18n/'
+category: Devtools
+type: community
+maintainers:
+  - name: Rafał Chłodnicki
+    github: rchl
+    avatar: 'https://github.com/rchl.png'
+  - name: Paul Gascou-Vaillancourt
+    github: paulgv
+    avatar: 'https://github.com/paulgv.png'

@@ -1,0 +1,14 @@
+name: svg-loader
+description: 'Nuxt SVG Loader - SVGs as components, also on the server side!'
+repo: Developmint/nuxt-svg-loader
+npm: nuxt-svg-loader
+icon: ''
+github: 'https://github.com/Developmint/nuxt-svg-loader'
+website: 'https://github.com/Developmint/nuxt-svg-loader'
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Developmint
+    github: Developmint
+    avatar: 'https://github.com/Developmint.png'

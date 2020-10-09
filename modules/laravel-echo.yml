@@ -1,0 +1,14 @@
+name: laravel-echo
+description: Laravel Echo for Nuxt.js
+repo: nuxt-community/laravel-echo
+npm: '@nuxtjs/laravel-echo'
+icon: laravel-echo.png
+github: 'https://github.com/nuxt-community/laravel-echo'
+website: 'https://github.com/nuxt-community/laravel-echo'
+learn_more: 'https://laravel.com/docs/8.x/broadcasting#installing-laravel-echo'
+category: CMS
+type: community
+maintainers:
+  - name: Ricardo Gobbo de Souza
+    github: ricardogobbosouza
+    avatar: 'https://github.com/ricardogobbosouza.png'

@@ -1,0 +1,15 @@
+name: localforage
+description: LocalForage is a fast and simple storage library for JavaScript
+repo: nuxt-community/localforage-module
+npm: '@nuxtjs/localforage'
+icon: ''
+github: 'https://github.com/nuxt-community/localforage-module'
+website: 'https://github.com/nuxt-community/localforage-module'
+learn_more: 'https://localforage.github.io/localForage/'
+category: Devtools
+type: community
+maintainers:
+  - name: Alexandre Chopin
+    github: alexchopin
+    twitter: alexchopin
+    avatar: 'https://github.com/alexchopin.png'

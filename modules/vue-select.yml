@@ -1,0 +1,16 @@
+name: vue-select
+description: >-
+  Nuxt module for vue-select, a feature rich select/dropdown/typeahead
+  component.
+repo: madmod/nuxt-vue-select
+npm: nuxt-vue-select
+icon: ''
+github: 'https://github.com/madmod/nuxt-vue-select'
+website: 'https://github.com/madmod/nuxt-vue-select'
+learn_more: 'https://vue-select.org/'
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: madmod
+    github: madmod
+    avatar: 'https://github.com/madmod.png'

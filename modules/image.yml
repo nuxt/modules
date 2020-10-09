@@ -1,0 +1,25 @@
+name: image
+description: >-
+  Optimised images for NuxtJS, with progressive processing, lazy-loading,
+  real-time resizes and providers support.
+repo: nuxt/image
+npm: '@nuxt/image'
+icon: 'https://image.nuxtjs.org/icon.png'
+github: 'https://github.com/nuxt/image'
+website: 'https://image.nuxtjs.org'
+learn_more: ''
+category: Images
+type: official
+maintainers:
+  - name: Ahad Birang
+    github: farnabaz
+    twitter: a_birang
+    avatar: 'https://github.com/farnabaz.png'
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'
+  - name: Sebastien Chopin
+    github: Atinux
+    twitter: Atinux
+    avatar: 'https://github.com/Atinux.png'

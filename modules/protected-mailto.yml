@@ -1,0 +1,14 @@
+name: protected-mailto
+description: Nuxt component to generate encoded mailto links
+repo: mmoollllee/nuxt-protected-mailto
+npm: nuxt-protected-mailto
+icon: ''
+github: 'https://github.com/mmoollllee/nuxt-protected-mailto'
+website: 'https://github.com/mmoollllee/nuxt-protected-mailto'
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: mmoollllee
+    github: mmoollllee
+    avatar: 'https://github.com/mmoollllee.png'

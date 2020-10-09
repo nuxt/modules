@@ -1,0 +1,15 @@
+name: dayjs
+description: The best way for use Day.js easily in your Nuxt.js project.
+repo: nuxt-community/dayjs-module
+npm: '@nuxtjs/dayjs'
+icon: day-js.png
+github: 'https://github.com/nuxt-community/dayjs-module'
+website: 'https://github.com/nuxt-community/dayjs-module'
+learn_more: 'https://day.js.org/'
+category: Date
+type: community
+maintainers:
+  - name: Takuma HANATANI
+    github: potato4d
+    twitter: potato4d
+    avatar: 'https://github.com/potato4d.png'

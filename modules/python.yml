@@ -1,0 +1,14 @@
+name: python
+description: Write Nuxt.js applications using Python
+repo: nuxt-community/python-module
+npm: '@nuxtjs/python'
+icon: python.png
+github: 'https://github.com/nuxt-community/python-module'
+website: 'https://github.com/nuxt-community/python-module'
+learn_more: 'https://www.python.org/'
+category: Devtools
+type: community
+maintainers:
+  - name: Sebastian Silva
+    github: icarito
+    avatar: 'https://github.com/icarito.png'

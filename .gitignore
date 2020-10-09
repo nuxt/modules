@@ -1,0 +1,9 @@
+node_modules
+*.log*
+dist
+.DS_Store
+.vercel
+.nuxt
+sw.js
+.env
+.vscode

@@ -1,0 +1,15 @@
+name: color-mode
+description: Dark and Light mode for NuxtJS with auto detection
+repo: nuxt-community/color-mode-module
+npm: '@nuxtjs/color-mode'
+icon: color-mode.png
+github: 'https://github.com/nuxt-community/color-mode-module'
+website: 'https://github.com/nuxt-community/color-mode-module'
+learn_more: ''
+category: UI
+type: community
+maintainers:
+  - name: Sébastien Chopin
+    github: Atinux
+    twitter: Atinux
+    avatar: 'https://github.com/Atinux.png'

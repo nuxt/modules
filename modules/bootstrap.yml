@@ -1,0 +1,22 @@
+name: bootstrap
+description: Add Bootstrap to your Nuxt app in seconds.
+repo: bootstrap-vue/bootstrap-vue
+npm: bootstrap-vue
+icon: bootstrap.png
+github: 'https://github.com/bootstrap-vue/bootstrap-vue'
+website: 'https://bootstrap-vue.org/docs#nuxtjs-module'
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Troy Morehouse
+    github: tmorehouse
+    avatar: 'https://github.com/tmorehouse.png'
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'
+  - name: Jacob Müller
+    github: jackmu95
+    twitter: jackmu95
+    avatar: 'https://github.com/jackmu95.png'

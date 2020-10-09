@@ -1,0 +1,15 @@
+name: sitemap
+description: Automatically generate or serve dynamic sitemap.xml for Nuxt.js projects
+repo: nuxt-community/sitemap-module#dev
+npm: '@nuxtjs/sitemap'
+icon: ''
+github: 'https://github.com/nuxt-community/sitemap-module#dev'
+website: 'https://github.com/nuxt-community/sitemap-module#dev'
+learn_more: ''
+category: SEO
+type: community
+maintainers:
+  - name: Nicolas PENNEC
+    github: NicoPennec
+    twitter: NicoPennec
+    avatar: 'https://github.com/NicoPennec.png'

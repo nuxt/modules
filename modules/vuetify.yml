@@ -1,0 +1,20 @@
+name: vuetify
+description: >-
+  Vuetify Module for Nuxt.js to add Material Design components to your
+  application.
+repo: nuxt-community/vuetify-module
+npm: '@nuxtjs/vuetify'
+icon: vuetify.png
+github: 'https://github.com/nuxt-community/vuetify-module'
+website: 'https://github.com/nuxt-community/vuetify-module'
+learn_more: 'https://vuetifyjs.com/en/'
+category: UI
+type: community
+maintainers:
+  - name: Kevin Marrec
+    github: kevinmarrec
+    avatar: 'https://github.com/kevinmarrec.png'
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'

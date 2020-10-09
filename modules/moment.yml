@@ -1,0 +1,20 @@
+name: moment
+description: >-
+  Efficient Moment.js module for Nuxt.js so you can Parse, validate, manipulate,
+  and display dates and times in JavaScript.
+repo: nuxt-community/moment-module
+npm: '@nuxtjs/moment'
+icon: momentjs.png
+github: 'https://github.com/nuxt-community/moment-module'
+website: 'https://github.com/nuxt-community/moment-module'
+learn_more: 'https://momentjs.com/'
+category: Date
+type: community
+maintainers:
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'
+  - name: Ricardo Gobbo de Souza
+    github: ricardogobbosouza
+    avatar: 'https://github.com/ricardogobbosouza.png'

@@ -1,0 +1,14 @@
+name: lunr
+description: Full-text search with pre-build indexes for Nuxt.js using lunr.js
+repo: nuxt-community/lunr-module
+npm: '@nuxtjs/lunr-module'
+icon: ''
+github: 'https://github.com/nuxt-community/lunr-module'
+website: 'https://github.com/nuxt-community/lunr-module'
+learn_more: 'https://lunrjs.com/'
+category: Libraries
+type: community
+maintainers:
+  - name: Pim
+    github: pimlie
+    avatar: 'https://github.com/pimlie.png'

@@ -1,0 +1,14 @@
+name: google-fonts
+description: Google Fonts module for NuxtJS
+repo: nuxt-community/google-fonts-module
+npm: '@nuxtjs/google-fonts'
+icon: google-fonts.jpg
+github: 'https://github.com/nuxt-community/google-fonts-module'
+website: 'https://github.com/nuxt-community/google-fonts-module'
+learn_more: 'https://developers.google.com/fonts'
+category: Fonts
+type: community
+maintainers:
+  - name: Ricardo Gobbo de Souza
+    github: ricardogobbosouza
+    avatar: 'https://github.com/ricardogobbosouza.png'

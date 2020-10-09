@@ -1,0 +1,14 @@
+name: cloudcms
+description: CloudCMS Nuxt.js Module
+repo: gitana/cloudcms-nuxt
+npm: cloudcms-nuxt
+icon: ''
+github: 'https://github.com/gitana/cloudcms-nuxt'
+website: 'https://github.com/gitana/cloudcms-nuxt'
+learn_more: 'https://www.cloudcms.com/'
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: gitana
+    github: gitana
+    avatar: 'https://github.com/gitana.png'

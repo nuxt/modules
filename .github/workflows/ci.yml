@@ -1,0 +1,48 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  ci:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [12]
+
+    steps:
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: checkout
+        uses: actions/checkout@master
+
+      - name: cache node_modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+
+      - name: Install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn
+
+      - name: Build
+        run: yarn build
+
+      - name: Release
+        if: github.event_name == 'push'
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
+          echo "//registry.yarnpkg.com/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
+          yarn release
+        env:
+          NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}

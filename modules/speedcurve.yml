@@ -1,0 +1,15 @@
+name: speedcurve
+description: Speedcurve LUX module for Nuxt
+repo: nuxt-community/speedcurve-module
+npm: '@nuxtjs/speedcurve'
+icon: speedcurve.png
+github: 'https://github.com/nuxt-community/speedcurve-module'
+website: 'https://speedcurve.nuxtjs.org'
+learn_more: 'https://speedcurve.com'
+category: Analytics
+type: community
+maintainers:
+  - name: Josh Deltener
+    github: hecktarzuli
+    twitter: JoshDeltener
+    avatar: 'https://github.com/hecktarzuli.png'

@@ -1,0 +1,15 @@
+name: router-extras
+description: Extra Add-ons for nuxt router
+repo: nuxt-community/router-extras-module
+npm: '@nuxtjs/router-extras'
+icon: vue.png
+github: 'https://github.com/nuxt-community/router-extras-module'
+website: 'https://github.com/nuxt-community/router-extras-module'
+learn_more: ''
+category: Devtools
+type: community
+maintainers:
+  - name: Ahad Birang
+    github: farnabaz
+    twitter: a_birang
+    avatar: 'https://github.com/farnabaz.png'

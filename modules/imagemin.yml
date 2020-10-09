@@ -1,0 +1,14 @@
+name: imagemin
+description: Automatically optimize (compress) all images used in Nuxt.js
+repo: nuxt-community/imagemin-module
+npm: '@nuxtjs/imagemin'
+icon: imagemin.png
+github: 'https://github.com/nuxt-community/imagemin-module'
+website: 'https://github.com/nuxt-community/imagemin-module'
+learn_more: 'https://github.com/imagemin/imagemin'
+category: Images
+type: community
+maintainers:
+  - name: Ricardo Gobbo de Souza
+    github: ricardogobbosouza
+    avatar: 'https://github.com/ricardogobbosouza.png'

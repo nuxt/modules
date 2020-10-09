@@ -1,0 +1,14 @@
+name: xui
+description: Light module to help design websites with Nuxt.
+repo: MetaCorp/xui-module
+npm: xui-module
+icon: ''
+github: 'https://github.com/MetaCorp/xui-module'
+website: 'https://github.com/MetaCorp/xui-module'
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: MetaCorp
+    github: MetaCorp
+    avatar: 'https://github.com/MetaCorp.png'

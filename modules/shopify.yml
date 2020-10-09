@@ -1,0 +1,14 @@
+name: shopify
+description: Easy Shopify Buy client module with Nuxt.js for ecommerce websites.
+repo: Gomah/nuxt-shopify
+npm: nuxt-shopify
+icon: shopify.png
+github: 'https://github.com/Gomah/nuxt-shopify'
+website: 'https://github.com/Gomah/nuxt-shopify'
+learn_more: 'https://www.shopify.com/'
+category: Ecommerce
+type: 3rd-party
+maintainers:
+  - name: Gomah
+    github: Gomah
+    avatar: 'https://github.com/Gomah.png'

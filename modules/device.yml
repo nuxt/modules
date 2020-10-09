@@ -1,0 +1,14 @@
+name: device
+description: Device detection module for Nuxt.js
+repo: nuxt-community/device-module
+npm: '@nuxtjs/device'
+icon: ''
+github: 'https://github.com/nuxt-community/device-module'
+website: 'https://github.com/nuxt-community/device-module'
+learn_more: ''
+category: Devtools
+type: community
+maintainers:
+  - name: Shinji Yamada
+    github: dotneet
+    avatar: 'https://github.com/dotneet.png'

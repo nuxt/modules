@@ -1,0 +1,19 @@
+name: http
+description: Universal HTTP Module for Nuxt.js
+repo: nuxt/http
+npm: '@nuxt/http'
+icon: 'https://http.nuxtjs.org/icon.png'
+github: 'https://github.com/nuxt/http'
+website: 'https://http.nuxtjs.org/'
+learn_more: ''
+category: Request
+type: official
+maintainers:
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://github.com/pi0.png'
+  - name: Sébastien Chopin
+    github: Atinux
+    twitter: Atinux
+    avatar: 'https://github.com/Atinux.png'
