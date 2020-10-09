@@ -23,7 +23,7 @@ export default /*<NuxtConfig>*/ {
   content: {
     dir: 'modules'
   },
-  meta: {
+  manifest: {
     name: 'Nuxt Modules',
     short_name: 'Nuxt Modules',
     description: 'Explore Nuxt Modules',
