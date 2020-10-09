@@ -4,7 +4,7 @@
     <div class="bg-forest-night pt-16 pb-16 sm:pb-24">
       <div class="pb-10 text-center px-4 sm:px-6 lg:px-8">
         <div class="flex justify-center">
-          <IconNuxt />
+          <IconNuxt alt="Nuxt" />
         </div>
         <h1 class="mt-4 text-4xl leading-10 font-extrabold text-white sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">Explore Nuxt Modules</h1>
         <p class="max-w-xl mt-5 mx-auto text-lg sm:text-xl leading-7 text-rainy-grey">Discover our list of modules to supercharge your <a href="https://nuxtjs.org"  rel=noopener target="_blank" class="border-b border-stone-green hover:text-green-500 hover:border-green-600">Nuxt project</a>. Created by the Nuxt team and community.</p>
@@ -53,8 +53,8 @@
       <!-- Search -->
       <div class="sm:max-w-lg sm:mx-auto flex border border-rainy-grey rounded-md overflow-hidden shadow-sm">
         <input v-model="q" v-focus aria-label="Search" class="flex-1 appearance-none block p-3 text-base leading-6 placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out sm:flex-1" placeholder="Search a module (name, category, username, etc.)">
-        <button class="px-6 py-3 bg-rainy-grey hover:bg-grey-light text-gray-700 text-base leading-6 font-medium shadow-sm focus:outline-none transition duration-150 ease-in-out sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
-          <IconSearch />
+        <button aria-label="search" class="px-6 py-3 bg-rainy-grey hover:bg-grey-light text-gray-700 text-base leading-6 font-medium shadow-sm focus:outline-none transition duration-150 ease-in-out sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
+          <IconSearch alt="Search" />
         </button>
       </div>
       <!-- Categories -->
@@ -92,15 +92,15 @@
           </div>
           <div class="border-t border-gray-200 bg-gray-100 grid grid-cols-3">
             <a :href="npmUrl(module)" target=" _blank" rel="noopener" class="group flex items-center space-x-2 border-r border-gray-200 py-3 px-4 pl-6">
-              <img src="~/assets/icons/npm.svg" width="24" height="24" />
+              <img alt="npm" src="~/assets/icons/npm.svg" width="24" height="24" />
               <div class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium">{{ numberFormat(module.downloads) }}</div>
             </a>
             <a :href="module.github" target=" _blank" rel="noopener" class="group flex items-center space-x-1 py-3 px-4 border-r border-gray-200">
-              <img src="~/assets/icons/star.svg" width="24" height="24" />
+              <img alt="stars" src="~/assets/icons/star.svg" width="24" height="24" />
               <div class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium truncate">{{ numberFormat(module.stars) }} <span class="hidden md:inline-block">star{{ module.stars !== 1 ? 's' : '' }}</span></div>
             </a>
             <div class="maintainers-list group flex items-center space-x-1 py-3 px-4 z-0 overflow-hidden">
-              <img src="~/assets/icons/maintainer.svg" width="24" height="24" />
+              <img alt="maintainer" src="~/assets/icons/maintainer.svg" width="24" height="24" />
               <a v-for="maintainer of module.maintainers" :key="maintainer.github" :href="maintainer.github" v-tooltip="{ content: maintainer.github, classes: ['bg-forest-night', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }" target="_blank" rel="noopener">
                 <img class="relative inline-block h-6 w-6 rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100" :src="maintainer.avatar + '&s=24'" :alt="maintainer.name" width="24" height="24">
               </a>
