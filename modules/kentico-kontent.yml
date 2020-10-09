@@ -1,15 +1,14 @@
-name: nuxt7
-description: Full Featured iOS & Android PWA Apps with Nuxt.js and Framework7
-repo: nuxt-community/nuxt7
-npm: nuxt7
+name: kentico-kontent
+description: Add Kentico Kontent super power to your nuxt app
+repo: Domitnator/kentico-kontent-nuxt-module
+npm: kentico-kontent-nuxt-module 
 icon: ''
-github: 'https://github.com/nuxt-community/nuxt7'
-website: 'https://github.com/nuxt-community/nuxt7'
-learn_more: 'https://framework7.io/'
-category: UI
+github: 'https://github.com/Domitnator/kentico-kontent-nuxt-module'
+website: 'https://github.com/Domitnator/kentico-kontent-nuxt-module'
+learn_more: 'https://kontent.ai'
+category: CMS
 type: community
 maintainers:
-  - name: Pooya Parsa
-    github: pi0
-    twitter: _pi0_
-    avatar: 'https://github.com/pi0.png'
+  - name: Alfred Brockötter
+    github: Domitnator
+    avatar: 'https://github.com/Domitnator.png'
