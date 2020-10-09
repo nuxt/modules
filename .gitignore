@@ -7,3 +7,4 @@ dist
 sw.js
 .env
 .vscode
+cache

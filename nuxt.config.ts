@@ -8,14 +8,16 @@ export default /*<NuxtConfig>*/ {
     '@nuxtjs/tailwindcss',
     // Doc: https://github.com/nuxt-community/google-fonts-module
     '@nuxtjs/google-fonts',
-    '@nuxt/typescript-build'
+    '@nuxt/typescript-build',
+    // Doc: https://image.nuxtjs.org
+    '@nuxt/image',
+    // Doc: https://pwa.nuxtjs.org
+    '@nuxtjs/pwa'
   ],
   modules: [
     '~/scripts/content',
     // Doc: https://content.nuxtjs.org
-    '@nuxt/content',
-    // Doc: https://pwa.nuxtjs.org
-    '@nuxtjs/pwa'
+    '@nuxt/content'
   ],
   plugins: [
     '~/plugins/v-tooltip.ts'

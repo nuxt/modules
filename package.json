@@ -16,6 +16,8 @@
     "sync": "yarn cli sync"
   },
   "devDependencies": {
+    "@nuxt/content": "^1.9.0",
+    "@nuxt/image": "^0.0.3",
     "@nuxt/types": "^2.14.6",
     "@nuxt/typescript-build": "^2.0.3",
     "@nuxt/typescript-runtime": "^2.0.0",
@@ -40,8 +42,5 @@
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3",
     "v-tooltip": "^2.0.3"
-  },
-  "dependencies": {
-    "@nuxt/content": "^1.9.0"
   }
 }
