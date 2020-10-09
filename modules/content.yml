@@ -19,15 +19,3 @@ maintainers:
     github: Atinux
     twitter: Atinux
     avatar: 'https://github.com/Atinux.png'
-video: >-
-  https://res.cloudinary.com/nuxt/video/upload/q_auto/v1588091670/nuxt-content_wxnjje.webm
-demo: 'https://blog-with-nuxt-content.netlify.app/'
-image: 'https://content.nuxtjs.org/preview.png'
-articles:
-  - title: Create a Blog with Nuxt Content
-    link: 'https://nuxtjs.org/blog/creating-blog-with-nuxt-content'
-    authors:
-      - name: Debbie O'Brien
-        twitter: debs_obrien
-        avatar: >-
-          https://pbs.twimg.com/profile_images/1252900852156772352/JLIVJ-TC_400x400.jpg

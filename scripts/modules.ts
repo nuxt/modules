@@ -65,6 +65,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   const validFields = [
     'name',
     'description',
+    'npm',
     'repo',
     'icon',
     'github',
@@ -78,10 +79,11 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   for (const key in module) {
     if (!validFields.includes(key)) {
       invalidFields.push(key)
+      delete module[key]
     }
   }
   if (invalidFields.length) {
-    console.warn(`Invalid fields for ./modules/${module.name}`, invalidFields)
+    console.warn(`Invalid fields for ./modules/${module.name}.yml`, invalidFields)
   }
   
   // Auto name

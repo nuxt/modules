@@ -13,14 +13,3 @@ maintainers:
     github: Atinux
     twitter: Atinux
     avatar: 'https://github.com/Atinux.png'
-demo: 'https://color-mode.nuxtjs.app/'
-video: >-
-  https://nuxtjs.org/blog/going-dark-with-nuxtjs-color-mode/final-working-version.mp4
-articles:
-  - title: Going dark with Nuxt.js color mode
-    link: 'https://nuxtjs.org/blog/going-dark-with-nuxtjs-color-mode'
-    authors:
-      - name: Debbie O'Brien
-        twitter: debs_obrien
-        avatar: >-
-          https://pbs.twimg.com/profile_images/1252900852156772352/JLIVJ-TC_400x400.jpg

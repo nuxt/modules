@@ -12,4 +12,3 @@ maintainers:
   - name: schlunsen
     github: schlunsen
     avatar: 'https://github.com/schlunsen.png'
-demo: 'https://vue2-leaflet.netlify.app/examples/simple.html'
