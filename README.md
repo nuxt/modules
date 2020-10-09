@@ -9,18 +9,6 @@
 
 ## Usage
 
-### API Endpoint
-
-You can access the list of modules using our API: https://modules.nuxtjs.org/api/modules
-
-Using JavaScript to fetch our modules:
-
-```js
-const modules = await fetch('https://modules.nuxtjs.org/api/modules').then(res => res.json())
-```
-
-### NPM
-
 You can use the `@nuxt/modules` package by installing it in your project:
 
 ```bash
@@ -35,8 +23,6 @@ const modules = require('@nuxt/modules')
 // modules is an array of objects
 // See https://unpkg.com/@nuxt/modules/dist/modules.json
 ```
-
-Note that the list **does not include NPM downloads and GitHub stars**, for this we recommend to use the [API endpoint](#api-endpoint).
 
 ## Contributing
 

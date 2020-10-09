@@ -11,11 +11,11 @@ export default /*<NuxtConfig>*/ {
     '@nuxt/typescript-build'
   ],
   modules: [
+    '~/scripts/content',
     // Doc: https://content.nuxtjs.org
     '@nuxt/content',
     // Doc: https://pwa.nuxtjs.org
-    '@nuxtjs/pwa',
-    '~/scripts/content'
+    '@nuxtjs/pwa'
   ],
   plugins: [
     '~/plugins/v-tooltip.ts'

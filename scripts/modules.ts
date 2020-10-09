@@ -7,7 +7,7 @@ import { fetchGithubPkg, modulesDir, distDir, distFile  } from './utils'
 
 export async function sync(name, repo?: string, isNew: boolean = false) {
   const module = await getModule(name)
-  const categories = await readJson(join(__dirname, '..', 'modules', '_categories.json'))
+  const categories = await readJson(join(__dirname, '..', 'categories.json'))
 
   // Repo
   if (repo) {

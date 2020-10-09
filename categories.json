@@ -1,9 +1,9 @@
 [
-  "Default",
   "Analytics",
   "CMS",
   "CSS",
   "Database",
+  "Date",
   "Deployment",
   "Devtools",
   "Ecommerce",
@@ -14,8 +14,7 @@
   "Payment",
   "Performance",
   "Request",
-  "Security",
   "SEO",
-  "Date",
+  "Security",
   "UI"
 ]

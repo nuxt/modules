@@ -44,7 +44,7 @@
               maintainers
             </dt>
             <dd class="order-1 text-2xl sm:text-4xl leading-none font-extrabold text-green-600">
-              {{ maintainers.length }}
+              {{ maintainersTotal }}
             </dd>
           </div>
         </dl>
@@ -122,6 +122,7 @@
 
 <script>
 import millify from 'millify'
+import categories from '~/categories'
 
 export default {
   data() {
@@ -131,18 +132,13 @@ export default {
     }
   },
   async asyncData ({ $content }) {
-    const modules = await $content().fetch()
-    const categories = []
+    const modules = await $content().sortBy('downloads', 'desc').fetch()
     const maintainers = []
 
     let downloads = 0
 
     modules.forEach(module => {
       downloads += (module.downloads || 0)
-      if (categories.indexOf(module.category) === -1) {
-        categories.push(module.category)
-      }
-      categories.sort()
       module.maintainers.forEach(maintainer => {
         if (!maintainers.find(m => m.name === maintainer.name)) {
           maintainers.push(maintainer)
@@ -150,12 +146,10 @@ export default {
       })
     })
 
-    modules.sort((m1, m2) => m2.downloads - m1.downloads)
-
     return {
       modules,
       categories,
-      maintainers,
+      maintainersTotal: maintainers.length,
       downloads
     }
   },
@@ -177,7 +171,7 @@ export default {
   },
   methods: {
     numberFormat (num, options = { precision: 1 }) {
-      return millify(num, options)
+      return millify(num || 0, options)
     },
     iconUrl ({ name, icon, category }) {
       if (/^https?:\/\//.test(icon)) {

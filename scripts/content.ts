@@ -1,7 +1,6 @@
 
 import { Octokit } from '@octokit/rest'
 import got from 'got'
-import { readModules } from './modules'
 
 const rand = (min, max) => min + Math.round((Math.random() * (max - min)))
 
@@ -9,8 +8,6 @@ export default function () {
   const { nuxt } = this
   
   nuxt.hook('content:file:beforeInsert', async (module) => {
-    console.log(module)
-    return
     if (process.env.GITHUB_TOKEN) {
       const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
       module['downloads'] = 0
