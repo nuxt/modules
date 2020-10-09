@@ -9,7 +9,7 @@
         <h1 class="mt-4 text-4xl leading-10 font-extrabold text-white sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">Explore Nuxt Modules</h1>
         <p class="max-w-xl mt-5 mx-auto text-lg sm:text-xl leading-7 text-rainy-grey">Discover our list of modules to supercharge your <a href="https://nuxtjs.org"  rel=noopener target="_blank" class="border-b border-stone-green hover:text-green-500 hover:border-green-600">Nuxt project</a>. Created by the Nuxt team and community.</p>
         <div class="max-w-xl mt-2 mx-auto text-center">
-          <a href="https://github.com/nuxt/modules" role="noopener" target="_blank" class="text-md leading-4 items-center space-x-1 text-grey-light border-b border-stone-green hover:text-green-500 hover:border-green-600">
+          <a href="https://github.com/nuxt/modules" rel="noopener" target="_blank" class="text-md leading-4 items-center space-x-1 text-grey-light border-b border-stone-green hover:text-green-500 hover:border-green-600">
             Contribute on GitHub
           </a>
         </div>
