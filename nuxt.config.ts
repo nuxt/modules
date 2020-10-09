@@ -28,9 +28,9 @@ export default /*<NuxtConfig>*/ {
       'DM Sans': true
     }
   },
-  pwa: {
-    meta: {
-      name: 'modules.nuxtjs.org'
-    }
+  meta: {
+    name: 'Nuxt Modules',
+    short_name: 'Nuxt Modules',
+    description: 'Explore Nuxt Modules',
   }
 }
