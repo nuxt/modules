@@ -121,6 +121,8 @@
 import millify from 'millify'
 import categories from '~/categories'
 
+const createKeyVal = (key, val) => val ? { [key]: val } : {}
+
 export default {
   data() {
     return {
@@ -193,27 +195,30 @@ export default {
       return `https://npmjs.com/package/${npm}`
     },
     toggleCategory (category) {
-      if (!category || this.selectedCategory === category) {
+      if (this.selectedCategory === category) {
         this.selectedCategory = null
         return
       }
       this.selectedCategory = category
     },
     clearFilters() {
-      this.toggleCategory(null)
-      this.q = null
+      window.location.replace('/')
     }
   },
   watch: {
     selectedCategory(value) {
-      window.location.hash = value ? `#${value}` : ''
+      this.$router.replace({
+        path: this.$route.path,
+        query: this.$route.query,
+        hash: value ? `#${value}` : undefined
+      })
     },
     q(value) {
-      const query = {}
-      if (value) {
-        query.q = value
-      }
-      this.$router.replace({ path: this.$route.path, query })
+      this.$router.replace({
+        path: this.$route.path,
+        query: createKeyVal('q', value),
+        hash: this.$route.hash
+      })
     }
   },
   directives: {
