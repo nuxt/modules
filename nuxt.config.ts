@@ -26,6 +26,7 @@ export default /*<NuxtConfig>*/ {
     dir: 'modules'
   },
   googleFonts: {
+    display: 'swap',
     families: {
       'DM Sans': true
     }
