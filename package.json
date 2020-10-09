@@ -40,6 +40,7 @@
     "js-yaml": "^3.14.0",
     "millify": "^3.3.0",
     "nuxt": "^2.14.6",
+    "nuxt-ackee": "^2.0.0",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3",
     "v-tooltip": "^2.0.3"

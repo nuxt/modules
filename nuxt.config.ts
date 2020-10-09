@@ -10,7 +10,9 @@ export default /*<NuxtConfig>*/ {
     // Doc: https://image.nuxtjs.org
     '@nuxt/image',
     // Doc: https://pwa.nuxtjs.org
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    // Doc: https://github.com/bdrtsky/nuxt-ackee
+    'nuxt-ackee'
   ],
   modules: [
     '~/scripts/content',
@@ -27,5 +29,10 @@ export default /*<NuxtConfig>*/ {
     name: 'Nuxt Modules',
     short_name: 'Nuxt Modules',
     description: 'Explore Nuxt Modules',
+  },
+  ackee: {
+    server: 'https://ackee.nuxtjs.com',
+    domainId: 'ab823e69-2425-4a16-85c8-bd9b42d11e1e',
+    detailed: true
   }
 }
