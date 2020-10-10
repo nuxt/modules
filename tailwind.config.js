@@ -18,6 +18,7 @@ module.exports = {
         'clay-brown': '#b4b48c',
         'rainy-grey': '#d1e2e2',
         'grey-light': '#A5CBCB',
+        'grey-darkest': '#032A2A',
         green: {
           50: '#F2FDF9',
           100: '#E6FCF3',
