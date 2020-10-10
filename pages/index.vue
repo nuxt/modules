@@ -92,7 +92,7 @@
           </div>
           <div class="border-t border-gray-200 bg-gray-100 grid grid-cols-3">
             <a :href="npmUrl(module)" aria-label="npm" target=" _blank" rel="noopener" class="stats-block group flex items-center space-x-2 border-r border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 py-3 px-4 pl-6">
-              <img alt="npm" src="~/assets/icons/npm.svg" width="20" height="20" class="icon" />
+              <img alt="npm" src="~/assets/icons/npm.svg" width="32" height="32" class="icon" />
               <div class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium">{{ numberFormat(module.downloads) }}</div>
             </a>
             <a :href="module.github" aria-label="stars" target=" _blank" rel="noopener" class="stats-block group flex items-center space-x-1 py-3 px-4 border-r border-gray-200 hover:bg-gray-200 hover:bg-opacity-50">
