@@ -65,13 +65,45 @@
 
     <!-- Modules list -->
     <div class="container mx-auto px-4 sm:px-0">
-      <!-- Clear filters -->
-      <p class="mb-4 text-forest-night">
-        {{ filteredModules.length }} module{{ filteredModules.length !== 1 ? 's' : '' }} found
-        <template v-if="selectedCategory || q">
-          <a @click.prevent="clearFilters" href="/" class="hover:text-grey-darkest">(<u>clear filters</u>)</a>
-        </template>
-      </p>
+      <div class="flex flex-col sm:flex-row justify-between items-center">
+        <!-- Clear filters -->
+        <p class="mb-4 text-forest-night">
+          {{ filteredModules.length }} module{{ filteredModules.length !== 1 ? 's' : '' }} found
+          <template v-if="selectedCategory || q">
+            <a @click.prevent="clearFilters" href="/" class="hover:text-grey-darkest">(<u>clear filters</u>)</a>
+          </template>
+        </p>
+        <div class="mb-4 text-forest-night flex items-center">
+          <span class="mr-3">Sort By</span>
+          <div class="relative w-28">
+            <button
+              @click="sortByMenuVisible = !sortByMenuVisible"
+              class="border px-2 justify-center p-1 rounded-l-md hover:bg-grey-light focus:bg-grey-light focus:outline-none flex items-center hover:border-grey-light w-full"
+              :class="sortByBtnClass"
+            >
+              {{sortByComp.label}}
+            </button>
+            <div class="origin-top-right absolute right-0 rounded-md shadow-lg z-10" v-show="sortByMenuVisible">
+              <div role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                <button 
+                  v-for="(option, key) in sortByOptions"
+                  :key="key"
+                  @click="selectSortBy(key)"
+                  class="w-28 flex justify-center px-2 p-1 hover:text-grey-darkest text-grey-light focus:text-grey-darkest text-grey-light focus:outline-none flex items-center rounded-b-md bg-white shadow-xs">
+                    {{option.label}}
+                </button>                  
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <button
+              @click="toggleOrderBy"
+              class="p-2 border-l-0 hover:bg-grey-light focus:bg-grey-light focus:outline-none flex items-center border rounded-r-md">
+              <icon-order-by :is-asc="orderBy === 'asc'" class="fill-current w-4 h-4" />
+            </button>            
+          </div>
+        </div>
+      </div>
       <!-- Module cards -->
       <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
         <div v-for="module of filteredModules" :key="module.name" class="relative flex flex-col bg-white transform transition-transform duration-150 ease-in-out shadow rounded-md overflow-hidden hover:shadow-lg hover:-translate-y-1">
@@ -129,17 +161,40 @@ import categories from '~/categories'
 
 const createKeyVal = (key, val) => val ? { [key]: val } : {}
 
+const sort = (a, b, asc) => asc ? a - b : b - a
+
+const ORDERS = {
+  DESC: 'desc',
+  ASC: 'asc'
+}
+
+const FIELDS = {
+  DOWNLOADS: 'downloads',
+  STARS: 'stars'
+}
+
+const sortFields = {
+  [FIELDS.DOWNLOADS]: {
+    label: "Downloads"
+  },
+  [FIELDS.STARS]: {
+    label: "Stars",
+  }
+}
+
 export default {
   data() {
     return {
       q: '',
+      orderBy: ORDERS.DESC,
+      sortBy: "downloads",
+      sortByMenuVisible: false,
       selectedCategory: null
     }
   },
   async asyncData ({ $content }) {
-    const modules = await $content().sortBy('downloads', 'desc').fetch()
+    const modules = await $content().sortBy(FIELDS.DOWNLOADS, ORDERS.DESC).fetch()
     const maintainers = []
-
     let downloads = 0
 
     modules.forEach(module => {
@@ -177,9 +232,17 @@ export default {
     if (selectedCategory) {
       this.toggleCategory(selectedCategory)
     }
-    const { q } = this.$route.query
+    const { q, sortBy, orderBy } = this.$route.query
     if (q) {
       this.q = q
+    }
+
+    if (sortBy) {
+      this.sortBy = sortBy
+    }
+
+    if (orderBy) {
+      this.orderBy = orderBy
     }
   },
   computed: {
@@ -191,8 +254,30 @@ export default {
       if (this.selectedCategory) {
         modules = modules.filter(module => module.category === this.selectedCategory)
       }
+
+      modules.sort((a, b) => sort(a[this.sortBy], b[this.sortBy], this.orderBy === ORDERS.ASC))
+       
       return modules
     },
+    sortByComp() {
+      return sortFields[this.sortBy]
+    },
+    sortByOptions() {
+      const options = {}
+
+      for (let key in sortFields) {
+        if (key === this.sortBy) continue
+
+        options[key] = {
+          ...sortFields[key],
+        }
+      }
+
+      return options
+    },
+    sortByBtnClass() {
+      return this.sortByMenuVisible ? 'rounded-bl-none border-b-0' : ''
+    }
   },
   methods: {
     numberFormat (num, options = { precision: 1 }) {
@@ -223,13 +308,34 @@ export default {
     },
     syncURL() {
       let url = this.$route.path
+      let query = ''
+
       if (this.q) {
-        url += '?q=' + this.q
+        query += `?q=${this.q}`
+        // url += '?q=' + this.q
       }
+
+      if (this.orderBy !== FIELDS.DESC) {
+        query += `${query ? '&': '?'}orderBy=${this.orderBy}`
+      }
+
+      if (this.sortBy !== FIELDS.DOWNLOADS) {
+        query += `${query ? '&': '?'}sortBy=${this.sortBy}`
+      }
+
       if (this.selectedCategory) {
-        url += '#' + this.selectedCategory
+        query += `#${this.selectedCategory}`
+        // url += '#' + this.selectedCategory
       }
-      window.history.pushState('', '', url)
+
+      window.history.pushState('', '', `${url}${query}`)
+    },
+    toggleOrderBy() {
+      this.orderBy = (this.orderBy === ORDERS.ASC) ? ORDERS.DESC : ORDERS.ASC
+    },
+    selectSortBy(field) {
+      this.sortBy = field
+      this.sortByMenuVisible = false
     }
   },
   watch: {
@@ -237,6 +343,12 @@ export default {
       this.syncURL()
     },
     q() {
+      this.syncURL()
+    },
+    orderBy() {
+      this.syncURL()
+    },
+    sortBy() {
       this.syncURL()
     }
   },
