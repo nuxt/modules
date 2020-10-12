@@ -29,6 +29,7 @@ export default /*<NuxtConfig>*/ {
     name: 'Nuxt Modules',
     short_name: 'Nuxt Modules',
     description: 'Explore Nuxt Modules',
+    theme_color: '#003c3c'
   },
   ackee: {
     server: 'https://ackee.nuxtjs.com',
