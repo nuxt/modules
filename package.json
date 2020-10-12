@@ -10,7 +10,7 @@
     "build": "yarn cli build",
     "cli": "ts-node ./scripts/cli",
     "dev": "nuxt-ts",
-    "generate": "nuxt-ts generate",
+    "generate": "npm cache clean && nuxt-ts generate",
     "release": "yarn cli version && npm publish",
     "start": "nuxt-ts start",
     "sync": "yarn cli sync"
