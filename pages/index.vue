@@ -312,7 +312,6 @@ export default {
 
       if (this.q) {
         query += `?q=${this.q}`
-        // url += '?q=' + this.q
       }
 
       if (this.orderBy !== FIELDS.DESC) {
@@ -325,7 +324,6 @@ export default {
 
       if (this.selectedCategory) {
         query += `#${this.selectedCategory}`
-        // url += '#' + this.selectedCategory
       }
 
       window.history.pushState('', '', `${url}${query}`)
