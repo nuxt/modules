@@ -77,7 +77,7 @@
         <div v-for="module of filteredModules" :key="module.name" class="relative flex flex-col bg-white transform transition-transform duration-150 ease-in-out shadow rounded-md overflow-hidden hover:shadow-lg hover:-translate-y-1">
           <div class="relative flex flex-1 flex-col space-y-2 px-6 py-8 group">
             <a :href="module.website" :aria-label="module.website" target="_blank" rel="noopener" class="absolute inset-0"></a>
-            <div class="transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 text-stone-green absolute top-4 right-6">
+            <div class="transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 absolute top-4 right-6 cursor-pointer">
               <img alt="website" src="~/assets/icons/ext.svg" width="24" height="24" />
             </div>
 
