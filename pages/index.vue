@@ -69,7 +69,10 @@
       <p class="mb-4 text-forest-night">
         {{ filteredModules.length }} module{{ filteredModules.length !== 1 ? 's' : '' }} found
         <template v-if="selectedCategory || q">
-          <a @click.prevent="clearFilters" href="/" class="hover:text-grey-darkest">(<u>clear filters</u>)</a>
+          <p>Filter{{ selectedCategory && q ? 's' : '' }}: 
+            <b>{{selectedCategory}}</b>{{ selectedCategory && q ? ', ' : '' }}<b>{{q}}</b>
+            <a @click.prevent="clearFilters" href="/" class="hover:text-grey-darkest">(<u>clear filter{{ selectedCategory && q ? 's' : '' }}</u>)</a>
+          </p>
         </template>
       </p>
       <!-- Module cards -->
