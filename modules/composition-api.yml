@@ -4,7 +4,7 @@ repo: nuxt-community/composition-api#main
 npm: '@nuxtjs/composition-api'
 icon: composition-api.svg
 github: 'https://github.com/nuxt-community/composition-api/tree/main'
-website: 'https://github.com/nuxt-community/composition-api/tree/main'
+website: 'https://composition-api.nuxtjs.org'
 learn_more: ''
 category: Devtools
 type: community
