@@ -67,12 +67,15 @@
     <div class="container mx-auto px-4 sm:px-0">
       <div class="flex flex-col sm:flex-row justify-between items-center">
         <!-- Clear filters -->
-        <p class="mb-4 text-forest-night">
-          {{ filteredModules.length }} module{{ filteredModules.length !== 1 ? 's' : '' }} found
-          <template v-if="selectedCategory || q">
-            <a @click.prevent="clearFilters" href="/" class="hover:text-grey-darkest">(<u>clear filters</u>)</a>
-          </template>
-        </p>
+       <p class="mb-4 text-forest-night">
+        {{ filteredModules.length }} module{{ filteredModules.length !== 1 ? 's' : '' }} found
+        <template v-if="selectedCategory || q">
+          <p>Filter{{ selectedCategory && q ? 's' : '' }}: 
+            <b>{{selectedCategory}}</b>{{ selectedCategory && q ? ', ' : '' }}<b>{{q}}</b>
+            <a @click.prevent="clearFilters" href="/" class="hover:text-grey-darkest">(<u>clear filter{{ selectedCategory && q ? 's' : '' }}</u>)</a>
+          </p>
+        </template>
+      </p>
         <div class="mb-4 text-forest-night flex items-center">
           <span class="mr-3">Sort By</span>
           <div class="relative w-28">
@@ -143,14 +146,17 @@
     </div>
 
     <!-- Footer -->
-    <div class="container mx-auto flex justify-center px-4 sm:px-0 pt-12 text-stone-green items-center space-x-2">
-      <a href="https://vercel.com" rel=noopener target="_blank" aria-label="go to vercel">
-        <IconVercel alt="Vercel" />
-      </a>
-      <a href="https://nuxtjs.org" rel=noopener target="_blank" aria-label="go to nuxt">
-        <IconWithNuxt alt="Nuxt" />
-      </a>
-    </div>
+    <footer class="container mx-auto flex flex-col justify-center pt-12 text-stone-green items-center">
+      <p>For more information on Nuxt modules, including how to create a module, check out our <a href="https://nuxtjs.org/guides/directory-structure/modules" rel="noopener" target="_blank" class="text-md leading-4 items-center space-x-1 text-grey border-b border-stone-green hover:text-green-500 hover:border-green-600">docs</a>.</p>
+      <div class="flex justify-center px-4 sm:px-0 pt-6 space-x-2">
+        <a href="https://vercel.com" rel=noopener target="_blank" aria-label="go to vercel">
+          <IconVercel alt="Vercel" />
+        </a>
+        <a href="https://nuxtjs.org" rel=noopener target="_blank" aria-label="go to nuxt">
+          <IconWithNuxt alt="Nuxt" />
+        </a>
+      </div>
+    </footer>
   </div>
 </template>
 
