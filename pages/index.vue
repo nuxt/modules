@@ -77,14 +77,14 @@
         </template>
       </p>
         <div class="mb-4 text-forest-night flex items-center">
-          <span class="mr-3">Sort By</span>
+          <span class="mr-3">Sort by</span>
           <div class="relative w-28">
             <button
               @click="sortByMenuVisible = !sortByMenuVisible"
-              class="border px-2 justify-center p-1 rounded-l-md hover:bg-grey-light focus:bg-grey-light focus:outline-none flex items-center hover:border-grey-light w-full"
+              class="border px-2 justify-center p-1 rounded-l-md hover:bg-rainy-grey focus:bg-rainy-grey focus:outline-none flex items-center hover:border-grey-light w-full"
               :class="sortByBtnClass"
             >
-              {{sortByComp.label}}
+              {{ sortByComp.label }}
             </button>
             <div class="origin-top-right absolute right-0 rounded-md shadow-lg z-10" v-show="sortByMenuVisible">
               <div role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
@@ -92,8 +92,8 @@
                   v-for="(option, key) in sortByOptions"
                   :key="key"
                   @click="selectSortBy(key)"
-                  class="w-28 flex justify-center px-2 p-1 hover:text-grey-darkest text-grey-light focus:text-grey-darkest text-grey-light focus:outline-none flex items-center rounded-b-md bg-white shadow-xs">
-                    {{option.label}}
+                  class="w-28 flex justify-center px-2 p-1 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none flex items-center rounded-b-md bg-white shadow-xs">
+                    {{ option.label }}
                 </button>                  
               </div>
             </div>
@@ -101,7 +101,7 @@
           <div class="relative">
             <button
               @click="toggleOrderBy"
-              class="p-2 border-l-0 hover:bg-grey-light focus:bg-grey-light focus:outline-none flex items-center border rounded-r-md">
+              class="p-2 border-l-0 hover:bg-rainy-grey focus:bg-rainy-grey focus:outline-none flex items-center border rounded-r-md">
               <icon-order-by :is-asc="orderBy === 'asc'" class="fill-current w-4 h-4" />
             </button>            
           </div>
@@ -282,7 +282,7 @@ export default {
       return options
     },
     sortByBtnClass() {
-      return this.sortByMenuVisible ? 'rounded-bl-none border-b-0' : ''
+      return this.sortByMenuVisible ? 'rounded-bl-none border-b-grey-light' : ''
     }
   },
   methods: {
