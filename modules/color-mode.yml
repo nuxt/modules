@@ -4,7 +4,7 @@ repo: nuxt-community/color-mode-module
 npm: '@nuxtjs/color-mode'
 icon: color-mode.png
 github: 'https://github.com/nuxt-community/color-mode-module'
-website: 'https://github.com/nuxt-community/color-mode-module'
+website: 'https://color-mode.nuxtjs.org'
 learn_more: ''
 category: UI
 type: community

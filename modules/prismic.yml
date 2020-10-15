@@ -4,7 +4,7 @@ repo: nuxt-community/prismic-module
 npm: '@nuxtjs/prismic'
 icon: prismic.png
 github: 'https://github.com/nuxt-community/prismic-module'
-website: 'https://github.com/nuxt-community/prismic-module'
+website: 'https://prismic.nuxtjs.org'
 learn_more: 'https://prismic.io/'
 category: CMS
 type: community
