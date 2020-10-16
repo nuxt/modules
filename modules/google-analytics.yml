@@ -4,7 +4,7 @@ repo: nuxt-community/analytics-module
 npm: '@nuxtjs/google-analytics'
 icon: google-analytics.png
 github: 'https://github.com/nuxt-community/analytics-module'
-website: 'https://github.com/nuxt-community/analytics-module'
+website: 'https://google-analytics.nuxtjs.org'
 learn_more: 'https://marketingplatform.google.com/about/analytics/'
 category: Analytics
 type: community
