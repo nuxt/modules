@@ -3,6 +3,11 @@
 export default /*<NuxtConfig>*/ {
   target: 'static',
   components: true,
+  build: {
+    loaders: {
+      imgUrl: { limit: 0 }
+    }
+  },
   buildModules: [
     // Doc: https://tailwindcss.nuxtjs.org
     '@nuxtjs/tailwindcss',
@@ -35,14 +40,5 @@ export default /*<NuxtConfig>*/ {
     server: 'https://ackee.nuxtjs.com',
     domainId: 'ab823e69-2425-4a16-85c8-bd9b42d11e1e',
     detailed: true
-  },
-  build: {
-    extend(config) {
-      const rule = config.module.rules.find(rule => String(rule.test).includes('svg'))
-      const urlLoader = rule.use.find(r => r.loader === 'url-loader')
-      if (urlLoader) {
-        urlLoader.options.limit = 0
-      }
-    }
   }
 }
