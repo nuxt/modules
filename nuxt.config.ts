@@ -3,6 +3,11 @@
 export default /*<NuxtConfig>*/ {
   target: 'static',
   components: true,
+  build: {
+    loaders: {
+      imgUrl: { limit: 0 }
+    }
+  },
   buildModules: [
     // Doc: https://tailwindcss.nuxtjs.org
     '@nuxtjs/tailwindcss',
