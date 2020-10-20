@@ -76,7 +76,7 @@
           </p>
         </template>
       </p>
-        <div class="mb-4 text-forest-night flex items-center">
+        <div v-show="!q" class="mb-4 text-forest-night flex items-center">
           <span class="mr-3">Sort by</span>
           <div class="relative w-28">
             <button
@@ -221,6 +221,7 @@ export default {
   },
   async mounted() {
     const fuseOptions = {
+      threshold: 0.1,
       keys: [
         'name',
         'npm',
@@ -256,12 +257,13 @@ export default {
       let modules = this.modules
       if (this.q) {
         modules = this.fuse.search(this.q).map(r => r.item)
+      } else {
+        // Sort only if no search
+        modules.sort((a, b) => sort(a[this.sortBy], b[this.sortBy], this.orderBy === ORDERS.ASC))
       }
       if (this.selectedCategory) {
         modules = modules.filter(module => module.category === this.selectedCategory)
       }
-
-      modules.sort((a, b) => sort(a[this.sortBy], b[this.sortBy], this.orderBy === ORDERS.ASC))
        
       return modules
     },
