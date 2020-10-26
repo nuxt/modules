@@ -70,7 +70,7 @@
        <p class="mb-4 text-forest-night">
         {{ filteredModules.length }} module{{ filteredModules.length !== 1 ? 's' : '' }} found
         <template v-if="selectedCategory || q">
-          <p>Filter{{ selectedCategory && q ? 's' : '' }}: 
+          <p>Filter{{ selectedCategory && q ? 's' : '' }}:
             <b>{{selectedCategory}}</b>{{ selectedCategory && q ? ', ' : '' }}<b>{{q}}</b>
             <a @click.prevent="clearFilters" href="/" class="hover:text-grey-darkest">(<u>clear filter{{ selectedCategory && q ? 's' : '' }}</u>)</a>
           </p>
@@ -387,6 +387,10 @@ export default {
         { hid: 'twitter:description', name: 'twitter:description', content: description },
         { hid: 'twitter:image', name: 'twitter:image', content: `${url}/preview.png` },
         { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: title }
+      ],
+      link: [
+        // RSS feed
+        { rel: 'alternate', type: 'application/rss+xml', href: '/rss.xml', title: 'Nuxt Modules' }
       ]
     }
   }
