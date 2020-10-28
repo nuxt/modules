@@ -1,6 +1,6 @@
 {
   "name": "@nuxt/modules",
-  "version": "0.5.0",
+  "version": "0.5.0-d2ba9c",
   "license": "MIT",
   "main": "dist/modules.json",
   "files": [
