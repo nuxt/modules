@@ -1,0 +1,14 @@
+name: vitals
+description: Web Vitals for Nuxt.js
+repo: daliborgogic/nuxt-vitals
+npm: nuxt-vitals
+icon: ''
+github: 'https://github.com/daliborgogic/nuxt-vitals'
+website: 'https://github.com/daliborgogic/nuxt-vitals'
+learn_more: ''
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: daliborgogic
+    github: daliborgogic
+    avatar: 'https://avatars3.githubusercontent.com/u/5895389?v=4'
