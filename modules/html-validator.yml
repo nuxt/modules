@@ -1,4 +1,4 @@
-htname: html-validator
+name: html-validator
 description: Automatically validate Nuxt server-rendered HTML html
 repo: nuxt-community/html-validator-module
 npm: '@nuxtjs/html-validator'
