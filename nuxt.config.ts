@@ -1,6 +1,6 @@
 // import { NuxtConfig } from '@nuxt/types'
 
-export default /*<NuxtConfig>*/ {
+export default /* <NuxtConfig> */ {
   target: 'static',
   components: true,
   build: {
@@ -17,7 +17,9 @@ export default /*<NuxtConfig>*/ {
     // Doc: https://pwa.nuxtjs.org
     '@nuxtjs/pwa',
     // Doc: https://github.com/bdrtsky/nuxt-ackee
-    'nuxt-ackee'
+    'nuxt-ackee',
+    // Doc: https://html-validator.nuxtjs.org
+    '@nuxtjs/html-validator'
   ],
   modules: [
     '~/scripts/content',
