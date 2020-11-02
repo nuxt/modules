@@ -4,8 +4,8 @@ repo: nuxt-community/html-validator-module
 npm: '@nuxtjs/html-validator'
 icon: html-validator.png
 github: 'https://github.com/nuxt-community/html-validator-module'
-website: 'https://github.com/nuxt-community/html-validator-module'
-learn_more: 'https://html-validate.org/'
+website: 'https://html-validator.nuxtjs.org'
+learn_more: 'https://html-validate.org'
 category: Performance
 type: community
 maintainers:
