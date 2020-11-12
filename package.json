@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@nuxt/content": "^1.10.0",
-    "@nuxt/image": "^0.0.3",
+    "@nuxt/image": "^0.0.4",
     "@nuxt/types": "^2.14.7",
     "@nuxt/typescript-build": "^2.0.3",
     "@nuxt/typescript-runtime": "^2.0.0",

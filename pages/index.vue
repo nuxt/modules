@@ -136,22 +136,12 @@
             </div>
 
             <nuxt-image
-              v-if="!iconUrl(module).includes('.svg')"
-              legacy
               :src="iconUrl(module)"
               :alt="module.name"
               class="w-10 h-10"
               width="40px"
               height="40px"
             />
-            <img
-              v-else
-              :src="iconUrl(module)"
-              :alt="module.name"
-              class="w-10 h-10"
-              width="40px"
-              height="40px"
-            >
 
             <h2 class="flex text-2xl items-center pt-2">
               <span>{{ module.name }}</span>
@@ -188,7 +178,14 @@
                 target="_blank"
                 rel="noopener"
               >
-                <img class="relative inline-block rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100" :src="maintainer.avatar + '&s=24'" :alt="maintainer.name" width="24" height="24">
+                <nuxt-image
+                  class="w-6 h-6 relative rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100"
+                  :src="maintainer.avatar + '&s=24'"
+                  :alt="maintainer.name"
+                  format="jpg"
+                  width="24"
+                  height="24"
+                />
               </a>
             </div>
           </div>
