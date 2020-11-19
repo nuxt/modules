@@ -160,8 +160,6 @@ import CardModule from '~/components/CardModule.vue'
 import Observer from '~/components/Observer.vue'
 import { numberFormatter } from '~/utils/format.ts'
 
-const createKeyVal = (key, val) => val ? { [key]: val } : {}
-
 const sort = (a, b, asc) => asc ? a - b : b - a
 
 const ORDERS = {
@@ -266,7 +264,7 @@ export default {
     }
   },
   watch: {
-    selectedCategory (value) {
+    selectedCategory () {
       this.syncURL()
     },
     q () {
@@ -279,7 +277,7 @@ export default {
       this.syncURL()
     }
   },
-  async mounted () {
+  mounted () {
     const fuseOptions = {
       threshold: 0.1,
       keys: [
