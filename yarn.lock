@@ -11011,6 +11011,11 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
+vue-lazy-hydration@^2.0.0-beta.0:
+  version "2.0.0-beta.0"
+  resolved "https://registry.yarnpkg.com/vue-lazy-hydration/-/vue-lazy-hydration-2.0.0-beta.0.tgz#3e827f4561f84737f667372d78c25ede9de06c19"
+  integrity sha512-9F+gEyKMI6W0sB51ZDTPbzb8VzDcGJdqoZ7LEYgxCpayWVyEfMipZE8T3M8XW7q9QIJD27IAOvKVLv5Bwtx8pQ==
+
 vue-loader@^15.9.3:
   version "15.9.4"
   resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.9.4.tgz#c2ecef8a1a0802ac76c6d686641b5dde522ae267"
