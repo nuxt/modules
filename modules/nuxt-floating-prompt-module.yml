@@ -3,8 +3,8 @@ description: Invite your users to support you on product hunt with this floating
 repo: sandoche/nuxt-floating-prompt-module#main
 npm: nuxt-floating-prompt-module
 icon: ''
-github: 'https://github.com/sandoche/nuxt-floating-prompt-module/tree/main'
-website: 'https://github.com/sandoche/nuxt-floating-prompt-module/tree/main'
+github: 'https://github.com/sandoche/nuxt-floating-prompt-module'
+website: 'https://github.com/sandoche/nuxt-floating-prompt-module'
 learn_more: ''
 category: Libraries
 type: 3rd-party
