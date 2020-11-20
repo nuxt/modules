@@ -128,7 +128,7 @@
       </div>
       <!-- Module cards -->
       <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-        <div v-for="module of pageFilteredModules" :key="module.name" class="relative flex flex-col transform transition-transform duration-200 ease-in-out shadow rounded-md overflow-hidden hover:shadow-lg hover:-translate-y-1">
+        <div v-for="module of pageFilteredModules" :key="module.name" class="relative flex flex-col bg-white transform transition-transform duration-150 ease-in-out shadow rounded-md overflow-hidden hover:shadow-lg hover:-translate-y-1">
           <LazyHydrate when-visible>
             <card-module :module="module" />
           </LazyHydrate>
