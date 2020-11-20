@@ -1,8 +1,8 @@
-name: nuxt-github-api
+name: github-api
 description: Nuxt module for GitHub v4 API
 repo: lindsaykwardell/nuxt-github-api
 npm: nuxt-github-api
-icon: nuxt-github-api.svg
+icon: github.svg
 github: 'https://github.com/lindsaykwardell/nuxt-github-api'
 website: 'https://github.com/lindsaykwardell/nuxt-github-api'
 learn_more: ''
