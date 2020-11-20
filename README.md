@@ -7,7 +7,34 @@
 [![automated](https://flat.badgen.net/badge/publish/automated/green)](#)
 [![npm version](https://flat.badgen.net/npm/v/@nuxt/modules)](https://www.npmjs.com/package/@nuxt/modules)
 
-## Usage
+## Contributing
+
+- If you feel a module is missing, please create a new [issue](https://github.com/nuxt/modules/issues/new)
+- If some meta is wrong, feel free directly opening a pull request
+
+### Add or update repository
+
+```bash
+yarn sync <name> <repo>
+```
+
+Example: `yarn sync tailwindcss nuxt-community/tailwindcss-module`
+
+To sync with a branch different than `master`, suffix the repo with `#repo-branch`, example: `yarn sync tailwindcss nuxt-community/tailwindcss-module#dev`
+
+### Auto update all current modules
+
+```bash
+yarn sync
+```
+
+### Generate `dist/module.json`
+
+```
+yarn build
+```
+
+## Module Usage
 
 You can use the `@nuxt/modules` package by installing it in your project:
 
@@ -22,31 +49,6 @@ Then you can directly import the list of modules:
 const modules = require('@nuxt/modules')
 // modules is an array of objects
 // See https://unpkg.com/@nuxt/modules/dist/modules.json
-```
-
-## Contributing
-
-- If you feel a module is missing, please create a new [issue](https://github.com/nuxt/modules/issues/new)
-- If some meta is wrong, feel free directly opening a pull request
-
-### Add or update repository
-
-```bash
-yarn sync <name> <repo>
-```
-
-Example: `yarn sync tailwindcss nuxt-community/tailwindcss-module`
-
-### Auto update all current modules
-
-```bash
-yarn sync
-```
-
-### Generate `dist/module.json`
-
-```
-yarn build
 ```
 
 ## Website
