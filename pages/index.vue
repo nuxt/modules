@@ -389,22 +389,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.stats-block {
-  & img {
-    filter: grayscale(100%);
-    &.icon {
-      filter: grayscale(100%) contrast(0%);
-    }
-  }
-  &:hover {
-    & img {
-      filter: none;
-      &.icon {
-        filter: none;
-      }
-    }
-  }
-}
-</style>
