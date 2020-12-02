@@ -5,6 +5,7 @@ on: [pull_request, pull_request_target]
 jobs:
   sync:
     runs-on: ubuntu-latest
+    if: ${{ github.actor == 'renovate' }}
 
     steps:
       - name: Setup node
