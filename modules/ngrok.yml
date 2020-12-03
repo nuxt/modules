@@ -4,7 +4,7 @@ description: >-
   need to mess with DNS or deploy just to have others test out your changes
 repo: nuxt-community/ngrok
 npm: '@nuxtjs/ngrok'
-icon: ngrok.png
+icon: icon.png
 github: 'https://github.com/nuxt-community/ngrok-module'
 website: 'https://ngrok.nuxtjs.org'
 learn_more: 'https://github.com/bubenshchykov/ngrok'
