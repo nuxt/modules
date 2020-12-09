@@ -56,8 +56,8 @@
     <div class="pt-12 pb-8 container mx-auto px-4 sm:px-0">
       <!-- Search -->
       <div class="sm:max-w-lg sm:mx-auto flex shadow-sm">
-        <label class="flex-1"><input v-model="q" type="search" aria-label="Search" class="w-full appearance-none block p-3 text-base leading-6 placeholder-gray-500 border border-rainy-grey rounded-tl-md rounded-bl-md focus:outline-none focus:placeholder-gray-400 focus:shadow-outline-green transition duration-150 ease-in-out sm:flex-1" placeholder="Search a module (name, category, username, etc.)"></label>
-        <button type="button" aria-label="search" class="px-6 py-3 bg-rainy-grey hover:bg-grey-light focus:bg-grey-light text-gray-700 text-base leading-6 font-medium rounded-tr-md rounded-br-md focus:outline-none focus:shadow-outline-green transition duration-150 ease-in-out sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
+        <label class="flex-1"><input v-model="q" type="search" aria-label="Search" class="w-full appearance-none block p-3 text-base leading-6 placeholder-gray-500 border border-rainy-grey rounded-tl-md rounded-bl-md focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out sm:flex-1" placeholder="Search a module (name, category, username, etc.)"></label>
+        <button type="button" aria-label="search" class="px-6 py-3 bg-rainy-grey hover:bg-grey-light focus:bg-grey-light text-gray-700 text-base leading-6 font-medium rounded-tr-md rounded-br-md focus:outline-none focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 transition duration-150 ease-in-out sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
           <IconSearch alt="Search" />
         </button>
       </div>
@@ -278,6 +278,30 @@ export default {
       selectedCategory: null
     }
   },
+  head () {
+    const title = 'Explore Nuxt Modules'
+    const description = 'Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.'
+    const url = 'https://modules.nuxtjs.org'
+
+    return {
+      title,
+      meta: [
+        { hid: 'description', name: 'description', content: description },
+        { hid: 'og:site_name', property: 'og:site_name', content: title },
+        { hid: 'og:description', property: 'og:description', content: description },
+        { hid: 'og:type', property: 'og:type', content: 'website' },
+        { hid: 'og:url', property: 'og:url', content: url },
+        { hid: 'og:image', property: 'og:image', content: `${url}/preview.png` },
+        // Twitter Card
+        { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+        { hid: 'twitter:site', name: 'twitter:site', content: '@nuxt_js' },
+        { hid: 'twitter:title', name: 'twitter:title', content: title },
+        { hid: 'twitter:description', name: 'twitter:description', content: description },
+        { hid: 'twitter:image', name: 'twitter:image', content: `${url}/preview.png` },
+        { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: title }
+      ]
+    }
+  },
   computed: {
     filteredModules () {
       let modules = this.modules
@@ -415,30 +439,6 @@ export default {
     selectSortBy (field) {
       this.sortBy = field
       this.sortByMenuVisible = false
-    }
-  },
-  head () {
-    const title = 'Explore Nuxt Modules'
-    const description = 'Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.'
-    const url = 'https://modules.nuxtjs.org'
-
-    return {
-      title,
-      meta: [
-        { hid: 'description', name: 'description', content: description },
-        { hid: 'og:site_name', property: 'og:site_name', content: title },
-        { hid: 'og:description', property: 'og:description', content: description },
-        { hid: 'og:type', property: 'og:type', content: 'website' },
-        { hid: 'og:url', property: 'og:url', content: url },
-        { hid: 'og:image', property: 'og:image', content: `${url}/preview.png` },
-        // Twitter Card
-        { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-        { hid: 'twitter:site', name: 'twitter:site', content: '@nuxt_js' },
-        { hid: 'twitter:title', name: 'twitter:title', content: title },
-        { hid: 'twitter:description', name: 'twitter:description', content: description },
-        { hid: 'twitter:image', name: 'twitter:image', content: `${url}/preview.png` },
-        { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: title }
-      ]
     }
   }
 }
