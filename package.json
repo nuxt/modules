@@ -28,7 +28,7 @@
     "@nuxtjs/tailwindcss": "^3.3.4",
     "@octokit/rest": "^18.0.12",
     "@types/node": "^14.14.12",
-    "autoprefixer": "^9",
+    "autoprefixer": "^10",
     "axios": "^0.21.0",
     "defu": "^3.2.2",
     "execa": "^4.1.0",
