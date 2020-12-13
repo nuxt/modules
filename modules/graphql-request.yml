@@ -1,0 +1,14 @@
+name: graphql-request
+description: Easy Minimal GraphQL client integration with Nuxt.js
+repo: gomah/nuxt-graphql-request
+npm: nuxt-graphql-request
+icon: graphql-request.png
+github: 'https://github.com/gomah/nuxt-graphql-request'
+website: 'https://github.com/gomah/nuxt-graphql-request'
+learn_more: ''
+category: Request
+type: 3rd-party
+maintainers:
+  - name: gomah
+    github: gomah
+    avatar: 'https://avatars3.githubusercontent.com/u/2362138?v=4'

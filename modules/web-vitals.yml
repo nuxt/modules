@@ -1,0 +1,22 @@
+name: web-vitals
+description: Web Vitals for Nuxt
+repo: nuxt-community/web-vitals-module
+npm: nuxt-vitals
+icon: ''
+github: 'https://github.com/nuxt-community/web-vitals-module'
+website: 'https://github.com/nuxt-community/web-vitals-module'
+learn_more: ''
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: daliborgogic
+    github: daliborgogic
+    avatar: 'https://avatars3.githubusercontent.com/u/5895389?v=4'
+  - name: Pooya Parsa
+    github: pi0
+    twitter: _pi0_
+    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+  - name: Sebastien Chopin
+    github: Atinux
+    twitter: Atinux
+    avatar: 'https://avatars2.githubusercontent.com/u/904724?v=4'

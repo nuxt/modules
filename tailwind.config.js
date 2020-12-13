@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
@@ -29,19 +29,18 @@ module.exports = {
           600: '#00C675',
           700: '#00844E',
           800: '#00633B',
-          900: '#004227',
+          900: '#004227'
         }
+      },
+      ringWidth: {
+        3: '3px'
       }
     }
   },
   variants: {
-    opacity: ({ after }) => after(['group-hover'])
-  },
-  plugins: [
-    require('@tailwindcss/ui')
-  ],
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true
-  },
+    opacity: ({ after }) => after(['group-hover']),
+    extend: {
+      ringWidth: ['hover', 'focus', 'active']
+    }
+  }
 }
