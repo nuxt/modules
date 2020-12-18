@@ -4,7 +4,7 @@ repo: nuxt-community/sitemap-module#dev
 npm: '@nuxtjs/sitemap'
 icon: ''
 github: 'https://github.com/nuxt-community/sitemap-module#dev'
-website: 'https://github.com/nuxt-community/sitemap-module#dev'
+website: 'https://sitemap.nuxtjs.org'
 learn_more: ''
 category: SEO
 type: community
