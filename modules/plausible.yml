@@ -1,5 +1,5 @@
 name: plausible
-description: Plausible analytics as Vue.js and NuxtJS plugins
+description: Plausible analytics for Vue.js and Nuxt
 repo: moritzsternemann/vue-plausible
 npm: vue-plausible
 icon: 'plausible.png'
