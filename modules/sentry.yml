@@ -6,7 +6,7 @@ repo: nuxt-community/sentry-module
 npm: '@nuxtjs/sentry'
 icon: sentry.png
 github: 'https://github.com/nuxt-community/sentry-module'
-website: 'https://github.com/nuxt-community/sentry-module'
+website: 'https://sentry.nuxtjs.org/'
 learn_more: 'https://sentry.io/welcome/'
 category: Monitoring
 type: community
