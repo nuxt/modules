@@ -1,0 +1,14 @@
+name: vue-notion
+description: 'Vue renderer for Notion pages'
+repo: janniks/vue-notion
+npm: vue-notion
+icon: notion.svg
+github: 'https://github.com/janniks/vue-notion'
+website: 'https://github.com/janniks/vue-notion'
+learn_more: ''
+category: 'CMS'
+type: 3rd-party
+maintainers:
+  - name: janniks
+    github: janniks
+    avatar: 'https://avatars3.githubusercontent.com/u/6362150?v=4'
