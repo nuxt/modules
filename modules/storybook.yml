@@ -8,7 +8,7 @@ icon: storybook.png
 github: 'https://github.com/nuxt-community/storybook'
 website: 'https://storybook.nuxtjs.org'
 learn_more: 'https://storybook.js.org/'
-category: Devtools
+category: Extensions
 type: community
 maintainers:
   - name: Ahad Birang

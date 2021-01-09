@@ -6,7 +6,7 @@ icon: leaflet.png
 github: 'https://github.com/schlunsen/nuxt-leaflet'
 website: 'https://github.com/schlunsen/nuxt-leaflet'
 learn_more: 'https://vue2-leaflet.netlify.app/quickstart/'
-category: Devtools
+category: Extensions
 type: 3rd-party
 maintainers:
   - name: schlunsen

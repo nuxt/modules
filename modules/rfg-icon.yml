@@ -6,7 +6,7 @@ icon: real-favicon-generator.png
 github: 'https://github.com/pimlie/nuxt-rfg-icon'
 website: 'https://github.com/pimlie/nuxt-rfg-icon'
 learn_more: 'https://realfavicongenerator.net/'
-category: Devtools
+category: Extensions
 type: 3rd-party
 maintainers:
   - name: pimlie
