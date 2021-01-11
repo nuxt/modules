@@ -4,7 +4,7 @@ repo: nuxt-community/modules#master/packages/markdownit
 npm: '@nuxtjs/markdownit'
 icon: ''
 github: 'https://github.com/nuxt-community/markdownit-module'
-website: 'https://markdownit.nuxtjs.org'
+website: 'https://github.com/nuxt-community/markdownit-module'
 learn_more: 'https://github.com/markdown-it/markdown-it'
 category: Devtools
 type: community
