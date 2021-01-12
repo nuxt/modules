@@ -160,7 +160,7 @@ import CardModule from '~/components/CardModule.vue'
 import Observer from '~/components/Observer.vue'
 import { numberFormatter } from '~/utils/format.ts'
 
-const sort = (a, b, asc) => asc ? a - b : b - a
+const sort = (a, b, asc) => asc ? a.toString().localeCompare(b.toString()) : b.toString().localeCompare(a.toString())
 
 const ORDERS = {
   DESC: 'desc',
@@ -169,7 +169,8 @@ const ORDERS = {
 
 const FIELDS = {
   DOWNLOADS: 'downloads',
-  STARS: 'stars'
+  STARS: 'stars',
+  RELEASED_AT: 'released_at'
 }
 
 const sortFields = {
@@ -178,6 +179,9 @@ const sortFields = {
   },
   [FIELDS.STARS]: {
     label: 'Stars'
+  },
+  [FIELDS.RELEASED_AT]: {
+    label: 'Released at'
   }
 }
 
