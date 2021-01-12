@@ -6,6 +6,7 @@ icon: cloudinary.png
 github: 'https://github.com/nuxt-community/cloudinary-module'
 website: 'https://cloudinary.nuxtjs.org'
 learn_more: 'https://cloudinary.com'
+released_at: '2020-12-24T07:37:06.055Z'
 category: Images
 type: community
 maintainers:

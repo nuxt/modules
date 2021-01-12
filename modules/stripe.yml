@@ -8,6 +8,7 @@ icon: stripe.png
 github: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
 website: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
 learn_more: 'https://stripe.com/'
+released_at: '2020-11-01T21:50:09.160Z'
 category: Payment
 type: 3rd-party
 maintainers:

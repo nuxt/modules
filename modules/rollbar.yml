@@ -8,6 +8,7 @@ icon: rollbar.png
 github: 'https://github.com/gaelreyrol/nuxt-rollbar-module'
 website: 'https://github.com/gaelreyrol/nuxt-rollbar-module'
 learn_more: 'https://docs.rollbar.com/docs/javascript'
+released_at: '2019-12-13T09:11:03.417Z'
 category: Monitoring
 type: 3rd-party
 maintainers:

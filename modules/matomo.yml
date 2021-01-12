@@ -8,6 +8,7 @@ icon: matomo.png
 github: 'https://github.com/pimlie/nuxt-matomo'
 website: 'https://github.com/pimlie/nuxt-matomo'
 learn_more: 'https://developer.matomo.org/api-reference/tracking-javascript'
+released_at: '2019-08-24T18:55:01.592Z'
 category: Analytics
 type: 3rd-party
 maintainers:

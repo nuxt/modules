@@ -6,6 +6,7 @@ icon: socket-io.png
 github: 'https://github.com/richardeschloss/nuxt-socket-io'
 website: 'https://nuxt-socket-io.netlify.app/'
 learn_more: 'https://socket.io/'
+released_at: '2020-11-27T09:17:26.655Z'
 category: Request
 type: 3rd-party
 maintainers:

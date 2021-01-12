@@ -6,6 +6,7 @@ icon: ''
 github: 'https://github.com/pimlie/nuxt-memwatch'
 website: 'https://github.com/pimlie/nuxt-memwatch'
 learn_more: 'https://github.com/pimlie/node-memwatcher'
+released_at: '2019-05-25T14:46:58.999Z'
 category: Monitoring
 type: 3rd-party
 maintainers:

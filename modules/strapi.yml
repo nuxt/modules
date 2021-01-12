@@ -6,6 +6,7 @@ icon: strapi.png
 github: 'https://github.com/nuxt-community/strapi-module'
 website: 'https://strapi.nuxtjs.org'
 learn_more: 'https://strapi.io/'
+released_at: '2021-01-08T16:21:48.927Z'
 category: CMS
 type: community
 maintainers:

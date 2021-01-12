@@ -6,6 +6,7 @@ icon: laravel-echo.png
 github: 'https://github.com/nuxt-community/laravel-echo'
 website: 'https://github.com/nuxt-community/laravel-echo'
 learn_more: 'https://laravel.com/docs/8.x/broadcasting#installing-laravel-echo'
+released_at: '2020-01-27T12:36:07.510Z'
 category: CMS
 type: community
 maintainers:

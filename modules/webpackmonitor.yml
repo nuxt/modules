@@ -6,6 +6,7 @@ icon: webpack.png
 github: 'https://github.com/nuxt-community/webpackmonitor-module'
 website: 'https://github.com/nuxt-community/webpackmonitor-module'
 learn_more: 'http://webpackmonitor.com/'
+released_at: '2020-11-28T20:20:54.254Z'
 category: Devtools
 type: community
 maintainers:

@@ -6,6 +6,7 @@ icon: http.png
 github: 'https://github.com/nuxt/http'
 website: 'https://http.nuxtjs.org/'
 learn_more: ''
+released_at: '2020-12-23T10:19:49.611Z'
 category: Request
 type: official
 maintainers:

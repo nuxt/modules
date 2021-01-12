@@ -6,6 +6,7 @@ icon: bugsnag.png
 github: 'https://github.com/JulianMar/nuxt-bugsnag'
 website: 'https://github.com/JulianMar/nuxt-bugsnag'
 learn_more: 'https://www.bugsnag.com/'
+released_at: '2020-11-30T09:13:44.789Z'
 category: Monitoring
 type: 3rd-party
 maintainers:

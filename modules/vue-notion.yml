@@ -1,11 +1,12 @@
 name: vue-notion
-description: 'Vue renderer for Notion pages'
+description: Vue renderer for Notion pages
 repo: janniks/vue-notion
 npm: vue-notion
 icon: notion.svg
 github: 'https://github.com/janniks/vue-notion'
 website: 'https://github.com/janniks/vue-notion'
 learn_more: ''
+released_at: '2020-12-27T20:46:43.199Z'
 category: CMS
 type: 3rd-party
 maintainers:

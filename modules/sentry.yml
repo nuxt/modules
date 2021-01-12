@@ -8,6 +8,7 @@ icon: sentry.png
 github: 'https://github.com/nuxt-community/sentry-module'
 website: 'https://sentry.nuxtjs.org/'
 learn_more: 'https://sentry.io/welcome/'
+released_at: '2020-11-28T20:20:53.502Z'
 category: Monitoring
 type: community
 maintainers:

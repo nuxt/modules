@@ -6,6 +6,7 @@ icon: recaptcha.png
 github: 'https://github.com/nuxt-community/recaptcha-module'
 website: 'https://github.com/nuxt-community/recaptcha-module'
 learn_more: 'https://www.google.com/recaptcha/about/'
+released_at: '2020-11-28T20:20:52.510Z'
 category: Security
 type: community
 maintainers:

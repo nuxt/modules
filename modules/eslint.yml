@@ -6,6 +6,7 @@ icon: eslint.png
 github: 'https://github.com/nuxt-community/eslint-module'
 website: 'https://github.com/nuxt-community/eslint-module'
 learn_more: 'https://eslint.org/'
+released_at: '2020-12-16T18:09:18.708Z'
 category: Devtools
 type: community
 maintainers:

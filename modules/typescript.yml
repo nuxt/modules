@@ -6,6 +6,7 @@ icon: typescript.svg
 github: 'https://github.com/nuxt/typescript/tree/master/packages/typescript-build'
 website: 'https://typescript.nuxtjs.org'
 learn_more: ''
+released_at: '2020-10-28T13:39:24.892Z'
 category: Devtools
 type: official
 maintainers:

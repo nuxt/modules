@@ -6,6 +6,7 @@ icon: auth.png
 github: 'https://github.com/nuxt-community/auth-module'
 website: 'https://dev.auth.nuxtjs.org/'
 learn_more: ''
+released_at: '2020-11-28T20:20:40.117Z'
 category: Security
 type: community
 maintainers:

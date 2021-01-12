@@ -6,8 +6,9 @@ icon: ''
 github: 'https://github.com/nuxt-community/web-vitals-module'
 website: 'https://github.com/nuxt-community/web-vitals-module'
 learn_more: ''
+released_at: '2020-06-22T09:20:46.228Z'
 category: Performance
-type: 3rd-party
+type: community
 maintainers:
   - name: daliborgogic
     github: daliborgogic

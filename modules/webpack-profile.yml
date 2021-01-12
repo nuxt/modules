@@ -6,6 +6,7 @@ icon: webpack.png
 github: 'https://github.com/nuxt-community/webpack-profile-module'
 website: 'https://github.com/nuxt-community/webpack-profile-module'
 learn_more: 'https://webpack.js.org/plugins/profiling-plugin/'
+released_at: '2020-11-28T20:20:57.100Z'
 category: Devtools
 type: community
 maintainers:

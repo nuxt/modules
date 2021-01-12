@@ -6,6 +6,7 @@ icon: winston.png
 github: 'https://github.com/aaronransley/nuxt-winston-log'
 website: 'https://github.com/aaronransley/nuxt-winston-log'
 learn_more: 'https://www.npmjs.com/package/winston'
+released_at: '2020-11-04T19:39:25.513Z'
 category: Monitoring
 type: 3rd-party
 maintainers:

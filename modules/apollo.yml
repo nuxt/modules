@@ -6,6 +6,7 @@ icon: apollo.png
 github: 'https://github.com/nuxt-community/apollo-module'
 website: 'https://github.com/nuxt-community/apollo-module'
 learn_more: 'https://apollo.vuejs.org/guide/#what-is-graphql'
+released_at: '2020-11-28T20:20:40.064Z'
 category: Request
 type: community
 maintainers:

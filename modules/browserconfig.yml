@@ -7,6 +7,7 @@ github: 'https://github.com/nuxt-community/modules/tree/master/packages/browserc
 website: 'https://github.com/nuxt-community/modules/tree/master/packages/browserconfig'
 learn_more: >-
   https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg183312(v=vs.85)?redirectedfrom=MSDN
+released_at: '2020-11-28T20:20:41.280Z'
 category: Extensions
 type: community
 maintainers:

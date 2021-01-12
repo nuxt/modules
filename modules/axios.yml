@@ -6,6 +6,7 @@ icon: axios.svg
 github: 'https://github.com/nuxt-community/axios-module'
 website: 'https://axios.nuxtjs.org'
 learn_more: 'https://github.com/axios/axios'
+released_at: '2021-01-04T13:05:44.926Z'
 category: Request
 type: community
 maintainers:

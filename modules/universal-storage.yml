@@ -6,6 +6,7 @@ icon: ''
 github: 'https://github.com/nuxt-community/universal-storage-module'
 website: 'https://github.com/nuxt-community/universal-storage-module'
 learn_more: 'https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage'
+released_at: '2020-12-26T14:54:06.867Z'
 category: Extensions
 type: community
 maintainers:

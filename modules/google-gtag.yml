@@ -6,6 +6,7 @@ icon: gtm.png
 github: 'https://github.com/nuxt-community/google-gtag'
 website: 'https://github.com/nuxt-community/google-gtag'
 learn_more: 'https://developers.google.com/analytics/devguides/collection/gtagjs/'
+released_at: '2019-05-13T09:14:07.032Z'
 category: Analytics
 type: community
 maintainers:

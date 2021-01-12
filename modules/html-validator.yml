@@ -6,6 +6,7 @@ icon: html-validator.png
 github: 'https://github.com/nuxt-community/html-validator-module'
 website: 'https://html-validator.nuxtjs.org'
 learn_more: 'https://html-validate.org'
+released_at: '2020-12-17T21:52:25.875Z'
 category: Performance
 type: community
 maintainers:

@@ -6,6 +6,7 @@ icon: localtunnel.png
 github: 'https://github.com/nuxt-community/modules/tree/master/packages/localtunnel'
 website: 'https://github.com/nuxt-community/modules/tree/master/packages/localtunnel'
 learn_more: 'https://github.com/localtunnel/localtunnel'
+released_at: '2020-11-28T20:20:47.131Z'
 category: Devtools
 type: community
 maintainers:

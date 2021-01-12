@@ -6,6 +6,7 @@ icon: firebase.png
 github: 'https://github.com/nuxt-community/firebase-module'
 website: 'https://firebase.nuxtjs.org'
 learn_more: 'https://firebase.google.com/'
+released_at: '2020-12-28T20:07:42.129Z'
 category: Database
 type: community
 maintainers:
