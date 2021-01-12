@@ -4,7 +4,7 @@ import * as yml from 'js-yaml'
 import globby from 'globby'
 import defu from 'defu'
 import fetch from 'node-fetch'
-import { fetchGithubPkg, modulesDir, distDir, distFile  } from './utils'
+import { fetchGithubPkg, fetchNpmReleasedAt, modulesDir, distDir, distFile  } from './utils'
 
 export async function sync(name, repo?: string, isNew: boolean = false) {
   const module = await getModule(name)
@@ -33,6 +33,10 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   // Fetch latest package.json from github
   const pkg = await fetchGithubPkg(module.repo)
   module.npm = pkg.name
+
+  // Get npm released date
+  const npm = await fetchNpmReleasedAt(module.npm)
+  module.released_at = npm.time.modified
 
   // Type
   if (module.repo.startsWith('nuxt-community/')) {
@@ -72,6 +76,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
     'github',
     'website',
     'learn_more',
+    'released_at',
     'category',
     'type',
     'maintainers'
@@ -125,6 +130,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   // Default description
   if (!module.description) {
     module.description = pkg.description
+    console.log(`[TODO] Add a description to ./modules/${name}.yml`)
   }
 
   // Write module
@@ -143,6 +149,7 @@ export async function getModule(name) {
     github: '', // github link
     website: '',
     learn_more: '',
+    released_at: '', // npm release date
     category: '', // see modules/_categories.json
     type: '', // official, community, 3rd-party
     maintainers: []

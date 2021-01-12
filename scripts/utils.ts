@@ -21,6 +21,10 @@ export async function fetchGithubPkg(repo) {
   return fetchRawGithub(repo + '/' + path + '/' + 'package.json')
 }
 
+export async function fetchNpmReleasedAt(repo) {
+  return axios.get('http://registry.npmjs.org/' + repo).then(r => r.data)
+}
+
 export function uniq(items: any[]) {
   return Array.from(new Set(items))
 }
