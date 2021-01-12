@@ -3,8 +3,8 @@ description: !<tag:yaml.org,2002:js/undefined> ''
 repo: nuxt-community/modules#master/packages/yandex-metrika
 npm: '@nuxtjs/yandex-metrika'
 icon: ''
-github: 'https://github.com/nuxt-community/modules/tree/master/packages/yandex-metrika'
-website: 'https://github.com/nuxt-community/modules/tree/master/packages/yandex-metrika'
+github: 'https://github.com/nuxt-community/yandex-metrika-module'
+website: 'https://github.com/nuxt-community/yandex-metrika-module'
 learn_more: 'https://metrica.yandex.com/about'
 category: Analytics
 type: community
