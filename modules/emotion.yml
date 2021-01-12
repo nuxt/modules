@@ -6,7 +6,7 @@ icon: emotion.png
 github: 'https://github.com/nuxt-community/emotion-module'
 website: 'https://github.com/nuxt-community/emotion-module'
 learn_more: 'https://emotion.sh/'
-category: Devtools
+category: Extensions
 type: community
 maintainers:
   - name: Pooya Parsa

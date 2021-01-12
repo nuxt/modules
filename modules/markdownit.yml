@@ -6,7 +6,7 @@ icon: ''
 github: 'https://github.com/nuxt-community/markdownit-module'
 website: 'https://github.com/nuxt-community/markdownit-module'
 learn_more: 'https://github.com/markdown-it/markdown-it'
-category: Devtools
+category: Extensions
 type: community
 maintainers:
   - name: Pooya Parsa
