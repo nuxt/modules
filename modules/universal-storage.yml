@@ -6,7 +6,7 @@ icon: ''
 github: 'https://github.com/nuxt-community/universal-storage-module'
 website: 'https://github.com/nuxt-community/universal-storage-module'
 learn_more: 'https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage'
-category: Devtools
+category: Extensions
 type: community
 maintainers:
   - name: Pooya Parsa

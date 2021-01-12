@@ -6,7 +6,7 @@ icon: python.png
 github: 'https://github.com/nuxt-community/python-module'
 website: 'https://github.com/nuxt-community/python-module'
 learn_more: 'https://www.python.org/'
-category: Devtools
+category: Extensions
 type: community
 maintainers:
   - name: Sebastian Silva

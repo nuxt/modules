@@ -6,7 +6,7 @@ icon: composition-api.svg
 github: 'https://github.com/nuxt-community/composition-api/tree/main'
 website: 'https://composition-api.nuxtjs.org'
 learn_more: ''
-category: Devtools
+category: Extensions
 type: community
 maintainers:
   - name: Daniel Roe
