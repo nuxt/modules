@@ -56,7 +56,17 @@
     <div class="pt-12 pb-8 container mx-auto px-4 sm:px-0">
       <!-- Search -->
       <div class="sm:max-w-lg sm:mx-auto flex shadow-sm">
-        <label class="flex-1"><input v-model="q" type="search" aria-label="Search" class="w-full appearance-none block p-3 text-base leading-6 placeholder-gray-500 border border-rainy-grey rounded-tl-md rounded-bl-md focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out sm:flex-1" placeholder="Search a module (name, category, username, etc.)"></label>
+        <label class="flex-1">
+          <input 
+            v-model="q" 
+            type="search" 
+            aria-label="Search" 
+            class="w-full appearance-none block p-3 text-base leading-6 placeholder-gray-500 border border-rainy-grey rounded-tl-md rounded-bl-md focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out sm:flex-1" 
+            placeholder="Search a module (name, category, username, etc.)" ref="searchModule"
+            @focus="toggleSearchFocus(true)"
+            @blur="toggleSearchFocus(false)"
+          />
+        </label>
         <button type="button" aria-label="search" class="px-6 py-3 bg-rainy-grey hover:bg-grey-light focus:bg-grey-light text-gray-700 text-base leading-6 font-medium rounded-tr-md rounded-br-md focus:outline-none focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 transition duration-150 ease-in-out sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
           <IconSearch alt="Search" />
         </button>
@@ -217,6 +227,7 @@ export default {
   data () {
     return {
       q: '',
+      searchFocus: false,
       orderBy: ORDERS.DESC,
       sortBy: 'downloads',
       sortByMenuVisible: false,
@@ -333,6 +344,14 @@ export default {
     if (orderBy) {
       this.orderBy = orderBy
     }
+    
+    // Add `/` shortcut for search input only if not already focused
+    document.addEventListener('keypress', e => {
+      if (e.keyCode === 47 && !this.searchFocus) {
+        e.preventDefault()
+        this.$refs.searchModule.focus()
+      }
+    })
   },
   methods: {
     numberFormat (num, options = { precision: 1 }) {
@@ -385,6 +404,9 @@ export default {
     },
     resetModuleLoaded () {
       this.moduleLoaded = MODULE_INCREMENT_LOADING
+    },
+    toggleSearchFocus (isFocus) {
+      this.searchFocus = isFocus
     }
   }
 }
