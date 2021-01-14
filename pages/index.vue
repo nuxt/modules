@@ -173,7 +173,7 @@ import categories from '~/categories'
 import CardModule from '~/components/CardModule.vue'
 import Observer from '~/components/Observer.vue'
 import { numberFormatter } from '~/utils/format.ts'
-import { detectMobile } from '~/utils/detectUserAgent.ts'
+import { isMobile } from '~/utils/detectUserAgent.ts'
 
 const sort = (a, b, asc) => asc ? a - b : b - a
 
@@ -359,7 +359,7 @@ export default {
     })
 
     // In case of desktop, auto focus the search input
-    if (!detectMobile()) {
+    if (!isMobile()) {
       this.focusSearchInput()
     }
   },
