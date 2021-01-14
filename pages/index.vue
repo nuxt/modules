@@ -56,21 +56,25 @@
     <div class="pt-12 pb-8 container mx-auto px-4 sm:px-0">
       <!-- Search -->
       <div class="sm:max-w-lg sm:mx-auto flex shadow-sm">
-        <label class="flex-1">
+        <label class="flex-1 relative">
           <input 
             v-model="q" 
             type="search" 
             aria-label="Search" 
-            class="w-full appearance-none block p-3 text-base leading-6 placeholder-gray-500 border border-rainy-grey rounded-tl-md rounded-bl-md focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out sm:flex-1" 
+            class="w-full appearance-none block py-3 pl-3 pr-10 text-base leading-6 placeholder-gray-500 border border-rainy-grey rounded-tl-md rounded-bl-md focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out sm:flex-1" 
             placeholder="Search a module (name, category, username, etc.)" ref="searchModule"
             @focus="toggleSearchFocus(true)"
             @blur="toggleSearchFocus(false)"
           />
+          <div class="absolute text-gray-400 text-md px-2 py-1 border border-gray-300 rounded-md opacity-50 top-13 right-13 leading-14">
+            /
+          </div>
         </label>
         <button type="button" aria-label="search" class="px-6 py-3 bg-rainy-grey hover:bg-grey-light focus:bg-grey-light text-gray-700 text-base leading-6 font-medium rounded-tr-md rounded-br-md focus:outline-none focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 transition duration-150 ease-in-out sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
           <IconSearch alt="Search" />
         </button>
       </div>
+
       <!-- Categories -->
       <div class="flex sm:flex-wrap space-x-2 sm:justify-center pt-6 overflow-x-auto">
         <button
