@@ -1,4 +1,4 @@
-export function detectMobile(): boolean {
+export function isMobile(): boolean {
   const toMatch = [
       /Android/i,
       /webOS/i,
@@ -7,9 +7,9 @@ export function detectMobile(): boolean {
       /iPod/i,
       /BlackBerry/i,
       /Windows Phone/i
-  ];
+  ]
 
   return toMatch.some((toMatchItem: RegExp) => {
       return navigator.userAgent.match(toMatchItem);
-  });
+  })
 }
