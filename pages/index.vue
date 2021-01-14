@@ -173,6 +173,7 @@ import categories from '~/categories'
 import CardModule from '~/components/CardModule.vue'
 import Observer from '~/components/Observer.vue'
 import { numberFormatter } from '~/utils/format.ts'
+import { detectMobile } from '~/utils/detectUserAgent.ts'
 
 const sort = (a, b, asc) => asc ? a - b : b - a
 
@@ -353,9 +354,14 @@ export default {
     document.addEventListener('keypress', e => {
       if (e.keyCode === 47 && !this.searchFocus) {
         e.preventDefault()
-        this.$refs.searchModule.focus()
+        this.focusSearchInput()
       }
     })
+
+    // In case of desktop, auto focus the search input
+    if (!detectMobile()) {
+      this.focusSearchInput()
+    }
   },
   methods: {
     numberFormat (num, options = { precision: 1 }) {
@@ -411,6 +417,9 @@ export default {
     },
     toggleSearchFocus (isFocus) {
       this.searchFocus = isFocus
+    },
+    focusSearchInput () {
+      this.$refs.searchModule.focus()
     }
   }
 }
