@@ -27,7 +27,7 @@
     "@nuxtjs/pwa": "^3.3.4",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@octokit/rest": "^18.0.12",
-    "@types/node": "^14.14.20",
+    "@types/node": "^14.14.21",
     "autoprefixer": "^10",
     "axios": "^0.21.0",
     "defu": "^3.2.2",
