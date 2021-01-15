@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@nuxt/content": "^1.11.1",
-    "@nuxt/image": "^0.0.4",
+    "@nuxt/image": "^0.2.0-alpha.4",
     "@nuxt/types": "^2.14.12",
     "@nuxt/typescript-build": "^2.0.3",
     "@nuxt/typescript-runtime": "^2.0.0",
@@ -40,8 +40,8 @@
     "hasha": "^5.2.2",
     "js-yaml": "^3.14.1",
     "millify": "^3.5.0",
-    "nuxt": "^2.14.12",
     "nuxt-ackee": "^2.0.0",
+    "nuxt-edge": "^2.15.0-26844550.78ba9945",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "ts-loader": "^8.0.14",
