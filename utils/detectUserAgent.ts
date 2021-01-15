@@ -10,6 +10,6 @@ export function isMobile(): boolean {
   ]
 
   return toMatch.some((toMatchItem: RegExp) => {
-      return navigator.userAgent.match(toMatchItem);
+      return navigator.userAgent.match(toMatchItem)
   })
 }

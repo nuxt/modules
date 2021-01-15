@@ -349,19 +349,17 @@ export default {
     if (orderBy) {
       this.orderBy = orderBy
     }
-    
-    // Add `/` shortcut for search input only if not already focused
-    document.addEventListener('keypress', e => {
-      if (e.keyCode === 47 && !this.searchFocus) {
-        e.preventDefault()
-        this.focusSearchInput()
-      }
-    })
 
     // In case of desktop, auto focus the search input
     if (!isMobile()) {
       this.focusSearchInput()
     }
+  },
+  beforeMount () {
+    window.addEventListener('keypress', this.searchFocusListener)
+  },
+  beforeDestroy () {
+    window.removeEventListener('keypress', this.searchFocusListener)
   },
   methods: {
     numberFormat (num, options = { precision: 1 }) {
@@ -417,6 +415,13 @@ export default {
     },
     toggleSearchFocus (isFocus) {
       this.searchFocus = isFocus
+    },
+    searchFocusListener (event) {
+      // Add `/` shortcut for search input only if not already focused
+      if (event.keyCode === 47 && !this.searchFocus) {
+        event.preventDefault()
+        this.focusSearchInput()
+      }
     },
     focusSearchInput () {
       this.$refs.searchModule.focus()
