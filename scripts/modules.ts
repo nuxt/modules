@@ -1,12 +1,12 @@
-import { existsSync, readFile, readJson, writeFile, mkdirp } from 'fs-extra'
 import { resolve, join, basename, extname } from 'path'
+import { existsSync, readFile, readJson, writeFile, mkdirp } from 'fs-extra'
 import * as yml from 'js-yaml'
 import globby from 'globby'
 import defu from 'defu'
 import fetch from 'node-fetch'
-import { fetchGithubPkg, modulesDir, distDir, distFile  } from './utils'
+import { fetchGithubPkg, modulesDir, distDir, distFile } from './utils'
 
-export async function sync(name, repo?: string, isNew: boolean = false) {
+export async function sync (name, repo?: string, isNew: boolean = false) {
   const module = await getModule(name)
   const categories = await readJson(join(__dirname, '..', 'categories.json'))
 
@@ -89,8 +89,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
 
   // Auto name
   if (!module.name) {
-    module.name = (pkg.name.startsWith('@') ?
-      pkg.name.split('/')[1] : pkg.name)
+    module.name = (pkg.name.startsWith('@') ? pkg.name.split('/')[1] : pkg.name)
       .replace('nuxt-', '')
       .replace('-module', '')
   }
@@ -104,12 +103,11 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
         name: owner,
         github: owner
       })
+    } else if (!isNew) {
+      throw new Error(`No maintainer for ${module.name}`)
     } else {
-      if (!isNew) {
-        throw new Error(`No maintainer for ${module.name}`)
-      } else {
-        console.log(`[TODO] Add a maintain to ./modules/${name}.yml`)
-      }
+      // eslint-disable-next-line no-console
+      console.log(`[TODO] Add a maintainer to ./modules/${name}.yml`)
     }
   }
 
@@ -133,7 +131,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   return module
 }
 
-export async function getModule(name) {
+export async function getModule (name) {
   let module = {
     name,
     description: '',
@@ -156,27 +154,27 @@ export async function getModule(name) {
   return module
 }
 
-export async function writeModule(module) {
+export async function writeModule (module) {
   const file = resolve(modulesDir, `${module.name}.yml`)
   await writeFile(file, yml.dump(module))
 }
 
-export async function readModules() {
+export async function readModules () {
   const names = (await globby(join(modulesDir, '*.yml'))).map(p => basename(p, extname(p))).filter(_ => _)
 
   return Promise.all(names.map(n => getModule(n)))
     .then(modules => modules.filter(m => m.name))
 }
 
-export async function syncAll() {
+export async function syncAll () {
   const modules = await readModules()
-  const updatedModules = await Promise.all(modules.map(module => {
+  const updatedModules = await Promise.all(modules.map((module) => {
     return sync(module.name, module.repo)
   }))
   return updatedModules
 }
 
-export async function build() {
+export async function build () {
   const modules = await readModules()
   await mkdirp(distDir)
   await writeFile(distFile, JSON.stringify(modules, null, 2))

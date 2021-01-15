@@ -1,19 +1,19 @@
 <template>
   <div class="pb-16">
     <!-- Header -->
-    <div class="bg-forest-night pt-16 pb-16 sm:pb-24">
-      <div class="pb-10 text-center px-4 sm:px-6 lg:px-8">
+    <div class="pt-16 pb-16 bg-forest-night sm:pb-24">
+      <div class="px-4 pb-10 text-center sm:px-6 lg:px-8">
         <div class="flex justify-center">
           <IconNuxt alt="Nuxt" />
         </div>
-        <h1 class="mt-4 text-4xl leading-10 font-extrabold text-white sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
+        <h1 class="mt-4 text-4xl font-extrabold leading-10 text-white sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
           Explore Nuxt Modules
         </h1>
-        <p class="max-w-xl mt-5 mx-auto text-lg sm:text-xl leading-7 text-rainy-grey">
+        <p class="max-w-xl mx-auto mt-5 text-lg leading-7 sm:text-xl text-rainy-grey">
           Discover our list of modules to supercharge your <a href="https://nuxtjs.org" rel="noopener" target="_blank" class="border-b border-stone-green hover:text-green-500 hover:border-green-600">Nuxt project</a>. Created by the Nuxt team and community.
         </p>
-        <div class="max-w-xl mt-2 mx-auto text-center">
-          <a href="https://github.com/nuxt/modules" rel="noopener" target="_blank" class="text-md leading-4 items-center space-x-1 text-grey-light border-b border-stone-green hover:text-green-500 hover:border-green-600">
+        <div class="max-w-xl mx-auto mt-2 text-center">
+          <a href="https://github.com/nuxt/modules" rel="noopener" target="_blank" class="items-center space-x-1 leading-4 border-b text-md text-grey-light border-stone-green hover:text-green-500 hover:border-green-600">
             Contribute on GitHub
           </a>
         </div>
@@ -21,30 +21,30 @@
     </div>
 
     <!-- Stats -->
-    <div class="relative -mt-16 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="relative max-w-screen-xl px-4 mx-auto -mt-16 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto">
-        <dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
-          <div class="flex justify-center sm:flex-col border-b border-gray-100 p-4 sm:p-6 text-center sm:border-0 sm:border-r">
-            <dt id="item-1" class="order-2 sm:mt-2 ml-2 sm:ml-0 sm:text-md leading-6 font-medium text-gray-500 sm:capitalize">
+        <dl class="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3">
+          <div class="flex justify-center p-4 text-center border-b border-gray-100 sm:flex-col sm:p-6 sm:border-0 sm:border-r">
+            <dt id="item-1" class="order-2 ml-2 font-medium leading-6 text-gray-500 sm:mt-2 sm:ml-0 sm:text-md sm:capitalize">
               modules
             </dt>
-            <dd class="order-1 text-2xl sm:text-4xl leading-none font-extrabold text-green-700" aria-describedby="item-1">
+            <dd class="order-1 text-2xl font-extrabold leading-none text-green-700 sm:text-4xl" aria-describedby="item-1">
               {{ modules.length }}
             </dd>
           </div>
-          <div class="flex justify-center sm:flex-col border-t border-b border-gray-100 p-4 sm:p-6 text-center sm:border-0 sm:border-l sm:border-r">
-            <dt class="order-2 sm:mt-2 ml-2 sm:ml-0 sm:text-md leading-6 font-medium text-gray-500 sm:capitalize">
+          <div class="flex justify-center p-4 text-center border-t border-b border-gray-100 sm:flex-col sm:p-6 sm:border-0 sm:border-l sm:border-r">
+            <dt class="order-2 ml-2 font-medium leading-6 text-gray-500 sm:mt-2 sm:ml-0 sm:text-md sm:capitalize">
               downloads last 30 days
             </dt>
-            <dd class="order-1 text-2xl sm:text-4xl leading-none font-extrabold text-green-700">
+            <dd class="order-1 text-2xl font-extrabold leading-none text-green-700 sm:text-4xl">
               {{ numberFormat(downloads) }}
             </dd>
           </div>
-          <div class="flex justify-center sm:flex-col border-t border-gray-100 p-4 sm:p-6 text-center sm:border-0 sm:border-l">
-            <dt class="order-2 sm:mt-2 ml-2 sm:ml-0 sm:text-md leading-6 font-medium text-gray-500 sm:capitalize">
+          <div class="flex justify-center p-4 text-center border-t border-gray-100 sm:flex-col sm:p-6 sm:border-0 sm:border-l">
+            <dt class="order-2 ml-2 font-medium leading-6 text-gray-500 sm:mt-2 sm:ml-0 sm:text-md sm:capitalize">
               maintainers
             </dt>
-            <dd class="order-1 text-2xl sm:text-4xl leading-none font-extrabold text-green-700">
+            <dd class="order-1 text-2xl font-extrabold leading-none text-green-700 sm:text-4xl">
               {{ maintainersTotal }}
             </dd>
           </div>
@@ -53,21 +53,33 @@
     </div>
 
     <!-- Search and filters -->
-    <div class="pt-12 pb-8 container mx-auto px-4 sm:px-0">
+    <div class="container px-4 pt-12 pb-8 mx-auto sm:px-0">
       <!-- Search -->
-      <div class="sm:max-w-lg sm:mx-auto flex shadow-sm">
-        <label class="flex-1"><input v-model="q" type="search" aria-label="Search" class="w-full appearance-none block p-3 text-base leading-6 placeholder-gray-500 border border-rainy-grey rounded-tl-md rounded-bl-md focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out sm:flex-1" placeholder="Search a module (name, category, username, etc.)"></label>
-        <button type="button" aria-label="search" class="px-6 py-3 bg-rainy-grey hover:bg-grey-light focus:bg-grey-light text-gray-700 text-base leading-6 font-medium rounded-tr-md rounded-br-md focus:outline-none focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 transition duration-150 ease-in-out sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
+      <div class="flex shadow-sm sm:max-w-lg sm:mx-auto">
+        <label class="relative flex-1">
+          <input 
+            v-model="q" 
+            type="search" 
+            aria-label="Search" 
+            class="block w-full py-3 pl-3 pr-10 text-base leading-6 placeholder-gray-500 transition duration-150 ease-in-out border appearance-none border-rainy-grey rounded-tl-md rounded-bl-md focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 sm:flex-1" 
+            placeholder="Search a module (name, category, username, etc.)" ref="searchModule"
+          />
+          <div class="absolute px-2 py-1 text-gray-400 border border-gray-300 rounded-md opacity-50 text-md top-13 right-13 leading-14">
+            /
+          </div>
+        </label>
+        <button type="button" aria-label="search" class="px-6 py-3 text-base font-medium leading-6 text-gray-700 transition duration-150 ease-in-out bg-rainy-grey hover:bg-grey-light focus:bg-grey-light rounded-tr-md rounded-br-md focus:outline-none focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
           <IconSearch alt="Search" />
         </button>
       </div>
+
       <!-- Categories -->
-      <div class="flex sm:flex-wrap space-x-2 sm:justify-center pt-6 overflow-x-auto">
+      <div class="flex pt-6 space-x-2 overflow-x-auto sm:flex-wrap sm:justify-center">
         <button
           v-for="category of categories"
           :key="category"
           type="button"
-          class="px-4 py-2 text-sm rounded focus:outline-none mb-2 cursor-pointer"
+          class="px-4 py-2 mb-2 text-sm rounded cursor-pointer focus:outline-none"
           :class="[ selectedCategory === category ? 'bg-forest-night text-white' : 'text-forest-night bg-rainy-grey hover:bg-grey-light focus:bg-grey-light']"
           @click="toggleCategory(category)"
         >
@@ -77,8 +89,8 @@
     </div>
 
     <!-- Modules list -->
-    <div class="container mx-auto px-4 sm:px-0">
-      <div class="flex flex-col sm:flex-row justify-between items-center">
+    <div class="container px-4 mx-auto sm:px-0">
+      <div class="flex flex-col items-center justify-between sm:flex-row">
         <!-- Clear filters -->
         <p class="mb-4 text-forest-night">
           {{ filteredModules.length }} module{{ filteredModules.length !== 1 ? 's' : '' }} found
@@ -90,24 +102,24 @@
             </p>
           </template>
         </p>
-        <div v-show="!q" class="mb-4 text-forest-night flex items-center">
+        <div v-show="!q" class="flex items-center mb-4 text-forest-night">
           <label for="options-menu" class="mr-3" @click="sortByMenuVisible = !sortByMenuVisible">Sort by</label>
           <div class="relative w-28">
             <button
               type="button"
-              class="border px-2 justify-center p-1 rounded-l-md hover:bg-rainy-grey focus:bg-rainy-grey focus:outline-none flex items-center hover:border-grey-light w-full"
+              class="flex items-center justify-center w-full p-1 px-2 border rounded-l-md hover:bg-rainy-grey focus:bg-rainy-grey focus:outline-none hover:border-grey-light"
               :class="sortByBtnClass"
               @click="sortByMenuVisible = !sortByMenuVisible"
             >
               {{ sortByComp.label }}
             </button>
-            <div v-show="sortByMenuVisible" class="origin-top-right absolute right-0 rounded-md shadow-lg z-10">
+            <div v-show="sortByMenuVisible" class="absolute right-0 z-10 origin-top-right rounded-md shadow-lg">
               <div id="options-menu" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                 <button
                   v-for="(option, key) in sortByOptions"
                   :key="key"
                   type="button"
-                  class="w-28 flex justify-center px-2 p-1 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none items-center rounded-b-md bg-white shadow-xs"
+                  class="flex items-center justify-center p-1 px-2 bg-white shadow-xs w-28 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none rounded-b-md"
                   @click="selectSortBy(key)"
                 >
                   {{ option.label }}
@@ -118,17 +130,17 @@
           <div class="relative">
             <button
               type="button"
-              class="p-2 border-l-0 hover:bg-rainy-grey focus:bg-rainy-grey focus:outline-none flex items-center border rounded-r-md"
+              class="flex items-center p-2 border border-l-0 hover:bg-rainy-grey focus:bg-rainy-grey focus:outline-none rounded-r-md"
               @click="toggleOrderBy"
             >
-              <icon-order-by :is-asc="orderBy === 'asc'" class="fill-current w-4 h-4" />
+              <icon-order-by :is-asc="orderBy === 'asc'" class="w-4 h-4 fill-current" />
             </button>
           </div>
         </div>
       </div>
       <!-- Module cards -->
-      <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-        <div v-for="module of pageFilteredModules" :key="module.name" class="relative flex flex-col bg-white transform transition-transform duration-150 ease-in-out shadow rounded-md overflow-hidden hover:shadow-lg hover:-translate-y-1">
+      <div class="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+        <div v-for="module of pageFilteredModules" :key="module.name" class="relative flex flex-col overflow-hidden transition-transform duration-150 ease-in-out transform bg-white rounded-md shadow hover:shadow-lg hover:-translate-y-1">
           <LazyHydrate when-visible>
             <card-module :module="module" />
           </LazyHydrate>
@@ -138,9 +150,9 @@
     </div>
 
     <!-- Footer -->
-    <footer class="container mx-auto flex flex-col justify-center pt-12 text-stone-green items-center">
-      <p>For more information on Nuxt modules, including how to create a module, check out our <a href="https://nuxtjs.org/guides/directory-structure/modules" rel="noopener" target="_blank" class="text-md leading-4 items-center space-x-1 text-grey border-b border-stone-green hover:text-green-500 hover:border-green-600">docs</a>.</p>
-      <div class="flex justify-center px-4 sm:px-0 pt-6 space-x-2">
+    <footer class="container flex flex-col items-center justify-center pt-12 mx-auto text-stone-green">
+      <p>For more information on Nuxt modules, including how to create a module, check out our <a href="https://nuxtjs.org/guides/directory-structure/modules" rel="noopener" target="_blank" class="items-center space-x-1 leading-4 border-b text-md text-grey border-stone-green hover:text-green-500 hover:border-green-600">docs</a>.</p>
+      <div class="flex justify-center px-4 pt-6 space-x-2 sm:px-0">
         <a href="https://vercel.com" rel="noopener" target="_blank" aria-label="go to vercel">
           <IconVercel alt="Vercel" />
         </a>
@@ -159,6 +171,7 @@ import categories from '~/categories'
 import CardModule from '~/components/CardModule.vue'
 import Observer from '~/components/Observer.vue'
 import { numberFormatter } from '~/utils/format.ts'
+import { isMobile } from '~/utils/detectUserAgent.ts'
 
 const sort = (a, b, asc) => asc ? a - b : b - a
 
@@ -333,6 +346,17 @@ export default {
     if (orderBy) {
       this.orderBy = orderBy
     }
+
+    // In case of desktop, auto focus the search input
+    if (!isMobile()) {
+      this.focusSearchInput()
+    }
+  },
+  beforeMount () {
+    window.addEventListener('keypress', this.searchFocusListener)
+  },
+  beforeDestroy () {
+    window.removeEventListener('keypress', this.searchFocusListener)
   },
   methods: {
     numberFormat (num, options = { precision: 1 }) {
@@ -385,6 +409,16 @@ export default {
     },
     resetModuleLoaded () {
       this.moduleLoaded = MODULE_INCREMENT_LOADING
+    },
+    searchFocusListener (event) {
+      // Add `/` shortcut for search input only if not already focused
+      if (event.keyCode === 47 && !(event.target instanceof HTMLInputElement)) {
+        event.preventDefault()
+        this.focusSearchInput()
+      }
+    },
+    focusSearchInput () {
+      this.$refs.searchModule.focus()
     }
   }
 }
