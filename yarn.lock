@@ -1206,14 +1206,15 @@
     html-minifier "^4.0.0"
     node-html-parser "^2.0.2"
 
-"@nuxt/image@^0.2.0-alpha.4":
-  version "0.2.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@nuxt/image/-/image-0.2.0-alpha.4.tgz#4c37f3eef66623f88a579338f273a3c2f4fe9b90"
-  integrity sha512-PPHwKM0jzH24b50N4mTEHgMMGDRd1/LMeTdM/+r5LkeOeJ2UHzJs+q7K8mzng2EmuZ3H3lCjfF/d7Ny7sJ36LQ==
+"@nuxt/image@^0.2.0-alpha.6":
+  version "0.2.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@nuxt/image/-/image-0.2.0-alpha.6.tgz#456a74494b8fd227e7da18a9a3ce7db090ac960c"
+  integrity sha512-e9blm3vbivnMxRDqV5lsUqg0tMusrA+/O28kn+zjLHNh+772LQxvr33U9qhhCxhz+VWUxcuIL2eRLzziiycQkQ==
   dependencies:
     allowlist "^0.1.1"
     consola "^2.15.0"
     defu "^3.2.2"
+    fs-extra "^9.0.1"
     hasha "^5.2.2"
     image-meta "^0.0.1"
     ipx "^0.4.8"
