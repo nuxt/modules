@@ -6,7 +6,7 @@
         <img alt="website" src="~/assets/icons/ext.svg" width="24" height="24">
       </div>
 
-      <nuxt-image
+      <nuxt-img
         :src="iconUrl(module)"
         :alt="module.name"
         class="w-10 h-10"
@@ -49,7 +49,7 @@
           target="_blank"
           rel="noopener"
         >
-          <nuxt-image
+          <nuxt-img
             class="w-6 h-6 relative rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100"
             :src="maintainer.avatar + '&s=24'"
             :alt="maintainer.name"
