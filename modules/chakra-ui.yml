@@ -1,14 +1,14 @@
 name: chakra-ui
-description: !<tag:yaml.org,2002:js/undefined> ''
+description: Chakra UI Module for Nuxt.js
 repo: chakra-ui/chakra-ui-vue
 npm: chakra-ui
 icon: chakra-ui.png
-github: 'https://github.com/chakra-ui/chakra-ui-vue'
-website: 'https://github.com/chakra-ui/chakra-ui-vue'
+github: 'https://github.com/chakra-ui/chakra-ui-vue/tree/develop/packages/chakra-ui-nuxt'
+website: 'https://vue.chakra-ui.com/with-nuxt'
 learn_more: ''
 category: UI
 type: 3rd-party
 maintainers:
-  - name: chakra-ui
-    github: chakra-ui
-    avatar: 'https://avatars0.githubusercontent.com/u/54212428?v=4'
+  - name: Jonathan Bakebwa
+    github: codebender828
+    avatar: 'https://avatars2.githubusercontent.com/u/21237954?s=400&u=8d33f80968b1e2582b530af74e26e4cb94d1a90b&v=4'
