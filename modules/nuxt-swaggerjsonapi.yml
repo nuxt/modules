@@ -3,8 +3,8 @@ description: 'Efficient development, fast copy and paste use for Nuxt.js'
 repo: 516310460/nuxt-swaggerjsonapi
 npm: nuxt-swaggerjsonapi
 icon: 'nuxt-swaggerjsonapi.png'
-github: 'https://github.com/516310460/SwarggerJSON-API'
-website: 'https://github.com/516310460/SwarggerJSON-API'
+github: 'https://github.com/516310460/nuxt-swaggerjsonapi'
+website: 'https://github.com/516310460/nuxt-swaggerjsonapi'
 learn_more: ''
 category: Request
 type: 3rd-party
