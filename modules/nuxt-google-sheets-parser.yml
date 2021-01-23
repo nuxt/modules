@@ -6,7 +6,7 @@ icon: nuxt-google-sheets-parser.svg
 github: 'https://github.com/fureweb-com/nuxt-google-sheets-parser'
 website: 'https://github.com/fureweb-com/nuxt-google-sheets-parser'
 learn_more: 'https://github.com/fureweb-com/nuxt-google-sheets-parser'
-category: 'Libraries'
+category: Libraries
 type: 3rd-party
 maintainers:
   - name: fureweb
