@@ -1,0 +1,14 @@
+name: nuxt-google-sheets-parser
+description: Public google sheets parser for nuxt.js
+repo: fureweb-com/nuxt-google-sheets-parser
+npm: nuxt-google-sheets-parser
+icon: nuxt-google-sheets-parser.svg
+github: 'https://github.com/fureweb-com/nuxt-google-sheets-parser'
+website: 'https://github.com/fureweb-com/nuxt-google-sheets-parser'
+learn_more: 'https://github.com/fureweb-com/nuxt-google-sheets-parser'
+category: 'Libraries'
+type: 3rd-party
+maintainers:
+  - name: fureweb
+    github: fureweb-com
+    avatar: 'https://avatars3.githubusercontent.com/u/22983900?v=4'
