@@ -1,14 +1,14 @@
 name: chiffre
-description: Chiffre Analytics for Nuxt.js
+description: 'Privacy-first, end-to-end encrypted analytics'
 repo: chiffre-io/nuxt-chiffre
 npm: nuxt-chiffre
-icon: 'ihttps://avatars.githubusercontent.com/u/58789215?v=4'
+icon: 'https://avatars.githubusercontent.com/u/58789215?v=4'
 github: 'https://github.com/chiffre-io/nuxt-chiffre'
 website: 'https://github.com/chiffre-io/nuxt-chiffre'
 learn_more: 'https://chiffre.io'
-category: 'analytics'
+category: 'Analytics'
 type: 3rd-party
 maintainers:
-  - name: chiffre-io
-    github: chiffre-io
-    avatar: 'https://avatars.githubusercontent.com/u/58789215?v=4'
+  - name: Romain Clement
+    github: rclement
+    avatar: 'https://avatars.githubusercontent.com/u/1238873?v=4'
