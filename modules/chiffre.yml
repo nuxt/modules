@@ -1,0 +1,14 @@
+name: chiffre
+description: Chiffre Analytics for Nuxt.js
+repo: chiffre-io/nuxt-chiffre
+npm: nuxt-chiffre
+icon: 'ihttps://avatars.githubusercontent.com/u/58789215?v=4'
+github: 'https://github.com/chiffre-io/nuxt-chiffre'
+website: 'https://github.com/chiffre-io/nuxt-chiffre'
+learn_more: 'https://chiffre.io'
+category: 'analytics'
+type: 3rd-party
+maintainers:
+  - name: chiffre-io
+    github: chiffre-io
+    avatar: 'https://avatars.githubusercontent.com/u/58789215?v=4'
