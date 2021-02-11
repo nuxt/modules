@@ -16,8 +16,8 @@ export default /* <NuxtConfig> */ {
     '@nuxt/image',
     // Doc: https://pwa.nuxtjs.org
     '@nuxtjs/pwa',
-    // Doc: https://github.com/bdrtsky/nuxt-ackee
-    'nuxt-ackee',
+    // Doc: https://github.com/moritzsternemann/vue-plausible
+    'vue-plausible',
     // Doc: https://html-validator.nuxtjs.org
     '@nuxtjs/html-validator'
   ],
@@ -38,9 +38,7 @@ export default /* <NuxtConfig> */ {
     description: 'Explore Nuxt Modules',
     theme_color: '#003c3c'
   },
-  ackee: {
-    server: 'https://ackee.nuxtjs.com',
-    domainId: 'ab823e69-2425-4a16-85c8-bd9b42d11e1e',
-    detailed: true
+  plausible: {
+    domain: 'modules.nuxtjs.org'
   }
 }
