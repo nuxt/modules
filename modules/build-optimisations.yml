@@ -2,11 +2,11 @@ name: build-optimisations
 description: Nuxt.js v2 module to automatically make your builds faster.
 repo: loonpwn/nuxt-build-optimisations
 npm: nuxt-build-optimisations
-icon: ''
+icon: build-optimisations.svg
 github: https://github.com/loonpwn/nuxt-build-optimisations
 website: https://github.com/loonpwn/nuxt-build-optimisations
 learn_more: ''
-category: 'Performance'
+category: 'Devtools'
 type: 3rd-party
 maintainers:
   - name: loonpwn
