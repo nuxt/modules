@@ -13,7 +13,8 @@
     "generate": "nuxt-ts generate",
     "release": "yarn cli version && npm publish",
     "start": "nuxt-ts start",
-    "sync": "yarn cli sync"
+    "sync": "yarn cli sync",
+    "lint": "yamllint modules/**"
   },
   "devDependencies": {
     "@nuxt/content": "^1.11.1",

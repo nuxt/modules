@@ -1,5 +1,5 @@
 name: svg-loader
-description: 'Nuxt SVG Loader - SVGs as components, also on the server side!'
+description: Nuxt SVG Loader - SVGs as components, also on the server side!
 repo: Developmint/nuxt-svg-loader
 npm: nuxt-svg-loader
 icon: ''

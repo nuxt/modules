@@ -1,0 +1,13 @@
+---
+
+extends: default
+
+rules:
+  line-length: disable
+  document-start: disable
+  quoted-strings:
+    required: only-when-needed
+    quote-type: single
+    extra-allowed: [^https://, ^http://, \', ':']
+
+

@@ -65,6 +65,16 @@ Then visit http://localhost:3000.
 
 In development, the npm downloads and GitHub stars will be mocked.
 
+#### Linting
+
+To run the yamllint locally you will need to install the binary on your machine. See [here](https://yamllint.readthedocs.io/en/stable/quickstart.html) for instructions.
+
+Once you have the yamllint binary you can run the linter manually with: 
+
+```
+yarn lint
+```
+
 ### Production
 
 Create a [personnal GitHub token](https://github.com/settings/tokens) (no scope selected) and add it to `.env`:

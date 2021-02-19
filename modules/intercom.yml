@@ -1,5 +1,5 @@
 name: intercom
-description: 'Conversational, messenger-based experiences with Intercom Module for Nuxt.js'
+description: Conversational, messenger-based experiences with Intercom Module for Nuxt.js
 repo: hex-digital/nuxt-intercom
 npm: '@hexdigital/nuxt-intercom'
 icon: intercom.png

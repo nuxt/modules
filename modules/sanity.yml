@@ -1,5 +1,5 @@
 name: sanity
-description: 'Access text, images, and other media with Nuxt.js and the Sanity headless CMS.'
+description: Access text, images, and other media with Nuxt.js and the Sanity headless CMS.
 repo: nuxt-community/sanity-module#main
 npm: '@nuxtjs/sanity'
 icon: sanity.png
