@@ -25,9 +25,6 @@ jobs:
       - name: checkout
         uses: actions/checkout@master
 
-      - name: debug
-        run: ls && pwd && echo $GITHUB_WORKSPACE
-
       - name: yaml-lint
         uses: ibiqlik/action-yamllint@v3
         with:
