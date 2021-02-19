@@ -1,11 +1,11 @@
 name: nuxt-use-sound
-description: "A Nuxt module for playing sound effects."
+description: 'A Nuxt module for playing sound effects'
 repo: Tahul/nuxt-use-sound
 npm: nuxt-use-sound
 icon: 'nuxt-use-sound.svg'
 github: 'https://github.com/Tahul/nuxt-use-sound'
 website: 'https://github.com/Tahul/nuxt-use-sound'
-learn_more: 'https://github.com/Tahul/vue-use-sound'
+learn_more: 'https://github.com/vueuse/sound'
 category: 'Libraries'
 type: 3rd-party
 maintainers:
