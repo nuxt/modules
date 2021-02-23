@@ -1,13 +1,13 @@
 name: web-vitals
 description: Web Vitals for Nuxt
 repo: nuxt-community/web-vitals-module
-npm: nuxt-vitals
+npm: '@nuxtjs/web-vitals'
 icon: ''
 github: 'https://github.com/nuxt-community/web-vitals-module'
 website: 'https://github.com/nuxt-community/web-vitals-module'
 learn_more: ''
 category: Performance
-type: 3rd-party
+type: community
 maintainers:
   - name: daliborgogic
     github: daliborgogic

@@ -2,11 +2,11 @@ name: fontagon
 description: Easy convert SVG from nuxt to icon font.
 repo: kdydesign/nuxt-fontagon
 npm: nuxt-fontagon
-icon: 'fontagon.png'
+icon: fontagon.png
 github: 'https://github.com/kdydesign/nuxt-fontagon'
 website: 'https://github.com/kdydesign/nuxt-fontagon'
 learn_more: ''
-category: 'Libraries'
+category: Libraries
 type: 3rd-party
 maintainers:
   - name: kdydesign
