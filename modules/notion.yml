@@ -1,4 +1,4 @@
-name: vue-notion
+name: notion
 description: 'Vue renderer for Notion pages'
 repo: janniks/vue-notion
 npm: vue-notion
