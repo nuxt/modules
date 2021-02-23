@@ -9,8 +9,8 @@
   "scripts": {
     "build": "yarn cli build",
     "cli": "jiti ./scripts/cli",
-    "dev": "nuxt-ts",
-    "generate": "nuxt-ts generate",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
     "release": "yarn cli version && npm publish",
     "start": "nuxt-ts start",
     "sync": "yarn cli sync"
@@ -20,7 +20,6 @@
     "@nuxt/image": "^0.4.1",
     "@nuxt/types": "^2.15.2",
     "@nuxt/typescript-build": "^2.0.5",
-    "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/eslint-config-typescript": "^5.0.0",
     "@nuxtjs/google-fonts": "^1.2.0",
     "@nuxtjs/html-validator": "^0.2.1",
@@ -46,7 +45,6 @@
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "ts-loader": "^8.0.17",
-    "ts-node": "^9.1.1",
     "typescript": "^4.1.5",
     "v-tooltip": "^2.1.2",
     "vue-lazy-hydration": "^2.0.0-beta.4",
