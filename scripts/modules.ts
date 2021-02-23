@@ -148,7 +148,7 @@ export async function getModule (name) {
 
   const file = resolve(modulesDir, name + '.yml')
   if (existsSync(file)) {
-    module = defu(yml.load(await readFile(file, 'utf-8')), module)
+    module = defu(yml.load(await readFile(file, 'utf-8')) as object, module)
   }
 
   return module
