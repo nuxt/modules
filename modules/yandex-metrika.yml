@@ -1,6 +1,6 @@
 name: yandex-metrika
 description: !<tag:yaml.org,2002:js/undefined> ''
-repo: nuxt-community/modules#master/packages/yandex-metrika
+repo: nuxt-community/yandex-metrika-module
 npm: '@nuxtjs/yandex-metrika'
 icon: ''
 github: 'https://github.com/nuxt-community/yandex-metrika-module'
