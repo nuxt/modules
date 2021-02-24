@@ -5,12 +5,12 @@ description: >-
 repo: AlekseyPleshkov/nuxt-social-meta
 npm: nuxt-social-meta
 icon: ''
-github: 'https://github.com/AlekseyPleshkov/nuxt-social-meta'
-website: 'https://github.com/AlekseyPleshkov/nuxt-social-meta'
+github: https://github.com/AlekseyPleshkov/nuxt-social-meta
+website: https://github.com/AlekseyPleshkov/nuxt-social-meta
 learn_more: ''
 category: SEO
 type: 3rd-party
 maintainers:
   - name: AlekseyPleshkov
     github: AlekseyPleshkov
-    avatar: 'https://avatars0.githubusercontent.com/u/11446603?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/11446603?v=4

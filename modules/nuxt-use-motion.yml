@@ -1,14 +1,14 @@
 name: nuxt-use-motion
-description: 'A Nuxt module putting your components in motion'
+description: A Nuxt module putting your components in motion
 repo: Tahul/nuxt-use-motion
 npm: nuxt-use-motion
-icon: 'nuxt-use-motion.svg'
-github: 'https://github.com/Tahul/nuxt-use-motion'
-website: 'https://github.com/Tahul/nuxt-use-motion'
-learn_more: 'https://github.com/vueuse/motion'
-category: 'Libraries'
+icon: nuxt-use-motion.svg
+github: https://github.com/Tahul/nuxt-use-motion
+website: https://github.com/Tahul/nuxt-use-motion
+learn_more: https://github.com/vueuse/motion
+category: Libraries
 type: 3rd-party
 maintainers:
   - name: Tahul
     github: Tahul
-    avatar: 'https://avatars0.githubusercontent.com/u/1385263?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/1385263?v=4

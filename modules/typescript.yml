@@ -3,20 +3,20 @@ description: TypeScript Support for Nuxt
 repo: nuxt/typescript#master/packages/typescript-build
 npm: '@nuxt/typescript-build'
 icon: typescript.svg
-github: 'https://github.com/nuxt/typescript/tree/master/packages/typescript-build'
-website: 'https://typescript.nuxtjs.org'
+github: https://github.com/nuxt/typescript/tree/master/packages/typescript-build
+website: https://typescript.nuxtjs.org
 learn_more: ''
 category: Devtools
 type: official
 maintainers:
   - name: Kevin Marrec
     github: kevinmarrec
-    avatar: 'https://avatars2.githubusercontent.com/u/25272043?v=4'
+    avatar: https://avatars2.githubusercontent.com/u/25272043?v=4
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
-    avatar: 'https://avatars1.githubusercontent.com/u/28706372?v=4'
+    avatar: https://avatars1.githubusercontent.com/u/28706372?v=4

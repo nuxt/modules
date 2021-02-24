@@ -3,12 +3,12 @@ description: Nuxt module for logging SSR errors + client-side Vue errors using w
 repo: aaronransley/nuxt-winston-log
 npm: nuxt-winston-log
 icon: winston.png
-github: 'https://github.com/aaronransley/nuxt-winston-log'
-website: 'https://github.com/aaronransley/nuxt-winston-log'
-learn_more: 'https://www.npmjs.com/package/winston'
+github: https://github.com/aaronransley/nuxt-winston-log
+website: https://github.com/aaronransley/nuxt-winston-log
+learn_more: https://www.npmjs.com/package/winston
 category: Monitoring
 type: 3rd-party
 maintainers:
   - name: aaronransley
     github: aaronransley
-    avatar: 'https://avatars0.githubusercontent.com/u/5669055?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/5669055?v=4

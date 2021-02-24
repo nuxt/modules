@@ -3,12 +3,12 @@ description: Guess.js module for Nuxt.js
 repo: nuxt-community/guess-module
 npm: '@nuxtjs/guess-module'
 icon: guessjs.png
-github: 'https://github.com/nuxt-community/guess-module'
-website: 'https://github.com/nuxt-community/guess-module'
-learn_more: 'https://guess-js.github.io/'
+github: https://github.com/nuxt-community/guess-module
+website: https://github.com/nuxt-community/guess-module
+learn_more: https://guess-js.github.io/
 category: Performance
 type: community
 maintainers:
   - name: Xin Du
     github: clarkdo
-    avatar: 'https://avatars3.githubusercontent.com/u/4312154?v=4'
+    avatar: https://avatars3.githubusercontent.com/u/4312154?v=4

@@ -3,12 +3,12 @@ description: Simple and easy Google reCAPTCHA module with Nuxt.js
 repo: nuxt-community/recaptcha-module
 npm: '@nuxtjs/recaptcha'
 icon: recaptcha.png
-github: 'https://github.com/nuxt-community/recaptcha-module'
-website: 'https://github.com/nuxt-community/recaptcha-module'
-learn_more: 'https://www.google.com/recaptcha/about/'
+github: https://github.com/nuxt-community/recaptcha-module
+website: https://github.com/nuxt-community/recaptcha-module
+learn_more: https://www.google.com/recaptcha/about/
 category: Security
 type: community
 maintainers:
   - name: mvrlin
     github: mvrlin
-    avatar: 'https://avatars1.githubusercontent.com/u/24970784?v=4'
+    avatar: https://avatars1.githubusercontent.com/u/24970784?v=4

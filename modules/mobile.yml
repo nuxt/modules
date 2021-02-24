@@ -5,12 +5,12 @@ description: >-
 repo: ChanningDefoe/nuxt-mobile-detect
 npm: nuxt-mobile
 icon: ''
-github: 'https://github.com/ChanningDefoe/nuxt-mobile-detect'
-website: 'https://github.com/ChanningDefoe/nuxt-mobile-detect'
-learn_more: 'https://github.com/hgoebl/mobile-detect.js'
+github: https://github.com/ChanningDefoe/nuxt-mobile-detect
+website: https://github.com/ChanningDefoe/nuxt-mobile-detect
+learn_more: https://github.com/hgoebl/mobile-detect.js
 category: Extensions
 type: 3rd-party
 maintainers:
   - name: ChanningDefoe
     github: ChanningDefoe
-    avatar: 'https://avatars1.githubusercontent.com/u/46541358?v=4'
+    avatar: https://avatars1.githubusercontent.com/u/46541358?v=4

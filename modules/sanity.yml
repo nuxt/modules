@@ -1,15 +1,15 @@
 name: sanity
-description: 'Access text, images, and other media with Nuxt.js and the Sanity headless CMS.'
+description: Access text, images, and other media with Nuxt.js and the Sanity headless CMS.
 repo: nuxt-community/sanity-module#main
 npm: '@nuxtjs/sanity'
 icon: sanity.png
-github: 'https://github.com/nuxt-community/sanity-module#main'
-website: 'https://sanity.nuxtjs.org'
-learn_more: 'https://www.sanity.io/'
+github: https://github.com/nuxt-community/sanity-module#main
+website: https://sanity.nuxtjs.org
+learn_more: https://www.sanity.io/
 category: CMS
 type: community
 maintainers:
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
-    avatar: 'https://avatars1.githubusercontent.com/u/28706372?v=4'
+    avatar: https://avatars1.githubusercontent.com/u/28706372?v=4

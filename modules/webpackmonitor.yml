@@ -3,13 +3,13 @@ description: Monitor Nuxt webpack optimization metrics through the development p
 repo: nuxt-community/webpackmonitor-module
 npm: '@nuxtjs/webpackmonitor'
 icon: webpack.png
-github: 'https://github.com/nuxt-community/webpackmonitor-module'
-website: 'https://github.com/nuxt-community/webpackmonitor-module'
-learn_more: 'http://webpackmonitor.com/'
+github: https://github.com/nuxt-community/webpackmonitor-module
+website: https://github.com/nuxt-community/webpackmonitor-module
+learn_more: http://webpackmonitor.com/
 category: Devtools
 type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4

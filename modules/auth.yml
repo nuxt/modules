@@ -3,8 +3,8 @@ description: Zero-boilerplate authentication support for Nuxt.js.
 repo: nuxt-community/auth-module
 npm: '@nuxtjs/auth'
 icon: auth.png
-github: 'https://github.com/nuxt-community/auth-module'
-website: 'https://dev.auth.nuxtjs.org/'
+github: https://github.com/nuxt-community/auth-module
+website: https://dev.auth.nuxtjs.org/
 learn_more: ''
 category: Security
 type: community
@@ -12,7 +12,7 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4
   - name: João Pedro Antunes Silva
     github: JoaoPedroAS51
-    avatar: 'https://avatars0.githubusercontent.com/u/15177236?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/15177236?v=4

@@ -3,12 +3,12 @@ description: Nuxt module for GitHub v4 API
 repo: lindsaykwardell/nuxt-github-api
 npm: nuxt-github-api
 icon: github.svg
-github: 'https://github.com/lindsaykwardell/nuxt-github-api'
-website: 'https://github.com/lindsaykwardell/nuxt-github-api'
+github: https://github.com/lindsaykwardell/nuxt-github-api
+website: https://github.com/lindsaykwardell/nuxt-github-api
 learn_more: ''
 category: Request
 type: 3rd-party
 maintainers:
   - name: lindsaykwardell
     github: lindsaykwardell
-    avatar: 'https://avatars0.githubusercontent.com/u/32229300?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/32229300?v=4

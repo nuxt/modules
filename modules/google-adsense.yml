@@ -3,12 +3,12 @@ description: Google Adsense Module for Nuxt.js
 repo: nuxt-community/google-adsense-module
 npm: '@nuxtjs/google-adsense'
 icon: google-adsense.png
-github: 'https://github.com/nuxt-community/google-adsense-module'
-website: 'https://github.com/nuxt-community/google-adsense-module'
-learn_more: 'https://www.google.com/adsense/start/'
+github: https://github.com/nuxt-community/google-adsense-module
+website: https://github.com/nuxt-community/google-adsense-module
+learn_more: https://www.google.com/adsense/start/
 category: Analytics
 type: community
 maintainers:
   - name: Troy Morehouse
     github: tmorehouse
-    avatar: 'https://avatars3.githubusercontent.com/u/2781561?v=4'
+    avatar: https://avatars3.githubusercontent.com/u/2781561?v=4

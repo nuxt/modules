@@ -5,12 +5,12 @@ description: >-
 repo: WilliamDASILVA/nuxt-stripe-module
 npm: nuxt-stripe-module
 icon: stripe.png
-github: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
-website: 'https://github.com/WilliamDASILVA/nuxt-stripe-module'
-learn_more: 'https://stripe.com/'
+github: https://github.com/WilliamDASILVA/nuxt-stripe-module
+website: https://github.com/WilliamDASILVA/nuxt-stripe-module
+learn_more: https://stripe.com/
 category: Payment
 type: 3rd-party
 maintainers:
   - name: WilliamDASILVA
     github: WilliamDASILVA
-    avatar: 'https://avatars3.githubusercontent.com/u/2766008?v=4'
+    avatar: https://avatars3.githubusercontent.com/u/2766008?v=4

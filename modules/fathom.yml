@@ -2,13 +2,13 @@ name: fathom
 description: Fathom analytics for Nuxt
 repo: yabhq/nuxt-fathom
 npm: '@yabhq/nuxt-fathom'
-icon: 'fathom.png'
-github: 'https://github.com/yabhq/nuxt-fathom'
-website: 'https://github.com/yabhq/nuxt-fathom'
-learn_more: 'https://usefathom.com/'
-category: 'Analytics'
+icon: fathom.png
+github: https://github.com/yabhq/nuxt-fathom
+website: https://github.com/yabhq/nuxt-fathom
+learn_more: https://usefathom.com/
+category: Analytics
 type: 3rd-party
 maintainers:
   - name: yabhq
     github: yabhq
-    avatar: 'https://avatars.githubusercontent.com/u/16291011?v=4'
+    avatar: https://avatars.githubusercontent.com/u/16291011?v=4

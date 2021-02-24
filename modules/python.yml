@@ -3,12 +3,12 @@ description: Write Nuxt.js applications using Python
 repo: nuxt-community/python-module
 npm: '@nuxtjs/python'
 icon: python.png
-github: 'https://github.com/nuxt-community/python-module'
-website: 'https://github.com/nuxt-community/python-module'
-learn_more: 'https://www.python.org/'
+github: https://github.com/nuxt-community/python-module
+website: https://github.com/nuxt-community/python-module
+learn_more: https://www.python.org/
 category: Extensions
 type: community
 maintainers:
   - name: Sebastian Silva
     github: icarito
-    avatar: 'https://avatars0.githubusercontent.com/u/199755?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/199755?v=4

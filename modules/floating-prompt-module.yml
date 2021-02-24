@@ -5,12 +5,12 @@ description: >-
 repo: sandoche/nuxt-floating-prompt-module#main
 npm: nuxt-floating-prompt-module
 icon: ''
-github: 'https://github.com/sandoche/nuxt-floating-prompt-module'
-website: 'https://github.com/sandoche/nuxt-floating-prompt-module'
+github: https://github.com/sandoche/nuxt-floating-prompt-module
+website: https://github.com/sandoche/nuxt-floating-prompt-module
 learn_more: ''
 category: Libraries
 type: 3rd-party
 maintainers:
   - name: sandoche
     github: sandoche
-    avatar: 'https://avatars2.githubusercontent.com/u/3635348?v=4'
+    avatar: https://avatars2.githubusercontent.com/u/3635348?v=4
