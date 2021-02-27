@@ -5,8 +5,8 @@ description: >-
 repo: nuxt/content#master/packages/content
 npm: '@nuxt/content'
 icon: content.png
-github: 'https://github.com/nuxt/content'
-website: 'https://content.nuxtjs.org'
+github: https://github.com/nuxt/content
+website: https://content.nuxtjs.org
 learn_more: ''
 category: CMS
 type: official
@@ -14,8 +14,8 @@ maintainers:
   - name: Benjamin Canac
     github: benjamincanac
     twitter: benjamincanac
-    avatar: 'https://avatars2.githubusercontent.com/u/739984?v=4'
+    avatar: https://avatars2.githubusercontent.com/u/739984?v=4
   - name: Sebastien Chopin
     github: Atinux
     twitter: Atinux
-    avatar: 'https://avatars2.githubusercontent.com/u/904724?v=4'
+    avatar: https://avatars2.githubusercontent.com/u/904724?v=4

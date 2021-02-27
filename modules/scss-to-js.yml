@@ -3,12 +3,12 @@ description: Load SCSS Variables into Nuxt instance for use in Templates/Scripts
 repo: sugoidesune/nuxt-scss-to-js
 npm: nuxt-scss-to-js
 icon: ''
-github: 'https://github.com/sugoidesune/nuxt-scss-to-js'
-website: 'https://github.com/sugoidesune/nuxt-scss-to-js'
+github: https://github.com/sugoidesune/nuxt-scss-to-js
+website: https://github.com/sugoidesune/nuxt-scss-to-js
 learn_more: ''
 category: CSS
 type: 3rd-party
 maintainers:
   - name: sugoidesune
     github: sugoidesune
-    avatar: 'https://avatars0.githubusercontent.com/u/20317691?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/20317691?v=4

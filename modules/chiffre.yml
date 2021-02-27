@@ -1,0 +1,14 @@
+name: chiffre
+description: Privacy-first, end-to-end encrypted analytics
+repo: chiffre-io/nuxt-chiffre
+npm: nuxt-chiffre
+icon: https://avatars.githubusercontent.com/u/58789215?v=4
+github: https://github.com/chiffre-io/nuxt-chiffre
+website: https://github.com/chiffre-io/nuxt-chiffre
+learn_more: https://chiffre.io
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Romain Clement
+    github: rclement
+    avatar: https://avatars.githubusercontent.com/u/1238873?v=4

@@ -5,12 +5,12 @@ description: >-
 repo: LuXDAmore/nuxt-prune-html
 npm: '@luxdamore/nuxt-prune-html'
 icon: ''
-github: 'https://github.com/LuXDAmore/nuxt-prune-html'
-website: 'https://luxdamore.github.io/nuxt-prune-html/'
+github: https://github.com/LuXDAmore/nuxt-prune-html
+website: https://luxdamore.github.io/nuxt-prune-html/
 learn_more: ''
 category: Performance
 type: 3rd-party
 maintainers:
   - name: LuXDAmore
     github: LuXDAmore
-    avatar: 'https://avatars0.githubusercontent.com/u/3841171?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/3841171?v=4

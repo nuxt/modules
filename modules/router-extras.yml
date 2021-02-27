@@ -3,8 +3,8 @@ description: Extra Add-ons for nuxt router
 repo: nuxt-community/router-extras-module
 npm: '@nuxtjs/router-extras'
 icon: vue.png
-github: 'https://github.com/nuxt-community/router-extras-module'
-website: 'https://github.com/nuxt-community/router-extras-module'
+github: https://github.com/nuxt-community/router-extras-module
+website: https://github.com/nuxt-community/router-extras-module
 learn_more: ''
 category: Extensions
 type: community
@@ -12,4 +12,4 @@ maintainers:
   - name: Ahad Birang
     github: farnabaz
     twitter: a_birang
-    avatar: 'https://avatars2.githubusercontent.com/u/2047945?v=4'
+    avatar: https://avatars2.githubusercontent.com/u/2047945?v=4

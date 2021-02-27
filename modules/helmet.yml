@@ -3,12 +3,12 @@ description: Easy Helmet module with Nuxt.js'
 repo: victor-perez/nuxt-helmet
 npm: nuxt-helmet
 icon: ''
-github: 'https://github.com/victor-perez/nuxt-helmet'
-website: 'https://github.com/victor-perez/nuxt-helmet'
-learn_more: 'https://helmetjs.github.io/'
+github: https://github.com/victor-perez/nuxt-helmet
+website: https://github.com/victor-perez/nuxt-helmet
+learn_more: https://helmetjs.github.io/
 category: Security
 type: 3rd-party
 maintainers:
   - name: victor-perez
     github: victor-perez
-    avatar: 'https://avatars1.githubusercontent.com/u/672958?v=4'
+    avatar: https://avatars1.githubusercontent.com/u/672958?v=4

@@ -3,13 +3,13 @@ description: Automatically validate Nuxt server-rendered HTML html
 repo: nuxt-community/html-validator-module
 npm: '@nuxtjs/html-validator'
 icon: html-validator.png
-github: 'https://github.com/nuxt-community/html-validator-module'
-website: 'https://html-validator.nuxtjs.org'
-learn_more: 'https://html-validate.org'
+github: https://github.com/nuxt-community/html-validator-module
+website: https://html-validator.nuxtjs.org
+learn_more: https://html-validate.org
 category: Performance
 type: community
 maintainers:
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
-    avatar: 'https://avatars1.githubusercontent.com/u/28706372?v=4'
+    avatar: https://avatars1.githubusercontent.com/u/28706372?v=4
