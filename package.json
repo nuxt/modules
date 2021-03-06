@@ -20,7 +20,7 @@
     "@nuxt/image": "^0.4.1",
     "@nuxt/types": "^2.15.2",
     "@nuxt/typescript-build": "^2.0.6",
-    "@nuxtjs/eslint-config-typescript": "^5.0.0",
+    "@nuxtjs/eslint-config-typescript": "^6.0.0",
     "@nuxtjs/google-fonts": "^1.2.0",
     "@nuxtjs/html-validator": "^0.2.1",
     "@nuxtjs/pwa": "^3.3.5",
