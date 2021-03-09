@@ -1,10 +1,10 @@
 name: supabase
 description: A supa simple way to use Supabase with Nuxt.js
-repo: scottrobertson/nuxt-supabase
+repo: supabase/nuxt-supabase
 npm: "nuxt-supabase"
 icon: supabase.png
-github: https://github.com/scottrobertson/nuxt-supabase
-website: https://github.com/scottrobertson/nuxt-supabase
+github: https://github.com/supabase/nuxt-supabase
+website: https://github.com/supabase/nuxt-supabase
 learn_more: https://supabase.io
 category: Database
 type: community
