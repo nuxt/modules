@@ -130,6 +130,7 @@
           <div class="relative">
             <button
               type="button"
+              aria-label="order by"
               class="flex items-center p-2 border border-l-0 hover:bg-rainy-grey focus:bg-rainy-grey focus:outline-none rounded-r-md"
               @click="toggleOrderBy"
             >
