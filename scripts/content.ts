@@ -12,7 +12,7 @@ export default function () {
       const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
       module.downloads = 0
       try {
-        const body = await got(`https://api.npmjs.org/downloads/point/last-month/${module.npm}`).json()
+        const body = await got(`https://api.npmjs.org/downloads/point/last-month/${module.npm}`).json() as any
         module.downloads = body.downloads
       } catch (err) {
         console.error(`Could not fetch NPM stats for ${module.npm}`, err.message)
