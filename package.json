@@ -13,7 +13,9 @@
     "generate": "nuxt generate",
     "release": "yarn cli version && npm publish",
     "start": "nuxt-ts start",
-    "sync": "yarn cli sync"
+    "lint": "eslint --ext .vue,.ts .",
+    "sync": "yarn cli sync",
+    "test": "yarn lint && yarn sync"
   },
   "devDependencies": {
     "@nuxt/content": "^1.14.0",
@@ -30,6 +32,7 @@
     "autoprefixer": "^10.2.5",
     "axios": "^0.21.1",
     "defu": "^3.2.2",
+    "eslint": "^7.22.0",
     "execa": "^5.0.0",
     "fs-extra": "^9.1.0",
     "fs-memo": "^1.2.0",

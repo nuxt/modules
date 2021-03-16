@@ -1,20 +1,22 @@
 import { sync, syncAll, build } from './modules'
 import { version } from './version'
 
-async function main() {
+async function main () {
   const [command, ...args] = process.argv.splice(2)
 
   switch (command) {
     case 'sync':
-      const [name, repo] = args
-      if (name) {
-        console.log('Syncing ' + (name === '-' ? repo : name))
-        const module = await sync(name, repo, true)
-        console.log('Synced', module.name)
-      } else {
-        console.log('Syncing all modules')
-        const modules = await syncAll()
-        console.log('Sync ' + modules.length + ' modules')
+      {
+        const [name, repo] = args
+        if (name) {
+          console.log('Syncing ' + (name === '-' ? repo : name))
+          const module = await sync(name, repo, true)
+          console.log('Synced', module.name)
+        } else {
+          console.log('Syncing all modules')
+          const modules = await syncAll()
+          console.log('Sync ' + modules.length + ' modules')
+        }
       }
       break
     case 'build':
@@ -29,7 +31,7 @@ async function main() {
   }
 }
 
-main().catch(err => {
+main().catch((err) => {
   console.error(err)
   process.exit(1)
 })
