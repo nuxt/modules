@@ -11,7 +11,7 @@ export default /* <NuxtConfig> */ {
   buildModules: [
     // https://tailwindcss.nuxtjs.org
     '@nuxtjs/tailwindcss',
-    //
+    // https://typescript.nuxtjs.org/
     '@nuxt/typescript-build',
     // https://image.nuxtjs.org
     '@nuxt/image',
@@ -41,6 +41,9 @@ export default /* <NuxtConfig> */ {
   },
   plausible: {
     domain: 'modules.nuxtjs.org'
+  },
+  typescript: {
+    typeCheck: false
   },
   tailwindcss: {
     jit: true
