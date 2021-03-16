@@ -9,21 +9,22 @@ export default /* <NuxtConfig> */ {
     }
   },
   buildModules: [
-    // Doc: https://tailwindcss.nuxtjs.org
+    // https://tailwindcss.nuxtjs.org
     '@nuxtjs/tailwindcss',
+    //
     '@nuxt/typescript-build',
-    // Doc: https://image.nuxtjs.org
+    // https://image.nuxtjs.org
     '@nuxt/image',
-    // Doc: https://pwa.nuxtjs.org
+    // https://pwa.nuxtjs.org
     '@nuxtjs/pwa',
-    // Doc: https://github.com/moritzsternemann/vue-plausible
+    // https://github.com/moritzsternemann/vue-plausible
     'vue-plausible',
-    // Doc: https://html-validator.nuxtjs.org
+    // https://html-validator.nuxtjs.org
     '@nuxtjs/html-validator'
   ],
   modules: [
+    // https://content.nuxtjs.org
     '~/scripts/content',
-    // Doc: https://content.nuxtjs.org
     '@nuxt/content'
   ],
   plugins: [
@@ -40,5 +41,8 @@ export default /* <NuxtConfig> */ {
   },
   plausible: {
     domain: 'modules.nuxtjs.org'
+  },
+  tailwindcss: {
+    jit: true
   }
 }
