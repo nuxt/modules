@@ -1,6 +1,6 @@
-// import { NuxtConfig } from '@nuxt/types'
+import { NuxtConfig } from '@nuxt/types'
 
-export default /* <NuxtConfig> */ {
+export default <NuxtConfig> {
   target: 'static',
   components: true,
   build: {
