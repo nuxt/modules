@@ -5,12 +5,12 @@ description: >-
 repo: paulgv/nuxt-webpackdashboard
 npm: nuxt-webpackdashboard
 icon: webpack.png
-github: 'https://github.com/paulgv/nuxt-webpackdashboard'
-website: 'https://github.com/paulgv/nuxt-webpackdashboard'
-learn_more: 'https://github.com/FormidableLabs/webpack-dashboard'
+github: https://github.com/paulgv/nuxt-webpackdashboard
+website: https://github.com/paulgv/nuxt-webpackdashboard
+learn_more: https://github.com/FormidableLabs/webpack-dashboard
 category: Devtools
 type: 3rd-party
 maintainers:
   - name: paulgv
     github: paulgv
-    avatar: 'https://avatars0.githubusercontent.com/u/4895885?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/4895885?v=4

@@ -1,6 +1,6 @@
-// import { NuxtConfig } from '@nuxt/types'
+import { NuxtConfig } from '@nuxt/types'
 
-export default /* <NuxtConfig> */ {
+export default <NuxtConfig> {
   target: 'static',
   components: true,
   build: {
@@ -9,21 +9,22 @@ export default /* <NuxtConfig> */ {
     }
   },
   buildModules: [
-    // Doc: https://tailwindcss.nuxtjs.org
+    // https://tailwindcss.nuxtjs.org
     '@nuxtjs/tailwindcss',
+    // https://typescript.nuxtjs.org/
     '@nuxt/typescript-build',
-    // Doc: https://image.nuxtjs.org
+    // https://image.nuxtjs.org
     '@nuxt/image',
-    // Doc: https://pwa.nuxtjs.org
+    // https://pwa.nuxtjs.org
     '@nuxtjs/pwa',
-    // Doc: https://github.com/bdrtsky/nuxt-ackee
-    'nuxt-ackee',
-    // Doc: https://html-validator.nuxtjs.org
+    // https://github.com/moritzsternemann/vue-plausible
+    'vue-plausible',
+    // https://html-validator.nuxtjs.org
     '@nuxtjs/html-validator'
   ],
   modules: [
+    // https://content.nuxtjs.org
     '~/scripts/content',
-    // Doc: https://content.nuxtjs.org
     '@nuxt/content'
   ],
   plugins: [
@@ -38,9 +39,13 @@ export default /* <NuxtConfig> */ {
     description: 'Explore Nuxt Modules',
     theme_color: '#003c3c'
   },
-  ackee: {
-    server: 'https://ackee.nuxtjs.com',
-    domainId: 'ab823e69-2425-4a16-85c8-bd9b42d11e1e',
-    detailed: true
+  plausible: {
+    domain: 'modules.nuxtjs.org'
+  },
+  typescript: {
+    typeCheck: false
+  },
+  tailwindcss: {
+    jit: true
   }
 }

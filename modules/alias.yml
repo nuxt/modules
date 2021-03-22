@@ -3,12 +3,12 @@ description: It automatically creates an alias for the components and page of th
 repo: kdydesign/nuxt-alias-module
 npm: nuxt-alias
 icon: ''
-github: 'https://github.com/kdydesign/nuxt-alias-module'
-website: 'https://github.com/kdydesign/nuxt-alias-module'
+github: https://github.com/kdydesign/nuxt-alias-module
+website: https://github.com/kdydesign/nuxt-alias-module
 learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
   - name: kdydesign
     github: kdydesign
-    avatar: 'https://avatars3.githubusercontent.com/u/10152521?v=4'
+    avatar: https://avatars3.githubusercontent.com/u/10152521?v=4

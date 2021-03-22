@@ -3,13 +3,13 @@ description: Optimize images and videos in your Nuxt.js application
 repo: nuxt-community/cloudinary-module
 npm: '@nuxtjs/cloudinary'
 icon: cloudinary.png
-github: 'https://github.com/nuxt-community/cloudinary-module'
-website: 'https://cloudinary.nuxtjs.org'
-learn_more: 'https://cloudinary.com'
+github: https://github.com/nuxt-community/cloudinary-module
+website: https://cloudinary.nuxtjs.org
+learn_more: https://cloudinary.com
 category: Images
 type: community
 maintainers:
   - name: Maya Shavin
     github: mayashavin
     twitter: MayaShavin
-    avatar: 'https://avatars3.githubusercontent.com/u/6650139?v=4'
+    avatar: https://avatars3.githubusercontent.com/u/6650139?v=4

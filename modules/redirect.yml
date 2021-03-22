@@ -3,8 +3,8 @@ description: Nuxt module to dynamically redirect initial requests
 repo: nuxt-community/redirect-module
 npm: '@nuxtjs/redirect-module'
 icon: ''
-github: 'https://github.com/nuxt-community/redirect-module'
-website: 'https://github.com/nuxt-community/redirect-module'
+github: https://github.com/nuxt-community/redirect-module
+website: https://github.com/nuxt-community/redirect-module
 learn_more: ''
 category: SEO
 type: community
@@ -12,4 +12,4 @@ maintainers:
   - name: Alexander Lichter
     github: manniL
     twitter: TheAlexLichter
-    avatar: 'https://avatars0.githubusercontent.com/u/640208?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/640208?v=4

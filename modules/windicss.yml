@@ -1,0 +1,15 @@
+name: windicss
+description: Next generation Tailwind CSS compiler
+repo: windicss/nuxt-windicss-module
+npm: nuxt-windicss
+icon: windicss.svg
+github: https://github.com/windicss/nuxt-windicss-module
+website: https://github.com/windicss/nuxt-windicss-module
+learn_more: https://windicss.org/
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Harlan Wilton
+    github: loonpwn
+    twitter: harlan_zw
+    avatar: https://avatars.githubusercontent.com/u/5326365?v=4

@@ -3,12 +3,12 @@ description: Helps to load fonts and activate them by preloading.
 repo: GrabarzUndPartner/nuxt-font-loader-strategy
 npm: nuxt-font-loader-strategy
 icon: ''
-github: 'https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy'
-website: 'https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy'
+github: https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy
+website: https://github.com/GrabarzUndPartner/nuxt-font-loader-strategy
 learn_more: ''
 category: Fonts
 type: 3rd-party
 maintainers:
   - name: GrabarzUndPartner
     github: GrabarzUndPartner
-    avatar: 'https://avatars3.githubusercontent.com/u/28385672?v=4'
+    avatar: https://avatars3.githubusercontent.com/u/28385672?v=4

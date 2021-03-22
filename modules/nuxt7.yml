@@ -3,13 +3,13 @@ description: Full Featured iOS & Android PWA Apps with Nuxt.js and Framework7
 repo: nuxt-community/nuxt7
 npm: nuxt7
 icon: ''
-github: 'https://github.com/nuxt-community/nuxt7'
-website: 'https://github.com/nuxt-community/nuxt7'
-learn_more: 'https://framework7.io/'
+github: https://github.com/nuxt-community/nuxt7
+website: https://github.com/nuxt-community/nuxt7
+learn_more: https://framework7.io/
 category: UI
 type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4

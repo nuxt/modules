@@ -5,12 +5,12 @@ description: >-
 repo: vanhoofmaarten/nuxt-mq
 npm: nuxt-mq
 icon: ''
-github: 'https://github.com/vanhoofmaarten/nuxt-mq'
-website: 'https://github.com/vanhoofmaarten/nuxt-mq'
-learn_more: 'https://github.com/AlexandreBonaventure/vue-mq'
+github: https://github.com/vanhoofmaarten/nuxt-mq
+website: https://github.com/vanhoofmaarten/nuxt-mq
+learn_more: https://github.com/AlexandreBonaventure/vue-mq
 category: Libraries
 type: 3rd-party
 maintainers:
   - name: vanhoofmaarten
     github: vanhoofmaarten
-    avatar: 'https://avatars1.githubusercontent.com/u/2543633?v=4'
+    avatar: https://avatars1.githubusercontent.com/u/2543633?v=4

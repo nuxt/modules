@@ -3,12 +3,12 @@ description: nuxt contentful module
 repo: scaccogatto/contentful-module
 npm: contentful-module
 icon: contentful.png
-github: 'https://github.com/scaccogatto/contentful-module'
-website: 'https://github.com/scaccogatto/contentful-module'
-learn_more: 'https://www.contentful.com/'
+github: https://github.com/scaccogatto/contentful-module
+website: https://github.com/scaccogatto/contentful-module
+learn_more: https://www.contentful.com/
 category: CMS
 type: 3rd-party
 maintainers:
   - name: scaccogatto
     github: scaccogatto
-    avatar: 'https://avatars3.githubusercontent.com/u/3670888?v=4'
+    avatar: https://avatars3.githubusercontent.com/u/3670888?v=4

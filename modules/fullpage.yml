@@ -3,12 +3,12 @@ description: Nuxt module for fullpage-vue plugin
 repo: vaso2/fullpage-nuxt
 npm: fullpage-nuxt
 icon: ''
-github: 'https://github.com/vaso2/fullpage-nuxt'
-website: 'https://github.com/vaso2/fullpage-nuxt'
+github: https://github.com/vaso2/fullpage-nuxt
+website: https://github.com/vaso2/fullpage-nuxt
 learn_more: ''
 category: CSS
 type: 3rd-party
 maintainers:
   - name: vaso2
     github: vaso2
-    avatar: 'https://avatars3.githubusercontent.com/u/4008122?v=4'
+    avatar: https://avatars3.githubusercontent.com/u/4008122?v=4

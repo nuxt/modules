@@ -5,15 +5,15 @@ description: >-
 repo: nuxt-community/i18n-module
 npm: nuxt-i18n
 icon: i18n.png
-github: 'https://github.com/nuxt-community/i18n-module'
-website: 'https://i18n.nuxtjs.org'
-learn_more: 'https://kazupon.github.io/vue-i18n/'
+github: https://github.com/nuxt-community/i18n-module
+website: https://i18n.nuxtjs.org
+learn_more: https://kazupon.github.io/vue-i18n/
 category: Extensions
 type: community
 maintainers:
   - name: Rafał Chłodnicki
     github: rchl
-    avatar: 'https://avatars1.githubusercontent.com/u/153197?v=4'
+    avatar: https://avatars1.githubusercontent.com/u/153197?v=4
   - name: Paul Gascou-Vaillancourt
     github: paulgv
-    avatar: 'https://avatars0.githubusercontent.com/u/4895885?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/4895885?v=4

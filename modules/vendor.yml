@@ -3,8 +3,8 @@ description: directly serve node_modules
 repo: nuxt-community/modules#master/packages/vendor
 npm: '@nuxtjs/vendor'
 icon: ''
-github: 'https://github.com/nuxt-community/modules/tree/master/packages/vendor'
-website: 'https://github.com/nuxt-community/modules/tree/master/packages/vendor'
+github: https://github.com/nuxt-community/modules/tree/master/packages/vendor
+website: https://github.com/nuxt-community/modules/tree/master/packages/vendor
 learn_more: ''
 category: Extensions
 type: community
@@ -12,4 +12,4 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4

@@ -5,12 +5,12 @@ description: >-
 repo: gaelreyrol/nuxt-rollbar-module
 npm: nuxt-rollbar-module
 icon: rollbar.png
-github: 'https://github.com/gaelreyrol/nuxt-rollbar-module'
-website: 'https://github.com/gaelreyrol/nuxt-rollbar-module'
-learn_more: 'https://docs.rollbar.com/docs/javascript'
+github: https://github.com/gaelreyrol/nuxt-rollbar-module
+website: https://github.com/gaelreyrol/nuxt-rollbar-module
+learn_more: https://docs.rollbar.com/docs/javascript
 category: Monitoring
 type: 3rd-party
 maintainers:
   - name: Gaël Reyrol
     github: gaelreyrol
-    avatar: 'https://avatars1.githubusercontent.com/u/498465?v=4'
+    avatar: https://avatars1.githubusercontent.com/u/498465?v=4

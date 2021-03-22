@@ -5,12 +5,12 @@ description: >-
 repo: ezypeeze/nuxt-neo
 npm: nuxt-neo
 icon: ''
-github: 'https://github.com/ezypeeze/nuxt-neo'
-website: 'https://ezypeeze.github.io/nuxt-neo'
+github: https://github.com/ezypeeze/nuxt-neo
+website: https://ezypeeze.github.io/nuxt-neo
 learn_more: ''
 category: Request
 type: 3rd-party
 maintainers:
   - name: ezypeeze
     github: ezypeeze
-    avatar: 'https://avatars0.githubusercontent.com/u/10672637?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/10672637?v=4

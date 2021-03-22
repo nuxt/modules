@@ -3,8 +3,8 @@ description: Nuxt.js module to use router.js instead of pages/ directory
 repo: nuxt-community/router-module
 npm: '@nuxtjs/router'
 icon: vue.png
-github: 'https://github.com/nuxt-community/router-module'
-website: 'https://github.com/nuxt-community/router-module'
+github: https://github.com/nuxt-community/router-module
+website: https://github.com/nuxt-community/router-module
 learn_more: ''
 category: Extensions
 type: community
@@ -12,4 +12,4 @@ maintainers:
   - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
-    avatar: 'https://avatars2.githubusercontent.com/u/904724?v=4'
+    avatar: https://avatars2.githubusercontent.com/u/904724?v=4
