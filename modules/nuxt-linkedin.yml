@@ -1,0 +1,15 @@
+name: nuxt-linkedin
+description: Linkedin Insight Tag Module for Nuxt.js
+repo: devsourceid/nuxt-linkedin
+npm: 'nuxt-linkedin'
+icon: nuxt-linkedin.png
+github: https://github.com/devsourceid/nuxt-linkedin
+website: https://github.com/devsourceid/nuxt-linkedin
+learn_more: ''
+category: Analytics
+type: community
+maintainers:
+  - name: Hamjs
+    github: devsourceid
+    twitter: ywskarepmu
+    avatar: https://avatars0.githubusercontent.com/u/35456489?v=4
