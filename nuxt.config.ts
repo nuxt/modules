@@ -47,5 +47,18 @@ export default <NuxtConfig> {
   },
   tailwindcss: {
     jit: true
+  },
+  image: {
+    vercel: {},
+    screens: {
+      icon: 40,
+      avatar: 24
+    },
+    domains: [
+      'avatars0.githubusercontent.com',
+      'avatars1.githubusercontent.com',
+      'avatars2.githubusercontent.com',
+      'avatars3.githubusercontent.com'
+    ]
   }
 }
