@@ -1,0 +1,15 @@
+name: supabase
+description: A supa simple way to use Supabase with Nuxt
+repo: supabase/nuxt-supabase
+npm: nuxt-supabase
+icon: supabase.png
+github: https://github.com/supabase/nuxt-supabase
+website: https://github.com/supabase/nuxt-supabase
+learn_more: https://supabase.io
+category: Database
+type: 3rd-party
+maintainers:
+  - name: Scott Robertson
+    github: scottrobertson
+    twitter: scottymeuk
+    avatar: https://avatars0.githubusercontent.com/u/68361?v=4
