@@ -47,7 +47,7 @@
     "nuxt-edge": "^2.16.0-27012971.cd1fc627",
     "postcss": "^8.2.15",
     "tailwindcss": "^2.1.2",
-    "ts-loader": "^9.1.2",
+    "ts-loader": "^8.2.0",
     "typescript": "^4.2.4",
     "v-tooltip": "^2.1.3",
     "vue-lazy-hydration": "^2.0.0-beta.4",
