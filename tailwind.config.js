@@ -1,6 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
+  mode: 'jit',
   theme: {
     extend: {
       fontFamily: {
@@ -39,8 +40,8 @@ module.exports = {
         13: '13px'
       },
       lineHeight: {
-        '14': '0.875rem',
-       }
+        14: '0.875rem'
+      }
     }
   },
   variants: {
