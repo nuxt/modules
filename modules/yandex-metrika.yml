@@ -1,15 +1,15 @@
 name: yandex-metrika
-description: !<tag:yaml.org,2002:js/undefined> ''
-repo: nuxt-community/modules#master/packages/yandex-metrika
+description: Yandex metrika Module for Nuxt.js
+repo: nuxt-community/yandex-metrika-module
 npm: '@nuxtjs/yandex-metrika'
 icon: ''
-github: 'https://github.com/nuxt-community/modules/tree/master/packages/yandex-metrika'
-website: 'https://github.com/nuxt-community/modules/tree/master/packages/yandex-metrika'
-learn_more: 'https://metrica.yandex.com/about'
+github: https://github.com/nuxt-community/yandex-metrika-module
+website: https://github.com/nuxt-community/yandex-metrika-module
+learn_more: https://metrica.yandex.com/about
 category: Analytics
 type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4

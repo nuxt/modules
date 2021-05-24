@@ -5,13 +5,13 @@ description: >-
 repo: nuxt-community/tailwindcss-module
 npm: '@nuxtjs/tailwindcss'
 icon: tailwindcss.png
-github: 'https://github.com/nuxt-community/tailwindcss-module'
-website: 'https://tailwindcss.nuxtjs.org'
-learn_more: 'https://tailwindcss.com/'
+github: https://github.com/nuxt-community/tailwindcss-module
+website: https://tailwindcss.nuxtjs.org
+learn_more: https://tailwindcss.com/
 category: UI
 type: community
 maintainers:
   - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
-    avatar: 'https://avatars2.githubusercontent.com/u/904724?v=4'
+    avatar: https://avatars2.githubusercontent.com/u/904724?v=4

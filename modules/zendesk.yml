@@ -3,12 +3,12 @@ description: Nuxt.js module for Zendesk
 repo: DansMaCulotte/nuxt-zendesk
 npm: '@dansmaculotte/nuxt-zendesk'
 icon: zendesk.png
-github: 'https://github.com/DansMaCulotte/nuxt-zendesk'
-website: 'https://github.com/DansMaCulotte/nuxt-zendesk'
-learn_more: 'https://developer.zendesk.com/embeddables/docs/widget/introduction'
+github: https://github.com/DansMaCulotte/nuxt-zendesk
+website: https://github.com/DansMaCulotte/nuxt-zendesk
+learn_more: https://developer.zendesk.com/embeddables/docs/widget/introduction
 category: Ecommerce
 type: 3rd-party
 maintainers:
   - name: DansMaCulotte
     github: DansMaCulotte
-    avatar: 'https://avatars1.githubusercontent.com/u/44588441?v=4'
+    avatar: https://avatars1.githubusercontent.com/u/44588441?v=4

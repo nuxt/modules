@@ -3,13 +3,13 @@ description: The Next Generation of CSS-in-JS for Nuxt.js
 repo: nuxt-community/emotion-module
 npm: '@nuxtjs/emotion'
 icon: emotion.png
-github: 'https://github.com/nuxt-community/emotion-module'
-website: 'https://github.com/nuxt-community/emotion-module'
-learn_more: 'https://emotion.sh/'
-category: Devtools
+github: https://github.com/nuxt-community/emotion-module
+website: https://github.com/nuxt-community/emotion-module
+learn_more: https://emotion.sh/
+category: Extensions
 type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4

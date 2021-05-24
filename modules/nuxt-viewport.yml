@@ -1,0 +1,14 @@
+name: nuxt-viewport
+description: Define custom viewports for your Nuxt project
+repo: mvrlin/nuxt-viewport
+npm: nuxt-viewport
+icon: nuxt-viewport.svg
+github: https://github.com/mvrlin/nuxt-viewport
+website: https://github.com/mvrlin/nuxt-viewport
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: mvrlin
+    github: mvrlin
+    avatar: https://avatars.githubusercontent.com/u/24970784?v=4

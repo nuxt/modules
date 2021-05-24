@@ -1,15 +1,15 @@
 name: markdownit
 description: Use Markdown in your Nuxt application with the markdownit-loader
-repo: nuxt-community/modules#master/packages/markdownit
+repo: nuxt-community/markdownit-module
 npm: '@nuxtjs/markdownit'
 icon: ''
-github: 'https://github.com/nuxt-community/modules/tree/master/packages/markdownit'
-website: 'https://github.com/nuxt-community/modules/tree/master/packages/markdownit'
-learn_more: 'https://github.com/markdown-it/markdown-it'
-category: Devtools
+github: https://github.com/nuxt-community/markdownit-module
+website: https://github.com/nuxt-community/markdownit-module
+learn_more: https://github.com/markdown-it/markdown-it
+category: Extensions
 type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4

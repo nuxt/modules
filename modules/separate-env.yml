@@ -3,13 +3,13 @@ description: Separated environment variables for server and client builds
 repo: nuxt-community/separate-env-module
 npm: '@nuxtjs/separate-env'
 icon: ''
-github: 'https://github.com/nuxt-community/separate-env-module'
-website: 'https://github.com/nuxt-community/separate-env-module'
+github: https://github.com/nuxt-community/separate-env-module
+website: https://github.com/nuxt-community/separate-env-module
 learn_more: ''
-category: Devtools
+category: Extensions
 type: community
 maintainers:
   - name: Alexander Lichter
     github: manniL
     twitter: TheAlexLichter
-    avatar: 'https://avatars0.githubusercontent.com/u/640208?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/640208?v=4

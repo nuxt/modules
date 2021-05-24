@@ -1,15 +1,15 @@
 name: component-cache
 description: LRU component cache for vue components
-repo: nuxt-community/modules#master/packages/component-cache
+repo: nuxt-community/component-cache-module
 npm: '@nuxtjs/component-cache'
 icon: ''
-github: 'https://github.com/nuxt-community/modules/tree/master/packages/component-cache'
-website: 'https://github.com/nuxt-community/modules/tree/master/packages/component-cache'
-learn_more: 'https://ssr.vuejs.org/guide/caching.html#component-level-caching'
+github: https://github.com/nuxt-community/component-cache-module
+website: https://github.com/nuxt-community/component-cache-module
+learn_more: https://ssr.vuejs.org/guide/caching.html#component-level-caching
 category: Performance
 type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4

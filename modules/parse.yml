@@ -3,12 +3,12 @@ description: Parse package for Nuxt.js
 repo: cierrateam/nuxt-parse
 npm: nuxt-parse
 icon: ''
-github: 'https://github.com/cierrateam/nuxt-parse'
-website: 'https://github.com/cierrateam/nuxt-parse'
+github: https://github.com/cierrateam/nuxt-parse
+website: https://github.com/cierrateam/nuxt-parse
 learn_more: ''
 category: Security
 type: 3rd-party
 maintainers:
   - name: cierrateam
     github: cierrateam
-    avatar: 'https://avatars3.githubusercontent.com/u/42889913?v=4'
+    avatar: https://avatars3.githubusercontent.com/u/42889913?v=4

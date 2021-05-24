@@ -3,13 +3,13 @@ description: AMP (Accelerated Mobile Pages) module for Nuxt
 repo: nuxt-community/amp-module
 npm: '@nuxtjs/amp'
 icon: amp.png
-github: 'https://github.com/nuxt-community/amp-module'
-website: 'https://github.com/nuxt-community/amp-module'
-learn_more: 'https://amp.dev/'
+github: https://github.com/nuxt-community/amp-module
+website: https://github.com/nuxt-community/amp-module
+learn_more: https://amp.dev/
 category: Performance
 type: community
 maintainers:
   - name: Ahad Birang
     github: farnabaz
     twitter: a_birang
-    avatar: 'https://avatars2.githubusercontent.com/u/2047945?v=4'
+    avatar: https://avatars2.githubusercontent.com/u/2047945?v=4

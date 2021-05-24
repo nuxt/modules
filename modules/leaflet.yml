@@ -3,12 +3,12 @@ description: A Nuxt module which makes it easy to create reactive maps with Leaf
 repo: schlunsen/nuxt-leaflet
 npm: nuxt-leaflet
 icon: leaflet.png
-github: 'https://github.com/schlunsen/nuxt-leaflet'
-website: 'https://github.com/schlunsen/nuxt-leaflet'
-learn_more: 'https://vue2-leaflet.netlify.app/quickstart/'
-category: Devtools
+github: https://github.com/schlunsen/nuxt-leaflet
+website: https://github.com/schlunsen/nuxt-leaflet
+learn_more: https://vue2-leaflet.netlify.app/quickstart/
+category: Libraries
 type: 3rd-party
 maintainers:
   - name: schlunsen
     github: schlunsen
-    avatar: 'https://avatars3.githubusercontent.com/u/117190?v=4'
+    avatar: https://avatars3.githubusercontent.com/u/117190?v=4

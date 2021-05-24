@@ -5,13 +5,13 @@ description: >-
 repo: nuxt-community/mdx-module
 npm: '@nuxtjs/mdx'
 icon: mdx.png
-github: 'https://github.com/nuxt-community/mdx-module'
-website: 'https://mdx.nuxtjs.org'
-learn_more: 'https://mdxjs.com/'
-category: Devtools
+github: https://github.com/nuxt-community/mdx-module
+website: https://mdx.nuxtjs.org
+learn_more: https://mdxjs.com/
+category: Extensions
 type: community
 maintainers:
   - name: Jonathan Bakebwa
     github: codebender828
     twitter: codebender828
-    avatar: 'https://avatars2.githubusercontent.com/u/21237954?v=4'
+    avatar: https://avatars2.githubusercontent.com/u/21237954?v=4

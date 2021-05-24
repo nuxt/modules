@@ -5,12 +5,12 @@ description: >-
 repo: mustardamus/nuxt-bulma-slim
 npm: nuxt-bulma-slim
 icon: bulma.png
-github: 'https://github.com/mustardamus/nuxt-bulma-slim'
-website: 'https://github.com/mustardamus/nuxt-bulma-slim'
-learn_more: 'https://bulma.io/'
+github: https://github.com/mustardamus/nuxt-bulma-slim
+website: https://github.com/mustardamus/nuxt-bulma-slim
+learn_more: https://bulma.io/
 category: UI
 type: 3rd-party
 maintainers:
   - name: mustardamus
     github: mustardamus
-    avatar: 'https://avatars1.githubusercontent.com/u/110802?v=4'
+    avatar: https://avatars1.githubusercontent.com/u/110802?v=4

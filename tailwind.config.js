@@ -34,7 +34,13 @@ module.exports = {
       },
       ringWidth: {
         3: '3px'
-      }
+      },
+      inset: {
+        13: '13px'
+      },
+      lineHeight: {
+        '14': '0.875rem',
+       }
     }
   },
   variants: {

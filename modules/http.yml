@@ -3,8 +3,8 @@ description: Universal HTTP Module for Nuxt.js
 repo: nuxt/http
 npm: '@nuxt/http'
 icon: http.png
-github: 'https://github.com/nuxt/http'
-website: 'https://http.nuxtjs.org/'
+github: https://github.com/nuxt/http
+website: https://http.nuxtjs.org/
 learn_more: ''
 category: Request
 type: official
@@ -12,8 +12,8 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4
   - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
-    avatar: 'https://avatars2.githubusercontent.com/u/904724?v=4'
+    avatar: https://avatars2.githubusercontent.com/u/904724?v=4

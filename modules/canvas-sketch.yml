@@ -3,12 +3,12 @@ description: Nuxt.js module for canvas sketch for creating generative art in Jav
 repo: LuXDAmore/generative-art
 npm: '@luxdamore/nuxt-canvas-sketch'
 icon: ''
-github: 'https://github.com/LuXDAmore/generative-art'
-website: 'https://github.com/LuXDAmore/generative-art'
-learn_more: 'https://github.com/mattdesl/canvas-sketch/blob/master/docs/README.md'
+github: https://github.com/LuXDAmore/generative-art
+website: https://github.com/LuXDAmore/generative-art
+learn_more: https://github.com/mattdesl/canvas-sketch/blob/master/docs/README.md
 category: Libraries
 type: 3rd-party
 maintainers:
   - name: LuXDAmore
     github: LuXDAmore
-    avatar: 'https://avatars0.githubusercontent.com/u/3841171?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/3841171?v=4

@@ -1,14 +1,14 @@
 name: bundle-buddy
-description: 'Don''t fight your webpack bundle, become friends!'
+description: Don't fight your webpack bundle, become friends!
 repo: Developmint/nuxt-bundle-buddy
 npm: nuxt-bundle-buddy
 icon: ''
-github: 'https://github.com/Developmint/nuxt-bundle-buddy'
-website: 'https://github.com/Developmint/nuxt-bundle-buddy'
+github: https://github.com/Developmint/nuxt-bundle-buddy
+website: https://github.com/Developmint/nuxt-bundle-buddy
 learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
   - name: Developmint
     github: Developmint
-    avatar: 'https://avatars0.githubusercontent.com/u/29969219?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/29969219?v=4
