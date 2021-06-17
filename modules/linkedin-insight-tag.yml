@@ -1,7 +1,7 @@
 name: linkedin-insight-tag
 description: Linkedin Insight Tag Module for Nuxt.js
 repo: devsourceid/nuxt-linkedin-insight-tag
-npm: nuxt-statcounter
+npm: nuxt-linkedin-insight-tag
 icon: linkedin-insight-tag.png
 github: https://github.com/devsourceid/nuxt-linkedin-insight-tag
 website: https://github.com/devsourceid/nuxt-linkedin-insight-tag
