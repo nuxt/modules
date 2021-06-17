@@ -1,13 +1,13 @@
 name: linkedin-insight-tag
 description: Linkedin Insight Tag Module for Nuxt.js
-repo: devsourceid/linkedin-insight-tag
-npm: 'nuxt-linkedin-insight-tag'
+repo: devsourceid/nuxt-linkedin-insight-tag
+npm: nuxt-statcounter
 icon: linkedin-insight-tag.png
 github: https://github.com/devsourceid/nuxt-linkedin-insight-tag
 website: https://github.com/devsourceid/nuxt-linkedin-insight-tag
 learn_more: https://business.linkedin.com/marketing-solutions/insight-tag
 category: Analytics
-type: community
+type: 3rd-party
 maintainers:
   - name: Hamjs
     github: devsourceid
