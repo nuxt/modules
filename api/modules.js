@@ -1,6 +1,6 @@
-const nuxtModules = require('@nuxt/modules')
 const { Octokit } = require('@octokit/rest')
 const got = require('got')
+const nuxtModules = require('..')
 
 module.exports = async (_, res) => {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
