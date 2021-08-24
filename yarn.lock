@@ -1434,17 +1434,17 @@
     node-html-parser "^4.1.3"
     ufo "^0.7.7"
 
-"@nuxt/image@^0.4.17":
-  version "0.4.17"
-  resolved "https://registry.yarnpkg.com/@nuxt/image/-/image-0.4.17.tgz#35eaf2de4c475839e9c7f12029510c2252998839"
-  integrity sha512-5eOGIpNHqugq0nKZzSM5BsYew9Akbx9RjIZdajxRU9J2CU//E43QY+fZh2BUCPQZkUYJWcDWo8qYexJyQzdMWg==
+"@nuxt/image@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/image/-/image-0.5.0.tgz#c297edc6d71d04d3ed7c377ad4ae052c3a442b8b"
+  integrity sha512-vajBLMj3cW9U+MkXAR3f2hDl/Imj/jdnrL2mlw6phcuApWG2R4hwntAWyr96JzBMhoSK9tv2dJTGx4k9VKK9vA==
   dependencies:
     consola "^2.15.3"
     defu "^5.0.0"
     fs-extra "^10.0.0"
     hasha "^5.2.2"
     image-meta "^0.0.1"
-    ipx "^0.6.1"
+    ipx "^0.6.4"
     is-https "^4.0.0"
     lru-cache "^6.0.0"
     node-fetch "^2.6.1"
@@ -1452,7 +1452,7 @@
     rc9 "^1.2.0"
     requrl "^3.0.2"
     semver "^7.3.5"
-    ufo "^0.7.5"
+    ufo "^0.7.7"
     upath "^2.0.1"
 
 "@nuxt/loading-screen@^2.0.4":
@@ -1730,13 +1730,13 @@
     consola "^2.15.3"
     google-fonts-helper "^1.2.0"
 
-"@nuxtjs/html-validator@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/html-validator/-/html-validator-0.4.1.tgz#bceec583531baa83cb2b3f4a2417c16c0986a41e"
-  integrity sha512-+P3oUVQyneaFvgMMQGYRzZNgNSnlazQLFDULMy+CanKFN5n/X9v7muhuWEov/V083fR+8b63Omr4q/wWnWU1Ng==
+"@nuxtjs/html-validator@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/html-validator/-/html-validator-0.5.0.tgz#e7c9ff7fa50a3d7f5db83e0d7348170b8ac44676"
+  integrity sha512-Ol4zTGDebpR1SMbeAP0V1wfKc9813ZwTJoCyCP0IL3aO13sIKaA744C4cx+cfpNuWCUE8gJ+kWy8AgHIuJAZJg==
   dependencies:
     defu "5.0.0"
-    html-validate "5.0.2"
+    html-validate "5.2.0"
 
 "@nuxtjs/pwa@^3.3.5":
   version "3.3.5"
@@ -6529,10 +6529,10 @@ html-tags@^3.1.0:
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.1.0.tgz#7b5e6f7e665e9fb41f30007ed9e0d41e97fb2140"
   integrity sha512-1qYz89hW3lFDEazhjW0yVAV87lw8lVkrJocr72XmBkMKsoSVJCQx3W8BXsC7hO2qAt8BoVjYjtAcZ9perqGnNg==
 
-html-validate@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-5.0.2.tgz#f6c5ad5af9444bbc8fc453be377cc61c6bea8af1"
-  integrity sha512-HlFncdDhtUPQvNmIWHOcVSt9rqfqN0G/yjZ/eI4juCsAv96+yytZyx36Wz5YCp7PH+L1cFbRXUmYFzHk2dp2mw==
+html-validate@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-5.2.0.tgz#88853b43bd79c875375607e77cf63c2beadd16fc"
+  integrity sha512-+Ur5d51lhsyZVUbDLQFrhasOvGHqPhzuscCsW5hFQrayjv7rcjbq67PM0davZTUGxE6yS23ZEfv1pYG5W377nA==
   dependencies:
     "@babel/code-frame" "^7.10.0"
     "@html-validate/stylish" "^2.0.0"
@@ -6824,7 +6824,7 @@ ipaddr.js@1.9.1:
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 
-ipx@^0.6.1:
+ipx@^0.6.4:
   version "0.6.7"
   resolved "https://registry.yarnpkg.com/ipx/-/ipx-0.6.7.tgz#4db5418b368b4bc7925aacd134e68100e0e53ae1"
   integrity sha512-Y9xxAXfGqmupTTNH3l1V2mKWWfgVY+PJ9wN57h8NDcLZZxHAk3qYIRxbDKs+POn/dinpU3vQZjBBRe8Q7xnW1g==
@@ -11986,10 +11986,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.2.4:
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.4.tgz#8610b59747de028fda898a8aef0e103f156d0961"
-  integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
+typescript@^4.3.5:
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
+  integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
 
 typescript@~4.2:
   version "4.2.3"
@@ -12410,10 +12410,10 @@ vue-no-ssr@^1.1.1:
   resolved "https://registry.yarnpkg.com/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz#875f3be6fb0ae41568a837f3ac1a80eaa137b998"
   integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
 
-vue-plausible@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/vue-plausible/-/vue-plausible-1.1.4.tgz#c6fc059f081a7b7d7820ad9dcb504d1cf6a3a892"
-  integrity sha512-Br7pAxCrnr4t8X6ByOFeMPiyoJAD1dpUyOyh3pEyy0P7Gkt4A7ps2wvDioNmKw6wuWijaMMwU9TCuDmJm9RdTg==
+vue-plausible@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/vue-plausible/-/vue-plausible-1.2.1.tgz#66ceb925a98ecca715a11c3c77e1e11b8f0945fc"
+  integrity sha512-+HIO35sHLPMtpSzyQSjGUFQUmqHXHas5kQ/XSdowS6z8FryfP/uyPURUT1hoXK217DD2w7EbZqjs59TDcHhcEw==
   dependencies:
     plausible-tracker "^0.3.1"
 
