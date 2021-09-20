@@ -45,9 +45,6 @@ export default <NuxtConfig> {
   typescript: {
     typeCheck: false
   },
-  tailwindcss: {
-    jit: true
-  },
   image: {
     vercel: {},
     screens: {
