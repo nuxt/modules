@@ -1,0 +1,14 @@
+name: hello-world
+description: Most advanced Hello World module for Nuxt.js
+repo: eggsy/nuxt-hello-world
+npm: "nuxt-hello-world"
+icon: hello-world.svg
+github: https://github.com/eggsy/nuxt-hello-world
+website: https://github.com/eggsy/nuxt-hello-world
+learn_more: https://github.com/eggsy/nuxt-hello-world
+category: Devtools
+type: community
+maintainers:
+  - name: EGGSY
+    github: eggsy
+    avatar: https://avatars3.githubusercontent.com/u/13917975?v=4
