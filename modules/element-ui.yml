@@ -1,0 +1,15 @@
+name: nuxt-element
+description: Nuxtjs module for element-ui
+repo: khofaai/nuxt-element
+npm: nuxt-element
+icon: nuxt-element.svg
+github: https://github.com/khofaai/nuxt-element
+website: https://github.com/khofaai/nuxt-element
+learn_more: https://business.linkedin.com/marketing-solutions/insight-tag
+category: UI
+type: community
+maintainers:
+  - name: Anas EL ALAMI
+    github: khofaai
+    twitter: anaselalami_
+    avatar: https://secure.gravatar.com/avatar/49d48379d4ec4f320bcaf8451eb36d9c
