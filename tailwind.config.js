@@ -40,8 +40,8 @@ module.exports = {
         13: '13px'
       },
       lineHeight: {
-        '14': '0.875rem',
-       }
+        14: '0.875rem'
+      }
     }
   },
   variants: {
