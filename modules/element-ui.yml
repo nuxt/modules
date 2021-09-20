@@ -1,11 +1,11 @@
 name: nuxt-element
-description: Nuxtjs module for element-ui
+description: Element UI Module for Nuxt.js to add element-ui components to your application.
 repo: khofaai/nuxt-element
 npm: nuxt-element
 icon: nuxt-element.svg
 github: https://github.com/khofaai/nuxt-element
 website: https://github.com/khofaai/nuxt-element
-learn_more: https://business.linkedin.com/marketing-solutions/insight-tag
+learn_more: https://element.eleme.io
 category: UI
 type: community
 maintainers:
