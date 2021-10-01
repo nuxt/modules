@@ -1,0 +1,17 @@
+name: humans-txt
+description: >-
+  An initiative for knowing the people behind a website.
+  It is a Nuxt.js buildModules that add a TXT file containing information about the different people who have contributed to building the website.
+repo: Luxdamore/nuxt-humans-txt
+npm: '@luxdamore/nuxt-humans-txt'
+icon: ''
+github: https://github.com/LuXDAmore/nuxt-humans-txt
+website: https://luxdamore.github.io/nuxt-humans-txt/
+learn_more: https://humanstxt.org/
+category: SEO
+type: 3rd-party
+maintainers:
+  - name: Luca Iaconelli
+    github: LuXDAmore
+    twitter: luxdamore
+    avatar: https://avatars0.githubusercontent.com/u/3841171?v=4
