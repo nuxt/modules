@@ -1,11 +1,11 @@
 <template>
   <div class="flex flex-col h-full">
     <div class="relative flex flex-1 flex-col space-y-2 px-6 py-8 group">
-      <a :href="module.website" :aria-label="module.website" target="_blank" rel="noopener" class="absolute inset-0" />
-      <div class="transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 absolute top-4 right-6 cursor-pointer">
-        <img alt="website" src="~/assets/icons/ext.svg" width="24" height="24">
-      </div>
-
+      <a :href="module.website" :aria-label="module.website" target="_blank" rel="noopener" class="absolute inset-0">
+        <div class="transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 absolute top-4 right-6 cursor-pointer">
+          <img alt="website" src="~/assets/icons/ext.svg" width="24" height="24">
+        </div>
+      </a>
       <nuxt-img
         :src="iconUrl(module)"
         :alt="module.name"
