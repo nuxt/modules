@@ -2,7 +2,7 @@ name: headway
 description: Headway changelog widget for Nuxt
 repo: l-portet/nuxt-headway
 npm: nuxt-headway
-icon: https://i.ibb.co/mFw3hxv/headway.png
+icon: headway.png
 github: https://github.com/l-portet/nuxt-headway
 website: https://nuxt-headway.netlify.app/
 learn_more: https://headwayapp.co/
