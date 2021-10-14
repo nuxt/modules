@@ -91,7 +91,7 @@
     </div>
 
     <!-- Modules list -->
-    <div class="container px-4 mx-auto sm:px-0">
+    <div class="container px-4 mx-auto">
       <div class="flex flex-col items-center justify-between sm:flex-row">
         <!-- Clear filters -->
         <p class="mb-4 text-forest-night">
