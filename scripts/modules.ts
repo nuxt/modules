@@ -1,14 +1,14 @@
 import { resolve, join, basename, extname } from 'path'
-import { existsSync, readFile, readJson, writeFile, mkdirp } from 'fs-extra'
+import { promises as fsp, existsSync } from 'fs'
 import * as yml from 'js-yaml'
 import { globby } from 'globby'
 import defu from 'defu'
 import fetch from 'node-fetch'
+import categories from '../categories.json'
 import { fetchGithubPkg, modulesDir, distDir, distFile } from './utils'
 
 export async function sync (name, repo?: string, isNew: boolean = false) {
   const module = await getModule(name)
-  const categories = await readJson(join(__dirname, '..', 'categories.json'))
 
   // Repo
   if (repo) {
@@ -148,7 +148,7 @@ export async function getModule (name) {
 
   const file = resolve(modulesDir, name + '.yml')
   if (existsSync(file)) {
-    module = defu(yml.load(await readFile(file, 'utf-8')) as object, module)
+    module = defu(yml.load(await fsp.readFile(file, 'utf-8')) as object, module)
   }
 
   return module
@@ -156,7 +156,7 @@ export async function getModule (name) {
 
 export async function writeModule (module) {
   const file = resolve(modulesDir, `${module.name}.yml`)
-  await writeFile(file, yml.dump(module))
+  await fsp.writeFile(file, yml.dump(module), 'utf8')
 }
 
 export async function readModules () {
@@ -176,6 +176,6 @@ export async function syncAll () {
 
 export async function build () {
   const modules = await readModules()
-  await mkdirp(distDir)
-  await writeFile(distFile, JSON.stringify(modules, null, 2))
+  await fsp.mkdir(distDir, { recursive: true })
+  await fsp.writeFile(distFile, JSON.stringify(modules, null, 2))
 }

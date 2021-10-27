@@ -1,6 +1,5 @@
 import { resolve } from 'path'
 import axios from 'axios'
-
 export const rootDir = resolve(__dirname, '..')
 export const modulesDir = resolve(rootDir, 'modules')
 export const distDir = resolve(rootDir, 'dist')

@@ -7,11 +7,6 @@ export default defineNuxtConfig({
     nitro: false,
     vite: false
   },
-  build: {
-    loaders: {
-      imgUrl: { limit: 0 }
-    }
-  },
   buildModules: [
     // https://github.com/windicss/nuxt-windicss
     'nuxt-windicss',
@@ -24,17 +19,10 @@ export default defineNuxtConfig({
     // https://html-validator.nuxtjs.org
     '@nuxtjs/html-validator'
   ],
-  modules: [
-    // https://content.nuxtjs.org
-    '~/scripts/content',
-    '@nuxt/content'
-  ],
   plugins: [
-    '~/plugins/v-tooltip.ts'
+    '~/plugins/v-tooltip.ts',
+    '~/plugins/modules.ts'
   ],
-  content: {
-    dir: 'modules'
-  },
   manifest: {
     name: 'Nuxt Modules',
     short_name: 'Nuxt Modules',
@@ -43,6 +31,12 @@ export default defineNuxtConfig({
   },
   plausible: {
     domain: 'modules.nuxtjs.org'
+  },
+  // TODO: Do we still need this?
+  build: {
+    loaders: {
+      imgUrl: { limit: 0 }
+    }
   },
   image: {
     vercel: {},

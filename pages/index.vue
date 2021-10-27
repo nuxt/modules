@@ -211,8 +211,8 @@ export default {
       }
     }
   },
-  async asyncData ({ $content }) {
-    const modules = await $content().sortBy(FIELDS.DOWNLOADS, ORDERS.DESC).fetch()
+  async asyncData ({ $modules }) {
+    const modules = await $modules.fetch()
     const maintainers = []
     let downloads = 0
 
