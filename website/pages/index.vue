@@ -157,9 +157,9 @@ export default {
       }
     }
   },
-  async asyncData ({ $modules }) {
-    const modules = await $modules.getModules()
-    const categories = await $modules.getCategories()
+  async asyncData () {
+    const { modules } = await $fetch('/api/modules')
+    const { categories } = await $fetch('/api/categories')
 
     const maintainers = []
     let downloadsTotal = 0

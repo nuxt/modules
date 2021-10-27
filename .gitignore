@@ -9,3 +9,4 @@ sw.js
 .vscode
 cache
 .vercel_build_output
+.output

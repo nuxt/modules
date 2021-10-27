@@ -3,10 +3,6 @@ import { defineNuxtConfig } from '@nuxt/bridge'
 export default defineNuxtConfig({
   target: 'static',
   components: true,
-  bridge: {
-    nitro: false,
-    vite: false
-  },
   buildModules: [
     // https://github.com/windicss/nuxt-windicss
     'nuxt-windicss',
