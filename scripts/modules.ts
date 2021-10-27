@@ -1,7 +1,7 @@
 import { resolve, join, basename, extname } from 'path'
 import { existsSync, readFile, readJson, writeFile, mkdirp } from 'fs-extra'
 import * as yml from 'js-yaml'
-import globby from 'globby'
+import { globby } from 'globby'
 import defu from 'defu'
 import fetch from 'node-fetch'
 import { fetchGithubPkg, modulesDir, distDir, distFile } from './utils'

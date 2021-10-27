@@ -1,6 +1,6 @@
 name: windicss
 description: Next generation Tailwind CSS compiler
-repo: windicss/nuxt-windicss-module
+repo: windicss/nuxt-windicss-module#main/packages/nuxt-windicss
 npm: nuxt-windicss
 icon: windicss.svg
 github: https://github.com/windicss/nuxt-windicss-module

@@ -1,13 +1,13 @@
 name: web3js
 description: Web3.js module integration for Nuxt.js - Build dApps easier!
 repo: fauzan121002/nuxt-web3
-npm: "nuxt-web3"
+npm: nuxt-web3
 icon: web3js.svg
 github: https://github.com/fauzan121002/nuxt-web3
 website: https://github.com/fauzan121002/nuxt-web3
 learn_more: https://web3js.readthedocs.io/
 category: Libraries
-type: community
+type: 3rd-party
 maintainers:
   - name: Muhammad Fauzan
     github: fauzan121002

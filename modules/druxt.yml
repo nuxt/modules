@@ -1,7 +1,7 @@
 name: druxt
 description: A bridge between frameworks, Drupal in the back, Nuxt.js in the front.
 repo: druxt/druxt.js
-npm: druxt
+npm: druxt.js
 icon: druxt.svg
 github: https://github.com/druxt/druxt.js
 website: https://druxtjs.org

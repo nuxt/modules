@@ -5,12 +5,12 @@ npm: '@storefront-ui/nuxt'
 icon: storefront-ui.svg
 github: >-
   https://github.com/vuestorefront/storefront-ui/tree/develop/packages/nuxt-module
-website: https://docs.storefrontui.io/?path=/story/getting-started-installation--page#installation
-learn_more: 'https://docs.storefrontui.io/'
+website: >-
+  https://docs.storefrontui.io/?path=/story/getting-started-installation--page#installation
+learn_more: https://docs.storefrontui.io/
 category: UI
 type: 3rd-party
 maintainers:
   - name: Jakub Andrzejewski
     github: Baroshem
-    avatar: >-
-      https://avatars2.githubusercontent.com/u/37120330?v=4?s=80
+    avatar: https://avatars2.githubusercontent.com/u/37120330?v=4?s=80
