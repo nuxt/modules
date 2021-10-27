@@ -22,7 +22,7 @@ const ipx = createIPX({
 const middleware = createIPXMiddleware(ipx)
 
 export default (req, res) => {
-  const [_, operations, ...parts] = req.url.split('/')
+  const [operations, ...parts] = req.url.split('/').splice(1)
   if (parts[0].startsWith('http')) {
     req.url = `/${operations}/${parts.join('/')}`
   } else {
