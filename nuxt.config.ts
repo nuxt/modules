@@ -1,18 +1,20 @@
-import { NuxtConfig } from '@nuxt/types'
+import { defineNuxtConfig } from '@nuxt/bridge'
 
-export default <NuxtConfig> {
+export default defineNuxtConfig({
   target: 'static',
   components: true,
+  bridge: {
+    nitro: false,
+    vite: false
+  },
   build: {
     loaders: {
       imgUrl: { limit: 0 }
     }
   },
   buildModules: [
-    // https://tailwindcss.nuxtjs.org
-    '@nuxtjs/tailwindcss',
-    // https://typescript.nuxtjs.org/
-    '@nuxt/typescript-build',
+    // https://github.com/windicss/nuxt-windicss
+    'nuxt-windicss',
     // https://image.nuxtjs.org
     '@nuxt/image',
     // https://pwa.nuxtjs.org
@@ -42,12 +44,6 @@ export default <NuxtConfig> {
   plausible: {
     domain: 'modules.nuxtjs.org'
   },
-  typescript: {
-    typeCheck: false
-  },
-  tailwindcss: {
-    jit: true
-  },
   image: {
     vercel: {},
     screens: {
@@ -55,10 +51,11 @@ export default <NuxtConfig> {
       avatar: 24
     },
     domains: [
+      'avatars.githubusercontent.com',
       'avatars0.githubusercontent.com',
       'avatars1.githubusercontent.com',
       'avatars2.githubusercontent.com',
       'avatars3.githubusercontent.com'
     ]
   }
-}
+})

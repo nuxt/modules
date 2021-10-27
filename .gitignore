@@ -8,3 +8,4 @@ sw.js
 .env
 .vscode
 cache
+.vercel_build_output

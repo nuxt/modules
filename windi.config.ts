@@ -1,10 +1,10 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+import { defineConfig } from 'windicss/helpers'
 
-module.exports = {
+export default defineConfig({
   theme: {
     extend: {
       fontFamily: {
-        sans: ['DM Sans', ...defaultTheme.fontFamily.sans]
+        sans: ['DM Sans']
       },
       colors: {
         'forest-night': '#003c3c',
@@ -39,14 +39,8 @@ module.exports = {
         13: '13px'
       },
       lineHeight: {
-        '14': '0.875rem',
-       }
-    }
-  },
-  variants: {
-    opacity: ({ after }) => after(['group-hover']),
-    extend: {
-      ringWidth: ['hover', 'focus', 'active']
+        14: '0.875rem'
+      }
     }
   }
-}
+})
