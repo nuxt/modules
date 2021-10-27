@@ -9,8 +9,8 @@
   "scripts": {
     "build": "yarn sync && yarn cli build",
     "cli": "jiti ./scripts/cli",
-    "dev": "yarn build && nuxi dev",
-    "generate": "yarn build && nuxt generate",
+    "dev": "yarn build && nuxi dev website",
+    "generate": "yarn build && nuxt generate website",
     "lint": "eslint --ext .vue,.ts .",
     "release": "yarn cli version && npm publish",
     "start": "nuxt-ts start",

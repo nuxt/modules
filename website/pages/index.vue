@@ -118,9 +118,9 @@
 </template>
 
 <script>
+import categories from '../../lib/categories'
 import LazyHydrate from 'vue-lazy-hydration'
 import Fuse from 'fuse.js/dist/fuse.basic.esm'
-import categories from '~/categories'
 import CardModule from '~/components/CardModule.vue'
 import Observer from '~/components/Observer.vue'
 import { isMobile } from '~/utils/detectUserAgent.ts'

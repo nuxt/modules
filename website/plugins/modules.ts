@@ -14,7 +14,7 @@ function rand (min, max) {
 
 let _rawModules
 async function getRawModules () {
-  return _rawModules || (_rawModules = await import('../dist/modules.json').then(r => r.default))
+  return _rawModules || (_rawModules = await import('../../dist/modules.json').then(r => r.default))
 }
 
 let _modules

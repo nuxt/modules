@@ -53,11 +53,11 @@ Field Name      | Auto sync | Description
 `description`   | Yes       | Short description
 `repo`          | No        | Github repository. Format is `org/name` or `org/name#main/path`
 `npm`           | Yes       | NPM package name
-`icon`          | No        | Icon of module from [/static/icons](./static/icons) directory
+`icon`          | No        | Icon of module from [./website/static/icons](./website/static/icons) directory
 `github`        | No        | Github URL
 `website`       | No        | Website URL
 `learn_more`    | No        | Link to learn more (website or relevant integration website)
-`category`      | No        | Module category from [/categories.json](./categories.json)
+`category`      | No        | Module category from [./lib/categories.json](./lib/categories.json)
 `type`          | No        | `community` (for [nuxt-community](https://github.com/nuxt-community/)), `official` (for https://github.com/) or `3rd-party`
 `maintainers`   | Yes       | List of maintainers each item has `name`, `github` and `avatar`
 `compatibility` | No        | Module compatibility status. Valid keys are `2.x`, `2.x-bridge` and `3.x` and valid values are `working`, `wip`, `unknown`, `broken` and `rip`. Please see [this discussion](https://github.com/nuxt/framework/discussions/751) for more information.
