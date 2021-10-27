@@ -87,11 +87,11 @@ yarn sync
 yarn build
 ```
 
-
 ## Website development
 
 - Clone repository
-- Install depenedencies using `npx yarn install`
+- Change working directory to website using `cd website`
+- Install website depenedencies using `npx yarn install`
 
 Start development:
 
