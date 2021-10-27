@@ -9,12 +9,12 @@
 
 ## Modules Database
 
-Meta-data of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/YAML) files inside [/modules](./modules) directory and automatically synced from upstream to fetch latest information.
+Metadata of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/YAML) files inside [./modules](./modules) directory and automatically synced from upstream to fetch latest information.
 
 ### Contribution
 
 - If you feel a module is missing, please create a new [issue](https://github.com/nuxt/modules/issues/new)
-- If some data is outdated, directly opening a pull request
+- If some data is outdated please directly openin a pull request
 
 ### Using CDN
 
@@ -47,20 +47,20 @@ const modules = require('@nuxt/modules')
 
 ### Schema
 
-Field Name    | Auto sync | Description
---------------|-----------|--------------
-name          | No        | Cannonical name of module
-description   | Yes       | Module short description
-repo          | No        | Github repository. Format is `org/name` or `org/name#main/path`
-npm           | Yes       | NPM package name
-icon          | No        | Icon of module from [/static/icons](./static/icons) directory
-github        | No        | Github URL
-website       | No        | Website URL
-learn_more    | No        | Link to learn more (website or relevant integration website)
-category      | No        | Module category from [/categories.json](./categories.json)
-type          | No        | `community` (for [nuxt-community](https://github.com/nuxt-community/)), `official` (for https://github.com/) or `3rd-party`
-maintainers   | Yes       | List of maintainers each item has `name`, `github` and `avatar`
-compatibility | No        | Module compatibility status. Valid keys are `2.x`, `2.x-bridge` and `3.x` and valid values are `working`, `wip`, `unknown`, `broken` and `rip`. Please see [this discussion](https://github.com/nuxt/framework/discussions/751) for more information.
+Field Name      | Auto sync | Description
+----------------|-----------|--------------
+`name`          | No        | Canonical name or integration name
+`description`   | Yes       | Short description
+`repo`          | No        | Github repository. Format is `org/name` or `org/name#main/path`
+`npm`           | Yes       | NPM package name
+`icon`          | No        | Icon of module from [/static/icons](./static/icons) directory
+`github`        | No        | Github URL
+`website`       | No        | Website URL
+`learn_more`    | No        | Link to learn more (website or relevant integration website)
+`category`      | No        | Module category from [/categories.json](./categories.json)
+`type`          | No        | `community` (for [nuxt-community](https://github.com/nuxt-community/)), `official` (for https://github.com/) or `3rd-party`
+`maintainers`   | Yes       | List of maintainers each item has `name`, `github` and `avatar`
+`compatibility` | No        | Module compatibility status. Valid keys are `2.x`, `2.x-bridge` and `3.x` and valid values are `working`, `wip`, `unknown`, `broken` and `rip`. Please see [this discussion](https://github.com/nuxt/framework/discussions/751) for more information.
 
 
 ## Maintenance
@@ -101,7 +101,7 @@ npx yarn dev
 
 Then visit http://localhost:3000
 
-In development, the npm downloads and GitHub stars will be mocked.
+In the development, the npm downloads and GitHub stars will be mocked unless setting `GITHUB_TOKEN` variable.
 
 ### Production build
 
