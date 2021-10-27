@@ -39,7 +39,8 @@ export default defineNuxtConfig({
     }
   },
   image: {
-    vercel: {},
+    // vercel: {},
+    provider: 'static',
     screens: {
       icon: 40,
       avatar: 24
