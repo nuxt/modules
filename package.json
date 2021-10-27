@@ -17,6 +17,10 @@
     "sync": "yarn cli sync",
     "test": "yarn lint && yarn sync"
   },
+  "resolutions": {
+    "@nuxt/kit-edge": "npm:@nuxt/kit-edge@latest",
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
+  },
   "devDependencies": {
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
     "@nuxt/content": "^1.15.0",

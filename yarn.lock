@@ -1337,8 +1337,7 @@
   optionalDependencies:
     ipx "^0.8.0"
 
-"@nuxt/kit-edge@latest", "@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27255771.f78ec93":
-  name "@nuxt/kit"
+"@nuxt/kit-edge@latest", "@nuxt/kit-edge@npm:@nuxt/kit-edge@latest", "@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27255771.f78ec93", "@nuxt/kit@npm:@nuxt/kit-edge@latest":
   version "3.0.0-27255771.f78ec93"
   resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-27255771.f78ec93.tgz#f1efa63c6e3d9a5a3f52e39ebd521eef4d05f5e4"
   integrity sha512-dPJJM/TEt0BUPq48r9r0+ORPfqKDAQFHbwyErw8Lz+Lhj+fDjYb3h9ZpXzXBOOLxBkAtiYE9VzV22vIBb8ti/Q==
