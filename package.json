@@ -7,7 +7,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "yarn cli build",
+    "build": "yarn sync && yarn cli build",
     "cli": "jiti ./scripts/cli",
     "dev": "yarn build && nuxi dev",
     "generate": "yarn build && nuxt generate",
