@@ -10,7 +10,7 @@
     "build": "yarn sync && yarn cli build",
     "cli": "jiti ./scripts/cli",
     "dev": "yarn build && nuxi dev website",
-    "generate": "yarn build && nuxt generate website",
+    "generate": "yarn build && cd website && nuxt generate",
     "lint": "eslint --ext .vue,.ts .",
     "release": "yarn cli version && npm publish",
     "start": "nuxt-ts start",
