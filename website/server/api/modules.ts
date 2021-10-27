@@ -1,5 +1,5 @@
 import config from '#config'
-const modulesCDN = 'https://cdn.jsdelivr.net/npm/@nuxt/modules/dist/modules.json'
+const modulesCDN = 'https://cdn.jsdelivr.net/npm/@nuxt/modules@latest/dist/modules.json'
 
 export default async () => {
   const _modules = await $fetch(modulesCDN) as any[]

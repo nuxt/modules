@@ -20,8 +20,8 @@ Metadata of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/Y
 
 Compiled JSON data is available from following CDNs:
 
-- **jsdelivr:**: https://cdn.jsdelivr.net/npm/@nuxt/modules/dist/modules.json
-- **unpkg:** https://unpkg.com/@nuxt/modules/dist/modules.json
+- **jsdelivr:**: https://cdn.jsdelivr.net/npm/@nuxt/modules@latest/dist/modules.json
+- **unpkg:** https://unpkg.com/@nuxt/modules@latest/dist/modules.json
 
 ### Using npm package
 
