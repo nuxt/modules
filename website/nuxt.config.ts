@@ -1,7 +1,6 @@
 import { defineNuxtConfig } from '@nuxt/bridge'
 
 export default defineNuxtConfig({
-  target: 'static',
   components: true,
   buildModules: [
     // https://github.com/windicss/nuxt-windicss
@@ -28,14 +27,7 @@ export default defineNuxtConfig({
   plausible: {
     domain: 'modules.nuxtjs.org'
   },
-  // TODO: Do we still need this?
-  build: {
-    loaders: {
-      imgUrl: { limit: 0 }
-    }
-  },
   image: {
-    vercel: {},
     screens: {
       icon: 40,
       avatar: 24
