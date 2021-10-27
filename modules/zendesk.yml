@@ -12,3 +12,7 @@ maintainers:
   - name: DansMaCulotte
     github: DansMaCulotte
     avatar: https://avatars1.githubusercontent.com/u/44588441?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

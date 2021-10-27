@@ -28,6 +28,15 @@
       <p class="text-gray-500 group-hover:text-gray-800">
         {{ module.description }}
       </p>
+      <p>
+        <span
+          v-for="c of compatibility"
+          :key="c.label"
+          class="text-grey px-1 py-1 mx-1 rounded text-xs"
+        >
+          {{ c.icon }} {{ c.label }}: {{ c.statusText }}
+        </span>
+      </p>
     </div>
     <div class="border-t border-gray-200 bg-gray-100 grid grid-cols-3">
       <a :href="npmUrl(module)" aria-label="npm" target=" _blank" rel="noopener" class="stats-block group flex items-center space-x-2 border-r border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 py-3 px-4 pl-6">
@@ -72,6 +81,21 @@ export default {
     module: {
       type: Object,
       required: true
+    }
+  },
+  computed: {
+    statusMap () {
+      return {
+        working: { statusText: 'Working', icon: '✔️', color: '#003c3c' },
+        wip: { statusText: 'Work in progress', icon: '🚧', color: '#E9C600' },
+        unknown: { statusText: 'Unkown', icon: '❓', color: 'grey' },
+        broken: { statusText: 'Not working', icon: '❗', color: '#ff6446' },
+        rip: { statusText: 'Won\'t be supported', icon: '❌', color: '#ff6446' }
+      }
+    },
+    compatibility () {
+      return Object.entries(this.module.compatibility || {})
+        .map(([key, status]) => ({ ...this.statusMap[status], label: key }))
     }
   },
   methods: {

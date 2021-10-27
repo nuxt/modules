@@ -13,3 +13,7 @@ maintainers:
     github: Atinux
     twitter: Atinux
     avatar: https://avatars2.githubusercontent.com/u/904724?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: working
+  3.x: unkown

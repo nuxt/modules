@@ -74,7 +74,8 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     'learn_more',
     'category',
     'type',
-    'maintainers'
+    'maintainers',
+    'compatibility'
   ]
   const invalidFields = []
   for (const key in module) {
@@ -143,7 +144,12 @@ export async function getModule (name) {
     learn_more: '',
     category: '', // see modules/_categories.json
     type: '', // official, community, 3rd-party
-    maintainers: []
+    maintainers: [],
+    compatibility: {
+      '2.x': 'working',
+      '2.x-bridge': 'unknown',
+      '3.x': 'unknown'
+    }
   }
 
   const file = resolve(modulesDir, name + '.yml')

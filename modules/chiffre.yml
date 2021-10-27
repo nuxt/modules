@@ -12,3 +12,7 @@ maintainers:
   - name: Romain Clement
     github: rclement
     avatar: https://avatars.githubusercontent.com/u/1238873?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown
