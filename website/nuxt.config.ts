@@ -14,6 +14,9 @@ export default defineNuxtConfig({
     // https://html-validator.nuxtjs.org
     '@nuxtjs/html-validator'
   ],
+  privateRuntimeConfig: {
+    githubToken: process.env.GITHUB_TOKEN
+  },
   plugins: [
     '~/plugins/v-tooltip.ts',
     '~/plugins/modules.ts'

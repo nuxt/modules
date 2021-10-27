@@ -1,4 +1,4 @@
-
+import config from '#config'
 const modulesCDN = 'https://cdn.jsdelivr.net/npm/@nuxt/modules/dist/modules.json'
 
 export default async () => {
@@ -14,10 +14,10 @@ function rand (min, max) {
 }
 
 async function fetchModuleStats (module) {
-  if (process.env.GITHUB_TOKEN) {
+  if (config.githubToken) {
     const { Octokit } = await import('@octokit/rest')
     const { $fetch } = await import('ohmyfetch')
-    const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
+    const octokit = new Octokit({ auth: config.githubToken })
     module.downloads = 0
     try {
       const body = await $fetch(`https://api.npmjs.org/downloads/point/last-month/${module.npm}`)
