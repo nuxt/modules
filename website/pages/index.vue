@@ -118,7 +118,6 @@
 </template>
 
 <script>
-import categories from '../../lib/categories'
 import LazyHydrate from 'vue-lazy-hydration'
 import Fuse from 'fuse.js/dist/fuse.basic.esm'
 import CardModule from '~/components/CardModule.vue'
@@ -159,7 +158,8 @@ export default {
     }
   },
   async asyncData ({ $modules }) {
-    const modules = await $modules.fetch()
+    const modules = await $modules.getModules()
+    const categories = await $modules.getCategories()
 
     const maintainers = []
     let downloadsTotal = 0

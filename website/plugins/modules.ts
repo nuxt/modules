@@ -1,9 +1,12 @@
 export default function (_ctx, inject) {
   inject('modules', {
-    async fetch () {
+    async getModules () {
       const modules = await getModules()
       modules.sort((a: any, b: any) => { return b.downloads - a.downloads })
       return modules
+    },
+    getCategories () {
+      return import('../../lib/categories.json').then(r => r.default)
     }
   })
 }
