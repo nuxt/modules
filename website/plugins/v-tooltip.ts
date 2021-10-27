@@ -1,4 +1,5 @@
 import Vue from 'vue'
-import { VTooltip } from 'v-tooltip'
+// eslint-disable-next-line import/no-named-as-default
+import VTooltip from 'v-tooltip'
 
 Vue.use(VTooltip)
