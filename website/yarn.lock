@@ -5965,6 +5965,11 @@ image-meta@^0.0.1:
   resolved "https://registry.yarnpkg.com/image-meta/-/image-meta-0.0.1.tgz#0f6f708e6d68ea796a977dcae3223019ee2b3eca"
   integrity sha512-FhTB6WW/zfswIFQwjItrisL/Pt/aKbMCAkVdDtdfsaWwo6QwhpM7XMdwtDw8qs5y2IZsHcQ7TPG/JznJYVphSg==
 
+image-meta@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/image-meta/-/image-meta-0.1.1.tgz#a84dc7d5f61c7d60e85ec0c3ac81beee8646039b"
+  integrity sha512-+oXiHwOEPr1IE5zY0tcBLED/CYcre15J4nwL50x3o0jxWqEkyjrusiKP3YSU+tr9fvJp33ZcP5Gpj2295g3aEw==
+
 import-cwd@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/import-cwd/-/import-cwd-2.1.0.tgz#aa6cf36e722761285cb371ec6519f53e2435b0a9"
@@ -6117,6 +6122,24 @@ ipx@^0.8.0:
     sharp "^0.29.0"
     ufo "^0.7.9"
     xss "^1.0.9"
+
+ipx@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/ipx/-/ipx-0.9.0.tgz#de3ee72662738971ac1ac18c46913e15b725d371"
+  integrity sha512-JLwQAtrAEYmwPVAn8cbkbhfsTZwQIYtpS60vLDyqrz9XV2kTjqUVXH9NHaEeH+N2XFI/lb7b12KmZzoL+6jluA==
+  dependencies:
+    consola "^2.15.3"
+    defu "^5.0.0"
+    destr "^1.1.0"
+    etag "^1.8.1"
+    image-meta "^0.1.1"
+    is-valid-path "^0.1.1"
+    listhen "^0.2.5"
+    ohmyfetch "^0.4.2"
+    pathe "^0.2.0"
+    sharp "^0.29.0"
+    ufo "^0.7.9"
+    xss "^1.0.10"
 
 is-absolute-url@^2.0.0:
   version "2.1.0"
@@ -11233,7 +11256,7 @@ ws@^8.2.1:
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.3.tgz#63a56456db1b04367d0b721a0b80cae6d8becbba"
   integrity sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==
 
-xss@^1.0.9:
+xss@^1.0.10, xss@^1.0.9:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/xss/-/xss-1.0.10.tgz#5cd63a9b147a755a14cb0455c7db8866120eb4d2"
   integrity sha512-qmoqrRksmzqSKvgqzN0055UFWY7OKx1/9JWeRswwEVX9fCG5jcYRxa/A2DHcmZX6VJvjzHRQ2STeeVcQkrmLSw==

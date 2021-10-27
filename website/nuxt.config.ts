@@ -28,6 +28,10 @@ export default defineNuxtConfig({
     domain: 'modules.nuxtjs.org'
   },
   image: {
+    provider: 'ipx',
+    ipx: {
+      baseURL: '/api/ipx'
+    },
     screens: {
       icon: 40,
       avatar: 24
