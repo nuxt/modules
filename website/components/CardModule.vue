@@ -88,7 +88,7 @@ export default {
       return {
         working: { statusText: 'Working', icon: '✔️', color: '#003c3c' },
         wip: { statusText: 'Work in progress', icon: '🚧', color: '#E9C600' },
-        unknown: { statusText: 'Unkown', icon: '❓', color: 'grey' },
+        unknown: { statusText: 'Unknown', icon: '❓', color: 'grey' },
         broken: { statusText: 'Not working', icon: '❗', color: '#ff6446' },
         rip: { statusText: 'Won\'t be supported', icon: '❌', color: '#ff6446' }
       }
