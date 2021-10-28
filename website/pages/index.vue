@@ -172,6 +172,15 @@ export default {
       })
     })
 
+    for (const module of modules) {
+      module.tags = [
+        ...(module.tags || []),
+        ...Object.entries(module.compatibility)
+          .map(([version, status]) => status === 'working' ? version : false)
+          .filter(Boolean)
+      ]
+    }
+
     return {
       modules,
       categories,
@@ -276,7 +285,8 @@ export default {
         'maintainers.name',
         'maintainers.github',
         'description',
-        'repo'
+        'repo',
+        'tags'
       ]
     }
     const index = Fuse.createIndex(fuseOptions.keys, this.modules)
