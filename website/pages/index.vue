@@ -54,6 +54,9 @@
         <!-- Clear filters -->
         <p class="mb-4 text-forest-night">
           {{ filteredModules.length }} module{{ filteredModules.length !== 1 ? 's' : '' }} found
+          (Show modules working with: <NLink v-for="v in ['2.x', '2.x-bridge', '3.x']" :key="v" class="mx-1 underline cursor-pointer" :to="`/?q=${v}`">
+            {{ v }}
+          </NLink>)
           <template v-if="selectedCategory || q">
             <p>
               Filter{{ selectedCategory && q ? 's' : '' }}:
@@ -273,6 +276,9 @@ export default {
     },
     sortBy () {
       this.syncURL()
+    },
+    $route () {
+      this.applyURLFilters()
     }
   },
   mounted () {
@@ -292,22 +298,7 @@ export default {
     const index = Fuse.createIndex(fuseOptions.keys, this.modules)
     this.fuse = new Fuse(this.modules, fuseOptions, index)
 
-    const selectedCategory = (window.location.hash || '').substr(1)
-    if (selectedCategory) {
-      this.toggleCategory(selectedCategory)
-    }
-    const { q, sortBy, orderBy } = this.$route.query
-    if (q) {
-      this.q = q
-    }
-
-    if (sortBy) {
-      this.sortBy = sortBy
-    }
-
-    if (orderBy) {
-      this.orderBy = orderBy
-    }
+    this.applyURLFilters()
 
     // In case of desktop, auto focus the search input
     if (!isMobile()) {
@@ -355,6 +346,24 @@ export default {
       }
 
       window.history.pushState('', '', `${url}${query}`)
+    },
+    applyURLFilters () {
+      const selectedCategory = (window.location.hash || '').substr(1)
+      if (selectedCategory) {
+        this.toggleCategory(selectedCategory)
+      }
+      const { q, sortBy, orderBy } = this.$route.query
+      if (q) {
+        this.q = q
+      }
+
+      if (sortBy) {
+        this.sortBy = sortBy
+      }
+
+      if (orderBy) {
+        this.orderBy = orderBy
+      }
     },
     toggleOrderBy () {
       this.orderBy = (this.orderBy === ORDERS.ASC) ? ORDERS.DESC : ORDERS.ASC
