@@ -1,8 +1,7 @@
 export default (req, res, next) => {
-  if (req.method !== 'GET') {
+  if (req.method.toUpperCase() !== 'GET') {
     return next()
   }
-
-  res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate')
+  res.setHeader('Cache-Control', 's-maxage=600, stale-while-revalidate')
   next()
 }
