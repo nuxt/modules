@@ -15,9 +15,7 @@ function rand (min, max) {
 
 async function fetchModuleStats (module) {
   if (config.githubToken) {
-    const { Octokit } = await import('@octokit/rest')
     const { $fetch } = await import('ohmyfetch')
-    const octokit = new Octokit({ auth: config.githubToken })
     module.downloads = 0
     try {
       const body = await $fetch(`https://api.npmjs.org/downloads/point/last-month/${module.npm}`)
@@ -27,8 +25,12 @@ async function fetchModuleStats (module) {
     }
     try {
       const [owner, repo] = module.repo.split('#')[0].split('/')
-      const { data } = await octokit.repos.get({ owner, repo })
-      module.stars = data.stargazers_count || 0
+      const repoObj = await $fetch(`https://api.github.com/repos/${owner}/${repo}`, {
+        headers: {
+          Authorization: 'token ' + config.githubToken
+        }
+      })
+      module.stars = repoObj.stargazers_count || 0
     } catch (err) {
       console.error(`Could not fetch GitHub stars for ${module.repo}`, err.message)
     }
