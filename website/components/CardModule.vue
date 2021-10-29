@@ -28,23 +28,21 @@
       <p class="text-gray-500 group-hover:text-gray-800">
         {{ module.description }}
       </p>
-     
     </div>
     <div class="border-t border-gray-200 bg-gray-50 grid grid-cols-3">
-       <div
-          v-for="c of compatibility"
-          :key="c.label"
-          class="flex flex-col items-center shadow-inner py-3 px-4 pl-6"
-        >
-       <div class="flex items-center justify-between text-xs bg-gray-200 rounded-lg w-full px-2 py-1">
-          <span class="text-gray-900 text-center py-0.5 ">{{ c.label }} </span> 
-          {{ c.icon }} 
-       </div>
-          <span class="text-xs mt-2 text-gray-500">{{ c.statusText }}</span>
-          
+      <div
+        v-for="c of compatibility"
+        :key="c.label"
+        class="flex flex-col items-center shadow-inner py-3 px-4 pl-6"
+      >
+        <div class="flex items-center justify-between text-xs bg-gray-200 rounded-lg w-full px-2 py-1">
+          <span class="text-gray-900 text-center py-0.5 ">{{ c.label }} </span>
+          {{ c.icon }}
         </div>
+        <span class="text-xs mt-2 text-gray-500">{{ c.statusText }}</span>
+      </div>
     </div>
-     <div class="border-t border-gray-200 bg-gray-100 grid grid-cols-3">
+    <div class="border-t border-gray-200 bg-gray-100 grid grid-cols-3">
       <a :href="npmUrl(module)" aria-label="npm" target=" _blank" rel="noopener" class="stats-block group flex items-center space-x-2 border-r border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 py-3 px-4 pl-6">
         <img alt="npm" src="~/assets/icons/npm.svg" width="32" height="32" class="icon">
         <div class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium">{{ numberFormat(module.downloads) }}</div>
@@ -75,7 +73,6 @@
         </a>
       </div>
     </div>
-
   </div>
 </template>
 
