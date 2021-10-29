@@ -20,3 +20,7 @@ maintainers:
   - name: James Pegg
     github: jamespegg
     avatar: https://avatars1.githubusercontent.com/u/894505?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

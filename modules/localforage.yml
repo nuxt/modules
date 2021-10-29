@@ -16,3 +16,7 @@ maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
     avatar: https://avatars3.githubusercontent.com/u/13064722?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

@@ -12,3 +12,7 @@ maintainers:
   - name: GrabarzUndPartner
     github: GrabarzUndPartner
     avatar: https://avatars3.githubusercontent.com/u/28385672?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

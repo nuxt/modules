@@ -12,3 +12,7 @@ maintainers:
   - name: Shinji Yamada
     github: dotneet
     avatar: https://avatars3.githubusercontent.com/u/370602?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown
