@@ -36,7 +36,7 @@
       </h2>
       <p class="text-gray-500 group-hover:text-gray-800 text-sm">{{ module.description }}</p>
     </div>
-    <div class="grid grid-cols-3 opacity-50 group-hover:opacity-100">
+    <div class="grid grid-cols-3 opacity-100 sm:opacity-50 group-hover:opacity-100 ">
       <div
         v-for="c of compatibility"
         :key="c.label"
@@ -51,7 +51,7 @@
       </div>
     </div>
     <div
-      class="border-t border-gray-200 bg-gray-100 grid grid-cols-3 opacity-50 group-hover:opacity-100"
+      class="border-t border-gray-200 bg-gray-100 grid grid-cols-3 opacity-100 sm:opacity-50 group-hover:opacity-100 "
     >
       <a
         :href="npmUrl(module)"
