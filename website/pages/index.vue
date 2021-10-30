@@ -100,7 +100,7 @@
               </p>
             </template>
           </p>
-          <div>
+          <div class="pt-10 sm:pt-0">
             <div v-show="!q" class="flex items-center text-forest-night">
               <label
                 for="options-menu"
@@ -156,7 +156,9 @@
     <div class="container px-4 sm:px-0 mx-auto pt-8">
       <!-- Module cards -->
       <p class="text-sm font-extrabold tracking-tight text-gray-900 mt-4">Modules</p>
-      <h2 class="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-700">Great codes.</h2>
+      <h2
+        class="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-700"
+      >Great codes.</h2>
       <div class="grid gap-14 md:grid-cols-2 xl:grid-cols-3 mt-6">
         <div
           v-for="module of pageFilteredModules"
