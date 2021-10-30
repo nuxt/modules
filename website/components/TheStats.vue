@@ -1,33 +1,45 @@
 <template>
-  <div class="relative max-w-screen-xl px-4 mx-auto -mt-16 sm:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto">
-      <dl class="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3">
-        <div class="flex justify-center p-4 text-center border-b border-gray-100 sm:flex-col sm:p-6 sm:border-0 sm:border-r">
-          <dt id="item-1" class="order-2 ml-2 font-medium leading-6 text-gray-500 sm:mt-2 sm:ml-0 sm:text-md sm:capitalize">
-            modules
-          </dt>
-          <dd class="order-1 text-2xl font-extrabold leading-none text-green-700 sm:text-4xl" aria-describedby="item-1">
-            {{ modules.length }}
-          </dd>
-        </div>
-        <div class="flex justify-center p-4 text-center border-t border-b border-gray-100 sm:flex-col sm:p-6 sm:border-0 sm:border-l sm:border-r">
-          <dt class="order-2 ml-2 font-medium leading-6 text-gray-500 sm:mt-2 sm:ml-0 sm:text-md sm:capitalize">
-            downloads last 30 days
-          </dt>
-          <dd class="order-1 text-2xl font-extrabold leading-none text-green-700 sm:text-4xl">
-            {{ numberFormat(downloadsTotal) }}
-          </dd>
-        </div>
-        <div class="flex justify-center p-4 text-center border-t border-gray-100 sm:flex-col sm:p-6 sm:border-0 sm:border-l">
-          <dt class="order-2 ml-2 font-medium leading-6 text-gray-500 sm:mt-2 sm:ml-0 sm:text-md sm:capitalize">
-            maintainers
-          </dt>
-          <dd class="order-1 text-2xl font-extrabold leading-none text-green-700 sm:text-4xl">
-            {{ maintainersTotal }}
-          </dd>
-        </div>
-      </dl>
-    </div>
+  <div class="max-w-4xl">
+    <dl class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+      <div class="flex-col space-y-2">
+        <dd
+          id="item-1"
+          class="order-1 font-normal leading-6 text-sky-light sm:mt-2 sm:text-sm sm:capitalize"
+        >Total</dd>
+        <dd
+          class="order-2 text-3xl font-black bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-700 leading-none sm:text-6xl"
+          aria-describedby="item-1"
+        >{{ modules.length }}</dd>
+        <dt
+          id="item-1"
+          class="order-3 font-normal leading-6 text-sky-light sm:mt-2 sm:text-sm sm:capitalize"
+        >modules</dt>
+      </div>
+      <div class="flex-col space-y-2">
+        <dd
+          id="item-1"
+          class="order-1 font-normal leading-6 text-sky-light sm:mt-2 sm:text-sm sm:capitalize"
+        >Total</dd>
+        <dd
+          class="order-2 text-3xl font-black bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-700 leading-none sm:text-6xl"
+        >{{ numberFormat(downloadsTotal) }}</dd>
+        <dt
+          class="order-3 font-medium leading-6 text-sky-light sm:mt-2 sm:text-sm sm:capitalize"
+        >downloads last 30 days</dt>
+      </div>
+      <div class="flex-col space-y-2">
+        <dd
+          id="item-1"
+          class="order-1 font-normal leading-6 text-sky-light sm:mt-2 sm:ml-0 sm:text-sm sm:capitalize"
+        >Total</dd>
+        <dd
+          class="order-2 text-3xl font-black bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-700 leading-none sm:text-6xl"
+        >{{ maintainersTotal }}</dd>
+        <dt
+          class="order-3 font-medium leading-6 text-sky-light sm:mt-2 sm:text-sm sm:capitalize"
+        >maintainers</dt>
+      </div>
+    </dl>
   </div>
 </template>
 
@@ -50,7 +62,7 @@ export default defineComponent({
     }
   },
   methods: {
-    numberFormat (num, options = { precision: 1 }) {
+    numberFormat(num, options = { precision: 1 }) {
       return numberFormatter(num, options)
     }
   }
