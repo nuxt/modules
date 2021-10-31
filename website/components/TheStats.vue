@@ -2,9 +2,12 @@
   <div>
     <dl class="flex gap-8">
       <div class="flex-col space-y-2 p-4 rounded-md">
-        <span class="font-normal leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize" aria-hidden="true">Total</span>
+        <span
+          class="font-normal leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          aria-hidden="true"
+        >Total</span>
         <dd
-          class="text-3xl font-black text-[#DEDEB6] leading-none sm:text-6xl"
+          class="text-3xl font-black text-sand-lighter leading-none sm:text-6xl"
           aria-describedby="item-1"
         >{{ modules.length }}</dd>
         <dt
@@ -12,19 +15,25 @@
           class="font-normal leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize"
         >modules</dt>
       </div>
-      <div class="flex-col space-y-2  p-4">
-        <span class="font-normal leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize" aria-hidden="true">Total</span>
+      <div class="flex-col space-y-2 p-4">
+        <span
+          class="font-normal leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          aria-hidden="true"
+        >Total</span>
         <dd
-          class="text-3xl font-black text-[#DEDEB6] leading-none sm:text-6xl"
+          class="text-3xl font-black text-sand-lighter leading-none sm:text-6xl"
         >{{ numberFormat(downloadsTotal) }}</dd>
         <dt
           class="font-medium leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize"
         >downloads last 30 days</dt>
       </div>
       <div class="flex-col space-y-2 p-4 rounded-md">
-        <span class="font-normal leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize" aria-hidden="true">Total</span>
+        <span
+          class="font-normal leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          aria-hidden="true"
+        >Total</span>
         <dd
-          class="text-3xl font-black text-[#DEDEB6] leading-none sm:text-6xl"
+          class="text-3xl font-black text-sand-lighter leading-none sm:text-6xl"
         >{{ maintainersTotal }}</dd>
         <dt
           class="font-medium leading-6 text-sm text-sky-light sm:mt-2 sm:text-sm sm:capitalize"
