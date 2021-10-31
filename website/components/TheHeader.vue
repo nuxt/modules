@@ -20,7 +20,7 @@
         href="https://github.com/nuxt/modules"
         rel="noopener"
         target="_blank"
-        class="text-sm sm:text-base font-semibold items-center p-4 text-white bg-[#003C3C] hover:bg-gray-200 rounded-md"
+        class="text-sm sm:text-base font-semibold items-center py-4 px-6 text-white bg-[#003C3C] hover:bg-secondary-dark rounded-md"
       >Contribute on GitHub</a>
     </div>
   </div>
