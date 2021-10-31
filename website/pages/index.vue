@@ -1,21 +1,27 @@
 <template>
   <div class="pb-16">
-    <div class="p-16 bg-sky-darkest sm:p-24">
-      <!-- Header -->
-      <TheHeader />
-
-      <!-- Stats -->
-      <TheStats
-        :modules="modules"
-        :maintainers-total="maintainersTotal"
-        :downloads-total="downloadsTotal"
-      />
+    <div class="p-6 bg-gradient-to-b from-[#003C3C] to-[#002021] sm:p-24">
+      <div class="container mx-auto flex flex-col sm:flex-row justify-between">
+        <div class="flex flex-col gap-8">
+          <!-- Header -->
+          <TheHeader />
+          <!-- Stats -->
+          <TheStats
+            :modules="modules"
+            :maintainers-total="maintainersTotal"
+            :downloads-total="downloadsTotal"
+          />
+        </div>
+        <div class="flex justify-center">
+          <CardMockup class="h-full transform scale-125" />
+        </div>
+      </div>
     </div>
 
     <!-- Body -->
-    <div class="container px-4 sm:px-0 mx-auto pt-8 grid grid-cols-3">
+    <div class="container px-4 sm:px-0 mx-auto pt-8 grid grid-cols-1 sm:grid-cols-3 gap-8">
       <!-- Sidebar -->
-      <div class="col-span-1 pr-8 space-y-10">
+      <div class="col-span-1 space-y-10">
         <!-- Search -->
         <div>
           <!-- Search -->
@@ -152,15 +158,9 @@
       </div>
       <!-- Main -->
       <div class="col-span-2">
-        <!-- Module cards -->
-        <p class="text-sm font-extrabold tracking-tight text-gray-900">Modules</p>
-        <h2
-          class="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-700"
-        >Great codes.</h2>
-
         <!-- Clear filters -->
         <div
-          class="flex flex-col items-top justify-between sm:flex-row py-5 my-4 bg-gray-100 px-4 rounded-xl"
+          class="flex flex-col items-top justify-between sm:flex-row py-5 mb-4 bg-gray-100 px-4 rounded-xl"
         >
           <p class="text-forest-night">
             <span class="font-black text-2xl">{{ filteredModules.length }}</span>
