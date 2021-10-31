@@ -145,14 +145,19 @@
               :key="category"
               type="button"
               :aria-label="category"
-              class="px-4 py-2 mb-2 text-sm rounded cursor-pointer focus:outline-none"
+              class="px-4 py-3 mb-2 text-sm text-left flex items-center justify-between rounded cursor-pointer focus:outline-none"
               :class="[
                 selectedCategory === category
                   ? 'bg-sky-darker text-sky-lightest'
-                  : 'text-sky-black bg-sky-lightest hover:text-sky-lightest hover:bg-sky-dark focus:bg-sky-lightest',
+                  : 'text-sky-black bg-gray-200 hover:text-sky-lightest hover:bg-sky-dark focus:bg-sky-lightest',
               ]"
               @click="toggleCategory(category)"
-            >{{ category }}</button>
+            >
+              {{ category }}
+              <span
+                class="flex items-center w-5 h-5 items-center"
+              >1</span>
+            </button>
           </div>
         </div>
       </div>
@@ -249,11 +254,11 @@
           class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-100 text-gray-800"
         >Work in progress</span>
 
-        <div class="grid gap-6 md:grid-cols-2 mt-4">
+        <div class="grid gap-6 grid-cols-1 mt-4">
           <div
             v-for="module of pageFilteredModules"
             :key="module.name"
-            class="relative flex flex-col group overflow-hidden transition-transform duration-150 ease-in-out transform bg-white rounded-xl border hover:border-transparent border-gray-200 hover:shadow-md hover:-translate-y-1"
+            class="relative flex flex-col group overflow-hidden transition-transform duration-150 ease-in-out transform bg-white rounded-xl border hover:border-1 border-gray-200 hover:border-primary-600 focus:bg-sky-lightest"
           >
             <LazyHydrate when-visible>
               <card-module :module="module" />
