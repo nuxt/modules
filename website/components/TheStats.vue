@@ -7,7 +7,7 @@
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-sand-lighter leading-none sm:text-6xl"
+          class="text-3xl font-black text-sand-lightest leading-none sm:text-6xl"
           aria-describedby="item-1"
         >{{ modules.length }}</dd>
         <dt
@@ -21,7 +21,7 @@
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-sand-lighter leading-none sm:text-6xl"
+          class="text-3xl font-black text-sand-lightest leading-none sm:text-6xl"
         >{{ numberFormat(downloadsTotal) }}</dd>
         <dt
           class="font-medium leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize"
@@ -33,7 +33,7 @@
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-sand-lighter leading-none sm:text-6xl"
+          class="text-3xl font-black text-sand-lightest leading-none sm:text-6xl"
         >{{ maintainersTotal }}</dd>
         <dt
           class="font-medium leading-6 text-sm text-sky-light sm:mt-2 sm:text-sm sm:capitalize"
