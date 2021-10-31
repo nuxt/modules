@@ -10,3 +10,4 @@ sw.js
 cache
 .vercel_build_output
 .output
+package-l.json
