@@ -154,9 +154,9 @@
               @click="toggleCategory(category)"
             >
               {{ category }}
-              <span
-                class="flex items-center w-5 h-5 items-center"
-              >1</span>
+              <span class="flex items-center w-5 h-5 items-center ">
+                <img :src="`categories/${category == 'Date' ? 'time' : category}.svg`" aria-hidden="true" />
+              </span>
             </button>
           </div>
         </div>

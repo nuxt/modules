@@ -15,13 +15,17 @@
         class="border-b border-stone-green hover:text-green-500 hover:border-green-600"
       >Nuxt project</a>. Created by the Nuxt team and community.
     </p>
-    <div class="max-w-xl mt-10 text-left">
+    <div class="max-w-xl mt-10 text-left flex gap-6">
       <a
         href="https://github.com/nuxt/modules"
         rel="noopener"
         target="_blank"
-        class="text-sm sm:text-base font-semibold items-center py-4 px-6 text-white bg-[#003C3C] hover:bg-secondary-dark rounded-md"
-      >Contribute on GitHub</a>
+        class="text-sm sm:text-base font-semibold items-center py-4 px-6 text-white bg-[#003C3C] hover:bg-secondary-dark rounded-md inline-flex gap-3"
+      ><iconGithub />Contribute on GitHub</a>
+      <button
+        type="button"
+        class="text-sm sm:text-base font-semibold items-center py-4 px-6 text-white border-2 border-[#003C3C] hover:bg-secondary-dark rounded-md inline-flex gap-3"
+      ><iconMoon />Toggle dark mode</button>
     </div>
   </div>
 </template>
