@@ -1,56 +1,14 @@
 <template>
   <div class="pb-16">
     <!-- Header -->
-    <div class="pt-16 pb-16 bg-forest-night sm:pb-24">
-      <div class="px-4 pb-10 text-center sm:px-6 lg:px-8">
-        <div class="flex justify-center">
-          <IconNuxt alt="Nuxt" />
-        </div>
-        <h1 class="mt-4 text-4xl font-extrabold leading-10 text-white sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-          Explore Nuxt Modules
-        </h1>
-        <p class="max-w-xl mx-auto mt-5 text-lg leading-7 sm:text-xl text-rainy-grey">
-          Discover our list of modules to supercharge your <a href="https://nuxtjs.org" rel="noopener" target="_blank" class="border-b border-stone-green hover:text-green-500 hover:border-green-600">Nuxt project</a>. Created by the Nuxt team and community.
-        </p>
-        <div class="max-w-xl mx-auto mt-2 text-center">
-          <a href="https://github.com/nuxt/modules" rel="noopener" target="_blank" class="items-center space-x-1 leading-4 border-b text-md text-grey-light border-stone-green hover:text-green-500 hover:border-green-600">
-            Contribute on GitHub
-          </a>
-        </div>
-      </div>
-    </div>
+    <TheHeader />
 
     <!-- Stats -->
-    <div class="relative max-w-screen-xl px-4 mx-auto -mt-16 sm:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto">
-        <dl class="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3">
-          <div class="flex justify-center p-4 text-center border-b border-gray-100 sm:flex-col sm:p-6 sm:border-0 sm:border-r">
-            <dt id="item-1" class="order-2 ml-2 font-medium leading-6 text-gray-500 sm:mt-2 sm:ml-0 sm:text-md sm:capitalize">
-              modules
-            </dt>
-            <dd class="order-1 text-2xl font-extrabold leading-none text-green-700 sm:text-4xl" aria-describedby="item-1">
-              {{ modules.length }}
-            </dd>
-          </div>
-          <div class="flex justify-center p-4 text-center border-t border-b border-gray-100 sm:flex-col sm:p-6 sm:border-0 sm:border-l sm:border-r">
-            <dt class="order-2 ml-2 font-medium leading-6 text-gray-500 sm:mt-2 sm:ml-0 sm:text-md sm:capitalize">
-              downloads last 30 days
-            </dt>
-            <dd class="order-1 text-2xl font-extrabold leading-none text-green-700 sm:text-4xl">
-              {{ numberFormat(downloads) }}
-            </dd>
-          </div>
-          <div class="flex justify-center p-4 text-center border-t border-gray-100 sm:flex-col sm:p-6 sm:border-0 sm:border-l">
-            <dt class="order-2 ml-2 font-medium leading-6 text-gray-500 sm:mt-2 sm:ml-0 sm:text-md sm:capitalize">
-              maintainers
-            </dt>
-            <dd class="order-1 text-2xl font-extrabold leading-none text-green-700 sm:text-4xl">
-              {{ maintainersTotal }}
-            </dd>
-          </div>
-        </dl>
-      </div>
-    </div>
+    <TheStats
+      :modules="modules"
+      :maintainers-total="maintainersTotal"
+      :downloads-total="downloadsTotal"
+    />
 
     <!-- Search and filters -->
     <div class="container px-4 pt-12 pb-8 mx-auto sm:px-0">
@@ -96,6 +54,9 @@
         <!-- Clear filters -->
         <p class="mb-4 text-forest-night">
           {{ filteredModules.length }} module{{ filteredModules.length !== 1 ? 's' : '' }} found
+          (Show modules working with: <NLink v-for="v in ['2.x', '2.x-bridge', '3.x']" :key="v" class="mx-1 underline cursor-pointer" :to="`/?q=${v}`">
+            {{ v }}
+          </NLink>)
           <template v-if="selectedCategory || q">
             <p>
               Filter{{ selectedCategory && q ? 's' : '' }}:
@@ -145,7 +106,7 @@
       </div>
       <!-- Module cards -->
       <div class="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-        <div v-for="module of pageFilteredModules" :key="module.name" class="relative flex flex-col overflow-hidden transition-transform duration-150 ease-in-out transform bg-white rounded-md shadow hover:shadow-lg hover:-translate-y-1">
+        <div v-for="module of pageFilteredModules" :key="module.name" class="relative flex flex-col overflow-hidden transition-transform duration-150 ease-in-out transform bg-white rounded-xl border border-gray-300 hover:shadow-md hover:-translate-y-1">
           <LazyHydrate when-visible>
             <card-module :module="module" />
           </LazyHydrate>
@@ -155,27 +116,15 @@
     </div>
 
     <!-- Footer -->
-    <footer class="container flex flex-col items-center justify-center pt-12 mx-auto text-stone-green">
-      <p>For more information on Nuxt modules, including how to create a module, check out our <a href="https://nuxtjs.org/guides/directory-structure/modules" rel="noopener" target="_blank" class="items-center space-x-1 leading-4 border-b text-md text-grey border-stone-green hover:text-green-500 hover:border-green-600">docs</a>.</p>
-      <div class="flex justify-center px-4 pt-6 space-x-2 sm:px-0">
-        <a href="https://vercel.com" rel="noopener" target="_blank" aria-label="go to vercel">
-          <IconVercel alt="Vercel" />
-        </a>
-        <a href="https://nuxtjs.org" rel="noopener" target="_blank" aria-label="go to nuxt">
-          <IconWithNuxt alt="Nuxt" />
-        </a>
-      </div>
-    </footer>
+    <TheFooter />
   </div>
 </template>
 
 <script>
 import LazyHydrate from 'vue-lazy-hydration'
 import Fuse from 'fuse.js/dist/fuse.basic.esm'
-import categories from '~/categories'
 import CardModule from '~/components/CardModule.vue'
 import Observer from '~/components/Observer.vue'
-import { numberFormatter } from '~/utils/format.ts'
 import { isMobile } from '~/utils/detectUserAgent.ts'
 
 const sort = (a, b, asc) => asc ? a - b : b - a
@@ -211,13 +160,14 @@ export default {
       }
     }
   },
-  async asyncData ({ $content }) {
-    const modules = await $content().sortBy(FIELDS.DOWNLOADS, ORDERS.DESC).fetch()
-    const maintainers = []
-    let downloads = 0
+  async asyncData () {
+    const { modules } = await $fetch('/api/modules')
+    const { categories } = await $fetch('/api/categories')
 
+    const maintainers = []
+    let downloadsTotal = 0
     modules.forEach((module) => {
-      downloads += (module.downloads || 0)
+      downloadsTotal += (module.downloads || 0)
       module.maintainers.forEach((maintainer) => {
         if (!maintainers.find(m => m.name === maintainer.name)) {
           maintainers.push(maintainer)
@@ -225,11 +175,20 @@ export default {
       })
     })
 
+    for (const module of modules) {
+      module.tags = [
+        ...(module.tags || []),
+        ...Object.entries(module.compatibility)
+          .map(([version, status]) => status === 'working' ? version : false)
+          .filter(Boolean)
+      ]
+    }
+
     return {
       modules,
       categories,
       maintainersTotal: maintainers.length,
-      downloads
+      downloadsTotal
     }
   },
   data () {
@@ -317,6 +276,9 @@ export default {
     },
     sortBy () {
       this.syncURL()
+    },
+    $route () {
+      this.applyURLFilters()
     }
   },
   mounted () {
@@ -329,28 +291,14 @@ export default {
         'maintainers.name',
         'maintainers.github',
         'description',
-        'repo'
+        'repo',
+        'tags'
       ]
     }
     const index = Fuse.createIndex(fuseOptions.keys, this.modules)
     this.fuse = new Fuse(this.modules, fuseOptions, index)
 
-    const selectedCategory = (window.location.hash || '').substr(1)
-    if (selectedCategory) {
-      this.toggleCategory(selectedCategory)
-    }
-    const { q, sortBy, orderBy } = this.$route.query
-    if (q) {
-      this.q = q
-    }
-
-    if (sortBy) {
-      this.sortBy = sortBy
-    }
-
-    if (orderBy) {
-      this.orderBy = orderBy
-    }
+    this.applyURLFilters()
 
     // In case of desktop, auto focus the search input
     if (!isMobile()) {
@@ -364,9 +312,6 @@ export default {
     window.removeEventListener('keypress', this.searchFocusListener)
   },
   methods: {
-    numberFormat (num, options = { precision: 1 }) {
-      return numberFormatter(num, options)
-    },
     toggleCategory (category) {
       if (this.selectedCategory === category) {
         this.selectedCategory = null
@@ -401,6 +346,24 @@ export default {
       }
 
       window.history.pushState('', '', `${url}${query}`)
+    },
+    applyURLFilters () {
+      const selectedCategory = (window.location.hash || '').substr(1)
+      if (selectedCategory) {
+        this.toggleCategory(selectedCategory)
+      }
+      const { q, sortBy, orderBy } = this.$route.query
+      if (q) {
+        this.q = q
+      }
+
+      if (sortBy) {
+        this.sortBy = sortBy
+      }
+
+      if (orderBy) {
+        this.orderBy = orderBy
+      }
     },
     toggleOrderBy () {
       this.orderBy = (this.orderBy === ORDERS.ASC) ? ORDERS.DESC : ORDERS.ASC

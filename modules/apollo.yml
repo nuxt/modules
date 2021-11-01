@@ -15,3 +15,7 @@ maintainers:
   - name: Dominic Garms
     github: dohomi
     avatar: https://avatars0.githubusercontent.com/u/489221?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: broken
+  3.x: broken

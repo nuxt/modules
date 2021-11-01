@@ -14,3 +14,7 @@ maintainers:
   - name: mustardamus
     github: mustardamus
     avatar: https://avatars1.githubusercontent.com/u/110802?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

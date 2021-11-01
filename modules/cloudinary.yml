@@ -13,3 +13,7 @@ maintainers:
     github: mayashavin
     twitter: MayaShavin
     avatar: https://avatars3.githubusercontent.com/u/6650139?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: broken

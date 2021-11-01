@@ -1,0 +1,9 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "strict": false,
+    "noImplicitAny": false
+  }
+}

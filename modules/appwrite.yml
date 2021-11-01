@@ -3,12 +3,16 @@ description: Appwrite module for Nuxt
 repo: Hrdtr/nuxt-appwrite
 npm: nuxt-appwrite
 icon: appwrite.png
-github: 'https://github.com/Hrdtr/nuxt-appwrite'
-website: 'https://github.com/Hrdtr/nuxt-appwrite'
+github: https://github.com/Hrdtr/nuxt-appwrite
+website: https://github.com/Hrdtr/nuxt-appwrite
 learn_more: ''
-category: 'Request'
+category: Request
 type: 3rd-party
 maintainers:
   - name: Hrdtr
     github: Hrdtr
-    avatar: 'https://avatars0.githubusercontent.com/u/35950229?v=4'
+    avatar: https://avatars0.githubusercontent.com/u/35950229?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown
