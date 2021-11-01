@@ -172,7 +172,7 @@
         <img alt="npm" src="~/assets/icons/npm.svg" width="32" height="32" class="icon" />
         <div
           class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium"
-        >{{ numberFormat(module.downloads) }} install</div>
+        >{{ numberFormat(module.downloads) }} installs</div>
       </a>
       <a
         :href="module.github"
