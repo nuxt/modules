@@ -1,6 +1,7 @@
 import colors from 'windicss/colors'
 
 export default {
+  darkMode: 'class',
   safelist: 'bg-secondary-darker',
   theme: {
     colors: {
@@ -27,19 +28,9 @@ export default {
       'secondary-darker': '#003543',
       'secondary-darkest': '#012A35',
       'secondary-black': '#001E26',
-      tertiary: '#B2CCCC', // cloud
-      'cloud-surface': '#E6F0F0',
-      'cloud-lightest': '#D1E2E2',
-      'cloud-lighter': '#B2CCCC',
-      'cloud-light': '#92ADAD',
-      cloud: '#688282',
-      'cloud-dark': '#566B6B',
-      'cloud-darker': '#334040',
-      'cloud-darkest': '#273131',
-      'cloud-black': '#1A2121',
       black: '#000',
       white: '#fff',
-      blue: colors.lightBlue,
+      blue: colors.sky,
       green: {
         // 50: "#eefdf2",
         50: '#d0fcde',
@@ -53,6 +44,15 @@ export default {
         800: '#047342',
         900: '#134d2e'
         // 950: "#132a1c",
+      },
+      ringWidth: {
+        3: '3px'
+      },
+      inset: {
+        13: '13px'
+      },
+      lineHeight: {
+        14: '0.875rem'
       },
       red: colors.red,
       rose: colors.rose,
@@ -70,35 +70,6 @@ export default {
         darker: '#003543',
         darkest: '#012A35',
         black: '#001E26'
-      },
-      mint: {
-        surface: '#E7FEFD',
-        lightest: '#C5EEEC',
-        lighter: '#A8DDDB',
-        light: '#7EB1B0',
-        DEFAULT: '#558887',
-        dark: '#2E6160',
-        darker: '#003C3C',
-        darkest: '#012E2F',
-        black: '#002021'
-      },
-      indigo: {
-        lighter: '#80B1E3',
-        light: '#408BD6',
-        DEFAULT: '#0064C8',
-        dark: '#0055AA',
-        darker: '#00468C'
-      },
-      sand: {
-        surface: '#F5F5EB',
-        lightest: '#EDEDD5',
-        lighter: '#DEDEB6',
-        light: '#B4B48C',
-        DEFAULT: '#9C9C6A',
-        dark: '#636330',
-        darker: '#3B3B00',
-        darkest: '#2D2E01',
-        black: '#1F2100'
       }
     },
     extend: {
@@ -113,9 +84,7 @@ export default {
     }
   },
   shortcuts: {
-    'app-button-primary-color': 'text-black bg-primary-500 hover:bg-primary-400 focus:ring-primary-600',
-    'app-button-secondary-color': 'bg-gray-500 bg-opacity-10 hover:bg-opacity-20',
-    'nuxt-text-highlight': 'py-2 px-4 rounded-md bg-gray-100 dark:bg-white dark:bg-opacity-10',
+    'nuxt-text-highlight': 'py-2 px-4 rounded-md bg-gray-100 dark:bg-white dark:bg-opacity-10 hober:bg-gray-200',
     'nuxt-text-highlight-hover': 'nuxt-text-highlight dark:hover:bg-opacity-9 light:hover:bg-gray-50',
     'text-display-6': {
       fontSize: '1.875rem',
@@ -165,5 +134,8 @@ export default {
       fontSize: '1.5rem',
       lineHeight: '2rem'
     }
-  }
+  },
+  plugins: [
+    require('windicss/plugin/line-clamp')
+  ]
 }
