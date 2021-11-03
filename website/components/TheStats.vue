@@ -1,42 +1,42 @@
 <template>
   <div>
-    <dl class="flex gap-8">
+    <dl class="flex gap-8 mt-auto h-full">
       <div class="flex-col space-y-2 p-4 rounded-md">
         <span
-          class="font-normal leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-normal leading-6 text-sky-darkest text-sm sm:mt-2 sm:text-sm sm:capitalize"
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-sand-lightest leading-none sm:text-6xl"
+          class="text-3xl font-black text-primary-600 leading-none sm:text-6xl"
           aria-describedby="item-1"
         >{{ modules.length }}</dd>
         <dt
           id="item-1"
-          class="font-normal leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-normal leading-6 text-sky-darkest text-sm sm:mt-2 sm:text-sm sm:capitalize"
         >modules</dt>
       </div>
       <div class="flex-col space-y-2 p-4">
         <span
-          class="font-normal leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-normal leading-6 text-sky-darkest text-sm sm:mt-2 sm:text-sm sm:capitalize"
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-sand-lightest leading-none sm:text-6xl"
+          class="text-3xl font-black text-primary-600 leading-none sm:text-6xl"
         >{{ numberFormat(downloadsTotal) }}</dd>
         <dt
-          class="font-medium leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-medium leading-6 text-sky-darkest text-sm sm:mt-2 sm:text-sm sm:capitalize"
         >downloads last 30 days</dt>
       </div>
       <div class="flex-col space-y-2 p-4 rounded-md">
         <span
-          class="font-normal leading-6 text-sky-light text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-normal leading-6 text-sky-darkest text-sm sm:mt-2 sm:text-sm sm:capitalize"
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-sand-lightest leading-none sm:text-6xl"
+          class="text-3xl font-black text-primary-600 leading-none sm:text-6xl"
         >{{ maintainersTotal }}</dd>
         <dt
-          class="font-medium leading-6 text-sm text-sky-light sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-medium leading-6 text-sm text-sky-darkest sm:mt-2 sm:text-sm sm:capitalize"
         >maintainers</dt>
       </div>
     </dl>
