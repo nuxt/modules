@@ -12,7 +12,8 @@ export default defineNuxtConfig({
     // https://github.com/moritzsternemann/vue-plausible
     'vue-plausible',
     // https://html-validator.nuxtjs.org
-    '@nuxtjs/html-validator'
+    '@nuxtjs/html-validator',
+    '@nuxtjs/color-mode'
   ],
   privateRuntimeConfig: {
     githubToken: process.env.GITHUB_TOKEN
@@ -46,5 +47,9 @@ export default defineNuxtConfig({
       'avatars2.githubusercontent.com',
       'avatars3.githubusercontent.com'
     ]
+  },
+  colorMode: {
+    preference: 'system',
+    fallback: 'light'
   }
 })
