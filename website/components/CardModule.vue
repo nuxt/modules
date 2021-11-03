@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col h-full relative">
-    <div class="relative flex flex-1 flex-col space-y-2 p-8 group text-gray-900">
+    <div class="relative flex flex-1 flex-col space-y-2 p-8 group text-sky-darkest">
       <a
         :href="module.website"
         :aria-label="module.website"
@@ -9,27 +9,27 @@
         class="absolute inset-0"
       >
         <div
-          class="bg-white rounded-bl-lg border-l border-b border-primary-600 transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 absolute top-0 right-0 cursor-pointer"
+          class="transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 absolute top-4 right-6 cursor-pointer"
         >
           <img alt="website" src="~/assets/icons/ext.svg" width="40" height="40" />
         </div>
       </a>
 
-      <div class="flex justify-between items-start">
-        <div class="flex items-start">
+      <div class="flex flex-col justify-between items-start">
+        <div class="flex items-start h-28">
           <div
-            class="border border-gray-200 w-28 h-28 rounded-xl flex flex-none items-center justify-center"
+            class="border border-gray-200 w-20 h-20 rounded-lg flex flex-none items-center justify-center"
           >
             <nuxt-img
               :src="iconUrl(module)"
               :alt="module.name"
-              class="w-14 h-14 object-contain"
-              width="56px"
-              height="56px"
+              class="w-10 h-10 object-contain"
+              width="40px"
+              height="40px"
             />
           </div>
           <div class="ml-4">
-            <h2 class="flex text-2xl items-center">
+            <h2 class="flex text-xl font-medium items-center">
               <span>{{ module.name }}</span>
               <img
                 v-if="module.type === 'official'"
@@ -40,12 +40,12 @@
                 class="ml-1 mt-1"
               />
             </h2>
-            <p class="text-gray-600 group-hover:text-gray-800 text-sm">{{ module.description }}</p>
+            <p class="text-sky-dark group-hover:text-gray-800 text-sm font-light line-clamp-4">{{ module.description }}</p>
           </div>
         </div>
-        <div class="grid grid-cols-1 gap-3 w-44 flex flex-none">
+        <div class="grid grid-cols-1 flex flex-none w-full mt-8 divide-y">
           <div
-            class="flex items-center space-x-4 justify-between text-xs bg-gray-100 rounded-lg w-full px-2 py-1"
+            class="flex items-center space-x-4 justify-between text-xs  w-full px-2 py-1"
           >
             <div>
               <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 mr-1 inline-block">
@@ -73,10 +73,10 @@
           </div>
 
           <div
-            class="flex items-center justify-between text-xs bg-gray-100 rounded-lg w-full px-2 py-1"
+            class="flex items-center justify-between text-xs text-sky-darkest  w-full px-2 py-2"
           >
             <div>
-              <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 mr-1 inline-block">
+              <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 mr-1 inline-block text-sky-darkest">
                 <g
                   fill="none"
                   stroke="currentColor"
@@ -111,7 +111,7 @@
           </div>
 
           <div
-            class="flex items-center justify-between text-xs bg-gray-100 rounded-lg w-full px-2 py-1"
+            class="flex items-center justify-between text-xs text-sky-darkest w-full px-2 py-2"
           >
             <div>
               <svg
@@ -120,7 +120,7 @@
                 aria-hidden="true"
                 role="img"
                 viewBox="0 0 32 32"
-                class="h-6 w-6 mr-1 inline-block"
+                class="h-6 w-6 mr-1 inline-block text-sky-darkest"
               >
                 <path
                   d="M26.297 27.031l.031-.063a.746.746 0 0 0 .073-.156v-.005c.099-.26.12-.536.073-.813v.01a2.368 2.368 0 0 0-.313-.828l.01.01l-7.094-12.474l-1.083-1.891l-8.156 14.365c-.141.25-.229.521-.276.802v.016c-.057.323-.021.651.109.953l-.005-.01c.016.047.042.089.068.135l-.005-.005c.214.365.667.802 1.667.802h13.198c.208 0 1.234-.042 1.708-.849zm-8.302-12.422l6.479 11.396H11.521zm13.666 10.579L22.307 8.709c-.099-.177-.635-1.052-1.578-1.052c-.422 0-1.026.182-1.521 1.047L18 10.824l1.073 1.896l1.667-2.953l9.255 16.245h-3.521c.047.271.021.547-.073.807v-.01c-.021.057-.042.115-.073.167v-.005l-.031.063c-.474.807-1.495.849-1.693.849h5.505c.203 0 1.219-.042 1.693-.849c.214-.37.359-.984-.141-1.844zM9.74 27.078l-.063-.125v-.005a1.668 1.668 0 0 1-.115-.953v.01H1.999l11.24-19.776l3.687 6.484l1.073-1.891l-3.219-5.667c-.089-.161-.63-1.036-1.568-1.036c-.422 0-1.031.182-1.521 1.052L.306 25.187c-.099.172-.568 1.078-.099 1.885c.214.37.667.802 1.667.802h9.531c-.99 0-1.453-.427-1.667-.802z"
@@ -147,42 +147,28 @@
         </div>
       </div>
     </div>
-    <div v-if="false" class="grid grid-cols-3 opacity-100 sm:opacity-50 group-hover:opacity-100">
-      <div
-        v-for="c of compatibility"
-        :key="c.label"
-        class="flex flex-col items-center py-3 px-4 pl-6"
-      >
-        <div class="flex flex-col items-center justify-between text-2xl w-full px-2 py-1">
-          {{ c.icon }}
-          <span
-            class="text-gray-900 text-center font-extrabold text-xs py-0.5 mt-4"
-          >{{ c.label }}</span>
-        </div>
-      </div>
-    </div>
     <div class="border-t border-gray-200 bg-gray-100 grid grid-cols-3">
       <a
         :href="npmUrl(module)"
         aria-label="npm"
         target=" _blank"
         rel="noopener"
-        class="stats-block group flex items-center space-x-2 border-r border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 py-3 px-4 pl-6"
+        class="stats-block group flex flex-col justify-between border-r border-gray-200 hover:bg-gray-200 hover:bg-opacity-50 py-3 px-4 pl-6"
       >
-        <img alt="npm" src="~/assets/icons/npm.svg" width="32" height="32" class="icon" />
+        <img alt="npm" src="~/assets/icons/npm.svg" width="24" height="24" class="icon" />
         <div
-          class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium"
-        >{{ numberFormat(module.downloads) }} installs</div>
+          class="text-sm leading-5 text-sky-dark group-hover:text-gray-900 font-medium"
+        >{{ numberFormat(module.downloads) }}</div>
       </a>
       <a
         :href="module.github"
         aria-label="stars"
         target=" _blank"
         rel="noopener"
-        class="stats-block group flex items-center space-x-1 py-3 px-4 border-r border-gray-200 hover:bg-gray-200 hover:bg-opacity-50"
+        class="stats-block group flex flex-col justify-between py-3 px-4 border-r border-gray-200 hover:bg-gray-200 hover:bg-opacity-50"
       >
         <img alt="stars" src="~/assets/icons/star.svg" width="20" height="20" class="icon" />
-        <div class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium truncate">
+        <div class="text-sm leading-5 text-sky-dark group-hover:text-gray-900 font-medium truncate">
           {{ numberFormat(module.stars) }}
           <span
             class="hidden md:inline-block"
@@ -190,7 +176,7 @@
         </div>
       </a>
       <div
-        class="stats-block group flex items-center space-x-1 py-3 px-4 z-0 overflow-hidden hover:bg-gray-200 hover:bg-opacity-50"
+        class="stats-block group flex flex-col justify-between py-3 px-4 z-0 overflow-hidden hover:bg-gray-200 hover:bg-opacity-50"
       >
         <img
           alt="maintainer"
@@ -199,24 +185,26 @@
           height="20"
           class="icon mr-1"
         />
-        <a
-          v-for="maintainer of module.maintainers"
-          :key="maintainer.github"
-          v-tooltip="{ content: maintainer.github, classes: ['bg-forest-night', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }"
-          :aria-label="maintainer.github"
-          :href="githubUrl(maintainer)"
-          target="_blank"
-          rel="noopener"
-        >
-          <nuxt-img
-            class="w-6 h-6 relative rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100"
-            :src="maintainer.avatar + '&s=24'"
-            :alt="maintainer.name"
-            format="jpg"
-            width="24"
-            height="24"
-          />
-        </a>
+        <div class="flex space-x-2">
+          <a
+            v-for="maintainer of module.maintainers"
+            :key="maintainer.github"
+            v-tooltip="{ content: maintainer.github, classes: ['bg-forest-night', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }"
+            :aria-label="maintainer.github"
+            :href="githubUrl(maintainer)"
+            target="_blank"
+            rel="noopener"
+          >
+            <nuxt-img
+              class="w-6 h-6 relative rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100"
+              :src="maintainer.avatar + '&s=24'"
+              :alt="maintainer.name"
+              format="jpg"
+              width="22"
+              height="22"
+            />
+          </a>
+        </div>
       </div>
     </div>
   </div>
