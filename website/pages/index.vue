@@ -185,15 +185,11 @@
         >
           <p class="text-forest-night">
             <span class="font-black text-2xl">{{ filteredModules.length }}</span>
+
             module{{ filteredModules.length !== 1 ? 's' : '' }} found
-            (Show modules working with:
-            <NLink
-              v-for="v in ['2.x', '2.x-bridge', '3.x']"
-              :key="v"
-              class="mx-1 underline cursor-pointer text-yellow-600 font-semibold"
-              :to="`/?q=${v}`"
-            >{{ v }}</NLink>)
-            <template v-if="selectedCategory || q">
+            <template
+              v-if="selectedCategory || q"
+            >
               <p>
                 Filter{{ selectedCategory && q ? 's' : '' }}:
                 <b>{{ selectedCategory }}</b>
