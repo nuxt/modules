@@ -60,7 +60,7 @@
     <!-- Body -->
     <div class="container px-4 sm:px-0 mx-auto pt-8 grid grid-cols-1 sm:grid-cols-5 gap-8">
       <!-- Sidebar -->
-      <div class="col-span-1 space-y-10">
+      <div class="col-span-1 space-y-10 hidden lg:block">
         <!-- Nuxt versions -->
         <div>
           <h1 class="text-2xl font-extrabold tracking-tight text-sky-darkest">Nuxt version</h1>
@@ -273,7 +273,7 @@
           class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-100 text-gray-800"
         >Work in progress</span>
 
-        <div class="grid gap-6 grid-cols-3 mt-4">
+        <div class="grid gap-6 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-4">
           <div
             v-for="module of pageFilteredModules"
             :key="module.name"
