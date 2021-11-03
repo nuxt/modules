@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col h-full">
-    <div class="relative flex flex-1 flex-col space-y-2 px-6 py-8 group">
+  <div class="flex flex-col h-full relative">
+    <div class="relative flex flex-1 flex-col space-y-2 p-8 group text-gray-900">
       <a
         :href="module.website"
         :aria-label="module.website"
@@ -9,34 +9,145 @@
         class="absolute inset-0"
       >
         <div
-          class="transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 absolute top-4 right-6 cursor-pointer"
+          class="bg-white rounded-bl-lg border-l border-b border-primary-600 transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 absolute top-0 right-0 cursor-pointer"
         >
           <img alt="website" src="~/assets/icons/ext.svg" width="40" height="40" />
         </div>
       </a>
 
-      <nuxt-img
-        :src="iconUrl(module)"
-        :alt="module.name"
-        class="w-10 h-10 object-contain"
-        width="40px"
-        height="40px"
-      />
+      <div class="flex justify-between items-start">
+        <div class="flex items-start">
+          <div
+            class="border border-gray-200 w-28 h-28 rounded-xl flex flex-none items-center justify-center"
+          >
+            <nuxt-img
+              :src="iconUrl(module)"
+              :alt="module.name"
+              class="w-14 h-14 object-contain"
+              width="56px"
+              height="56px"
+            />
+          </div>
+          <div class="ml-4">
+            <h2 class="flex text-2xl items-center">
+              <span>{{ module.name }}</span>
+              <img
+                v-if="module.type === 'official'"
+                alt="official"
+                src="~/assets/icons/official.svg"
+                width="20"
+                height="20"
+                class="ml-1 mt-1"
+              />
+            </h2>
+            <p class="text-gray-600 group-hover:text-gray-800 text-sm">{{ module.description }}</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 gap-3 w-44 flex flex-none">
+          <div
+            class="flex items-center space-x-4 justify-between text-xs bg-gray-100 rounded-lg w-full px-2 py-1"
+          >
+            <div>
+              <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 mr-1 inline-block">
+                <path
+                  d="M9.078 3.965c-.588 0-1.177.289-1.514.867L.236 17.433c-.672 1.156.17 2.601 1.514 2.601h5.72a1.676 1.676 0 0 1-.35-2.117l5.547-9.513l-2.076-3.572a1.734 1.734 0 0 0-1.513-.867zm7.407 2.922c-.487 0-.973.236-1.252.709L9.17 17.906c-.557.945.138 2.13 1.251 2.13h12.13c1.114 0 1.81-1.185 1.253-2.13l-6.067-10.31a1.437 1.437 0 0 0-1.252-.71z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span>Nuxt 3</span>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="h-6 w-6 inline-block text-primary-600"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M9.86 18a1 1 0 0 1-.73-.32l-4.86-5.17a1 1 0 1 1 1.46-1.37l4.12 4.39l8.41-9.2a1 1 0 1 1 1.48 1.34l-9.14 10a1 1 0 0 1-.73.33z"
+              />
+            </svg>
+          </div>
 
-      <h2 class="flex text-2xl items-center pt-2">
-        <span>{{ module.name }}</span>
-        <img
-          v-if="module.type === 'official'"
-          alt="official"
-          src="~/assets/icons/official.svg"
-          width="20"
-          height="20"
-          class="ml-1 mt-1"
-        />
-      </h2>
-      <p class="text-gray-500 group-hover:text-gray-800 text-sm">{{ module.description }}</p>
+          <div
+            class="flex items-center justify-between text-xs bg-gray-100 rounded-lg w-full px-2 py-1"
+          >
+            <div>
+              <svg width="1em" height="1em" viewBox="0 0 24 24" class="h-6 w-6 mr-1 inline-block">
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon-tabler"
+                >
+                  <path d="M6 5v14" />
+                  <path d="M18 5v14" />
+                  <path d="M2 15h20" />
+                  <path d="M3 8a7.5 7.5 0 0 0 3-2a6.5 6.5 0 0 0 12 0a7.5 7.5 0 0 0 3 2" />
+                  <path d="M12 10v5" />
+                </g>
+              </svg>
+              <span>Nuxt 2.x-bridge</span>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="h-6 w-6 inline-block text-primary-600"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M9.86 18a1 1 0 0 1-.73-.32l-4.86-5.17a1 1 0 1 1 1.46-1.37l4.12 4.39l8.41-9.2a1 1 0 1 1 1.48 1.34l-9.14 10a1 1 0 0 1-.73.33z"
+              />
+            </svg>
+          </div>
+
+          <div
+            class="flex items-center justify-between text-xs bg-gray-100 rounded-lg w-full px-2 py-1"
+          >
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                viewBox="0 0 32 32"
+                class="h-6 w-6 mr-1 inline-block"
+              >
+                <path
+                  d="M26.297 27.031l.031-.063a.746.746 0 0 0 .073-.156v-.005c.099-.26.12-.536.073-.813v.01a2.368 2.368 0 0 0-.313-.828l.01.01l-7.094-12.474l-1.083-1.891l-8.156 14.365c-.141.25-.229.521-.276.802v.016c-.057.323-.021.651.109.953l-.005-.01c.016.047.042.089.068.135l-.005-.005c.214.365.667.802 1.667.802h13.198c.208 0 1.234-.042 1.708-.849zm-8.302-12.422l6.479 11.396H11.521zm13.666 10.579L22.307 8.709c-.099-.177-.635-1.052-1.578-1.052c-.422 0-1.026.182-1.521 1.047L18 10.824l1.073 1.896l1.667-2.953l9.255 16.245h-3.521c.047.271.021.547-.073.807v-.01c-.021.057-.042.115-.073.167v-.005l-.031.063c-.474.807-1.495.849-1.693.849h5.505c.203 0 1.219-.042 1.693-.849c.214-.37.359-.984-.141-1.844zM9.74 27.078l-.063-.125v-.005a1.668 1.668 0 0 1-.115-.953v.01H1.999l11.24-19.776l3.687 6.484l1.073-1.891l-3.219-5.667c-.089-.161-.63-1.036-1.568-1.036c-.422 0-1.031.182-1.521 1.052L.306 25.187c-.099.172-.568 1.078-.099 1.885c.214.37.667.802 1.667.802h9.531c-.99 0-1.453-.427-1.667-.802z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span>Nuxt 2.x</span>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              class="h-6 w-6 inline-block text-primary-600"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M9.86 18a1 1 0 0 1-.73-.32l-4.86-5.17a1 1 0 1 1 1.46-1.37l4.12 4.39l8.41-9.2a1 1 0 1 1 1.48 1.34l-9.14 10a1 1 0 0 1-.73.33z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="grid grid-cols-3 opacity-100 sm:opacity-50 group-hover:opacity-100 ">
+    <div v-if="false" class="grid grid-cols-3 opacity-100 sm:opacity-50 group-hover:opacity-100">
       <div
         v-for="c of compatibility"
         :key="c.label"
@@ -50,9 +161,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="border-t border-gray-200 bg-gray-100 grid grid-cols-3 opacity-100 sm:opacity-50 group-hover:opacity-100 "
-    >
+    <div class="border-t border-gray-200 bg-gray-100 grid grid-cols-3">
       <a
         :href="npmUrl(module)"
         aria-label="npm"
@@ -63,7 +172,7 @@
         <img alt="npm" src="~/assets/icons/npm.svg" width="32" height="32" class="icon" />
         <div
           class="text-sm leading-5 text-gray-600 group-hover:text-gray-900 font-medium"
-        >{{ numberFormat(module.downloads) }}</div>
+        >{{ numberFormat(module.downloads) }} installs</div>
       </a>
       <a
         :href="module.github"
