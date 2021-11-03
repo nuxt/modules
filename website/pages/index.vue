@@ -1,8 +1,32 @@
 <template>
-  <div class="pb-16">
-    <div class="p-6 bg-gradient-to-b from-[#003C3C] to-[#002021] sm:p-24">
+  <div class="pb-16 relative">
+    <div
+      class="bg-white w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
+    >
+      <TheSearch>
+        <div class="flex shadow-sm w-full max-w-md">
+          <label class="relative flex-1">
+            <input
+              ref="searchModule"
+              v-model="q"
+              type="search"
+              aria-label="Search"
+              class="block w-full py-2 pl-3 pr-3 text-base leading-6 placeholder-gray-500 transition duration-150 ease-in-out border-2 appearance-none md:pr-10 border-sky-light rounded-lg focus:ring-3 focus:ring-sky-lighter focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 sm:flex-1"
+              placeholder="Search a module (name, category, username, etc.)"
+            />
+            <span
+              class="absolute hidden px-2 py-1 text-gray-400 border border-sky-light rounded-md opacity-50 md:inline-block text-md top-1 right-2 leading-6"
+            >/</span>
+          </label>
+        </div>
+      </TheSearch>
+    </div>
+
+    <div
+      class="pt-10 lg:pt-24 pb-16 lg:pb-32 bg-gray-100 dark:bg-secondary-darkest sm:p-10 relative"
+    >
       <div class="container mx-auto flex flex-col sm:flex-row justify-between">
-        <div class="flex flex-col gap-8">
+        <div class="flex items-end justify-between w-full">
           <!-- Header -->
           <TheHeader />
           <!-- Stats -->
@@ -12,50 +36,39 @@
             :downloads-total="downloadsTotal"
           />
         </div>
-        <div class="flex justify-center">
+        <!-- TODO: maybe card delete -->
+        <div v-if="false" class="flex justify-center">
           <CardMockup class="h-full transform scale-125" />
         </div>
       </div>
+      <!-- TODO: light / dark bug -->
+      <img
+        v-if="false"
+        loading="lazy"
+        src="/img/page-hero/dark/mountains.svg"
+        alt="A landscape image"
+        class="absolute -bottom-1px left-0 w-full h-12 md:h-24 object-fill light:hidden pointer-events-none z-0"
+      />
+      <img
+        loading="lazy"
+        src="/img/page-hero/light/mountains.svg"
+        alt="A landscape image"
+        class="absolute -bottom-1px left-0 w-full h-12 md:h-24 object-fill dark:hidden pointer-events-none z-0"
+      />
     </div>
 
     <!-- Body -->
-    <div class="container px-4 sm:px-0 mx-auto pt-8 grid grid-cols-1 sm:grid-cols-3 gap-8">
+    <div class="container px-4 sm:px-0 mx-auto pt-8 grid grid-cols-1 sm:grid-cols-5 gap-8">
       <!-- Sidebar -->
       <div class="col-span-1 space-y-10">
-        <!-- Search -->
-        <div>
-          <!-- Search -->
-          <div class="flex shadow-sm sm:max-w-lg sm:mx-auto mb-10">
-            <label class="relative flex-1">
-              <input
-                ref="searchModule"
-                v-model="q"
-                type="search"
-                aria-label="Search"
-                class="block w-full py-3 pl-3 pr-3 text-base leading-6 placeholder-gray-500 transition duration-150 ease-in-out border-2 appearance-none md:pr-10 border-sky-lightest rounded-tl-md rounded-bl-md focus:ring-3 focus:ring-sky-lighter focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 sm:flex-1"
-                placeholder="Search a module (name, category, username, etc.)"
-              />
-              <span
-                class="absolute hidden px-2 py-1 text-gray-400 border border-sky-lightest rounded-md opacity-50 md:inline-block text-md top-2 right-2 leading-6"
-              >/</span>
-            </label>
-            <button
-              type="button"
-              aria-label="search"
-              class="px-6 py-3 text-base font-medium leading-6 text-gray-700 transition duration-150 ease-in-out bg-sky-lightest hover:bg-grey-light focus:bg-grey-light rounded-tr-md rounded-br-md focus:outline-none focus:ring-3 focus:ring-sky-lighter focus:ring-opacity-50 sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
-            >
-              <IconSearch alt="Search" />
-            </button>
-          </div>
-        </div>
         <!-- Nuxt versions -->
         <div>
-          <h1 class="text-2xl font-extrabold tracking-tight text-gray-900">Nuxt version</h1>
+          <h1 class="text-2xl font-extrabold tracking-tight text-sky-darkest">Nuxt version</h1>
           <p class="text-sm text-gray-500 mb-4">Show modules working with:</p>
           <div class="space-y-3">
             <div>
               <button
-                class="flex items-center justify-between py-2 bg-gray-100 rounded-lg px-2 w-full"
+                class="flex items-center justify-between text-sm py-2 bg-gray-100 rounded-lg px-2 w-full"
               >
                 <div>
                   <svg
@@ -75,13 +88,13 @@
               </button>
               <div class="pt-2 ml-4">
                 <div
-                  class="space-y-6 py-2 bg-gray-100 border-l-4 border-primary-700 px-2"
+                  class="space-y-6 py-2 text-sm bg-gray-100 border-l-4 border-primary-700 px-2"
                 >- 🚧 Working</div>
               </div>
             </div>
             <NLink
               :to="`/?q=2.x-bridge`"
-              class="flex items-center justify-between py-2 bg-gray-100 rounded-lg px-2"
+              class="flex items-center justify-between text-sm py-2 bg-gray-100 rounded-lg px-2"
             >
               <div>
                 <svg
@@ -111,7 +124,7 @@
             </NLink>
             <NLink
               :to="`/?q=2.x`"
-              class="flex items-center justify-between py-2 bg-gray-100 rounded-lg px-2"
+              class="flex items-center justify-between text-sm py-2 bg-gray-100 rounded-lg px-2"
             >
               <div>
                 <svg
@@ -136,47 +149,55 @@
 
         <!-- Categories -->
         <div>
-          <h1 class="text-2xl font-extrabold tracking-tight text-gray-900">Categories</h1>
+          <h1 class="text-2xl font-extrabold tracking-tight text-sky-darkest">Categories</h1>
           <div
-            class="grid grid-cols-2 gap-x-4 gap-y-2 py-6 overflow-x-auto sm:flex-wrap sm:justify-center"
+            class="grid grid-cols-1 gap-x-4 gap-y-2 py-6 overflow-x-auto sm:flex-wrap sm:justify-center"
           >
             <button
               v-for="category of categories"
               :key="category"
               type="button"
               :aria-label="category"
-              class="px-4 py-3 mb-2 text-sm text-left flex items-center justify-between rounded cursor-pointer focus:outline-none"
+              class="px-4 py-3 mb-2 text-sm text-left flex items-center justify-between rounded-lg cursor-pointer focus:outline-none"
               :class="[
                 selectedCategory === category
                   ? 'bg-sky-darker text-sky-lightest'
-                  : 'text-sky-black bg-gray-200 hover:text-sky-lightest hover:bg-sky-dark focus:bg-sky-lightest',
+                  : 'text-sky-darkest bg-gray-100 hover:text-sky-lightest hover:bg-sky-dark focus:bg-sky-lightest',
               ]"
               @click="toggleCategory(category)"
             >
               {{ category }}
-              <span class="flex items-center w-5 h-5 items-center ">
-                <img :src="`categories/${category == 'Date' ? 'time' : category}.svg`" aria-hidden="true" />
+              <span class="flex items-center w-5 h-5 items-center">
+                <img
+                  :src="`categories/${category == 'Date' ? 'time' : category}.svg`"
+                  aria-hidden="true"
+                />
               </span>
             </button>
           </div>
         </div>
       </div>
       <!-- Main -->
-      <div class="col-span-2">
+      <div class="col-span-4">
         <!-- Clear filters -->
         <div
-          class="flex flex-col items-top justify-between sm:flex-row py-5 mb-4 bg-gray-100 px-4 rounded-xl"
+          class="flex flex-col items-top justify-between sm:flex-row py-5 mb-4 bg-gray-100 px-4 rounded-lg"
         >
           <p class="text-forest-night">
             <span class="font-black text-2xl">{{ filteredModules.length }}</span>
-            module{{ filteredModules.length !== 1 ? "s" : "" }} found
-            <template
-              v-if="selectedCategory || q"
-            >
+            module{{ filteredModules.length !== 1 ? 's' : '' }} found
+            (Show modules working with:
+            <NLink
+              v-for="v in ['2.x', '2.x-bridge', '3.x']"
+              :key="v"
+              class="mx-1 underline cursor-pointer text-yellow-600 font-semibold"
+              :to="`/?q=${v}`"
+            >{{ v }}</NLink>)
+            <template v-if="selectedCategory || q">
               <p>
-                Filter{{ selectedCategory && q ? "s" : "" }}:
+                Filter{{ selectedCategory && q ? 's' : '' }}:
                 <b>{{ selectedCategory }}</b>
-                {{ selectedCategory && q ? ", " : "" }}
+                {{ selectedCategory && q ? ', ' : '' }}
                 <b
                   class="font-black text-lg"
                 >{{ q }}</b>
@@ -186,7 +207,7 @@
                   @click.prevent="clearFilters"
                 >
                   (
-                  <u>clear filter{{ selectedCategory && q ? "s" : "" }}</u>)
+                  <u>clear filter{{ selectedCategory && q ? 's' : '' }}</u>)
                 </a>
               </p>
             </template>
@@ -230,9 +251,7 @@
               <div class="relative">
                 <button
                   type="button"
-                  :aria-label="
-                    orderBy === 'asc' ? 'sort ascending' : 'sort descending'
-                  "
+                  :aria-label="orderBy === 'asc' ? 'sort ascending' : 'sort descending'"
                   class="flex items-center p-2 border border-l-0 hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none rounded-r-md"
                   @click="toggleOrderBy"
                 >
@@ -254,11 +273,11 @@
           class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-100 text-gray-800"
         >Work in progress</span>
 
-        <div class="grid gap-6 grid-cols-1 mt-4">
+        <div class="grid gap-6 grid-cols-3 mt-4">
           <div
             v-for="module of pageFilteredModules"
             :key="module.name"
-            class="relative flex flex-col group overflow-hidden transition-transform duration-150 ease-in-out transform bg-white rounded-xl border hover:border-1 border-gray-200 hover:border-primary-600 focus:bg-sky-lightest"
+            class="relative flex flex-col group overflow-hidden transition-transform duration-150 ease-in-out transform bg-white rounded-lg border hover:border-1 border-gray-200 hover:border-primary-600 focus:bg-sky-lightest"
           >
             <LazyHydrate when-visible>
               <card-module :module="module" />
@@ -275,34 +294,34 @@
 </template>
 
 <script>
-import LazyHydrate from "vue-lazy-hydration";
-import Fuse from "fuse.js/dist/fuse.basic.esm";
-import CardModule from "~/components/CardModule.vue";
-import Observer from "~/components/Observer.vue";
-import { isMobile } from "~/utils/detectUserAgent.ts";
+import LazyHydrate from 'vue-lazy-hydration'
+import Fuse from 'fuse.js/dist/fuse.basic.esm'
+import CardModule from '~/components/CardModule.vue'
+import Observer from '~/components/Observer.vue'
+import { isMobile } from '~/utils/detectUserAgent.ts'
 
-const sort = (a, b, asc) => (asc ? a - b : b - a);
+const sort = (a, b, asc) => asc ? a - b : b - a
 
 const ORDERS = {
-  DESC: "desc",
-  ASC: "asc",
-};
+  DESC: 'desc',
+  ASC: 'asc'
+}
 
 const FIELDS = {
-  DOWNLOADS: "downloads",
-  STARS: "stars",
-};
+  DOWNLOADS: 'downloads',
+  STARS: 'stars'
+}
 
 const sortFields = {
   [FIELDS.DOWNLOADS]: {
-    label: "Downloads",
+    label: 'Downloads'
   },
   [FIELDS.STARS]: {
-    label: "Stars",
-  },
-};
+    label: 'Stars'
+  }
+}
 
-const MODULE_INCREMENT_LOADING = 12;
+const MODULE_INCREMENT_LOADING = 12
 
 export default {
   components: { LazyHydrate, CardModule, Observer },
@@ -310,267 +329,238 @@ export default {
     focus: {
       // directive definition
       inserted(el) {
-        el.focus();
-      },
-    },
+        el.focus()
+      }
+    }
   },
   async asyncData() {
-    const { modules } = await $fetch("/api/modules");
-    const { categories } = await $fetch("/api/categories");
+    const { modules } = await $fetch('/api/modules')
+    const { categories } = await $fetch('/api/categories')
 
-    const maintainers = [];
-    let downloadsTotal = 0;
+    const maintainers = []
+    let downloadsTotal = 0
     modules.forEach((module) => {
-      downloadsTotal += module.downloads || 0;
+      downloadsTotal += (module.downloads || 0)
       module.maintainers.forEach((maintainer) => {
-        if (!maintainers.find((m) => m.name === maintainer.name)) {
-          maintainers.push(maintainer);
+        if (!maintainers.find(m => m.name === maintainer.name)) {
+          maintainers.push(maintainer)
         }
-      });
-    });
+      })
+    })
 
     for (const module of modules) {
       module.tags = [
         ...(module.tags || []),
         ...Object.entries(module.compatibility)
-          .map(([version, status]) => (status === "working" ? version : false))
-          .filter(Boolean),
-      ];
+          .map(([version, status]) => status === 'working' ? version : false)
+          .filter(Boolean)
+      ]
     }
 
     return {
       modules,
       categories,
       maintainersTotal: maintainers.length,
-      downloadsTotal,
-    };
+      downloadsTotal
+    }
   },
   data() {
     return {
-      q: "",
+      q: '',
       orderBy: ORDERS.DESC,
-      sortBy: "downloads",
+      sortBy: 'downloads',
       sortByMenuVisible: false,
       selectedCategory: null,
-      moduleLoaded: MODULE_INCREMENT_LOADING,
-    };
+      moduleLoaded: MODULE_INCREMENT_LOADING
+    }
   },
   head() {
-    const title = "Explore Nuxt Modules";
-    const description =
-      "Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.";
-    const url = "https://modules.nuxtjs.org";
+    const title = 'Explore Nuxt Modules'
+    const description = 'Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.'
+    const url = 'https://modules.nuxtjs.org'
 
     return {
       title,
       meta: [
-        { hid: "description", name: "description", content: description },
-        { hid: "og:site_name", property: "og:site_name", content: title },
-        {
-          hid: "og:description",
-          property: "og:description",
-          content: description,
-        },
-        { hid: "og:type", property: "og:type", content: "website" },
-        { hid: "og:url", property: "og:url", content: url },
-        {
-          hid: "og:image",
-          property: "og:image",
-          content: `${url}/preview.png`,
-        },
+        { hid: 'description', name: 'description', content: description },
+        { hid: 'og:site_name', property: 'og:site_name', content: title },
+        { hid: 'og:description', property: 'og:description', content: description },
+        { hid: 'og:type', property: 'og:type', content: 'website' },
+        { hid: 'og:url', property: 'og:url', content: url },
+        { hid: 'og:image', property: 'og:image', content: `${url}/preview.png` },
         // Twitter Card
-        {
-          hid: "twitter:card",
-          name: "twitter:card",
-          content: "summary_large_image",
-        },
-        { hid: "twitter:site", name: "twitter:site", content: "@nuxt_js" },
-        { hid: "twitter:title", name: "twitter:title", content: title },
-        {
-          hid: "twitter:description",
-          name: "twitter:description",
-          content: description,
-        },
-        {
-          hid: "twitter:image",
-          name: "twitter:image",
-          content: `${url}/preview.png`,
-        },
-        { hid: "twitter:image:alt", name: "twitter:image:alt", content: title },
-      ],
-    };
+        { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+        { hid: 'twitter:site', name: 'twitter:site', content: '@nuxt_js' },
+        { hid: 'twitter:title', name: 'twitter:title', content: title },
+        { hid: 'twitter:description', name: 'twitter:description', content: description },
+        { hid: 'twitter:image', name: 'twitter:image', content: `${url}/preview.png` },
+        { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: title }
+      ]
+    }
   },
   computed: {
     filteredModules() {
-      let modules = this.modules;
+      let modules = this.modules
       if (this.q) {
-        modules = this.fuse.search(this.q).map((r) => r.item);
+        modules = this.fuse.search(this.q).map(r => r.item)
       } else {
         // Sort only if no search
-        modules.sort((a, b) =>
-          sort(a[this.sortBy], b[this.sortBy], this.orderBy === ORDERS.ASC)
-        );
+        modules.sort((a, b) => sort(a[this.sortBy], b[this.sortBy], this.orderBy === ORDERS.ASC))
       }
       if (this.selectedCategory) {
-        modules = modules.filter(
-          (module) => module.category === this.selectedCategory
-        );
+        modules = modules.filter(module => module.category === this.selectedCategory)
       }
 
-      return modules;
+      return modules
     },
     pageFilteredModules() {
-      const filteredModules = Object.assign([], this.filteredModules);
-      return filteredModules.splice(0, this.moduleLoaded);
+      const filteredModules = Object.assign([], this.filteredModules)
+      return filteredModules.splice(0, this.moduleLoaded)
     },
     sortByComp() {
-      return sortFields[this.sortBy];
+      return sortFields[this.sortBy]
     },
     sortByOptions() {
-      const options = {};
+      const options = {}
 
       for (const key in sortFields) {
-        if (key === this.sortBy) {
-          continue;
-        }
+        if (key === this.sortBy) { continue }
 
         options[key] = {
-          ...sortFields[key],
-        };
+          ...sortFields[key]
+        }
       }
 
-      return options;
+      return options
     },
     sortByBtnClass() {
-      return this.sortByMenuVisible
-        ? "rounded-bl-none border-b-grey-light"
-        : "";
-    },
+      return this.sortByMenuVisible ? 'rounded-bl-none border-b-grey-light' : ''
+    }
   },
   watch: {
     selectedCategory() {
-      this.syncURL();
+      this.syncURL()
     },
     q() {
-      this.syncURL();
+      this.syncURL()
     },
     orderBy() {
-      this.syncURL();
+      this.syncURL()
     },
     sortBy() {
-      this.syncURL();
+      this.syncURL()
     },
     $route() {
-      this.applyURLFilters();
-    },
+      this.applyURLFilters()
+    }
   },
   mounted() {
     const fuseOptions = {
       threshold: 0.1,
       keys: [
-        "name",
-        "npm",
-        "category",
-        "maintainers.name",
-        "maintainers.github",
-        "description",
-        "repo",
-        "tags",
-      ],
-    };
-    const index = Fuse.createIndex(fuseOptions.keys, this.modules);
-    this.fuse = new Fuse(this.modules, fuseOptions, index);
+        'name',
+        'npm',
+        'category',
+        'maintainers.name',
+        'maintainers.github',
+        'description',
+        'repo',
+        'tags'
+      ]
+    }
+    const index = Fuse.createIndex(fuseOptions.keys, this.modules)
+    this.fuse = new Fuse(this.modules, fuseOptions, index)
 
-    this.applyURLFilters();
+    this.applyURLFilters()
 
     // In case of desktop, auto focus the search input
     if (!isMobile()) {
-      this.focusSearchInput();
+      this.focusSearchInput()
     }
   },
   beforeMount() {
-    window.addEventListener("keypress", this.searchFocusListener);
+    window.addEventListener('keypress', this.searchFocusListener)
   },
   beforeDestroy() {
-    window.removeEventListener("keypress", this.searchFocusListener);
+    window.removeEventListener('keypress', this.searchFocusListener)
   },
   methods: {
     toggleCategory(category) {
       if (this.selectedCategory === category) {
-        this.selectedCategory = null;
-        return;
+        this.selectedCategory = null
+        return
       }
-      this.selectedCategory = category;
+      this.selectedCategory = category
     },
     clearFilters() {
-      this.selectedCategory = null;
-      this.q = null;
-      this.moduleLoaded = MODULE_INCREMENT_LOADING;
+      this.selectedCategory = null
+      this.q = null
+      this.moduleLoaded = MODULE_INCREMENT_LOADING
     },
     syncURL() {
-      const url = this.$route.path;
-      let query = "";
-      this.resetModuleLoaded();
+      const url = this.$route.path
+      let query = ''
+      this.resetModuleLoaded()
 
       if (this.q) {
-        query += `?q=${this.q}`;
+        query += `?q=${this.q}`
       }
 
       if (this.orderBy !== FIELDS.DESC) {
-        query += `${query ? "&" : "?"}orderBy=${this.orderBy}`;
+        query += `${query ? '&' : '?'}orderBy=${this.orderBy}`
       }
 
       if (this.sortBy !== FIELDS.DOWNLOADS) {
-        query += `${query ? "&" : "?"}sortBy=${this.sortBy}`;
+        query += `${query ? '&' : '?'}sortBy=${this.sortBy}`
       }
 
       if (this.selectedCategory) {
-        query += `#${this.selectedCategory}`;
+        query += `#${this.selectedCategory}`
       }
 
-      window.history.pushState("", "", `${url}${query}`);
+      window.history.pushState('', '', `${url}${query}`)
     },
     applyURLFilters() {
-      const selectedCategory = (window.location.hash || "").substr(1);
+      const selectedCategory = (window.location.hash || '').substr(1)
       if (selectedCategory) {
-        this.toggleCategory(selectedCategory);
+        this.toggleCategory(selectedCategory)
       }
-      const { q, sortBy, orderBy } = this.$route.query;
+      const { q, sortBy, orderBy } = this.$route.query
       if (q) {
-        this.q = q;
+        this.q = q
       }
 
       if (sortBy) {
-        this.sortBy = sortBy;
+        this.sortBy = sortBy
       }
 
       if (orderBy) {
-        this.orderBy = orderBy;
+        this.orderBy = orderBy
       }
     },
     toggleOrderBy() {
-      this.orderBy = this.orderBy === ORDERS.ASC ? ORDERS.DESC : ORDERS.ASC;
+      this.orderBy = (this.orderBy === ORDERS.ASC) ? ORDERS.DESC : ORDERS.ASC
     },
     selectSortBy(field) {
-      this.sortBy = field;
-      this.sortByMenuVisible = false;
+      this.sortBy = field
+      this.sortByMenuVisible = false
     },
     intersectedModulesLoading() {
-      this.moduleLoaded += MODULE_INCREMENT_LOADING;
+      this.moduleLoaded += MODULE_INCREMENT_LOADING
     },
     resetModuleLoaded() {
-      this.moduleLoaded = MODULE_INCREMENT_LOADING;
+      this.moduleLoaded = MODULE_INCREMENT_LOADING
     },
     searchFocusListener(event) {
       // Add `/` shortcut for search input only if not already focused
       if (event.keyCode === 47 && !(event.target instanceof HTMLInputElement)) {
-        event.preventDefault();
-        this.focusSearchInput();
+        event.preventDefault()
+        this.focusSearchInput()
       }
     },
     focusSearchInput() {
-      this.$refs.searchModule.focus();
-    },
-  },
-};
+      this.$refs.searchModule.focus()
+    }
+  }
+}
 </script>
