@@ -7,7 +7,7 @@
       <span class="text-primary">Nuxt</span> Modules
     </h1>
     <p
-      class="text-body-md sm:text-body-lg md:text-body-xl max-w-3xl text-secondary-darker dark:text-white"
+      class="text-body-md sm:text-body-lg md:text-body-xl max-w-3xl text-secondary-darker dark:text-secondary-lightest"
     >
       Discover our list of modules to supercharge your
       <a
@@ -22,7 +22,7 @@
         href="https://github.com/nuxt/modules"
         rel="noopener"
         target="_blank"
-        class="text-sm font-semibold items-center py-2 px-6 text-secondary-darker bg-gray-500 bg-opacity-10 hover:bg-opacity-20 rounded-lg inline-flex gap-3"
+        class="text-sm font-semibold items-center py-2 px-6 text-secondary-darker dark:text-white bg-gray-500 bg-opacity-10 hover:bg-opacity-20 rounded-lg inline-flex gap-3"
       >
         <iconGithub />Contribute on GitHub
       </a>

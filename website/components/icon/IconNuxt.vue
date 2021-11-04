@@ -3,8 +3,7 @@
     viewBox="0 0 221 65"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    settings="[object Object]"
-    class="h-8 mr-4 md:h-9 lg:mr-0"
+    class="h-8 mr-4 md:h-9 lg:mr-0 dark:text-white"
   >
     <path
       d="M76.333 20.5005H82.8185L96.5631 42.4764V20.5005H102.55V51.6393H96.1087L82.3198 29.7091V51.6393H76.333V20.5005Z"
