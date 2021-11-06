@@ -1,0 +1,19 @@
+name: muxt-interpolation
+description: Nuxt.js module as directive for binding every link to catch the click event, and if it's a relative link router will push. For improved security `rel="noopener"` will be added automatically if target is `_blank`.
+repo: daliborgogic/nuxt-interpolation
+npm: nuxt-interpolation
+icon: ''
+github: https://github.com/daliborgogic/nuxt-interpolation
+website: https://github.com/daliborgogic/nuxt-interpolation
+learn_more: ''
+category: community
+type: 3rd-party
+maintainers:
+  - name: Dalibor Gogic
+    github: daliborgogic
+    twitter: daliborgogic_
+    avatar: https://avatars.githubusercontent.com/u/5895389?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown
