@@ -180,7 +180,7 @@
           height="20"
           class="icon mr-1"
         />
-        <div class="flex space-x-2">
+        <div class="flex space-x-2 pt-2">
           <a
             v-for="maintainer of module.maintainers"
             :key="maintainer.github"
@@ -211,21 +211,16 @@ import { numberFormatter } from '~/utils/format.ts'
 export default {
   name: 'CardModule',
   props: {
+    statusMap: {
+      type: Object,
+      required: true
+    },
     module: {
       type: Object,
       required: true
     }
   },
   computed: {
-    statusMap() {
-      return {
-        working: { statusText: 'Working', icon: '✅', color: '#003c3c' },
-        wip: { statusText: 'Work in progress', icon: '🚧', color: '#E9C600' },
-        unknown: { statusText: 'Unknown', icon: '❓', color: 'grey' },
-        broken: { statusText: 'Not working', icon: '❗', color: '#ff6446' },
-        rip: { statusText: 'Won\'t be supported', icon: '❌', color: '#ff6446' }
-      }
-    },
     compatibility() {
       return Object.entries(this.module.compatibility || {})
         .map(([key, status]) => ({ ...this.statusMap[status], label: key }))
