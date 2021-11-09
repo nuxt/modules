@@ -11,7 +11,7 @@
               v-model="q"
               type="search"
               aria-label="Search"
-              class="block dark:!bg-secondary-dark w-full py-2 px-3 text-base leading-6 placeholder-gray-500 transition duration-150 ease-in-out border-2 appearance-none md:pr-10 border-sky-light rounded-lg focus:ring-3 focus:ring-sky-lighter focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 sm:flex-1"
+              class="block bg-secondary-dark w-full py-2 px-3 text-base leading-6 placeholder-gray-500 transition duration-150 ease-in-out border-2 appearance-none md:pr-10 border-sky-light rounded-lg focus:ring-3 focus:ring-sky-lighter focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 sm:flex-1"
               placeholder="Search a module (name, category, username, etc.)"
             >
             <span
@@ -66,17 +66,9 @@
                 class="flex items-center justify-between text-sm py-2 bg-gray-100 dark:bg-secondary-darkest rounded-lg px-2 w-full"
               >
                 <div>
-                  <svg
-                    width="1em"
-                    height="1em"
-                    viewBox="0 0 24 24"
+                  <iconNuxt3
                     class="h-6 w-6 mr-2 inline-block"
-                  >
-                    <path
-                      d="M9.078 3.965c-.588 0-1.177.289-1.514.867L.236 17.433c-.672 1.156.17 2.601 1.514 2.601h5.72a1.676 1.676 0 0 1-.35-2.117l5.547-9.513l-2.076-3.572a1.734 1.734 0 0 0-1.513-.867zm7.407 2.922c-.487 0-.973.236-1.252.709L9.17 17.906c-.557.945.138 2.13 1.251 2.13h12.13c1.114 0 1.81-1.185 1.253-2.13l-6.067-10.31a1.437 1.437 0 0 0-1.252-.71z"
-                      fill="currentColor"
-                    />
-                  </svg>
+                  />
                   Nuxt 3
                 </div>
                 <span class="text-xl px-2">-</span>
