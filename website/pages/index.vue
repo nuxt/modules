@@ -11,17 +11,16 @@
               v-model="q"
               type="search"
               aria-label="Search"
-              class="block dark:!bg-secondary-dark w-full py-2 px-3 text-base leading-6 placeholder-gray-500 transition duration-150 ease-in-out border-2 appearance-none md:pr-10 border-sky-light rounded-lg focus:ring-3 focus:ring-sky-lighter focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 sm:flex-1"
+              class="block bg-secondary-surface dark:bg-secondary-dark dark:border-sky-darker w-full py-2 px-3 text-base leading-6 placeholder-gray-500 dark:placeholder-secondary-light transition duration-150 ease-in-out border-2 appearance-none md:pr-10 rounded-lg focus:ring-3 focus:ring-sky-lighter focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 sm:flex-1"
               placeholder="Search a module (name, category, username, etc.)"
             >
             <span
-              class="absolute hidden px-2 py-1 text-gray-400 border border-sky-light rounded-md opacity-50 md:inline-block text-md top-1 right-2 leading-6"
+              class="absolute hidden px-2 py-1 text-gray-400 border border-sky-light rounded-md opacity-50 md:inline-block text-md top-1 right-4 leading-6"
             >/</span>
           </label>
         </div>
       </TheSearch>
     </div>
-
     <div
       class="pt-10 lg:pt-24 pb-16 lg:pb-32 bg-gray-100 dark:bg-secondary-darkest dark:bg-secondary-darkest sm:p-10 relative"
     >
@@ -46,7 +45,8 @@
         src="/img/page-hero/dark/mountains.svg"
         alt="A landscape image"
         class="absolute -bottom-1px left-0 w-full h-12 md:h-24 object-fill light:invert light:brightness-0 light:filter pointer-events-none z-0"
-      />    </div>
+      >
+    </div>
 
     <!-- Body -->
     <div class="container px-4 sm:px-0 mx-auto pt-8 grid grid-cols-1 sm:grid-cols-5 gap-8">
@@ -61,86 +61,32 @@
             Show modules working with:
           </p>
           <div class="space-y-3">
-            <div>
+            <div
+              v-for="version in versionsMap"
+              :key="version.label"
+            >
               <button
-                class="flex items-center justify-between text-sm py-2 bg-gray-100 dark:bg-secondary-darkest rounded-lg px-2 w-full"
+                class="flex items-center justify-between text-sm py-2 bg-gray-100 dark:bg-secondary-darkest rounded-lg px-4 w-full text-left"
               >
                 <div>
-                  <svg
-                    width="1em"
-                    height="1em"
-                    viewBox="0 0 24 24"
+                  <component
+                    :is="version.icon"
                     class="h-6 w-6 mr-2 inline-block"
-                  >
-                    <path
-                      d="M9.078 3.965c-.588 0-1.177.289-1.514.867L.236 17.433c-.672 1.156.17 2.601 1.514 2.601h5.72a1.676 1.676 0 0 1-.35-2.117l5.547-9.513l-2.076-3.572a1.734 1.734 0 0 0-1.513-.867zm7.407 2.922c-.487 0-.973.236-1.252.709L9.17 17.906c-.557.945.138 2.13 1.251 2.13h12.13c1.114 0 1.81-1.185 1.253-2.13l-6.067-10.31a1.437 1.437 0 0 0-1.252-.71z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  Nuxt 3
+                  />
+                  {{ version.label }}
                 </div>
-                <span class="text-xl px-2">-</span>
+                <span class="text-xl px-2">+</span>
               </button>
-              <div class="pt-2 ml-4">
-                <div
-                  class="space-y-6 py-2 text-sm bg-gray-100 dark:bg-secondary-darkest border-l-4 border-primary-700 px-2"
+              <div v-show="false" class="mt-2 ml-4 gap-2 flex flex-col">
+                <button
+                  v-for="status in statusMap"
+                  :key="status.statusText"
+                  class="space-y-6 py-2 bg-blue-100 text-sm bg-gray-100 dark:bg-secondary-darkest px-4 rounded-lg text-left"
                 >
-                  - 🚧 Working
-                </div>
+                  {{ status.icon }} {{ status.statusText }}
+                </button>
               </div>
             </div>
-            <NLink
-              :to="`/?q=2.x-bridge`"
-              class="flex items-center justify-between text-sm py-2 bg-gray-100 dark:bg-secondary-darkest rounded-lg px-2"
-            >
-              <div>
-                <svg
-                  width="1em"
-                  height="1em"
-                  viewBox="0 0 24 24"
-                  class="h-6 w-6 mr-2 inline-block"
-                >
-                  <g
-                    class="icon-tabler"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M6 5v14" />
-                    <path d="M18 5v14" />
-                    <path d="M2 15h20" />
-                    <path d="M3 8a7.5 7.5 0 0 0 3-2a6.5 6.5 0 0 0 12 0a7.5 7.5 0 0 0 3 2" />
-                    <path d="M12 10v5" />
-                  </g>
-                </svg>
-                Nuxt 2.x-bridge
-              </div>
-              <span class="text-xl px-2">+</span>
-            </NLink>
-            <NLink
-              :to="`/?q=2.x`"
-              class="flex items-center justify-between text-sm py-2 bg-gray-100 dark:bg-secondary-darkest rounded-lg px-2"
-            >
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  aria-hidden="true"
-                  role="img"
-                  class="h-6 w-6 mr-2 inline-block"
-                  viewBox="0 0 32 32"
-                >
-                  <path
-                    d="M26.297 27.031l.031-.063a.746.746 0 0 0 .073-.156v-.005c.099-.26.12-.536.073-.813v.01a2.368 2.368 0 0 0-.313-.828l.01.01l-7.094-12.474l-1.083-1.891l-8.156 14.365c-.141.25-.229.521-.276.802v.016c-.057.323-.021.651.109.953l-.005-.01c.016.047.042.089.068.135l-.005-.005c.214.365.667.802 1.667.802h13.198c.208 0 1.234-.042 1.708-.849zm-8.302-12.422l6.479 11.396H11.521zm13.666 10.579L22.307 8.709c-.099-.177-.635-1.052-1.578-1.052c-.422 0-1.026.182-1.521 1.047L18 10.824l1.073 1.896l1.667-2.953l9.255 16.245h-3.521c.047.271.021.547-.073.807v-.01c-.021.057-.042.115-.073.167v-.005l-.031.063c-.474.807-1.495.849-1.693.849h5.505c.203 0 1.219-.042 1.693-.849c.214-.37.359-.984-.141-1.844zM9.74 27.078l-.063-.125v-.005a1.668 1.668 0 0 1-.115-.953v.01H1.999l11.24-19.776l3.687 6.484l1.073-1.891l-3.219-5.667c-.089-.161-.63-1.036-1.568-1.036c-.422 0-1.031.182-1.521 1.052L.306 25.187c-.099.172-.568 1.078-.099 1.885c.214.37.667.802 1.667.802h9.531c-.99 0-1.453-.427-1.667-.802z"
-                    fill="currentColor"
-                  />
-                </svg>
-                Nuxt 2.x
-              </div>
-              <span class="text-xl px-2">+</span>
-            </NLink>
           </div>
         </div>
 
@@ -161,14 +107,15 @@
               :class="[
                 selectedCategory === category
                   ? 'bg-sky-darker text-sky-lightest'
-                  : 'text-sky-darkest bg-gray-100 dark:bg-secondary-darkest dark:text-sky-surface hover:text-sky-lightest hover:bg-sky-dark focus:bg-sky-lightest',
+                  : 'text-sky-darkest bg-gray-100 dark:bg-secondary-darkest dark:text-sky-surface hover:text-sky-lightest hover:bg-sky-dark transition-colors duration-150 ease-in-out focus:bg-sky-lightest',
               ]"
               @click="toggleCategory(category)"
             >
               {{ category }}
               <span class="flex items-center w-5 h-5 items-center">
+
                 <img
-                  :src="`categories/${category == 'Date' ? 'time' : category}.svg`"
+                  :src="`icons/${$colorMode.value == 'light' ? 'dark' : 'light'}/${category == 'Date' ? 'time' : category.toLowerCase()}.svg`"
                   aria-hidden="true"
                 >
               </span>
@@ -279,7 +226,7 @@
             class="relative flex flex-col group overflow-hidden transition-transform duration-150 ease-in-out transform bg-white rounded-lg border hover:border-1 border-gray-200 hover:border-primary-600 focus:bg-sky-lightest"
           >
             <LazyHydrate when-visible>
-              <card-module :module="module" />
+              <card-module :module="module" :status-map="statusMap" />
             </LazyHydrate>
           </div>
           <Observer @intersect="intersectedModulesLoading" />
@@ -398,6 +345,34 @@ export default {
     }
   },
   computed: {
+    statusMap () {
+      return {
+        working: { statusText: 'Working', icon: '✅', color: '#003c3c' },
+        wip: { statusText: 'Work in progress', icon: '🚧', color: '#E9C600' },
+        unknown: { statusText: 'Unknown', icon: '❓', color: 'grey' },
+        broken: { statusText: 'Not working', icon: '❗', color: '#ff6446' },
+        rip: { statusText: 'Won\'t be supported', icon: '❌', color: '#ff6446' }
+      }
+    },
+    versionsMap () {
+      return {
+        '3.x': {
+          label: 'Nuxt 3.x',
+          id: 'three',
+          icon: 'iconNuxt3'
+        },
+        '2.x-bridge': {
+          label: 'Nuxt 2.x Bridge',
+          id: 'bridge',
+          icon: 'iconNuxtBridge'
+        },
+        '2.x': {
+          label: 'Nuxt 2.x',
+          id: 'two',
+          icon: 'iconNuxt2'
+        }
+      }
+    },
     filteredModules () {
       let modules = this.modules
       if (this.q) {
