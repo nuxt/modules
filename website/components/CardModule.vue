@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col h-full relative">
-    <div class="relative flex flex-1 flex-col space-y-2 p-8 group text-sky-darkest dark:text-white">
+    <div class="relative flex flex-1 flex-col space-y-2 p-8 text-sky-darkest dark:text-white">
       <a
         :href="module.website"
         :aria-label="module.website"
@@ -16,9 +16,9 @@
       </a>
 
       <div class="flex flex-col justify-between items-start">
-        <div class="flex items-start h-28">
+        <div class="flex flex-col items-start h-24">
           <div
-            class="border border-gray-200 dark:bg-secondary-dark dark:border-secondary-dark w-20 h-20 rounded-lg flex flex-none items-center justify-center"
+            class="-mt-20 border group-hover:border-primary-600 dark:group-hover:border-secondary-dark bg-white border-gray-200 dark:bg-secondary-dark dark:border-secondary-dark w-20 h-20 rounded-lg flex flex-none items-center justify-center"
           >
             <nuxt-img
               :src="iconUrl(module)"
@@ -28,8 +28,8 @@
               height="40px"
             />
           </div>
-          <div class="ml-4">
-            <h2 class="flex text-xl font-medium items-center dark:text-white">
+          <div class="mt-2">
+            <h2 class="flex text-xl font-semibold items-center dark:text-white">
               <span>{{ module.name }}</span>
               <img
                 v-if="module.type === 'official'"
@@ -41,12 +41,12 @@
               />
             </h2>
             <p
-              class="text-sky-dark dark:text-white text-sm font-light line-clamp-4"
+              class="text-sky-dark dark:text-white text-sm font-light line-clamp-3"
             >{{ module.description }}</p>
           </div>
         </div>
         <div class="flex justify-around w-full">
-          <div v-for="c of compatibility" :key="c.label" class="flex flex-col items-center py-3">
+          <div v-for="c of compatibility" :key="c.label" class="flex flex-col items-center pt-3">
             <div
               v-tooltip="{ content: c.label, classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }"
               class="flex items-center justify-between text-base bg-gray-100 dark:bg-secondary-dark rounded-lg w-full px-2 py-1 z-50"
@@ -75,13 +75,13 @@
     <div
       class="border-t border-gray-200 dark:border-secondary-dark bg-gray-100 dark:bg-secondary-black grid grid-cols-1"
     >
-      <div class="flex justify-between">
+      <div class="flex justify-between bg-white dark:bg-secondary-darker">
         <a
           :href="npmUrl(module)"
           aria-label="npm"
           target=" _blank"
           rel="noopener"
-          class="stats-block w-full group flex justify-between hover:bg-gray-200 dark:hover:bg-secondary hover:bg-opacity-50 py-3 px-4 pl-6"
+          class=" w-full group flex justify-between hover:bg-gray-200 dark:hover:bg-secondary hover:bg-opacity-50 py-3 px-4 pl-6"
         >
           <iconDownload class="pr-4" />
           <div
@@ -109,13 +109,6 @@
       <div
         class="stats-block group flex justify-between py-3 px-4 z-0 overflow-hidden hover:bg-gray-200 dark:hover:bg-secondary hover:bg-opacity-50"
       >
-        <img
-          alt="maintainer"
-          src="~/assets/icons/maintainer.svg"
-          width="20"
-          height="20"
-          class="icon mr-1"
-        />
         <div class="flex space-x-2 pt-2">
           <a
             v-for="maintainer of module.maintainers"

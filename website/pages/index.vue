@@ -204,11 +204,11 @@
           >Work in progress</span>
         </div>
 
-        <div class="grid gap-6 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-4">
+        <div class="grid gap-x-6 gap-y-20 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-20">
           <div
             v-for="module of pageFilteredModules"
             :key="module.name"
-            class="relative flex flex-col group overflow-hidden transition-transform duration-150 ease-in-out transform bg-white dark:bg-secondary-darkest rounded-lg border hover:border-1 border-gray-200 dark:border-secondary-dark hover:border-primary-600 dark:hover:border-secondary focus:bg-sky-lightest"
+            class="relative flex flex-col group transition-transform duration-150 ease-in-out transform bg-white dark:bg-secondary-darkest rounded-lg border hover:border-1 border-gray-200 dark:border-secondary-dark hover:border-primary-600 dark:hover:border-secondary focus:bg-sky-lightest"
           >
             <LazyHydrate when-visible>
               <card-module :module="module" :status-map="statusMap" />
