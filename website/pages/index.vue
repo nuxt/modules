@@ -25,7 +25,7 @@
       class="pt-10 lg:pt-24 pb-16 lg:pb-32 bg-gray-100 dark:bg-secondary-darkest dark:bg-secondary-darkest sm:p-10 relative"
     >
       <div class="container mx-auto flex flex-col sm:flex-row justify-between">
-        <div class="flex items-end justify-between w-full">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between w-full">
           <!-- Header -->
           <TheHeader />
           <!-- Stats -->
