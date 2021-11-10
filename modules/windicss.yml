@@ -15,5 +15,5 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/u/5326365?v=4
 compatibility:
   2.x: working
-  2.x-bridge: unknown
-  3.x: unknown
+  2.x-bridge: working
+  3.x: working
