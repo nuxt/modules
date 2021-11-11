@@ -14,7 +14,7 @@ Metadata of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/Y
 ### Contribution
 
 - If you feel a module is missing, please create a new [issue](https://github.com/nuxt/modules/issues/new)
-- If some data is outdated please directly openin a pull request
+- If some data is outdated please directly open a pull request
 
 ### Using CDN
 
@@ -91,7 +91,7 @@ yarn build
 
 - Clone repository
 - Change working directory to website using `cd website`
-- Install website depenedencies using `npx yarn install`
+- Install website dependencies using `npx yarn install`
 
 Start development:
 
@@ -105,7 +105,7 @@ In the development, the npm downloads and GitHub stars will be mocked unless set
 
 ### Production build
 
-Create a [personnal GitHub token](https://github.com/settings/tokens) (no scope selected) and add it to `.env`:
+Create a [personal GitHub token](https://github.com/settings/tokens) (no scope selected) and add it to `.env`:
 
 ```sh
 # .env
