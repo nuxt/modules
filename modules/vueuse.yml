@@ -1,6 +1,6 @@
 name: vueuse
 description: Collection of essential Vue Composition Utilities for Vue 2 and 3
-repo: vueuse/vueuse
+repo: vueuse/vueuse#main/packages/core
 npm: '@vueuse/core'
 icon: vueuse.svg
 github: https://github.com/vueuse/vueuse

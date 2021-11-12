@@ -11,7 +11,8 @@ category: UI
 type: 3rd-party
 maintainers:
   - name: Jonathan Bakebwa
-    github: codebender828
+    github: >-
+      codebender828
       https://avatars2.githubusercontent.com/u/21237954?s=400&u=8d33f80968b1e2582b530af74e26e4cb94d1a90b&v=4
 compatibility:
   2.x: working
