@@ -90,7 +90,6 @@ yarn build
 ## Website development
 
 - Clone repository
-- Change working directory to website using `cd website`
 - Install website depenedencies using `npx yarn install`
 
 Start development:
@@ -102,19 +101,6 @@ npx yarn dev
 Then visit http://localhost:3000
 
 In the development, the npm downloads and GitHub stars will be mocked unless setting `USE_NUXT_API` variable.
-
-### Production build
-
-
-```sh
-yarn build
-```
-
-Start the production website:
-
-```sh
-yarn start
-```
 
 ## License
 
