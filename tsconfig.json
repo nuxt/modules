@@ -3,6 +3,8 @@
     "target": "ESNext",
     "esModuleInterop": true,
     "strict": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
   }
 }
