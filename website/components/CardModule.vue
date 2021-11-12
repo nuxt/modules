@@ -172,11 +172,6 @@ export default {
     },
     githubUrl ({ github }) {
       return `https://github.com/${github}`
-    },
-    avatarUrl ({ github, avatar }) {
-      return avatar
-        ? `${avatar}&s=48`
-        : `https://avatars.githubusercontent.com/${github}?s=48`
     }
   }
 }
