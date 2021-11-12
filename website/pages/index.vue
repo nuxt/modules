@@ -1,7 +1,7 @@
 <template>
   <div class="pb-16 relative dark:text-white dark:bg-secondary-black">
     <div
-      class="bg-white dark:bg-secondary-black w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
+      class="bg-gray-100 dark:bg-secondary-black w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
     >
       <TheSearch>
         <div class="flex shadow-sm w-full max-w-md">
@@ -11,7 +11,7 @@
               v-model="q"
               type="search"
               aria-label="Search"
-              class="block bg-secondary-surface dark:bg-secondary-dark dark:border-sky-darker w-full py-2 px-3 text-base leading-6 placeholder-gray-500 dark:placeholder-secondary-light transition duration-150 ease-in-out border-2 appearance-none md:pr-10 rounded-lg focus:ring-3 focus:ring-sky-lighter focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 sm:flex-1"
+              class="block dark:bg-secondary-dark dark:border-sky-darker w-full py-2 px-3 text-base leading-6 placeholder-gray-500 dark:placeholder-secondary-light transition duration-150 ease-in-out border-2 border-sky-light appearance-none md:pr-10 rounded-lg focus:ring-3 focus:ring-sky-light focus:ring-opacity-50 focus:outline-none focus:placeholder-sky-darkest sm:flex-1"
               placeholder="Search a module (name, category, username, etc.)"
             >
             <span
@@ -65,7 +65,7 @@
           <div class="flex flex-col space-y-3">
             <NLink v-for="version in versionsMap" :key="version.label" :to="`/?q=${version.to}`">
               <button
-                class="flex items-center justify-between text-sm py-2 bg-gray-100 dark:bg-secondary-darkest rounded-lg px-4 w-full text-left"
+                class="flex items-center justify-between hover:text-sky-lightest hover:bg-sky-dark text-sm py-2 bg-gray-100 dark:bg-secondary-darkest rounded-lg px-4 w-full text-left"
               >
                 <div>
                   <component :is="version.icon" class="h-6 w-6 mr-2 inline-block" />
