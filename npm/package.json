@@ -1,0 +1,6 @@
+{
+  "name": "@nuxt/modules",
+  "version": "0.5.0",
+  "license": "MIT",
+  "main": "./modules.json"
+}

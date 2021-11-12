@@ -1,8 +1,11 @@
 {
   "private": true,
+  "name": "nuxt-modules-website",
+  "version": "0.0.0",
   "scripts": {
-    "build": "nuxi build",
-    "dev": "nuxi dev",
+    "build": "yarn build:npm && nuxi build",
+    "dev": "yarn build:npm && nuxi dev",
+    "build:npm": "cd .. && yarn build",
     "start": "node .output/server/index.mjs"
   },
   "resolutions": {
@@ -11,14 +14,12 @@
   },
   "devDependencies": {
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
-    "@nuxt/image": "^0.6.0",
     "@nuxt/kit-edge": "npm:@nuxt/kit-edge@latest",
     "@nuxtjs/color-mode": "^2.1.1",
     "@nuxtjs/google-fonts": "^1.3.0",
     "@nuxtjs/html-validator": "^0.6.0",
     "@nuxtjs/pwa": "^3.3.5",
     "fuse.js": "^6.4.6",
-    "ipx": "^0.9.1",
     "millify": "^4.0.0",
     "nuxt-edge": "^2.16.0-27277936.ab1c6cb4",
     "nuxt-windicss": "^2.0.12",

@@ -532,7 +532,7 @@ export default {
       }
     },
     focusSearchInput () {
-      this.$refs.searchModule.focus()
+      this.$refs.searchModule?.focus()
     }
   }
 }

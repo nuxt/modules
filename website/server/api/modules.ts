@@ -1,7 +1,6 @@
-const modulesCDN = 'https://cdn.jsdelivr.net/npm/@nuxt/modules@latest/dist/modules.json'
 
 export default async () => {
-  const _modules = await $fetch(modulesCDN) as any[]
+  const _modules = await import('../../../npm/modules.json').then(r => r.default || r)
   const modules = await Promise.all(_modules.map(module => fetchModuleStats(module)))
   return {
     modules
