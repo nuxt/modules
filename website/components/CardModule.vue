@@ -65,7 +65,7 @@
               >
             </h2>
             <p
-              class="text-sky-dark dark:text-white text-sm font-normal line-clamp-3 mt-2 opacity-85"
+              class="text-sky-dark dark:text-white dark:opacity-85 text-sm font-normal line-clamp-3 mt-2"
             >
               {{ module.description }}
             </p>

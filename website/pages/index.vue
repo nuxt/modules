@@ -15,7 +15,7 @@
               placeholder="Search a module (name, category, username, etc.)"
             >
             <span
-              class="absolute hidden px-2 py-1 text-gray-400 border border-sky-light rounded-md opacity-50 md:inline-block text-md top-1 right-4 leading-6"
+              class="absolute hidden px-2 py-1 text-gray opacity-90 dark:text-gray-300 border border-sky-light rounded-md md:inline-block text-md top-1 right-4 leading-6"
             >/</span>
           </label>
         </div>
@@ -59,7 +59,7 @@
           >
             Nuxt version
           </h2>
-          <p class="text-sm text-gray-500 mb-4">
+          <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">
             Show modules working with:
           </p>
           <div class="flex flex-col space-y-3">
@@ -181,7 +181,7 @@
                       :key="key"
                       type="button"
                       :aria-label="`sort by ${key}`"
-                      class="flex items-center justify-center p-1 px-2 bg-white shadow-xs w-28 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none rounded-b-md"
+                      class="flex items-center justify-center p-1 px-2 dark:bg-secondary-darkest bg-white shadow-xs w-28 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none rounded-b-md"
                       @click="selectSortBy(key)"
                     >
                       {{ option.label }}
