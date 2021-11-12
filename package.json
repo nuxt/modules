@@ -3,7 +3,7 @@
   "scripts": {
     "build": "yarn sync && yarn cli build",
     "cli": "jiti ./scripts/cli",
-    "dev": "cd website && yarn dev",
+    "dev": "yarn build && cd website && yarn dev",
     "lint": "eslint --ext .vue,.ts .",
     "release": "yarn cli version && npm publish",
     "sync": "yarn cli sync",
