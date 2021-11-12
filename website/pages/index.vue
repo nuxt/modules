@@ -181,7 +181,7 @@
                       :key="key"
                       type="button"
                       :aria-label="`sort by ${key}`"
-                      class="flex items-center justify-center p-1 px-2 bg-white shadow-xs w-28 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none rounded-b-md"
+                      class="flex items-center justify-center p-1 px-2 dark:bg-secondary-darkest bg-white shadow-xs w-28 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none rounded-b-md"
                       @click="selectSortBy(key)"
                     >
                       {{ option.label }}
