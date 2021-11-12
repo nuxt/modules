@@ -6,7 +6,7 @@
     "cli": "jiti ./scripts/cli",
     "dev": "yarn build:npm && cd website && yarn dev",
     "lint": "eslint --ext .vue,.ts .",
-    "release": "yarn cli version && npm publish",
+    "release": "yarn cli version && cd npm && npm publish",
     "sync": "yarn cli sync",
     "test": "yarn lint && yarn sync"
   },
