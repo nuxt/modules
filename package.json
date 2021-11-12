@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build:npm": "yarn cli build",
-    "build:website": "cd website && yarn build",
+    "build:website": "yarn build:npm && cd website && yarn build",
     "cli": "jiti ./scripts/cli",
     "dev": "yarn build:npm && cd website && yarn dev",
     "lint": "eslint --ext .vue,.ts .",
