@@ -1,10 +1,12 @@
 <template>
   <div class="flex items-center justify-between w-full container mx-auto px-4 sm:px-0 py-2">
     <div class="flex">
-      <IconNuxtLogo alt="Nuxt" width="40" height="40" />
-      <div class="text-2xl my-auto ml-1 pt-0.5">
-        <a href="/">Modules</a>
-      </div>
+      <a href="/" class="inline-flex text-2xl">
+        <IconNuxtLogo alt="Nuxt" width="40" height="40" />
+        <span class="my-auto ml-1 pt-0.5">
+          Modules
+        </span>
+      </a>
     </div>
     <slot />
     <button aria-label="Toggle theme" class="!outline-none" @click="toggleDarkMode()">
