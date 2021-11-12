@@ -49,5 +49,8 @@ export default defineNuxtConfig({
     preference: 'system',
     fallback: 'light',
     classSuffix: ''
+  },
+  bridge: {
+    vite: true
   }
 })
