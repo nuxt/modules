@@ -1,8 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxi build",
-    "dev": "nuxi dev",
+    "build": "yarn build:npm && nuxi build",
+    "dev": "yarn build:npm && nuxi dev",
+    "build:npm": "cd .. && yarn build",
     "start": "node .output/server/index.mjs"
   },
   "resolutions": {

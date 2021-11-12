@@ -1,10 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build:npm": "yarn cli build",
-    "build:website": "yarn build:npm && cd website && yarn build",
+    "build": "yarn cli build",
     "cli": "jiti ./scripts/cli",
-    "dev": "yarn build:npm && cd website && yarn dev",
+    "dev": "cd website && yarn dev",
     "lint": "eslint --ext .vue,.ts .",
     "release": "yarn cli version && cd npm && npm publish",
     "sync": "yarn cli sync",

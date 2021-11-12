@@ -84,7 +84,7 @@ yarn sync
 ### Generate `npm/modules.json`
 
 ```sh
-yarn build:npm
+yarn build
 ```
 
 ## Website development

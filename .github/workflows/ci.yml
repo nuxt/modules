@@ -47,8 +47,8 @@ jobs:
       - name: Sync
         run: yarn sync
 
-      - name: Build (npm)
-        run: yarn build:npm
+      - name: Build
+        run: yarn build
 
       - uses: dorny/paths-filter@v2
         id: changes
