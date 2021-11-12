@@ -13,7 +13,7 @@
               aria-label="Search"
               class="block bg-secondary-surface dark:bg-secondary-dark dark:border-sky-darker w-full py-2 px-3 text-base leading-6 placeholder-gray-500 dark:placeholder-secondary-light transition duration-150 ease-in-out border-2 appearance-none md:pr-10 rounded-lg focus:ring-3 focus:ring-sky-lighter focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 sm:flex-1"
               placeholder="Search a module (name, category, username, etc.)"
-            />
+            >
             <span
               class="absolute hidden px-2 py-1 text-gray-400 border border-sky-light rounded-md opacity-50 md:inline-block text-md top-1 right-4 leading-6"
             >/</span>
@@ -45,7 +45,7 @@
         src="/img/page-hero/dark/mountains.svg"
         alt="A landscape image"
         class="absolute -bottom-1px left-0 w-full h-12 md:h-24 object-fill light:invert light:brightness-0 light:filter pointer-events-none z-0"
-      />
+      >
     </div>
 
     <!-- Body -->
@@ -56,8 +56,12 @@
         <div>
           <h2
             class="text-2xl font-extrabold tracking-tight text-sky-darkest dark:text-sky-lightest"
-          >Nuxt version</h2>
-          <p class="text-sm text-gray-500 mb-4">Show modules working with:</p>
+          >
+            Nuxt version
+          </h2>
+          <p class="text-sm text-gray-500 mb-4">
+            Show modules working with:
+          </p>
           <div class="flex flex-col space-y-3">
             <NLink v-for="version in versionsMap" :key="version.label" :to="`/?q=${version.to}`">
               <button
@@ -74,7 +78,9 @@
                   v-for="status in statusMap"
                   :key="status.statusText"
                   class="space-y-6 py-2 bg-blue-100 text-sm bg-gray-100 dark:bg-secondary-darkest px-4 rounded-lg text-left"
-                >{{ status.icon }} {{ status.statusText }}</button>
+                >
+                  {{ status.icon }} {{ status.statusText }}
+                </button>
               </div>
             </NLink>
           </div>
@@ -84,7 +90,9 @@
         <div>
           <h2
             class="text-2xl font-extrabold tracking-tight text-sky-darkest dark:text-sky-lightest"
-          >Categories</h2>
+          >
+            Categories
+          </h2>
           <div
             class="grid grid-cols-1 gap-x-4 gap-y-2 py-6 overflow-x-auto sm:flex-wrap sm:justify-center"
           >
@@ -106,7 +114,7 @@
                 <img
                   :src="`icons/${$colorMode.value == 'light' ? 'dark' : 'light'}/${category == 'Date' ? 'time' : category.toLowerCase()}.svg`"
                   aria-hidden="true"
-                />
+                >
               </span>
             </button>
           </div>
@@ -156,7 +164,9 @@
                   class="flex items-center justify-center w-full p-1 px-2 border rounded-l-md hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none hover:border-grey-light"
                   :class="sortByBtnClass"
                   @click="sortByMenuVisible = !sortByMenuVisible"
-                >{{ sortByComp.label }}</button>
+                >
+                  {{ sortByComp.label }}
+                </button>
                 <div
                   v-show="sortByMenuVisible"
                   class="absolute right-0 z-10 origin-top-right rounded-md shadow-lg"
@@ -174,7 +184,9 @@
                       :aria-label="`sort by ${key}`"
                       class="flex items-center justify-center p-1 px-2 bg-white shadow-xs w-28 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none rounded-b-md"
                       @click="selectSortBy(key)"
-                    >{{ option.label }}</button>
+                    >
+                      {{ option.label }}
+                    </button>
                   </div>
                 </div>
               </div>
@@ -259,12 +271,12 @@ export default {
   directives: {
     focus: {
       // directive definition
-      inserted(el) {
+      inserted (el) {
         el.focus()
       }
     }
   },
-  async asyncData() {
+  async asyncData () {
     const { modules } = await $fetch('/api/modules')
     const { categories } = await $fetch('/api/categories')
 
@@ -295,7 +307,7 @@ export default {
       downloadsTotal
     }
   },
-  data() {
+  data () {
     return {
       q: '',
       orderBy: ORDERS.DESC,
@@ -305,7 +317,7 @@ export default {
       moduleLoaded: MODULE_INCREMENT_LOADING
     }
   },
-  head() {
+  head () {
     const title = 'Explore Nuxt Modules'
     const description = 'Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.'
     const url = 'https://modules.nuxtjs.org'
@@ -330,7 +342,7 @@ export default {
     }
   },
   computed: {
-    statusMap() {
+    statusMap () {
       return {
         working: { statusText: 'Working', icon: '✅', color: '#003c3c' },
         wip: { statusText: 'Work in progress', icon: '🚧', color: '#E9C600' },
@@ -339,7 +351,7 @@ export default {
         rip: { statusText: 'Won\'t be supported', icon: '❌', color: '#ff6446' }
       }
     },
-    versionsMap() {
+    versionsMap () {
       return {
         '3.x': {
           label: 'Nuxt 3.x',
@@ -361,7 +373,7 @@ export default {
         }
       }
     },
-    filteredModules() {
+    filteredModules () {
       let modules = this.modules
       if (this.q) {
         modules = this.fuse.search(this.q).map(r => r.item)
@@ -375,14 +387,14 @@ export default {
 
       return modules
     },
-    pageFilteredModules() {
+    pageFilteredModules () {
       const filteredModules = Object.assign([], this.filteredModules)
       return filteredModules.splice(0, this.moduleLoaded)
     },
-    sortByComp() {
+    sortByComp () {
       return sortFields[this.sortBy]
     },
-    sortByOptions() {
+    sortByOptions () {
       const options = {}
 
       for (const key in sortFields) {
@@ -395,28 +407,28 @@ export default {
 
       return options
     },
-    sortByBtnClass() {
+    sortByBtnClass () {
       return this.sortByMenuVisible ? 'rounded-bl-none border-b-grey-light' : ''
     }
   },
   watch: {
-    selectedCategory() {
+    selectedCategory () {
       this.syncURL()
     },
-    q() {
+    q () {
       this.syncURL()
     },
-    orderBy() {
+    orderBy () {
       this.syncURL()
     },
-    sortBy() {
+    sortBy () {
       this.syncURL()
     },
-    $route() {
+    $route () {
       this.applyURLFilters()
     }
   },
-  mounted() {
+  mounted () {
     const fuseOptions = {
       threshold: 0.1,
       keys: [
@@ -440,26 +452,26 @@ export default {
       this.focusSearchInput()
     }
   },
-  beforeMount() {
+  beforeMount () {
     window.addEventListener('keypress', this.searchFocusListener)
   },
-  beforeDestroy() {
+  beforeDestroy () {
     window.removeEventListener('keypress', this.searchFocusListener)
   },
   methods: {
-    toggleCategory(category) {
+    toggleCategory (category) {
       if (this.selectedCategory === category) {
         this.selectedCategory = null
         return
       }
       this.selectedCategory = category
     },
-    clearFilters() {
+    clearFilters () {
       this.selectedCategory = null
       this.q = null
       this.moduleLoaded = MODULE_INCREMENT_LOADING
     },
-    syncURL() {
+    syncURL () {
       const url = this.$route.path
       let query = ''
       this.resetModuleLoaded()
@@ -482,7 +494,7 @@ export default {
 
       window.history.pushState('', '', `${url}${query}`)
     },
-    applyURLFilters() {
+    applyURLFilters () {
       const selectedCategory = (window.location.hash || '').substr(1)
       if (selectedCategory) {
         this.toggleCategory(selectedCategory)
@@ -500,27 +512,27 @@ export default {
         this.orderBy = orderBy
       }
     },
-    toggleOrderBy() {
+    toggleOrderBy () {
       this.orderBy = (this.orderBy === ORDERS.ASC) ? ORDERS.DESC : ORDERS.ASC
     },
-    selectSortBy(field) {
+    selectSortBy (field) {
       this.sortBy = field
       this.sortByMenuVisible = false
     },
-    intersectedModulesLoading() {
+    intersectedModulesLoading () {
       this.moduleLoaded += MODULE_INCREMENT_LOADING
     },
-    resetModuleLoaded() {
+    resetModuleLoaded () {
       this.moduleLoaded = MODULE_INCREMENT_LOADING
     },
-    searchFocusListener(event) {
+    searchFocusListener (event) {
       // Add `/` shortcut for search input only if not already focused
       if (event.keyCode === 47 && !(event.target instanceof HTMLInputElement)) {
         event.preventDefault()
         this.focusSearchInput()
       }
     },
-    focusSearchInput() {
+    focusSearchInput () {
       this.$refs.searchModule.focus()
     }
   }

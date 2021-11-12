@@ -4,50 +4,50 @@ export default defineNuxtConfig({
   components: true,
   buildModules: [
     // https://github.com/windicss/nuxt-windicss
-    "nuxt-windicss",
+    'nuxt-windicss',
     // https://image.nuxtjs.org
-    "@nuxt/image",
+    '@nuxt/image',
     // https://pwa.nuxtjs.org
-    "@nuxtjs/pwa",
+    '@nuxtjs/pwa',
     // https://github.com/moritzsternemann/vue-plausible
-    "vue-plausible",
+    'vue-plausible',
     // https://html-validator.nuxtjs.org
-    "@nuxtjs/html-validator",
-    "@nuxtjs/color-mode",
+    '@nuxtjs/html-validator',
+    '@nuxtjs/color-mode'
   ],
   privateRuntimeConfig: {
-    githubToken: process.env.GITHUB_TOKEN,
+    githubToken: process.env.GITHUB_TOKEN
   },
-  plugins: ["~/plugins/v-tooltip.ts", "~/plugins/modules.ts"],
+  plugins: ['~/plugins/v-tooltip.ts', '~/plugins/modules.ts'],
   manifest: {
-    name: "Nuxt Modules",
-    short_name: "Nuxt Modules",
-    description: "Explore Nuxt Modules",
-    theme_color: "#003c3c",
+    name: 'Nuxt Modules',
+    short_name: 'Nuxt Modules',
+    description: 'Explore Nuxt Modules',
+    theme_color: '#003c3c'
   },
   plausible: {
-    domain: "modules.nuxtjs.org",
+    domain: 'modules.nuxtjs.org'
   },
   image: {
-    provider: "ipx",
+    provider: 'ipx',
     ipx: {
-      baseURL: "/api/ipx",
+      baseURL: '/api/ipx'
     },
     screens: {
       icon: 40,
-      avatar: 24,
+      avatar: 24
     },
     domains: [
-      "avatars.githubusercontent.com",
-      "avatars0.githubusercontent.com",
-      "avatars1.githubusercontent.com",
-      "avatars2.githubusercontent.com",
-      "avatars3.githubusercontent.com",
-    ],
+      'avatars.githubusercontent.com',
+      'avatars0.githubusercontent.com',
+      'avatars1.githubusercontent.com',
+      'avatars2.githubusercontent.com',
+      'avatars3.githubusercontent.com'
+    ]
   },
   colorMode: {
-    preference: "system",
-    fallback: "light",
-    classSuffix: "",
-  },
-});
+    preference: 'system',
+    fallback: 'light',
+    classSuffix: ''
+  }
+})

@@ -11,7 +11,7 @@
         <div
           class="transition-opacity duration-200 ease-in-out opacity-0 group-hover:opacity-100 absolute top-4 right-6 cursor-pointer"
         >
-          <img alt="website" src="~/assets/icons/ext.svg" width="32" height="32" />
+          <img alt="website" src="~/assets/icons/ext.svg" width="32" height="32">
         </div>
       </a>
 
@@ -38,11 +38,13 @@
                 width="20"
                 height="20"
                 class="ml-1 mt-1"
-              />
+              >
             </h2>
             <p
               class="text-sky-dark dark:text-white text-sm font-light line-clamp-3"
-            >{{ module.description }}</p>
+            >
+              {{ module.description }}
+            </p>
           </div>
         </div>
         <div class="flex justify-around w-full">
@@ -103,7 +105,7 @@
               class="hidden md:inline-block"
             >star{{ module.stars !== 1 ? 's' : '' }}</span>
           </div>
-          <img alt="stars" src="~/assets/icons/star.svg" width="20" height="20" class="icon" />
+          <img alt="stars" src="~/assets/icons/star.svg" width="20" height="20" class="icon">
         </a>
       </div>
       <div
@@ -150,25 +152,25 @@ export default {
     }
   },
   computed: {
-    compatibility() {
+    compatibility () {
       return Object.entries(this.module.compatibility || {})
         .map(([key, status]) => ({ ...this.statusMap[status], label: key }))
     }
   },
   methods: {
-    numberFormat(num, options = { precision: 1 }) {
+    numberFormat (num, options = { precision: 1 }) {
       return numberFormatter(num, options)
     },
-    iconUrl({ icon, category }) {
+    iconUrl ({ icon, category }) {
       if (icon) {
         return `/icons/${icon}`
       }
       return `/categories/${category.toLowerCase()}.svg`
     },
-    npmUrl({ npm }) {
+    npmUrl ({ npm }) {
       return `https://npmjs.com/package/${npm}`
     },
-    githubUrl({ github }) {
+    githubUrl ({ github }) {
       return `https://github.com/${github}`
     }
   }
