@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     // https://github.com/windicss/nuxt-windicss
     'nuxt-windicss',
     // https://image.nuxtjs.org
-    '@nuxt/image',
+    // '@nuxt/image',
     // https://pwa.nuxtjs.org
     '@nuxtjs/pwa',
     // https://github.com/moritzsternemann/vue-plausible
@@ -15,9 +15,6 @@ export default defineNuxtConfig({
     '@nuxtjs/html-validator',
     '@nuxtjs/color-mode'
   ],
-  privateRuntimeConfig: {
-    githubToken: process.env.GITHUB_TOKEN
-  },
   plugins: ['~/plugins/v-tooltip.ts', '~/plugins/modules.ts'],
   manifest: {
     name: 'Nuxt Modules',
@@ -27,23 +24,6 @@ export default defineNuxtConfig({
   },
   plausible: {
     domain: 'modules.nuxtjs.org'
-  },
-  image: {
-    provider: 'ipx',
-    ipx: {
-      baseURL: '/api/ipx'
-    },
-    screens: {
-      icon: 40,
-      avatar: 48
-    },
-    domains: [
-      'avatars.githubusercontent.com',
-      'avatars0.githubusercontent.com',
-      'avatars1.githubusercontent.com',
-      'avatars2.githubusercontent.com',
-      'avatars3.githubusercontent.com'
-    ]
   },
   colorMode: {
     preference: 'system',

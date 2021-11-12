@@ -1,4 +1,3 @@
-import config from '#config'
 const modulesCDN = 'https://cdn.jsdelivr.net/npm/@nuxt/modules@latest/dist/modules.json'
 
 export default async () => {
@@ -14,26 +13,15 @@ function rand (min, max) {
 }
 
 async function fetchModuleStats (module) {
-  if (config.githubToken) {
-    const { $fetch } = await import('ohmyfetch')
-    module.downloads = 0
-    try {
-      const body = await $fetch(`https://api.npmjs.org/downloads/point/last-month/${module.npm}`)
-      module.downloads = body.downloads
-    } catch (err) {
-      console.error(`Could not fetch NPM stats for ${module.npm}`, err.message)
-    }
-    try {
-      const [owner, repo] = module.repo.split('#')[0].split('/')
-      const repoObj = await $fetch(`https://api.github.com/repos/${owner}/${repo}`, {
-        headers: {
-          Authorization: 'token ' + config.githubToken
-        }
-      })
-      module.stars = repoObj.stargazers_count || 0
-    } catch (err) {
-      console.error(`Could not fetch GitHub stars for ${module.repo}`, err.message)
-    }
+  if (process.env.NODE_ENV === 'production' || process.env.USE_NUXT_API) {
+    const [npm, github] = await Promise.all([
+      $fetch<any>(`https://api.nuxtjs.org/api/npm/package/${module.npm}`)
+        .catch(() => ({ downloads: { lastMonth: 0 } })),
+      $fetch<any>(`https://api.nuxtjs.org/api/github/repo/${module.repo.split('#')[0]}`)
+        .catch(() => ({ stars: 0 }))
+    ])
+    module.downloads = npm.downloads.lastMonth
+    module.stars = github.stars
   } else {
     module.downloads = rand(0, 500)
     module.stars = rand(0, 2000)
