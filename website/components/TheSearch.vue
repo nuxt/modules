@@ -3,7 +3,7 @@
     <div class="flex">
       <IconNuxtLogo alt="Nuxt" width="40" height="40" />
       <div class="text-2xl my-auto ml-1 pt-0.5">
-        Modules
+        <a href="/">Modules</a>
       </div>
     </div>
     <slot />
