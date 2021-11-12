@@ -101,21 +101,13 @@ npx yarn dev
 
 Then visit http://localhost:3000
 
-In the development, the npm downloads and GitHub stars will be mocked unless setting `GITHUB_TOKEN` variable.
+In the development, the npm downloads and GitHub stars will be mocked unless setting `USE_NUXT_API` variable.
 
 ### Production build
 
-Create a [personnal GitHub token](https://github.com/settings/tokens) (no scope selected) and add it to `.env`:
 
 ```sh
-# .env
-GITHUB_TOKEN=<my-generated-github-token>
-```
-
-Generate the website:
-
-```sh
-yarn generate
+yarn build
 ```
 
 Start the production website:
