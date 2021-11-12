@@ -7,17 +7,11 @@
       </div>
     </div>
     <slot />
-    <button aria-label="Toggle theme" class="!outline-none" @click="toggleDarkMode()">
+    <button aria-label="Toggle theme" class="!outline-none text-xl h-1.2em my-auto" @click="toggleDarkMode()">
       <ColorScheme placeholder="..." tag="span">
-        <span v-if="$colorMode.preference === 'system'">
-          <IconSystem aria-label="System theme" />
-        </span>
-        <span v-else-if="$colorMode.value === 'dark'">
-          <IconMoon />
-        </span>
-        <span v-else-if="$colorMode.value === 'light'">
-          <IconSun />
-        </span>
+        <span v-if="$colorMode.preference === 'system'" class="i-carbon-laptop" />
+        <span v-else-if="$colorMode.value === 'dark'" class="i-carbon-moon" />
+        <span v-else class="i-carbon-sun" />
       </ColorScheme>
     </button>
   </div>

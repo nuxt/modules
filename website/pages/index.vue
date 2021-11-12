@@ -156,48 +156,50 @@
                 class="mr-3"
                 @click="sortByMenuVisible = !sortByMenuVisible"
               >Sort by</label>
-              <div class="relative w-28">
-                <button
-                  type="button"
-                  :aria-label="`change sort`"
-                  class="flex items-center justify-center w-full p-1 px-2 border rounded-l-md hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none hover:border-grey-light"
-                  :class="sortByBtnClass"
-                  @click="sortByMenuVisible = !sortByMenuVisible"
-                >
-                  {{ sortByComp.label }}
-                </button>
-                <div
-                  v-show="sortByMenuVisible"
-                  class="absolute right-0 z-10 origin-top-right rounded-md shadow-lg"
-                >
-                  <div
-                    id="options-menu"
-                    role="menu"
-                    aria-orientation="vertical"
-                    aria-labelledby="options-menu"
+              <div class="flex border border-gray-400/20 rounded-md">
+                <div class="relative w-28 my-auto">
+                  <button
+                    type="button"
+                    :aria-label="`change sort`"
+                    class="flex items-center justify-center w-full p-1 px-2 hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none hover:border-grey-light"
+                    :class="sortByBtnClass"
+                    @click="sortByMenuVisible = !sortByMenuVisible"
                   >
-                    <button
-                      v-for="(option, key) in sortByOptions"
-                      :key="key"
-                      type="button"
-                      :aria-label="`sort by ${key}`"
-                      class="flex items-center justify-center p-1 px-2 bg-white shadow-xs w-28 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none rounded-b-md"
-                      @click="selectSortBy(key)"
+                    {{ sortByComp.label }}
+                  </button>
+                  <div
+                    v-show="sortByMenuVisible"
+                    class="absolute left-0 z-10 origin-top-right rounded-b-md shadow-lg border border-gray-400/20 shadow-xs bg-white dark:bg-secondary-darkest"
+                  >
+                    <div
+                      id="options-menu"
+                      role="menu"
+                      aria-orientation="vertical"
+                      aria-labelledby="options-menu"
                     >
-                      {{ option.label }}
-                    </button>
+                      <button
+                        v-for="(option, key) in sortByOptions"
+                        :key="key"
+                        type="button"
+                        :aria-label="`sort by ${key}`"
+                        class="flex items-center justify-center p-1 px-2 w-28 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none rounded-b-md"
+                        @click="selectSortBy(key)"
+                      >
+                        {{ option.label }}
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="relative">
-                <button
-                  type="button"
-                  :aria-label="orderBy === 'asc' ? 'sort ascending' : 'sort descending'"
-                  class="flex items-center p-2 border border-l-0 hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none rounded-r-md"
-                  @click="toggleOrderBy"
-                >
-                  <icon-order-by :is-asc="orderBy === 'asc'" class="w-4 h-4 fill-current" />
-                </button>
+                <div class="relative">
+                  <button
+                    type="button"
+                    :aria-label="orderBy === 'asc' ? 'sort ascending' : 'sort descending'"
+                    class="flex items-center p-2 hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none rounded-r-md"
+                    @click="toggleOrderBy"
+                  >
+                    <div :class="orderBy === 'asc' ? 'i-carbon-sort-ascending' : 'i-carbon-sort-descending'" />
+                  </button>
+                </div>
               </div>
             </div>
           </div>

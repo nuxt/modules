@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from '@nuxt/bridge'
+import { presetIcons } from 'unocss'
 
 export default defineNuxtConfig({
   components: true,
@@ -13,8 +14,19 @@ export default defineNuxtConfig({
     'vue-plausible',
     // https://html-validator.nuxtjs.org
     '@nuxtjs/html-validator',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@unocss/nuxt'
   ],
+  unocss: {
+    presets: [
+      presetIcons({
+        scale: 1.2,
+        extraProperties: {
+          display: 'inline-block'
+        }
+      })
+    ]
+  },
   privateRuntimeConfig: {
     githubToken: process.env.GITHUB_TOKEN
   },
