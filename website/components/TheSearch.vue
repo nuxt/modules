@@ -10,17 +10,9 @@
     </div>
     <slot />
     <button aria-label="Toggle theme" class="!outline-none" @click="toggleDarkMode()">
-      <ColorScheme placeholder="..." tag="span">
-        <span v-if="$colorMode.preference === 'system'">
-          <IconSystem aria-label="System theme" />
-        </span>
-        <span v-else-if="$colorMode.value === 'dark'">
-          <IconMoon />
-        </span>
-        <span v-else-if="$colorMode.value === 'light'">
-          <IconSun />
-        </span>
-      </ColorScheme>
+      <IconMoon v-if="$colorMode.value === 'dark'" />
+      <IconSun v-else-if="$colorMode.value === 'light'" />
+      <IconSystem v-else aria-label="System theme" />
     </button>
   </div>
 </template>
