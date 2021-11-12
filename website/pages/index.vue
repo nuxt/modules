@@ -1,117 +1,232 @@
 <template>
-  <div class="pb-16">
-    <!-- Header -->
-    <TheHeader />
-
-    <!-- Stats -->
-    <TheStats
-      :modules="modules"
-      :maintainers-total="maintainersTotal"
-      :downloads-total="downloadsTotal"
-    />
-
-    <!-- Search and filters -->
-    <div class="container px-4 pt-12 pb-8 mx-auto sm:px-0">
-      <!-- Search -->
-      <div class="flex shadow-sm sm:max-w-lg sm:mx-auto">
-        <label class="relative flex-1">
-          <input
-            ref="searchModule"
-            v-model="q"
-            type="search"
-            aria-label="Search"
-            class="block w-full py-3 pl-3 pr-3 text-base leading-6 placeholder-gray-500 transition duration-150 ease-in-out border appearance-none md:pr-10 border-rainy-grey rounded-tl-md rounded-bl-md focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 focus:outline-none focus:placeholder-gray-400 sm:flex-1"
-            placeholder="Search a module (name, category, username, etc.)"
-          >
-          <span class="absolute hidden px-2 py-1 text-gray-400 border border-gray-300 rounded-md opacity-50 md:inline-block text-md top-13 right-13 leading-14">
-            /
-          </span>
-        </label>
-        <button type="button" aria-label="search" class="px-6 py-3 text-base font-medium leading-6 text-gray-700 transition duration-150 ease-in-out bg-rainy-grey hover:bg-grey-light focus:bg-grey-light rounded-tr-md rounded-br-md focus:outline-none focus:ring-3 focus:ring-green-300 focus:ring-opacity-50 sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">
-          <IconSearch alt="Search" />
-        </button>
+  <div class="pb-16 relative dark:text-white dark:bg-secondary-black">
+    <div
+      class="bg-gray-100 dark:bg-secondary-black w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
+    >
+      <TheSearch>
+        <div class="flex shadow-sm w-full max-w-md">
+          <label class="relative flex-1">
+            <input
+              ref="searchModule"
+              v-model="q"
+              type="search"
+              aria-label="Search"
+              class="block dark:bg-secondary-dark dark:border-sky-darker w-full py-2 px-3 text-base leading-6 placeholder-gray-500 dark:placeholder-secondary-light transition duration-150 ease-in-out border-2 border-sky-light appearance-none md:pr-10 rounded-lg focus:ring-3 focus:ring-sky-light focus:ring-opacity-50 focus:outline-none focus:placeholder-sky-darkest sm:flex-1"
+              placeholder="Search a module (name, category, username, etc.)"
+            >
+            <span
+              class="absolute hidden px-2 py-1 text-gray opacity-90 dark:text-gray-300 border border-sky-light rounded-md md:inline-block text-md top-1 right-4 leading-6"
+            >/</span>
+          </label>
+        </div>
+      </TheSearch>
+    </div>
+    <div
+      class="pt-10 lg:pt-24 pb-16 lg:pb-32 bg-gray-100 dark:bg-secondary-darkest dark:bg-secondary-darkest sm:p-10 relative"
+    >
+      <div class="container mx-auto flex flex-col sm:flex-row justify-between">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between w-full">
+          <!-- Header -->
+          <TheHeader />
+          <!-- Stats -->
+          <TheStats
+            :modules="modules"
+            :maintainers-total="maintainersTotal"
+            :downloads-total="downloadsTotal"
+          />
+        </div>
+        <!-- TODO: maybe card delete -->
+        <div v-if="false" class="flex justify-center">
+          <CardMockup class="h-full transform scale-125" />
+        </div>
       </div>
-
-      <!-- Categories -->
-      <div class="flex pt-6 space-x-2 overflow-x-auto sm:flex-wrap sm:justify-center">
-        <button
-          v-for="category of categories"
-          :key="category"
-          type="button"
-          :aria-label="category"
-          class="px-4 py-2 mb-2 text-sm rounded cursor-pointer focus:outline-none"
-          :class="[ selectedCategory === category ? 'bg-forest-night text-white' : 'text-forest-night bg-rainy-grey hover:bg-grey-light focus:bg-grey-light']"
-          @click="toggleCategory(category)"
-        >
-          {{ category }}
-        </button>
-      </div>
+      <img
+        loading="lazy"
+        src="/img/page-hero/dark/mountains.svg"
+        alt="A landscape image"
+        class="absolute -bottom-1px left-0 w-full h-12 md:h-24 object-fill light:invert light:brightness-0 light:filter pointer-events-none z-0"
+      >
     </div>
 
-    <!-- Modules list -->
-    <div class="container px-4 mx-auto">
-      <div class="flex flex-col items-center justify-between sm:flex-row">
-        <!-- Clear filters -->
-        <p class="mb-4 text-forest-night">
-          {{ filteredModules.length }} module{{ filteredModules.length !== 1 ? 's' : '' }} found
-          (Show modules working with: <NLink v-for="v in ['2.x', '2.x-bridge', '3.x']" :key="v" class="mx-1 underline cursor-pointer" :to="`/?q=${v}`">
-            {{ v }}
-          </NLink>)
-          <template v-if="selectedCategory || q">
-            <p>
-              Filter{{ selectedCategory && q ? 's' : '' }}:
-              <b>{{ selectedCategory }}</b>{{ selectedCategory && q ? ', ' : '' }}<b>{{ q }}</b>
-              <a href="/" class="hover:text-grey-darkest" @click.prevent="clearFilters">(<u>clear filter{{ selectedCategory && q ? 's' : '' }}</u>)</a>
-            </p>
-          </template>
-        </p>
-        <div v-show="!q" class="flex items-center mb-4 text-forest-night">
-          <label for="options-menu" class="mr-3" @click="sortByMenuVisible = !sortByMenuVisible">Sort by</label>
-          <div class="relative w-28">
-            <button
-              type="button"
-              :aria-label="`change sort`"
-              class="flex items-center justify-center w-full p-1 px-2 border rounded-l-md hover:bg-rainy-grey focus:bg-rainy-grey focus:outline-none hover:border-grey-light"
-              :class="sortByBtnClass"
-              @click="sortByMenuVisible = !sortByMenuVisible"
-            >
-              {{ sortByComp.label }}
-            </button>
-            <div v-show="sortByMenuVisible" class="absolute right-0 z-10 origin-top-right rounded-md shadow-lg">
-              <div id="options-menu" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+    <!-- Body -->
+    <div class="container px-4 sm:px-0 mx-auto pt-8 grid grid-cols-1 sm:grid-cols-5 gap-8">
+      <!-- Sidebar -->
+      <div class="col-span-1 space-y-10 hidden lg:block">
+        <!-- Nuxt versions -->
+        <div>
+          <h2
+            class="text-2xl font-extrabold tracking-tight text-sky-darkest dark:text-sky-lightest"
+          >
+            Nuxt version
+          </h2>
+          <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">
+            Show modules working with:
+          </p>
+          <div class="flex flex-col space-y-3">
+            <NLink v-for="version in versionsMap" :key="version.label" :to="`/?q=${version.to}`">
+              <button
+                class="flex items-center justify-between hover:text-sky-lightest hover:bg-sky-dark text-sm py-2 bg-gray-100 dark:bg-secondary-darkest rounded-lg px-4 w-full text-left"
+              >
+                <div>
+                  <component :is="version.icon" class="h-6 w-6 mr-2 inline-block" />
+                  {{ version.label }}
+                </div>
+                <span v-if="false" class="text-xl px-2">+</span>
+              </button>
+              <div v-if="false" class="mt-2 ml-4 gap-2 flex flex-col">
                 <button
-                  v-for="(option, key) in sortByOptions"
-                  :key="key"
-                  type="button"
-                  :aria-label="`sort by ${key}`"
-                  class="flex items-center justify-center p-1 px-2 bg-white shadow-xs w-28 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none rounded-b-md"
-                  @click="selectSortBy(key)"
+                  v-for="status in statusMap"
+                  :key="status.statusText"
+                  class="space-y-6 py-2 bg-blue-100 text-sm bg-gray-100 dark:bg-secondary-darkest px-4 rounded-lg text-left"
                 >
-                  {{ option.label }}
+                  {{ status.icon }} {{ status.statusText }}
+                </button>
+              </div>
+            </NLink>
+          </div>
+        </div>
+
+        <!-- Categories -->
+        <div>
+          <h2
+            class="text-2xl font-extrabold tracking-tight text-sky-darkest dark:text-sky-lightest"
+          >
+            Categories
+          </h2>
+          <div
+            class="grid grid-cols-1 gap-x-4 gap-y-2 py-6 overflow-x-auto sm:flex-wrap sm:justify-center"
+          >
+            <button
+              v-for="category of categories"
+              :key="category"
+              type="button"
+              :aria-label="category"
+              class="px-4 py-3 mb-2 text-sm text-left flex items-center justify-between rounded-lg cursor-pointer focus:outline-none"
+              :class="[
+                selectedCategory === category
+                  ? 'bg-sky-darker text-sky-lightest'
+                  : 'text-sky-darkest bg-gray-100 dark:bg-secondary-darkest dark:text-sky-surface hover:text-sky-lightest hover:bg-sky-dark transition-colors duration-150 ease-in-out focus:bg-sky-lightest',
+              ]"
+              @click="toggleCategory(category)"
+            >
+              {{ category }}
+              <span class="flex items-center w-5 h-5 items-center">
+                <img
+                  :src="`icons/${$colorMode.value == 'light' ? 'dark' : 'light'}/${category == 'Date' ? 'time' : category.toLowerCase()}.svg`"
+                  aria-hidden="true"
+                >
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Main -->
+      <div class="col-span-4">
+        <!-- Clear filters -->
+        <div
+          class="flex flex-col items-top justify-between sm:flex-row py-5 mb-4 bg-gray-100 dark:bg-secondary-darkest px-4 rounded-lg"
+        >
+          <p class="text-forest-night">
+            <span class="font-black text-2xl">{{ filteredModules.length }}</span>
+            module{{ filteredModules.length !== 1 ? 's' : '' }} found
+            <template
+              v-if="selectedCategory || q"
+            >
+              <p>
+                Filter{{ selectedCategory && q ? 's' : '' }}:
+                <b>{{ selectedCategory }}</b>
+                {{ selectedCategory && q ? ', ' : '' }}
+                <b
+                  class="font-black text-lg"
+                >{{ q }}</b>
+                <a
+                  href="/"
+                  class="ml-2 opacity-70 hover:opacity-100"
+                  @click.prevent="clearFilters"
+                >
+                  <u>Clear filter{{ selectedCategory && q ? 's' : '' }}</u>
+                </a>
+              </p>
+            </template>
+          </p>
+          <div class="pt-10 sm:pt-0">
+            <div v-show="!q" class="flex items-center text-forest-night">
+              <label
+                for="options-menu"
+                class="mr-3"
+                @click="sortByMenuVisible = !sortByMenuVisible"
+              >Sort by</label>
+              <div class="relative w-28">
+                <button
+                  type="button"
+                  :aria-label="`change sort`"
+                  class="flex items-center justify-center w-full p-1 px-2 border rounded-l-md hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none hover:border-grey-light"
+                  :class="sortByBtnClass"
+                  @click="sortByMenuVisible = !sortByMenuVisible"
+                >
+                  {{ sortByComp.label }}
+                </button>
+                <div
+                  v-show="sortByMenuVisible"
+                  class="absolute right-0 z-10 origin-top-right rounded-md shadow-lg"
+                >
+                  <div
+                    id="options-menu"
+                    role="menu"
+                    aria-orientation="vertical"
+                    aria-labelledby="options-menu"
+                  >
+                    <button
+                      v-for="(option, key) in sortByOptions"
+                      :key="key"
+                      type="button"
+                      :aria-label="`sort by ${key}`"
+                      class="flex items-center justify-center p-1 px-2 dark:bg-secondary-darkest bg-white shadow-xs w-28 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none rounded-b-md"
+                      @click="selectSortBy(key)"
+                    >
+                      {{ option.label }}
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="relative">
+                <button
+                  type="button"
+                  :aria-label="orderBy === 'asc' ? 'sort ascending' : 'sort descending'"
+                  class="flex items-center p-2 border border-l-0 hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none rounded-r-md"
+                  @click="toggleOrderBy"
+                >
+                  <icon-order-by :is-asc="orderBy === 'asc'" class="w-4 h-4 fill-current" />
                 </button>
               </div>
             </div>
           </div>
-          <div class="relative">
-            <button
-              type="button"
-              :aria-label="orderBy === 'asc' ? 'sort ascending' : 'sort descending'"
-              class="flex items-center p-2 border border-l-0 hover:bg-rainy-grey focus:bg-rainy-grey focus:outline-none rounded-r-md"
-              @click="toggleOrderBy"
-            >
-              <icon-order-by :is-asc="orderBy === 'asc'" class="w-4 h-4 fill-current" />
-            </button>
+        </div>
+        <!-- This example requires Tailwind CSS v2.0+ -->
+        <div v-if="false">
+          <span
+            class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800"
+          >Working</span>
+          <span
+            class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-100 text-blue-800"
+          >Unknown</span>
+          <span
+            class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-100 dark:bg-secondary-darkest text-gray-800"
+          >Work in progress</span>
+        </div>
+
+        <div class="grid gap-x-6 gap-y-20 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-20">
+          <div
+            v-for="mod of pageFilteredModules"
+            :key="mod.name"
+            class="relative flex flex-col group transition-transform duration-150 ease-in-out transform bg-white dark:bg-secondary-darkest rounded-lg border hover:border-1 border-gray-200 dark:border-secondary-dark hover:border-primary-600 dark:hover:border-secondary focus:bg-sky-lightest"
+          >
+            <LazyHydrate when-visible>
+              <card-module :module="mod" :status-map="statusMap" />
+            </LazyHydrate>
           </div>
+          <Observer @intersect="intersectedModulesLoading" />
         </div>
-      </div>
-      <!-- Module cards -->
-      <div class="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-        <div v-for="module of pageFilteredModules" :key="module.name" class="relative flex flex-col overflow-hidden transition-transform duration-150 ease-in-out transform bg-white rounded-xl border border-gray-300 hover:shadow-md hover:-translate-y-1">
-          <LazyHydrate when-visible>
-            <card-module :module="module" />
-          </LazyHydrate>
-        </div>
-        <Observer @intersect="intersectedModulesLoading" />
       </div>
     </div>
 
@@ -226,6 +341,37 @@ export default {
     }
   },
   computed: {
+    statusMap () {
+      return {
+        working: { statusText: 'Working', icon: '✅', color: '#003c3c' },
+        wip: { statusText: 'Work in progress', icon: '🚧', color: '#E9C600' },
+        unknown: { statusText: 'Unknown', icon: '❓', color: 'grey' },
+        broken: { statusText: 'Not working', icon: '❗', color: '#ff6446' },
+        rip: { statusText: 'Won\'t be supported', icon: '❌', color: '#ff6446' }
+      }
+    },
+    versionsMap () {
+      return {
+        '3.x': {
+          label: 'Nuxt 3.x',
+          id: 'three',
+          icon: 'iconNuxt3',
+          to: '3.x'
+        },
+        '2.x-bridge': {
+          label: 'Nuxt 2.x Bridge',
+          id: 'bridge',
+          icon: 'iconNuxtBridge',
+          to: '2.x-bridge'
+        },
+        '2.x': {
+          label: 'Nuxt 2.x',
+          id: 'two',
+          icon: 'iconNuxt2',
+          to: '2.x'
+        }
+      }
+    },
     filteredModules () {
       let modules = this.modules
       if (this.q) {
@@ -333,7 +479,7 @@ export default {
         query += `?q=${this.q}`
       }
 
-      if (this.orderBy !== FIELDS.DESC) {
+      if (this.orderBy !== ORDERS.DESC) {
         query += `${query ? '&' : '?'}orderBy=${this.orderBy}`
       }
 
@@ -386,7 +532,7 @@ export default {
       }
     },
     focusSearchInput () {
-      this.$refs.searchModule.focus()
+      this.$refs.searchModule?.focus()
     }
   }
 }
