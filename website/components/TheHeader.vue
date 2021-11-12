@@ -14,7 +14,7 @@
         href="https://nuxtjs.org"
         rel="noopener"
         target="_blank"
-        class="border-b border-stone-green hover:text-green-500 hover:border-green-600"
+        class="border-b border-current hover:text-green-500 hover:border-green-600"
       >Nuxt project</a>. Created by the Nuxt team and community.
     </p>
     <div class="max-w-xl mt-4 text-left">

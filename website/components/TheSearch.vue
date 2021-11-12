@@ -1,8 +1,13 @@
 <template>
-  <div class="flex items-center justify-between w-full container mx-auto px-4 sm:px-0 py-4">
-    <a href="https://nuxtjs.org" aria-label="Nuxt homepage"><IconNuxt alt="Nuxt" /></a>
+  <div class="flex items-center justify-between w-full container mx-auto px-4 sm:px-0 py-2">
+    <div class="flex">
+      <IconNuxtLogo alt="Nuxt" width="40" height="40" />
+      <div class="text-2xl my-auto ml-1 pt-0.5">
+        Modules
+      </div>
+    </div>
     <slot />
-    <button aria-label="Toggle theme" @click="toggleDarkMode()">
+    <button aria-label="Toggle theme" class="!outline-none" @click="toggleDarkMode()">
       <ColorScheme placeholder="..." tag="span">
         <span v-if="$colorMode.preference === 'system'">
           <IconSystem aria-label="System theme" />
