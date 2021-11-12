@@ -75,7 +75,7 @@
       </div>
     </div>
     <div
-      class="border-t border-gray-200 dark:border-secondary-dark bg-gray-100 dark:bg-secondary-black grid grid-cols-1"
+      class="border-t border-gray-200 rounded-b-lg dark:border-secondary-dark bg-gray-100 dark:bg-secondary-black grid grid-cols-1"
     >
       <div class="flex justify-between bg-white dark:bg-secondary-darker">
         <a
@@ -109,9 +109,9 @@
         </a>
       </div>
       <div
-        class="stats-block group flex justify-between py-3 px-4 z-0 overflow-hidden hover:bg-gray-200 dark:hover:bg-secondary hover:bg-opacity-50"
+        class="stats-block rounded-b-lg group flex justify-between py-3 px-4 z-0 overflow-hidden hover:bg-gray-200 dark:hover:bg-secondary hover:bg-opacity-50"
       >
-        <div class="flex space-x-2 pt-2">
+        <div class="flex space-x-2">
           <a
             v-for="maintainer of module.maintainers"
             :key="maintainer.github"
