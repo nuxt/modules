@@ -112,15 +112,6 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     }
   }
 
-  for (const maintainer of module.maintainers) {
-    if (maintainer.github) {
-      if (!maintainer.avatar || maintainer.avatar.startsWith('https://github.com')) {
-        const url = await fetch(`https://github.com/${maintainer.github}.png`, { redirect: 'follow' }).then(r => r.url)
-        maintainer.avatar = url
-      }
-    }
-  }
-
   // Default description
   if (!module.description) {
     module.description = pkg.description

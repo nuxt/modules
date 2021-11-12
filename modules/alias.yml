@@ -11,7 +11,6 @@ type: 3rd-party
 maintainers:
   - name: kdydesign
     github: kdydesign
-    avatar: https://avatars3.githubusercontent.com/u/10152521?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown

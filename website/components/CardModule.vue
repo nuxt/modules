@@ -64,7 +64,7 @@
         >
           <nuxt-img
             class="w-6 h-6 relative rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100"
-            :src="maintainer.avatar + '&s=24'"
+            :src="avatarUrl(maintainer)"
             :alt="maintainer.name"
             format="jpg"
             width="24"
@@ -117,6 +117,11 @@ export default {
     },
     githubUrl ({ github }) {
       return `https://github.com/${github}`
+    },
+    avatarUrl ({ github, avatar }) {
+      return avatar
+        ? `${avatar}&s=48`
+        : `https://avatars.githubusercontent.com/${github}?s=48`
     }
   }
 }

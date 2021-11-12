@@ -12,7 +12,6 @@ maintainers:
   - name: Takuma HANATANI
     github: potato4d
     twitter: potato4d
-    avatar: https://avatars0.githubusercontent.com/u/6993514?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown

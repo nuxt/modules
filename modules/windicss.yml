@@ -12,7 +12,6 @@ maintainers:
   - name: Harlan Wilton
     github: loonpwn
     twitter: harlan_zw
-    avatar: https://avatars.githubusercontent.com/u/5326365?v=4
 compatibility:
   2.x: working
   2.x-bridge: working

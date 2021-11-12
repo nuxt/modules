@@ -11,7 +11,6 @@ type: 3rd-party
 maintainers:
   - name: moritzsternemann
     github: moritzsternemann
-    avatar: https://avatars1.githubusercontent.com/u/3034168?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown
