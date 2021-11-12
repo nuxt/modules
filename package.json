@@ -1,5 +1,9 @@
 {
   "private": true,
+  "workspaces": [
+    "npm",
+    "website"
+  ],
   "scripts": {
     "build": "yarn cli build",
     "cli": "jiti ./scripts/cli",
@@ -21,9 +25,5 @@
     "js-yaml": "^4.1.0",
     "ohmyfetch": "^0.4.2",
     "typescript": "^4.4.4"
-  },
-  "workspace": [
-    "npm",
-    "website"
-  ]
+  }
 }
