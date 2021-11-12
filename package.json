@@ -1,10 +1,8 @@
 {
-  "name": "@nuxt/modules",
-  "version": "0.5.0",
-  "license": "MIT",
-  "main": "dist/modules.json",
-  "files": [
-    "dist"
+  "private": true,
+  "workspace": [
+    "npm",
+    "website"
   ],
   "scripts": {
     "build": "yarn sync && yarn cli build",

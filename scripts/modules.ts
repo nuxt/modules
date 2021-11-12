@@ -4,7 +4,7 @@ import * as yml from 'js-yaml'
 import { globby } from 'globby'
 import defu from 'defu'
 import { $fetch } from 'ohmyfetch'
-import categories from '../lib/categories.json'
+import categories from '../npm/categories.json'
 import { fetchGithubPkg, modulesDir, distDir, distFile } from './utils'
 
 export async function sync (name, repo?: string, isNew: boolean = false) {
