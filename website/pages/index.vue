@@ -109,13 +109,11 @@
               ]"
               @click="toggleCategory(category)"
             >
-              {{ category }}
-              <span class="flex items-center w-5 h-5 items-center">
-                <img
-                  :src="`icons/${$colorMode.value == 'light' ? 'dark' : 'light'}/${category == 'Date' ? 'time' : category.toLowerCase()}.svg`"
-                  aria-hidden="true"
-                >
-              </span>
+              <span
+                class="text-lg"
+                :class="CATEGORIES_ICONS[category]"
+              />
+              <span class="flex-auto ml-3">{{ category }}</span>
             </button>
           </div>
         </div>
@@ -265,6 +263,28 @@ const sortFields = {
   }
 }
 
+const CATEGORIES_ICONS = {
+  Analytics: 'i-carbon-skill-level-basic',
+  CMS: 'i-carbon-data-table',
+  CSS: 'i-carbon-color-palette',
+  Database: 'i-carbon-data-base',
+  Date: 'i-carbon-calendar',
+  Deployment: 'i-carbon-3rd-party-connected',
+  Devtools: 'i-carbon-code',
+  Extensions: 'i-carbon-model-alt',
+  Ecommerce: 'i-carbon-shopping-cart',
+  Fonts: 'i-carbon-text-font',
+  Images: 'i-carbon-image',
+  Libraries: 'i-carbon-tool-box',
+  Monitoring: 'i-carbon-content-view',
+  Payment: 'i-carbon-wallet',
+  Performance: 'i-carbon-meter',
+  Request: 'i-carbon-http',
+  SEO: 'i-carbon-search',
+  Security: 'i-carbon-security',
+  UI: 'i-carbon-touch-interaction'
+}
+
 const MODULE_INCREMENT_LOADING = 12
 
 export default {
@@ -273,7 +293,7 @@ export default {
     focus: {
       // directive definition
       inserted (el) {
-        el.focus()
+        el?.focus()
       }
     }
   },
@@ -315,7 +335,8 @@ export default {
       sortBy: 'downloads',
       sortByMenuVisible: false,
       selectedCategory: null,
-      moduleLoaded: MODULE_INCREMENT_LOADING
+      moduleLoaded: MODULE_INCREMENT_LOADING,
+      CATEGORIES_ICONS
     }
   },
   head () {
@@ -534,7 +555,7 @@ export default {
       }
     },
     focusSearchInput () {
-      this.$refs.searchModule.focus()
+      this.$refs.searchModule?.focus()
     }
   }
 }
