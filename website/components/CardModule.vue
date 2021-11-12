@@ -63,13 +63,13 @@
               >
             </h2>
             <p
-              class="text-sky-dark dark:text-white text-xs font-normal line-clamp-3 mt-2"
+              class="text-sky-dark dark:text-white text-sm font-normal line-clamp-3 mt-2 opacity-85"
             >
               {{ module.description }}
             </p>
           </div>
         </div>
-        <div class="grid grid-cols-3 gap-3 pt-4 w-full">
+        <div class="grid grid-cols-3 gap-3 pt-6 w-full">
           <div v-for="c of compatibility" :key="c.label" class="flex flex-col items-center">
             <div
               v-tooltip="{ content: c.label, classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }"
@@ -99,7 +99,7 @@
     <div
       class="border-t rounded-b-rounded-lg overflow-hidden border-gray-200 rounded-b-lg dark:border-secondary-dark bg-gray-100 dark:bg-secondary-black grid grid-cols-1"
     >
-      <div class="flex justify-between divide-x divide-gray-300 dark:divide-secondary-light">
+      <div class="flex justify-between divide-x divide-gray-200 dark:divide-secondary-dark">
         <a
           :href="npmUrl(module)"
           aria-label="npm"

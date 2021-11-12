@@ -141,11 +141,10 @@
                 >{{ q }}</b>
                 <a
                   href="/"
-                  class="hover:text-grey-darkest text-rose-600"
+                  class="ml-2 opacity-70 hover:opacity-100"
                   @click.prevent="clearFilters"
                 >
-                  (
-                  <u>clear filter{{ selectedCategory && q ? 's' : '' }}</u>)
+                  <u>Clear filter{{ selectedCategory && q ? 's' : '' }}</u>
                 </a>
               </p>
             </template>
