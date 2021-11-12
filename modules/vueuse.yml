@@ -1,0 +1,19 @@
+name: vueuse
+description: Collection of essential Vue Composition Utilities for Vue 2 and 3
+repo: vueuse/vueuse
+npm: '@vueuse/core'
+icon: vueuse.svg
+github: https://github.com/vueuse/vueuse
+website: https://vueuse.org
+learn_more: https://github.com/vueuse/vueuse
+category: Library
+type: 3rd-party
+maintainers:
+  - name: Anthony Fu
+    github: antfu
+    twitter: antfu7
+    avatar: https://avatars.githubusercontent.com/antfu?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: working
+  3.x: working
