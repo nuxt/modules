@@ -3,7 +3,6 @@ import { promises as fsp, existsSync } from 'fs'
 import * as yml from 'js-yaml'
 import { globby } from 'globby'
 import defu from 'defu'
-import { $fetch } from 'ohmyfetch'
 import categories from '../npm/categories.json'
 import { fetchGithubPkg, modulesDir, distDir, distFile } from './utils'
 
@@ -109,15 +108,6 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     } else {
       // eslint-disable-next-line no-console
       console.log(`[TODO] Add a maintainer to ./modules/${name}.yml`)
-    }
-  }
-
-  for (const maintainer of module.maintainers) {
-    if (maintainer.github) {
-      if (!maintainer.avatar || maintainer.avatar.startsWith('https://github.com')) {
-        const url = await $fetch(`https://github.com/${maintainer.github}.png`, { redirect: 'follow' }).then(r => r.url)
-        maintainer.avatar = url
-      }
     }
   }
 

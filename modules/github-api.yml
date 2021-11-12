@@ -11,7 +11,6 @@ type: 3rd-party
 maintainers:
   - name: lindsaykwardell
     github: lindsaykwardell
-    avatar: https://avatars0.githubusercontent.com/u/32229300?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown

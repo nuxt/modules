@@ -12,7 +12,6 @@ maintainers:
   - name: Muhammad Fauzan
     github: fauzan121002
     twitter: fauzandev
-    avatar: https://avatars.githubusercontent.com/u/50759463?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown

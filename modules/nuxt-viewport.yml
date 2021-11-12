@@ -11,7 +11,6 @@ type: 3rd-party
 maintainers:
   - name: mvrlin
     github: mvrlin
-    avatar: https://avatars.githubusercontent.com/u/24970784?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown

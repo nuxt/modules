@@ -14,7 +14,7 @@ Metadata of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/Y
 ### Contribution
 
 - If you feel a module is missing, please create a new [issue](https://github.com/nuxt/modules/issues/new)
-- If some data is outdated please directly openin a pull request
+- If some data is outdated please directly open a pull request
 
 ### Using CDN
 

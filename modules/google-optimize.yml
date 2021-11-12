@@ -12,15 +12,12 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4
   - name: Farzad Soltani
     github: farzadso
     twitter: farzadso
-    avatar: https://avatars0.githubusercontent.com/u/19854715?v=4
   - name: Josh Deltener
     github: hecktarzuli
     twitter: JoshDeltener
-    avatar: https://avatars2.githubusercontent.com/u/2112282?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown
