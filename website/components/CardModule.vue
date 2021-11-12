@@ -29,7 +29,7 @@
                 height="40px"
               />
             </div>
-            <div class="flex flex-row-reverse space-x-2 w-full px-2 mt-auto">
+            <div class="flex flex-row-reverse gap-2 w-full mt-auto">
               <a
                 v-for="maintainer of module.maintainers"
                 :key="maintainer.github"
@@ -41,7 +41,7 @@
               >
                 <nuxt-img
                   class="w-6 h-6 relative rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100"
-                  :src="maintainer.avatar + '&s=24'"
+                  :src="maintainer.avatar + '&s=48'"
                   :alt="maintainer.name"
                   format="jpg"
                   width="22"

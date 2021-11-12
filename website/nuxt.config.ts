@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     },
     screens: {
       icon: 40,
-      avatar: 24
+      avatar: 48
     },
     domains: [
       'avatars.githubusercontent.com',

@@ -479,7 +479,7 @@ export default {
         query += `?q=${this.q}`
       }
 
-      if (this.orderBy !== FIELDS.DESC) {
+      if (this.orderBy !== ORDERS.DESC) {
         query += `${query ? '&' : '?'}orderBy=${this.orderBy}`
       }
 
