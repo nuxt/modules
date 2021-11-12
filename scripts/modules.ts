@@ -3,7 +3,6 @@ import { promises as fsp, existsSync } from 'fs'
 import * as yml from 'js-yaml'
 import { globby } from 'globby'
 import defu from 'defu'
-import { $fetch } from 'ohmyfetch'
 import categories from '../npm/categories.json'
 import { fetchGithubPkg, modulesDir, distDir, distFile } from './utils'
 
