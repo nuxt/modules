@@ -17,16 +17,15 @@
   </div>
 </template>
 <script>
+const toggleNext = {
+  system: 'dark', // TODO
+  dark: 'light',
+  light: 'dark'
+}
 export default {
   methods: {
     toggleDarkMode () {
-      if (this.$colorMode.preference === 'system') {
-        this.$colorMode.preference = 'dark'
-      } else if (this.$colorMode.preference === 'dark') {
-        this.$colorMode.preference = 'light'
-      } else {
-        this.$colorMode.preference = 'system'
-      }
+      this.$colorMode.preference = toggleNext[this.$colorMode.preference] || 'system'
     }
   }
 }
