@@ -21,13 +21,14 @@
             <div
               class="border group-hover:border-primary-600 dark:group-hover:border-secondary-dark bg-white border-gray-200 dark:bg-secondary-dark dark:border-secondary-dark w-20 h-20 rounded-lg flex flex-none items-center justify-center"
             >
-              <nuxt-img
-                :src="iconUrl(module)"
+              <!-- TODO: use <nuxt-img> -->
+              <img
+                :src="'https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/website/static/' + iconUrl(module)"
                 :alt="module.name"
                 class="w-10 h-10 object-contain"
                 width="40px"
                 height="40px"
-              />
+              >
             </div>
             <div class="flex flex-row-reverse gap-2 w-full mt-auto">
               <a
@@ -39,14 +40,15 @@
                 target="_blank"
                 rel="noopener"
               >
-                <nuxt-img
+                <!-- TODO: use <nuxt-img> -->
+                <img
                   class="w-6 h-6 relative rounded-full text-white shadow-solid transition-opacity duration-200 opacity-75 group-hover:opacity-100"
-                  :src="maintainer.avatar + '&s=48'"
+                  :src="'https://api.nuxtjs.org/api/ipx/s_44,f_webp/gh_avatar/' + maintainer.github"
                   :alt="maintainer.name"
                   format="jpg"
                   width="22"
                   height="22"
-                />
+                >
               </a>
             </div>
           </div>
@@ -63,7 +65,7 @@
               >
             </h2>
             <p
-              class="text-sky-dark dark:text-white text-sm font-normal line-clamp-3 mt-2 opacity-85"
+              class="text-sky-dark dark:text-white dark:opacity-85 text-sm font-normal line-clamp-3 mt-2"
             >
               {{ module.description }}
             </p>

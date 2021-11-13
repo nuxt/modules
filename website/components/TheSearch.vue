@@ -1,10 +1,12 @@
 <template>
   <div class="flex items-center justify-between w-full container mx-auto px-4 sm:px-0 py-2">
     <div class="flex">
-      <IconNuxtLogo alt="Nuxt" width="40" height="40" />
-      <div class="text-2xl my-auto ml-1 pt-0.5">
-        Modules
-      </div>
+      <a href="/" class="inline-flex text-2xl">
+        <IconNuxtLogo alt="Nuxt" width="40" height="40" />
+        <span class="my-auto ml-1 pt-0.5">
+          Modules
+        </span>
+      </a>
     </div>
     <slot />
     <button aria-label="Toggle theme" class="!outline-none text-xl h-1.2em my-auto" @click="toggleDarkMode()">
@@ -17,16 +19,15 @@
   </div>
 </template>
 <script>
+const toggleNext = {
+  system: 'dark', // TODO
+  dark: 'light',
+  light: 'dark'
+}
 export default {
   methods: {
     toggleDarkMode () {
-      if (this.$colorMode.preference === 'system') {
-        this.$colorMode.preference = 'dark'
-      } else if (this.$colorMode.preference === 'dark') {
-        this.$colorMode.preference = 'light'
-      } else {
-        this.$colorMode.preference = 'system'
-      }
+      this.$colorMode.preference = toggleNext[this.$colorMode.preference] || 'system'
     }
   }
 }

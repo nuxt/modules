@@ -13,7 +13,6 @@ type: community
 maintainers:
   - name: Rafał Chłodnicki
     github: rchl
-    avatar: https://avatars1.githubusercontent.com/u/153197?v=4
 compatibility:
   2.x: working
   2.x-bridge: wip

@@ -13,7 +13,6 @@ type: 3rd-party
 maintainers:
   - name: WilliamDASILVA
     github: WilliamDASILVA
-    avatar: https://avatars3.githubusercontent.com/u/2766008?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown

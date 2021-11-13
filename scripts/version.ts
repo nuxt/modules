@@ -7,7 +7,7 @@ import { build } from './modules'
 export async function version () {
   await build()
 
-  const pkgFile = path.resolve(rootDir, 'package.json')
+  const pkgFile = path.resolve(rootDir, 'npm/package.json')
   const pkg = JSON.parse(await fsp.readFile(pkgFile, 'utf8'))
 
   const hash = hasha(await fsp.readFile(distFile, 'utf8')).substr(0, 6)

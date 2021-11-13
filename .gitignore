@@ -11,3 +11,4 @@ cache
 .vercel_build_output
 .output
 package-lock.json
+npm/modules.json

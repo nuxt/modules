@@ -1,16 +1,15 @@
 {
-  "name": "@nuxt/modules",
-  "version": "0.5.0",
-  "license": "MIT",
-  "main": "dist/modules.json",
-  "files": [
-    "dist"
+  "private": true,
+  "workspaces": [
+    "npm",
+    "website"
   ],
   "scripts": {
-    "build": "yarn sync && yarn cli build",
+    "build": "yarn cli build",
     "cli": "jiti ./scripts/cli",
+    "dev": "cd website && yarn dev",
     "lint": "eslint --ext .vue,.ts .",
-    "release": "yarn cli version && npm publish",
+    "release": "yarn cli version && cd npm && npm publish",
     "sync": "yarn cli sync",
     "test": "yarn lint && yarn sync"
   },
