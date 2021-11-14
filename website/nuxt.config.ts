@@ -1,5 +1,4 @@
 import { defineNuxtConfig } from '@nuxt/bridge'
-import { presetIcons } from 'unocss'
 
 export default defineNuxtConfig({
   components: true,
@@ -18,14 +17,13 @@ export default defineNuxtConfig({
     '@unocss/nuxt'
   ],
   unocss: {
-    presets: [
-      presetIcons({
-        scale: 1.2,
-        extraProperties: {
-          display: 'inline-block'
-        }
-      })
-    ]
+    uno: false,
+    icons: {
+      scale: 1.2,
+      extraProperties: {
+        display: 'inline-block'
+      }
+    }
   },
   plugins: ['~/plugins/v-tooltip.ts', '~/plugins/modules.ts'],
   manifest: {
