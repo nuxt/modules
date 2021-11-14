@@ -4,6 +4,7 @@
     "esModuleInterop": true,
     "strict": false,
     "noImplicitAny": false,
+    "allowJs": true,
     "moduleResolution": "node",
     "resolveJsonModule": true
   }
