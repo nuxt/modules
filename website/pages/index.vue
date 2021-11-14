@@ -35,10 +35,6 @@
             :downloads-total="downloadsTotal"
           />
         </div>
-        <!-- TODO: maybe card delete -->
-        <div v-if="false" class="flex justify-center">
-          <CardMockup class="h-full transform scale-125" />
-        </div>
       </div>
       <img
         loading="lazy"

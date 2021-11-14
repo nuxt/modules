@@ -34,7 +34,7 @@
               <a
                 v-for="maintainer of module.maintainers"
                 :key="maintainer.github"
-                v-tooltip="{ content: maintainer.github, classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }"
+                v-tooltip="{ content: maintainer.name || maintainer.github, classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }"
                 :aria-label="maintainer.github"
                 :href="githubUrl(maintainer)"
                 target="_blank"
