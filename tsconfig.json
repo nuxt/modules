@@ -3,6 +3,9 @@
     "target": "ESNext",
     "esModuleInterop": true,
     "strict": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
   }
 }

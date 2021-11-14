@@ -11,7 +11,6 @@ type: 3rd-party
 maintainers:
   - name: janniks
     github: janniks
-    avatar: https://avatars3.githubusercontent.com/u/6362150?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown

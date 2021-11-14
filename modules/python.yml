@@ -11,7 +11,6 @@ type: community
 maintainers:
   - name: Sebastian Silva
     github: icarito
-    avatar: https://avatars0.githubusercontent.com/u/199755?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown

@@ -13,7 +13,6 @@ type: 3rd-party
 maintainers:
   - name: pimlie
     github: pimlie
-    avatar: https://avatars3.githubusercontent.com/u/1067403?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown
