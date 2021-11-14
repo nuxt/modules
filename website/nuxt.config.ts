@@ -17,13 +17,14 @@ export default defineNuxtConfig({
     '@unocss/nuxt'
   ],
   unocss: {
-    uno: false,
     icons: {
       scale: 1.2,
       extraProperties: {
         display: 'inline-block'
       }
-    }
+    },
+    // disable the default preset, Windi CSS already handles them
+    uno: false
   },
   plugins: ['~/plugins/v-tooltip.ts', '~/plugins/modules.ts'],
   manifest: {
