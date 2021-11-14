@@ -11,7 +11,6 @@ type: 3rd-party
 maintainers:
   - name: cierrateam
     github: cierrateam
-    avatar: https://avatars3.githubusercontent.com/u/42889913?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown

@@ -14,7 +14,6 @@ maintainers:
   - name: Jonathan Bakebwa
     github: codebender828
     twitter: codebender828
-    avatar: https://avatars2.githubusercontent.com/u/21237954?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown

@@ -14,14 +14,14 @@ Metadata of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/Y
 ### Contribution
 
 - If you feel a module is missing, please create a new [issue](https://github.com/nuxt/modules/issues/new)
-- If some data is outdated please directly openin a pull request
+- If some data is outdated please directly open a pull request
 
 ### Using CDN
 
 Compiled JSON data is available from following CDNs:
 
-- **jsdelivr:**: https://cdn.jsdelivr.net/npm/@nuxt/modules@latest/dist/modules.json
-- **unpkg:** https://unpkg.com/@nuxt/modules@latest/dist/modules.json
+- **jsdelivr:**: https://cdn.jsdelivr.net/npm/@nuxt/modules@latest/modules.json
+- **unpkg:** https://unpkg.com/@nuxt/modules@latest/modules.json
 
 ### Using npm package
 
@@ -81,7 +81,7 @@ To sync with a branch different than `master`, suffix the repo with `#repo-branc
 yarn sync
 ```
 
-### Generate `dist/module.json`
+### Generate `npm/modules.json`
 
 ```sh
 yarn build
@@ -90,7 +90,6 @@ yarn build
 ## Website development
 
 - Clone repository
-- Change working directory to website using `cd website`
 - Install website depenedencies using `npx yarn install`
 
 Start development:
@@ -101,28 +100,7 @@ npx yarn dev
 
 Then visit http://localhost:3000
 
-In the development, the npm downloads and GitHub stars will be mocked unless setting `GITHUB_TOKEN` variable.
-
-### Production build
-
-Create a [personnal GitHub token](https://github.com/settings/tokens) (no scope selected) and add it to `.env`:
-
-```sh
-# .env
-GITHUB_TOKEN=<my-generated-github-token>
-```
-
-Generate the website:
-
-```sh
-yarn generate
-```
-
-Start the production website:
-
-```sh
-yarn start
-```
+In the development, the npm downloads and GitHub stars will be mocked unless setting `USE_NUXT_API` variable.
 
 ## License
 

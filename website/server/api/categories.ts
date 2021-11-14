@@ -1,8 +1,6 @@
 
-const modulesCDN = 'https://cdn.jsdelivr.net/gh/nuxt/modules@main/lib/categories.json'
-
 export default async () => {
-  const categories = await $fetch(modulesCDN) as any[]
+  const categories = await import('../../../npm/categories.json').then(r => r.default || r)
   return {
     categories
   }

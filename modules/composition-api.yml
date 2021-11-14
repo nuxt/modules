@@ -12,7 +12,6 @@ maintainers:
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
-    avatar: https://avatars1.githubusercontent.com/u/28706372?v=4
 compatibility:
   2.x: working
   2.x-bridge: unknown

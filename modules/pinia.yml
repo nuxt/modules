@@ -11,7 +11,6 @@ type: 3rd-party
 maintainers:
   - name: posva
     github: posva
-    avatar: https://avatars.githubusercontent.com/u/664177?v=4
 compatibility:
   2.x: working
   2.x-bridge: working
