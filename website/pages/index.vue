@@ -69,15 +69,6 @@
                 </div>
                 <span v-if="false" class="text-xl px-2">+</span>
               </button>
-              <div v-if="false" class="mt-2 ml-4 gap-2 flex flex-col">
-                <button
-                  v-for="status in statusMap"
-                  :key="status.statusText"
-                  class="space-y-6 py-2 bg-blue-100 text-sm bg-gray-100 dark:bg-secondary-darkest px-4 rounded-lg text-left"
-                >
-                  {{ status.icon }} {{ status.statusText }}
-                </button>
-              </div>
             </NLink>
           </div>
         </div>
@@ -198,18 +189,6 @@
             </div>
           </div>
         </div>
-        <!-- This example requires Tailwind CSS v2.0+ -->
-        <div v-if="false">
-          <span
-            class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800"
-          >Working</span>
-          <span
-            class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-blue-100 text-blue-800"
-          >Unknown</span>
-          <span
-            class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-100 dark:bg-secondary-darkest text-gray-800"
-          >Work in progress</span>
-        </div>
 
         <div class="grid gap-x-6 gap-y-20 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-20">
           <div
@@ -218,7 +197,7 @@
             class="relative flex flex-col group transition-transform duration-150 ease-in-out transform bg-white dark:bg-secondary-darkest rounded-lg border hover:border-1 border-gray-200 dark:border-secondary-dark hover:border-primary-600 dark:hover:border-secondary focus:bg-sky-lightest"
           >
             <LazyHydrate when-visible>
-              <card-module :module="mod" :status-map="statusMap" />
+              <card-module :mod="mod" />
             </LazyHydrate>
           </div>
           <Observer @intersect="intersectedModulesLoading" />
@@ -337,15 +316,6 @@ export default {
     }
   },
   computed: {
-    statusMap () {
-      return {
-        working: { statusText: 'Working', icon: '✅', color: '#003c3c' },
-        wip: { statusText: 'Work in progress', icon: '🚧', color: '#E9C600' },
-        unknown: { statusText: 'Unknown', icon: '❓', color: 'grey' },
-        broken: { statusText: 'Not working', icon: '❗', color: '#ff6446' },
-        rip: { statusText: 'Won\'t be supported', icon: '❌', color: '#ff6446' }
-      }
-    },
     versionsMap () {
       return {
         '3.x': {
