@@ -13,7 +13,7 @@
     "@nuxt/kit-edge": "npm:@nuxt/kit-edge@latest"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.0.9",
+    "@iconify-json/carbon": "^1.0.10",
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
     "@nuxt/kit-edge": "npm:@nuxt/kit-edge@latest",
     "@nuxtjs/color-mode": "^2.1.1",
@@ -23,7 +23,7 @@
     "@unocss/nuxt": "^0.9.3",
     "fuse.js": "^6.4.6",
     "millify": "^4.0.0",
-    "nuxt-edge": "^2.16.0-27277936.ab1c6cb4",
+    "nuxt-edge": "^2.16.0-27282256.ab1c6cb4",
     "nuxt-windicss": "^2.0.12",
     "ohmyfetch": "^0.4.6",
     "v-tooltip": "^2.1.3",
