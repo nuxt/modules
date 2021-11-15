@@ -13,8 +13,19 @@ export default defineNuxtConfig({
     'vue-plausible',
     // https://html-validator.nuxtjs.org
     '@nuxtjs/html-validator',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@unocss/nuxt'
   ],
+  unocss: {
+    icons: {
+      scale: 1.2,
+      extraProperties: {
+        display: 'inline-block'
+      }
+    },
+    // disable the default preset, Windi CSS already handles them
+    uno: false
+  },
   plugins: ['~/plugins/v-tooltip.ts', '~/plugins/modules.ts'],
   manifest: {
     name: 'Nuxt Modules',

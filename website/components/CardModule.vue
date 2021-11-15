@@ -9,9 +9,9 @@
         class="absolute inset-0"
       >
         <div
-          class="transition-opacity duration-200 ease-in-out bg-primary-600 dark:bg-secondary-dark rounded-full opacity-0 group-hover:opacity-100 absolute -top-3 -right-3 cursor-pointer"
+          class="transition-opacity duration-200 ease-in-out p-1 bg-primary-600 dark:bg-secondary-dark rounded-full opacity-0 group-hover:opacity-100 absolute -top-3 -right-3 cursor-pointer"
         >
-          <IconExt />
+          <UnoIcon class="i-carbon-arrow-up-right text-2xl leading-none !block" />
         </div>
       </a>
 
@@ -118,7 +118,7 @@
           rel="noopener"
           class="w-full group flex hover:bg-gray-200 dark:hover:bg-secondary hover:bg-opacity-50 py-3 px-4 pl-6"
         >
-          <iconDownload class="pr-4" />
+          <UnoIcon class="mr-4 i-carbon-download" />
           <div
             class="text-sm leading-5 text-sky-dark group-hover:text-gray-900 dark:group-hover:text-secondary-lighter dark:text-white font-medium"
           >{{ numberFormat(mod.downloads) }} installs</div>
@@ -130,7 +130,7 @@
           rel="noopener"
           class="stats-block w-full group flex py-3 px-4 hover:bg-gray-200 dark:hover:bg-secondary hover:bg-opacity-50"
         >
-          <img alt="stars" src="~/assets/icons/star.svg" width="20" height="20" class="icon mr-4">
+          <UnoIcon class="mr-4 i-carbon-star" />
           <div
             class="text-sm leading-5 text-sky-dark dark:text-white group-hover:text-gray-900 dark:group-hover:text-secondary-lighter font-medium truncate"
           >
