@@ -96,7 +96,7 @@
               ]"
               @click="toggleCategory(category)"
             >
-              <span
+              <UnoIcon
                 class="text-lg"
                 :class="CATEGORIES_ICONS[category]"
               />
@@ -182,7 +182,7 @@
                     class="flex items-center p-2 hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none rounded-r-md"
                     @click="toggleOrderBy"
                   >
-                    <div :class="orderBy === 'asc' ? 'i-carbon-sort-ascending' : 'i-carbon-sort-descending'" />
+                    <UnoIcon :class="orderBy === 'asc' ? 'i-carbon-sort-ascending' : 'i-carbon-sort-descending'" />
                   </button>
                 </div>
               </div>

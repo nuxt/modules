@@ -11,9 +11,9 @@
     <slot />
     <button aria-label="Toggle theme" class="!outline-none text-xl h-1.2em my-auto" @click="toggleDarkMode()">
       <ColorScheme placeholder="..." tag="span">
-        <span v-if="$colorMode.preference === 'system'" class="i-carbon-laptop" />
-        <span v-else-if="$colorMode.value === 'dark'" class="i-carbon-moon" />
-        <span v-else class="i-carbon-sun" />
+        <UnoIcon v-if="$colorMode.preference === 'system'" class="i-carbon-laptop" />
+        <UnoIcon v-else-if="$colorMode.value === 'dark'" class="i-carbon-moon" />
+        <UnoIcon v-else class="i-carbon-sun" />
       </ColorScheme>
     </button>
   </div>
