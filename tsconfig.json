@@ -1,10 +1,18 @@
 {
+  "extends": "./website/.nuxt/tsconfig.json",
   "compilerOptions": {
     "target": "ESNext",
     "esModuleInterop": true,
     "strict": false,
     "noImplicitAny": false,
+    "allowJs": true,
     "moduleResolution": "node",
     "resolveJsonModule": true
+  },
+  "vueCompilerOptions": {
+    "experimentalCompatMode": 2,
+    "experimentalTemplateCompilerOptions": {
+      "compatConfig": { "MODE": 2 } // optional
+    }
   }
 }

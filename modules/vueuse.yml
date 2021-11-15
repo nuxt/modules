@@ -12,7 +12,6 @@ maintainers:
   - name: Anthony Fu
     github: antfu
     twitter: antfu7
-    avatar: https://avatars.githubusercontent.com/antfu?v=4
 compatibility:
   2.x: working
   2.x-bridge: working
