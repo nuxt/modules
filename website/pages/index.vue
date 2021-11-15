@@ -197,7 +197,7 @@
             class="relative flex flex-col group transition-transform duration-150 ease-in-out transform bg-white dark:bg-secondary-darkest rounded-lg border hover:border-1 border-gray-200 dark:border-secondary-dark hover:border-primary-600 dark:hover:border-secondary focus:bg-sky-lightest"
           >
             <LazyHydrate when-visible>
-              <card-module :module="mod" />
+              <card-module :mod="mod" />
             </LazyHydrate>
           </div>
           <Observer @intersect="intersectedModulesLoading" />

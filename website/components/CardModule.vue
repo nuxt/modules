@@ -2,8 +2,8 @@
   <div class="flex flex-col h-full relative">
     <div class="relative flex flex-1 flex-col space-y-2 px-4 pt-4 text-sky-darkest dark:text-white">
       <a
-        :href="module.website"
-        :aria-label="module.website"
+        :href="mod.website"
+        :aria-label="mod.website"
         target="_blank"
         rel="noopener"
         class="absolute inset-0"
@@ -23,8 +23,8 @@
             >
               <!-- TODO: use <nuxt-img> -->
               <img
-                :src="'https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/website/static/' + iconUrl(module)"
-                :alt="module.name"
+                :src="'https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/website/static/' + iconUrl(mod)"
+                :alt="mod.name"
                 class="w-10 h-10 object-contain"
                 width="40px"
                 height="40px"
@@ -32,7 +32,7 @@
             </div>
             <div class="flex flex-row-reverse gap-2 w-full mt-auto">
               <a
-                v-for="maintainer of module.maintainers"
+                v-for="maintainer of mod.maintainers"
                 :key="maintainer.github"
                 v-tooltip="{ content: maintainer.name || maintainer.github, classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }"
                 :aria-label="maintainer.github"
@@ -54,9 +54,9 @@
           </div>
           <div class="mt-2">
             <h2 class="flex text-xl font-semibold items-center dark:text-white">
-              <span>{{ module.name }}</span>
+              <span>{{ mod.name }}</span>
               <img
-                v-if="module.type === 'official'"
+                v-if="mod.type === 'official'"
                 alt="official"
                 src="~/assets/icons/official.svg"
                 width="20"
@@ -67,17 +67,42 @@
             <p
               class="text-sky-dark dark:text-white dark:opacity-85 text-sm font-normal line-clamp-3 mt-2"
             >
-              {{ module.description }}
+              {{ mod.description }}
             </p>
           </div>
         </div>
         <div class="grid grid-cols-3 gap-2 py-3 mt-4 w-full">
           <div
-            v-for="[version, status] of Object.entries(module.compatibility)"
+            v-for="[version, status] of Object.entries(mod.compatibility)"
             :key="version"
             class="flex flex-col items-center"
           >
-            <CompactibiltyBadge :version="version" :status="status" />
+            <div
+              v-tooltip="{
+                content: `${version}: ${statusMap[status].statusText}`,
+                classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm']
+              }"
+              class="flex items-center justify-between text-base bg-gray-100 dark:bg-secondary-dark rounded-lg w-full px-2 py-1 z-50"
+            >
+              <iconNuxt3
+                v-if="version === '3.x'"
+                class="h-6 w-6 mr-1 inline-block"
+                aria-hidden="true"
+              />
+              <iconNuxt2
+                v-if="version === '2.x'"
+                class="h-6 w-6 mr-1 inline-block"
+                aria-hidden="true"
+              />
+              <iconNuxtBridge
+                v-if="version === '2.x-bridge'"
+                class="h-6 w-6 mr-1 inline-block"
+                aria-hidden="true"
+              />
+              <span class="text-sm">
+                {{ statusMap[status].icon }}
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -87,7 +112,7 @@
     >
       <div class="flex justify-between divide-x divide-gray-200 dark:divide-secondary-dark">
         <a
-          :href="npmUrl(module)"
+          :href="npmUrl(mod)"
           aria-label="npm"
           target=" _blank"
           rel="noopener"
@@ -96,10 +121,10 @@
           <iconDownload class="pr-4" />
           <div
             class="text-sm leading-5 text-sky-dark group-hover:text-gray-900 dark:group-hover:text-secondary-lighter dark:text-white font-medium"
-          >{{ numberFormat(module.downloads) }} installs</div>
+          >{{ numberFormat(mod.downloads) }} installs</div>
         </a>
         <a
-          :href="module.github"
+          :href="mod.github"
           aria-label="stars"
           target=" _blank"
           rel="noopener"
@@ -109,10 +134,10 @@
           <div
             class="text-sm leading-5 text-sky-dark dark:text-white group-hover:text-gray-900 dark:group-hover:text-secondary-lighter font-medium truncate"
           >
-            {{ numberFormat(module.stars) }}
+            {{ numberFormat(mod.stars) }}
             <span
               class="hidden md:inline-block"
-            >star{{ module.stars !== 1 ? 's' : '' }}</span>
+            >star{{ mod.stars !== 1 ? 's' : '' }}</span>
           </div>
         </a>
       </div>
@@ -120,34 +145,41 @@
   </div>
 </template>
 
-<script>
-import { numberFormatter } from '~/utils/format.ts'
+<script setup lang="ts">
+import { numberFormatter } from '~/utils/format'
 
-export default {
-  name: 'CardModule',
-  props: {
-    module: {
-      type: Object,
-      required: true
-    }
-  },
-  methods: {
-    numberFormat (num, options = { precision: 1 }) {
-      return numberFormatter(num, options)
-    },
-    iconUrl ({ icon, category }) {
-      if (icon) {
-        return `/icons/${icon}`
-      }
-      return `/categories/${category.toLowerCase()}.svg`
-    },
-    npmUrl ({ npm }) {
-      return `https://npmjs.com/package/${npm}`
-    },
-    githubUrl ({ github }) {
-      return `https://github.com/${github}`
-    }
+defineProps({
+  mod: {
+    type: Object,
+    required: true
   }
+})
+
+const statusMap = {
+  working: { statusText: 'Working', icon: '✅', color: '#348a3e50' },
+  wip: { statusText: 'Work in progress', icon: '🚧', color: '#E9C60050' },
+  unknown: { statusText: 'Unknown', icon: '❓', color: '#88888830' },
+  broken: { statusText: 'Not working', icon: '❗', color: '#9e200650' },
+  rip: { statusText: 'Won\'t be supported', icon: '❌', color: 'grey' }
+}
+
+function numberFormat (num, options = { precision: 1 }) {
+  return numberFormatter(num, options)
+}
+
+function iconUrl ({ icon, category }) {
+  if (icon) {
+    return `/icons/${icon}`
+  }
+  return `/categories/${category.toLowerCase()}.svg`
+}
+
+function npmUrl ({ npm }) {
+  return `https://npmjs.com/package/${npm}`
+}
+
+function githubUrl ({ github }) {
+  return `https://github.com/${github}`
 }
 </script>
 
