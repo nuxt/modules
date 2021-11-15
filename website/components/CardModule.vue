@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col h-full relative">
-    <div class="relative flex flex-1 flex-col space-y-2 px-8 py-4 text-sky-darkest dark:text-white">
+    <div class="relative flex flex-1 flex-col space-y-2 px-4 pt-4 text-sky-darkest dark:text-white">
       <a
         :href="module.website"
         :aria-label="module.website"
@@ -16,7 +16,7 @@
       </a>
 
       <div class="flex flex-col justify-between items-start">
-        <div class="flex flex-col items-start h-28 w-full">
+        <div class="flex flex-col items-start h-28 px-2 w-full">
           <div class="flex justify-between w-full -mt-16">
             <div
               class="border group-hover:border-primary-600 dark:group-hover:border-secondary-dark bg-white border-gray-200 dark:bg-secondary-dark dark:border-secondary-dark w-20 h-20 rounded-lg flex flex-none items-center justify-center"
@@ -71,29 +71,13 @@
             </p>
           </div>
         </div>
-        <div class="grid grid-cols-3 gap-3 pt-6 w-full">
-          <div v-for="c of compatibility" :key="c.label" class="flex flex-col items-center">
-            <div
-              v-tooltip="{ content: c.label, classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm'] }"
-              class="flex items-center justify-between text-base bg-gray-100 dark:bg-secondary-dark rounded-lg w-full px-2 py-1 z-50"
-            >
-              <iconNuxt3
-                v-show="c.label === '3.x'"
-                class="h-6 w-6 mr-1 inline-block"
-                aria-hidden="true"
-              />
-              <iconNuxt2
-                v-show="c.label === '2.x'"
-                class="h-6 w-6 mr-1 inline-block"
-                aria-hidden="true"
-              />
-              <iconNuxtBridge
-                v-show="c.label === '2.x-bridge'"
-                class="h-6 w-6 mr-1 inline-block"
-                aria-hidden="true"
-              />
-              {{ c.icon }}
-            </div>
+        <div class="grid grid-cols-3 gap-2 py-3 mt-4 w-full">
+          <div
+            v-for="[version, status] of Object.entries(module.compatibility)"
+            :key="version"
+            class="flex flex-col items-center"
+          >
+            <CompactibiltyBadge :version="version" :status="status" />
           </div>
         </div>
       </div>
@@ -142,19 +126,9 @@ import { numberFormatter } from '~/utils/format.ts'
 export default {
   name: 'CardModule',
   props: {
-    statusMap: {
-      type: Object,
-      required: true
-    },
     module: {
       type: Object,
       required: true
-    }
-  },
-  computed: {
-    compatibility () {
-      return Object.entries(this.module.compatibility || {})
-        .map(([key, status]) => ({ ...this.statusMap[status], label: key }))
     }
   },
   methods: {
