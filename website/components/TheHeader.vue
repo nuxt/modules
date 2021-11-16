@@ -22,9 +22,9 @@
         href="https://github.com/nuxt/modules"
         rel="noopener"
         target="_blank"
-        class="text-sm font-semibold items-center py-2 px-6 text-secondary-darker dark:text-white bg-gray-500 bg-opacity-10 hover:bg-opacity-20 rounded-lg inline-flex gap-3"
+        class="text-sm font-semibold items-center py-2 px-4 text-secondary-darker dark:text-white bg-gray-500 bg-opacity-10 hover:bg-opacity-20 rounded-lg inline-flex gap-3"
       >
-        <iconGithub />Contribute on GitHub
+        <UnoIcon class="i-carbon-logo-github text-xl" /> Contribute on GitHub
       </a>
     </div>
   </div>
