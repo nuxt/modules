@@ -219,6 +219,7 @@ import Fuse from 'fuse.js/dist/fuse.basic.esm'
 import CardModule from '~/components/CardModule.vue'
 import Observer from '~/components/Observer.vue'
 import { isMobile } from '~/utils/detectUserAgent.ts'
+import { CATEGORIES_ICONS } from '~/composables/constants'
 
 const sort = (a, b, asc) => asc ? a - b : b - a
 
@@ -239,28 +240,6 @@ const sortFields = {
   [FIELDS.STARS]: {
     label: 'Stars'
   }
-}
-
-const CATEGORIES_ICONS = {
-  Analytics: 'i-carbon-skill-level-basic',
-  CMS: 'i-carbon-data-table',
-  CSS: 'i-carbon-color-palette',
-  Database: 'i-carbon-data-base',
-  Date: 'i-carbon-calendar',
-  Deployment: 'i-carbon-3rd-party-connected',
-  Devtools: 'i-carbon-code',
-  Extensions: 'i-carbon-model-alt',
-  Ecommerce: 'i-carbon-shopping-cart',
-  Fonts: 'i-carbon-text-font',
-  Images: 'i-carbon-image',
-  Libraries: 'i-carbon-tool-box',
-  Monitoring: 'i-carbon-content-view',
-  Payment: 'i-carbon-wallet',
-  Performance: 'i-carbon-meter',
-  Request: 'i-carbon-http',
-  SEO: 'i-carbon-search',
-  Security: 'i-carbon-security',
-  UI: 'i-carbon-touch-interaction'
 }
 
 const MODULE_INCREMENT_LOADING = 12

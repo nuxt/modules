@@ -32,7 +32,7 @@
               height="40px"
               @error="coverError = true"
             >
-            <UnoIcon v-else class="i-carbon-circle-dash text-4xl opacity-20" />
+            <UnoIcon v-else :class="iconPlaceholder(mod)" class="text-4xl opacity-20" />
           </div>
           <div class="ml-6">
             <h2
@@ -154,6 +154,7 @@
 
 <script setup lang="ts">
 import { numberFormatter } from '~/utils/format'
+import { CATEGORIES_ICONS } from '~/composables/constants'
 
 defineProps({
   mod: {
@@ -175,11 +176,14 @@ function numberFormat (num, options = { precision: 1 }) {
   return numberFormatter(num, options)
 }
 
-function iconUrl ({ icon, category }) {
+function iconUrl ({ icon }) {
   if (icon) {
     return `/icons/${icon}`
   }
-  return `/categories/${category.toLowerCase()}.svg`
+}
+
+function iconPlaceholder ({ category }) {
+  return CATEGORIES_ICONS[category] || 'i-carbon-circle-dash'
 }
 
 function npmUrl ({ npm }) {
