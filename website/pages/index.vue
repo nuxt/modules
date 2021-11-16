@@ -107,34 +107,37 @@
       </div>
       <!-- Main -->
       <div class="col-span-4">
-        <!-- Clear filters -->
-        <div
-          class="flex flex-col items-top justify-between sm:flex-row py-5 mb-4 bg-gray-100 dark:bg-secondary-darkest px-4 rounded-lg"
-        >
-          <p class="text-forest-night">
+        <!-- Filter -->
+        <div class="h-10 -mt-5 flex items-center gap-4">
+          <template
+            v-if="selectedCategory || q"
+          >
+            <div>
+              Filter{{ selectedCategory && q ? 's' : '' }}:
+              <b>{{ selectedCategory }}</b>
+              {{ selectedCategory && q ? ', ' : '' }}
+              <b
+                class="font-black text-lg"
+              >{{ q }}</b>
+            </div>
+            <a
+              href="/"
+              class="ml-2 opacity-70 hover:opacity-100 inline-flex items-center gap-1"
+              @click.prevent="clearFilters"
+            >
+              <UnoIcon class="i-carbon-filter-remove" />
+              Clear filter{{ selectedCategory && q ? 's' : '' }}
+            </a>
+          </template>
+        </div>
+
+        <!-- Result, Sort -->
+        <div class="flex flex-col items-center justify-between h-18 sm:flex-row p-5 mb-4 bg-gray-100 dark:bg-secondary-darkest rounded-lg">
+          <div>
             <span class="font-black text-2xl">{{ filteredModules.length }}</span>
             module{{ filteredModules.length !== 1 ? 's' : '' }} found
-            <template
-              v-if="selectedCategory || q"
-            >
-              <p>
-                Filter{{ selectedCategory && q ? 's' : '' }}:
-                <b>{{ selectedCategory }}</b>
-                {{ selectedCategory && q ? ', ' : '' }}
-                <b
-                  class="font-black text-lg"
-                >{{ q }}</b>
-                <a
-                  href="/"
-                  class="ml-2 opacity-70 hover:opacity-100"
-                  @click.prevent="clearFilters"
-                >
-                  <u>Clear filter{{ selectedCategory && q ? 's' : '' }}</u>
-                </a>
-              </p>
-            </template>
-          </p>
-          <div class="pt-10 sm:pt-0">
+          </div>
+          <div>
             <div v-show="!q" class="flex items-center text-forest-night">
               <label
                 for="options-menu"
@@ -190,7 +193,7 @@
           </div>
         </div>
 
-        <div class="grid gap-x-6 gap-y-20 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-20">
+        <div class="grid gap-x-6 gap-y-8 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-10">
           <div
             v-for="mod of pageFilteredModules"
             :key="mod.name"
