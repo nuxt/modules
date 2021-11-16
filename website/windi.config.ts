@@ -26,7 +26,7 @@ export default {
       secondary: '#497A87',
       'secondary-dark': '#255461',
       'secondary-darker': '#003543',
-      'secondary-darkest': '#012A35',
+      'secondary-darkest': '#022a35',
       'secondary-black': '#001E26',
       black: '#000',
       white: '#fff',

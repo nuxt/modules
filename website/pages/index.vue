@@ -1,7 +1,7 @@
 <template>
   <div class="pb-16 relative dark:text-white dark:bg-secondary-black">
     <div
-      class="bg-gray-100 dark:bg-secondary-black w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
+      class="bg-gray-100 dark:bg-secondary-darkest w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
     >
       <TheSearch>
         <div class="flex shadow-sm w-full max-w-md">
