@@ -19,5 +19,5 @@ maintainers:
     twitter: Atinux
 compatibility:
   2.x: working
-  2.x-bridge: broken
-  3.x: broken
+  2.x-bridge: not-working
+  3.x: not-working

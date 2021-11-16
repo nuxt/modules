@@ -45,36 +45,40 @@
                 class="i-carbon-badge text-yellow-600 text-lg ml-1 my-auto opacity-85"
               />
             </h2>
-            <div class="grid grid-cols-3 gap-2 py-3 w-full">
+            <div class="flex gap-2 py-3 w-full">
               <div
                 v-for="[version, status] of Object.entries(mod.compatibility)"
                 :key="version"
-                class="flex flex-col items-center"
+                v-tooltip="{
+                  content: `${version}: ${statusMap[status].statusText}`,
+                  classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm']
+                }"
+                :style="{
+                  color: statusMap[status].color,
+                  background: statusMap[status].color + '20'
+                }"
+                :class="statusMap[status].class"
+                class="flex items-center gap-2 text-base bg-gray-100 dark:bg-sky-dark rounded-lg px-2 py-1 z-50"
               >
-                <div
-                  v-tooltip="{
-                    content: `${statusMap[status].statusText}`,
-                    classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm']
-                  }"
-                  class="flex items-center justify-between text-base bg-gray-100 dark:bg-sky-dark rounded-lg w-full px-2 py-1 z-50"
-                >
-                  <iconNuxt3
-                    v-if="version === '3.x'"
-                    class="h-6 w-6 mr-1 inline-block"
-                    aria-hidden="true"
-                  />
-                  <iconNuxt2
-                    v-if="version === '2.x'"
-                    class="h-6 w-6 mr-1 inline-block"
-                    aria-hidden="true"
-                  />
-                  <iconNuxtBridge
-                    v-if="version === '2.x-bridge'"
-                    class="h-6 w-6 mr-1 inline-block"
-                    aria-hidden="true"
-                  />
-                  <span class="text-sm">{{ statusMap[status].icon }}</span>
-                </div>
+                <iconNuxt3
+                  v-if="version === '3.x'"
+                  class="h-6 w-6"
+                  aria-hidden="true"
+                />
+                <iconNuxt2
+                  v-if="version === '2.x'"
+                  class="h-6 w-6"
+                  aria-hidden="true"
+                />
+                <iconNuxtBridge
+                  v-if="version === '2.x-bridge'"
+                  class="h-6 w-6"
+                  aria-hidden="true"
+                />
+                <UnoIcon
+                  v-if="statusMap[status].icon"
+                  :class="statusMap[status].icon"
+                />
               </div>
             </div>
           </div>
@@ -156,11 +160,10 @@ defineProps({
 })
 
 const statusMap = {
-  working: { statusText: 'Working', icon: '✅', color: '#348a3e50' },
-  wip: { statusText: 'Work in progress', icon: '🚧', color: '#E9C60050' },
-  unknown: { statusText: 'Unknown', icon: '❓', color: '#88888830' },
-  broken: { statusText: 'Not working', icon: '❗', color: '#9e200650' },
-  rip: { statusText: 'Won\'t be supported', icon: '❌', color: 'grey' }
+  working: { statusText: 'Working', icon: 'i-carbon-checkmark', color: '#1aa346' },
+  wip: { statusText: 'Work in progress', icon: 'i-carbon-time', color: '#c4930a' },
+  unknown: { statusText: 'Unknown', icon: 'i-carbon-help', color: '#61626c', class: 'opacity-85' },
+  'not-working': { statusText: 'Not working', icon: null, color: '#61626c', class: 'opacity-50' }
 }
 
 function numberFormat (num, options = { precision: 1 }) {

@@ -60,7 +60,7 @@ Field Name      | Auto sync | Description
 `category`      | No        | Module category from [./lib/categories.json](./lib/categories.json)
 `type`          | No        | `community` (for [nuxt-community](https://github.com/nuxt-community/)), `official` (for https://github.com/) or `3rd-party`
 `maintainers`   | Yes       | List of maintainers each item has `name`, `github` and `avatar`
-`compatibility` | No        | Module compatibility status. Valid keys are `2.x`, `2.x-bridge` and `3.x` and valid values are `working`, `wip`, `unknown`, `broken` and `rip`. Please see [this discussion](https://github.com/nuxt/framework/discussions/751) for more information.
+`compatibility` | No        | Module compatibility status. Valid keys are `2.x`, `2.x-bridge` and `3.x` and valid values are `working`, `wip`, `unknown`, `not-working`. Please see [this discussion](https://github.com/nuxt/framework/discussions/751) for more information.
 
 
 ## Maintenance
