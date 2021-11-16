@@ -45,7 +45,7 @@
     </div>
 
     <!-- Body -->
-    <div class="container px-4 sm:px-0 mx-auto pt-8 grid grid-cols-1 sm:grid-cols-5 gap-8">
+    <div class="container px-4 sm:px-10 mx-auto pt-8 grid grid-cols-1 sm:grid-cols-5 gap-8">
       <!-- Sidebar -->
       <div class="col-span-1 space-y-10 hidden lg:block">
         <!-- Nuxt versions -->
