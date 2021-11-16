@@ -41,10 +41,7 @@
               <span class="my-auto">{{ mod.name }}</span>
               <UnoIcon
                 v-if="mod.type === 'official'"
-                v-tooltip="{
-                  content: `Official`,
-                  classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm']
-                }"
+                v-tooltip="{ content: 'Official',classes: tooltipClass }"
                 class="i-carbon-badge text-yellow-600 text-lg ml-1 my-auto opacity-85"
               />
             </h2>
@@ -54,7 +51,7 @@
                 :key="version"
                 v-tooltip="{
                   content: `${version}: ${statusMap[status].statusText}`,
-                  classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm']
+                  classes: tooltipClass
                 }"
                 :style="{
                   color: statusMap[status].color,
@@ -129,7 +126,7 @@
             <a
               v-for="maintainer of mod.maintainers"
               :key="maintainer.github"
-              v-tooltip="{ content: maintainer.name || maintainer.github, classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm', 'mb-2'] }"
+              v-tooltip="{ content: maintainer.name || maintainer.github, classes: tooltipClass + ' mb-2' }"
               :aria-label="maintainer.github"
               :href="githubUrl(maintainer)"
               target="_blank"
@@ -171,6 +168,8 @@ const statusMap = {
   unknown: { statusText: 'Unknown', icon: 'i-carbon-help', color: '#61626c', class: 'opacity-85' },
   'not-working': { statusText: 'Not working', icon: null, color: '#61626c', class: 'opacity-50' }
 }
+
+const tooltipClass = 'bg-secondary-dark text-white px-2 py-1 m-1 rounded text-sm shadow'
 
 function numberFormat (num, options = { precision: 1 }) {
   return numberFormatter(num, options)
