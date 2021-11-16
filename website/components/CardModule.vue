@@ -24,12 +24,15 @@
           >
             <!-- TODO: use <nuxt-img> -->
             <img
+              v-if="!coverError && iconUrl(mod)"
               :src="'https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/website/static/' + iconUrl(mod)"
               :alt="mod.name"
               class="w-10 h-10 object-contain"
               width="40px"
               height="40px"
+              @error="coverError = true"
             >
+            <UnoIcon v-else :class="iconPlaceholder(mod)" class="text-4xl opacity-20" />
           </div>
           <div class="ml-6">
             <h2
@@ -151,6 +154,7 @@
 
 <script setup lang="ts">
 import { numberFormatter } from '~/utils/format'
+import { CATEGORIES_ICONS } from '~/composables/constants'
 
 defineProps({
   mod: {
@@ -158,6 +162,8 @@ defineProps({
     required: true
   }
 })
+
+const coverError = ref(false)
 
 const statusMap = {
   working: { statusText: 'Working', icon: 'i-carbon-checkmark', color: '#1aa346' },
@@ -170,11 +176,14 @@ function numberFormat (num, options = { precision: 1 }) {
   return numberFormatter(num, options)
 }
 
-function iconUrl ({ icon, category }) {
+function iconUrl ({ icon }) {
   if (icon) {
     return `/icons/${icon}`
   }
-  return `/categories/${category.toLowerCase()}.svg`
+}
+
+function iconPlaceholder ({ category }) {
+  return CATEGORIES_ICONS[category] || 'i-carbon-circle-dash'
 }
 
 function npmUrl ({ npm }) {

@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     '@unocss/nuxt'
   ],
   unocss: {
+    include: [/\.vue$/, /\.ts$/, /\.vue\?vue/],
     icons: {
       scale: 1.2,
       extraProperties: {
