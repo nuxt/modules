@@ -116,7 +116,7 @@
               </div>
             </a>
           </div>
-          <div class="flex -space-x-3 hover:space-x-2 hover:absolute right-0 bottom-2 hover:bg-white  dark:hover:bg-secondary-darker transition duration-150 ease-linear delay-150 ">
+          <div class="flex -space-x-5 hover:space-x-2 hover:absolute right-0 bottom-2 hover:bg-white  dark:hover:bg-secondary-darker transition duration-150 ease-linear delay-150 ">
             <a
               v-for="maintainer of mod.maintainers"
               :key="maintainer.github"
