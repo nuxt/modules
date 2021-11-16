@@ -11,7 +11,9 @@
         <div
           class="transition-opacity duration-200 ease-in-out rounded-full opacity-0 group-hover:opacity-100 absolute top-3 right-3 cursor-pointer"
         >
-          <UnoIcon class="i-carbon-arrow-up-right text-xl leading-none !block group-hover:text-primary-800 dark:group-hover:text-white" />
+          <UnoIcon
+            class="i-carbon-arrow-up-right text-xl leading-none !block group-hover:text-primary-800 dark:group-hover:text-white"
+          />
         </div>
       </a>
 
@@ -30,16 +32,18 @@
             >
           </div>
           <div class="ml-6">
-            <h2 class="flex text-base font-semibold items-top dark:text-white h-9 line-2 leading-tight">
-              <span>{{ mod.name }}</span>
-              <img
+            <h2
+              class="flex text-lg font-semibold items-top dark:text-white h-9 line-2 leading-tight"
+            >
+              <span class="my-auto">{{ mod.name }}</span>
+              <UnoIcon
                 v-if="mod.type === 'official'"
-                alt="official"
-                src="~/assets/icons/official.svg"
-                width="20"
-                height="20"
-                class="ml-1 mt-1"
-              >
+                v-tooltip="{
+                  content: `Official`,
+                  classes: ['bg-secondary-dark', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm']
+                }"
+                class="i-carbon-badge text-yellow-600 text-lg ml-1 my-auto opacity-85"
+              />
             </h2>
             <div class="grid grid-cols-3 gap-2 py-3 w-full">
               <div
@@ -69,23 +73,36 @@
                     class="h-6 w-6 mr-1 inline-block"
                     aria-hidden="true"
                   />
-                  <span class="text-sm">
-                    {{ statusMap[status].icon }}
-                  </span>
+                  <span class="text-sm">{{ statusMap[status].icon }}</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="mt-4 h-24">
+        <div class="mt-2 h-24">
           <p
             class="text-sky-dark dark:text-white dark:opacity-85 text-sm font-normal line-clamp-3 mt-2"
           >
             {{ mod.description }}
           </p>
         </div>
-        <div class="flex items-center justify-between w-full z-30 h-10 relative">
+        <div class="flex items-center justify-between w-full z-30 h-5 relative">
           <div class="flex flex-none">
+            <a
+              :href="mod.github"
+              aria-label="stars"
+              target=" _blank"
+              rel="noopener"
+              class="flex whitespace-nowrap w-full mr-4 text-sky-dark hover:text-gray-400 dark:hover:text-secondary-lighter dark:text-white"
+            >
+              <UnoIcon class="mr-2 i-carbon-star" />
+              <div class="text-sm leading-5 font-medium truncate">
+                {{ numberFormat(mod.stars) }}
+                <span
+                  class="hidden md:inline-block"
+                >star{{ mod.stars !== 1 ? 's' : '' }}</span>
+              </div>
+            </a>
             <a
               :href="npmUrl(mod)"
               aria-label="npm"
@@ -98,25 +115,10 @@
                 class="text-sm leading-5 font-medium truncate"
               >{{ numberFormat(mod.downloads) }} installs</div>
             </a>
-            <a
-              :href="mod.github"
-              aria-label="stars"
-              target=" _blank"
-              rel="noopener"
-              class="flex whitespace-nowrap w-full mr-4 text-sky-dark hover:text-gray-400 dark:hover:text-secondary-lighter dark:text-white"
-            >
-              <UnoIcon class="mr-2 i-carbon-star" />
-              <div
-                class="text-sm leading-5 font-medium truncate"
-              >
-                {{ numberFormat(mod.stars) }}
-                <span
-                  class="hidden md:inline-block"
-                >star{{ mod.stars !== 1 ? 's' : '' }}</span>
-              </div>
-            </a>
           </div>
-          <div class="flex -space-x-5 hover:space-x-2 hover:absolute right-0 bottom-2 hover:bg-white  dark:hover:bg-secondary-darker transition duration-150 ease-linear delay-150 ">
+          <div
+            class="flex -space-x-5 hover:space-x-2 absolute right-0 bottom-0 hover:bg-white dark:hover:bg-secondary-darker transition duration-150 ease-linear delay-150"
+          >
             <a
               v-for="maintainer of mod.maintainers"
               :key="maintainer.github"
