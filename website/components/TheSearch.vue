@@ -8,16 +8,14 @@
         </span>
       </a>
     </div>
-    <div class="flex space-x-2 max-w-lg flex-none w-full">
-      <slot />
-      <button aria-label="Toggle theme" class="!outline-none text-xl h-1.2em my-auto" @click="toggleDarkMode()">
-        <ColorScheme placeholder="..." tag="span">
-          <UnoIcon v-if="$colorMode.preference === 'system'" class="i-carbon-laptop" />
-          <UnoIcon v-else-if="$colorMode.value === 'dark'" class="i-carbon-moon" />
-          <UnoIcon v-else class="i-carbon-sun" />
-        </ColorScheme>
-      </button>
-    </div>
+    <slot />
+    <button aria-label="Toggle theme" class="!outline-none text-xl h-1.2em my-auto" @click="toggleDarkMode()">
+      <ColorScheme placeholder="..." tag="span">
+        <UnoIcon v-if="$colorMode.preference === 'system'" class="i-carbon-laptop" />
+        <UnoIcon v-else-if="$colorMode.value === 'dark'" class="i-carbon-moon" />
+        <UnoIcon v-else class="i-carbon-sun" />
+      </ColorScheme>
+    </button>
   </div>
 </template>
 <script>

@@ -1,17 +1,17 @@
 <template>
-  <div class="pb-16 relative dark:text-white dark:bg-secondary-black">
+  <div class="pb-16 relative bg-gray-100 dark:text-white dark:bg-secondary-black">
     <div
-      class="bg-gray-100 dark:bg-secondary-darkest w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
+      class="relative bg-gray-100 shadow dark:bg-secondary-darkest w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
     >
       <TheSearch>
-        <div class="flex shadow-sm w-full max-w-md">
+        <div class="flex shadow-sm w-full max-w-xl">
           <label class="relative flex-1">
             <input
               ref="searchModule"
               v-model="q"
               type="search"
               aria-label="Search"
-              class="block dark:bg-secondary-dark dark:border-sky-darker w-full py-2 px-3 text-base leading-6 placeholder-gray-500 dark:placeholder-secondary-light transition duration-150 ease-in-out border-2 border-sky-light appearance-none md:pr-10 rounded-lg focus:ring-3 focus:ring-sky-light focus:ring-opacity-50 focus:outline-none focus:placeholder-sky-darkest sm:flex-1"
+              class="block bg-gray-200 border-gray-300 dark:bg-secondary-dark dark:border-sky-darker w-full py-2 px-3 text-base leading-6 placeholder-gray-400 dark:placeholder-secondary-light transition duration-150 ease-in-out border-2  appearance-none md:pr-10 rounded-lg focus:ring-3 focus:ring-sky-dark focus:ring-opacity-50 focus:outline-none focus:placeholder-sky-darkest sm:flex-1"
               placeholder="Search a module (name, category, username, etc.)"
             >
             <span
@@ -22,7 +22,7 @@
       </TheSearch>
     </div>
     <div
-      class="pt-10 lg:pt-24 pb-16 lg:pb-32 bg-gray-100 dark:bg-secondary-darkest dark:bg-secondary-darkest sm:p-10 relative"
+      class="pt-10 lg:pt-24 pb-16 lg:pb-32 bg-white dark:bg-secondary-darkest dark:bg-secondary-darkest sm:p-10 relative"
     >
       <div class="container mx-auto flex flex-col sm:flex-row justify-between">
         <div class="flex flex-col md:flex-row md:items-end md:justify-between w-full">
@@ -40,7 +40,13 @@
         loading="lazy"
         src="/img/page-hero/dark/mountains.svg"
         alt="A landscape image"
-        class="absolute -bottom-1px left-0 w-full h-12 md:h-24 object-fill light:invert light:brightness-0 light:filter pointer-events-none z-0"
+        class="absolute -bottom-1px left-0 w-full h-12 md:h-24 object-fill dark:hidden text-blue-600 pointer-events-none z-0"
+      >
+      <img
+        loading="lazy"
+        src="/img/page-hero/dark/dark_mountains.svg"
+        alt="A landscape image"
+        class="absolute -bottom-1px left-0 w-full h-12 md:h-24 object-fill light:hidden text-blue-600 pointer-events-none z-0"
       >
     </div>
 
@@ -61,7 +67,7 @@
           <div class="flex flex-col space-y-3">
             <NLink v-for="version in versionsMap" :key="version.label" :to="`/?q=${version.to}`">
               <button
-                class="flex items-center justify-between hover:text-sky-lightest hover:bg-sky-dark text-sm py-2 bg-gray-100 dark:bg-secondary-darkest rounded-lg px-4 w-full text-left"
+                class="flex items-center justify-between outline-none focus:outline-none focus:text-white focus:bg-sky-darkest dark:focus:border-sky-light hover:text-sky-lightest hover:bg-sky-darker text-sm py-2 bg-white border border-gray-300 dark:border-sky-dark dark:bg-secondary-darkest rounded-lg px-4 w-full text-left"
               >
                 <div>
                   <component :is="version.icon" class="h-6 w-6 mr-2 inline-block" />
@@ -92,7 +98,7 @@
               :class="[
                 selectedCategory === category
                   ? 'bg-sky-darker text-sky-lightest'
-                  : 'text-sky-darkest bg-gray-100 dark:bg-secondary-darkest dark:text-sky-surface hover:text-sky-lightest hover:bg-sky-dark transition-colors duration-150 ease-in-out focus:bg-sky-lightest',
+                  : 'text-sky-darkest bg-white border border-gray-300 dark:border-sky-dark dark:bg-secondary-darkest dark:text-sky-surface hover:text-sky-lightest hover:bg-sky-dark transition-colors duration-150 ease-in-out focus:bg-sky-lightest',
               ]"
               @click="toggleCategory(category)"
             >
@@ -132,7 +138,7 @@
         </div>
 
         <!-- Result, Sort -->
-        <div class="flex flex-col items-center justify-between h-18 sm:flex-row p-5 mb-4 bg-gray-100 dark:bg-secondary-darkest rounded-lg">
+        <div class="flex flex-col items-center justify-between h-18 sm:flex-row p-5 mb-4 bg-white border border-gray-300 dark:border-sky-dark dark:bg-secondary-darkest rounded-lg">
           <div>
             <span class="font-black text-2xl">{{ filteredModules.length }}</span>
             module{{ filteredModules.length !== 1 ? 's' : '' }} found
