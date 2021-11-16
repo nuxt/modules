@@ -24,12 +24,15 @@
           >
             <!-- TODO: use <nuxt-img> -->
             <img
+              v-if="!coverError && iconUrl(mod)"
               :src="'https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/website/static/' + iconUrl(mod)"
               :alt="mod.name"
               class="w-10 h-10 object-contain"
               width="40px"
               height="40px"
+              @error="coverError = true"
             >
+            <UnoIcon v-else class="i-carbon-circle-dash text-4xl opacity-20" />
           </div>
           <div class="ml-6">
             <h2
@@ -158,6 +161,8 @@ defineProps({
     required: true
   }
 })
+
+const coverError = ref(false)
 
 const statusMap = {
   working: { statusText: 'Working', icon: 'i-carbon-checkmark', color: '#1aa346' },
