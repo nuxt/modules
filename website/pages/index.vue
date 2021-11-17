@@ -45,7 +45,7 @@
     </div>
 
     <!-- Body -->
-    <div class="container px-4 sm:px-0 mx-auto pt-8 grid grid-cols-1 sm:grid-cols-5 gap-8">
+    <div class="container px-4 mx-auto pt-8 grid grid-cols-1 lg:grid-cols-5 gap-8">
       <!-- Sidebar -->
       <div class="col-span-1 space-y-10 hidden lg:block">
         <!-- Nuxt versions -->
@@ -132,10 +132,10 @@
         </div>
 
         <!-- Result, Sort -->
-        <div class="flex flex-col items-center justify-between h-18 sm:flex-row p-5 mb-4 bg-gray-100 dark:bg-secondary-darkest rounded-lg">
+        <div class="flex flex-col items-center justify-between min-h-18 sm:flex-row p-5 mb-4 bg-gray-100 dark:bg-secondary-darkest rounded-lg">
           <div>
             <span class="font-black text-2xl">{{ filteredModules.length }}</span>
-            module{{ filteredModules.length !== 1 ? 's' : '' }} found
+            module{{ filteredModules.length > 1 ? 's' : '' }} found
           </div>
           <div>
             <div v-show="!q" class="flex items-center text-forest-night">
