@@ -57,7 +57,7 @@
                 background: statusMap[status].color + '20'
               }"
               :class="statusMap[status].class"
-              class="flex flex-col min-w-12 relative items-center gap-2 text-base rounded-lg px-2 py-1 z-50"
+              class="flex min-w-12 relative items-center gap-1 text-base rounded-lg px-2 py-1 z-50"
             >
               <iconNuxt3
                 v-if="version === '3.x'"
@@ -74,15 +74,18 @@
                 class="h-5 w-5"
                 aria-hidden="true"
               />
+              <div class="-mb-0.5">
+                {{ version[0] }}
+              </div>
               <!-- <UnoIcon
                 :class="{'i-carbon-number-2': version !== '3.x','i-carbon-number-3': version === '3.x'}"
                 class="absolute text-xl -top-3 -left-2"
               /> -->
-              <UnoIcon
+              <!-- <UnoIcon
                 v-if="statusMap[status].icon"
                 class="absolute -bottom-2 -right-1"
                 :class="statusMap[status].icon"
-              />
+              /> -->
             </div>
           </div>
         </div>
