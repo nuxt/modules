@@ -44,7 +44,7 @@
               class="i-carbon-badge text-yellow-600 text-lg ml-1 my-auto opacity-85"
             />
           </h2>
-          <div class="flex gap-2 py-3 w-ful flex-wrap">
+          <div class="flex gap-2 py-3 w-full flex-wrap">
             <div
               v-for="[version, status] of Object.entries(mod.compatibility)"
               :key="version"
