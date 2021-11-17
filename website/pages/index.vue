@@ -39,61 +39,25 @@
       <!-- Sidebar -->
       <div class="col-span-1 space-y-10 hidden lg:block">
         <!-- Nuxt versions -->
-        <div>
-          <h2
-            class="text-2xl font-extrabold tracking-tight text-sky-darkest dark:text-sky-lightest"
-          >
-            Nuxt version
-          </h2>
-          <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">
-            Show modules working with:
-          </p>
-          <div class="flex flex-col space-y-3">
-            <NLink v-for="version in versionsMap" :key="version.label" :to="`/?q=${version.to}`">
-              <button
-                class="flex items-center justify-between outline-none focus:outline-none focus:text-white focus:bg-sky-darkest dark:focus:border-sky-light hover:text-sky-lightest hover:bg-sky-darker text-sm py-2 bg-white border border-gray-300 dark:border-sky-dark dark:bg-secondary-darkest rounded-lg px-4 w-full text-left"
-              >
-                <div>
-                  <component :is="version.icon" class="h-6 w-6 mr-2 inline-block" />
-                  {{ version.label }}
-                </div>
-                <span v-if="false" class="text-xl px-2">+</span>
-              </button>
-            </NLink>
-          </div>
-        </div>
+        <FilterButtons
+          title="Nuxt version"
+          subtitle="Show modules working with:"
+          :items="versionsList"
+          :selected-item="selectedVersion"
+          @toggle="toggleVersion"
+        >
+          <template #icon="{ icon }">
+            <component :is="icon" class="h-6 w-6 mr-2 inline-block" />
+          </template>
+        </FilterButtons>
 
         <!-- Categories -->
-        <div>
-          <h2
-            class="text-2xl font-extrabold tracking-tight text-sky-darkest dark:text-sky-lightest"
-          >
-            Categories
-          </h2>
-          <div
-            class="grid grid-cols-1 gap-x-4 gap-y-2 py-6 overflow-x-auto sm:flex-wrap sm:justify-center"
-          >
-            <button
-              v-for="category of categories"
-              :key="category"
-              type="button"
-              :aria-label="category"
-              class="px-4 py-3 mb-2 text-sm text-left flex items-center justify-between rounded-lg cursor-pointer focus:outline-none"
-              :class="[
-                selectedCategory === category
-                  ? 'bg-sky-darker text-sky-lightest'
-                  : 'text-sky-darkest bg-white border border-gray-300 dark:border-sky-dark dark:bg-secondary-darkest dark:text-sky-surface hover:text-sky-lightest hover:bg-sky-dark transition-colors duration-150 ease-in-out focus:bg-sky-lightest',
-              ]"
-              @click="toggleCategory(category)"
-            >
-              <UnoIcon
-                class="text-lg"
-                :class="CATEGORIES_ICONS[category]"
-              />
-              <span class="flex-auto ml-3">{{ category }}</span>
-            </button>
-          </div>
-        </div>
+        <FilterButtons
+          title="Categories"
+          :items="categoriesList"
+          :selected-item="selectedCategory"
+          @toggle="toggleCategory"
+        />
       </div>
       <!-- Main -->
       <div class="col-span-4">
@@ -212,7 +176,7 @@ import Fuse from 'fuse.js/dist/fuse.basic.esm'
 import CardModule from '~/components/CardModule.vue'
 import Observer from '~/components/Observer.vue'
 import { isMobile } from '~/utils/detectUserAgent.ts'
-import { CATEGORIES_ICONS } from '~/composables/constants'
+import { CATEGORIES_ICONS, VERSIONS } from '~/composables/constants'
 import { fetchModules } from '~/composables/fetch'
 
 const sort = (a, b, asc) => asc ? a - b : b - a
@@ -258,8 +222,10 @@ export default {
       sortBy: 'downloads',
       sortByMenuVisible: false,
       selectedCategory: null,
+      selectedVersion: null,
       moduleLoaded: MODULE_INCREMENT_LOADING,
-      CATEGORIES_ICONS
+      CATEGORIES_ICONS,
+      versionsList: VERSIONS
     }
   },
   head () {
@@ -287,27 +253,17 @@ export default {
     }
   },
   computed: {
-    versionsMap () {
-      return {
-        '3.x': {
-          label: 'Nuxt 3.x',
-          id: 'three',
-          icon: 'iconNuxt3',
-          to: '3.x'
-        },
-        '2.x-bridge': {
-          label: 'Nuxt 2.x Bridge',
-          id: 'bridge',
-          icon: 'iconNuxtBridge',
-          to: '2.x-bridge'
-        },
-        '2.x': {
-          label: 'Nuxt 2.x',
-          id: 'two',
-          icon: 'iconNuxt2',
-          to: '2.x'
-        }
+    categoriesList () {
+      const categoriesList = []
+      for (const [key, icon] of Object.entries(CATEGORIES_ICONS)) {
+        categoriesList.push({
+          key,
+          icon,
+          label: key
+        })
       }
+
+      return categoriesList
     },
     filteredModules () {
       let modules = this.modules
@@ -349,6 +305,9 @@ export default {
   },
   watch: {
     selectedCategory () {
+      this.syncURL()
+    },
+    selectedVersion () {
       this.syncURL()
     },
     q () {
@@ -402,8 +361,16 @@ export default {
       }
       this.selectedCategory = category
     },
+    toggleVersion (version) {
+      if (this.selectedVersion === version) {
+        this.selectedVersion = null
+        return
+      }
+      this.selectedVersion = version
+    },
     clearFilters () {
       this.selectedCategory = null
+      this.selectedVersion = null
       this.q = null
       this.moduleLoaded = MODULE_INCREMENT_LOADING
     },
@@ -425,17 +392,17 @@ export default {
       }
 
       if (this.selectedCategory) {
-        query += `#${this.selectedCategory}`
+        query += `${query ? '&' : '?'}category=${this.selectedCategory}`
+      }
+
+      if (this.selectedVersion) {
+        query += `${query ? '&' : '?'}version=${this.selectedVersion}`
       }
 
       window.history.pushState('', '', `${url}${query}`)
     },
     applyURLFilters () {
-      const selectedCategory = (window.location.hash || '').substr(1)
-      if (selectedCategory) {
-        this.toggleCategory(selectedCategory)
-      }
-      const { q, sortBy, orderBy } = this.$route.query
+      const { q, sortBy, orderBy, category, version } = this.$route.query
       if (q) {
         this.q = q
       }
@@ -446,6 +413,14 @@ export default {
 
       if (orderBy) {
         this.orderBy = orderBy
+      }
+
+      if (category) {
+        this.toggleCategory(category)
+      }
+
+      if (version) {
+        this.toggleVersion(version)
       }
     },
     toggleOrderBy () {
