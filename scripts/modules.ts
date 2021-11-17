@@ -4,10 +4,11 @@ import * as yml from 'js-yaml'
 import { globby } from 'globby'
 import defu from 'defu'
 import categories from '../npm/categories.json'
+import { ModuleInfo } from '../types'
 import { fetchGithubPkg, modulesDir, distDir, distFile } from './utils'
 
 export async function sync (name, repo?: string, isNew: boolean = false) {
-  const module = await getModule(name)
+  const module = await getModule(name) as ModuleInfo
 
   // Repo
   if (repo) {

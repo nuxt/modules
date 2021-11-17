@@ -226,6 +226,7 @@ import CardModule from '~/components/CardModule.vue'
 import Observer from '~/components/Observer.vue'
 import { isMobile } from '~/utils/detectUserAgent.ts'
 import { CATEGORIES_ICONS } from '~/composables/constants'
+import { fetchModules } from '~/composables/fetch'
 
 const sort = (a, b, asc) => asc ? a - b : b - a
 
@@ -261,35 +262,7 @@ export default {
     }
   },
   async asyncData () {
-    const { modules } = await $fetch('/api/modules')
-    const { categories } = await $fetch('/api/categories')
-
-    const maintainers = []
-    let downloadsTotal = 0
-    modules.forEach((module) => {
-      downloadsTotal += (module.downloads || 0)
-      module.maintainers.forEach((maintainer) => {
-        if (!maintainers.find(m => m.name === maintainer.name)) {
-          maintainers.push(maintainer)
-        }
-      })
-    })
-
-    for (const module of modules) {
-      module.tags = [
-        ...(module.tags || []),
-        ...Object.entries(module.compatibility)
-          .map(([version, status]) => status === 'working' ? version : false)
-          .filter(Boolean)
-      ]
-    }
-
-    return {
-      modules,
-      categories,
-      maintainersTotal: maintainers.length,
-      downloadsTotal
-    }
+    return await fetchModules()
   },
   data () {
     return {
