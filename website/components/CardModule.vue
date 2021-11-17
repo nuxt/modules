@@ -74,10 +74,10 @@
                 class="h-5 w-5"
                 aria-hidden="true"
               />
-              <UnoIcon
+              <!-- <UnoIcon
                 :class="{'i-carbon-number-2': version !== '3.x','i-carbon-number-3': version === '3.x'}"
                 class="absolute text-xl -top-3 -left-2"
-              />
+              /> -->
               <UnoIcon
                 v-if="statusMap[status].icon"
                 class="absolute -bottom-2 -right-1"
