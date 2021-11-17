@@ -57,7 +57,7 @@
                 background: statusMap[status].color + '20'
               }"
               :class="statusMap[status].class"
-              class="flex flex-col md:min-w-15 min-w-0 relative items-center gap-2 text-base rounded-lg px-2 py-1 z-50"
+              class="flex flex-col min-w-12 relative items-center gap-2 text-base rounded-lg px-2 py-1 z-50"
             >
               <iconNuxt3
                 v-if="version === '3.x'"

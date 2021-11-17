@@ -183,7 +183,10 @@
           </div>
         </div>
 
-        <div class="grid gap-x-6 gap-y-8 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-10">
+        <div
+          class="grid gap-x-6 gap-y-8 mt-10"
+          style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))"
+        >
           <div
             v-for="mod of pageFilteredModules"
             :key="mod.name"
