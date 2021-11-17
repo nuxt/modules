@@ -1,13 +1,13 @@
 <template>
   <div>
-    <dl class="flex gap-8 mt-auto h-full">
+    <dl class="flex gap-4 md:gap-8 mt-auto h-full">
       <div class="flex-col space-y-2 p-4 rounded-md">
         <span
           class="font-normal leading-6 text-sky-darkest dark:text-sky-lightest text-sm sm:mt-2 sm:text-sm sm:capitalize"
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
+          class="text-4xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
           aria-describedby="item-1"
         >
           {{ modules.length }}
@@ -25,7 +25,7 @@
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
+          class="text-4xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
         >
           {{ numberFormat(downloadsTotal) }}
         </dd>
@@ -41,7 +41,7 @@
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
+          class="text-4xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
         >
           {{ maintainersTotal }}
         </dd>

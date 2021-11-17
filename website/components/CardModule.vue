@@ -32,19 +32,19 @@
             @error="coverError = true"
           >
           <UnoIcon v-else :class="iconPlaceholder(mod)" class="text-4xl opacity-20" />
-          <UnoIcon
-            v-if="mod.type === 'official'"
-            v-tooltip="{ content: 'Official',classes: tooltipClass }"
-            class="i-carbon-badge text-yellow-600 text-lg ml-1 my-auto opacity-85 absolute -top-2 -right-2"
-          />
         </div>
         <div class="ml-6 w-full h-full">
           <h2
-            class="flex text-lg font-semibold items-start dark:text-white h-9 line-2 leading-tight"
+            class="flex text-lg font-semibold items-center dark:text-white h-9 line-2 leading-tight"
           >
             <span>{{ mod.name }}</span>
+            <UnoIcon
+              v-if="mod.type === 'official'"
+              v-tooltip="{ content: 'Official',classes: tooltipClass }"
+              class="i-carbon-badge text-yellow-600 text-lg ml-1 my-auto opacity-85"
+            />
           </h2>
-          <div class="flex gap-2 py-3 w-full">
+          <div class="flex gap-2 py-3 w-ful flex-wrap">
             <div
               v-for="[version, status] of Object.entries(mod.compatibility)"
               :key="version"
@@ -57,7 +57,7 @@
                 background: statusMap[status].color + '20'
               }"
               :class="statusMap[status].class"
-              class="flex flex-col w-full relative items-center gap-2 text-base rounded-lg px-2 py-1 z-50"
+              class="flex flex-col md:min-w-15 min-w-0 relative items-center gap-2 text-base rounded-lg px-2 py-1 z-50"
             >
               <iconNuxt3
                 v-if="version === '3.x'"

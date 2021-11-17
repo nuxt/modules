@@ -22,10 +22,10 @@
       </TheSearch>
     </div>
     <div
-      class="pt-10 lg:pt-24 pb-16 lg:pb-32 bg-white dark:bg-secondary-darkest dark:bg-secondary-darkest sm:p-10 relative"
+      class="pt-10 pb-16 px-3 lg:px-10 lg:pt-24 lg:pb-32 bg-white dark:bg-secondary-darkest dark:bg-secondary-darkest relative"
     >
       <div class="container mx-auto flex flex-col sm:flex-row justify-between">
-        <div class="flex flex-col md:flex-row md:items-end md:justify-between w-full">
+        <div class="flex flex-wrap justify-between gap-y-5 w-full">
           <!-- Header -->
           <TheHeader />
           <!-- Stats -->

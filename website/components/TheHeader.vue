@@ -1,7 +1,7 @@
 <template>
-  <div class="text-left px-4 sm:px-0 flex flex-col justify-center">
+  <div class="text-left px-4 flex flex-col justify-center">
     <h1
-      class="text-display-5 sm:text-display-4 md:text-display-3 pb-1 sm:pb-2 md:pb-6 font-serif overflow-ellipsis overflow-hidden"
+      class="text-display-5 sm:text-display-4 md:text-display-3 pb-1 mb-2 md:mb-4 font-serif overflow-ellipsis overflow-hidden"
     >
       Explore
       <span class="text-primary dark:text-primary">Nuxt</span> Modules
