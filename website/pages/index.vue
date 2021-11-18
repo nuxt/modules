@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-16 relative bg-gray-100 nuxt-text-default">
+  <div class="pb-16 relative bg-gray-100 dark:bg-secondary-black nuxt-text-default">
     <div
       class="relative bg-white shadow dark:bg-secondary-darkest w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
     >
@@ -62,26 +62,20 @@
       <!-- Main -->
       <div class="col-span-4">
         <!-- Filter -->
-        <div class="h-10 -mt-5 flex items-center gap-4">
+        <div class="h-10 -mt-5 flex items-center gap-1">
           <template
             v-if="displayFiltersBlock"
           >
-            <div>
-              Filter{{ nbFiltersApplied > 1 ? 's' : '' }}:
-              <b class="font-black text-lg">{{ getVersionFromKey(selectedVersion).label }}</b>
-              <span v-if="selectedCategory">
-                {{ selectedVersion ? ', ' : '' }}
-                <b class="font-black text-lg">
-                  {{ selectedCategory }}
-                </b>
-              </span>
-              <span v-if="q">
-                {{ selectedCategory || selectedVersion ? ', ' : '' }}
-                <b class="font-black text-lg">
-                  {{ q }}
-                </b>
-              </span>
-            </div>
+            <div>Filter{{ nbFiltersApplied > 1 ? 's' : '' }}</div>
+            <FilterLabel v-if="selectedVersion" @close="selectedVersion = ''">
+              {{ getVersionFromKey(selectedVersion).label }}
+            </FilterLabel>
+            <FilterLabel v-if="selectedCategory" @close="selectedCategory = ''">
+              {{ selectedCategory }}
+            </FilterLabel>
+            <FilterLabel v-if="q" @close="q = ''">
+              {{ q }}
+            </FilterLabel>
             <a
               href="/"
               class="ml-2 opacity-70 hover:opacity-100 inline-flex items-center gap-1"
