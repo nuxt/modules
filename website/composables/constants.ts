@@ -19,3 +19,9 @@ export const CATEGORIES_ICONS = {
   Security: 'i-carbon-security',
   UI: 'i-carbon-touch-interaction'
 }
+
+export const VERSIONS = [
+  { key: '3.x', label: 'Nuxt 3.x', icon: 'iconNuxt3' },
+  { key: '2.x-bridge', label: 'Nuxt 2.x Bridge', icon: 'iconNuxtBridge' },
+  { key: '2.x', label: 'Nuxt 2.x', icon: 'iconNuxt2' }
+]
