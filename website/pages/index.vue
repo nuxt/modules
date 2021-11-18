@@ -174,20 +174,10 @@ import Fuse from 'fuse.js/dist/fuse.basic.esm'
 import CardModule from '~/components/CardModule.vue'
 import Observer from '~/components/Observer.vue'
 import { isMobile } from '~/utils/detectUserAgent.ts'
-import { CATEGORIES_ICONS, VERSIONS } from '~/composables/constants'
+import { CATEGORIES_ICONS, FIELDS, MODULE_INCREMENT_LOADING, ORDERS, VERSIONS } from '~/composables/constants'
 import { fetchModules } from '~/composables/fetch'
 
 const sort = (a, b, asc) => asc ? a - b : b - a
-
-const ORDERS = {
-  DESC: 'desc',
-  ASC: 'asc'
-}
-
-const FIELDS = {
-  DOWNLOADS: 'downloads',
-  STARS: 'stars'
-}
 
 const sortFields = {
   [FIELDS.DOWNLOADS]: {
@@ -197,8 +187,6 @@ const sortFields = {
     label: 'Stars'
   }
 }
-
-const MODULE_INCREMENT_LOADING = 12
 
 export default {
   components: { LazyHydrate, CardModule, Observer },
