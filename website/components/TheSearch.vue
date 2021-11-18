@@ -11,7 +11,7 @@
     <div class="flex shadow-sm w-full max-w-xl">
       <label class="relative flex-1">
         <input
-          ref="searchModule"
+          ref="searchModuleInput"
           v-model="searchModel"
           type="search"
           aria-label="Search"
