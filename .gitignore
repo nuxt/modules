@@ -12,3 +12,4 @@ cache
 .output
 package-lock.json
 npm/modules.json
+.idea
