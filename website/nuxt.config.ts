@@ -1,6 +1,7 @@
 import { defineNuxtConfig } from '@nuxt/bridge'
 
 export default defineNuxtConfig({
+  css: ['~/assets/css/main.css'],
   components: true,
   buildModules: [
     // https://github.com/windicss/nuxt-windicss
