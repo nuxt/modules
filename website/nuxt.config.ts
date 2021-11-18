@@ -28,7 +28,7 @@ export default defineNuxtConfig({
     // disable the default preset, Windi CSS already handles them
     uno: false
   },
-  plugins: ['~/plugins/v-tooltip.ts', '~/plugins/modules.ts'],
+  plugins: ['~/plugins/v-tooltip.ts'],
   manifest: {
     name: 'Nuxt Modules',
     short_name: 'Nuxt Modules',
