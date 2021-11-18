@@ -35,6 +35,7 @@
           mb-2
           text-sm text-left
           flex
+          border
           items-center
           justify-between
           rounded-lg
@@ -43,8 +44,8 @@
         "
         :class="
           selectedItem === item.key
-            ? 'bg-sky-darker text-sky-lightest'
-            : 'text-sky-darkest bg-white border border-gray-300 dark:border-sky-dark dark:bg-secondary-darkest dark:text-sky-surface hover:text-sky-lightest hover:bg-sky-dark transition-colors duration-150 ease-in-out focus:bg-sky-lightest'
+            ? 'bg-sky-darker text-sky-lightest border-transparent dark:border-sky-dark'
+            : 'text-sky-darkest bg-white border-gray-300 dark:border-sky-dark dark:bg-secondary-darkest dark:text-sky-surface hover:text-sky-lightest hover:bg-sky-dark transition-colors duration-150 ease-in-out'
         "
         @click="$emit('toggle', item.key)"
       >
