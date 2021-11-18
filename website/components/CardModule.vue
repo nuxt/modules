@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col h-full relative">
+  <div class="relative flex flex-col group transition-transform duration-150 ease-in-out transform bg-white dark:bg-secondary-darkest rounded-lg border hover:border-1 border-gray-200 dark:border-secondary-dark hover:border-primary-800 dark:hover:border-secondary focus:bg-sky-lightest">
     <div class="relative flex flex-1 flex-col p-5 text-sky-darkest dark:text-white">
       <a
         :href="mod.website"
@@ -77,15 +77,6 @@
               <div class="-mb-0.5">
                 {{ version[0] }}
               </div>
-              <!-- <UnoIcon
-                :class="{'i-carbon-number-2': version !== '3.x','i-carbon-number-3': version === '3.x'}"
-                class="absolute text-xl -top-3 -left-2"
-              /> -->
-              <!-- <UnoIcon
-                v-if="statusMap[status].icon"
-                class="absolute -bottom-2 -right-1"
-                :class="statusMap[status].icon"
-              /> -->
             </div>
           </div>
         </div>

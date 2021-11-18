@@ -159,15 +159,11 @@
           class="grid gap-x-6 gap-y-8 mt-10"
           style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))"
         >
-          <div
-            v-for="mod of pageFilteredModules"
-            :key="mod.name"
-            class="relative flex flex-col group transition-transform duration-150 ease-in-out transform bg-white dark:bg-secondary-darkest rounded-lg border hover:border-1 border-gray-200 dark:border-secondary-dark hover:border-primary-800 dark:hover:border-secondary focus:bg-sky-lightest"
-          >
-            <LazyHydrate when-visible>
-              <card-module :mod="mod" />
+          <template v-for="mod of pageFilteredModules">
+            <LazyHydrate :key="mod.name" when-visible>
+              <CardModule :mod="mod" />
             </LazyHydrate>
-          </div>
+          </template>
           <Observer @intersect="intersectedModulesLoading" />
         </div>
       </div>
