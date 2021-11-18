@@ -64,15 +64,23 @@
         <!-- Filter -->
         <div class="h-10 -mt-5 flex items-center gap-4">
           <template
-            v-if="selectedCategory || q"
+            v-if="displayFiltersBlock"
           >
             <div>
-              Filter{{ selectedCategory && q ? 's' : '' }}:
-              <b>{{ selectedCategory }}</b>
-              {{ selectedCategory && q ? ', ' : '' }}
-              <b
-                class="font-black text-lg"
-              >{{ q }}</b>
+              Filter{{ nbFiltersApplied > 1 ? 's' : '' }}:
+              <b class="font-black text-lg">{{ getVersionFromKey(selectedVersion).label }}</b>
+              <span v-if="selectedCategory">
+                {{ selectedVersion ? ', ' : '' }}
+                <b class="font-black text-lg">
+                  {{ selectedCategory }}
+                </b>
+              </span>
+              <span v-if="q">
+                {{ selectedCategory || selectedVersion ? ', ' : '' }}
+                <b class="font-black text-lg">
+                  {{ q }}
+                </b>
+              </span>
             </div>
             <a
               href="/"
@@ -80,7 +88,7 @@
               @click.prevent="clearFilters"
             >
               <UnoIcon class="i-carbon-filter-remove" />
-              Clear filter{{ selectedCategory && q ? 's' : '' }}
+              Clear filter{{ nbFiltersApplied > 1 ? 's' : '' }}
             </a>
           </template>
         </div>
@@ -253,6 +261,18 @@ export default {
     }
   },
   computed: {
+    displayFiltersBlock () {
+      return this.selectedCategory || this.q || this.selectedVersion
+    },
+    nbFiltersApplied () {
+      let nbFilters = 0
+
+      if (this.selectedCategory) { nbFilters++ }
+      if (this.selectedVersion) { nbFilters++ }
+      if (this.q) { nbFilters++ }
+
+      return nbFilters
+    },
     categoriesList () {
       const categoriesList = []
       for (const [key, icon] of Object.entries(CATEGORIES_ICONS)) {
@@ -357,6 +377,11 @@ export default {
     window.removeEventListener('keypress', this.searchFocusListener)
   },
   methods: {
+    getVersionFromKey (key) {
+      const version = this.versionsList.find(version => version.key === key)
+
+      return version ?? {}
+    },
     toggleCategory (category) {
       if (this.selectedCategory === category) {
         this.selectedCategory = null
