@@ -171,8 +171,6 @@
 <script>
 import LazyHydrate from 'vue-lazy-hydration'
 import Fuse from 'fuse.js/dist/fuse.basic.esm'
-import CardModule from '~/components/CardModule.vue'
-import Observer from '~/components/Observer.vue'
 import { isMobile } from '~/utils/detectUserAgent.ts'
 import { CATEGORIES_ICONS, FIELDS, MODULE_INCREMENT_LOADING, ORDERS, VERSIONS } from '~/composables/constants'
 import { fetchModules } from '~/composables/fetch'
@@ -189,7 +187,7 @@ const sortFields = {
 }
 
 export default {
-  components: { LazyHydrate, CardModule, Observer },
+  components: { LazyHydrate },
   directives: {
     focus: {
       // directive definition
