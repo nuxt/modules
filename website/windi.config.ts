@@ -84,6 +84,11 @@ export default {
     }
   },
   shortcuts: {
+    'nuxt-border': 'border border-gray-200 dark:border-secondary-darker',
+    'nuxt-card-border': 'border border-gray-200 dark:border-secondary-darker hover:border-primary-800 focus:border-primary-800 dark:hover:border-secondary dark:focus:border-secondary focus:outline-none',
+    'nuxt-card-bg': 'bg-white dark:bg-secondary-darkest',
+    'nuxt-text-default': 'text-sky-darkest dark:text-white',
+
     'nuxt-text-highlight': 'py-2 px-4 rounded-md bg-gray-100 dark:bg-white dark:bg-opacity-10 hober:bg-gray-200',
     'nuxt-text-highlight-hover': 'nuxt-text-highlight dark:hover:bg-opacity-9 light:hover:bg-gray-50',
     'text-display-6': {

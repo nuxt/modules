@@ -1,7 +1,7 @@
 <template>
-  <div class="pb-16 relative bg-gray-100 dark:text-white dark:bg-secondary-black">
+  <div class="pb-16 relative bg-gray-100 nuxt-text-default">
     <div
-      class="relative bg-gray-100 shadow dark:bg-secondary-darkest w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
+      class="relative bg-white shadow dark:bg-secondary-darkest w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
     >
       <TheSearch :search="q" @update:search="v=>q=v" />
     </div>
@@ -94,7 +94,7 @@
         </div>
 
         <!-- Result, Sort -->
-        <div class="flex flex-col items-center justify-between min-h-18 sm:flex-row p-5 mb-4 bg-white border border-gray-300 dark:border-sky-dark dark:bg-secondary-darkest rounded-lg">
+        <div class="flex flex-col items-center justify-between min-h-18 sm:flex-row p-5 mb-4 nuxt-border nuxt-card-bg rounded-lg">
           <div>
             <span class="font-black text-2xl">{{ filteredModules.length }}</span>
             module{{ filteredModules.length > 1 ? 's' : '' }} found

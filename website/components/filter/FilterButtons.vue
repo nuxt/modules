@@ -1,14 +1,6 @@
 <template>
   <div>
-    <h2
-      class="
-        text-2xl
-        font-extrabold
-        tracking-tight
-        text-sky-darkest
-        dark:text-sky-lightest
-      "
-    >
+    <h2 class="text-2xl font-extrabold tracking-tight">
       {{ title }}
     </h2>
     <p v-if="subtitle" class="text-sm text-gray-700 dark:text-gray-300 mb-4">
@@ -35,17 +27,13 @@
           mb-2
           text-sm text-left
           flex
-          border
           items-center
           justify-between
           rounded-lg
           cursor-pointer
-          focus:outline-none
-        "
-        :class="
-          selectedItem === item.key
-            ? 'bg-sky-darker text-sky-lightest border-transparent dark:border-sky-dark'
-            : 'text-sky-darkest bg-white border-gray-300 dark:border-sky-dark dark:bg-secondary-darkest dark:text-sky-surface hover:text-sky-lightest hover:bg-sky-dark transition-colors duration-150 ease-in-out'
+          nuxt-card-border
+          nuxt-card-bg
+          transition-colors duration-150 ease-in-out
         "
         @click="$emit('toggle', item.key)"
       >
@@ -53,6 +41,7 @@
           <UnoIcon class="text-lg" :class="item.icon" />
         </slot>
         <span class="flex-auto ml-3">{{ item.label }}</span>
+        <UnoIcon v-if="selectedItem === item.key" class="text-lg i-carbon-checkmark" />
       </button>
     </div>
   </div>

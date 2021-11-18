@@ -1,148 +1,146 @@
 <template>
-  <div class="relative flex flex-col group transition-transform duration-150 ease-in-out transform bg-white dark:bg-secondary-darkest rounded-lg border hover:border-1 border-gray-200 dark:border-secondary-dark hover:border-primary-800 dark:hover:border-secondary focus:bg-sky-lightest">
-    <div class="relative flex flex-1 flex-col p-5 text-sky-darkest dark:text-white">
-      <a
-        :href="mod.website"
-        :aria-label="mod.website"
-        target="_blank"
-        rel="noopener"
-        class="absolute inset-0"
+  <div class="relative flex flex-col group p-5 nuxt-card-border nuxt-card-bg nuxt-text-default rounded-lg transition-transform duration-150 ease-in-out transform">
+    <a
+      :href="mod.website"
+      :aria-label="mod.website"
+      target="_blank"
+      rel="noopener"
+      class="absolute inset-0"
+    >
+      <div
+        class="transition-opacity duration-200 ease-in-out rounded-full opacity-0 group-hover:opacity-100 absolute top-3 right-3 cursor-pointer"
       >
-        <div
-          class="transition-opacity duration-200 ease-in-out rounded-full opacity-0 group-hover:opacity-100 absolute top-3 right-3 cursor-pointer"
-        >
-          <UnoIcon
-            class="i-carbon-arrow-up-right text-xl leading-none !block group-hover:text-primary-800 dark:group-hover:text-white"
-          />
-        </div>
-      </a>
+        <UnoIcon
+          class="i-carbon-arrow-up-right text-xl leading-none !block group-hover:text-primary-800 dark:group-hover:text-white"
+        />
+      </div>
+    </a>
 
-      <div class="flex items-start w-full h-20">
-        <div
-          class="relative border  bg-white border-gray-200 dark:bg-secondary-dark dark:border-secondary-dark w-20 h-20 rounded-lg flex flex-none items-center justify-center"
+    <div class="flex items-start w-full h-20">
+      <div
+        class="relative border  bg-white border-gray-200 dark:bg-secondary-dark dark:border-secondary-dark w-20 h-20 rounded-lg flex flex-none items-center justify-center"
+      >
+        <!-- TODO: use <nuxt-img> -->
+        <img
+          v-if="!coverError && iconUrl(mod)"
+          :src="'https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/website/static/' + iconUrl(mod)"
+          :alt="mod.name"
+          class="w-10 h-10 object-contain"
+          width="40px"
+          height="40px"
+          @error="coverError = true"
         >
-          <!-- TODO: use <nuxt-img> -->
-          <img
-            v-if="!coverError && iconUrl(mod)"
-            :src="'https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/website/static/' + iconUrl(mod)"
-            :alt="mod.name"
-            class="w-10 h-10 object-contain"
-            width="40px"
-            height="40px"
-            @error="coverError = true"
+        <UnoIcon v-else :class="iconPlaceholder(mod)" class="text-4xl opacity-20" />
+      </div>
+      <div class="ml-6 w-full h-full">
+        <h2
+          class="flex text-lg font-semibold items-center dark:text-white h-9 line-2 leading-tight"
+        >
+          <span>{{ mod.name }}</span>
+          <UnoIcon
+            v-if="mod.type === 'official'"
+            v-tooltip="{ content: 'Official',classes: tooltipClass }"
+            class="i-carbon-badge text-yellow-600 text-lg ml-1 my-auto opacity-85"
+          />
+        </h2>
+        <div class="flex gap-2 py-3 w-full flex-wrap">
+          <div
+            v-for="[version, status] of Object.entries(mod.compatibility)"
+            :key="version"
+            v-tooltip="{
+              content: `${version}: ${statusMap[status].statusText}`,
+              classes: tooltipClass
+            }"
+            :style="{
+              color: statusMap[status].color,
+              background: statusMap[status].color + '20'
+            }"
+            :class="statusMap[status].class"
+            class="flex min-w-12 relative items-center gap-1 text-base rounded-lg px-2 py-1 z-50"
           >
-          <UnoIcon v-else :class="iconPlaceholder(mod)" class="text-4xl opacity-20" />
-        </div>
-        <div class="ml-6 w-full h-full">
-          <h2
-            class="flex text-lg font-semibold items-center dark:text-white h-9 line-2 leading-tight"
-          >
-            <span>{{ mod.name }}</span>
-            <UnoIcon
-              v-if="mod.type === 'official'"
-              v-tooltip="{ content: 'Official',classes: tooltipClass }"
-              class="i-carbon-badge text-yellow-600 text-lg ml-1 my-auto opacity-85"
+            <iconNuxt3
+              v-if="version === '3.x'"
+              class="h-5 w-5"
+              aria-hidden="true"
             />
-          </h2>
-          <div class="flex gap-2 py-3 w-full flex-wrap">
-            <div
-              v-for="[version, status] of Object.entries(mod.compatibility)"
-              :key="version"
-              v-tooltip="{
-                content: `${version}: ${statusMap[status].statusText}`,
-                classes: tooltipClass
-              }"
-              :style="{
-                color: statusMap[status].color,
-                background: statusMap[status].color + '20'
-              }"
-              :class="statusMap[status].class"
-              class="flex min-w-12 relative items-center gap-1 text-base rounded-lg px-2 py-1 z-50"
-            >
-              <iconNuxt3
-                v-if="version === '3.x'"
-                class="h-5 w-5"
-                aria-hidden="true"
-              />
-              <iconNuxt2
-                v-if="version === '2.x'"
-                class="h-5 w-5"
-                aria-hidden="true"
-              />
-              <iconNuxtBridge
-                v-if="version === '2.x-bridge'"
-                class="h-5 w-5"
-                aria-hidden="true"
-              />
-              <div class="-mb-0.5">
-                {{ version[0] }}
-              </div>
+            <iconNuxt2
+              v-if="version === '2.x'"
+              class="h-5 w-5"
+              aria-hidden="true"
+            />
+            <iconNuxtBridge
+              v-if="version === '2.x-bridge'"
+              class="h-5 w-5"
+              aria-hidden="true"
+            />
+            <div class="-mb-0.5">
+              {{ version[0] }}
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="h-20 mt-4">
-        <p
-          class="text-sky-dark dark:text-white dark:opacity-85 text-sm font-normal line-clamp-3 mt-2"
+    <div class="h-20 mt-4">
+      <p
+        class="text-sky-dark dark:text-white dark:opacity-85 text-sm font-normal line-clamp-3 mt-2"
+      >
+        {{ mod.description }}
+      </p>
+    </div>
+
+    <div class="flex w-full z-30 relative">
+      <div class="flex flex-none">
+        <a
+          :href="mod.github"
+          aria-label="stars"
+          target=" _blank"
+          rel="noopener"
+          class="flex whitespace-nowrap w-full mr-4 text-sky-dark hover:text-gray-400 dark:hover:text-secondary-lighter dark:text-white"
         >
-          {{ mod.description }}
-        </p>
+          <UnoIcon class="mr-2 i-carbon-star" />
+          <div class="text-sm leading-5 font-medium truncate">
+            {{ numberFormat(mod.stars) }}
+            <span
+              class="hidden md:inline-block"
+            >star{{ mod.stars !== 1 ? 's' : '' }}</span>
+          </div>
+        </a>
+        <a
+          :href="npmUrl(mod)"
+          aria-label="npm"
+          target=" _blank"
+          rel="noopener"
+          class="flex whitespace-nowrap w-full mr-4 text-sky-dark hover:text-gray-400 dark:hover:text-secondary-lighter dark:text-white"
+        >
+          <UnoIcon class="mr-2 i-carbon-download" />
+          <div
+            class="text-sm leading-5 font-medium truncate"
+          >{{ numberFormat(mod.downloads) }} installs</div>
+        </a>
       </div>
-      <div class="flex w-full z-30 relative">
-        <div class="flex flex-none">
-          <a
-            :href="mod.github"
-            aria-label="stars"
-            target=" _blank"
-            rel="noopener"
-            class="flex whitespace-nowrap w-full mr-4 text-sky-dark hover:text-gray-400 dark:hover:text-secondary-lighter dark:text-white"
+      <div class="flex -space-x-3 hover:space-x-0 absolute right-0 -bottom-1 hover:bg-white  dark:hover:bg-sky-darkest">
+        <a
+          v-for="maintainer of mod.maintainers"
+          :key="maintainer.github"
+          v-tooltip="{ content: maintainer.name || maintainer.github, classes: ['bg-secondary-dark', 'dark:bg-sky-black', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm', 'mb-2'] }"
+          :aria-label="maintainer.github"
+          :href="githubUrl(maintainer)"
+          target="_blank"
+          rel="noopener"
+        >
+          <!-- TODO: use <nuxt-img> -->
+          <img
+            class="w-7 h-7 flex rounded-full text-white border-4 border-white dark:border-sky-darkest"
+            :src="'https://api.nuxtjs.org/api/ipx/s_44,f_webp/gh_avatar/' + maintainer.github"
+            :alt="maintainer.name"
+            format="jpg"
+            width="28"
+            height="28"
           >
-            <UnoIcon class="mr-2 i-carbon-star" />
-            <div class="text-sm leading-5 font-medium truncate">
-              {{ numberFormat(mod.stars) }}
-              <span
-                class="hidden md:inline-block"
-              >star{{ mod.stars !== 1 ? 's' : '' }}</span>
-            </div>
-          </a>
-          <a
-            :href="npmUrl(mod)"
-            aria-label="npm"
-            target=" _blank"
-            rel="noopener"
-            class="flex whitespace-nowrap w-full mr-4 text-sky-dark hover:text-gray-400 dark:hover:text-secondary-lighter dark:text-white"
-          >
-            <UnoIcon class="mr-2 i-carbon-download" />
-            <div
-              class="text-sm leading-5 font-medium truncate"
-            >{{ numberFormat(mod.downloads) }} installs</div>
-          </a>
-        </div>
-        <div class="flex -space-x-3 hover:space-x-0 absolute right-0 -bottom-1 hover:bg-white  dark:hover:bg-sky-darkest">
-          <a
-            v-for="maintainer of mod.maintainers"
-            :key="maintainer.github"
-            v-tooltip="{ content: maintainer.name || maintainer.github, classes: ['bg-secondary-dark', 'dark:bg-sky-black', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm', 'mb-2'] }"
-            :aria-label="maintainer.github"
-            :href="githubUrl(maintainer)"
-            target="_blank"
-            rel="noopener"
-          >
-            <!-- TODO: use <nuxt-img> -->
-            <img
-              class="w-7 h-7 flex rounded-full text-white border-4 border-white dark:border-sky-darkest"
-              :src="'https://api.nuxtjs.org/api/ipx/s_44,f_webp/gh_avatar/' + maintainer.github"
-              :alt="maintainer.name"
-              format="jpg"
-              width="28"
-              height="28"
-            >
-          </a>
-        </div>
+        </a>
       </div>
     </div>
-  </div>
   </div>
 </template>
 
