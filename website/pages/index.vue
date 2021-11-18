@@ -3,7 +3,7 @@
     <div
       class="relative bg-white shadow dark:bg-secondary-darkest w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
     >
-      <TheSearch :search="q" @update:search="v=>q=v" />
+      <TheSearch ref="theSearch" :search="q" @update:search="v=>q=v" />
     </div>
     <div
       class="pt-10 pb-16 px-3 lg:px-10 lg:pt-24 lg:pb-32 bg-white dark:bg-secondary-darkest dark:bg-secondary-darkest relative"
@@ -450,7 +450,7 @@ export default {
       }
     },
     focusSearchInput () {
-      this.$refs.searchModule?.focus()
+      this.$refs.theSearch?.$refs.searchModuleInput?.focus()
     }
   }
 }
