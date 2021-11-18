@@ -25,3 +25,15 @@ export const VERSIONS = [
   { key: '2.x-bridge', label: 'Nuxt 2.x Bridge', icon: 'iconNuxtBridge' },
   { key: '2.x', label: 'Nuxt 2.x', icon: 'iconNuxt2' }
 ]
+
+export const ORDERS = {
+  DESC: 'desc',
+  ASC: 'asc'
+}
+
+export const FIELDS = {
+  DOWNLOADS: 'downloads',
+  STARS: 'stars'
+}
+
+export const MODULE_INCREMENT_LOADING = 12
