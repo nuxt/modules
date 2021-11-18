@@ -18,6 +18,10 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@vueuse/core/nuxt'
   ],
+  modules: [
+    // Manage the seo
+    '~/modules/seo'
+  ],
   unocss: {
     include: [/\.vue$/, /\.ts$/, /\.vue\?vue/],
     icons: {
