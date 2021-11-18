@@ -276,6 +276,9 @@ export default {
       if (this.selectedCategory) {
         modules = modules.filter(module => module.category === this.selectedCategory)
       }
+      if (this.selectedVersion) {
+        modules = modules.filter(module => module.compatibility[this.selectedVersion] === 'working')
+      }
 
       return modules
     },
