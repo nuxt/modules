@@ -67,10 +67,10 @@
             v-if="displayFiltersBlock"
           >
             <div>Filter{{ nbFiltersApplied > 1 ? 's' : '' }}</div>
-            <FilterLabel v-if="selectedVersion" @close="selectedVersion = ''">
+            <FilterLabel v-if="selectedVersion" @close="selectedVersion = null">
               {{ getVersionFromKey(selectedVersion).label }}
             </FilterLabel>
-            <FilterLabel v-if="selectedCategory" @close="selectedCategory = ''">
+            <FilterLabel v-if="selectedCategory" @close="selectedCategory = null">
               {{ selectedCategory }}
             </FilterLabel>
             <FilterLabel v-if="q" @close="q = ''">
