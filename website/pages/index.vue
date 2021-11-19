@@ -188,14 +188,6 @@ const sortFields = {
 
 export default {
   components: { LazyHydrate },
-  directives: {
-    focus: {
-      // directive definition
-      inserted (el) {
-        el?.focus()
-      }
-    }
-  },
   async asyncData () {
     return await fetchModules()
   },
