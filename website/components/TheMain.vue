@@ -135,7 +135,6 @@ const props = defineProps<{
 }>()
 
 const vm = getCurrentInstance()
-const route = vm.proxy.$route
 const searchEl = ref()
 
 const q = ref('')
@@ -194,7 +193,7 @@ const filteredModules = computed(() => {
 })
 
 const pageFilteredModules = computed(() => {
-  return Object.assign([], filteredModules.value).splice(0, moduleLoaded.value)
+  return Array.from(filteredModules.value).splice(0, moduleLoaded.value)
 })
 
 watch([q, orderBy, sortBy, selectedVersion, selectedCategory], syncURL, { deep: true })
@@ -230,31 +229,33 @@ function clearFilters () {
 
 function syncURL () {
   const url = vm.proxy.$route.path
-
-  let query = ''
+  const queries = []
 
   resetModuleLoaded()
 
   if (q.value) {
-    query += `?q=${q.value}`
+    queries.push(`q=${q.value}`)
   }
   if (orderBy.value !== 'downloads') {
-    query += `${query ? '&' : '?'}orderBy=${orderBy.value}`
+    queries.push(`orderBy=${orderBy.value}`)
   }
   if (sortBy.value !== 'desc') {
-    query += `${query ? '&' : '?'}sortBy=${sortBy.value}`
+    queries.push(`sortBy=${sortBy.value}`)
   }
   if (selectedCategory.value) {
-    query += `${query ? '&' : '?'}category=${selectedCategory.value}`
+    queries.push(`category=${selectedCategory.value}`)
   }
   if (selectedVersion.value) {
-    query += `${query ? '&' : '?'}version=${selectedVersion.value}`
+    queries.push(`version=${selectedVersion.value}`)
   }
+  let query = queries.join('&')
+  if (query) { query = '?' + query }
 
   window.history.pushState('', '', `${url}${query}`)
 }
 
 function applyURLFilters () {
+  const route = vm.proxy.$route
   if (typeof route.query.q === 'string') {
     q.value = route.query.q
   }
