@@ -16,4 +16,4 @@ maintainers:
 compatibility:
   2.x: working
   2.x-bridge: working
-  3.x: wip
+  3.x: working
