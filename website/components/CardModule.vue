@@ -146,7 +146,7 @@
 
 <script setup lang="ts">
 import { numberFormatter } from '~/utils/format'
-import { CATEGORIES_ICONS } from '~/composables/constants'
+import { CATEGORIES } from '~/composables/constants'
 
 defineProps({
   mod: {
@@ -176,8 +176,8 @@ function iconUrl ({ icon }) {
   }
 }
 
-function iconPlaceholder ({ category }) {
-  return CATEGORIES_ICONS[category] || 'i-carbon-circle-dash'
+function iconPlaceholder ({ category: categoryKey }) {
+  return CATEGORIES.find(category => category.key === categoryKey)?.icon || 'i-carbon-circle-dash'
 }
 
 function npmUrl ({ npm }) {

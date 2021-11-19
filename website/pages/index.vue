@@ -172,7 +172,7 @@
 import LazyHydrate from 'vue-lazy-hydration'
 import Fuse from 'fuse.js/dist/fuse.basic.esm'
 import { isMobile } from '~/utils/detectUserAgent.ts'
-import { CATEGORIES_ICONS, FIELDS, MODULE_INCREMENT_LOADING, ORDERS, VERSIONS } from '~/composables/constants'
+import { CATEGORIES, FIELDS, MODULE_INCREMENT_LOADING, ORDERS, VERSIONS } from '~/composables/constants'
 import { fetchModules } from '~/composables/fetch'
 
 const sort = (a, b, asc) => asc ? a - b : b - a
@@ -208,7 +208,7 @@ export default {
       selectedCategory: null,
       selectedVersion: null,
       moduleLoaded: MODULE_INCREMENT_LOADING,
-      CATEGORIES_ICONS,
+      categoriesList: CATEGORIES,
       versionsList: VERSIONS
     }
   },
@@ -224,18 +224,6 @@ export default {
       if (this.q) { nbFilters++ }
 
       return nbFilters
-    },
-    categoriesList () {
-      const categoriesList = []
-      for (const [key, icon] of Object.entries(CATEGORIES_ICONS)) {
-        categoriesList.push({
-          key,
-          icon,
-          label: key
-        })
-      }
-
-      return categoriesList
     },
     filteredModules () {
       let modules = this.modules
