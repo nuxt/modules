@@ -334,7 +334,7 @@ export default {
     },
     focusSearchInput () {
       this.$refs.theSearch?.$refs.searchModuleInput?.focus()
-    },
+    }
   }
 }
 </script>
