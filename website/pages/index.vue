@@ -132,14 +132,6 @@ const sort = (a, b, asc) => asc ? a - b : b - a
 
 export default {
   components: { LazyHydrate },
-  directives: {
-    focus: {
-      // directive definition
-      inserted (el) {
-        el?.focus()
-      }
-    }
-  },
   async asyncData () {
     return await fetchModules()
   },
