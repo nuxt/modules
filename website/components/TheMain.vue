@@ -66,7 +66,7 @@
           <template
             v-if="displayFiltersBlock"
           >
-            <div>Filter{{ nbFiltersApplied > 1 ? 's' : '' }}</div>
+            <div>Filter{{ filtersCount > 1 ? 's' : '' }}</div>
             <FilterLabel v-if="selectedVersion" @close="selectedVersion = null">
               {{ getVersionFromKey(selectedVersion).label }}
             </FilterLabel>
@@ -82,7 +82,7 @@
               @click.prevent="clearFilters"
             >
               <UnoIcon class="i-carbon-filter-remove" />
-              Clear filter{{ nbFiltersApplied > 1 ? 's' : '' }}
+              Clear filter{{ filtersCount > 1 ? 's' : '' }}
             </a>
           </template>
         </div>
@@ -123,7 +123,7 @@
 
 <script setup lang="ts">
 import LazyHydrate from 'vue-lazy-hydration'
-import Fuse from 'fuse.js/dist/fuse.basic.esm'
+import Fuse from 'fuse.js'
 import { isMobile } from '~/utils/detectUserAgent'
 import { CATEGORIES_ICONS, MODULE_INCREMENT_LOADING, VERSIONS } from '~/composables/constants'
 import type { ModulesData } from '~/composables/fetch'
@@ -144,38 +144,42 @@ const sortBy = ref('desc')
 const selectedVersion = ref<string | null>()
 const selectedCategory = ref<string | null>()
 const moduleLoaded = ref(MODULE_INCREMENT_LOADING)
+const fuseOptions = {
+  threshold: 0.1,
+  keys: [
+    'name',
+    'npm',
+    'category',
+    'maintainers.name',
+    'maintainers.github',
+    'description',
+    'repo',
+    'tags'
+  ]
+}
+const fuseIndex = Fuse.createIndex(fuseOptions.keys, props.state.modules)
+const fuse = new Fuse(props.state.modules, fuseOptions, fuseIndex)
 
-const displayFiltersBlock = computed(() => {
-  return selectedCategory.value || q.value || selectedVersion.value
-})
+const displayFiltersBlock = computed(() => selectedCategory.value || q.value || selectedVersion.value)
 
-const nbFiltersApplied = computed(() => {
-  let nbFilters = 0
-
-  if (selectedCategory.value) { nbFilters++ }
-  if (selectedVersion.value) { nbFilters++ }
-  if (q.value) { nbFilters++ }
-
-  return nbFilters
+const filtersCount = computed(() => {
+  let count = 0
+  if (selectedCategory.value) { count++ }
+  if (selectedVersion.value) { count++ }
+  if (q.value) { count++ }
+  return count
 })
 
 const categoriesList = computed(() => {
-  const categoriesList = []
-  for (const [key, icon] of Object.entries(CATEGORIES_ICONS)) {
-    categoriesList.push({
-      key,
-      icon,
-      label: key
-    })
-  }
-
-  return categoriesList
+  return Object
+    .entries(CATEGORIES_ICONS)
+    .map(([key, icon]) => ({ key, icon, label: key }))
 })
 
 const filteredModules = computed(() => {
   let modules = props.state.modules
   if (q.value) {
-    modules = fuse.value.search(q.value).map(r => r.item)
+    modules = fuse.search(q.value).map(r => r.item)
   } else {
     // Sort only if no search
     modules.sort((a, b) => sort(a[orderBy.value], b[orderBy.value], sortBy.value === 'asc'))
@@ -196,40 +200,11 @@ const pageFilteredModules = computed(() => {
 watch([q, orderBy, sortBy, selectedVersion, selectedCategory], syncURL, { deep: true })
 watch(() => vm.proxy.$route, applyURLFilters)
 
-const fuse = ref<Fuse>()
-
-onMounted(() => {
-  const fuseOptions = {
-    threshold: 0.1,
-    keys: [
-      'name',
-      'npm',
-      'category',
-      'maintainers.name',
-      'maintainers.github',
-      'description',
-      'repo',
-      'tags'
-    ]
-  }
-  const index = Fuse.createIndex(fuseOptions.keys, props.state.modules)
-  fuse.value = new Fuse(props.state.modules, fuseOptions, index)
-
-  applyURLFilters()
-
-  // In case of desktop, auto focus the search input
-  if (!isMobile()) {
-    focusSearchInput()
-  }
-})
-
-useEventListener('keypress', searchFocusListener)
-
 function getVersionFromKey (key: string) {
   const version = VERSIONS.find(version => version.key === key)
-
   return version
 }
+
 function toggleCategory (category) {
   if (selectedCategory.value === category) {
     selectedCategory.value = null
@@ -237,6 +212,7 @@ function toggleCategory (category) {
   }
   selectedCategory.value = category
 }
+
 function toggleVersion (version) {
   if (selectedVersion.value === version) {
     selectedVersion.value = null
@@ -262,19 +238,15 @@ function syncURL () {
   if (q.value) {
     query += `?q=${q.value}`
   }
-
   if (orderBy.value !== 'downloads') {
     query += `${query ? '&' : '?'}orderBy=${orderBy.value}`
   }
-
   if (sortBy.value !== 'desc') {
     query += `${query ? '&' : '?'}sortBy=${sortBy.value}`
   }
-
   if (selectedCategory.value) {
     query += `${query ? '&' : '?'}category=${selectedCategory.value}`
   }
-
   if (selectedVersion.value) {
     query += `${query ? '&' : '?'}version=${selectedVersion.value}`
   }
@@ -306,15 +278,24 @@ function intersectedModulesLoading () {
 function resetModuleLoaded () {
   moduleLoaded.value = MODULE_INCREMENT_LOADING
 }
-function searchFocusListener (event) {
-  // Add `/` shortcut for search input only if not already focused
-  if (event.keyCode === 47 && !(event.target instanceof HTMLInputElement)) {
-    event.preventDefault()
-    focusSearchInput()
-  }
-}
-
 function focusSearchInput () {
   searchEl.value?.$refs.searchModuleInput?.focus()
 }
+
+onMounted(() => {
+  useEventListener('keypress', (event) => {
+    // Add `/` shortcut for search input only if not already focused
+    if (event.key === '/' && !(event.target instanceof HTMLInputElement)) {
+      event.preventDefault()
+      focusSearchInput()
+    }
+  })
+
+  applyURLFilters()
+
+  // In case of desktop, auto focus the search input
+  if (!isMobile()) {
+    focusSearchInput()
+  }
+})
 </script>

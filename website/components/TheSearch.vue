@@ -35,9 +35,9 @@
 
 <script setup lang="ts">
 const props = defineProps<{ search: string }>()
-const emit = defineEmits<{ }>()
+const emit = defineEmits<{(e: 'update:search', v: string): void }>()
 
-const searchModel = computed({
+const searchModel = computed<string>({
   get () {
     return props.search
   },
@@ -53,7 +53,6 @@ const toggleNext = {
 }
 
 const vm = getCurrentInstance().proxy
-
 function toggleDarkMode () {
   vm.$colorMode.preference = toggleNext[vm.$colorMode.preference] || 'system'
 }

@@ -56,7 +56,7 @@
 import { ORDER_BY_FIELDS } from '~/composables/constants'
 
 const props = defineProps<{ sortBy: string, orderBy: string }>()
-const emit = defineEmits<{ }>()
+const emit = defineEmits<{(...args:any[]): void }>()
 
 const displayOrderByMenu = ref<boolean>(false)
 

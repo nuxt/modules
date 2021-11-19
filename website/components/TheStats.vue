@@ -27,7 +27,7 @@
         <dd
           class="text-4xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
         >
-          {{ numberFormat(downloadsTotal) }}
+          {{ numberFormatter(downloadsTotal) }}
         </dd>
         <dt
           class="font-medium leading-6 text-sm sm:mt-2 sm:text-sm sm:capitalize"
@@ -56,15 +56,12 @@
 </template>
 
 <script setup lang="ts">
-import { numberFormatter } from '~/utils/format.ts'
+import { numberFormatter } from '~/utils/format'
+import { ModuleInfo } from '~/../types'
 
-const props = defineProps<{
-  modules: Array,
-  maintainersTotal: Number,
-  downloadsTotal: Number
+defineProps<{
+  modules: ModuleInfo[],
+  maintainersTotal: number,
+  downloadsTotal: number
 }>()
-
-const numberFormat = (num: number, options = { precision: 1 }) => {
-  return numberFormatter(num, options)
-}
 </script>
