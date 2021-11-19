@@ -55,28 +55,16 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
 import { numberFormatter } from '~/utils/format.ts'
 
-export default defineComponent({
-  props: {
-    modules: {
-      type: Array,
-      required: true
-    },
-    maintainersTotal: {
-      type: Number,
-      required: true
-    },
-    downloadsTotal: {
-      type: Number,
-      required: true
-    }
-  },
-  methods: {
-    numberFormat (num, options = { precision: 1 }) {
-      return numberFormatter(num, options)
-    }
-  }
-})
+const props = defineProps<{
+  modules: Array,
+  maintainersTotal: Number,
+  downloadsTotal: Number
+}>()
+
+const numberFormat = (num: number, options = { precision: 1 }) => {
+  return numberFormatter(num, options)
+}
 </script>
