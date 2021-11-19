@@ -147,17 +147,20 @@
 <script setup lang="ts">
 import { numberFormatter } from '~/utils/format'
 import { CATEGORIES_ICONS } from '~/composables/constants'
+import { ModuleInfo, CompatibilityStatus, MaintainerInfo } from '~/../types'
 
-defineProps({
-  mod: {
-    type: Object,
-    required: true
-  }
-})
+defineProps<{ mod: ModuleInfo }>()
 
 const coverError = ref(false)
 
-const statusMap = {
+interface CompatibilityData {
+  statusText: string
+  icon: string | null
+  color: string
+  class?: string
+}
+
+const statusMap: Record<CompatibilityStatus, CompatibilityData> = {
   working: { statusText: 'Working', icon: 'i-carbon-checkmark', color: '#1aa346' },
   wip: { statusText: 'Work in progress', icon: 'i-carbon-time', color: '#c4930a' },
   unknown: { statusText: 'Unknown', icon: 'i-carbon-help', color: '#61626c', class: 'opacity-85' },
@@ -166,44 +169,25 @@ const statusMap = {
 
 const tooltipClass = 'bg-secondary-dark text-white px-2 py-1 m-1 rounded text-sm shadow'
 
-function numberFormat (num, options = { precision: 1 }) {
+function numberFormat (num: number, options = { precision: 1 }) {
   return numberFormatter(num, options)
 }
 
-function iconUrl ({ icon }) {
+function iconUrl ({ icon }: ModuleInfo) {
   if (icon) {
     return `/icons/${icon}`
   }
 }
 
-function iconPlaceholder ({ category }) {
+function iconPlaceholder ({ category }: ModuleInfo) {
   return CATEGORIES_ICONS[category] || 'i-carbon-circle-dash'
 }
 
-function npmUrl ({ npm }) {
+function npmUrl ({ npm }: ModuleInfo) {
   return `https://npmjs.com/package/${npm}`
 }
 
-function githubUrl ({ github }) {
+function githubUrl ({ github }: MaintainerInfo) {
   return `https://github.com/${github}`
 }
 </script>
-
-<style scoped>
-.stats-block {
-  & img {
-    filter: grayscale(100%);
-    &.icon {
-      filter: grayscale(100%) contrast(0%);
-    }
-  }
-  &:hover {
-    & img {
-      filter: none;
-      &.icon {
-        filter: none;
-      }
-    }
-  }
-}
-</style>
