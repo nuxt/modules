@@ -11,7 +11,6 @@
           type="button"
           :aria-label="`change sort`"
           class="flex items-center justify-center w-full p-1 px-2 hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none hover:border-grey-light"
-          :class="orderByButtonClass"
           @click="toggleOrderByMenu"
         >
           {{ currentOrderByLabel }}
@@ -60,8 +59,6 @@ const props = defineProps<{ sortBy: string, orderBy: string }>()
 const emit = defineEmits<{ }>()
 
 const displayOrderByMenu = ref<boolean>(false)
-
-const orderByButtonClass = computed<string>(() => displayOrderByMenu.value ? 'rounded-bl-none border-b-grey-light' : '')
 
 const currentOrderByLabel = computed<string>(() => ORDER_BY_FIELDS[props.orderBy])
 
