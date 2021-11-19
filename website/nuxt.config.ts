@@ -27,6 +27,10 @@ export default defineNuxtConfig({
       { hid: 'twitter:description', name: 'twitter:description', content: description },
       { hid: 'twitter:image', name: 'twitter:image', content: `${url}/preview.png` },
       { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: title }
+    ],
+    link: [
+      { hid: 'favicon', rel: 'icon', type: 'image/png', href: '/icon.png' },
+      { hid: 'search', rel: 'search', type: 'application/opensearchdescription+xml', href: '/search.xml', title: 'Nuxt Modules' }
     ]
   },
   components: true,
