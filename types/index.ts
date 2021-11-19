@@ -26,4 +26,5 @@ export interface ModuleInfo {
   // externals
   downloads?: number
   tags?: string[]
+  stars?: number
 }

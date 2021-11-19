@@ -47,28 +47,11 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'FilterButtons',
-  props: {
-    title: {
-      type: String,
-      default: 'Title'
-    },
-    subtitle: {
-      type: String,
-      default: ''
-    },
-    items: {
-      type: Array,
-      default () {
-        return []
-      }
-    },
-    selectedItem: {
-      type: String,
-      default: ''
-    }
-  }
-}
+<script setup lang="ts">
+const props = defineProps<{
+  title: String,
+  subtitle?: String,
+  items: Array<{}>,
+  selectedItem: String
+}>()
 </script>
