@@ -93,60 +93,13 @@
             <span class="font-black text-2xl">{{ filteredModules.length }}</span>
             module{{ filteredModules.length > 1 ? 's' : '' }} found
           </div>
-          <div>
-            <div v-show="!q" class="flex items-center text-forest-night">
-              <label
-                for="options-menu"
-                class="mr-3"
-                @click="sortByMenuVisible = !sortByMenuVisible"
-              >Sort by</label>
-              <div class="flex border border-gray-400/20 rounded-md">
-                <div class="relative w-28 my-auto">
-                  <button
-                    type="button"
-                    :aria-label="`change sort`"
-                    class="flex items-center justify-center w-full p-1 px-2 hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none hover:border-grey-light"
-                    :class="sortByBtnClass"
-                    @click="sortByMenuVisible = !sortByMenuVisible"
-                  >
-                    {{ sortByComp.label }}
-                  </button>
-                  <div
-                    v-show="sortByMenuVisible"
-                    class="absolute left-0 z-10 origin-top-right rounded-b-md shadow-lg border border-gray-400/20 shadow-xs bg-white dark:bg-secondary-darkest"
-                  >
-                    <div
-                      id="options-menu"
-                      role="menu"
-                      aria-orientation="vertical"
-                      aria-labelledby="options-menu"
-                    >
-                      <button
-                        v-for="(option, key) in sortByOptions"
-                        :key="key"
-                        type="button"
-                        :aria-label="`sort by ${key}`"
-                        class="flex items-center justify-center p-1 px-2 w-28 hover:bg-cloudy-grey focus:text-grey-darkest text-forest-night focus:outline-none rounded-b-md"
-                        @click="selectSortBy(key)"
-                      >
-                        {{ option.label }}
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div class="relative">
-                  <button
-                    type="button"
-                    :aria-label="orderBy === 'asc' ? 'sort ascending' : 'sort descending'"
-                    class="flex items-center p-2 hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none rounded-r-md"
-                    @click="toggleOrderBy"
-                  >
-                    <UnoIcon :class="orderBy === 'asc' ? 'i-carbon-sort-ascending' : 'i-carbon-sort-descending'" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+          <TheOrderBy
+            v-show="!q"
+            :order-by="orderBy"
+            :sort-by="sortBy"
+            @update:order-by="v=>orderBy=v"
+            @update:sort-by="v=>sortBy=v"
+          />
         </div>
 
         <div
@@ -172,19 +125,10 @@
 import LazyHydrate from 'vue-lazy-hydration'
 import Fuse from 'fuse.js/dist/fuse.basic.esm'
 import { isMobile } from '~/utils/detectUserAgent.ts'
-import { CATEGORIES_ICONS, FIELDS, MODULE_INCREMENT_LOADING, ORDERS, VERSIONS } from '~/composables/constants'
+import { CATEGORIES_ICONS, MODULE_INCREMENT_LOADING, VERSIONS } from '~/composables/constants'
 import { fetchModules } from '~/composables/fetch'
 
 const sort = (a, b, asc) => asc ? a - b : b - a
-
-const sortFields = {
-  [FIELDS.DOWNLOADS]: {
-    label: 'Downloads'
-  },
-  [FIELDS.STARS]: {
-    label: 'Stars'
-  }
-}
 
 export default {
   components: { LazyHydrate },
@@ -202,9 +146,8 @@ export default {
   data () {
     return {
       q: '',
-      orderBy: ORDERS.DESC,
-      sortBy: 'downloads',
-      sortByMenuVisible: false,
+      orderBy: 'downloads',
+      sortBy: 'desc',
       selectedCategory: null,
       selectedVersion: null,
       moduleLoaded: MODULE_INCREMENT_LOADING,
@@ -243,7 +186,7 @@ export default {
         modules = this.fuse.search(this.q).map(r => r.item)
       } else {
         // Sort only if no search
-        modules.sort((a, b) => sort(a[this.sortBy], b[this.sortBy], this.orderBy === ORDERS.ASC))
+        modules.sort((a, b) => sort(a[this.orderBy], b[this.orderBy], this.sortBy === 'asc'))
       }
       if (this.selectedCategory) {
         modules = modules.filter(module => module.category === this.selectedCategory)
@@ -257,25 +200,6 @@ export default {
     pageFilteredModules () {
       const filteredModules = Object.assign([], this.filteredModules)
       return filteredModules.splice(0, this.moduleLoaded)
-    },
-    sortByComp () {
-      return sortFields[this.sortBy]
-    },
-    sortByOptions () {
-      const options = {}
-
-      for (const key in sortFields) {
-        if (key === this.sortBy) { continue }
-
-        options[key] = {
-          ...sortFields[key]
-        }
-      }
-
-      return options
-    },
-    sortByBtnClass () {
-      return this.sortByMenuVisible ? 'rounded-bl-none border-b-grey-light' : ''
     }
   },
   watch: {
@@ -363,11 +287,11 @@ export default {
         query += `?q=${this.q}`
       }
 
-      if (this.orderBy !== ORDERS.DESC) {
+      if (this.orderBy !== 'downloads') {
         query += `${query ? '&' : '?'}orderBy=${this.orderBy}`
       }
 
-      if (this.sortBy !== FIELDS.DOWNLOADS) {
+      if (this.sortBy !== 'desc') {
         query += `${query ? '&' : '?'}sortBy=${this.sortBy}`
       }
 
@@ -403,13 +327,6 @@ export default {
         this.toggleVersion(version)
       }
     },
-    toggleOrderBy () {
-      this.orderBy = (this.orderBy === ORDERS.ASC) ? ORDERS.DESC : ORDERS.ASC
-    },
-    selectSortBy (field) {
-      this.sortBy = field
-      this.sortByMenuVisible = false
-    },
     intersectedModulesLoading () {
       this.moduleLoaded += MODULE_INCREMENT_LOADING
     },
@@ -425,7 +342,7 @@ export default {
     },
     focusSearchInput () {
       this.$refs.theSearch?.$refs.searchModuleInput?.focus()
-    }
+    },
   }
 }
 </script>

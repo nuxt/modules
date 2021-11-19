@@ -26,14 +26,9 @@ export const VERSIONS = [
   { key: '2.x', label: 'Nuxt 2.x', icon: 'iconNuxt2' }
 ]
 
-export const ORDERS = {
-  DESC: 'desc',
-  ASC: 'asc'
-}
-
-export const FIELDS = {
-  DOWNLOADS: 'downloads',
-  STARS: 'stars'
+export const ORDER_BY_FIELDS = {
+  downloads: 'Downloads',
+  stars: 'Stars'
 }
 
 export const MODULE_INCREMENT_LOADING = 12
