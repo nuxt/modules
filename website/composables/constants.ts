@@ -29,7 +29,8 @@ export const VERSIONS = [
 export const ORDER_BY_FIELDS = {
   downloads: 'Downloads',
   stars: 'Stars',
-  updatedAt: 'Updated'
+  publishedAt: 'Updated',
+  createdAt: 'Created'
 }
 
 export const MODULE_INCREMENT_LOADING = 12

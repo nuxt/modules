@@ -27,5 +27,6 @@ export interface ModuleInfo {
   downloads?: number
   tags?: string[]
   stars?: number
-  updatedAt?: number
+  publishedAt?: number
+  createdAt?: number
 }

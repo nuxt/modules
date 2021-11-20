@@ -22,11 +22,13 @@ async function fetchModuleStats (module: ModuleInfo) {
     ])
     module.downloads = npm.downloads.lastMonth
     module.stars = github.stars
-    module.publishedAt= +new Date(npm.publishedAt || undefined)
+    module.publishedAt = +new Date(npm.publishedAt || undefined)
+    module.createdAt = +new Date(npm.createdAt || undefined)
   } else {
     module.downloads = rand(0, 500)
     module.stars = rand(0, 2000)
-    module.updatedAt = rand(1_600_000_000_000, 1_630_000_000_000)
+    module.publishedAt = rand(1_600_000_000_000, 1_630_000_000_000)
+    module.createdAt = rand(1_600_000_000_000, 1_630_000_000_000)
   }
   return module
 }
