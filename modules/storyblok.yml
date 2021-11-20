@@ -1,7 +1,7 @@
 name: storyblok
 description: Storyblok Nuxt.js module
-repo: storyblok/storyblok-nuxt
-npm: storyblok-nuxt
+repo: storyblok/storyblok-nuxt#master/lib
+npm: '@storyblok/nuxt'
 icon: storyblok.png
 github: https://github.com/storyblok/storyblok-nuxt
 website: https://github.com/storyblok/storyblok-nuxt

@@ -1,7 +1,7 @@
 name: adyen
 description: Adyen Payment Module for Nuxt.js
 repo: baroshem/nuxt-adyen-module
-npm: 'nuxt-adyen-module'
+npm: nuxt-adyen-module
 icon: adyen.svg
 github: https://github.com/baroshem/nuxt-adyen-module
 website: https://www.npmjs.com/package/nuxt-adyen-module

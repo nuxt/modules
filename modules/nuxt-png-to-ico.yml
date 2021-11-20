@@ -5,10 +5,14 @@ npm: nuxt-png-to-ico
 icon: ''
 github: https://github.com/b5710546232/nuxt-png-to-ico
 website: https://github.com/b5710546232/nuxt-png-to-ico
-learn_more: 'https://github.com/steambap/png-to-ico'
-category: 'Devtools'
+learn_more: https://github.com/steambap/png-to-ico
+category: Devtools
 type: 3rd-party
 maintainers:
   - name: b5710546232
     github: b5710546232
     avatar: https://avatars.githubusercontent.com/u/11013287?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

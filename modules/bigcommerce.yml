@@ -1,7 +1,7 @@
 name: bigcommerce
 description: Easy BigCommerce integration for Nuxt.js
 repo: baroshem/nuxt-bigcommerce
-npm: 'nuxt-bigcommerce'
+npm: nuxt-bigcommerce
 icon: bigcommerce.svg
 github: https://github.com/baroshem/nuxt-bigcommerce
 website: https://nuxt-bigcommerce.vercel.app/
