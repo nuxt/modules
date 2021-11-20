@@ -1,16 +1,69 @@
-[![nuxt/modules](https://modules.nuxtjs.org/preview.png)](https://modules.nuxtjs.org)
-
-> Official and community [Nuxt](https://nuxtjs.org) modules united on [modules.nuxtjs.org](https://modules.nuxtjs.org)
-
 # Nuxt Modules
 
 [![automated](https://flat.badgen.net/badge/publish/automated/green)](#)
 [![npm version](https://flat.badgen.net/npm/v/@nuxt/modules)](https://www.npmjs.com/package/@nuxt/modules)
 
-## Contributing
+> Discover Nuxt modules to supercharge your project! Created by the Nuxt team and community.
+
+👉 https://modules.nuxtjs.org
+
+## Modules Database
+
+Metadata of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/YAML) files inside [./modules](./modules) directory and automatically synced from upstream to fetch latest information.
+
+### Contribution
 
 - If you feel a module is missing, please create a new [issue](https://github.com/nuxt/modules/issues/new)
-- If some meta is wrong, feel free directly opening a pull request
+- If some data is outdated please directly open a pull request
+
+### Using CDN
+
+Compiled JSON data is available from following CDNs:
+
+- **jsdelivr:**: https://cdn.jsdelivr.net/npm/@nuxt/modules@latest/modules.json
+- **unpkg:** https://unpkg.com/@nuxt/modules@latest/modules.json
+
+### Using npm package
+
+You can use the `@nuxt/modules` package by installing it in your project:
+
+```bash
+# npm
+npm install @nuxt/modules
+
+# yarn
+yarn add @nuxt/modules
+```
+
+Then you can directly import the list of modules:
+
+```js
+// ESM
+import modules from '@nuxt/modules'
+
+// CommonJS
+const modules = require('@nuxt/modules')
+```
+
+### Schema
+
+Field Name      | Auto sync | Description
+----------------|-----------|--------------
+`name`          | No        | Canonical name or integration name
+`description`   | Yes       | Short description
+`repo`          | No        | Github repository. Format is `org/name` or `org/name#main/path`
+`npm`           | Yes       | NPM package name
+`icon`          | No        | Icon of module from [./website/static/icons](./website/static/icons) directory
+`github`        | No        | Github URL
+`website`       | No        | Website URL
+`learn_more`    | No        | Link to learn more (website or relevant integration website)
+`category`      | No        | Module category from [./lib/categories.json](./lib/categories.json)
+`type`          | No        | `community` (for [nuxt-community](https://github.com/nuxt-community/)), `official` (for https://github.com/) or `3rd-party`
+`maintainers`   | Yes       | List of maintainers each item has `name`, `github` and `avatar`
+`compatibility` | No        | Module compatibility status. Valid keys are `2.x`, `2.x-bridge` and `3.x` and valid values are `working`, `wip`, `unknown`, `not-working`. Please see [this discussion](https://github.com/nuxt/framework/discussions/751) for more information.
+
+
+## Maintenance
 
 ### Add or update repository
 
@@ -28,64 +81,27 @@ To sync with a branch different than `master`, suffix the repo with `#repo-branc
 yarn sync
 ```
 
-### Generate `dist/module.json`
+### Generate `npm/modules.json`
 
-```
+```sh
 yarn build
 ```
 
-## Module Usage
+## Website development
 
-You can use the `@nuxt/modules` package by installing it in your project:
+- Clone repository
+- Install website depenedencies using `npx yarn install`
 
-```bash
-npm install @nuxt/modules
-# Or yarn add @nuxt/modules
-```
-
-Then you can directly import the list of modules:
-
-```js
-const modules = require('@nuxt/modules')
-// modules is an array of objects
-// See https://unpkg.com/@nuxt/modules/dist/modules.json
-```
-
-## Website
-
-### Development
-
-Start Nuxt in development:
+Start development:
 
 ```bash
-yarn dev
+npx yarn dev
 ```
 
-Then visit http://localhost:3000.
+Then visit http://localhost:3000
 
-In development, the npm downloads and GitHub stars will be mocked.
-
-### Production
-
-Create a [personnal GitHub token](https://github.com/settings/tokens) (no scope selected) and add it to `.env`:
-
-```bash
-# .env
-GITHUB_TOKEN=<my-generated-github-token>
-```
-
-Generate the website:
-
-```
-yarn generate
-```
-
-Start the production website:
-
-```bash
-yarn start
-```
+In the development, the npm downloads and GitHub stars will be mocked unless setting `USE_NUXT_API` variable.
 
 ## License
 
-MIT Nuxt.js Team
+[MIT](./LICENSE) - Made by Nuxt Team

@@ -11,4 +11,7 @@ type: 3rd-party
 maintainers:
   - name: mmoollllee
     github: mmoollllee
-    avatar: https://avatars1.githubusercontent.com/u/26859300?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

@@ -11,4 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Nicolas Perraut
     github: tuarrep
-    avatar: https://avatars.githubusercontent.com/u/6941014?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: wip
+  3.x: wip

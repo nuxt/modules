@@ -1,8 +1,15 @@
 {
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "extends": [
-    "@nuxtjs/eslint-config-typescript"
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:nuxt/recommended"
   ],
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    // handled by Volar
+    "@typescript-eslint/no-unused-vars": "off"
   }
 }

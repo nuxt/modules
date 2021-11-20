@@ -1,0 +1,21 @@
+name: apis-to-file
+description: >-
+  Build module to merge and transform multiple API and GraphQL requests into a
+  single one and loaded only when needed, like a payload extractor
+repo: Luxdamore/nuxt-apis-to-file
+npm: '@luxdamore/nuxt-apis-to-file'
+icon: ''
+github: https://github.com/LuXDAmore/nuxt-apis-to-file
+website: https://luxdamore.github.io/nuxt-apis-to-file/
+learn_more: ''
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: Luca Iaconelli
+    github: LuXDAmore
+    twitter: luxdamore
+    avatar: https://avatars0.githubusercontent.com/u/3841171?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

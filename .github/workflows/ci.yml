@@ -50,11 +50,19 @@ jobs:
       - name: Build
         run: yarn build
 
+      - uses: dorny/paths-filter@v2
+        id: changes
+        with:
+          filters: |
+            modules:
+              - 'modules/**'
+              - 'lib/**'
+
       - name: Release
-        if: github.event_name == 'push'
+        if: github.event_name == 'push' && steps.changes.outputs.modules == 'true'
         run: |
           echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
           echo "//registry.yarnpkg.com/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
-          yarn release || true
+          yarn release
         env:
           NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}

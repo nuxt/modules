@@ -12,4 +12,7 @@ maintainers:
   - name: Florent GIRAUD
     github: f3ltron
     twitter: giraud_florent
-    avatar: https://avatars.githubusercontent.com/u/11556276?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

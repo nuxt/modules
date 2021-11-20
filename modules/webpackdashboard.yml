@@ -13,4 +13,7 @@ type: 3rd-party
 maintainers:
   - name: paulgv
     github: paulgv
-    avatar: https://avatars0.githubusercontent.com/u/4895885?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

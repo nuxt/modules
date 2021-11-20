@@ -1,31 +1,18 @@
 {
+  "extends": "./website/.nuxt/tsconfig.json",
   "compilerOptions": {
-    "target": "ES2018",
-    "moduleResolution": "Node",
-    "lib": [
-      "ESNext",
-      "ESNext.AsyncIterable",
-      "DOM"
-    ],
+    "target": "ESNext",
     "esModuleInterop": true,
+    "strict": false,
+    "noImplicitAny": false,
     "allowJs": true,
-    "sourceMap": true,
-    "noEmit": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": [
-        "./*"
-      ],
-      "@/*": [
-        "./*"
-      ]
-    },
-    "types": [
-      "@types/node",
-      "@nuxt/types"
-    ]
+    "moduleResolution": "node",
+    "resolveJsonModule": true
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "vueCompilerOptions": {
+    "experimentalCompatMode": 2,
+    "experimentalTemplateCompilerOptions": {
+      "compatConfig": { "MODE": 2 } // optional
+    }
+  }
 }

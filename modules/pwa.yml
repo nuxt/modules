@@ -1,7 +1,7 @@
 name: pwa
 description: >-
   Easily build a Progressive Web App for your Nuxt.js application to improve
-  your apps performance.
+  your app's performance.
 repo: nuxt-community/pwa-module
 npm: '@nuxtjs/pwa'
 icon: pwa.png
@@ -14,4 +14,7 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: working
+  3.x: wip

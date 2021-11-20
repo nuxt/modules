@@ -11,4 +11,7 @@ type: community
 maintainers:
   - name: Pim
     github: pimlie
-    avatar: https://avatars3.githubusercontent.com/u/1067403?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

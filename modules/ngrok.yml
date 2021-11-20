@@ -14,8 +14,10 @@ maintainers:
   - name: Debbie O'Brien
     github: debs-obrien
     twitter: debs_obrien
-    avatar: https://avatars2.githubusercontent.com/u/13063165?v=4
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown
