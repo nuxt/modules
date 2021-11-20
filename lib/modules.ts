@@ -3,12 +3,12 @@ import { promises as fsp, existsSync } from 'fs'
 import * as yml from 'js-yaml'
 import { globby } from 'globby'
 import defu from 'defu'
-import categories from '../npm/categories.json'
-import { ModuleInfo } from '../types'
+import { categories } from './categories'
+import { ModuleInfo } from './types'
 import { fetchGithubPkg, modulesDir, distDir, distFile } from './utils'
 
 export async function sync (name, repo?: string, isNew: boolean = false) {
-  const module = await getModule(name) as ModuleInfo
+  const module = await getModule(name)
 
   // Repo
   if (repo) {
@@ -75,7 +75,9 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     'category',
     'type',
     'maintainers',
-    'compatibility'
+    'compatibility',
+    'compatibility2',
+    'compatibility_old'
   ]
   const invalidFields = []
   for (const key in module) {
@@ -117,14 +119,16 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     module.description = pkg.description
   }
 
+  // Compatibility
+
   // Write module
   await writeModule(module)
 
   return module
 }
 
-export async function getModule (name) {
-  let module = {
+export async function getModule (name): Promise<ModuleInfo> {
+  let module: ModuleInfo = {
     name,
     description: '',
     repo: '', // nuxt/example
@@ -133,13 +137,12 @@ export async function getModule (name) {
     github: '', // github link
     website: '',
     learn_more: '',
-    category: '', // see modules/_categories.json
-    type: '', // official, community, 3rd-party
+    category: 'Devtools', // see modules/_categories.json
+    type: '3rd-party', // official, community, 3rd-party
     maintainers: [],
     compatibility: {
-      '2.x': 'working',
-      '2.x-bridge': 'unknown',
-      '3.x': 'unknown'
+      nuxt: '^2.0.0',
+      requires: {}
     }
   }
 

@@ -1,0 +1,39 @@
+import type { categories } from './categories'
+
+// TODO: Move to @nuxt/kit
+// TODO: Support version matrix
+export interface ModuleCompatibility {
+ nuxt: string
+ requires: { bridge?: boolean | 'optional' },
+}
+
+export interface MaintainerInfo {
+  name: string
+  github: string
+  twitter?: string
+}
+
+export type CompatibilityStatus = 'working' | 'wip' | 'unknown' | 'not-working'
+export type ModuleType = 'community' | 'official' | '3rd-party'
+
+export interface ModuleInfo {
+  name: string
+  description:string
+  repo: string
+  npm: string
+  icon?: string
+  github: string
+  website:string
+  learn_more: string
+  category: (typeof categories)[number]
+  type: ModuleType
+  maintainers: MaintainerInfo[]
+  compatibility: ModuleCompatibility
+
+  // Fetched in realtime API for modules.nuxt.org
+  downloads?: number
+  tags?: string[]
+  stars?: number
+  publishedAt?: number
+  createdAt?: number
+}
