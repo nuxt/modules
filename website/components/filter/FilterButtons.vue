@@ -20,7 +20,7 @@
         v-for="item of items"
         :key="item.key"
         type="button"
-        :aria-label="item"
+        :aria-label="item.label"
         class="
           px-4
           py-3
@@ -28,7 +28,6 @@
           text-sm text-left
           flex
           items-center
-          justify-between
           rounded-lg
           cursor-pointer
           nuxt-card-border
@@ -37,10 +36,12 @@
         "
         @click="$emit('toggle', item.key)"
       >
-        <slot name="icon" :icon="item.icon">
+        <slot name="icon" v-bind="item">
           <UnoIcon class="text-lg" :class="item.icon" />
         </slot>
-        <span class="flex-auto ml-3">{{ item.label }}</span>
+        <span class="ml-3">{{ item.label }}</span>
+        <slot name="badge" v-bind="item" />
+        <div class="flex-auto" />
         <UnoIcon v-if="selectedItem === item.key" class="text-lg i-carbon-checkmark" />
       </button>
     </div>
@@ -48,10 +49,17 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{
-  title: String,
-  subtitle?: String,
-  items: Array<{}>,
-  selectedItem: String
+
+interface Item {
+  key: string
+  label: string
+  icon?: string
+}
+
+defineProps<{
+  title: string,
+  subtitle?: string,
+  items: Item[],
+  selectedItem: string
 }>()
 </script>

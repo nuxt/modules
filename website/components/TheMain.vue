@@ -49,6 +49,11 @@
           <template #icon="{ icon }">
             <component :is="icon" class="h-6 w-6 mr-2 inline-block" />
           </template>
+          <template #badge="{ key }">
+            <div v-if="key!=='2.x'" class="ml-2 text-green-600 dark:text-green-400 border border-current bg-green-500/10 px-1.5 text-xs rounded-full">
+              Beta
+            </div>
+          </template>
         </FilterButtons>
 
         <!-- Categories -->
@@ -62,7 +67,7 @@
       <!-- Main -->
       <div class="col-span-4">
         <!-- Filter -->
-        <div class="h-10 -mt-5 flex items-center gap-1">
+        <div class="h-10 -mt-5 mb-2 flex items-center gap-1">
           <template
             v-if="displayFiltersBlock"
           >
