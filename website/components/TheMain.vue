@@ -47,10 +47,10 @@
           @toggle="toggleVersion"
         >
           <template #icon="{ icon }">
-            <component :is="icon" class="h-6 w-6 mr-2 inline-block" />
+            <component :is="icon" class="h-6 w-6 flex-none inline-block" />
           </template>
           <template #badge="{ key }">
-            <div v-if="key!=='2.x'" class="ml-2 text-green-600 dark:text-green-400 border border-current bg-green-500/10 px-1.5 text-xs rounded-full">
+            <div v-if="key!=='2.x'" class="hidden xl:block text-green-600 dark:text-green-400 border border-current bg-green-500/10 px-1.5 text-xs rounded-full">
               Beta
             </div>
           </template>

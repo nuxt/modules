@@ -26,7 +26,7 @@
           py-3
           mb-2
           text-sm text-left
-          flex
+          flex gap-2
           items-center
           rounded-lg
           cursor-pointer
@@ -39,10 +39,12 @@
         <slot name="icon" v-bind="item">
           <UnoIcon class="text-lg" :class="item.icon" />
         </slot>
-        <span class="ml-3">{{ item.label }}</span>
+        <div class="overflow-hidden truncate">
+          {{ item.label }}
+        </div>
         <slot name="badge" v-bind="item" />
         <div class="flex-auto" />
-        <UnoIcon v-if="selectedItem === item.key" class="text-lg i-carbon-checkmark" />
+        <UnoIcon v-if="selectedItem === item.key" class="flex-none i-carbon-checkmark" />
       </button>
     </div>
   </div>
