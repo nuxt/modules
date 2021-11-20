@@ -23,8 +23,10 @@ export interface ModuleInfo {
     '2.x-bridge': CompatibilityStatus
     '3.x': CompatibilityStatus
   }
-  // externals
+  // fetched runtime
   downloads?: number
   tags?: string[]
   stars?: number
+  publishedAt?: number
+  createdAt?: number
 }

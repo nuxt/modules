@@ -60,6 +60,6 @@ defineProps<{
   title: string,
   subtitle?: string,
   items: Item[],
-  selectedItem: string
+  selectedItem?: string | null
 }>()
 </script>
