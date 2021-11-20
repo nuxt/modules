@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 const props = defineProps<{ options?: {} }>()
-const emit = defineEmits<{}>()
+const emit = defineEmits<{(...args:any[]): void}>()
 
 const observer = ref<IntersectionObserver>(null)
 
