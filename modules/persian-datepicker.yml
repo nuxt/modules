@@ -1,8 +1,8 @@
-name: datepicker
+name: persian-datepicker
 description: A datepicker component for select date. (single and range selection, select date and time, select with keyboard, customizable style, localization)
 repo: alireza-ab/vue-persian-datepicker
 npm: '@alireza-ab/vue-persian-datepicker'
-icon: datepicker.svg
+icon: persian-datepicker.svg
 github: 'https://github.com/alireza-ab/vue-persian-datepicker'
 website: 'https://alireza-ab.ir/datepicker'
 learn_more: 'https://alireza-ab.ir/datepicker'
