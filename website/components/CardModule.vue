@@ -45,36 +45,18 @@
         </h2>
         <div class="flex gap-2 py-3 w-full flex-wrap">
           <div
-            v-for="[version, status] of Object.entries(mod.compatibility)"
-            :key="version"
-            v-tooltip="{
-              content: `${version}: ${statusMap[status].statusText}`,
-              classes: tooltipClass
-            }"
-            :style="{
-              color: statusMap[status].color,
-              background: statusMap[status].color + '20'
-            }"
-            :class="statusMap[status].class"
+            v-for="{ tag, tagText, supportText, color, cssClass } of useModuleComptatibility(mod)"
+            :key="tag"
+            v-tooltip="{ content: tagText + ': ' + supportText, classes: tooltipClass }"
+            :style="{ color: color, background: color + '20' }"
+            :class="cssClass"
             class="flex min-w-12 relative items-center gap-1 text-base rounded-lg px-2 py-1 z-50"
           >
-            <iconNuxt3
-              v-if="version === '3.x'"
-              class="h-5 w-5"
-              aria-hidden="true"
-            />
-            <iconNuxt2
-              v-if="version === '2.x'"
-              class="h-5 w-5"
-              aria-hidden="true"
-            />
-            <iconNuxtBridge
-              v-if="version === '2.x-bridge'"
-              class="h-5 w-5"
-              aria-hidden="true"
-            />
+            <iconNuxt3 v-if="tag === '3.x'" class="h-5 w-5" aria-hidden="true" />
+            <iconNuxt2 v-if="tag === '2.x'" class="h-5 w-5" aria-hidden="true" />
+            <iconNuxtBridge v-if="tag === '2.x-bridge'" class="h-5 w-5" aria-hidden="true" />
             <div class="-mb-0.5">
-              {{ version[0] }}
+              {{ tag[0] }}
             </div>
           </div>
         </div>
@@ -145,9 +127,9 @@
 </template>
 
 <script setup lang="ts">
+import { ModuleInfo, MaintainerInfo } from '~/../lib/types'
 import { numberFormatter } from '~/utils/format'
 import { CATEGORIES_ICONS } from '~/composables/constants'
-import { ModuleInfo, CompatibilityStatus, MaintainerInfo } from '~/../types'
 
 defineProps<{ mod: ModuleInfo }>()
 
@@ -160,11 +142,18 @@ interface CompatibilityData {
   class?: string
 }
 
-const statusMap: Record<CompatibilityStatus, CompatibilityData> = {
-  working: { statusText: 'Working', icon: 'i-carbon-checkmark', color: '#1aa346' },
-  wip: { statusText: 'Work in progress', icon: 'i-carbon-time', color: '#c4930a' },
-  unknown: { statusText: 'Unknown', icon: 'i-carbon-help', color: '#61626c', class: 'opacity-85' },
-  'not-working': { statusText: 'Not working', icon: null, color: '#61626c', class: 'opacity-50' }
+const tagMap = Object.fromEntries(VERSIONS.map(v => [v.key, { tagText: v.label }]))
+const supportMap = {
+  supported: { supportText: 'Supported', supportIcon: 'i-carbon-checkmark', color: '#1aa346', cssClass: '' },
+  notSupported: { supportText: 'Not supported', supportIcon: 'i-carbon-help', color: '#61626c', cssClass: 'opacity-85' },
+  wip: { supportText: 'Work in progress', supportIcon: 'i-carbon-time', color: '#c4930a', cssClass: '' }
+}
+const useModuleComptatibility = (mod: ModuleInfo) => {
+  return ['2.x', '2.x-bridge', '3.x'].map(tag => ({
+    tag,
+    ...tagMap[tag],
+    ...(mod.tags.includes(tag) ? supportMap.supported : supportMap.notSupported)
+  }))
 }
 
 const tooltipClass = 'bg-secondary-dark text-white px-2 py-1 m-1 rounded text-sm shadow'

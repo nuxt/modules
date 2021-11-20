@@ -1,4 +1,4 @@
-import { ModuleInfo } from '../../../types'
+import { ModuleInfo } from '../../../lib/types'
 
 export default async () => {
   const _modules = await import('../../../npm/modules.json').then(r => r.default || r) as ModuleInfo[]
