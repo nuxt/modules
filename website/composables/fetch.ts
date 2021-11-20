@@ -1,8 +1,8 @@
-import { ModuleInfo } from '../../types'
+import { ModuleInfo } from '~/../lib/types'
+import { categories } from '~/../lib/categories'
 
 export async function fetchModules () {
   const { modules } = await $fetch('/api/modules') as { modules: ModuleInfo[]}
-  const { categories } = await $fetch('/api/categories')
 
   const maintainers = []
   let downloadsTotal = 0
@@ -16,11 +16,24 @@ export async function fetchModules () {
   })
 
   for (const module of modules) {
+    // Extract compatibility tags
+    // TOOD: Improve with semver checker
+    const compatibilityTags = []
+    if (module.compatibility.nuxt.includes('^2.0.0')) {
+      if (module.compatibility.requires.bridge !== true /* bridge: false or bridge: optional */) {
+        compatibilityTags.push('2.x')
+      }
+      if (module.compatibility.requires.bridge) {
+        compatibilityTags.push('2.x-bridge')
+      }
+    }
+    if (module.compatibility.nuxt.includes('^3.0.0')) {
+      compatibilityTags.push('3.x')
+    }
+
     module.tags = [
       ...(module.tags || []),
-      ...Object.entries(module.compatibility)
-        .map(([version, status]) => status === 'working' ? version : false)
-        .filter(Boolean)
+      ...compatibilityTags
     ] as string[]
   }
 

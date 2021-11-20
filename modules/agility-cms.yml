@@ -14,6 +14,5 @@ maintainers:
     avatar: >-
       https://avatars.githubusercontent.com/u/4520625?s=400&u=95fcb09b5ead7bb09fb9950e4e7a115a8a4377e8&v=4
 compatibility:
-  2.x: working
-  2.x-bridge: unknown
-  3.x: unknown
+  nuxt: ^2.0.0
+  requires: {}

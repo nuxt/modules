@@ -192,7 +192,7 @@ const filteredModules = computed(() => {
     modules = modules.filter(module => module.category === selectedCategory.value)
   }
   if (selectedVersion.value) {
-    modules = modules.filter(module => module.compatibility[selectedVersion.value] === 'working')
+    modules = modules.filter(module => module.tags.includes(selectedVersion.value))
   }
   return modules
 })

@@ -14,6 +14,5 @@ maintainers:
     twitter: xf3l1x
     avatar: https://avatars.githubusercontent.com/u/538058?v=4
 compatibility:
-  2.x: working
-  2.x-bridge: unknown
-  3.x: unknown
+  nuxt: ^2.0.0
+  requires: {}

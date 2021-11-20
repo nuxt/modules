@@ -1,3 +1,12 @@
+import type { categories } from './categories'
+
+// TODO: Move to @nuxt/kit
+// TODO: Support version matrix
+export interface ModuleCompatibility {
+ nuxt: string
+ requires: { bridge?: boolean | 'optional' },
+}
+
 export interface MaintainerInfo {
   name: string
   github: string
@@ -5,6 +14,7 @@ export interface MaintainerInfo {
 }
 
 export type CompatibilityStatus = 'working' | 'wip' | 'unknown' | 'not-working'
+export type ModuleType = 'community' | 'official' | '3rd-party'
 
 export interface ModuleInfo {
   name: string
@@ -14,16 +24,13 @@ export interface ModuleInfo {
   icon?: string
   github: string
   website:string
-  learn_more:string
-  category: string
-  type: 'community' | 'official' | '3rd-party'
+  learn_more: string
+  category: (typeof categories)[number]
+  type: ModuleType
   maintainers: MaintainerInfo[]
-  compatibility: {
-    '2.x': CompatibilityStatus
-    '2.x-bridge': CompatibilityStatus
-    '3.x': CompatibilityStatus
-  }
-  // fetched runtime
+  compatibility: ModuleCompatibility
+
+  // Fetched in realtime API for modules.nuxt.org
   downloads?: number
   tags?: string[]
   stars?: number

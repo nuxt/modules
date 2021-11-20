@@ -16,6 +16,5 @@ maintainers:
     twitter: luxdamore
     avatar: https://avatars0.githubusercontent.com/u/3841171?v=4
 compatibility:
-  2.x: working
-  2.x-bridge: unknown
-  3.x: unknown
+  nuxt: ^2.0.0
+  requires: {}

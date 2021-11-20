@@ -12,6 +12,5 @@ maintainers:
   - name: Nicolas Perraut
     github: tuarrep
 compatibility:
-  2.x: working
-  2.x-bridge: wip
-  3.x: wip
+  nuxt: ^2.0.0
+  requires: {}
