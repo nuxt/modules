@@ -11,4 +11,7 @@ type: 3rd-party
 maintainers:
   - name: ImreC
     github: ImreC
-    avatar: https://avatars1.githubusercontent.com/u/9742684?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

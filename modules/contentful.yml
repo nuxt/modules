@@ -11,4 +11,7 @@ type: 3rd-party
 maintainers:
   - name: scaccogatto
     github: scaccogatto
-    avatar: https://avatars3.githubusercontent.com/u/3670888?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

@@ -12,4 +12,7 @@ maintainers:
   - name: Josh Deltener
     github: hecktarzuli
     twitter: JoshDeltener
-    avatar: https://avatars2.githubusercontent.com/u/2112282?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

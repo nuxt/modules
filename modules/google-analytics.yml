@@ -12,11 +12,12 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
-    avatar: https://avatars3.githubusercontent.com/u/13064722?v=4
   - name: Matteo Gabriele
     github: MatteoGabriele
     twitter: matteo_gabriele
-    avatar: https://avatars1.githubusercontent.com/u/5337152?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

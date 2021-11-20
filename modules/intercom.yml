@@ -11,4 +11,7 @@ type: 3rd-party
 maintainers:
   - name: hex-digital
     github: hex-digital
-    avatar: https://avatars1.githubusercontent.com/u/17425446?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

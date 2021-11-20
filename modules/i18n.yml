@@ -13,7 +13,9 @@ type: community
 maintainers:
   - name: Rafał Chłodnicki
     github: rchl
-    avatar: https://avatars1.githubusercontent.com/u/153197?v=4
-  - name: Paul Gascou-Vaillancourt
-    github: paulgv
-    avatar: https://avatars0.githubusercontent.com/u/4895885?v=4
+  - name: Kazuya Kawaguchi
+    github: kazupon
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: broken

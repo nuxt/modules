@@ -13,8 +13,10 @@ type: community
 maintainers:
   - name: Kevin Marrec
     github: kevinmarrec
-    avatar: https://avatars2.githubusercontent.com/u/25272043?v=4
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: https://avatars0.githubusercontent.com/u/5158436?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: broken

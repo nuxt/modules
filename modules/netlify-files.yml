@@ -14,4 +14,7 @@ maintainers:
   - name: Alexander Lichter
     github: manniL
     twitter: TheAlexLichter
-    avatar: https://avatars0.githubusercontent.com/u/640208?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

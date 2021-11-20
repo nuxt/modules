@@ -1,6 +1,6 @@
 name: windicss
 description: Next generation Tailwind CSS compiler
-repo: windicss/nuxt-windicss-module
+repo: windicss/nuxt-windicss-module#main/packages/nuxt-windicss
 npm: nuxt-windicss
 icon: windicss.svg
 github: https://github.com/windicss/nuxt-windicss-module
@@ -12,4 +12,7 @@ maintainers:
   - name: Harlan Wilton
     github: loonpwn
     twitter: harlan_zw
-    avatar: https://avatars.githubusercontent.com/u/5326365?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: working
+  3.x: working

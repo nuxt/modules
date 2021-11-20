@@ -12,4 +12,7 @@ maintainers:
   - name: Ahad Birang
     github: farnabaz
     twitter: a_birang
-    avatar: https://avatars2.githubusercontent.com/u/2047945?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown

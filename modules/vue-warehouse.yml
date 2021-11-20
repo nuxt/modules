@@ -14,4 +14,7 @@ maintainers:
   - name: Julio Marquez
     github: juliomrqz
     twitter: juliomrqz
-    avatar: https://avatars1.githubusercontent.com/u/1911993?v=4
+compatibility:
+  2.x: working
+  2.x-bridge: unknown
+  3.x: unknown
