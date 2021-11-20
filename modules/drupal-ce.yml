@@ -1,0 +1,20 @@
+name: drupal-ce
+description: Connects Nuxt.js with Drupal via the Lupus Custom Elements Renderer
+repo: drunomics/nuxtjs-drupal-ce
+npm: nuxtjs-drupal-ce
+icon: drupal-ce.png
+github: https://github.com/drunomics/nuxtjs-drupal-ce
+website: https://stack.lupus.digital
+learn_more: https://stack.lupus.digital/2-resources/learning
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Wolfgang Ziegler // fago
+    github: fago
+    avatar: https://avatars.githubusercontent.com/u/132232?v=4
+  - name: Maximilian Götz-Mikus
+    github: maximilianmikus
+    avatar: https://avatars.githubusercontent.com/u/1254146?v=4
+  - name: David Licen
+    github: davision
+    avatar: https://avatars.githubusercontent.com/u/3862832?v=4
