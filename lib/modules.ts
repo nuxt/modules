@@ -75,9 +75,7 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     'category',
     'type',
     'maintainers',
-    'compatibility',
-    'compatibility2',
-    'compatibility_old'
+    'compatibility'
   ]
   const invalidFields = []
   for (const key in module) {
