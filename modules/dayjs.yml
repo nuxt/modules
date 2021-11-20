@@ -13,6 +13,5 @@ maintainers:
     github: potato4d
     twitter: potato4d
 compatibility:
-  2.x: working
-  2.x-bridge: unknown
-  3.x: unknown
+  nuxt: ^2.0.0
+  requires: {}

@@ -12,6 +12,6 @@ maintainers:
   - name: Harlan Wilton
     github: harlan-zw
 compatibility:
-  2.x: working
-  2.x-bridge: working
-  3.x: unknown
+  nuxt: ^2.0.0
+  requires:
+    bridge: optional

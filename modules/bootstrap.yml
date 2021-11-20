@@ -18,6 +18,5 @@ maintainers:
     github: jackmu95
     twitter: jackmu95
 compatibility:
-  2.x: working
-  2.x-bridge: unknown
-  3.x: unknown
+  nuxt: ^2.0.0
+  requires: {}

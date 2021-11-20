@@ -15,6 +15,6 @@ maintainers:
     github: pi0
     twitter: _pi0_
 compatibility:
-  2.x: working
-  2.x-bridge: working
-  3.x: wip
+  nuxt: ^2.0.0
+  requires:
+    bridge: optional
