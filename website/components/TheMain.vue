@@ -3,7 +3,18 @@
     <div
       class="relative bg-white shadow dark:bg-secondary-darkest w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
     >
-      <TheSearch ref="searchEl" :search="q" @update:search="v=>q=v" />
+      <TheSearch ref="searchEl" :search="q" @update:search="v=>q=v">
+        <template #head>
+          <button
+            v-if="!lg"
+            aria-label="Toggle Drawer"
+            class="!outline-none text-xl h-1.2em my-auto"
+            @click="isDrawerOpen = true"
+          >
+            <UnoIcon class="i-carbon-menu" />
+          </button>
+        </template>
+      </TheSearch>
     </div>
     <div
       class="pt-10 pb-16 px-3 lg:px-10 lg:pt-24 lg:pb-32 bg-white dark:bg-secondary-darkest dark:bg-secondary-darkest relative"
@@ -35,35 +46,49 @@
     </div>
 
     <!-- Body -->
-    <div class="container px-4 mx-auto pt-8 grid grid-cols-1 lg:grid-cols-5 gap-8">
+    <div class="container px-4 mx-auto pt-8 grid grid-cols-1 lg:grid-cols-5 gap-4">
       <!-- Sidebar -->
-      <div class="col-span-1 space-y-10 hidden lg:block">
-        <!-- Nuxt versions -->
-        <FilterButtons
-          title="Nuxt version"
-          subtitle="Show modules working with:"
-          :items="VERSIONS"
-          :selected-item="selectedVersion"
-          @toggle="toggleVersion"
-        >
-          <template #icon="{ icon }">
-            <component :is="icon" class="h-6 w-6 flex-none inline-block" />
-          </template>
-          <template #badge="{ key }">
-            <div v-if="key!=='2.x'" class="hidden xl:block text-green-600 dark:text-green-400 border border-current bg-green-500/10 px-1.5 text-xs rounded-full">
-              Beta
-            </div>
-          </template>
-        </FilterButtons>
+      <TheDrawer
+        :enabled="!lg"
+        :open="isDrawerOpen"
+        :drawer-class="'bg-gray-100 dark:bg-secondary-black p-4 w-20em border-r nuxt-border'"
+        @close="isDrawerOpen=false"
+      >
+        <div class="p-4 relative">
+          <button
+            aria-label="Close Drawer"
+            class="absolute top-0 right-0 !outline-none text-2xl"
+            @click="isDrawerOpen = false"
+          >
+            <UnoIcon class="i-carbon-close" />
+          </button>
+          <!-- Nuxt versions -->
+          <FilterButtons
+            title="Nuxt version"
+            subtitle="Show modules working with:"
+            :items="VERSIONS"
+            :selected-item="selectedVersion"
+            @toggle="toggleVersion"
+          >
+            <template #icon="{ icon }">
+              <component :is="icon" class="h-6 w-6 flex-none inline-block" />
+            </template>
+            <template #badge="{ key }">
+              <div v-if="key!=='2.x'" class="hidden xl:block text-green-600 dark:text-green-400 border border-current bg-green-500/10 px-1.5 text-xs rounded-full">
+                Beta
+              </div>
+            </template>
+          </FilterButtons>
 
-        <!-- Categories -->
-        <FilterButtons
-          title="Categories"
-          :items="categoriesList"
-          :selected-item="selectedCategory"
-          @toggle="toggleCategory"
-        />
-      </div>
+          <!-- Categories -->
+          <FilterButtons
+            title="Categories"
+            :items="categoriesList"
+            :selected-item="selectedCategory"
+            @toggle="toggleCategory"
+          />
+        </div>
+      </TheDrawer>
       <!-- Main -->
       <div class="col-span-4">
         <!-- Filter -->
@@ -93,7 +118,7 @@
         </div>
 
         <!-- Result, Sort -->
-        <div class="flex flex-col items-center justify-between min-h-18 sm:flex-row p-5 mb-4 nuxt-border nuxt-card-bg rounded-lg">
+        <div class="flex flex-col items-center justify-between min-h-18 sm:flex-row p-5 mb-4 border nuxt-border nuxt-card-bg rounded-lg">
           <div>
             <span class="font-black text-2xl">{{ filteredModules.length }}</span>
             module{{ filteredModules.length > 1 ? 's' : '' }} found
@@ -129,6 +154,7 @@
 <script setup lang="ts">
 import LazyHydrate from 'vue-lazy-hydration'
 import Fuse from 'fuse.js/dist/fuse.basic.esm'
+import { breakpointsTailwind } from '@vueuse/core'
 import { isMobile } from '~/utils/detectUserAgent'
 import { CATEGORIES_ICONS, MODULE_INCREMENT_LOADING, VERSIONS } from '~/composables/constants'
 import type { ModulesData } from '~/composables/fetch'
@@ -142,6 +168,9 @@ const props = defineProps<{
 const vm = getCurrentInstance()
 const searchEl = ref()
 
+const { md, lg } = useBreakpoints(breakpointsTailwind)
+
+const isDrawerOpen = ref(false)
 const q = ref('')
 const orderBy = ref('downloads')
 const sortBy = ref('desc')

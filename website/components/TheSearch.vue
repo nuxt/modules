@@ -1,5 +1,6 @@
 <template>
   <div class="flex items-center gap-4 justify-between w-full container mx-auto px-4 py-2">
+    <slot name="head" />
     <div class="flex">
       <a href="/" class="inline-flex text-2xl">
         <IconNuxtLogo alt="Nuxt" width="40" height="40" />
@@ -30,6 +31,7 @@
         <UnoIcon v-else class="i-carbon-sun" />
       </ColorScheme>
     </button>
+    <slot name="tail" />
   </div>
 </template>
 
