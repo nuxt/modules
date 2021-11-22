@@ -57,7 +57,7 @@
 
 <script setup lang="ts">
 import { numberFormatter } from '~/utils/format'
-import { ModuleInfo } from '~/../types'
+import { ModuleInfo } from '~/../lib/types'
 
 defineProps<{
   modules: ModuleInfo[],

@@ -3,7 +3,7 @@
     <div
       class="relative bg-white shadow dark:bg-secondary-darkest w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
     >
-      <TheSearch ref="searchEl" :search="q" @update:search="v=>q=v">
+      <TheNav ref="searchEl" :search="q" @update:search="v=>q=v">
         <template #head>
           <button
             v-show="!lg"
@@ -14,7 +14,7 @@
             <UnoIcon class="i-carbon-menu" />
           </button>
         </template>
-      </TheSearch>
+      </TheNav>
     </div>
     <div
       class="pt-10 pb-16 px-3 lg:px-10 lg:pt-24 lg:pb-32 bg-white dark:bg-secondary-darkest dark:bg-secondary-darkest relative"
@@ -156,7 +156,6 @@
 import LazyHydrate from 'vue-lazy-hydration'
 import Fuse from 'fuse.js/dist/fuse.basic.esm'
 import { breakpointsTailwind } from '@vueuse/core'
-import { isMobile } from '~/utils/detectUserAgent'
 import { CATEGORIES_ICONS, MODULE_INCREMENT_LOADING, VERSIONS } from '~/composables/constants'
 import type { ModulesData } from '~/composables/fetch'
 
@@ -314,24 +313,8 @@ function intersectedModulesLoading () {
 function resetModuleLoaded () {
   moduleLoaded.value = MODULE_INCREMENT_LOADING
 }
-function focusSearchInput () {
-  searchEl.value?.$refs.searchModuleInput?.focus()
-}
 
 onMounted(() => {
-  useEventListener('keypress', (event) => {
-    // Add `/` shortcut for search input only if not already focused
-    if (event.key === '/' && !(event.target instanceof HTMLInputElement)) {
-      event.preventDefault()
-      focusSearchInput()
-    }
-  })
-
   applyURLFilters()
-
-  // In case of desktop, auto focus the search input
-  if (!isMobile()) {
-    focusSearchInput()
-  }
 })
 </script>
