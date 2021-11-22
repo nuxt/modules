@@ -56,6 +56,7 @@
       >
         <div class="p-4 relative">
           <button
+            v-if="!lg"
             aria-label="Close Drawer"
             class="absolute top-0 right-0 !outline-none text-2xl"
             @click="isDrawerOpen = false"
