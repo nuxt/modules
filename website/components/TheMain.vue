@@ -6,7 +6,7 @@
       <TheSearch ref="searchEl" :search="q" @update:search="v=>q=v">
         <template #head>
           <button
-            v-if="!lg"
+            v-show="!lg"
             aria-label="Toggle Drawer"
             class="!outline-none text-xl h-1.2em my-auto"
             @click="isDrawerOpen = true"
@@ -56,7 +56,7 @@
       >
         <div class="p-4 relative">
           <button
-            v-if="!lg"
+            v-show="!lg"
             aria-label="Close Drawer"
             class="absolute top-0 right-0 !outline-none text-2xl"
             @click="isDrawerOpen = false"
