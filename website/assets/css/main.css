@@ -1,7 +1,3 @@
-html, body, #__nuxt {
-  overflow-x: hidden;
-}
-
 html.dark {
   color-scheme: dark;
 }
