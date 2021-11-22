@@ -3,7 +3,7 @@
     <h2 class="text-2xl font-extrabold tracking-tight">
       {{ title }}
     </h2>
-    <p v-if="subtitle" class="text-sm text-gray-700 dark:text-gray-300 mb-4">
+    <p v-if="subtitle" class="text-sm text-gray-700 dark:text-gray-300 mb-1">
       {{ subtitle }}
     </p>
 
@@ -11,7 +11,7 @@
       class="
         grid grid-cols-1
         gap-x-4 gap-y-2
-        py-6
+        py-4
         overflow-x-auto
         sm:flex-wrap sm:justify-center
       "

@@ -84,7 +84,7 @@ export default {
     }
   },
   shortcuts: {
-    'nuxt-border': 'border border-gray-200 dark:border-secondary-darker',
+    'nuxt-border': 'border-gray-200 dark:border-secondary-darker',
     'nuxt-card-border': 'border border-gray-200 dark:border-secondary-darker hover:border-primary-800 focus:border-primary-800 dark:hover:border-secondary dark:focus:border-secondary focus:outline-none',
     'nuxt-card-bg': 'bg-white dark:bg-secondary-darkest',
     'nuxt-text-default': 'text-sky-darkest dark:text-white',
