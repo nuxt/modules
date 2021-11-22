@@ -51,7 +51,7 @@
       <TheDrawer
         :enabled="!lg"
         :open="isDrawerOpen"
-        :drawer-class="'bg-gray-100 dark:bg-secondary-black p-4 w-20em border-r nuxt-border'"
+        :drawer-class="'bg-gray-100 dark:bg-secondary-black p-4 w-20em border-r nuxt-border h-full overflow-auto'"
         @close="isDrawerOpen=false"
       >
         <div class="p-4 relative">
