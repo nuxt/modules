@@ -27,7 +27,7 @@
     <button
       aria-label="Search"
       class="block md:hidden !outline-none text-xl h-1.2em my-auto"
-      @click="isSearchOpen = !isSearchOpen"
+      @click="toggleSearch()"
     >
       <UnoIcon class="i-carbon-search" />
     </button>
@@ -66,12 +66,14 @@ const toggleNext = {
   light: 'dark'
 }
 
-watch(isSearchOpen, async (v) => {
-  if (v) {
+async function toggleSearch () {
+  isSearchOpen.value = !isSearchOpen.value
+
+  if (isSearchOpen.value) {
     await nextTick()
     focusSearchInput()
   }
-})
+}
 
 function focusSearchInput () {
   searchEl.value?.focus()
