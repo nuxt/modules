@@ -46,7 +46,7 @@
     </div>
 
     <!-- Body -->
-    <div class="container px-4 mx-auto pt-8 grid grid-cols-1 lg:grid-cols-5 gap-4">
+    <div class="w-full max-w-390 px-4 mx-auto pt-8 grid grid-cols-1 lg:grid-cols-[18em,1fr] gap-4">
       <!-- Sidebar -->
       <TheDrawer
         :enabled="!lg"
@@ -75,7 +75,7 @@
               <component :is="icon" class="h-6 w-6 flex-none inline-block" />
             </template>
             <template #badge="{ key }">
-              <div v-if="key!=='2.x'" class="hidden xl:block text-green-600 dark:text-green-400 border border-current bg-green-500/10 px-1.5 text-xs rounded-full">
+              <div v-if="key!=='2.x'" class="text-green-600 dark:text-green-400 border border-current bg-green-500/10 px-1.5 text-xs rounded-full">
                 Beta
               </div>
             </template>
@@ -91,7 +91,7 @@
         </div>
       </TheDrawer>
       <!-- Main -->
-      <div class="col-span-4">
+      <div>
         <!-- Filter -->
         <div class="h-10 -mt-5 mb-2 flex items-center gap-1">
           <template
@@ -135,7 +135,7 @@
 
         <div
           class="grid gap-x-6 gap-y-8 mt-10"
-          style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))"
+          style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr))"
         >
           <template v-for="mod of pageFilteredModules">
             <LazyHydrate :key="mod.name" when-visible>
