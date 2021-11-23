@@ -32,11 +32,11 @@
       <UnoIcon class="i-carbon-search" />
     </button>
     <button aria-label="Toggle theme" class="!outline-none text-xl h-1.2em my-auto" @click="toggleDarkMode()">
-      <ColorScheme placeholder="..." tag="span">
+      <!-- <ColorScheme placeholder="..." tag="span">
         <UnoIcon v-if="$colorMode.preference === 'system'" class="i-carbon-laptop" />
         <UnoIcon v-else-if="$colorMode.value === 'dark'" class="i-carbon-moon" />
         <UnoIcon v-else class="i-carbon-sun" />
-      </ColorScheme>
+      </ColorScheme> -->
     </button>
     <slot name="tail" />
   </div>
@@ -79,9 +79,9 @@ function focusSearchInput () {
   searchEl.value?.focus()
 }
 
-const vm = getCurrentInstance().proxy
+// const vm = getCurrentInstance().proxy
 function toggleDarkMode () {
-  vm.$colorMode.preference = toggleNext[vm.$colorMode.preference] || 'system'
+//   vm.$colorMode.preference = toggleNext[vm.$colorMode.preference] || 'system'
 }
 
 onMounted(() => {
