@@ -17,11 +17,20 @@ async function fetchModuleStats (module: ModuleInfo) {
   if (process.env.NODE_ENV === 'production' || process.env.USE_NUXT_API) {
     const [npm, github, contributors] = await Promise.all([
       $fetch<any>(`https://api.nuxtjs.org/api/npm/package/${module.npm}`)
-        .catch(() => ({ downloads: { lastMonth: 0 } })),
+        .catch((err) => {
+          console.error(`Cannot fetch npm info for ${module.npm}: ${err}`)
+          return { downloads: { lastMonth: 0 } }
+        }),
       $fetch<any>(`https://api.nuxtjs.org/api/github/repo/${ghRepo}`)
-        .catch(() => ({ stars: 0 })),
+        .catch((err) => {
+          console.error(`Cannot fetch github repo info for ${ghRepo}: ${err}`)
+          return { stars: 0 }
+        }),
       $fetch<any>(`https://api.nuxtjs.org/api/github/contributors/${ghRepo}`)
-        .catch(() => ([]))
+        .catch((err) => {
+          console.error(`Cannot fetch github contributors info for ${ghRepo}: ${err}`)
+          return []
+        })
     ])
     module.downloads = npm.downloads.lastMonth
     module.stars = github.stars
