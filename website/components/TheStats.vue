@@ -10,7 +10,7 @@
           class="text-4xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
           aria-describedby="item-1"
         >
-          {{ modules.length }}
+          {{ stats.modules }}
         </dd>
         <dt
           id="item-1"
@@ -27,7 +27,7 @@
         <dd
           class="text-4xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
         >
-          {{ numberFormatter(downloadsTotal) }}
+          {{ numberFormatter(stats.downloads) }}
         </dd>
         <dt
           class="font-medium leading-6 text-sm sm:mt-2 sm:text-sm sm:capitalize"
@@ -43,12 +43,12 @@
         <dd
           class="text-4xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
         >
-          {{ maintainersTotal }}
+          {{ stats.contributors }}
         </dd>
         <dt
           class="font-medium leading-6 text-sm sm:mt-2 sm:text-sm sm:capitalize"
         >
-          maintainers
+          contributors
         </dt>
       </div>
     </dl>
@@ -60,8 +60,10 @@ import { numberFormatter } from '~/utils/format'
 import { ModuleInfo } from '~/../lib/types'
 
 defineProps<{
-  modules: ModuleInfo[],
-  maintainersTotal: number,
-  downloadsTotal: number
+  stats: {
+    contributors: number,
+    downloads: number,
+    modules: number
+  }
 }>()
 </script>
