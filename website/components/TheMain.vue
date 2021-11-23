@@ -26,8 +26,7 @@
           <!-- Stats -->
           <TheStats
             :modules="state.modules"
-            :maintainers-total="state.maintainersTotal"
-            :downloads-total="state.downloadsTotal"
+            :stats="state.stats"
           />
         </div>
       </div>

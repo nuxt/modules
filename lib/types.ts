@@ -13,6 +13,12 @@ export interface MaintainerInfo {
   twitter?: string
 }
 
+export interface GithubContributor {
+  login: string
+  name?: string
+  avatar_url?: string
+}
+
 export type CompatibilityStatus = 'working' | 'wip' | 'unknown' | 'not-working'
 export type ModuleType = 'community' | 'official' | '3rd-party'
 
@@ -28,6 +34,7 @@ export interface ModuleInfo {
   category: (typeof categories)[number]
   type: ModuleType
   maintainers: MaintainerInfo[]
+  contributors: GithubContributor[]
   compatibility: ModuleCompatibility
 
   // Fetched in realtime API for modules.nuxt.org

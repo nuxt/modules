@@ -4,17 +4,6 @@ import { categories } from '~/../lib/categories'
 export async function fetchModules () {
   const { modules } = await $fetch('/api/modules') as { modules: ModuleInfo[]}
 
-  const maintainers = []
-  let downloadsTotal = 0
-  modules.forEach((module) => {
-    downloadsTotal += (module.downloads || 0)
-    module.maintainers.forEach((maintainer) => {
-      if (!maintainers.find(m => m.name === maintainer.name)) {
-        maintainers.push(maintainer)
-      }
-    })
-  })
-
   for (const module of modules) {
     // Extract compatibility tags
     // TOOD: Improve with semver checker
@@ -37,11 +26,17 @@ export async function fetchModules () {
     ] as string[]
   }
 
+  // Unique contributors
+  const contributors = new Set(modules.flatMap(m => m.contributors.map(m => m.login)))
+
   return {
     modules,
     categories,
-    maintainersTotal: maintainers.length,
-    downloadsTotal
+    stats: {
+      downloads: modules.reduce((sum, m) => sum + m.downloads, 0),
+      contributors: contributors.size,
+      modules: modules.length
+    }
   }
 }
 

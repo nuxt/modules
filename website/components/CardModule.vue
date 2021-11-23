@@ -103,19 +103,19 @@
       </div>
       <div class="flex -space-x-3 hover:space-x-0 absolute right-0 -bottom-1 hover:bg-white  dark:hover:bg-sky-darkest">
         <a
-          v-for="maintainer of mod.maintainers"
-          :key="maintainer.github"
-          v-tooltip="{ content: maintainer.name || maintainer.github, classes: ['bg-secondary-dark', 'dark:bg-sky-black', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm', 'mb-2'] }"
-          :aria-label="maintainer.github"
-          :href="githubUrl(maintainer)"
+          v-for="contributor of mod.contributors.slice(0, 5).reverse()"
+          :key="contributor.login"
+          v-tooltip="{ content: contributor.name || contributor.login, classes: ['bg-secondary-dark', 'dark:bg-sky-black', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm', 'mb-2'] }"
+          :aria-label="contributor.name || contributor.login"
+          :href="`https://github.com/${contributor.login}`"
           target="_blank"
           rel="noopener"
         >
           <!-- TODO: use <nuxt-img> -->
           <img
             class="w-7 h-7 flex rounded-full text-white border-4 border-white dark:border-sky-darkest"
-            :src="'https://api.nuxtjs.org/api/ipx/s_44,f_webp/gh_avatar/' + maintainer.github"
-            :alt="maintainer.name"
+            :src="'https://api.nuxtjs.org/api/ipx/s_44,f_webp/gh_avatar/' + contributor.login"
+            :alt="contributor.name|| contributor.login"
             format="jpg"
             width="28"
             height="28"
@@ -174,9 +174,5 @@ function iconPlaceholder ({ category }: ModuleInfo) {
 
 function npmUrl ({ npm }: ModuleInfo) {
   return `https://npmjs.com/package/${npm}`
-}
-
-function githubUrl ({ github }: MaintainerInfo) {
-  return `https://github.com/${github}`
 }
 </script>
