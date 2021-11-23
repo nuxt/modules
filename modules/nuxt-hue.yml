@@ -1,0 +1,16 @@
+name: nuxt-hue
+description: Enlighten your Nuxt experience
+repo: lihbr/nuxt-hue
+npm: nuxt-hue
+icon: nuxt-hue.svg
+github: https://github.com/lihbr/nuxt-hue
+website: https://github.com/lihbr/nuxt-hue
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: lihbr
+    github: lihbr
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
