@@ -19,4 +19,5 @@ maintainers:
     twitter: _pi0_
 compatibility:
   nuxt: ^2.0.0
-  requires: {}
+  requires:
+    bridge: optional
