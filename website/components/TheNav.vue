@@ -33,7 +33,7 @@
     </button>
     <button aria-label="Toggle theme" class="!outline-none text-xl h-1.2em my-auto" @click="toggleDarkMode()">
       <ColorScheme placeholder="..." tag="span">
-        <UnoIcon v-if="$colorMode.preference === 'system'" class="i-carbon-laptop" />
+        <UnoIcon v-if="$colorMode.preference === 'system'" class="i-carbon-sun" />
         <UnoIcon v-else-if="$colorMode.value === 'dark'" class="i-carbon-moon" />
         <UnoIcon v-else class="i-carbon-sun" />
       </ColorScheme>
