@@ -14,7 +14,7 @@
     "test": "yarn lint && yarn sync"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config-typescript": "^7.0.2",
+    "@nuxtjs/eslint-config-typescript": "^8.0.0",
     "@types/js-yaml": "^4.0.5",
     "@types/node": "^16.11.9",
     "@vue/runtime-dom": "^3.2.22",
