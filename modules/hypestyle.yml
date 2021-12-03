@@ -1,0 +1,18 @@
+name: hypestyle css
+description: >-
+  HypeStyle CSS is a collection of CSS utilities for web development.
+repo: lassev05/hypestyle
+npm: 'hypestyle'
+icon: https://hypestyle.netlify.app/img/icon.png
+github: https://github.com/lassev05/hypestyle
+website: https://hypestyle.netlify.app
+learn_more: https://tailwindcss.com/
+category: UI
+type: community
+maintainers:
+  - name: Lasse V
+    github: lassev05
+    twitter: lassev05
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
