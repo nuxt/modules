@@ -158,7 +158,8 @@ export async function writeModule (module) {
 }
 
 export async function readModules () {
-  const names = (await globby(join(modulesDir, '*.yml'))).map(p => basename(p, extname(p))).filter(_ => _)
+  const globPattern = join(modulesDir, '*.yml').replace(/\\/g, '/')
+  const names = (await globby(globPattern)).map(p => basename(p, extname(p))).filter(_ => _)
 
   return Promise.all(names.map(n => getModule(n)))
     .then(modules => modules.filter(m => m.name))
