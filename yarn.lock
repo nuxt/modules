@@ -1571,14 +1571,6 @@
     webpack-node-externals "^3.0.0"
     webpackbar "^5.0.2"
 
-"@nuxtjs/color-mode@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/color-mode/-/color-mode-2.1.1.tgz#374f995f56a8fe27c6263ab865a034a50e90c1ea"
-  integrity sha512-kGB/FoICF4RwZkfNBhL/yGrHfaUFpviYq6HGvSkZEm2dCpjRXIv9VsWoP0uzwxnoaRAQQOkkWjaGv/nSk0gUSQ==
-  dependencies:
-    defu "^5.0.0"
-    lodash.template "^4.5.0"
-
 "@nuxtjs/eslint-config-typescript@^8.0.0":
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/eslint-config-typescript/-/eslint-config-typescript-8.0.0.tgz#dd178386e4243874fa95464f8fce25ee9d66bf7a"
@@ -7255,7 +7247,7 @@ jest-worker@^26.2.1, jest-worker@^26.5.0:
     supports-color "^7.0.0"
 
 jimp-compact@^0.16.1:
-  version "0.16.1"
+  version "0.16.2"
   resolved "https://registry.yarnpkg.com/jimp-compact/-/jimp-compact-0.16.2.tgz#650bf90698eb7af797e20bf5f5cdccd137e7d08a"
   integrity sha512-F/r0L283J46xiGUEvUb3jxUsei7aB94g3NRIMuJ4WhbpEcJV2U5GpaUNJLnBiOP2+x4lLTI4UiRVrmbrXQAOMA==
 
