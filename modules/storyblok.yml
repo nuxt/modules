@@ -1,7 +1,7 @@
 name: storyblok
 description: Storyblok Nuxt.js module
-repo: storyblok/storyblok-nuxt
-npm: storyblok-nuxt
+repo: storyblok/storyblok-nuxt#master/lib
+npm: '@storyblok/nuxt'
 icon: storyblok.png
 github: https://github.com/storyblok/storyblok-nuxt
 website: https://github.com/storyblok/storyblok-nuxt
@@ -12,6 +12,5 @@ maintainers:
   - name: storyblok
     github: storyblok
 compatibility:
-  2.x: working
-  2.x-bridge: unknown
-  3.x: unknown
+  nuxt: ^2.0.0 || ^3.0.0
+  requires: {}

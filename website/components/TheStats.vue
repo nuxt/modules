@@ -1,82 +1,69 @@
 <template>
   <div>
-    <dl class="flex gap-8 mt-auto h-full">
+    <dl class="flex gap-4 md:gap-8 mt-auto h-full">
       <div class="flex-col space-y-2 p-4 rounded-md">
         <span
-          class="font-normal leading-6 text-sky-darkest dark:text-sky-lightest text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-normal leading-6 text-sm sm:mt-2 sm:text-sm sm:capitalize"
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-primary-800 dark:text-primary leading-none sm:text-6xl"
+          class="text-4xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
           aria-describedby="item-1"
         >
-          {{ modules.length }}
+          {{ stats.modules }}
         </dd>
         <dt
           id="item-1"
-          class="font-normal leading-6 text-sky-darkest dark:text-sky-lightest text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-normal leading-6 text-sm sm:mt-2 sm:text-sm sm:capitalize"
         >
           modules
         </dt>
       </div>
       <div class="flex-col space-y-2 p-4">
         <span
-          class="font-normal leading-6 text-sky-darkest dark:text-sky-lightest text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-normal leading-6 text-sm sm:mt-2 sm:text-sm sm:capitalize"
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-primary-800 dark:text-primary leading-none sm:text-6xl"
+          class="text-4xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
         >
-          {{ numberFormat(downloadsTotal) }}
+          {{ numberFormatter(stats.downloads) }}
         </dd>
         <dt
-          class="font-medium leading-6 text-sky-darkest dark:text-sky-lightest text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-medium leading-6 text-sm sm:mt-2 sm:text-sm sm:capitalize"
         >
           downloads last 30 days
         </dt>
       </div>
       <div class="flex-col space-y-2 p-4 rounded-md">
         <span
-          class="font-normal leading-6 text-sky-darkest dark:text-sky-lightest text-sm sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-normal leading-6 text-sm sm:mt-2 sm:text-sm sm:capitalize"
           aria-hidden="true"
         >Total</span>
         <dd
-          class="text-3xl font-black text-primary-800 dark:text-primary leading-none sm:text-6xl"
+          class="text-4xl font-black text-primary dark:text-primary leading-none sm:text-6xl"
         >
-          {{ maintainersTotal }}
+          {{ stats.contributors }}
         </dd>
         <dt
-          class="font-medium leading-6 text-sm text-sky-darkest dark:text-sky-lightest sm:mt-2 sm:text-sm sm:capitalize"
+          class="font-medium leading-6 text-sm sm:mt-2 sm:text-sm sm:capitalize"
         >
-          maintainers
+          contributors
         </dt>
       </div>
     </dl>
   </div>
 </template>
 
-<script>
-import { numberFormatter } from '~/utils/format.ts'
+<script setup lang="ts">
+import { numberFormatter } from '~/utils/format'
+import { ModuleInfo } from '~/../lib/types'
 
-export default defineComponent({
-  props: {
-    modules: {
-      type: Array,
-      required: true
-    },
-    maintainersTotal: {
-      type: Number,
-      required: true
-    },
-    downloadsTotal: {
-      type: Number,
-      required: true
-    }
-  },
-  methods: {
-    numberFormat (num, options = { precision: 1 }) {
-      return numberFormatter(num, options)
-    }
+defineProps<{
+  stats: {
+    contributors: number,
+    downloads: number,
+    modules: number
   }
-})
+}>()
 </script>

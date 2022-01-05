@@ -1,0 +1,25 @@
+name: speedkit
+description: >-
+  nuxt-speedkit will help you to improve the lighthouse performance (score:
+  100/100) of your website.
+repo: GrabarzUndPartner/nuxt-speedkit
+npm: nuxt-speedkit
+icon: speedkit.png
+github: https://github.com/GrabarzUndPartner/nuxt-speedkit
+website: https://nuxt-speedkit.grabarzundpartner.dev
+learn_more: ''
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: Stephan Gerbeth
+    github: StephanGerbeth
+    avatar: https://avatars.githubusercontent.com/u/3775511?v=4
+  - name: Thorn Walli
+    github: ThornWalli
+    avatar: https://avatars3.githubusercontent.com/u/8287751?v=4
+  - name: Grabarz & Partner
+    github: GrabarzUndPartner
+    avatar: https://avatars3.githubusercontent.com/u/28385672?v=4
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

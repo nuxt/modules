@@ -12,6 +12,6 @@ maintainers:
   - name: posva
     github: posva
 compatibility:
-  2.x: working
-  2.x-bridge: working
-  3.x: working
+  nuxt: ^2.0.0 || ^3.0.0
+  requires:
+    bridge: optional

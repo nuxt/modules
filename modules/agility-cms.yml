@@ -1,0 +1,18 @@
+name: agility-cms
+description: Agility CMS Integration for Nuxt.js
+repo: agility/agilitycms-nuxt-module
+npm: '@agility/agilitycms-nuxt-module'
+icon: agility.png
+github: https://github.com/agility/agilitycms-nuxt-module
+website: https://github.com/agility/agilitycms-nuxt-module
+learn_more: https://help.agilitycms.com/hc/en-us/articles/360037500492
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Joel Varty
+    github: joelvarty
+    avatar: >-
+      https://avatars.githubusercontent.com/u/4520625?s=400&u=95fcb09b5ead7bb09fb9950e4e7a115a8a4377e8&v=4
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

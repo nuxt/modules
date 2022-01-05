@@ -15,6 +15,5 @@ maintainers:
     github: Atinux
     twitter: Atinux
 compatibility:
-  2.x: working
-  2.x-bridge: wip
-  3.x: wip
+  nuxt: ^2.0.0
+  requires: {}

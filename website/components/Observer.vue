@@ -1,29 +1,24 @@
 <template>
-  <div class="observer" />
+  <div ref="elem" class="observer" />
 </template>
 
-<script>
-export default {
-  props: {
-    options: {
-      type: Object,
-      default: () => {}
-    }
-  },
-  data: () => ({
-    observer: null
-  }),
-  mounted () {
-    this.observer = new IntersectionObserver(([entry]) => {
-      if (entry && entry.isIntersecting) {
-        this.$emit('intersect')
-      }
-    }, this.options)
+<script setup lang="ts">
+const props = defineProps<{ options?: {} }>()
+const emit = defineEmits<{(...args:any[]): void}>()
 
-    this.observer.observe(this.$el)
-  },
-  destroyed () {
-    this.observer.disconnect()
-  }
-}
+const observer = ref<IntersectionObserver>(null)
+
+const elem = ref(null)
+
+onMounted(() => {
+  observer.value = new IntersectionObserver(([entry]) => {
+    if (entry && entry.isIntersecting) {
+      emit('intersect')
+    }
+  }, props.options)
+
+  observer.value.observe(elem.value)
+})
+
+onUnmounted(() => { observer.value.disconnect() })
 </script>

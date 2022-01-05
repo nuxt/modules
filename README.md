@@ -20,7 +20,7 @@ Metadata of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/Y
 
 Compiled JSON data is available from following CDNs:
 
-- **jsdelivr:**: https://cdn.jsdelivr.net/npm/@nuxt/modules@latest/modules.json
+- **jsdelivr:** https://cdn.jsdelivr.net/npm/@nuxt/modules@latest/modules.json
 - **unpkg:** https://unpkg.com/@nuxt/modules@latest/modules.json
 
 ### Using npm package
@@ -60,7 +60,7 @@ Field Name      | Auto sync | Description
 `category`      | No        | Module category from [./lib/categories.json](./lib/categories.json)
 `type`          | No        | `community` (for [nuxt-community](https://github.com/nuxt-community/)), `official` (for https://github.com/) or `3rd-party`
 `maintainers`   | Yes       | List of maintainers each item has `name`, `github` and `avatar`
-`compatibility` | No        | Module compatibility status. Valid keys are `2.x`, `2.x-bridge` and `3.x` and valid values are `working`, `wip`, `unknown`, `broken` and `rip`. Please see [this discussion](https://github.com/nuxt/framework/discussions/751) for more information.
+`compatibility` | No        | Module compatibility status. `nuxt` field specifies semver of supported nuxt version. `requires.bridge: true|optional` can be used to specify Nuxt 2 bridge compatibility.
 
 
 ## Maintenance
@@ -83,7 +83,7 @@ yarn sync
 
 ### Generate `npm/modules.json`
 
-```sh
+```bash
 yarn build
 ```
 

@@ -4,7 +4,6 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     aria-hidden="true"
     role="img"
-    class="h-6 w-6 mr-2 inline-block"
     viewBox="0 0 32 32"
   >
     <path

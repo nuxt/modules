@@ -1,0 +1,4 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Nuxt Modules</ShortName>
+  <Url type="text/html" template="https://modules.nuxtjs.org/?q={searchTerms}"/>
+</OpenSearchDescription>
