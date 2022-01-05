@@ -1,12 +1,12 @@
 <script setup lang="ts">
+import { breakpointsTailwind } from '@vueuse/core'
+
 const props = defineProps<{
   open: boolean,
-  enabled: boolean,
   drawerClass: string,
 }>()
 const emit = defineEmits<{(e: 'close'): void }>()
 
-const enabledDebounce = useDebounce(toRef(props, 'enabled'), 300, {})
 const mounted = ref(false)
 
 onMounted(() => {
@@ -15,15 +15,12 @@ onMounted(() => {
   }, 300)
 })
 
+const { lg } = useBreakpoints(breakpointsTailwind)
+
 const classContainer = computed(() => {
-  if (!props.enabled) {
-    return ''
-  }
+  if (lg.value || !mounted.value) { return '' }
   return [
-    'fixed inset-0 z-100',
-    enabledDebounce.value && mounted.value
-      ? 'transition duration-200'
-      : 'transition-none',
+    'z-100',
     props.open
       ? 'opacity-100'
       : 'opacity-0 pointer-events-none'
@@ -31,14 +28,8 @@ const classContainer = computed(() => {
 })
 
 const classDrawer = computed(() => {
-  if (!props.enabled) {
-    return ''
-  }
+  if (lg.value || !mounted.value) { return '' }
   return [
-    'transform',
-    enabledDebounce.value && mounted.value
-      ? 'transition duration-200'
-      : 'transition-none',
     props.drawerClass || '',
     props.open
       ? 'translate-x-0'
@@ -48,9 +39,15 @@ const classDrawer = computed(() => {
 </script>
 
 <template>
-  <div :class="classContainer">
-    <div v-show="enabledDebounce" class="absolute inset-0 flex-auto bg-black/60 -z-1" @click="emit('close')" />
-    <div :class="classDrawer">
+  <div
+    :class="[classContainer, { transition: mounted }]"
+    class="lt-lg:fixed lt-lg:inset-0 lt-lg:z-100 duration-200"
+  >
+    <div class="absolute inset-0 flex-auto bg-black/60 -z-1 lg:hidden" @click="emit('close')" />
+    <div
+      :class="[classDrawer, { transition: mounted }]"
+      class="transform duration-200"
+    >
       <slot />
     </div>
   </div>

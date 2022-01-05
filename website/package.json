@@ -26,7 +26,6 @@
     "fuse.js": "^6.5.3",
     "millify": "^4.0.0",
     "nuxt-edge": "^2.16.0-27355697.777a4b7f",
-    "nuxt-windicss": "^2.2.2",
     "ohmyfetch": "^0.4.14",
     "v-tooltip": "^2.1.3",
     "vue-lazy-hydration": "^2.0.0-beta.4",

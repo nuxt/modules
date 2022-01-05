@@ -1,14 +1,14 @@
 import { defineNuxtConfig } from '@nuxt/bridge'
+import unocssConfig from './unocss.config'
 
 const title = 'Explore Nuxt Modules'
 const description = 'Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.'
 const url = 'https://modules.nuxtjs.org'
 
 export default defineNuxtConfig({
-  css: ['~/assets/css/main.css'],
   head: {
     bodyAttrs: {
-      class: 'bg-cloudy-grey min-h-screen'
+      class: 'min-h-screen'
     },
     title,
     meta: [
@@ -35,8 +35,6 @@ export default defineNuxtConfig({
   },
   components: true,
   buildModules: [
-    // https://github.com/windicss/nuxt-windicss
-    'nuxt-windicss',
     // https://image.nuxtjs.org
     // '@nuxt/image',
     // https://pwa.nuxtjs.org
@@ -54,17 +52,12 @@ export default defineNuxtConfig({
     ssrHandlers: true
   },
   unocss: {
-    include: [/\.vue$/, /\.ts$/, /\.vue\?vue/],
-    icons: {
-      scale: 1.2,
-      extraProperties: {
-        display: 'inline-block'
-      }
-    },
-    // disable the default preset, Windi CSS already handles them
-    uno: false
+    preflight: false
   },
-  plugins: ['~/plugins/v-tooltip.ts'],
+  plugins: [
+    '~/plugins/unocss',
+    '~/plugins/v-tooltip.ts'
+  ],
   manifest: {
     name: 'Nuxt Modules',
     short_name: 'Nuxt Modules',

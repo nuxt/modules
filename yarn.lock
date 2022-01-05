@@ -3265,32 +3265,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@windicss/config@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@windicss/config@npm:1.6.1"
-  dependencies:
-    debug: ^4.3.3
-    jiti: ^1.12.9
-    windicss: ^3.4.0
-  checksum: 8e59c9b69f772c1fd2476b4e931cf7aff4897aaa515e6bb8a05f44cd0750e5c2140ef8a9ab6590f65b9288c23ac7ded421e271dd6698a4f73e79c06a92185f84
-  languageName: node
-  linkType: hard
-
-"@windicss/plugin-utils@npm:1.6.1, @windicss/plugin-utils@npm:^1.1.1, @windicss/plugin-utils@npm:^1.6.1":
-  version: 1.6.1
-  resolution: "@windicss/plugin-utils@npm:1.6.1"
-  dependencies:
-    "@antfu/utils": ^0.3.0
-    "@windicss/config": 1.6.1
-    debug: ^4.3.3
-    fast-glob: ^3.2.7
-    magic-string: ^0.25.7
-    micromatch: ^4.0.4
-    windicss: ^3.4.0
-  checksum: 9a68feaa3903f22302444e0586a92f9212afbbcc3f6fcc5c159b749db4f82c8264a97c03ae17fb86aed63803b5feacc5e99569dfc732a67f2aa931026120b929
-  languageName: node
-  linkType: hard
-
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
   resolution: "@xtuc/ieee754@npm:1.2.0"
@@ -4807,13 +4781,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cac@npm:^6.7.3":
-  version: 6.7.12
-  resolution: "cac@npm:6.7.12"
-  checksum: c0d4129eb30fc43449e9078ac37bb3b837aab6261236a6642a6fb9d839bb6a41e191e1f2776f87569535db07dcbf4937680419126215b4c17c9dba4351d1bd5e
-  languageName: node
-  linkType: hard
-
 "cacache@npm:^12.0.2":
   version: 12.0.4
   resolution: "cacache@npm:12.0.4"
@@ -5058,34 +5025,6 @@ __metadata:
   version: 0.7.0
   resolution: "chardet@npm:0.7.0"
   checksum: 6fd5da1f5d18ff5712c1e0aed41da200d7c51c28f11b36ee3c7b483f3696dabc08927fc6b227735eb8f0e1215c9a8abd8154637f3eff8cada5959df7f58b024d
-  languageName: node
-  linkType: hard
-
-"cheerio-select@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "cheerio-select@npm:1.5.0"
-  dependencies:
-    css-select: ^4.1.3
-    css-what: ^5.0.1
-    domelementtype: ^2.2.0
-    domhandler: ^4.2.0
-    domutils: ^2.7.0
-  checksum: d4506d8b9ad330a18f9de3a5a22138d0804063e92aac2fc020384cc52ab86d2194d2ae614fc87f0e2a62b6a6dd0c28ad23669cec64331172a9f99ad604863010
-  languageName: node
-  linkType: hard
-
-"cheerio@npm:^1.0.0-rc.3":
-  version: 1.0.0-rc.10
-  resolution: "cheerio@npm:1.0.0-rc.10"
-  dependencies:
-    cheerio-select: ^1.5.0
-    dom-serializer: ^1.3.2
-    domhandler: ^4.2.0
-    htmlparser2: ^6.1.0
-    parse5: ^6.0.1
-    parse5-htmlparser2-tree-adapter: ^6.0.1
-    tslib: ^2.2.0
-  checksum: ace2f9c5809737534b1320d11d48762013694fa905b4deacac81a634edac178c1b0534f79d7b1896a88ce489db6cb539f222317996b21c8b6923ce413dcc1a2f
   languageName: node
   linkType: hard
 
@@ -5966,7 +5905,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-what@npm:^5.0.1, css-what@npm:^5.1.0":
+"css-what@npm:^5.1.0":
   version: 5.1.0
   resolution: "css-what@npm:5.1.0"
   checksum: 0b75d1bac95c885c168573c85744a6c6843d8c33345f54f717218b37ea6296b0e99bb12105930ea170fd4a921990392a7c790c16c585c1d8960c49e2b7ec39f7
@@ -6138,7 +6077,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.3":
+"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2":
   version: 4.3.3
   resolution: "debug@npm:4.3.3"
   dependencies:
@@ -6156,15 +6095,6 @@ __metadata:
   dependencies:
     ms: ^2.1.1
   checksum: b3d8c5940799914d30314b7c3304a43305fd0715581a919dacb8b3176d024a782062368405b47491516d2091d6462d4d11f2f4974a405048094f8bfebfa3071c
-  languageName: node
-  linkType: hard
-
-"declass@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "declass@npm:0.0.1"
-  dependencies:
-    cheerio: ^1.0.0-rc.3
-  checksum: c82e417e329ecba84e3a8b30bce4b49705a52d6b482fd45df2d3ac954911a69e6a246fbf2837927e2a0ca32df34de65d881874ff4b00059c5ea7ea8866fe86f9
   languageName: node
   linkType: hard
 
@@ -6411,7 +6341,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dom-serializer@npm:^1.0.1, dom-serializer@npm:^1.3.2":
+"dom-serializer@npm:^1.0.1":
   version: 1.3.2
   resolution: "dom-serializer@npm:1.3.2"
   dependencies:
@@ -6471,7 +6401,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domutils@npm:^2.4.2, domutils@npm:^2.5.2, domutils@npm:^2.7.0, domutils@npm:^2.8.0":
+"domutils@npm:^2.4.2, domutils@npm:^2.5.2, domutils@npm:^2.8.0":
   version: 2.8.0
   resolution: "domutils@npm:2.8.0"
   dependencies:
@@ -7710,7 +7640,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.1.1, fast-glob@npm:^3.2.6, fast-glob@npm:^3.2.7":
+"fast-glob@npm:^3.1.1, fast-glob@npm:^3.2.7":
   version: 3.2.7
   resolution: "fast-glob@npm:3.2.7"
   dependencies:
@@ -9940,13 +9870,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kolorist@npm:^1.5.1":
-  version: 1.5.1
-  resolution: "kolorist@npm:1.5.1"
-  checksum: c113be08834fc03a24699612141c79879fceba9ff9765ad500507fb594ee4fa3465a3453ea90bbc9b0dd82f7ba5dbd79814da28e9ebaf8da27266a0088ba2714
-  languageName: node
-  linkType: hard
-
 "last-call-webpack-plugin@npm:^3.0.0":
   version: 3.0.0
   resolution: "last-call-webpack-plugin@npm:3.0.0"
@@ -11322,7 +11245,6 @@ __metadata:
     fuse.js: ^6.5.3
     millify: ^4.0.0
     nuxt-edge: ^2.16.0-27355697.777a4b7f
-    nuxt-windicss: ^2.2.2
     ohmyfetch: ^0.4.14
     v-tooltip: ^2.1.3
     vue-lazy-hydration: ^2.0.0-beta.4
@@ -11330,27 +11252,6 @@ __metadata:
     windicss: ^3.4.2
   languageName: unknown
   linkType: soft
-
-"nuxt-windicss@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "nuxt-windicss@npm:2.2.2"
-  dependencies:
-    "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
-    "@windicss/plugin-utils": ^1.6.1
-    consola: ^2.15.3
-    defu: ^5.0.0
-    h3: ^0.3.8
-    listhen: ^0.2.4
-    pathe: ^0.2.0
-    read-cache: ^1.0.0
-    sirv: ^1.0.19
-    vite-plugin-windicss: ^1.6.1
-    windicss: ^3.4.2
-    windicss-analysis: ^0.3.5
-    windicss-webpack-plugin: ^1.6.2
-  checksum: 02ca1001dc4ff0e1da76ddf358037db2f3cddf72fc134381557e8a6e37c378a513898a34233e372dab76557b65d9fd43e39f8cba948e38b8dbb5f12369f84a2e
-  languageName: node
-  linkType: hard
 
 "object-assign@npm:^4.0.1, object-assign@npm:^4.1.0, object-assign@npm:^4.1.1":
   version: 4.1.1
@@ -11803,22 +11704,6 @@ __metadata:
     parse-path: ^4.0.0
     protocols: ^1.4.0
   checksum: 6b680d1fdfba15fc54106c1130540bf61a415bc3085351b8609a213b2fdf551c53ec8d32703d8ea9b6c5fbf2da92ee1593c99f682032512b15ce87f9013d2a39
-  languageName: node
-  linkType: hard
-
-"parse5-htmlparser2-tree-adapter@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "parse5-htmlparser2-tree-adapter@npm:6.0.1"
-  dependencies:
-    parse5: ^6.0.1
-  checksum: 1848378b355d027915645c13f13f982e60502d201f53bc2067a508bf2dba4aac08219fc781dcd160167f5f50f0c73f58d20fa4fb3d90ee46762c20234fa90a6d
-  languageName: node
-  linkType: hard
-
-"parse5@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "parse5@npm:6.0.1"
-  checksum: 7d569a176c5460897f7c8f3377eff640d54132b9be51ae8a8fa4979af940830b2b0c296ce75e5bd8f4041520aadde13170dbdec44889975f906098ea0002f4bd
   languageName: node
   linkType: hard
 
@@ -14512,7 +14397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sirv@npm:^1.0.12, sirv@npm:^1.0.19, sirv@npm:^1.0.7":
+"sirv@npm:^1.0.7":
   version: 1.0.19
   resolution: "sirv@npm:1.0.19"
   dependencies:
@@ -15471,7 +15356,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.3, tslib@npm:^2.2.0, tslib@npm:^2.3.1":
+"tslib@npm:^2.0.3, tslib@npm:^2.3.1":
   version: 2.3.1
   resolution: "tslib@npm:2.3.1"
   checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
@@ -16074,20 +15959,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-windicss@npm:^1.6.1":
-  version: 1.6.1
-  resolution: "vite-plugin-windicss@npm:1.6.1"
-  dependencies:
-    "@windicss/plugin-utils": 1.6.1
-    debug: ^4.3.3
-    kolorist: ^1.5.1
-    windicss: ^3.4.0
-  peerDependencies:
-    vite: ^2.0.1
-  checksum: 2db70d221218dfef3c81fc5724e95f600eab5ef75a79e1bc84c1272e48f1574854d16b83385ec444517865bcbd34200116d045a58b58036f4d70fa4babac6d7e
-  languageName: node
-  linkType: hard
-
 "vite@npm:^2.7.6":
   version: 2.7.10
   resolution: "vite@npm:2.7.10"
@@ -16582,40 +16453,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"windicss-analysis@npm:^0.3.5":
-  version: 0.3.5
-  resolution: "windicss-analysis@npm:0.3.5"
-  dependencies:
-    "@windicss/plugin-utils": ^1.1.1
-    cac: ^6.7.3
-    connect: ^3.7.0
-    declass: ^0.0.1
-    fast-glob: ^3.2.6
-    fs-extra: ^10.0.0
-    sirv: ^1.0.12
-  bin:
-    windicss-analysis: bin/windicss-analysis.js
-  checksum: 4cc51d48087579a2bb4a149423bcf0aa5580ea1abf918edead3b983ff5093983a38a9fd5b2591c5dd5810b200f0ff955e2914d48c19f68bb84e53b4123e154b5
-  languageName: node
-  linkType: hard
-
-"windicss-webpack-plugin@npm:^1.6.2":
-  version: 1.6.2
-  resolution: "windicss-webpack-plugin@npm:1.6.2"
-  dependencies:
-    "@windicss/plugin-utils": ^1.6.1
-    debug: ^4.3.3
-    loader-utils: ^2.0.0
-    lodash: ^4.17.21
-    magic-string: ^0.25.7
-    upath: ^2.0.1
-    webpack-virtual-modules: ^0.4.3
-    windicss: ^3.4.0
-  checksum: 697e9c1bb37a52d20275478a08f14eca4975a9c34c25d10e2b9e1c7617f9f73b3556457bab59ececf126bdf76c408ecdcdc9648b71ba5ecf5742c75a4b79965b
-  languageName: node
-  linkType: hard
-
-"windicss@npm:^3.4.0, windicss@npm:^3.4.2":
+"windicss@npm:^3.4.2":
   version: 3.4.2
   resolution: "windicss@npm:3.4.2"
   bin:
