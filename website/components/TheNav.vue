@@ -31,12 +31,12 @@
     >
       <UnoIcon class="i-carbon-search" />
     </button>
-    <button aria-label="Toggle theme" class="!outline-none text-xl h-1.2em my-auto" @click="toggleDarkMode()">
-      <ColorScheme placeholder="..." tag="span">
-        <UnoIcon v-if="$colorMode.preference === 'system'" class="i-carbon-laptop" />
-        <UnoIcon v-else-if="$colorMode.value === 'dark'" class="i-carbon-moon" />
-        <UnoIcon v-else class="i-carbon-sun" />
-      </ColorScheme>
+    <button
+      aria-label="Toggle theme"
+      class="!outline-none text-xl h-1.2em my-auto"
+      @click="toggleColorMode()"
+    >
+      <UnoIcon class="dark:i-carbon-moon i-carbon-sun" />
     </button>
     <slot name="tail" />
   </div>
@@ -47,6 +47,11 @@ import { isMobile } from '~/utils/detectUserAgent'
 
 const props = defineProps<{ search: string }>()
 const emit = defineEmits<{(e: 'update:search', v: string): void }>()
+
+const colorMode = useColorMode()
+function toggleColorMode () {
+  colorMode.value = colorMode.value === 'dark' ? 'light' : 'dark'
+}
 
 const searchEl = ref<HTMLInputElement>()
 const searchModel = computed<string>({
@@ -60,12 +65,6 @@ const searchModel = computed<string>({
 
 const isSearchOpen = ref(false)
 
-const toggleNext = {
-  system: 'dark', // TODO
-  dark: 'light',
-  light: 'dark'
-}
-
 async function toggleSearch () {
   isSearchOpen.value = !isSearchOpen.value
 
@@ -77,11 +76,6 @@ async function toggleSearch () {
 
 function focusSearchInput () {
   searchEl.value?.focus()
-}
-
-const vm = getCurrentInstance().proxy
-function toggleDarkMode () {
-  vm.$colorMode.preference = toggleNext[vm.$colorMode.preference] || 'system'
 }
 
 onMounted(() => {

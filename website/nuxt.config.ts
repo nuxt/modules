@@ -45,10 +45,14 @@ export default defineNuxtConfig({
     'vue-plausible',
     // https://html-validator.nuxtjs.org
     '@nuxtjs/html-validator',
-    '@nuxtjs/color-mode',
     '@unocss/nuxt',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    '@nuxt/bridge'
   ],
+  vueuse: {
+    autoImports: true,
+    ssrHandlers: true
+  },
   unocss: {
     include: [/\.vue$/, /\.ts$/, /\.vue\?vue/],
     icons: {
@@ -70,12 +74,9 @@ export default defineNuxtConfig({
   plausible: {
     domain: 'modules.nuxtjs.org'
   },
-  colorMode: {
-    preference: 'system',
-    fallback: 'light',
-    classSuffix: ''
-  },
   bridge: {
+    meta: true,
+    autoImports: true,
     vite: true
   }
 })
