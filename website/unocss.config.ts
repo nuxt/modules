@@ -1,15 +1,20 @@
 import { UnocssNuxtOptions } from '@unocss/nuxt'
-import { theme } from '@unocss/preset-mini'
+import presetUno, { theme } from '@unocss/preset-uno'
+import presetAttributify from '@unocss/preset-attributify'
+import presetIcons from '@unocss/preset-icons'
 
 export default <UnocssNuxtOptions>{
   include: [/\.vue$/, /\.ts$/, /\.vue\?vue/],
-  icons: {
-    scale: 1.2,
-    extraProperties: {
-      display: 'inline-block'
-    }
-  },
-  preflight: true,
+  presets: [
+    presetUno(),
+    presetAttributify(),
+    presetIcons({
+      scale: 1.2,
+      extraProperties: {
+        display: 'inline-block'
+      }
+    })
+  ],
   theme: {
     colors: {
       primary: {

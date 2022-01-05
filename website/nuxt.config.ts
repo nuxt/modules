@@ -6,7 +6,6 @@ const description = 'Discover our list of modules to supercharge your Nuxt proje
 const url = 'https://modules.nuxtjs.org'
 
 export default defineNuxtConfig({
-  css: ['~/assets/css/main.css'],
   head: {
     bodyAttrs: {
       class: 'min-h-screen'
@@ -52,8 +51,13 @@ export default defineNuxtConfig({
     autoImports: true,
     ssrHandlers: true
   },
-  unocss: unocssConfig,
-  plugins: ['~/plugins/v-tooltip.ts'],
+  unocss: {
+    preflight: false
+  },
+  plugins: [
+    '~/plugins/unocss',
+    '~/plugins/v-tooltip.ts'
+  ],
   manifest: {
     name: 'Nuxt Modules',
     short_name: 'Nuxt Modules',
