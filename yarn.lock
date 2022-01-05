@@ -3028,11 +3028,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:7.5.2, @vueuse/core@npm:^7.5.2":
-  version: 7.5.2
-  resolution: "@vueuse/core@npm:7.5.2"
+"@vueuse/core@npm:7.5.3, @vueuse/core@npm:^7.5.3":
+  version: 7.5.3
+  resolution: "@vueuse/core@npm:7.5.3"
   dependencies:
-    "@vueuse/shared": 7.5.2
+    "@vueuse/shared": 7.5.3
     vue-demi: "*"
   peerDependencies:
     "@vue/composition-api": ^1.1.0
@@ -3042,7 +3042,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 9a44348f739bcbf34992cc12c2fc7340b44f938aea13ce996807d3cbeb21981de66e17fd7a40894f7ce73398f538c311deb1fc9e97b15d5fcae7bacdeefa07c4
+  checksum: 685c59230e283e4abed67adc045f160021753634e565a9f168706040f378fe8950dfadb0b8f261371abb9b71c3b4a9f0a472a914783521bc2dc562f04deb7687
   languageName: node
   linkType: hard
 
@@ -3055,21 +3055,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/nuxt@npm:^7.5.2":
-  version: 7.5.2
-  resolution: "@vueuse/nuxt@npm:7.5.2"
+"@vueuse/nuxt@npm:^7.5.3":
+  version: 7.5.3
+  resolution: "@vueuse/nuxt@npm:7.5.3"
   dependencies:
     "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
-    "@vueuse/core": 7.5.2
+    "@vueuse/core": 7.5.3
     local-pkg: ^0.4.1
     vue-demi: "*"
-  checksum: b01a242e0493fbf6b168bfb877b7781c864bb31bee90e61ec8603af1514119264f8a0ff40032786c92c6f74872f3e2f5d24ca4a9fc3f5c286d7b30fbd362856f
+  checksum: 0917bb20bca787cb61dcc4e618693707dc054e066de22a2b5badb71e52c929d7a8167d15674923a28e1dc3181f3a2fab3a7beab406e18898c179c5577e7dafac
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:7.5.2":
-  version: 7.5.2
-  resolution: "@vueuse/shared@npm:7.5.2"
+"@vueuse/shared@npm:7.5.3":
+  version: 7.5.3
+  resolution: "@vueuse/shared@npm:7.5.3"
   dependencies:
     vue-demi: "*"
   peerDependencies:
@@ -3080,7 +3080,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 7d9b829927a2993adccd28f4f6bc9040eb1c2ff22aeb9859fbf15a970668c9849500d8be25beb403f4d4ab107e073ad847b79b68f1951d97b4f9a00df3bd19cb
+  checksum: 8b38323c3eabf754ed8a36726cdf86cf41c2799334fce6e797576fe605dfdb32176654c99140dc16ef545a517217a86fa39b12a280839f08409cefebfe96222f
   languageName: node
   linkType: hard
 
@@ -11240,8 +11240,8 @@ __metadata:
     "@nuxtjs/pwa": ^3.3.5
     "@nuxtjs/web-vitals": ^0.1.8
     "@unocss/nuxt": ^0.21.0
-    "@vueuse/core": ^7.5.2
-    "@vueuse/nuxt": ^7.5.2
+    "@vueuse/core": ^7.5.3
+    "@vueuse/nuxt": ^7.5.3
     fuse.js: ^6.5.3
     millify: ^4.0.0
     nuxt-edge: ^2.16.0-27355697.777a4b7f

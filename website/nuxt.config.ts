@@ -1,5 +1,4 @@
 import { defineNuxtConfig } from '@nuxt/bridge'
-import unocssConfig from './unocss.config'
 
 const title = 'Explore Nuxt Modules'
 const description = 'Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.'
@@ -58,6 +57,7 @@ export default defineNuxtConfig({
     '~/plugins/unocss',
     '~/plugins/v-tooltip.ts'
   ],
+  // @ts-expect-error PWA
   manifest: {
     name: 'Nuxt Modules',
     short_name: 'Nuxt Modules',
