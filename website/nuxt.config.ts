@@ -46,6 +46,10 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxt/bridge'
   ],
+  plugins: [
+    '~/plugins/unocss',
+    '~/plugins/v-tooltip.ts'
+  ],
   vueuse: {
     autoImports: true,
     ssrHandlers: true
@@ -54,10 +58,6 @@ export default defineNuxtConfig({
     preflight: false,
     autoImport: false
   },
-  plugins: [
-    '~/plugins/unocss',
-    '~/plugins/v-tooltip.ts'
-  ],
   // @ts-expect-error PWA
   manifest: {
     name: 'Nuxt Modules',

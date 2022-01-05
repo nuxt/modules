@@ -5,7 +5,10 @@ import presetWebFonts from '@unocss/preset-web-fonts'
 import presetIcons from '@unocss/preset-icons'
 
 export default <UnocssNuxtOptions>{
+  preflight: false,
+  autoImport: false,
   include: [/\.vue$/, /\.ts$/, /\.vue\?vue/],
+  exclude: [/\.nuxt/, /node_modules/],
   presets: [
     presetUno(),
     presetAttributify(),
