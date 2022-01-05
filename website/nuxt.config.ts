@@ -47,7 +47,7 @@ export default defineNuxtConfig({
     '@nuxtjs/html-validator',
     '@nuxtjs/color-mode',
     '@unocss/nuxt',
-    '@vueuse/core/nuxt'
+    '@vueuse/nuxt'
   ],
   unocss: {
     include: [/\.vue$/, /\.ts$/, /\.vue\?vue/],

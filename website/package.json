@@ -22,6 +22,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@unocss/nuxt": "^0.21.0",
     "@vueuse/core": "^7.5.1",
+    "@vueuse/nuxt": "^7.5.1",
     "fuse.js": "^6.5.3",
     "millify": "^4.0.0",
     "nuxt-edge": "^2.16.0-27292334.ab1c6cb4",
