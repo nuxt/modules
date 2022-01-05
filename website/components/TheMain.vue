@@ -45,7 +45,7 @@
     </div>
 
     <!-- Body -->
-    <div class="w-full max-w-390 px-4 mx-auto pt-8 grid grid-cols-1 lg:grid-cols-[18em,1fr] gap-4">
+    <div class="w-full max-w-390 px-4 mx-auto pt-8 grid grid-cols-1 lg:grid-cols-[18em_1fr] gap-4">
       <!-- Sidebar -->
       <TheDrawer
         :enabled="!lg"
