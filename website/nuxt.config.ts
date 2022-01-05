@@ -51,7 +51,8 @@ export default defineNuxtConfig({
     ssrHandlers: true
   },
   unocss: {
-    preflight: false
+    preflight: false,
+    autoImport: false
   },
   plugins: [
     '~/plugins/unocss',
