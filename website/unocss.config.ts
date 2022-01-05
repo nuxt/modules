@@ -1,6 +1,7 @@
 import { UnocssNuxtOptions } from '@unocss/nuxt'
 import presetUno, { theme } from '@unocss/preset-uno'
 import presetAttributify from '@unocss/preset-attributify'
+import presetWebFonts from '@unocss/preset-web-fonts'
 import presetIcons from '@unocss/preset-icons'
 
 export default <UnocssNuxtOptions>{
@@ -12,6 +13,13 @@ export default <UnocssNuxtOptions>{
       scale: 1.2,
       extraProperties: {
         display: 'inline-block'
+      }
+    }),
+    presetWebFonts({
+      fonts: {
+        sans: 'DM Sans',
+        serif: 'DM Serif Display',
+        mono: 'DM Mono'
       }
     })
   ],
@@ -74,11 +82,6 @@ export default <UnocssNuxtOptions>{
         darkest: '#012A35',
         black: '#001E26'
       }
-    },
-    fontFamily: {
-      sans: '"DM Sans",' + theme.fontFamily.sans,
-      serif: '"DM Serif Display",' + theme.fontFamily.serif,
-      mono: '"DM Mono",' + theme.fontFamily.mono
     },
     transitionProperty: {
       height: 'height'
