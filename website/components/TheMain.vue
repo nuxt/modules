@@ -6,9 +6,8 @@
       <TheNav ref="searchEl" :search="q" @update:search="v=>q=v">
         <template #head>
           <button
-            v-show="!lg"
             aria-label="Toggle Drawer"
-            class="!outline-none text-xl h-1.2em my-auto"
+            class="!outline-none text-xl h-1.2em my-auto block lg:hidden"
             @click="isDrawerOpen = true"
           >
             <UnoIcon class="i-carbon-menu" />
@@ -48,16 +47,14 @@
     <div class="w-full max-w-390 px-4 mx-auto pt-8 grid grid-cols-1 lg:grid-cols-[18em_1fr] gap-4">
       <!-- Sidebar -->
       <TheDrawer
-        :enabled="!lg"
         :open="isDrawerOpen"
         :drawer-class="'bg-gray-100 dark:bg-secondary-black p-4 w-20em border-r nuxt-border h-full overflow-auto'"
         @close="isDrawerOpen=false"
       >
         <div class="p-4 relative">
           <button
-            v-show="!lg"
             aria-label="Close Drawer"
-            class="absolute top-0 right-0 !outline-none text-2xl"
+            class="absolute top-0 right-0 !outline-none text-2xl block lg:hidden"
             @click="isDrawerOpen = false"
           >
             <UnoIcon class="i-carbon-close" />
@@ -166,8 +163,6 @@ const props = defineProps<{
 
 const vm = getCurrentInstance()
 const searchEl = ref()
-
-const { md, lg } = useBreakpoints(breakpointsTailwind)
 
 const isDrawerOpen = ref(false)
 const q = ref('')
