@@ -1,6 +1,6 @@
 <template>
   <div>
-    <dl class="flex gap-4 md:gap-8 mt-auto h-full">
+    <dl class="flex gap-4 flex-wrap md:gap-8 mt-auto h-full">
       <div class="flex-col space-y-2 p-4 rounded-md">
         <span
           class="font-normal leading-6 text-sm sm:mt-2 sm:text-sm sm:capitalize"
@@ -56,8 +56,8 @@
 </template>
 
 <script setup lang="ts">
-import { numberFormatter } from '~/utils/format'
 import { ModuleInfo } from '~/../lib/types'
+import { numberFormatter } from '~/utils/format'
 
 defineProps<{
   stats: {

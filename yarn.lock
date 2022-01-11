@@ -1504,9 +1504,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/babel-preset-app-edge@npm:2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "@nuxt/babel-preset-app-edge@npm:2.16.0-27355697.777a4b7f"
+"@nuxt/babel-preset-app-edge@npm:2.16.0-27358576.777a4b7f":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "@nuxt/babel-preset-app-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
     "@babel/compat-data": ^7.16.0
     "@babel/core": ^7.16.0
@@ -1524,7 +1524,7 @@ __metadata:
     core-js: ^3.19.0
     core-js-compat: ^3.19.1
     regenerator-runtime: ^0.13.9
-  checksum: df34a71b274e638e41de5b225958b2867c6daf26fd829cf31b13a2f08f55db0735708a08e6089a18fa2c02849f9689ce6dbf76ab160ccee82e624cd49c203bf5
+  checksum: cbabc62bd9dc5a10caf9e397683bf726da99d51188f79b7c013d1db2ec6afa35ed647bfa6422ccdc2fbc8743e498b5a2031831db27eb21563ae50edfc762c827
   languageName: node
   linkType: hard
 
@@ -1578,14 +1578,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/builder-edge@npm:2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "@nuxt/builder-edge@npm:2.16.0-27355697.777a4b7f"
+"@nuxt/builder-edge@npm:2.16.0-27358576.777a4b7f":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "@nuxt/builder-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
     "@nuxt/devalue": ^2.0.0
-    "@nuxt/utils-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/vue-app-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/webpack-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/utils-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/vue-app-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/webpack-edge": 2.16.0-27358576.777a4b7f
     chalk: ^4.1.2
     chokidar: ^3.5.2
     consola: ^2.15.3
@@ -1597,16 +1597,16 @@ __metadata:
     pify: ^5.0.0
     serialize-javascript: ^6.0.0
     upath: ^2.0.1
-  checksum: aca585cca258c8dbcdfa2b6e5169c6b82680ae1f13619207433743ddddfa5c91579f50b0a74708f107ce75046ee1987a0e1546b2f44a586673defc3e77d3f810
+  checksum: 77d6b1132851249a55ea3273f975350cced459e66ae5fae8d5a2e28eac59869044f3f8502f916dfaf52aa801f8acac3f786ef873e68362e89a7657f426ffd2c5
   languageName: node
   linkType: hard
 
-"@nuxt/cli-edge@npm:2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "@nuxt/cli-edge@npm:2.16.0-27355697.777a4b7f"
+"@nuxt/cli-edge@npm:2.16.0-27358576.777a4b7f":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "@nuxt/cli-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
-    "@nuxt/config-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/utils-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/config-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/utils-edge": 2.16.0-27358576.777a4b7f
     boxen: ^5.1.2
     chalk: ^4.1.2
     compression: ^1.7.4
@@ -1631,7 +1631,7 @@ __metadata:
     wrap-ansi: ^7.0.0
   bin:
     nuxt-cli: bin/nuxt-cli.js
-  checksum: 215a388725d96203b16249abb7685a405b307c815e5ab7855614583bd994682f2d150a735148277eba9a931fd74f90f37797454aab74fcdd2e257674d7d718b7
+  checksum: ba09b120f1cf911cb7a343188bed1f5446cf2b2da34a04259f4b95cc02d38d4a45a336aebddf5c20656daeffc4045bf2c4a206c5f0075ce2132cb45705691268
   languageName: node
   linkType: hard
 
@@ -1653,11 +1653,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/config-edge@npm:2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "@nuxt/config-edge@npm:2.16.0-27355697.777a4b7f"
+"@nuxt/config-edge@npm:2.16.0-27358576.777a4b7f":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "@nuxt/config-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
-    "@nuxt/utils-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/utils-edge": 2.16.0-27358576.777a4b7f
     consola: ^2.15.3
     defu: ^5.0.0
     destr: ^1.1.0
@@ -1666,23 +1666,23 @@ __metadata:
     rc9: ^1.2.0
     std-env: ^3.0.1
     ufo: ^0.7.9
-  checksum: 90862a5dad4aaf6a887e2558852d75d1417b6da50371d96cc51af6eb7cd1e910981f16ece132a7434e51cc47183bb33c66c94f4718c8e240c43611dea361b335
+  checksum: 1af74053b24f7148cc0e85d3ffbd95aa39b5de964a4133f4fcee00bcfb909fde7b8069c3c258cca327d4f1430a0628c7bb73dbe3ab3b868df6861d37034d32e2
   languageName: node
   linkType: hard
 
-"@nuxt/core-edge@npm:2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "@nuxt/core-edge@npm:2.16.0-27355697.777a4b7f"
+"@nuxt/core-edge@npm:2.16.0-27358576.777a4b7f":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "@nuxt/core-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
-    "@nuxt/config-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/server-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/utils-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/config-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/server-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/utils-edge": 2.16.0-27358576.777a4b7f
     consola: ^2.15.3
     fs-extra: ^10.0.0
     hable: ^3.0.0
     hash-sum: ^2.0.0
     lodash: ^4.17.21
-  checksum: 6205958486b52d0263482df85a95c4c3c5fa5daac9115361f8ea2c5fbf1d537691d92575a349889944f851586974721f09d5bf25546e2b19bb417c3c4040987b
+  checksum: c2af7beb12c2d3f768c09787848f132c23458840168c55c1c3d95569468cbc01db1be0d6e7c85bfff643415d012b9552309a54b65dcb124e087609181871795a
   languageName: node
   linkType: hard
 
@@ -1714,11 +1714,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/generator-edge@npm:2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "@nuxt/generator-edge@npm:2.16.0-27355697.777a4b7f"
+"@nuxt/generator-edge@npm:2.16.0-27358576.777a4b7f":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "@nuxt/generator-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
-    "@nuxt/utils-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/utils-edge": 2.16.0-27358576.777a4b7f
     chalk: ^4.1.2
     consola: ^2.15.3
     defu: ^5.0.0
@@ -1727,7 +1727,7 @@ __metadata:
     html-minifier: ^4.0.0
     node-html-parser: ^5.1.0
     ufo: ^0.7.9
-  checksum: d4738cb13395cc715cc6b643a7d2db005bf95615c251b6c5dc3ab44693fd54bbaffaae3943e81225e9d07841b742eb2286eef7d1420b02de51faaf77f137823e
+  checksum: 7223a394b6cfaa07fb133ba8e5e3b2ca8fa08a1e6510fa6252162db063696e775c455d6b2d75005a8f27e3f81737a268a3448155ab1bcf42f29f3d641ee31a7e
   languageName: node
   linkType: hard
 
@@ -1883,12 +1883,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/server-edge@npm:2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "@nuxt/server-edge@npm:2.16.0-27355697.777a4b7f"
+"@nuxt/server-edge@npm:2.16.0-27358576.777a4b7f":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "@nuxt/server-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
-    "@nuxt/utils-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/vue-renderer-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/utils-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/vue-renderer-edge": 2.16.0-27358576.777a4b7f
     "@nuxtjs/youch": ^4.2.3
     compression: ^1.7.4
     connect: ^3.7.0
@@ -1904,7 +1904,7 @@ __metadata:
     serve-static: ^1.14.1
     server-destroy: ^1.0.1
     ufo: ^0.7.9
-  checksum: e04e7a2b8480267b5620b19f0ac997f46e5c2f15e48d1dd05302e9995bd01cbd60a628e81b43df2a1449d884fb5b51c0c64abd53fd88727c487db09f126dfd12
+  checksum: 8e7455423476a9361a317ed22d0bd0b6ffdc438c5ed104c50e776dd818eef174b88605a278184caf251a953825cbd4e9f943a870510cb6318e81f3ed5675a9be
   languageName: node
   linkType: hard
 
@@ -1936,9 +1936,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/utils-edge@npm:2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "@nuxt/utils-edge@npm:2.16.0-27355697.777a4b7f"
+"@nuxt/utils-edge@npm:2.16.0-27358576.777a4b7f":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "@nuxt/utils-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
     consola: ^2.15.3
     create-require: ^1.1.1
@@ -1952,13 +1952,13 @@ __metadata:
     signal-exit: ^3.0.5
     ua-parser-js: ^1.0.2
     ufo: ^0.7.9
-  checksum: 367d4a5938c6ab2e52cede0a198df5ac6ea1cd255f7432d2ab47deb8fa5226be9e8dd2d05226033832254d497b11b37a374f068b022e0f6d5a70795c6a762d8b
+  checksum: 4d8ca452d1bd996a0531f4794f5c7c054d079bf747422b3abf276624cef5bfb7573ad0182caaabbe0c5ab27b8bfa67d43ddacc396164358279e549f029cdbc6b
   languageName: node
   linkType: hard
 
-"@nuxt/vue-app-edge@npm:2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "@nuxt/vue-app-edge@npm:2.16.0-27355697.777a4b7f"
+"@nuxt/vue-app-edge@npm:2.16.0-27358576.777a4b7f":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "@nuxt/vue-app-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
     node-fetch: ^2.6.6
     ufo: ^0.7.9
@@ -1970,16 +1970,16 @@ __metadata:
     vue-router: ^3.5.3
     vue-template-compiler: ^2.6.14
     vuex: ^3.6.2
-  checksum: 3d12554e0ea4b89a89779fe251c3af5d00ba31f565eeca6094e53066821616187053af60be738e25299e008051498a0fc0c2185f0f640c9b5386bec638560bb0
+  checksum: d03e3da0109becb6d99ce1663dcc4eae0d0e2699b5f48ff3cc583a572c6f4d9bdee545742ebf641e2eccbca13d3674690290bf4077c991b0ebed7894edd32fa3
   languageName: node
   linkType: hard
 
-"@nuxt/vue-renderer-edge@npm:2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "@nuxt/vue-renderer-edge@npm:2.16.0-27355697.777a4b7f"
+"@nuxt/vue-renderer-edge@npm:2.16.0-27358576.777a4b7f":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "@nuxt/vue-renderer-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
     "@nuxt/devalue": ^2.0.0
-    "@nuxt/utils-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/utils-edge": 2.16.0-27358576.777a4b7f
     consola: ^2.15.3
     defu: ^5.0.0
     fs-extra: ^10.0.0
@@ -1989,18 +1989,18 @@ __metadata:
     vue: ^2.6.14
     vue-meta: ^2.4.0
     vue-server-renderer: ^2.6.14
-  checksum: f57c4903f339c2ced0b988f7158e160f953449f16d7a5f7b07342b6c5367fde94818c568875f55d0ce71da7de68f9c773cfe07d00afa3650296c97fc3c866ba7
+  checksum: 036ea10831874d71d0fba773c33d269a6ecb0625848ce4cefb1dd54c705bce1217211e29631da25169f2d49ef3051a03bec8c76f163b70cf8e9a64789240a05e
   languageName: node
   linkType: hard
 
-"@nuxt/webpack-edge@npm:2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "@nuxt/webpack-edge@npm:2.16.0-27355697.777a4b7f"
+"@nuxt/webpack-edge@npm:2.16.0-27358576.777a4b7f":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "@nuxt/webpack-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
     "@babel/core": ^7.16.0
-    "@nuxt/babel-preset-app-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/babel-preset-app-edge": 2.16.0-27358576.777a4b7f
     "@nuxt/friendly-errors-webpack-plugin": ^2.5.2
-    "@nuxt/utils-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/utils-edge": 2.16.0-27358576.777a4b7f
     babel-loader: ^8.2.3
     cache-loader: ^4.1.0
     caniuse-lite: ^1.0.30001275
@@ -2043,7 +2043,7 @@ __metadata:
     webpack-hot-middleware: ^2.25.1
     webpack-node-externals: ^3.0.0
     webpackbar: ^5.0.2
-  checksum: 06900597ff0b5fdf0860ae930d638ac503471548fe09dd012a39337a08d4f13688468853278d8a1ec80b817a9171edde6d5e25f57ee8a99f1e14a0cfca07fc1c
+  checksum: e5b67c3fc3575eba15b71d79b563a5eb221b799448d44b9dd5e936e38e7c50cc86dc1f612553529cafdfe053fbac91aa84706124fc91d1247cc5aa808b75f23b
   languageName: node
   linkType: hard
 
@@ -2620,138 +2620,149 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/config@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/config@npm:0.21.0"
+"@unocss/config@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/config@npm:0.22.0"
   dependencies:
-    "@unocss/core": 0.21.0
+    "@unocss/core": 0.22.0
     unconfig: ^0.2.2
-  checksum: 8b05942577ac7240e6b6d52f64a4893c141dd696fc3e4092977c6b4f7410c16d516147f67a22394155a1bf922fdac2619310b81d61a0abfc0ada3d3c288aa96b
+  checksum: 0a89cd88483b0fb0d3392aaf0c2f04a5e30bb377d20d92936fb42db07f94c10d1c42b1a28b904cf63668c416de53c233de5e02fa89a910b92cb8d8c767f730c5
   languageName: node
   linkType: hard
 
-"@unocss/core@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/core@npm:0.21.0"
-  checksum: ee5bfb2b5daab13b171b5cc68d307e7cf4bb03708d3f205c6869f809319752f4a00aab1a4f2d848bab2159ac5ecc1f2e4b9aefaeef8a22a5f5bed665ee176175
+"@unocss/core@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/core@npm:0.22.0"
+  checksum: 0d2dd8f3937989cf2c33b682a7b6fc9f0bab9d37b844fa6f44112b4acc71d8d52c4503ee8fe5773c538cddd34813d54725df3bdd2927fbaf1690d13860c2c008
   languageName: node
   linkType: hard
 
-"@unocss/inspector@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/inspector@npm:0.21.0"
+"@unocss/inspector@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/inspector@npm:0.22.0"
   dependencies:
     gzip-size: ^6.0.0
     sirv: ^2.0.0
-  checksum: e5517d99d90de75b8b7c688855e931e045080dea2ad7bae696c460dccf8524cf94507a03f119b7bb79b00bfcc08f22b1a73b3ef293b2e7b060cdc18cb90c5219
+  checksum: d47f38f43d4cdae6d2c32d6c5c37c818ea95f602c39e287e5796f5cae7f67b3f514e151260f16b6e85734decce76dfc00666e3009a49c413f8e326d49516ded1
   languageName: node
   linkType: hard
 
-"@unocss/nuxt@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/nuxt@npm:0.21.0"
+"@unocss/nuxt@npm:^0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/nuxt@npm:0.22.0"
   dependencies:
     "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
-    "@unocss/core": 0.21.0
-    "@unocss/preset-attributify": 0.21.0
-    "@unocss/preset-icons": 0.21.0
-    "@unocss/preset-uno": 0.21.0
-    "@unocss/reset": 0.21.0
-    "@unocss/vite": 0.21.0
-    "@unocss/webpack": 0.21.0
-  checksum: dc68502c0d527ad96208a30afd59034706800a986f1d09da945b695755696099ce78aafab8a1cb45948b22f90964e46669b143235b3f1a782f7be483219a5c7c
+    "@unocss/core": 0.22.0
+    "@unocss/preset-attributify": 0.22.0
+    "@unocss/preset-icons": 0.22.0
+    "@unocss/preset-uno": 0.22.0
+    "@unocss/preset-web-fonts": 0.22.0
+    "@unocss/reset": 0.22.0
+    "@unocss/vite": 0.22.0
+    "@unocss/webpack": 0.22.0
+  checksum: f4b3b069adea8220524f0fc6ed9674c4c8b1085e23c0c729b8b59cea8e35a509213fc22d8951158ce61d59df98cf96c4d7b59ecb735b0fbbe1f377d79e669826
   languageName: node
   linkType: hard
 
-"@unocss/preset-attributify@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/preset-attributify@npm:0.21.0"
+"@unocss/preset-attributify@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/preset-attributify@npm:0.22.0"
   dependencies:
-    "@unocss/core": 0.21.0
-  checksum: 19febca3b0ef7dc72253ee7e22065b97290eb31e8afa71fb0a37eca52ab4195d13067d1cfa4eba4c6a94ba4b2c0b22a49282188e5e5f97a88d62bf5de870d181
+    "@unocss/core": 0.22.0
+  checksum: de6b70217cd2a9a1db53f32cfeb698025c13e10966850a2164cc672a53cdf19d8b7bb2c6ce2767781b6a0657e53e1714d41d46a04ceeaa5fbf16df20706b0679
   languageName: node
   linkType: hard
 
-"@unocss/preset-icons@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/preset-icons@npm:0.21.0"
+"@unocss/preset-icons@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/preset-icons@npm:0.22.0"
   dependencies:
     "@iconify/utils": ^1.0.20
-    "@unocss/core": 0.21.0
-    local-pkg: ^0.4.0
-  checksum: bae2f411d2f9a9036d049c443c210672d83979d05b57449a83b8d2e23500182b0986686ca7a83d158061493d194814eacbb3e8269415b6c3b5f0c7b529eae014
+    "@unocss/core": 0.22.0
+    local-pkg: ^0.4.1
+  checksum: 92e7bc5961689472926fde3bbf9bfc17c05250bc04278e061286044d1be1651f31a33c6c138482a28c17503ac8b108635da302f08731b0bafaee8fa6e882fa00
   languageName: node
   linkType: hard
 
-"@unocss/preset-mini@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/preset-mini@npm:0.21.0"
+"@unocss/preset-mini@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/preset-mini@npm:0.22.0"
   dependencies:
-    "@unocss/core": 0.21.0
-  checksum: 8248b456299b82c3a9e7ef3730d460ac5dda2a25367d6f45de6a42eeffa3df61be19416d30313b2cbc7d7b7a7280f1977501b09c04915f595f2f5b656ca5ad08
+    "@unocss/core": 0.22.0
+  checksum: 983d1c12fb421d146221074293265af120d83aba29f50ee8f46668e8514e7c82b37be13f226ed880a4ec5b9d5feb240e37a306d747a878fa6ebe6b55cfa196dd
   languageName: node
   linkType: hard
 
-"@unocss/preset-uno@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/preset-uno@npm:0.21.0"
+"@unocss/preset-uno@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/preset-uno@npm:0.22.0"
   dependencies:
-    "@unocss/core": 0.21.0
-    "@unocss/preset-mini": 0.21.0
-    "@unocss/preset-wind": 0.21.0
-  checksum: 8e22b29f04f956db2cb92c21d661e3d80e6652d6b759a2c0d3e61bc0c3be7775c7de830db0b1015b5a922b7a5241c639a0e177e4813046dcf56fb78063bedb33
+    "@unocss/core": 0.22.0
+    "@unocss/preset-mini": 0.22.0
+    "@unocss/preset-wind": 0.22.0
+  checksum: 134067c00021343d62bf842120da215134e58161c3507b0e20421a21c978389fb05c792e06ba18e008ce757e08e88ee87428e63dd51632efb13e67243dae7431
   languageName: node
   linkType: hard
 
-"@unocss/preset-wind@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/preset-wind@npm:0.21.0"
+"@unocss/preset-web-fonts@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/preset-web-fonts@npm:0.22.0"
   dependencies:
-    "@unocss/core": 0.21.0
-    "@unocss/preset-mini": 0.21.0
-  checksum: 91242a32113f6e1ce086381a9821794b17ce5613cab9a641094abbccfc0e3f42b2971387554ba28b2864d452603c2316020348bb2ca55d9274a211c9c69e08d0
+    "@unocss/core": 0.22.0
+    axios: ^0.24.0
+  checksum: 16ec8363db554cf1d3fa9c70dd529ad12d8aac515d563f70db9bddf64df376c42bb70c65603a47dee60ba1f3081d9118b74fec5dc35e1a67e5a1e8855e6b05d6
   languageName: node
   linkType: hard
 
-"@unocss/reset@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/reset@npm:0.21.0"
-  checksum: 102641d56825b94d6846936ac968d172d71018d7d895e03a4f2beba09e10088a11e4d4892901db24f70910fc40e48bbed5f49f4a60d3b810bf20020974a7132d
-  languageName: node
-  linkType: hard
-
-"@unocss/scope@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/scope@npm:0.21.0"
-  checksum: 364d1eda2f588966ebaa00472e5dbf3866b3c7732be0892be569a3e68bd9cb5799630386ce9204bf8d81759ba47febf82b5062e8ce999842be94f11a67484272
-  languageName: node
-  linkType: hard
-
-"@unocss/vite@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/vite@npm:0.21.0"
+"@unocss/preset-wind@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/preset-wind@npm:0.22.0"
   dependencies:
-    "@rollup/pluginutils": ^4.1.2
-    "@unocss/config": 0.21.0
-    "@unocss/core": 0.21.0
-    "@unocss/inspector": 0.21.0
-    "@unocss/scope": 0.21.0
-  checksum: 3a205cc9a4ed8c99189de063232f121a973f933388551d37dbf8209c8a998b6b253e20d80a841ebbb3f5712fc8e4c7b6e1d1d5fb1932c22117cf7df34bd96587
+    "@unocss/core": 0.22.0
+    "@unocss/preset-mini": 0.22.0
+  checksum: 720f49966679a4f3ea76890ffed79632bcd1b342022776da07673a56708cb924b16eb6893c4afe44bd32c1a63725bc42207773c4663beb38ad9b5ad15dedd5d9
   languageName: node
   linkType: hard
 
-"@unocss/webpack@npm:0.21.0":
-  version: 0.21.0
-  resolution: "@unocss/webpack@npm:0.21.0"
+"@unocss/reset@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/reset@npm:0.22.0"
+  checksum: 2d33e625ee37306fc461591af1e1bfe31b0e9c99acbdd59b2d0f1f16b86c0c257ee280f54dcf6d39223ceaf610c2d0840a143b5e506cc59e5fffa8e21504485f
+  languageName: node
+  linkType: hard
+
+"@unocss/scope@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/scope@npm:0.22.0"
+  checksum: 166e8b9a7ec9bcd25488fb463dfd7ead6a150c7ae8d2e16012790ec5d3b27b5640fb04b1ae0fad52b477c7f7a0c2ea06151114bf642e2ff6cf42f7eea91c6252
+  languageName: node
+  linkType: hard
+
+"@unocss/vite@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/vite@npm:0.22.0"
   dependencies:
     "@rollup/pluginutils": ^4.1.2
-    "@unocss/config": 0.21.0
-    "@unocss/core": 0.21.0
+    "@unocss/config": 0.22.0
+    "@unocss/core": 0.22.0
+    "@unocss/inspector": 0.22.0
+    "@unocss/scope": 0.22.0
+  checksum: 93b1aa1f61da55552488ac91e01c5bc19626af242d50016a3d58d8a11e2de2c9b49a9a871941fa60331876ea6f8065d1054eae8e1ba051932796fd15d57cb8d6
+  languageName: node
+  linkType: hard
+
+"@unocss/webpack@npm:0.22.0":
+  version: 0.22.0
+  resolution: "@unocss/webpack@npm:0.22.0"
+  dependencies:
+    "@rollup/pluginutils": ^4.1.2
+    "@unocss/config": 0.22.0
+    "@unocss/core": 0.22.0
     unplugin: ^0.3.0
     webpack-sources: ^3.2.2
   peerDependencies:
     webpack: ^4 || ^5
-  checksum: 9b444017949aeef604e98326dbb0a4519374db5b6978fdc46365a84240a71e163074bad365c2812cb3a9c267110452eaf1d3c13137f72e7acfa3e58e70756102
+  checksum: 0c48b66929beb5435cc9fab1ae8201039f2f0428700ddaf07f9b739a18c54dec90faea28491fd3ef35d22d239007cafc04d57c2f2ad878fdfc6f1d584f26e6d9
   languageName: node
   linkType: hard
 
@@ -3809,6 +3820,15 @@ __metadata:
   version: 1.0.5
   resolution: "available-typed-arrays@npm:1.0.5"
   checksum: 20eb47b3cefd7db027b9bbb993c658abd36d4edd3fe1060e83699a03ee275b0c9b216cc076ff3f2db29073225fb70e7613987af14269ac1fe2a19803ccc97f1a
+  languageName: node
+  linkType: hard
+
+"axios@npm:^0.24.0":
+  version: 0.24.0
+  resolution: "axios@npm:0.24.0"
+  dependencies:
+    follow-redirects: ^1.14.4
+  checksum: 468cf496c08a6aadfb7e699bebdac02851e3043d4e7d282350804ea8900e30d368daa6e3cd4ab83b8ddb5a3b1e17a5a21ada13fc9cebd27b74828f47a4236316
   languageName: node
   linkType: hard
 
@@ -7865,7 +7885,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.14.4":
   version: 1.14.6
   resolution: "follow-redirects@npm:1.14.6"
   peerDependenciesMeta:
@@ -9983,7 +10003,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"local-pkg@npm:^0.4.0, local-pkg@npm:^0.4.1":
+"local-pkg@npm:^0.4.1":
   version: 0.4.1
   resolution: "local-pkg@npm:0.4.1"
   checksum: 4ab3b4853ffbc3b292a3ae2e22618dbc348418a2ebf60ada55fdcc5a8583f9167c89fc7977194ffa39d0a4c5078f9c421d246afdd252fea7a840f7a8f3b5f96b
@@ -11203,28 +11223,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-edge@npm:^2.16.0-27355697.777a4b7f":
-  version: 2.16.0-27355697.777a4b7f
-  resolution: "nuxt-edge@npm:2.16.0-27355697.777a4b7f"
+"nuxt-edge@npm:latest":
+  version: 2.16.0-27358576.777a4b7f
+  resolution: "nuxt-edge@npm:2.16.0-27358576.777a4b7f"
   dependencies:
-    "@nuxt/babel-preset-app-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/builder-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/cli-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/babel-preset-app-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/builder-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/cli-edge": 2.16.0-27358576.777a4b7f
     "@nuxt/components": ^2.2.1
-    "@nuxt/config-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/core-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/generator-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/config-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/core-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/generator-edge": 2.16.0-27358576.777a4b7f
     "@nuxt/loading-screen": ^2.0.4
     "@nuxt/opencollective": ^0.3.2
-    "@nuxt/server-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/server-edge": 2.16.0-27358576.777a4b7f
     "@nuxt/telemetry": ^1.3.6
-    "@nuxt/utils-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/vue-app-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/vue-renderer-edge": 2.16.0-27355697.777a4b7f
-    "@nuxt/webpack-edge": 2.16.0-27355697.777a4b7f
+    "@nuxt/utils-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/vue-app-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/vue-renderer-edge": 2.16.0-27358576.777a4b7f
+    "@nuxt/webpack-edge": 2.16.0-27358576.777a4b7f
   bin:
     nuxt: bin/nuxt.js
-  checksum: d8eb8c3fa794d95ad9205159c60b5baeb22b9d01f1db29692bde02ee40f5479299055ab744a65b130e8fe3db1da4aa8bee2e1f2f952af08b89b17256471a1bef
+  checksum: 5e8386bc3578a46a13c66bf45e96342c1d64122acb64418fa264a9f8d1b30faac0517a000b4043349a51bd5456cd68670d1a65ad1d5fc2cb4ec17adb1c1b8bd6
   languageName: node
   linkType: hard
 
@@ -11239,17 +11259,16 @@ __metadata:
     "@nuxtjs/html-validator": ^0.6.0
     "@nuxtjs/pwa": ^3.3.5
     "@nuxtjs/web-vitals": ^0.1.8
-    "@unocss/nuxt": ^0.21.0
+    "@unocss/nuxt": ^0.22.0
     "@vueuse/core": ^7.5.3
     "@vueuse/nuxt": ^7.5.3
     fuse.js: ^6.5.3
     millify: ^4.0.0
-    nuxt-edge: ^2.16.0-27355697.777a4b7f
+    nuxt-edge: latest
     ohmyfetch: ^0.4.14
     v-tooltip: ^2.1.3
     vue-lazy-hydration: ^2.0.0-beta.4
     vue-plausible: ^1.3.1
-    windicss: ^3.4.2
   languageName: unknown
   linkType: soft
 
@@ -16450,15 +16469,6 @@ __metadata:
   dependencies:
     string-width: ^4.0.0
   checksum: 03db6c9d0af9329c37d74378ff1d91972b12553c7d72a6f4e8525fe61563fa7adb0b9d6e8d546b7e059688712ea874edd5ded475999abdeedf708de9849310e0
-  languageName: node
-  linkType: hard
-
-"windicss@npm:^3.4.2":
-  version: 3.4.2
-  resolution: "windicss@npm:3.4.2"
-  bin:
-    windicss: cli/index.js
-  checksum: 74f90e08a725602f5900dbd8318aba3fed1bf0acfc057095e81194d25d61cd1df16cf2ccf507d13450bc1524e7c18838e6aac25b376e795f2db8b30e206cc362
   languageName: node
   linkType: hard
 
