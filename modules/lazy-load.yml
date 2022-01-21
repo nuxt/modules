@@ -1,0 +1,18 @@
+name: lazy-load
+description: Lazy Load module for Nuxt 3
+repo: nuxt-modules/lazy-load
+npm: '@nuxt-modules/lazy-load'
+icon: lazy-load.svg
+github: https://github.com/nuxt-modules/lazy-load
+website: https://lazy-load-nm.netlify.app/
+learn_more: https://lazy-load-nm.netlify.app/
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: Jakub Andrzejewski
+    github: Baroshem
+    avatar: https://avatars2.githubusercontent.com/u/37120330?v=4?s=80
+compatibility:
+  2.x: unknown
+  2.x-bridge: unknown
+  3.x: working
