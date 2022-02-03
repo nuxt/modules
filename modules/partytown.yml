@@ -5,7 +5,7 @@ npm: partytown
 icon: partytown.svg
 github: https://github.com/nuxt-community/partytown-module
 website: https://github.com/nuxt-community/partytown-module
-learn_more: ""
+learn_more: "https://partytown.builder.io/"
 category: Performance
 type: community
 maintainers:
