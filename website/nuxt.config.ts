@@ -34,8 +34,6 @@ export default defineNuxtConfig({
   },
   components: true,
   buildModules: [
-    // https://github.com/windicss/nuxt-windicss
-    // 'nuxt-windicss',
     // https://image.nuxtjs.org
     // '@nuxt/image',
     // https://pwa.nuxtjs.org
@@ -44,7 +42,6 @@ export default defineNuxtConfig({
     // 'vue-plausible',
     // https://html-validator.nuxtjs.org
     // '@nuxtjs/html-validator',
-    // '@nuxtjs/color-mode',
     'v-tooltip/nuxt',
     '@unocss/nuxt',
     '@vueuse/nuxt'
@@ -58,44 +55,8 @@ export default defineNuxtConfig({
     ssrHandlers: true
   },
   unocss: {
-    include: [/\.vue$/, /\.ts$/, /\.vue\?vue/],
-    icons: {
-      scale: 1.2,
-      extraProperties: {
-        display: 'inline-block'
-      }
-    },
-    preflight: true,
-    theme: {
-      colors: {
-        'secondary-surface': '#E5F9FF',
-        'secondary-lightest': '#B7E1ED',
-        'secondary-lighter': '#95CDDE',
-        'secondary-light': '#71A2B0',
-        secondary: '#497A87',
-        'secondary-dark': '#255461',
-        'secondary-darker': '#003543',
-        'secondary-darkest': '#022a35',
-        'secondary-black': '#001E26'
-      },
-      fontFamily: {
-        sans: 'DM Sans',
-        serif: 'DM Serif Display',
-        mono: 'DM Mono'
-      },
-      transitionProperty: {
-        height: 'height'
-      }
-    },
-    shortcuts: {
-      'nuxt-border': 'border-gray-200 dark:border-secondary-darker',
-      'nuxt-card-border': 'border border-gray-200 dark:border-secondary-darker hover:border-primary-800 focus:border-primary-800 dark:hover:border-secondary dark:focus:border-secondary focus:outline-none',
-      'nuxt-card-bg': 'bg-white dark:bg-secondary-darkest',
-      'nuxt-text-default': 'text-sky-darkest dark:text-white',
-
-      'nuxt-text-highlight': 'py-2 px-4 rounded-md bg-gray-100 dark:bg-white dark:bg-opacity-10 hover:bg-gray-200',
-      'nuxt-text-highlight-hover': 'nuxt-text-highlight dark:hover:bg-opacity-9 light:hover:bg-gray-50'
-    }
+    preflight: false,
+    autoImport: false
   }
   // plugins: ['~/plugins/v-tooltip.ts'],
   // manifest: {
