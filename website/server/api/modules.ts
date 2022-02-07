@@ -1,3 +1,4 @@
+import seedrandom from 'seedrandom'
 import { ModuleInfo } from '../../../lib/types'
 
 export default async () => {
@@ -6,10 +7,6 @@ export default async () => {
   return {
     modules
   }
-}
-
-function rand (min: number, max: number) {
-  return min + Math.round((Math.random() * (max - min)))
 }
 
 async function fetchModuleStats (module: ModuleInfo) {
@@ -38,6 +35,12 @@ async function fetchModuleStats (module: ModuleInfo) {
     module.createdAt = +new Date(npm.createdAt || undefined)
     module.contributors = contributors
   } else {
+    const random = seedrandom('nuxt-modules')
+
+    function rand (min: number, max: number) {
+      return min + Math.round((random() * (max - min)))
+    }
+
     module.downloads = rand(0, 500)
     module.stars = rand(0, 2000)
     module.publishedAt = rand(1_600_000_000_000, 1_630_000_000_000)
