@@ -8,57 +8,57 @@ import { ModuleInfo } from './types'
 import { fetchGithubPkg, modulesDir, distDir, distFile } from './utils'
 
 export async function sync (name, repo?: string, isNew: boolean = false) {
-  const module = await getModule(name)
+  const mod = await getModule(name)
 
   // Repo
   if (repo) {
-    module.repo = repo
+    mod.repo = repo
   }
 
-  if (!module.repo) {
+  if (!mod.repo) {
     throw new Error(`repo not provided for ${name}`)
   }
 
   // Defaults
-  if (!module.repo) {
-    module.repo = repo
+  if (!mod.repo) {
+    mod.repo = repo
   }
-  if (!module.github) {
-    module.github = `https://github.com/${module.repo.replace('#', '/tree/')}`
+  if (!mod.github) {
+    mod.github = `https://github.com/${mod.repo.replace('#', '/tree/')}`
   }
-  if (!module.website) {
-    module.website = module.github
+  if (!mod.website) {
+    mod.website = mod.github
   }
 
   // Fetch latest package.json from github
-  const pkg = await fetchGithubPkg(module.repo)
-  module.npm = pkg.name
+  const pkg = await fetchGithubPkg(mod.repo)
+  mod.npm = pkg.name
 
   // Type
-  if (module.repo.startsWith('nuxt-community/')) {
-    module.type = 'community'
-  } else if (module.repo.startsWith('nuxt/')) {
-    module.type = 'official'
+  if (mod.repo.startsWith('nuxt-community/')) {
+    mod.type = 'community'
+  } else if (mod.repo.startsWith('nuxt/')) {
+    mod.type = 'official'
   } else {
-    module.type = '3rd-party'
+    mod.type = '3rd-party'
   }
 
   // Category
-  if (!module.category) {
+  if (!mod.category) {
     if (!isNew) {
       throw new Error(`No category for ${name}`)
     } else {
       console.log(`[TODO] Add a category to ./modules/${name}.yml`)
     }
-  } else if (!categories.includes(module.category)) {
-    let newCat = module.category[0].toUpperCase() + module.category.substr(1)
+  } else if (!categories.includes(mod.category)) {
+    let newCat = mod.category[0].toUpperCase() + mod.category.substr(1)
     if (newCat.length <= 3) {
       newCat = newCat.toUpperCase()
     }
     if (categories.includes(newCat)) {
-      module.category = newCat
+      mod.category = newCat
     } else {
-      throw new Error(`Unknown category ${module.category} for ${module.name}.\nSupported categories: ${categories.join(', ')}`)
+      throw new Error(`Unknown category ${mod.category} for ${mod.name}.\nSupported categories: ${categories.join(', ')}`)
     }
   }
 
@@ -78,34 +78,34 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     'compatibility'
   ]
   const invalidFields = []
-  for (const key in module) {
+  for (const key in mod) {
     if (!validFields.includes(key)) {
       invalidFields.push(key)
-      delete module[key]
+      delete mod[key]
     }
   }
   if (invalidFields.length) {
-    console.warn(`Invalid fields for ./modules/${module.name}.yml`, invalidFields)
+    console.warn(`Invalid fields for ./modules/${mod.name}.yml`, invalidFields)
   }
 
   // Auto name
-  if (!module.name) {
-    module.name = (pkg.name.startsWith('@') ? pkg.name.split('/')[1] : pkg.name)
+  if (!mod.name) {
+    mod.name = (pkg.name.startsWith('@') ? pkg.name.split('/')[1] : pkg.name)
       .replace('nuxt-', '')
       .replace('-module', '')
   }
 
   // Maintainers
   // TODO: Sync with maintainers.app
-  if (!module.maintainers.length) {
-    const owner = module.repo.split('/')[0]
+  if (!mod.maintainers.length) {
+    const owner = mod.repo.split('/')[0]
     if (owner !== 'nuxt-community' && owner !== 'nuxt') {
-      module.maintainers.push({
+      mod.maintainers.push({
         name: owner,
         github: owner
       })
     } else if (!isNew) {
-      throw new Error(`No maintainer for ${module.name}`)
+      throw new Error(`No maintainer for ${mod.name}`)
     } else {
       // eslint-disable-next-line no-console
       console.log(`[TODO] Add a maintainer to ./modules/${name}.yml`)
@@ -113,20 +113,20 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
   }
 
   // Default description
-  if (!module.description) {
-    module.description = pkg.description
+  if (!mod.description) {
+    mod.description = pkg.description
   }
 
   // Compatibility
 
   // Write module
-  await writeModule(module)
+  await writeModule(mod)
 
-  return module
+  return mod
 }
 
 export async function getModule (name): Promise<ModuleInfo> {
-  let module: ModuleInfo = {
+  let mod: ModuleInfo = {
     name,
     description: '',
     repo: '', // nuxt/example
@@ -138,6 +138,7 @@ export async function getModule (name): Promise<ModuleInfo> {
     category: 'Devtools', // see modules/_categories.json
     type: '3rd-party', // official, community, 3rd-party
     maintainers: [],
+    contributors: [],
     compatibility: {
       nuxt: '^2.0.0',
       requires: {}
@@ -146,10 +147,10 @@ export async function getModule (name): Promise<ModuleInfo> {
 
   const file = resolve(modulesDir, name + '.yml')
   if (existsSync(file)) {
-    module = defu(yml.load(await fsp.readFile(file, 'utf-8')) as object, module)
+    mod = defu(yml.load(await fsp.readFile(file, 'utf-8')) as object, mod)
   }
 
-  return module
+  return mod
 }
 
 export async function writeModule (module) {
