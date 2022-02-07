@@ -18,4 +18,4 @@ export const categories = [
   'SEO',
   'Security',
   'UI'
-] as const
+] as string[]
