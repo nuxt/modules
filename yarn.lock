@@ -938,13 +938,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@popperjs/core@npm:^2.11.0":
-  version: 2.11.2
-  resolution: "@popperjs/core@npm:2.11.2"
-  checksum: 5695bf020eda54636e16a62dc9b5fdd92beaf7b2d19f62fcef049d57c5cff92773562d80cbf760b217c3ec928da310eb24994ab6a00fd39dffa0af9b5dfc01a6
-  languageName: node
-  linkType: hard
-
 "@rollup/plugin-alias@npm:^3.1.9":
   version: 3.1.9
   resolution: "@rollup/plugin-alias@npm:3.1.9"
@@ -6938,9 +6931,6 @@ __metadata:
     nuxt3: ^3.0.0-27398533.c82d353
     ohmyfetch: ^0.4.15
     seedrandom: ^3.0.5
-    v-tooltip: ^4.0.0-beta.17
-    vue-lazy-hydration: ^2.0.0-beta.4
-    vue-plausible: ^1.3.1
   languageName: unknown
   linkType: soft
 
@@ -7363,13 +7353,6 @@ __metadata:
     mlly: ^0.3.6
     pathe: ^0.2.0
   checksum: 55942a816772137fda954ea1ad86cb972e63da42e445a0532cd6bfc31def6ed22f28bf5746fcea39cedd128494079212ee1ab51edcf206280b9e4eb8c3468bd4
-  languageName: node
-  linkType: hard
-
-"plausible-tracker@npm:^0.3.4":
-  version: 0.3.5
-  resolution: "plausible-tracker@npm:0.3.5"
-  checksum: 09773169447a114e6d50b23110bfa33b51a04a5f9c6b229b2165ccb035075042c3eff133f48a527e55f4d13453b3315e6ca6360d87d8461c239fa1f8a7f03a33
   languageName: node
   linkType: hard
 
@@ -9427,18 +9410,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"v-tooltip@npm:^4.0.0-beta.17":
-  version: 4.0.0-beta.17
-  resolution: "v-tooltip@npm:4.0.0-beta.17"
-  dependencies:
-    "@popperjs/core": ^2.11.0
-    vue-resize: ^2.0.0-alpha.1
-  peerDependencies:
-    vue: ^3.0.11
-  checksum: cdf43a4716a87c0fbe517db431b2fea6076f6987a00320b243ff5ceb7106ee7984aad52f10e7ecfae946f17346e2bd1f35445b373a86e1f44e7a09bed8062a4d
-  languageName: node
-  linkType: hard
-
 "v8-compile-cache@npm:^2.0.3":
   version: 2.3.0
   resolution: "v8-compile-cache@npm:2.3.0"
@@ -9558,13 +9529,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-lazy-hydration@npm:^2.0.0-beta.4":
-  version: 2.0.0-beta.4
-  resolution: "vue-lazy-hydration@npm:2.0.0-beta.4"
-  checksum: f48af1364f5d27e174cb6a801556ac9d5e5104184cf84cb088688a5b5d6dcd97c1f437ad74333cede77ce4e85307c9d7f3c8d813a4747c1cff46ef97b79f9817
-  languageName: node
-  linkType: hard
-
 "vue-loader@npm:^17.0.0":
   version: 17.0.0
   resolution: "vue-loader@npm:17.0.0"
@@ -9575,15 +9539,6 @@ __metadata:
   peerDependencies:
     webpack: ^4.1.0 || ^5.0.0-0
   checksum: a6eb675f07357a7d7181b78549e342c444b4e28896f84444506f940c14bdd7833276f50d645efcdc742ba987218745f965361921f99012fecf184e0aae67a4a0
-  languageName: node
-  linkType: hard
-
-"vue-plausible@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "vue-plausible@npm:1.3.1"
-  dependencies:
-    plausible-tracker: ^0.3.4
-  checksum: 84860ff453a776d9a9b6fb0ea902685706776c067bd1fe065f31d8edc771bf21b8ae1f7e517cdc8afc63b947e9d3b74cf40b9d7594be24a308d093946cc3109a
   languageName: node
   linkType: hard
 
