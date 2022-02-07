@@ -78,11 +78,6 @@ function focusSearchInput () {
   searchEl.value?.focus()
 }
 
-// const vm = getCurrentInstance().proxy
-function toggleDarkMode () {
-//   vm.$colorMode.preference = toggleNext[vm.$colorMode.preference] || 'system'
-}
-
 onMounted(() => {
   useEventListener('keypress', (event) => {
     // Add `/` shortcut for search input only if not already focused

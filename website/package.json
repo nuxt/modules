@@ -17,6 +17,7 @@
     "@nuxt/kit-edge": "npm:@nuxt/kit-edge@latest",
     "@nuxtjs/html-validator": "^0.6.0",
     "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/web-vitals": "^0.1.8",
     "@types/seedrandom": "^3.0.1",
     "@unocss/nuxt": "^0.23.0",
     "@vueuse/nuxt": "^7.5.5",

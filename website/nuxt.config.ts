@@ -52,23 +52,14 @@ export default defineNuxtConfig({
   unocss: {
     preflight: false,
     autoImport: false
+  },
+  manifest: {
+    name: 'Nuxt Modules',
+    short_name: 'Nuxt Modules',
+    description: 'Explore Nuxt Modules',
+    theme_color: '#003c3c'
   }
-  // plugins: ['~/plugins/v-tooltip.ts'],
-  // manifest: {
-  //   name: 'Nuxt Modules',
-  //   short_name: 'Nuxt Modules',
-  //   description: 'Explore Nuxt Modules',
-  //   theme_color: '#003c3c'
-  // },
   // plausible: {
   //   domain: 'modules.nuxtjs.org'
   // },
-  // colorMode: {
-  //   preference: 'system',
-  //   fallback: 'light',
-  //   classSuffix: ''
-  // },
-  // bridge: {
-  //   vite: true
-  // }
 })
