@@ -5,10 +5,9 @@ const description = 'Discover our list of modules to supercharge your Nuxt proje
 const url = 'https://modules.nuxtjs.org'
 
 export default defineNuxtConfig({
-  css: ['~/assets/css/main.css'],
   head: {
     bodyAttrs: {
-      class: 'bg-cloudy-grey min-h-screen'
+      class: 'min-h-screen'
     },
     title,
     meta: [
@@ -48,8 +47,16 @@ export default defineNuxtConfig({
     // '@nuxtjs/color-mode',
     'v-tooltip/nuxt',
     '@unocss/nuxt',
-    '@vueuse/core/nuxt'
+    '@vueuse/nuxt'
   ],
+  plugins: [
+    '~/plugins/unocss',
+    '~/plugins/v-tooltip.ts'
+  ],
+  vueuse: {
+    autoImports: true,
+    ssrHandlers: true
+  },
   unocss: {
     include: [/\.vue$/, /\.ts$/, /\.vue\?vue/],
     icons: {
