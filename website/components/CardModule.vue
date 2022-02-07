@@ -39,7 +39,7 @@
           <span>{{ mod.name }}</span>
           <UnoIcon
             v-if="mod.type === 'official'"
-            v-tooltip="{ content: 'Official', classes: tooltipClass }"
+            v-tooltip="'Official'"
             class="i-carbon-badge text-yellow-600 text-lg ml-1 my-auto opacity-85"
           />
         </h2>
@@ -47,7 +47,7 @@
           <div
             v-for="{ tag, tagText, supportText, color, cssClass } of useModuleComptatibility(mod)"
             :key="tag"
-            v-tooltip="{ content: tagText + ': ' + supportText, classes: tooltipClass }"
+            v-tooltip="tagText + ': ' + supportText"
             :style="{ color: color, background: color + '20' }"
             :class="cssClass"
             class="flex min-w-12 relative items-center gap-1 text-base rounded-lg px-2 py-1 z-50"
@@ -105,7 +105,7 @@
         <a
           v-for="contributor of mod.contributors.slice(0, 5).reverse()"
           :key="contributor.login"
-          v-tooltip="{ content: contributor.name || contributor.login, classes: ['bg-secondary-dark', 'dark:bg-sky-black', 'text-white', 'px-2', 'py-1', 'rounded', 'text-sm', 'mb-2'] }"
+          v-tooltip="contributor.name || contributor.login"
           :aria-label="contributor.name || contributor.login"
           :href="`https://github.com/${contributor.login}`"
           target="_blank"
@@ -155,8 +155,6 @@ const useModuleComptatibility = (mod: ModuleInfo) => {
     ...(mod.tags.includes(tag) ? supportMap.supported : supportMap.notSupported)
   }))
 }
-
-const tooltipClass = 'bg-secondary-dark text-white px-2 py-1 m-1 rounded text-sm shadow'
 
 function numberFormat (num: number, options = { precision: 1 }) {
   return numberFormatter(num, options)

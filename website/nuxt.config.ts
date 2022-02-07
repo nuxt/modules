@@ -42,12 +42,8 @@ export default defineNuxtConfig({
     // 'vue-plausible',
     // https://html-validator.nuxtjs.org
     // '@nuxtjs/html-validator',
-    'v-tooltip/nuxt',
     '@unocss/nuxt',
     '@vueuse/nuxt'
-  ],
-  plugins: [
-    '~/plugins/unocss'
   ],
   vueuse: {
     autoImports: true,
