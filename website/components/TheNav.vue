@@ -24,20 +24,30 @@
         >/</span>
       </label>
     </div>
-    <button
-      aria-label="Search"
-      class="block md:hidden !outline-none text-xl h-1.2em my-auto"
-      @click="toggleSearch()"
-    >
-      <UnoIcon class="i-carbon-search" />
-    </button>
-    <button
-      aria-label="Toggle theme"
-      class="!outline-none text-xl h-1.2em my-auto"
-      @click="toggleColorMode()"
-    >
-      <UnoIcon class="dark:i-carbon-moon i-carbon-sun" />
-    </button>
+    <div class="flex gap-3">
+      <button
+        aria-label="Search"
+        class="block md:hidden !outline-none text-xl h-1.2em my-auto"
+        @click="toggleSearch()"
+      >
+        <UnoIcon class="i-carbon-search" />
+      </button>
+      <a
+        aria-label="GitHub"
+        class="!outline-none text-xl h-1.2em my-auto"
+        href="https://github.com/nuxt/modules"
+        target="_blank"
+      >
+        <UnoIcon class="i-carbon-logo-github" />
+      </a>
+      <button
+        aria-label="Toggle theme"
+        class="!outline-none text-xl h-1.2em my-auto"
+        @click="toggleColorMode()"
+      >
+        <UnoIcon class="dark:i-carbon-moon i-carbon-sun" />
+      </button>
+    </div>
     <slot name="tail" />
   </div>
 </template>
