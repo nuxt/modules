@@ -53,7 +53,7 @@ Field Name      | Auto sync | Description
 `description`   | Yes       | Short description
 `repo`          | No        | Github repository. Format is `org/name` or `org/name#main/path`
 `npm`           | Yes       | NPM package name
-`icon`          | No        | Icon of module from [./website/static/icons](./website/static/icons) directory
+`icon`          | No        | Icon of module from [./website/public/icons](./website/public/icons) directory
 `github`        | No        | Github URL
 `website`       | No        | Website URL
 `learn_more`    | No        | Link to learn more (website or relevant integration website)

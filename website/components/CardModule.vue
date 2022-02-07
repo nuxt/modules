@@ -23,7 +23,7 @@
         <!-- TODO: use <nuxt-img> -->
         <img
           v-if="!coverError && iconUrl(mod)"
-          :src="'https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/website/static/' + iconUrl(mod)"
+          :src="'https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/website/public/' + iconUrl(mod)"
           :alt="mod.name"
           class="w-10 h-10 object-contain"
           width="40px"

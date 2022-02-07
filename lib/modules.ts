@@ -131,7 +131,7 @@ export async function getModule (name): Promise<ModuleInfo> {
     description: '',
     repo: '', // nuxt/example
     npm: '', // @nuxt/core
-    icon: '', // url or filename from /static/icons
+    icon: '', // url or filename from /public/icons
     github: '', // github link
     website: '',
     learn_more: '',
