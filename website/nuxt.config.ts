@@ -1,11 +1,11 @@
-import { defineNuxtConfig } from '@nuxt/bridge'
+import { defineNuxtConfig } from 'nuxt3'
 
 const title = 'Explore Nuxt Modules'
 const description = 'Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.'
 const url = 'https://modules.nuxtjs.org'
 
 export default defineNuxtConfig({
-  head: {
+  meta: {
     bodyAttrs: {
       class: 'min-h-screen'
     },
@@ -39,16 +39,11 @@ export default defineNuxtConfig({
     // https://pwa.nuxtjs.org
     '@nuxtjs/pwa',
     // https://github.com/moritzsternemann/vue-plausible
-    'vue-plausible',
+    // 'vue-plausible',
     // https://html-validator.nuxtjs.org
-    '@nuxtjs/html-validator',
+    // '@nuxtjs/html-validator',
     '@unocss/nuxt',
-    '@vueuse/nuxt',
-    '@nuxt/bridge'
-  ],
-  plugins: [
-    '~/plugins/unocss',
-    '~/plugins/v-tooltip.ts'
+    '@vueuse/nuxt'
   ],
   vueuse: {
     autoImports: true,
@@ -58,19 +53,13 @@ export default defineNuxtConfig({
     preflight: false,
     autoImport: false
   },
-  // @ts-expect-error PWA
   manifest: {
     name: 'Nuxt Modules',
     short_name: 'Nuxt Modules',
     description: 'Explore Nuxt Modules',
     theme_color: '#003c3c'
-  },
-  plausible: {
-    domain: 'modules.nuxtjs.org'
-  },
-  bridge: {
-    meta: true,
-    autoImports: true,
-    vite: true
   }
+  // plausible: {
+  //   domain: 'modules.nuxtjs.org'
+  // },
 })

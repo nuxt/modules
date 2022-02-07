@@ -2,14 +2,8 @@
   <TheMain :state="state" />
 </template>
 
-<script>
+<script setup lang="ts">
 import { fetchModules } from '~/composables/fetch'
 
-export default {
-  async asyncData () {
-    return {
-      state: await fetchModules()
-    }
-  }
-}
+const state = await fetchModules()
 </script>

@@ -10,7 +10,7 @@
         <button
           type="button"
           :aria-label="`change sort`"
-          class="flex items-center justify-center w-full p-1 px-2 hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none hover:border-grey-light"
+          class="flex items-center justify-center w-full p-1 px-2 hover:bg-sky-lightest focus:bg-sky-lightest focus:outline-none hover:border-grey-light"
           @click="toggleOrderByMenu"
         >
           {{ currentOrderByLabel }}
@@ -42,7 +42,7 @@
         <button
           type="button"
           :aria-label="sortBy === 'asc' ? 'sort ascending' : 'sort descending'"
-          class="flex items-center p-2 hover:bg-skborder-sky-lightest focus:bg-skborder-sky-lightest focus:outline-none rounded-r-md"
+          class="flex items-center p-2 hover:bg-sky-lightest focus:bg-sky-lightest focus:outline-none rounded-r-md"
           @click="toggleSortBy"
         >
           <UnoIcon :class="sortBy === 'asc' ? 'i-carbon-sort-ascending' : 'i-carbon-sort-descending'" />

@@ -1,5 +1,5 @@
 import { UnocssNuxtOptions } from '@unocss/nuxt'
-import presetUno, { theme } from '@unocss/preset-uno'
+import presetUno from '@unocss/preset-uno'
 import presetAttributify from '@unocss/preset-attributify'
 import presetWebFonts from '@unocss/preset-web-fonts'
 import presetIcons from '@unocss/preset-icons'
