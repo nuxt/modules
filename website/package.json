@@ -18,7 +18,7 @@
     "@nuxtjs/html-validator": "^0.6.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@unocss/nuxt": "^0.23.0",
-    "@vueuse/core": "^7.5.5",
+    "@vueuse/nuxt": "^7.5.5",
     "fuse.js": "^6.5.3",
     "millify": "^4.0.0",
     "nuxt3": "^3.0.0-27398533.c82d353",

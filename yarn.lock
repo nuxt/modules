@@ -1784,7 +1784,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^7.5.5":
+"@vueuse/core@npm:7.5.5, @vueuse/core@npm:^7.5.5":
   version: 7.5.5
   resolution: "@vueuse/core@npm:7.5.5"
   dependencies:
@@ -1808,6 +1808,18 @@ __metadata:
   peerDependencies:
     vue: ">=3"
   checksum: c6c7221078fa4bd9b509995950e3659b523e1dddb57ca9be2df2f1736ae41c3da195663c7fedfe71443e5468dcda946aecd55d8745b727c0045059b8c66f4be3
+  languageName: node
+  linkType: hard
+
+"@vueuse/nuxt@npm:^7.5.5":
+  version: 7.5.5
+  resolution: "@vueuse/nuxt@npm:7.5.5"
+  dependencies:
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
+    "@vueuse/core": 7.5.5
+    local-pkg: ^0.4.1
+    vue-demi: "*"
+  checksum: 1219a998cba444778043192020c600ffdfda5350e1d425281f681ea048f2467a67a1789a78f9a14fdf30c33d4b75295fc7a1a8f31a7aa4fc152bbc82e092efe9
   languageName: node
   linkType: hard
 
@@ -6872,6 +6884,7 @@ __metadata:
     "@nuxtjs/pwa": ^3.3.5
     "@unocss/nuxt": ^0.23.0
     "@vueuse/core": ^7.5.5
+    "@vueuse/nuxt": ^7.5.5
     fuse.js: ^6.5.3
     millify: ^4.0.0
     nuxt3: ^3.0.0-27398533.c82d353

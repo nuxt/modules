@@ -39,7 +39,7 @@
           <span>{{ mod.name }}</span>
           <UnoIcon
             v-if="mod.type === 'official'"
-            v-tooltip="{ content: 'Official',classes: tooltipClass }"
+            v-tooltip="{ content: 'Official', classes: tooltipClass }"
             class="i-carbon-badge text-yellow-600 text-lg ml-1 my-auto opacity-85"
           />
         </h2>

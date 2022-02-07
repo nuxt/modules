@@ -5,7 +5,7 @@ const description = 'Discover our list of modules to supercharge your Nuxt proje
 const url = 'https://modules.nuxtjs.org'
 
 export default defineNuxtConfig({
-  head: {
+  meta: {
     bodyAttrs: {
       class: 'min-h-screen'
     },
@@ -47,8 +47,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt'
   ],
   plugins: [
-    '~/plugins/unocss',
-    '~/plugins/v-tooltip.ts'
+    '~/plugins/unocss'
   ],
   vueuse: {
     autoImports: true,
