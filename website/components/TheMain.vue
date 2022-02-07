@@ -85,6 +85,9 @@
             :selected-item="selectedCategory"
             @toggle="toggleCategory"
           />
+
+          <!-- Footer -->
+          <TheFooter />
         </div>
       </TheDrawer>
       <!-- Main -->
@@ -143,9 +146,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Footer -->
-    <TheFooter />
   </div>
 </template>
 
