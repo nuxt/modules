@@ -5,7 +5,7 @@ npm: '@formkit/nuxt'
 icon: formkit.png
 github: https://github.com/formkit/formkit
 website: https://formkit.com
-learn_more: ''
+learn_more: 'https://formkit.com/essentials/installation#with-nuxt'
 category: Libraries
 type: 3rd-party
 maintainers:
