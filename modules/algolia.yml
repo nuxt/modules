@@ -14,7 +14,7 @@ maintainers:
     avatar: https://avatars2.githubusercontent.com/u/37120330?v=4?s=80
   - name: Yasser Lahbibi
     github: yassilah
-    avatar: https://avatars.githubusercontent.com/u/13403295?v=4 
+    avatar: https://avatars.githubusercontent.com/u/13403295?v=4
 compatibility:
   nuxt: ^3.0.0
   requires: {}

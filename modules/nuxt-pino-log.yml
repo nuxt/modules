@@ -5,7 +5,7 @@ npm: nuxt-pino-log
 icon: ''
 github: https://github.com/kpn/nuxt-pino-log
 website: https://github.com/kpn/nuxt-pino-log
-learn_more: 'https://github.com/pinojs/pino'
+learn_more: https://github.com/pinojs/pino
 category: Monitoring
 type: 3rd-party
 maintainers:

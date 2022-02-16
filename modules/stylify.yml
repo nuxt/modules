@@ -1,7 +1,9 @@
 name: stylify
-description: Stylify is a library that generates utility-first CSS dynamically based on what you write. Write HTML. Get CSS.
-repo: stylify/packages/tree/master/packages/nuxt-module
-npm: "@stylify/nuxt-module"
+description: >-
+  Stylify is a library that generates utility-first CSS dynamically based on
+  what you write. Write HTML. Get CSS.
+repo: stylify/packages#master/packages/nuxt-module
+npm: '@stylify/nuxt-module'
 icon: stylify.svg
 github: https://github.com/stylify/packages/tree/master/packages/nuxt-module
 website: https://stylify.dev/docs/nuxt-module
