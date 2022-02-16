@@ -152,7 +152,6 @@
 <script setup lang="ts">
 // import LazyHydrate from 'vue-lazy-hydration'
 import Fuse from 'fuse.js/dist/fuse.basic.esm'
-import { breakpointsTailwind } from '@vueuse/core'
 import { CATEGORIES_ICONS, MODULE_INCREMENT_LOADING, VERSIONS } from '~/composables/constants'
 import type { ModulesData } from '~/composables/fetch'
 

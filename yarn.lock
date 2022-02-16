@@ -823,6 +823,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxtjs/color-mode@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@nuxtjs/color-mode@npm:3.0.0"
+  dependencies:
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
+    defu: ^5.0.0
+    lodash.template: ^4.5.0
+    pathe: ^0.2.0
+  checksum: a66eca9719a68452207c684c62794f644ebe9484c365638b5bf3e71d905c1bf2c9787b7b446e9a96e62322f2c885142836acc7b28430404a4f708260660b7b64
+  languageName: node
+  linkType: hard
+
 "@nuxtjs/eslint-config-typescript@npm:^8.0.0":
   version: 8.0.0
   resolution: "@nuxtjs/eslint-config-typescript@npm:8.0.0"
@@ -6807,6 +6819,7 @@ __metadata:
   dependencies:
     "@iconify-json/carbon": ^1.1.0
     "@nuxt/kit-edge": "npm:@nuxt/kit-edge@latest"
+    "@nuxtjs/color-mode": ^3.0.0
     "@nuxtjs/html-validator": ^0.6.0
     "@nuxtjs/pwa": ^3.3.5
     "@nuxtjs/web-vitals": ^0.1.8

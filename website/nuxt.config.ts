@@ -33,7 +33,9 @@ export default defineNuxtConfig({
     ]
   },
   components: true,
-  buildModules: [
+  modules: [
+    // https://color-mode.nuxtjs.org
+    '@nuxtjs/color-mode',
     // https://image.nuxtjs.org
     // '@nuxt/image',
     // https://pwa.nuxtjs.org
@@ -42,23 +44,23 @@ export default defineNuxtConfig({
     'vue-plausible',
     // https://html-validator.nuxtjs.org
     // '@nuxtjs/html-validator',
-    '@unocss/nuxt',
-    '@vueuse/nuxt'
+    '@unocss/nuxt'
+    // '@vueuse/nuxt'
   ],
-  vueuse: {
-    autoImports: true,
-    ssrHandlers: true
-  },
+  // vueuse: {
+  //   autoImports: true,
+  //   ssrHandlers: true
+  // },
   unocss: {
     preflight: false,
     autoImport: false
   },
-  manifest: {
-    name: 'Nuxt Modules',
-    short_name: 'Nuxt Modules',
-    description: 'Explore Nuxt Modules',
-    theme_color: '#003c3c'
-  },
+  // manifest: {
+  //   name: 'Nuxt Modules',
+  //   short_name: 'Nuxt Modules',
+  //   description: 'Explore Nuxt Modules',
+  //   theme_color: '#003c3c'
+  // },
   plausible: {
     domain: 'modules.nuxtjs.org'
   }

@@ -53,14 +53,16 @@
 </template>
 
 <script setup lang="ts">
+import { useEventListener } from '@vueuse/core'
 import { isMobile } from '~/utils/detectUserAgent'
 
 const props = defineProps<{ search: string }>()
 const emit = defineEmits<{(e: 'update:search', v: string): void }>()
 
 const colorMode = useColorMode()
+console.log(colorMode.value)
 function toggleColorMode () {
-  colorMode.value = colorMode.value === 'dark' ? 'light' : 'dark'
+  colorMode.preference = colorMode.preference === 'dark' ? 'light' : 'dark'
 }
 
 const searchEl = ref<HTMLInputElement>()
