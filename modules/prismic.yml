@@ -18,5 +18,5 @@ maintainers:
   - name: James Pegg
     github: jamespegg
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^2.0.0 || ^3.0.0
   requires: {}
