@@ -39,7 +39,7 @@ export default defineNuxtConfig({
     // https://pwa.nuxtjs.org
     '@nuxtjs/pwa',
     // https://github.com/moritzsternemann/vue-plausible
-    // 'vue-plausible',
+    'vue-plausible',
     // https://html-validator.nuxtjs.org
     // '@nuxtjs/html-validator',
     '@unocss/nuxt',
@@ -58,8 +58,8 @@ export default defineNuxtConfig({
     short_name: 'Nuxt Modules',
     description: 'Explore Nuxt Modules',
     theme_color: '#003c3c'
+  },
+  plausible: {
+    domain: 'modules.nuxtjs.org'
   }
-  // plausible: {
-  //   domain: 'modules.nuxtjs.org'
-  // },
 })
