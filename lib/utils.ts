@@ -10,7 +10,7 @@ export function fetchPKG (name) {
 }
 
 export function fetchRawGithub (path) {
-  return $fetch('https://raw.githubusercontent.com/' + path)
+  return $fetch('https://raw.githubusercontent.com/' + path, { responseType: 'json' })
 }
 
 export function fetchGithubPkg (repo) {

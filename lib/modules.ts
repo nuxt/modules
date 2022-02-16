@@ -138,7 +138,6 @@ export async function getModule (name): Promise<ModuleInfo> {
     category: 'Devtools', // see modules/_categories.json
     type: '3rd-party', // official, community, 3rd-party
     maintainers: [],
-    contributors: [],
     compatibility: {
       nuxt: '^2.0.0',
       requires: {}
