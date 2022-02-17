@@ -470,12 +470,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify-json/carbon@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@iconify-json/carbon@npm:1.1.0"
+"@iconify-json/carbon@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@iconify-json/carbon@npm:1.1.1"
   dependencies:
     "@iconify/types": ^1.0.12
-  checksum: 05d8906500153606a3b9e0c00e015076734d2ccecb5f03efb50690a6c462834127dc7c490d72b6c513773a55ec72bdc6f9ee08716ba7c212a055cb30576baad5
+  checksum: fda8f1b867a130f6c7c25113562e1364ce4f814974941c5c76d01fb839e5af7cdd11317778815c06be261feeb4d8edb3de78d12858aafbd3070f19c6baa7be2b
   languageName: node
   linkType: hard
 
@@ -4485,7 +4485,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"floating-vue@npm:^2.0.0-beta.5":
+"floating-vue@npm:^2.0.0-beta.6":
   version: 2.0.0-y.0
   resolution: "floating-vue@npm:2.0.0-y.0"
   dependencies:
@@ -6805,7 +6805,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nuxt-modules-website@workspace:website"
   dependencies:
-    "@iconify-json/carbon": ^1.1.0
+    "@iconify-json/carbon": ^1.1.1
     "@nuxt/kit-edge": "npm:@nuxt/kit-edge@latest"
     "@nuxtjs/html-validator": ^0.6.0
     "@nuxtjs/pwa": ^3.3.5
@@ -6813,7 +6813,7 @@ __metadata:
     "@types/seedrandom": ^3.0.2
     "@unocss/nuxt": ^0.24.4
     "@vueuse/nuxt": ^7.6.2
-    floating-vue: ^2.0.0-beta.5
+    floating-vue: ^2.0.0-beta.6
     fuse.js: ^6.5.3
     millify: ^4.0.0
     nuxt3: latest
