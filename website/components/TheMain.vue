@@ -185,8 +185,10 @@ const fuseOptions = {
     'tags'
   ]
 }
-const fuseIndex = Fuse.createIndex(fuseOptions.keys, props.state.modules)
-const fuse = new Fuse(props.state.modules, fuseOptions, fuseIndex)
+const fuse = computed(() => {
+  const fuseIndex = Fuse.createIndex(fuseOptions.keys, props.state.modules)
+  return new Fuse(props.state.modules, fuseOptions, fuseIndex)
+})
 
 const displayFiltersBlock = computed(() => selectedCategory.value || q.value || selectedVersion.value)
 
@@ -207,7 +209,7 @@ const categoriesList = computed(() => {
 const filteredModules = computed(() => {
   let modules = props.state.modules
   if (q.value) {
-    modules = fuse.search(q.value).map(r => r.item)
+    modules = fuse.value.search(q.value).map(r => r.item)
   } else {
     // Sort only if no search
     modules.sort((a, b) => sort(a[orderBy.value], b[orderBy.value], sortBy.value === 'asc'))
