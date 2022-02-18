@@ -34,8 +34,6 @@ export default defineNuxtConfig({
   },
   components: true,
   modules: [
-    // https://color-mode.nuxtjs.org
-    '@nuxtjs/color-mode',
     // https://image.nuxtjs.org
     // '@nuxt/image',
     // https://pwa.nuxtjs.org
@@ -44,8 +42,11 @@ export default defineNuxtConfig({
     'vue-plausible',
     // https://html-validator.nuxtjs.org
     // '@nuxtjs/html-validator',
-    '@unocss/nuxt'
-    // '@vueuse/nuxt'
+    '@unocss/nuxt',
+    // https://vueuse.org
+    '@vueuse/nuxt',
+    // https://color-mode.nuxtjs.org
+    '@nuxtjs/color-mode'
   ],
   // vueuse: {
   //   autoImports: true,
