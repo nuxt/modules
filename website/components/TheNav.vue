@@ -53,6 +53,7 @@
 </template>
 
 <script setup lang="ts">
+import { useEventListener } from '@vueuse/core'
 import { isMobile } from '~/utils/detectUserAgent'
 
 const props = defineProps<{ search: string }>()

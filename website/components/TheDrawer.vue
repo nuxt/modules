@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { breakpointsTailwind } from '@vueuse/core'
+import { useBreakpoints, breakpointsTailwind } from '@vueuse/core'
 
 const props = defineProps<{
   open: boolean,
