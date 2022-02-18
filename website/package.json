@@ -13,7 +13,7 @@
     "@nuxt/kit-edge": "npm:@nuxt/kit-edge@latest"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.0",
+    "@iconify-json/carbon": "^1.1.1",
     "@nuxt/kit-edge": "npm:@nuxt/kit-edge@latest",
     "@nuxtjs/color-mode": "^3.0.0",
     "@nuxtjs/html-validator": "^0.6.0",
@@ -22,7 +22,7 @@
     "@types/seedrandom": "^3.0.2",
     "@unocss/nuxt": "^0.24.4",
     "@vueuse/nuxt": "^7.6.2",
-    "floating-vue": "^2.0.0-beta.5",
+    "floating-vue": "^2.0.0-beta.6",
     "fuse.js": "^6.5.3",
     "millify": "^4.0.0",
     "nuxt3": "latest",
