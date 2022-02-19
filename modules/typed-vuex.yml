@@ -14,4 +14,5 @@ maintainers:
     twitter: danielcroe
 compatibility:
   nuxt: ^2.0.0
-  requires: {}
+  requires:
+    bridge: optional
