@@ -1,0 +1,14 @@
+name: nuxt-articles
+description: A simple Git-based headless CMS for small websites.
+repo: dungsil/nuxt-articles
+npm: '@dungsil/nuxt-articles'
+github: https://github.com/dungsil/nuxt-articles
+learn_more: ''
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Kim Younggeon
+    github: dungsil
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
