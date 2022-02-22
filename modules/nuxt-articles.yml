@@ -3,6 +3,7 @@ description: A simple Git-based headless CMS for small websites.
 repo: dungsil/nuxt-articles
 npm: '@dungsil/nuxt-articles'
 github: https://github.com/dungsil/nuxt-articles
+website: https://github.com/dungsil/nuxt-articles
 learn_more: ''
 category: CMS
 type: 3rd-party
