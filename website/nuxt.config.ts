@@ -52,6 +52,9 @@ export default defineNuxtConfig({
   //   autoImports: true,
   //   ssrHandlers: true
   // },
+  colorMode: {
+    classSuffix: ''
+  },
   unocss: {
     preflight: false,
     autoImport: false
