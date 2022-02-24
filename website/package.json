@@ -15,7 +15,7 @@
   "devDependencies": {
     "@iconify-json/carbon": "^1.1.1",
     "@nuxt/kit-edge": "npm:@nuxt/kit-edge@latest",
-    "@nuxtjs/color-mode": "^3.0.0",
+    "@nuxtjs/color-mode": "^3.0.1",
     "@nuxtjs/html-validator": "^0.6.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/web-vitals": "^0.1.8",
