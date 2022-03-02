@@ -22,10 +22,10 @@
     "eslint-plugin-nuxt": "^3.1.0",
     "globby": "^13.1.1",
     "hasha": "^5.2.2",
-    "jiti": "^1.12.15",
+    "jiti": "^1.13.0",
     "js-yaml": "^4.1.0",
     "ohmyfetch": "^0.4.15",
-    "typescript": "^4.5.5"
+    "typescript": "^4.6.2"
   },
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.2.0"
 }
