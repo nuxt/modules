@@ -1,5 +1,5 @@
 name: gql
-description: ⚡️ Minimal GraphQL Client + Code Generation for Nuxt3. Auto imports GraphQL Operations for easy execution.
+description: Minimal GraphQL Client + Code Generation for Nuxt. Auto imports GraphQL Operations for easy execution.
 repo: diizzayy/nuxt-gql
 npm: nuxt-gql
 icon: gql.png
