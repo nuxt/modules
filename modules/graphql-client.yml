@@ -1,8 +1,8 @@
-name: graphql-request
+name: graphql-client
 description: Minimal GraphQL Client + Code Generation for Nuxt. Auto imports GraphQL Operations for easy execution.
 repo: diizzayy/nuxt-gql
 npm: nuxt-gql
-icon: gql.png
+icon: graphql-client.svg
 github: https://github.com/diizzayy/nuxt-gql
 website: https://github.com/diizzayy/nuxt-gql
 learn_more: https://www.graphql-code-generator.com/plugins/typescript-graphql-request
