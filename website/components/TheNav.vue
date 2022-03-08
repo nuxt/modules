@@ -59,8 +59,7 @@ import { isMobile } from '~/utils/detectUserAgent'
 const props = defineProps<{ search: string }>()
 const emit = defineEmits<{(e: 'update:search', v: string): void }>()
 
-// TODO: use composable after it doesn't conflict with vueuse
-const colorMode = useNuxtApp().$colorMode
+const colorMode = useColorMode()
 function toggleColorMode () {
   colorMode.preference = colorMode.preference === 'dark' ? 'light' : 'dark'
 }

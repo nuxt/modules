@@ -1,3 +1,7 @@
+import IconNuxt2 from '~/components/icon/iconNuxt2.vue'
+import IconNuxt3 from '~/components/icon/iconNuxt3.vue'
+import IconNuxtBridge from '~/components/icon/iconNuxtBridge.vue'
+
 export const CATEGORIES_ICONS = {
   Analytics: 'i-carbon-skill-level-basic',
   CMS: 'i-carbon-data-table',
@@ -21,9 +25,9 @@ export const CATEGORIES_ICONS = {
 }
 
 export const VERSIONS = [
-  { key: '2.x', label: 'Nuxt 2', icon: 'iconNuxt2' },
-  { key: '2.x-bridge', label: 'Nuxt 2 + Bridge', icon: 'iconNuxtBridge' },
-  { key: '3.x', label: 'Nuxt 3', icon: 'iconNuxt3' }
+  { key: '2.x', label: 'Nuxt 2', icon: IconNuxt2 },
+  { key: '2.x-bridge', label: 'Nuxt 2 + Bridge', icon: IconNuxtBridge },
+  { key: '3.x', label: 'Nuxt 3', icon: IconNuxt3 }
 ]
 
 export const ORDER_BY_FIELDS = {

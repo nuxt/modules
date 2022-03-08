@@ -52,9 +52,9 @@
             :class="cssClass"
             class="flex min-w-12 relative items-center gap-1 text-base rounded-lg px-2 py-1 z-50"
           >
-            <iconNuxt3 v-if="tag === '3.x'" class="h-5 w-5" aria-hidden="true" />
-            <iconNuxt2 v-if="tag === '2.x'" class="h-5 w-5" aria-hidden="true" />
-            <iconNuxtBridge v-if="tag === '2.x-bridge'" class="h-5 w-5" aria-hidden="true" />
+            <IconNuxt3 v-if="tag === '3.x'" class="h-5 w-5" aria-hidden="true" />
+            <IconNuxt2 v-if="tag === '2.x'" class="h-5 w-5" aria-hidden="true" />
+            <IconNuxtBridge v-if="tag === '2.x-bridge'" class="h-5 w-5" aria-hidden="true" />
             <div class="-mb-0.5">
               {{ tag[0] }}
             </div>
