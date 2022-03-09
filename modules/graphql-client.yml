@@ -13,5 +13,3 @@ maintainers:
     github: diizzayy
 compatibility:
   nuxt: ^3.0.0
-  requires:
-    bridge: false
