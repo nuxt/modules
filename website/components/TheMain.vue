@@ -161,7 +161,7 @@ const props = defineProps<{
   state: ModulesData
 }>()
 
-const vm = getCurrentInstance()
+const route = useRoute()
 const searchEl = ref()
 
 const isDrawerOpen = ref(false)
@@ -225,9 +225,8 @@ const filteredModules = computed(() => {
 const pageFilteredModules = computed(() => {
   return Array.from(filteredModules.value).splice(0, moduleLoaded.value)
 })
-
 watch([q, orderBy, sortBy, selectedVersion, selectedCategory], syncURL, { deep: true })
-watch(() => vm.proxy.$route, applyURLFilters)
+watch(() => route, applyURLFilters)
 
 function getVersionFromKey (key: string) {
   const version = VERSIONS.find(version => version.key === key)
@@ -258,7 +257,7 @@ function clearFilters () {
 }
 
 function syncURL () {
-  const url = vm.proxy.$route.path
+  const url = route.path
   const queries = []
 
   resetModuleLoaded()
@@ -285,7 +284,6 @@ function syncURL () {
 }
 
 function applyURLFilters () {
-  const route = vm.proxy.$route
   if (typeof route.query.q === 'string') {
     q.value = route.query.q
   }
