@@ -1,0 +1,21 @@
+name: unlighthouse
+description: >-
+  Unlighthouse scans your entire site using Google Lighthouse, with a modern UI,
+  minimal config and smart sampling.
+repo: harlan-zw/unlighthouse#main/integrations/nuxt
+npm: '@unlighthouse/nuxt'
+icon: unlighthouse.svg
+github: https://github.com/harlan-zw/unlighthouse
+website: https://github.com/harlan-zw/unlighthouse
+learn_more: https://github.com/harlan-zw/unlighthouse
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Harlan Wilton
+    github: harlan-zw
+    twitter: harlan_zw
+    avatar: https://avatars.githubusercontent.com/harlan-zw?v=4
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires:
+    bridge: optional
