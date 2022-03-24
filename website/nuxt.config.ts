@@ -78,5 +78,10 @@ export default defineNuxtConfig({
   // },
   plausible: {
     domain: 'modules.nuxtjs.org'
+  },
+  // experimentNitropack: true,
+  experimental: {
+    asyncEntry: true
+    // viteNode: true
   }
 })
