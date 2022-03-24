@@ -1650,11 +1650,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:7.7.1":
-  version: 7.7.1
-  resolution: "@vueuse/core@npm:7.7.1"
+"@vueuse/core@npm:8.1.2":
+  version: 8.1.2
+  resolution: "@vueuse/core@npm:8.1.2"
   dependencies:
-    "@vueuse/shared": 7.7.1
+    "@vueuse/metadata": 8.1.2
+    "@vueuse/shared": 8.1.2
     vue-demi: "*"
   peerDependencies:
     "@vue/composition-api": ^1.1.0
@@ -1664,7 +1665,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 957ef988a07bced077a605f005a5138e5a88bf871b6748a0dc33ed90779b2ce9792640ddcf9df40e9ee344fe7a4dcd9ca52098d08a5b24bb7607c04080ea79e6
+  checksum: 3fe0ea7883ac7cf513ab5149de234ca779097d8c920aa95973ae4d2b46613b7ca88c4e75fffa13d9e91a6c9943ad88965527ecd2974085a5e4afc361c088278b
   languageName: node
   linkType: hard
 
@@ -1677,21 +1678,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/nuxt@npm:^7.7.1":
-  version: 7.7.1
-  resolution: "@vueuse/nuxt@npm:7.7.1"
-  dependencies:
-    "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
-    "@vueuse/core": 7.7.1
-    local-pkg: ^0.4.1
-    vue-demi: "*"
-  checksum: 905442c103883da8a9ce6b5ff4c13f3b97f9fa57fa1f9ac9be9a7106f5b98b4b9954bfef0c696e8bd168d2d93fec8d1d4cfd3c8f30f05688225c4af145d5572d
+"@vueuse/metadata@npm:8.1.2":
+  version: 8.1.2
+  resolution: "@vueuse/metadata@npm:8.1.2"
+  checksum: 84c42f893bf16504b33ec33e8b58cc1f2bb982d03889c6259d5ad51054aeab6136e3913e5954152a67c45579fbd1556c681efef9121c886d09ec4c6a64c80878
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:7.7.1":
-  version: 7.7.1
-  resolution: "@vueuse/shared@npm:7.7.1"
+"@vueuse/nuxt@npm:^8.1.2":
+  version: 8.1.2
+  resolution: "@vueuse/nuxt@npm:8.1.2"
+  dependencies:
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest"
+    "@vueuse/core": 8.1.2
+    "@vueuse/metadata": 8.1.2
+    local-pkg: ^0.4.1
+    vue-demi: "*"
+  checksum: 0c3503aefea76e1cc16dac5b9a3ee551e04378e436fdf790522eabb76ede3b3ba59f2b2c3aa7a4b7280bfb1c3c58b8a39bfddec6fb73aed24416c48737c3d30e
+  languageName: node
+  linkType: hard
+
+"@vueuse/shared@npm:8.1.2":
+  version: 8.1.2
+  resolution: "@vueuse/shared@npm:8.1.2"
   dependencies:
     vue-demi: "*"
   peerDependencies:
@@ -1702,7 +1711,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 91b2f6f5c43c275ecd2796e2589dbaaf841606379d6bc9ac9545c90000f9cf3e4b5960be756166ee2546dbaaa47d935f028c3b2241e59127a12b3959a641d03d
+  checksum: 45ecac2c4aada45aec2568411e95a39cb5797395bb3d8315c113863c7ffde563e467bd23a6ee3b8e834980217609354b992231c98dc148528bc352cfe98e7eb7
   languageName: node
   linkType: hard
 
@@ -6132,7 +6141,7 @@ __metadata:
     "@nuxtjs/web-vitals": ^0.1.8
     "@types/seedrandom": ^3.0.2
     "@unocss/nuxt": ^0.30.0
-    "@vueuse/nuxt": ^7.7.1
+    "@vueuse/nuxt": ^8.1.2
     floating-vue: ^2.0.0-beta.8
     fuse.js: ^6.5.3
     millify: ^4.0.0
