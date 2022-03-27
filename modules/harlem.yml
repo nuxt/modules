@@ -13,6 +13,5 @@ maintainers:
     github: danielroe
     twitter: danielcroe
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
-  requires:
-    bridge: true
+  nuxt: ^3.0.0
+  requires: {}
