@@ -17,4 +17,6 @@ maintainers:
     twitter: Atinux
 compatibility:
   nuxt: ^2.0.0 || ^3.0.0
-  requires: {}
+  requires: 
+    bridge: true
+  
