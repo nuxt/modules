@@ -1,5 +1,5 @@
 name: feed
-description: Feed module enables everyone to have RSS, Atom and Json.
+description: Feed module enables everyone to have RSS, Atom and JSON.
 repo: nuxt-community/feed-module
 npm: '@nuxtjs/feed'
 icon: ''
