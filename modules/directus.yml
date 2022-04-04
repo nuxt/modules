@@ -1,13 +1,13 @@
 name: directus
 description: Easily connect your Nuxt3 application to your directus server.
 repo: intevel/nuxt-directus
-npm: "nuxt-directus"
+npm: nuxt-directus
 icon: directus.svg
 github: https://github.com/intevel/nuxt-directus/
 website: https://nuxt-directus.netlify.app/
 learn_more: https://nuxt-directus.netlify.app/
 category: CMS
-type: community
+type: 3rd-party
 maintainers:
   - name: Conner Bachmann
     github: intevel

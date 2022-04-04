@@ -17,5 +17,5 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/u/13403295?v=4
 compatibility:
   nuxt: ^2.0.0 || ^3.0.0
-  requires: 
+  requires:
     bridge: true

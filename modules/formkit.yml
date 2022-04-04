@@ -1,6 +1,6 @@
 name: formkit
 description: Seamless FormKit integration for Nuxt
-repo: formkit/formkit
+repo: formkit/formkit#master/packages/nuxt
 npm: '@formkit/nuxt'
 icon: formkit.png
 github: https://github.com/formkit/formkit
