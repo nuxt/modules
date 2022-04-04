@@ -47,6 +47,9 @@ jobs:
       - name: Sync
         run: yarn sync
 
+      - name: Sync check
+        run: git diff --exit-code
+
       - name: Build
         run: yarn build
 
