@@ -59,17 +59,6 @@ export default defineNuxtConfig({
     preflight: false,
     autoImport: false
   },
-  hooks: {
-    // TODO: remove this workaround
-    'autoImports:extend': (imports) => {
-      const index = imports.findIndex(
-        i => i.name === 'useColorMode' && i.from === '@vueuse/core'
-      )
-      if (index !== -1) {
-        imports.splice(index, 1)
-      }
-    }
-  },
   // manifest: {
   //   name: 'Nuxt Modules',
   //   short_name: 'Nuxt Modules',
