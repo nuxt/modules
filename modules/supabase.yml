@@ -7,7 +7,7 @@ github: https://github.com/nuxt-community/supabase-module
 website: https://supabase.nuxtjs.org
 learn_more: https://supabase.com
 category: Database
-type: 3rd-party
+type: community
 maintainers:
   - name: Baptiste Leproux
     github: larbish
