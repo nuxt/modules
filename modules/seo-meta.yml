@@ -1,6 +1,6 @@
 name: seo-meta
 description: Simple generate seo metadata
-repo: ihavecoke/nuxtjs-seo-meta
+repo: ihavecoke/nuxtjs-seo-meta#main/packages/core
 npm: nuxt-seo-meta
 icon: ''
 github: https://github.com/ihavecoke/nuxtjs-seo-meta
