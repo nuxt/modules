@@ -5,7 +5,8 @@
 
 > Discover Nuxt modules to supercharge your project! Created by the Nuxt team and community.
 
-👉 https://modules.nuxtjs.org
+- 📖 [Module author guide](https://v3.nuxtjs.org/guide/going-further/modules)
+- 🔗 [Modules listing](https://modules.nuxtjs.org)
 
 ## Modules Database
 
