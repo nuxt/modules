@@ -28,7 +28,6 @@
     "typescript": "^4.6.3"
   },
   "resolutions": {
-    "@nuxt/kit": "npm:@nuxt/kit@^3.0.0-rc.0",
     "@nuxt/kit-edge": "npm:@nuxt/kit@^3.0.0-rc.0"
   },
   "packageManager": "yarn@3.2.0"

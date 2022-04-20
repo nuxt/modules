@@ -679,7 +679,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:@nuxt/kit@^3.0.0-rc.0":
+"@nuxt/kit@npm:3.0.0-rc.0":
   version: 3.0.0-rc.0
   resolution: "@nuxt/kit@npm:3.0.0-rc.0"
   dependencies:
@@ -705,6 +705,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxt/kit@npm:@nuxt/kit-edge@latest":
+  version: 3.0.0-rc.0-27507653.98586bc
+  resolution: "@nuxt/kit-edge@npm:3.0.0-rc.0-27507653.98586bc"
+  dependencies:
+    "@nuxt/schema": "npm:@nuxt/schema-edge@3.0.0-rc.0-27507653.98586bc"
+    c12: ^0.2.5
+    consola: ^2.15.3
+    defu: ^6.0.0
+    globby: ^13.1.1
+    hash-sum: ^2.0.0
+    ignore: ^5.2.0
+    jiti: ^1.13.0
+    knitwork: ^0.1.1
+    lodash.template: ^4.5.0
+    mlly: ^0.5.2
+    pathe: ^0.2.0
+    pkg-types: ^0.3.2
+    scule: ^0.2.1
+    semver: ^7.3.7
+    unctx: ^1.1.4
+    unimport: ^0.1.6
+    untyped: ^0.4.4
+  checksum: c44c917d4bda4966fc3835410153a5be6f4ddabca8701749a7b5dee37b07a62a81f7688ecbe0774ee968f5c123fe86231233f01599a7f80ff8e55fc12fb1bb50
+  languageName: node
+  linkType: hard
+
 "@nuxt/modules@workspace:npm":
   version: 0.0.0-use.local
   resolution: "@nuxt/modules@workspace:npm"
@@ -726,6 +752,24 @@ __metadata:
     ufo: ^0.8.3
     unimport: ^0.1.6
   checksum: cd087c61a2867e05cb295ecb05006412d80d9a6fe49e1fbcead63d901d64522b3b673a69bc7e5edce216385fa0098c1e8af71f3cfcdd36fd779cdce2c37e9b78
+  languageName: node
+  linkType: hard
+
+"@nuxt/schema@npm:@nuxt/schema-edge@3.0.0-rc.0-27507653.98586bc":
+  version: 3.0.0-rc.0-27507653.98586bc
+  resolution: "@nuxt/schema-edge@npm:3.0.0-rc.0-27507653.98586bc"
+  dependencies:
+    c12: ^0.2.5
+    create-require: ^1.1.1
+    defu: ^6.0.0
+    jiti: ^1.13.0
+    pathe: ^0.2.0
+    postcss-import-resolver: ^2.0.0
+    scule: ^0.2.1
+    std-env: ^3.1.1
+    ufo: ^0.8.3
+    unimport: ^0.1.6
+  checksum: 8f11550940e40487b8441e27505a6105a9d4eda0a2f3b611270207c66259eda935d81c2f5385af60c454bd0602be8bd8a124f0768953443b89f081bd37a93584
   languageName: node
   linkType: hard
 
