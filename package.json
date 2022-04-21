@@ -7,7 +7,9 @@
   "scripts": {
     "build": "yarn cli build",
     "cli": "jiti ./lib/cli",
-    "dev": "cd website && yarn dev",
+    "dev": "yarn website:dev",
+    "website:build": "yarn build && nuxi build website",
+    "website:dev": "yarn build && nuxi dev website",
     "lint": "eslint --ext .vue,.ts .",
     "release": "yarn cli version && cd npm && npm publish",
     "sync": "yarn cli sync",
@@ -24,6 +26,7 @@
     "hasha": "^5.2.2",
     "jiti": "^1.13.0",
     "js-yaml": "^4.1.0",
+    "nuxt": "^3.0.0-rc.0",
     "ohmyfetch": "^0.4.15",
     "typescript": "^4.6.3"
   },
