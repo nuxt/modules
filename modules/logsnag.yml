@@ -1,4 +1,4 @@
-name: LogSnag
+name: logsnag
 description: Easily connect your Nuxt 3 application with LogSnag
 repo: intevel/nuxt-logsnag
 npm: nuxt-logsnag
