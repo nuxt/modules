@@ -24,8 +24,8 @@
     "hasha": "^5.2.2",
     "jiti": "^1.13.0",
     "js-yaml": "^4.1.0",
-    "ohmyfetch": "^0.4.15",
-    "typescript": "^4.6.3"
+    "ohmyfetch": "^0.4.16",
+    "typescript": "^4.6.4"
   },
   "packageManager": "yarn@3.2.0"
 }
