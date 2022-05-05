@@ -454,16 +454,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify-json/carbon@npm:^1.1.3":
-  version: 1.1.3
-  resolution: "@iconify-json/carbon@npm:1.1.3"
+"@iconify-json/carbon@npm:^1.1.4":
+  version: 1.1.4
+  resolution: "@iconify-json/carbon@npm:1.1.4"
   dependencies:
-    "@iconify/types": ^1.0.12
-  checksum: 86bbfea18e1ec0f6d05c83095d2c51e15ccb5e9c5e60177a8e46a8e30d59d3a84acfd3b4d84515ccb3376366cc279070e46dc74826dec016b5d78cdbc9b45a61
+    "@iconify/types": ^1.1.0
+  checksum: be9be36a50bdb04782a1c5d996b2f31c430a862fa47f6ffb3aba336036a5a8929bac20bd4e11edc8d795cb44221dc99acad68551c348a14f4afce0f3e9a701e8
   languageName: node
   linkType: hard
 
-"@iconify/types@npm:^1.0.12, @iconify/types@npm:^1.1.0":
+"@iconify/types@npm:^1.1.0":
   version: 1.1.0
   resolution: "@iconify/types@npm:1.1.0"
   checksum: beffcdbf14e879ff74e79ac29ea0f4f4874f9df632f1994d97395b3f05cbeebaf10f1abc73cf850dc7444924cd57ed92e0e2ca55bacfe3374eff7542d489fbd0
@@ -2895,6 +2895,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"destr@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "destr@npm:1.1.1"
+  checksum: 334886494cef39d39526061071b83384dee493b531a7a13f6705e92a168ebb072b45be4aba4179aaba88c4a32c3e35d8058d1357871179dbaf74890584199019
+  languageName: node
+  linkType: hard
+
 "destroy@npm:~1.0.4":
   version: 1.0.4
   resolution: "destroy@npm:1.0.4"
@@ -3977,7 +3984,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"floating-vue@npm:^2.0.0-beta.15":
+"floating-vue@npm:^2.0.0-beta.16":
   version: 2.0.0-y.0
   resolution: "floating-vue@npm:2.0.0-y.0"
   dependencies:
@@ -5920,6 +5927,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"node-fetch@npm:^3.2.4":
+  version: 3.2.4
+  resolution: "node-fetch@npm:3.2.4"
+  dependencies:
+    data-uri-to-buffer: ^4.0.0
+    fetch-blob: ^3.1.4
+    formdata-polyfill: ^4.0.10
+  checksum: cfc715441302167bd4a9c6d6f3ff8eecb65e5aeeccd55a690497dcce5f95ec017d65c5682414287cad3998a28b1bab4820dcbe51852902eaa5f15f3975562384
+  languageName: node
+  linkType: hard
+
 "node-forge@npm:^1.2.0":
   version: 1.3.0
   resolution: "node-forge@npm:1.3.0"
@@ -6147,7 +6165,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nuxt-modules-website@workspace:website"
   dependencies:
-    "@iconify-json/carbon": ^1.1.3
+    "@iconify-json/carbon": ^1.1.4
     "@nuxt/kit-edge": "npm:@nuxt/kit-edge@latest"
     "@nuxtjs/color-mode": ^3.0.2
     "@nuxtjs/html-validator": ^0.6.0
@@ -6156,11 +6174,11 @@ __metadata:
     "@types/seedrandom": ^3.0.2
     "@unocss/nuxt": ^0.30.13
     "@vueuse/nuxt": ^8.2.6
-    floating-vue: ^2.0.0-beta.15
+    floating-vue: ^2.0.0-beta.16
     fuse.js: ^6.5.3
     millify: ^4.0.0
     nuxt3: latest
-    ohmyfetch: ^0.4.15
+    ohmyfetch: ^0.4.16
     seedrandom: ^3.0.5
     vue-plausible: ^1.3.1
   languageName: unknown
@@ -6278,6 +6296,18 @@ __metadata:
     ufo: ^0.7.9
     undici: ^4.9.5
   checksum: 03f7fd41713ce51438df3e4bf116164fadb2d99883d2b93c873f2577a3461da3cd2ae40d3710af72cbbf74750d3bd1796bc21dfb11f2a05db98f2040071cbe17
+  languageName: node
+  linkType: hard
+
+"ohmyfetch@npm:^0.4.16":
+  version: 0.4.16
+  resolution: "ohmyfetch@npm:0.4.16"
+  dependencies:
+    destr: ^1.1.1
+    node-fetch: ^3.2.4
+    ufo: ^0.8.3
+    undici: ^5.0.0
+  checksum: 35be32d251ad35cb1b6862724f53bb3b80e23bb6434cd827ba2be1f4619cdc93ca6c827e0a31bef0cfbe80e881691775d9f44412f0ab3329669cded5762a8614
   languageName: node
   linkType: hard
 
@@ -7385,8 +7415,8 @@ __metadata:
     hasha: ^5.2.2
     jiti: ^1.13.0
     js-yaml: ^4.1.0
-    ohmyfetch: ^0.4.15
-    typescript: ^4.6.3
+    ohmyfetch: ^0.4.16
+    typescript: ^4.6.4
   languageName: unknown
   linkType: soft
 
@@ -8192,23 +8222,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.6.3":
-  version: 4.6.3
-  resolution: "typescript@npm:4.6.3"
+"typescript@npm:^4.6.4":
+  version: 4.6.4
+  resolution: "typescript@npm:4.6.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 255bb26c8cb846ca689dd1c3a56587af4f69055907aa2c154796ea28ee0dea871535b1c78f85a6212c77f2657843a269c3a742d09d81495b97b914bf7920415b
+  checksum: e7bfcc39cd4571a63a54e5ea21f16b8445268b9900bf55aee0e02ad981be576acc140eba24f1af5e3c1457767c96cea6d12861768fb386cf3ffb34013718631a
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
-  version: 4.6.3
-  resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"
+"typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>":
+  version: 4.6.4
+  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 6bf45caf847062420592e711bc9c28bf5f9a9a7fa8245343b81493e4ededae33f1774009d1234d911422d1646a2c839f44e1a23ecb111b40a60ac2ea4c1482a8
+  checksum: 1cb434fbc637d347be90e3a0c6cd05e33c38f941713c8786d3031faf1842c2c148ba91d2fac01e7276b0ae3249b8633f1660e32686cc7a8c6a8fd5361dc52c66
   languageName: node
   linkType: hard
 
@@ -8223,6 +8253,13 @@ __metadata:
   version: 0.8.1
   resolution: "ufo@npm:0.8.1"
   checksum: dbdb779f901da1036f501ef65a71797c44763285a449cfc0497a8fee0421bf0e7e38fa6a5b461cca079e63efca80da5013fcdcd180ec6095912761944d107763
+  languageName: node
+  linkType: hard
+
+"ufo@npm:^0.8.3":
+  version: 0.8.3
+  resolution: "ufo@npm:0.8.3"
+  checksum: 7ea20e9d0fbd92b3310de4b020919f0a0542db60a6787ccecf232285d55795ddc0ea482b04d6c07cac60367a294aee705d888999867a5c3c69e47ed8d0ae3009
   languageName: node
   linkType: hard
 
@@ -8265,6 +8302,13 @@ __metadata:
   version: 4.16.0
   resolution: "undici@npm:4.16.0"
   checksum: 5e88c2b3381085e25ed1d1a308610ac7ee985f478ac705af7a8e03213536e10f73ef8dd8d85e6ed38948d1883fa0ae935e04357c317b0f5d3d3c0211d0c8c393
+  languageName: node
+  linkType: hard
+
+"undici@npm:^5.0.0":
+  version: 5.1.1
+  resolution: "undici@npm:5.1.1"
+  checksum: 59494ccc130f3cbb35dfa14037b9dfdd37170ae8b6360b1e39b03e04e2adfd8b55bae6026be994ab51b1688025a3a2f43c3b9ad572424cb0635052e47f87680a
   languageName: node
   linkType: hard
 
