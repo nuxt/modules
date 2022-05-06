@@ -60,12 +60,12 @@ export default defineNuxtConfig({
     preflight: false,
     autoImport: false
   },
-  // manifest: {
-  //   name: 'Nuxt Modules',
-  //   short_name: 'Nuxt Modules',
-  //   description: 'Explore Nuxt Modules',
-  //   theme_color: '#003c3c'
-  // },
+  manifest: {
+    name: 'Nuxt Modules',
+    short_name: 'Nuxt Modules',
+    description: 'Explore Nuxt Modules',
+    theme_color: '#003c3c'
+  },
   plausible: {
     domain: 'modules.nuxtjs.org'
   }
