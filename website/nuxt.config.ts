@@ -1,4 +1,5 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt'
+import '@unocss/nuxt'
 
 const title = 'Explore Nuxt Modules'
 const description = 'Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.'
