@@ -73,7 +73,7 @@
             </template>
             <template #badge="{ key }">
               <div v-if="key!=='2.x'" class="text-green-600 dark:text-green-400 border border-current bg-green-500/10 px-1.5 text-xs rounded-full">
-                Beta
+                {{ key === '3.x' ? 'RC' : 'Beta' }}
               </div>
             </template>
           </FilterButtons>
