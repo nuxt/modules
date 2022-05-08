@@ -1,0 +1,18 @@
+name: meilisearch
+description: Meilisearch Instant Search module for Nuxt 3
+repo: xlanex6/nuxt-meilisearch
+npm: 'nuxt-meilisearch'
+icon: meilisearch.svg
+github: https://github.com/xlanex6/nuxt-meilisearch
+website: https://github.com/xlanex6/nuxt-meilisearch
+learn_more: https://github.com/xlanex6/nuxt-meilisearch
+category: Libraries
+type: community
+maintainers:
+  - name: Alex Duval
+    github: xlanex6
+    avatar: https://avatars.githubusercontent.com/u/13418668?v=4
+compatibility:
+  nuxt: ^3.0.0
+  requires:
+    bridge: false
