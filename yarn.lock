@@ -1297,7 +1297,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/nuxt@npm:^0.31.12":
+"@unocss/nuxt@npm:^0.31.17":
   version: 0.31.17
   resolution: "@unocss/nuxt@npm:0.31.17"
   dependencies:
@@ -1673,7 +1673,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/nuxt@npm:^8.2.6":
+"@vueuse/nuxt@npm:^8.4.2":
   version: 8.4.2
   resolution: "@vueuse/nuxt@npm:8.4.2"
   dependencies:
@@ -4191,7 +4191,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fuse.js@npm:^6.5.3":
+"fuse.js@npm:^6.6.1":
   version: 6.6.1
   resolution: "fuse.js@npm:6.6.1"
   checksum: 58e74b3489a24866197ec1d5c0febc3099f32f35c74a842ed7644eb697d1b496b54712ee187ae38efbfd52b861b5f8b8bc6a550ec619c7d721c459b6cc4d8b77
@@ -6332,10 +6332,10 @@ __metadata:
     "@nuxtjs/pwa": ^3.3.5
     "@nuxtjs/web-vitals": ^0.1.8
     "@types/seedrandom": ^3.0.2
-    "@unocss/nuxt": ^0.31.12
-    "@vueuse/nuxt": ^8.2.6
+    "@unocss/nuxt": ^0.31.17
+    "@vueuse/nuxt": ^8.4.2
     floating-vue: ^2.0.0-beta.16
-    fuse.js: ^6.5.3
+    fuse.js: ^6.6.1
     millify: ^4.0.0
     nuxt: ^3.0.0-rc.2
     ohmyfetch: ^0.4.16
