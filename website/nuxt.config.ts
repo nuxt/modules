@@ -68,5 +68,8 @@ export default defineNuxtConfig({
   },
   plausible: {
     domain: 'modules.nuxtjs.org'
+  },
+  experimental: {
+    viteNode: true
   }
 })
