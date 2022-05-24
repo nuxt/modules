@@ -1,7 +1,7 @@
 name: content
 description: >-
-  Write your content in Markdown, YML, CSV or JSON and query it in your components.
-  Use your Vue components in Markdown files with the MDC syntax.
+  Write your content in Markdown, YML, CSV or JSON and query it in your 
+  components. Use your Vue components in Markdown files with the MDC syntax.
 repo: nuxt/content#main
 npm: '@nuxt/content'
 icon: content.png
