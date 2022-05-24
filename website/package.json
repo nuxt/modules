@@ -9,7 +9,7 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.4",
+    "@iconify-json/carbon": "^1.1.5",
     "@nuxtjs/color-mode": "^3.0.3",
     "@nuxtjs/html-validator": "^0.7.0",
     "@nuxtjs/pwa": "^3.3.5",
@@ -21,7 +21,7 @@
     "fuse.js": "^6.6.2",
     "millify": "^4.0.0",
     "nuxt": "^3.0.0-rc.3",
-    "ohmyfetch": "^0.4.17",
+    "ohmyfetch": "^0.4.18",
     "seedrandom": "^3.0.5",
     "vue-plausible": "^1.3.1"
   }
