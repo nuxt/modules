@@ -25,9 +25,9 @@ export const CATEGORIES_ICONS = {
 }
 
 export const VERSIONS = [
-  { key: '2.x', label: 'Nuxt 2', icon: IconNuxt2 },
+  { key: '3.x', label: 'Nuxt 3', icon: IconNuxt3 },
   { key: '2.x-bridge', label: 'Nuxt 2 + Bridge', icon: IconNuxtBridge },
-  { key: '3.x', label: 'Nuxt 3', icon: IconNuxt3 }
+  { key: '2.x', label: 'Nuxt 2', icon: IconNuxt2 }
 ]
 
 export const ORDER_BY_FIELDS = {
