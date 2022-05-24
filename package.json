@@ -28,7 +28,7 @@
     "js-yaml": "^4.1.0",
     "nuxt": "^3.0.0-rc.3",
     "ohmyfetch": "^0.4.17",
-    "typescript": "^4.6.4",
+    "typescript": "^4.7.2",
     "ufo": "^0.8.4"
   },
   "resolutions": {
