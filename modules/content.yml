@@ -4,7 +4,7 @@ description: >-
   components. Use your Vue components in Markdown files with the MDC syntax.
 repo: nuxt/content#main
 npm: '@nuxt/content'
-icon: content.png
+icon: nuxt.png
 github: https://github.com/nuxt/content
 website: https://content.nuxtjs.org
 learn_more: ''
