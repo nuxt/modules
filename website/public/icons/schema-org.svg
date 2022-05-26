@@ -18,10 +18,10 @@
     <path d="M54.33 16.02c-15.94 16.02-15.94 42 0 58.03s41.78 16.02 57.72 0 15.94-42 0-58.03-41.78-16.03-57.72 0z"
           fill="url(#b)"/>
     <radialGradient id="c" cx="39.5" cy="75.25" r="49.092" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#00dc82" offset="0"/>
-        <stop stop-color="#00dc82" offset=".04"/>
-        <stop stop-color="#00dc82" offset=".517"/>
-        <stop stop-color="#00dc82" offset="1"/>
+        <stop stop-color="#001e26" offset="0"/>
+        <stop stop-color="#001e26" offset=".01"/>
+        <stop stop-color="#001e26" offset=".2"/>
+        <stop stop-color="#001e26" offset="1"/>
     </radialGradient>
     <path d="M19.68 89.31c6.48-6.52 13.55-11.1 19.48-13.06 1.62-.54 3.07-1.49 4.28-2.71l1.78-1.79 10.75 10.8-1.78 1.79c-1.21 1.21-2.16 2.67-2.69 4.3-1.96 5.96-6.51 13.06-12.99 19.58-7.31 7.35-15.36 12.23-21.69 13.69l-.88.89a4.05 4.05 0 0 1-5.74 0l-1.59-1.6c-.37-.24-.71-.51-1.02-.81-.31-.31-.58-.65-.81-1.02l-1.59-1.6a4.086 4.086 0 0 1 0-5.77l.88-.89c1.45-6.35 6.3-14.45 13.61-21.8z"
           fill="url(#c)"/>
@@ -31,9 +31,9 @@
                     gradientUnits="userSpaceOnUse">
         <stop stop-color="#B3E5FC" offset="0"/>
         <stop stop-color="#ADE3FC" offset=".17"/>
-        <stop stop-color="#9DDDFB" offset=".393"/>
-        <stop stop-color="#81D4FA" offset=".646"/>
-        <stop stop-color="#5CC7F8" offset=".919"/>
+        <stop stop-color="#9DDDFB" offset=".2"/>
+        <stop stop-color="#81D4FA" offset=".3"/>
+        <stop stop-color="#5CC7F8" offset=".5"/>
         <stop stop-color="#4FC3F7" offset="1"/>
     </radialGradient>
     <path d="M106.64 21.46c12.9 12.97 12.9 34 0 46.98s-33.82 12.97-46.72 0-12.9-34 0-46.98 33.81-12.97 46.72 0z"
