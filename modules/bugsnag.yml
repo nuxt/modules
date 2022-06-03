@@ -12,5 +12,5 @@ maintainers:
   - name: JulianMar
     github: JulianMar
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}
