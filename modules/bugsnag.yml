@@ -1,5 +1,7 @@
 name: bugsnag
-description: Bugsnag module for nuxt.js
+description: >-
+  Bugsnag integration for nuxt.js. Makes it easy to add bugsnag to your Project.
+  Supports uploading source maps.
 repo: JulianMar/nuxt-bugsnag
 npm: nuxt-bugsnag
 icon: bugsnag.png
