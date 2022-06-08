@@ -3,6 +3,7 @@ import { promises as fsp, existsSync } from 'fs'
 import * as yml from 'js-yaml'
 import { globby } from 'globby'
 import defu from 'defu'
+import pLimit from 'p-limit'
 import { categories } from './categories'
 import { ModuleInfo } from './types'
 import { fetchGithubPkg, modulesDir, distDir, distFile } from './utils'
@@ -167,9 +168,11 @@ export async function readModules () {
 
 export async function syncAll () {
   const modules = await readModules()
-  const updatedModules = await Promise.all(modules.map((module) => {
+  const limit = pLimit(10)
+  const updatedModules = await Promise.allSettled(modules.map(module => limit(() => {
+    console.log(`Syncing ${module.name}`)
     return sync(module.name, module.repo)
-  }))
+  })))
   return updatedModules
 }
 

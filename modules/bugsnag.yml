@@ -1,6 +1,6 @@
 name: bugsnag
 description: Bugsnag module for nuxt.js
-repo: JulianMar/nuxt-bugsnag
+repo: JulianMar/nuxt-bugsnag#main
 npm: nuxt-bugsnag
 icon: bugsnag.png
 github: https://github.com/JulianMar/nuxt-bugsnag
