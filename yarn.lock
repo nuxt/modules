@@ -775,14 +775,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/color-mode@npm:^3.0.3":
-  version: 3.1.3
-  resolution: "@nuxtjs/color-mode@npm:3.1.3"
+"@nuxtjs/color-mode@npm:^3.1.4":
+  version: 3.1.4
+  resolution: "@nuxtjs/color-mode@npm:3.1.4"
   dependencies:
     "@nuxt/kit": ^3.0.0-rc.3
     lodash.template: ^4.5.0
     pathe: ^0.3.0
-  checksum: 5b9d271e8b44f9a40bdd680c0482d70fa5c027c1189a4939c943afc1ed07a430e516ddd429679712dcc76cd376a71d68ef10ee6799323ec2ba322b4230e7f01f
+  checksum: dd32dd89ef4dab7bcf1808d0a446a1a2373b4cad78a69d0f2c3ebea28d42e9497072f0b59734e31cc56e7b9fc9f374310be3edd4225a09324188de33181efad2
   languageName: node
   linkType: hard
 
@@ -1645,7 +1645,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/nuxt@npm:^8.5.0":
+"@vueuse/nuxt@npm:^8.6.0":
   version: 8.6.0
   resolution: "@vueuse/nuxt@npm:8.6.0"
   dependencies:
@@ -4320,6 +4320,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"globby@npm:^13.1.2":
+  version: 13.1.2
+  resolution: "globby@npm:13.1.2"
+  dependencies:
+    dir-glob: ^3.0.1
+    fast-glob: ^3.2.11
+    ignore: ^5.2.0
+    merge2: ^1.4.1
+    slash: ^4.0.0
+  checksum: c148fcda0c981f00fb434bb94ca258f0a9d23cedbde6fb3f37098e1abde5b065019e2c63fe2aa2fad4daf2b54bf360b4d0423d85fb3a63d09ed75a2837d4de0f
+  languageName: node
+  linkType: hard
+
 "graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6, graceful-fs@npm:^4.2.9":
   version: 4.2.10
   resolution: "graceful-fs@npm:4.2.10"
@@ -6128,13 +6141,13 @@ __metadata:
   resolution: "nuxt-modules-website@workspace:website"
   dependencies:
     "@iconify-json/carbon": ^1.1.5
-    "@nuxtjs/color-mode": ^3.0.3
+    "@nuxtjs/color-mode": ^3.1.4
     "@nuxtjs/html-validator": ^0.7.0
     "@nuxtjs/pwa": ^3.3.5
     "@nuxtjs/web-vitals": ^0.1.8
     "@types/seedrandom": ^3.0.2
     "@unocss/nuxt": ^0.34.1
-    "@vueuse/nuxt": ^8.5.0
+    "@vueuse/nuxt": ^8.6.0
     floating-vue: ^2.0.0-beta.17
     fuse.js: ^6.6.2
     millify: ^4.0.0
@@ -7410,7 +7423,7 @@ __metadata:
     defu: ^6.0.0
     eslint: ^8.17.0
     eslint-plugin-nuxt: ^3.2.0
-    globby: ^13.1.1
+    globby: ^13.1.2
     hasha: ^5.2.2
     jiti: ^1.13.0
     js-yaml: ^4.1.0
