@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="294" height="354.5" viewBox="0 0 294 354.5">
+  <g id="icons" transform="translate(-109 -72.5)">
+    <text id="icons-2" data-name="icons" transform="translate(256 390)" fill="#00dc82" font-size="106" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-146.757" y="0">icons</tspan></text>
+    <path id="Path_10" data-name="Path 10" d="M2,33.33A29.33,29.33,0,0,1,31.33,4h73.325l29.33,29.33h73.325a29.33,29.33,0,0,1,29.33,29.33v87.99a29.33,29.33,0,0,1-29.33,29.33H31.33A29.33,29.33,0,0,1,2,150.65Z" transform="translate(141 74)" fill="none" stroke="#00dc82" stroke-width="11"/>
+    <path id="Path_8" data-name="Path 8" d="M35.3,2.89a5.844,5.844,0,0,0-10.084,0L.789,44.884a5.78,5.78,0,0,0,5.042,8.67H24.9A5.582,5.582,0,0,1,23.722,46.5l18.5-31.707Z" transform="translate(220.329 145.836)" fill="#80eec0"/>
+    <path id="Path_9" data-name="Path 9" d="M116.587,33.529a4.864,4.864,0,0,1,8.346,0l20.212,34.358a4.73,4.73,0,0,1-4.173,7.094H100.547a4.73,4.73,0,0,1-4.173-7.094Z" transform="translate(154.513 124.408)" fill="#00dc82"/>
+  </g>
+</svg>
