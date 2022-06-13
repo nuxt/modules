@@ -15,7 +15,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/web-vitals": "^0.1.8",
     "@types/seedrandom": "^3.0.2",
-    "@unocss/nuxt": "^0.34.1",
+    "@unocss/nuxt": "^0.39.0",
     "@vueuse/nuxt": "^8.6.0",
     "floating-vue": "^2.0.0-beta.17",
     "fuse.js": "^6.6.2",
