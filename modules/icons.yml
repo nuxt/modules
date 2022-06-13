@@ -1,7 +1,7 @@
 name: icons
 description: Use your own automatically imported SVG icons.
 repo: gitfoxcode/nuxt-icons
-npm: 'nuxt-icons'
+npm: nuxt-icons
 icon: icons.png
 github: https://github.com/gitFoxCode/nuxt-icons
 website: https://github.com/gitFoxCode/nuxt-icons
