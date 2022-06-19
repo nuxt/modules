@@ -14,3 +14,4 @@ maintainers:
     twitter: danielcroe
 compatibility:
   nuxt: ^3.0.0
+  requires: {}
