@@ -34,7 +34,7 @@ export interface ModuleInfo {
   category: (typeof categories)[number]
   type: ModuleType
   maintainers: MaintainerInfo[]
-  contributors: GithubContributor[]
+  contributors?: GithubContributor[]
   compatibility: ModuleCompatibility
 
   // Fetched in realtime API for modules.nuxt.org
