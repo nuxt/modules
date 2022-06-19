@@ -1,0 +1,16 @@
+name: nuxt-ionic
+description: Batteries-included Ionic integration for building iOS, Android and web apps.
+repo: danielroe/nuxt-ionic
+npm: nuxt-ionic
+icon: ionic.svg
+github: https://github.com/danielroe/nuxt-ionic
+website: https://ionic.roe.dev
+learn_more: https://ionicframework.com
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Daniel Roe
+    github: danielroe
+    twitter: danielcroe
+compatibility:
+  nuxt: ^3.0.0
