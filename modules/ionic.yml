@@ -1,4 +1,4 @@
-name: nuxt-ionic
+name: ionic
 description: Batteries-included Ionic integration for building iOS, Android and web apps.
 repo: danielroe/nuxt-ionic
 npm: nuxt-ionic
