@@ -14,3 +14,4 @@ maintainers:
     twitter: harlan_zw
 compatibility:
   nuxt: ^2.0.0
+  requires: {}
