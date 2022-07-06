@@ -6,7 +6,7 @@ export async function fetchModules () {
 
   for (const module of modules) {
     // Extract compatibility tags
-    // TOOD: Improve with semver checker
+    // TODO: Improve with semver checker
     const compatibilityTags = []
     if (module.compatibility.nuxt.includes('^2.0.0')) {
       if (module.compatibility.requires.bridge !== true /* bridge: false or bridge: optional */) {
