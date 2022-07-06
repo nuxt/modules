@@ -33,7 +33,9 @@
     "ufo": "^0.8.4"
   },
   "resolutions": {
-    "@nuxt/kit-edge": "npm:@nuxt/kit@^3.0.0-rc.4"
+    "nuxt": "npm:nuxt3@latest",
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
+    "@nuxt/kit-edge": "latest"
   },
   "packageManager": "yarn@3.2.1"
 }
