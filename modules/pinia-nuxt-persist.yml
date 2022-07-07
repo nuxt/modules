@@ -1,0 +1,16 @@
+name: Nuxt Pinia Persist
+description: Pinia's nuxt3 sustainable storage plug-in
+repo: 516310460/pinia-nuxt-persist
+npm: pinia-nuxt-persist
+icon: icons.png
+github: https://github.com/516310460/pinia-nuxt-persist
+website: https://github.com/516310460/pinia-nuxt-persist
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: HomWang
+    github: 516310460
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
