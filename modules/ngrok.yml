@@ -5,17 +5,18 @@ description: >-
 repo: nuxt-community/ngrok
 npm: '@nuxtjs/ngrok'
 icon: ngrok.png
-github: 'https://github.com/nuxt-community/ngrok-module'
-website: 'https://ngrok.nuxtjs.org'
-learn_more: 'https://github.com/bubenshchykov/ngrok'
+github: https://github.com/nuxt-community/ngrok-module
+website: https://ngrok.nuxtjs.org
+learn_more: https://github.com/bubenshchykov/ngrok
 category: Devtools
 type: community
 maintainers:
   - name: Debbie O'Brien
     github: debs-obrien
     twitter: debs_obrien
-    avatar: 'https://avatars2.githubusercontent.com/u/13063165?v=4'
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

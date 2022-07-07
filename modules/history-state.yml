@@ -3,12 +3,14 @@ description: Nuxt.js module to backup or restore historical states
 repo: hidekatsu-izuno/nuxt-history-state
 npm: nuxt-history-state
 icon: ''
-github: 'https://github.com/hidekatsu-izuno/nuxt-history-state'
-website: 'https://github.com/hidekatsu-izuno/nuxt-history-state'
+github: https://github.com/hidekatsu-izuno/nuxt-history-state
+website: https://github.com/hidekatsu-izuno/nuxt-history-state
 learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
   - name: hidekatsu-izuno
     github: hidekatsu-izuno
-    avatar: 'https://avatars0.githubusercontent.com/u/1091860?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

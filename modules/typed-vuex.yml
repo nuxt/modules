@@ -1,0 +1,18 @@
+name: typed-vuex
+description: A vanilla, strongly typed store accessor for Vuex.
+repo: danielroe/typed-vuex#main/packages/nuxt-typed-vuex
+npm: nuxt-typed-vuex
+icon: vue.png
+github: https://github.com/danielroe/typed-vuex
+website: https://github.com/danielroe/typed-vuex
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Daniel Roe
+    github: danielroe
+    twitter: danielcroe
+compatibility:
+  nuxt: ^2.0.0
+  requires:
+    bridge: optional

@@ -3,12 +3,14 @@ description: Module for event trace in Nuxt.js
 repo: nuxt-community/nuxt-event-trace
 npm: nuxt-event-trace
 icon: ''
-github: 'https://github.com/nuxt-community/nuxt-event-trace'
-website: 'https://github.com/nuxt-community/nuxt-event-trace'
+github: https://github.com/nuxt-community/nuxt-event-trace
+website: https://github.com/nuxt-community/nuxt-event-trace
 learn_more: ''
 category: Monitoring
 type: community
 maintainers:
   - name: Xin Du
     github: clarkdo
-    avatar: 'https://avatars3.githubusercontent.com/u/4312154?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

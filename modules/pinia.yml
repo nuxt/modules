@@ -1,0 +1,17 @@
+name: pinia
+description: The Vue Store that you will enjoy using
+repo: posva/pinia#v2/packages/nuxt
+npm: '@pinia/nuxt'
+icon: pinia.svg
+github: https://github.com/posva/pinia/tree/v2/packages/nuxt
+website: https://pinia.esm.dev/
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: posva
+    github: posva
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires:
+    bridge: optional

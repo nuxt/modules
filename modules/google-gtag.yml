@@ -3,15 +3,16 @@ description: Google GTag for Nuxt.js
 repo: nuxt-community/google-gtag
 npm: '@nuxtjs/google-gtag'
 icon: gtm.png
-github: 'https://github.com/nuxt-community/google-gtag'
-website: 'https://github.com/nuxt-community/google-gtag'
-learn_more: 'https://developers.google.com/analytics/devguides/collection/gtagjs/'
+github: https://github.com/nuxt-community/google-gtag
+website: https://github.com/nuxt-community/google-gtag
+learn_more: https://developers.google.com/analytics/devguides/collection/gtagjs/
 category: Analytics
 type: community
 maintainers:
   - name: Dominic Garms
     github: dohomi
-    avatar: 'https://avatars0.githubusercontent.com/u/489221?v=4'
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
-    avatar: 'https://avatars3.githubusercontent.com/u/13064722?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

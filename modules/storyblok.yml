@@ -1,14 +1,16 @@
 name: storyblok
 description: Storyblok Nuxt.js module
-repo: storyblok/storyblok-nuxt
-npm: storyblok-nuxt
+repo: storyblok/storyblok-nuxt#master/lib
+npm: '@storyblok/nuxt'
 icon: storyblok.png
-github: 'https://github.com/storyblok/storyblok-nuxt'
-website: 'https://github.com/storyblok/storyblok-nuxt'
+github: https://github.com/storyblok/storyblok-nuxt
+website: https://github.com/storyblok/storyblok-nuxt
 learn_more: ''
 category: CMS
 type: 3rd-party
 maintainers:
   - name: storyblok
     github: storyblok
-    avatar: 'https://avatars0.githubusercontent.com/u/13880908?v=4'
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires: {}

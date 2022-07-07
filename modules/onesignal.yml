@@ -5,13 +5,15 @@ description: >-
 repo: nuxt-community/onesignal-module
 npm: '@nuxtjs/onesignal'
 icon: one-signal.png
-github: 'https://github.com/nuxt-community/onesignal-module'
-website: 'https://github.com/nuxt-community/onesignal-module'
-learn_more: 'https://onesignal.com/'
+github: https://github.com/nuxt-community/onesignal-module
+website: https://github.com/nuxt-community/onesignal-module
+learn_more: https://onesignal.com/
 category: Extensions
 type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

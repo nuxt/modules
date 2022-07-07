@@ -1,0 +1,16 @@
+name: druxt
+description: A bridge between frameworks, Drupal in the back, Nuxt.js in the front.
+repo: druxt/druxt.js#develop/packages/druxt
+npm: druxt
+icon: druxt.svg
+github: https://github.com/druxt/druxt.js
+website: https://druxtjs.org
+learn_more: https://druxtjs.org/guide
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Decipher
+    github: decipher
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

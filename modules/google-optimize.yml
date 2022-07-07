@@ -3,21 +3,21 @@ description: SSR friendly Google Optimize module for Nuxt.js
 repo: nuxt-community/google-optimize-module
 npm: nuxt-google-optimize
 icon: google-optimize.png
-github: 'https://github.com/nuxt-community/google-optimize-module'
-website: 'https://github.com/nuxt-community/google-optimize-module'
-learn_more: 'https://marketingplatform.google.com/about/optimize/'
+github: https://github.com/nuxt-community/google-optimize-module
+website: https://github.com/nuxt-community/google-optimize-module
+learn_more: https://marketingplatform.google.com/about/optimize/
 category: Analytics
 type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
   - name: Farzad Soltani
     github: farzadso
     twitter: farzadso
-    avatar: 'https://avatars0.githubusercontent.com/u/19854715?v=4'
   - name: Josh Deltener
     github: hecktarzuli
     twitter: JoshDeltener
-    avatar: 'https://avatars2.githubusercontent.com/u/2112282?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

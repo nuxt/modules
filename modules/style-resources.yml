@@ -5,8 +5,8 @@ description: >-
 repo: nuxt-community/style-resources-module
 npm: '@nuxtjs/style-resources'
 icon: ''
-github: 'https://github.com/nuxt-community/style-resources-module'
-website: 'https://github.com/nuxt-community/style-resources-module'
+github: https://github.com/nuxt-community/style-resources-module
+website: https://github.com/nuxt-community/style-resources-module
 learn_more: ''
 category: CSS
 type: community
@@ -14,4 +14,6 @@ maintainers:
   - name: Alexander Lichter
     github: manniL
     twitter: TheAlexLichter
-    avatar: 'https://avatars0.githubusercontent.com/u/640208?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

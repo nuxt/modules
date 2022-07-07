@@ -3,13 +3,15 @@ description: exposes your localhost to the world for easy testing and sharing
 repo: nuxt-community/modules#master/packages/localtunnel
 npm: '@nuxtjs/localtunnel'
 icon: localtunnel.png
-github: 'https://github.com/nuxt-community/modules/tree/master/packages/localtunnel'
-website: 'https://github.com/nuxt-community/modules/tree/master/packages/localtunnel'
-learn_more: 'https://github.com/localtunnel/localtunnel'
+github: https://github.com/nuxt-community/modules/tree/master/packages/localtunnel
+website: https://github.com/nuxt-community/modules/tree/master/packages/localtunnel
+learn_more: https://github.com/localtunnel/localtunnel
 category: Devtools
 type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

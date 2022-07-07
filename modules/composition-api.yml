@@ -3,8 +3,8 @@ description: Composition API hooks for Nuxt
 repo: nuxt-community/composition-api#main
 npm: '@nuxtjs/composition-api'
 icon: composition-api.svg
-github: 'https://github.com/nuxt-community/composition-api/tree/main'
-website: 'https://composition-api.nuxtjs.org'
+github: https://github.com/nuxt-community/composition-api/tree/main
+website: https://composition-api.nuxtjs.org
 learn_more: ''
 category: Extensions
 type: community
@@ -12,4 +12,6 @@ maintainers:
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
-    avatar: 'https://avatars1.githubusercontent.com/u/28706372?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

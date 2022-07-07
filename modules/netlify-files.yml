@@ -5,13 +5,15 @@ description: >-
 repo: nuxt-community/netlify-files-module
 npm: '@nuxtjs/netlify-files'
 icon: netlify.png
-github: 'https://github.com/nuxt-community/netlify-files-module'
-website: 'https://github.com/nuxt-community/netlify-files-module'
-learn_more: 'https://www.netlify.com/'
+github: https://github.com/nuxt-community/netlify-files-module
+website: https://github.com/nuxt-community/netlify-files-module
+learn_more: https://www.netlify.com/
 category: Deployment
 type: community
 maintainers:
   - name: Alexander Lichter
     github: manniL
     twitter: TheAlexLichter
-    avatar: 'https://avatars0.githubusercontent.com/u/640208?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

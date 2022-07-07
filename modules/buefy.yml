@@ -5,12 +5,14 @@ description: >-
 repo: buefy/nuxt-buefy
 npm: nuxt-buefy
 icon: buefy.png
-github: 'https://github.com/buefy/nuxt-buefy'
-website: 'https://github.com/buefy/nuxt-buefy'
-learn_more: 'https://buefy.org/'
+github: https://github.com/buefy/nuxt-buefy
+website: https://github.com/buefy/nuxt-buefy
+learn_more: https://buefy.org/
 category: UI
 type: 3rd-party
 maintainers:
   - name: Walter Tommasi
     github: jtommy
-    avatar: 'https://avatars0.githubusercontent.com/u/8029488?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

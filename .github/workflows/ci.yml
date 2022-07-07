@@ -3,10 +3,10 @@ name: ci
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   ci:
@@ -15,34 +15,57 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [12]
+        node: [14]
 
     steps:
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
 
       - name: checkout
         uses: actions/checkout@master
 
-      - name: cache node_modules
-        uses: actions/cache@v2
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - uses: actions/cache@v3
+        id: yarn-cache
         with:
-          path: node_modules
-          key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
 
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn
+        run: yarn --immutable
+
+      - name: Lint
+        run: yarn lint
+
+      - name: Sync
+        run: yarn sync
+
+      - name: Sync check
+        run: git diff --exit-code
 
       - name: Build
         run: yarn build
 
+      - uses: dorny/paths-filter@v2
+        id: changes
+        with:
+          filters: |
+            modules:
+              - 'modules/**'
+              - 'lib/**'
+
       - name: Release
-        if: github.event_name == 'push'
+        if: github.event_name == 'push' && steps.changes.outputs.modules == 'true'
         run: |
           echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
           echo "//registry.yarnpkg.com/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
-          yarn release || true
+          yarn release
         env:
           NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}

@@ -1,0 +1,19 @@
+name: stylify
+description: >-
+  Stylify generates utility-first CSS dynamically based on what you write. Write
+  HTML. Get CSS.
+repo: stylify/packages#master/packages/nuxt
+npm: '@stylify/nuxt'
+icon: stylify.svg
+github: https://github.com/stylify/packages/tree/master/packages/nuxt
+website: https://stylifycss.com/docs/nuxt
+learn_more: https://stylifycss.com
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Vladimír Macháček
+    github: Machy8
+    twitter: 8machy
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires: {}

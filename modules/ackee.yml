@@ -3,16 +3,17 @@ description: Nuxt.js module for Ackee analytics
 repo: bdrtsky/nuxt-ackee
 npm: nuxt-ackee
 icon: ackee.png
-github: 'https://github.com/bdrtsky/nuxt-ackee'
-website: 'https://github.com/bdrtsky/nuxt-ackee'
-learn_more: 'https://ackee.electerious.com'
+github: https://github.com/bdrtsky/nuxt-ackee
+website: https://github.com/bdrtsky/nuxt-ackee
+learn_more: https://ackee.electerious.com
 category: Analytics
 type: 3rd-party
 maintainers:
   - name: bdrtsky
     github: bdrtsky
-    avatar: 'https://avatars3.githubusercontent.com/u/45076741?v=4'
   - name: Sebastien Chopin
     github: Atinux
     twitter: Atinux
-    avatar: 'https://avatars2.githubusercontent.com/u/904724?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

@@ -3,13 +3,15 @@ description: Speedcurve LUX module for Nuxt
 repo: nuxt-community/speedcurve-module
 npm: '@nuxtjs/speedcurve'
 icon: speedcurve.png
-github: 'https://github.com/nuxt-community/speedcurve-module'
-website: 'https://speedcurve.nuxtjs.org'
-learn_more: 'https://speedcurve.com'
+github: https://github.com/nuxt-community/speedcurve-module
+website: https://speedcurve.nuxtjs.org
+learn_more: https://speedcurve.com
 category: Analytics
 type: community
 maintainers:
   - name: Josh Deltener
     github: hecktarzuli
     twitter: JoshDeltener
-    avatar: 'https://avatars2.githubusercontent.com/u/2112282?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

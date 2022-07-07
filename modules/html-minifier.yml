@@ -3,12 +3,14 @@ description: Minify the html for each request served by nuxt server (nuxt start)
 repo: nuxt-community/html-minifier-module
 npm: '@nuxtjs/html-minifier'
 icon: ''
-github: 'https://github.com/nuxt-community/html-minifier-module'
-website: 'https://github.com/nuxt-community/html-minifier-module'
+github: https://github.com/nuxt-community/html-minifier-module
+website: https://github.com/nuxt-community/html-minifier-module
 learn_more: ''
 category: Performance
 type: community
 maintainers:
   - name: Xin Du
     github: clarkdo
-    avatar: 'https://avatars3.githubusercontent.com/u/4312154?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

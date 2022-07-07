@@ -3,12 +3,14 @@ description: AppInsights module for Nuxt.js
 repo: nuxt-community/applicationinsights-module
 npm: '@nuxtjs/applicationinsights'
 icon: application-insights.png
-github: 'https://github.com/nuxt-community/applicationinsights-module'
-website: 'https://github.com/nuxt-community/applicationinsights-module'
+github: https://github.com/nuxt-community/applicationinsights-module
+website: https://github.com/nuxt-community/applicationinsights-module
 learn_more: ''
 category: Analytics
 type: community
 maintainers:
   - name: Dmitry Molotkov
     github: aldarund
-    avatar: 'https://avatars2.githubusercontent.com/u/571159?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

@@ -3,12 +3,14 @@ description: A Nuxt.js module connecting Nuxt.js to the Craft CMS SEOmatic plugi
 repo: ben-rogerson/nuxt-seomatic-meta
 npm: nuxt-seomatic-meta
 icon: seomatic.png
-github: 'https://github.com/ben-rogerson/nuxt-seomatic-meta'
-website: 'https://github.com/ben-rogerson/nuxt-seomatic-meta'
-learn_more: 'https://plugins.craftcms.com/seomatic'
+github: https://github.com/ben-rogerson/nuxt-seomatic-meta
+website: https://github.com/ben-rogerson/nuxt-seomatic-meta
+learn_more: https://plugins.craftcms.com/seomatic
 category: CMS
 type: 3rd-party
 maintainers:
   - name: ben-rogerson
     github: ben-rogerson
-    avatar: 'https://avatars0.githubusercontent.com/u/21288568?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

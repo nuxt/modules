@@ -1,0 +1,17 @@
+name: twa
+description: Nuxt.js module for generating Trusted Web App from Nuxt.js app
+repo: tuarrep/nuxt-twa
+npm: nuxt-twa
+icon: ''
+github: https://github.com/tuarrep/nuxt-twa
+website: https://nuxt-twa.tuarrep.dev
+learn_more: https://developer.chrome.com/docs/android/trusted-web-activity/overview/
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: Nicolas Perraut
+    github: tuarrep
+compatibility:
+  nuxt: ^2.0.0
+  requires:
+    bridge: optional

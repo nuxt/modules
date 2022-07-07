@@ -3,12 +3,14 @@ description: Full-text search with pre-build indexes for Nuxt.js using lunr.js
 repo: nuxt-community/lunr-module
 npm: '@nuxtjs/lunr-module'
 icon: ''
-github: 'https://github.com/nuxt-community/lunr-module'
-website: 'https://github.com/nuxt-community/lunr-module'
-learn_more: 'https://lunrjs.com/'
+github: https://github.com/nuxt-community/lunr-module
+website: https://github.com/nuxt-community/lunr-module
+learn_more: https://lunrjs.com/
 category: Libraries
 type: community
 maintainers:
   - name: Pim
     github: pimlie
-    avatar: 'https://avatars3.githubusercontent.com/u/1067403?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

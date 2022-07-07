@@ -1,0 +1,16 @@
+name: datocms
+description: DatoCMS integration for Nuxt.js
+repo: voorhoede/nuxt-datocms-module
+npm: '@voorhoede/nuxt-datocms-module'
+icon: datocms.png
+github: https://github.com/voorhoede/nuxt-datocms-module
+website: https://github.com/voorhoede/nuxt-datocms-module
+learn_more: https://www.datocms.com/
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Frankwarnaar
+    github: Frankwarnaar
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

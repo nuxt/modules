@@ -5,12 +5,14 @@ description: >-
 repo: nuxt-community/stylelint-module
 npm: '@nuxtjs/stylelint-module'
 icon: stylelint.png
-github: 'https://github.com/nuxt-community/stylelint-module'
-website: 'https://github.com/nuxt-community/stylelint-module'
-learn_more: 'https://stylelint.io/'
+github: https://github.com/nuxt-community/stylelint-module
+website: https://github.com/nuxt-community/stylelint-module
+learn_more: https://stylelint.io/
 category: CSS
 type: community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
-    avatar: 'https://avatars3.githubusercontent.com/u/13064722?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

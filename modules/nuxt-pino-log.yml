@@ -1,0 +1,16 @@
+name: nuxt-pino-log
+description: Structured logs for nuxt apps using pino
+repo: kpn/nuxt-pino-log
+npm: nuxt-pino-log
+icon: ''
+github: https://github.com/kpn/nuxt-pino-log
+website: https://github.com/kpn/nuxt-pino-log
+learn_more: https://github.com/pinojs/pino
+category: Monitoring
+type: 3rd-party
+maintainers:
+  - name: kpn
+    github: kpn
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

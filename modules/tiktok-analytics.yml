@@ -1,0 +1,16 @@
+name: tiktok-analytics
+repo: stickpro/nuxt-tiktok-analytics
+npm: tiktok-analytics
+icon: ''
+github: https://github.com/stickpro/nuxt-tiktok-analytics
+website: https://github.com/stickpro/nuxt-tiktok-analytics
+learn_more: ''
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: stickpro
+    github: stickpro
+    avatar: https://avatars.githubusercontent.com/u/25886722?v=4
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

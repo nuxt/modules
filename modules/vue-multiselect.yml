@@ -3,12 +3,14 @@ description: Single / multiple select plugin for Nuxt.js using vue-multiselect.
 repo: spektrummedia/nuxt-vue-multiselect
 npm: nuxt-vue-multiselect
 icon: ''
-github: 'https://github.com/spektrummedia/nuxt-vue-multiselect'
-website: 'https://github.com/spektrummedia/nuxt-vue-multiselect'
+github: https://github.com/spektrummedia/nuxt-vue-multiselect
+website: https://github.com/spektrummedia/nuxt-vue-multiselect
 learn_more: ''
 category: Libraries
 type: 3rd-party
 maintainers:
   - name: spektrummedia
     github: spektrummedia
-    avatar: 'https://avatars2.githubusercontent.com/u/4410985?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

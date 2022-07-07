@@ -1,0 +1,18 @@
+name: nuxt-smartlook
+description: Integrate Smartlook in your Nuxt.js apps using nuxt-smartlook.
+repo: f00b4r/nuxt-smartlook
+npm: nuxt-smartlook
+icon: nuxt-smartlook.png
+github: https://github.com/f00b4r/nuxt-smartlook
+website: https://github.com/f00b4r/nuxt-smartlook
+learn_more: https://www.smartlook.com/
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Milan Sulc
+    github: f3l1x
+    twitter: xf3l1x
+    avatar: https://avatars.githubusercontent.com/u/538058?v=4
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

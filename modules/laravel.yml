@@ -3,12 +3,14 @@ description: Nuxt cli extension for use with laravel as backend
 repo: m2sd/nuxt-laravel
 npm: nuxt-laravel
 icon: laravel.png
-github: 'https://github.com/m2sd/nuxt-laravel'
-website: 'https://github.com/m2sd/nuxt-laravel'
-learn_more: 'https://laravel.com/'
+github: https://github.com/m2sd/nuxt-laravel
+website: https://github.com/m2sd/nuxt-laravel
+learn_more: https://laravel.com/
 category: CMS
 type: 3rd-party
 maintainers:
   - name: m2sd
     github: m2sd
-    avatar: 'https://avatars0.githubusercontent.com/u/40393728?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

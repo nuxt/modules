@@ -1,0 +1,16 @@
+name: animejs
+description: Anime.js module for Nuxt.js
+repo: ivodolenc/nuxt-animejs
+npm: nuxt-animejs
+icon: ''
+github: https://github.com/ivodolenc/nuxt-animejs
+website: https://github.com/ivodolenc/nuxt-animejs
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: ivodolenc
+    github: ivodolenc
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

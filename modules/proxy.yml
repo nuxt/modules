@@ -5,8 +5,8 @@ description: >-
 repo: nuxt-community/proxy-module
 npm: '@nuxtjs/proxy'
 icon: ''
-github: 'https://github.com/nuxt-community/proxy-module'
-website: 'https://github.com/nuxt-community/proxy-module'
+github: https://github.com/nuxt-community/proxy-module
+website: https://github.com/nuxt-community/proxy-module
 learn_more: ''
 category: Request
 type: community
@@ -14,4 +14,6 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

@@ -3,8 +3,8 @@ description: Adds XML browser configuration support
 repo: nuxt-community/modules#master/packages/browserconfig
 npm: '@nuxtjs/browserconfig'
 icon: ''
-github: 'https://github.com/nuxt-community/modules/tree/master/packages/browserconfig'
-website: 'https://github.com/nuxt-community/modules/tree/master/packages/browserconfig'
+github: https://github.com/nuxt-community/modules/tree/master/packages/browserconfig
+website: https://github.com/nuxt-community/modules/tree/master/packages/browserconfig
 learn_more: >-
   https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/bg183312(v=vs.85)?redirectedfrom=MSDN
 category: Extensions
@@ -13,4 +13,6 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

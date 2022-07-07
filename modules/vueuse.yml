@@ -1,0 +1,18 @@
+name: vueuse
+description: Collection of essential Vue Composition Utilities for Vue 2 and 3
+repo: vueuse/vueuse#main/packages/nuxt
+npm: '@vueuse/nuxt'
+icon: vueuse.svg
+github: https://github.com/vueuse/vueuse
+website: https://vueuse.org
+learn_more: https://github.com/vueuse/vueuse
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Anthony Fu
+    github: antfu
+    twitter: antfu7
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires:
+    bridge: optional

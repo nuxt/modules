@@ -3,12 +3,14 @@ description: Modern JavaScript date utility library - date-fns for Nuxt.js
 repo: nuxt-community/date-fns-module
 npm: '@nuxtjs/date-fns'
 icon: date-fns.png
-github: 'https://github.com/nuxt-community/date-fns-module'
-website: 'https://github.com/nuxt-community/date-fns-module'
-learn_more: 'https://date-fns.org/'
+github: https://github.com/nuxt-community/date-fns-module
+website: https://github.com/nuxt-community/date-fns-module
+learn_more: https://date-fns.org/
 category: Date
 type: community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
-    avatar: 'https://avatars3.githubusercontent.com/u/13064722?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

@@ -1,0 +1,17 @@
+name: headway
+description: Headway changelog widget for Nuxt
+repo: l-portet/nuxt-headway
+npm: nuxt-headway
+icon: headway.png
+github: https://github.com/l-portet/nuxt-headway
+website: https://nuxt-headway.netlify.app/
+learn_more: https://headwayapp.co/
+category: UI
+type: 3rd-party
+maintainers:
+  - name: l-portet
+    github: l-portet
+    avatar: https://avatars.githubusercontent.com/u/34057690?v=4
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

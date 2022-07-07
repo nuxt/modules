@@ -3,12 +3,14 @@ description: Build a SPA with Laravel and Nuxt
 repo: skyrpex/laravel-nuxt-js
 npm: laravel-nuxt
 icon: ''
-github: 'https://github.com/skyrpex/laravel-nuxt-js'
-website: 'https://github.com/skyrpex/laravel-nuxt-js'
-learn_more: 'https://laravel.com/'
+github: https://github.com/skyrpex/laravel-nuxt-js
+website: https://github.com/skyrpex/laravel-nuxt-js
+learn_more: https://laravel.com/
 category: CMS
 type: 3rd-party
 maintainers:
   - name: skyrpex
     github: skyrpex
-    avatar: 'https://avatars3.githubusercontent.com/u/1077520?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

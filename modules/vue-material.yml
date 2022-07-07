@@ -5,12 +5,14 @@ description: >-
 repo: vaso2/nuxt-vue-material
 npm: nuxt-vue-material
 icon: vue-material.png
-github: 'https://github.com/vaso2/nuxt-vue-material'
-website: 'https://github.com/vaso2/nuxt-vue-material'
-learn_more: 'https://vuematerial.io/'
+github: https://github.com/vaso2/nuxt-vue-material
+website: https://github.com/vaso2/nuxt-vue-material
+learn_more: https://vuematerial.io/
 category: UI
 type: 3rd-party
 maintainers:
   - name: vaso2
     github: vaso2
-    avatar: 'https://avatars3.githubusercontent.com/u/4008122?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

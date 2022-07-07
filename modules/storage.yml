@@ -5,12 +5,14 @@ description: >-
 repo: mazipan/nuxt-storage
 npm: nuxt-storage
 icon: ''
-github: 'https://github.com/mazipan/nuxt-storage'
-website: 'https://github.com/mazipan/nuxt-storage'
-learn_more: 'https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage'
+github: https://github.com/mazipan/nuxt-storage
+website: https://github.com/mazipan/nuxt-storage
+learn_more: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 category: Extensions
 type: 3rd-party
 maintainers:
   - name: mazipan
     github: mazipan
-    avatar: 'https://avatars0.githubusercontent.com/u/7221389?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

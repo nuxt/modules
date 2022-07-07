@@ -3,12 +3,14 @@ description: Generate your pages statically without using payload extractors.
 repo: GrabarzUndPartner/nuxt-page-generator-helper
 npm: nuxt-page-generator-helper
 icon: ''
-github: 'https://github.com/GrabarzUndPartner/nuxt-page-generator-helper'
-website: 'https://github.com/GrabarzUndPartner/nuxt-page-generator-helper'
+github: https://github.com/GrabarzUndPartner/nuxt-page-generator-helper
+website: https://github.com/GrabarzUndPartner/nuxt-page-generator-helper
 learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
   - name: GrabarzUndPartner
     github: GrabarzUndPartner
-    avatar: 'https://avatars3.githubusercontent.com/u/28385672?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

@@ -5,17 +5,19 @@ description: >-
 repo: nuxt-community/storybook
 npm: '@nuxtjs/storybook'
 icon: storybook.png
-github: 'https://github.com/nuxt-community/storybook'
-website: 'https://storybook.nuxtjs.org'
-learn_more: 'https://storybook.js.org/'
+github: https://github.com/nuxt-community/storybook
+website: https://storybook.nuxtjs.org
+learn_more: https://storybook.js.org/
 category: Devtools
 type: community
 maintainers:
   - name: Ahad Birang
     github: farnabaz
     twitter: a_birang
-    avatar: 'https://avatars2.githubusercontent.com/u/2047945?v=4'
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires:
+    bridge: optional

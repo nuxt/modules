@@ -3,13 +3,15 @@ description: Secure and easy Axios module with Nuxt.js
 repo: nuxt-community/axios-module
 npm: '@nuxtjs/axios'
 icon: axios.svg
-github: 'https://github.com/nuxt-community/axios-module'
-website: 'https://axios.nuxtjs.org'
-learn_more: 'https://github.com/axios/axios'
+github: https://github.com/nuxt-community/axios-module
+website: https://axios.nuxtjs.org
+learn_more: https://github.com/axios/axios
 category: Request
 type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

@@ -3,12 +3,14 @@ description: Efficient web font loading has never been easier!
 repo: Developmint/nuxt-webfontloader
 npm: nuxt-webfontloader
 icon: ''
-github: 'https://github.com/Developmint/nuxt-webfontloader'
-website: 'https://github.com/Developmint/nuxt-webfontloader'
-learn_more: 'https://www.npmjs.com/package/webfontloader'
+github: https://github.com/Developmint/nuxt-webfontloader
+website: https://github.com/Developmint/nuxt-webfontloader
+learn_more: https://www.npmjs.com/package/webfontloader
 category: Fonts
 type: 3rd-party
 maintainers:
   - name: Developmint
     github: Developmint
-    avatar: 'https://avatars0.githubusercontent.com/u/29969219?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

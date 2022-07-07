@@ -5,12 +5,14 @@ description: >-
 repo: DreaMinder/nuxt-netlify-cache
 npm: nuxt-netlify-cache
 icon: netlify.png
-github: 'https://github.com/DreaMinder/nuxt-netlify-cache'
-website: 'https://github.com/DreaMinder/nuxt-netlify-cache'
-learn_more: 'https://www.netlify.com/'
+github: https://github.com/DreaMinder/nuxt-netlify-cache
+website: https://github.com/DreaMinder/nuxt-netlify-cache
+learn_more: https://www.netlify.com/
 category: Deployment
 type: 3rd-party
 maintainers:
   - name: DreaMinder
     github: DreaMinder
-    avatar: 'https://avatars0.githubusercontent.com/u/2715278?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

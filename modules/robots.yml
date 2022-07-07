@@ -3,12 +3,14 @@ description: A Nuxt.js module thats inject a middleware to generate a robots.txt
 repo: nuxt-community/robots-module
 npm: '@nuxtjs/robots'
 icon: ''
-github: 'https://github.com/nuxt-community/robots-module'
-website: 'https://github.com/nuxt-community/robots-module'
-learn_more: 'https://support.google.com/webmasters/answer/6062608?hl=en'
+github: https://github.com/nuxt-community/robots-module
+website: https://github.com/nuxt-community/robots-module
+learn_more: https://support.google.com/webmasters/answer/6062608?hl=en
 category: SEO
 type: community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
-    avatar: 'https://avatars3.githubusercontent.com/u/13064722?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

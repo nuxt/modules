@@ -5,12 +5,14 @@ description: >-
 repo: bazzite/nuxt-netlify
 npm: '@aceforth/nuxt-netlify'
 icon: netlify.png
-github: 'https://github.com/bazzite/nuxt-netlify'
-website: 'https://marquez.co/docs/nuxt-netlify/'
+github: https://github.com/bazzite/nuxt-netlify
+website: https://marquez.co/docs/nuxt-netlify/
 learn_more: ''
 category: Deployment
 type: 3rd-party
 maintainers:
   - name: bazzite
     github: bazzite
-    avatar: 'https://avatars1.githubusercontent.com/u/66133254?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

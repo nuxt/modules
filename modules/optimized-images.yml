@@ -5,8 +5,8 @@ description: >-
 repo: juliomrqz/nuxt-optimized-images
 npm: '@aceforth/nuxt-optimized-images'
 icon: ''
-github: 'https://github.com/juliomrqz/nuxt-optimized-images'
-website: 'https://marquez.co/docs/nuxt-optimized-images/'
+github: https://github.com/juliomrqz/nuxt-optimized-images
+website: https://marquez.co/docs/nuxt-optimized-images/
 learn_more: ''
 category: Images
 type: 3rd-party
@@ -14,4 +14,6 @@ maintainers:
   - name: Julio Marquez
     github: juliomrqz
     twitter: juliomrqz
-    avatar: 'https://avatars1.githubusercontent.com/u/1911993?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

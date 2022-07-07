@@ -3,20 +3,20 @@ description: Google analytics Module for Nuxt.js
 repo: nuxt-community/analytics-module
 npm: '@nuxtjs/google-analytics'
 icon: google-analytics.png
-github: 'https://github.com/nuxt-community/analytics-module'
-website: 'https://google-analytics.nuxtjs.org'
-learn_more: 'https://marketingplatform.google.com/about/analytics/'
+github: https://github.com/nuxt-community/analytics-module
+website: https://google-analytics.nuxtjs.org
+learn_more: https://marketingplatform.google.com/about/analytics/
 category: Analytics
 type: community
 maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-    avatar: 'https://avatars0.githubusercontent.com/u/5158436?v=4'
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
-    avatar: 'https://avatars3.githubusercontent.com/u/13064722?v=4'
   - name: Matteo Gabriele
     github: MatteoGabriele
     twitter: matteo_gabriele
-    avatar: 'https://avatars1.githubusercontent.com/u/5337152?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

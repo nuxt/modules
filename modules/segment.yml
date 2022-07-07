@@ -3,8 +3,8 @@ description: Nuxt.js module for Segment Analytics.js
 repo: dansmaculotte/nuxt-segment
 npm: '@dansmaculotte/nuxt-segment'
 icon: segment.png
-github: 'https://github.com/dansmaculotte/nuxt-segment'
-website: 'https://github.com/dansmaculotte/nuxt-segment'
+github: https://github.com/dansmaculotte/nuxt-segment
+website: https://github.com/dansmaculotte/nuxt-segment
 learn_more: >-
   https://segment.com/docs/connections/sources/catalog/Libraries/website/javascript/
 category: Analytics
@@ -12,4 +12,6 @@ type: 3rd-party
 maintainers:
   - name: dansmaculotte
     github: dansmaculotte
-    avatar: 'https://avatars1.githubusercontent.com/u/44588441?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

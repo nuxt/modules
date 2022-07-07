@@ -1,10 +1,10 @@
 name: feed
-description: 'Feed module enables everyone to have RSS, Atom and Json.'
+description: Feed module enables everyone to have RSS, Atom and JSON.
 repo: nuxt-community/feed-module
 npm: '@nuxtjs/feed'
 icon: ''
-github: 'https://github.com/nuxt-community/feed-module'
-website: 'https://github.com/nuxt-community/feed-module'
+github: https://github.com/nuxt-community/feed-module
+website: https://github.com/nuxt-community/feed-module
 learn_more: ''
 category: SEO
 type: community
@@ -12,4 +12,6 @@ maintainers:
   - name: Alexander Lichter
     github: manniL
     twitter: TheAlexLichter
-    avatar: 'https://avatars0.githubusercontent.com/u/640208?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

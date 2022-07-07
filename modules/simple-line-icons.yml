@@ -3,12 +3,14 @@ description: 'Nuxt module to add simple-line-icons '
 repo: vaso2/nuxt-simple-line-icons
 npm: nuxt-simple-line-icons
 icon: ''
-github: 'https://github.com/vaso2/nuxt-simple-line-icons'
-website: 'https://github.com/vaso2/nuxt-simple-line-icons'
-learn_more: 'https://thesabbir.github.io/simple-line-icons/'
+github: https://github.com/vaso2/nuxt-simple-line-icons
+website: https://github.com/vaso2/nuxt-simple-line-icons
+learn_more: https://thesabbir.github.io/simple-line-icons/
 category: Fonts
 type: 3rd-party
 maintainers:
   - name: vaso2
     github: vaso2
-    avatar: 'https://avatars3.githubusercontent.com/u/4008122?v=4'
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
