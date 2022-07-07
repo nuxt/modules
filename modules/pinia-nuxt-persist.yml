@@ -1,8 +1,8 @@
-name: Nuxt Pinia Persist
+name: pinia-nuxt-persist
 description: Pinia's nuxt3 sustainable storage plug-in
 repo: 516310460/pinia-nuxt-persist
 npm: pinia-nuxt-persist
-icon: icons.png
+icon: ''
 github: https://github.com/516310460/pinia-nuxt-persist
 website: https://github.com/516310460/pinia-nuxt-persist
 learn_more: ''
