@@ -3,15 +3,14 @@ description: 'Generate the corresponding docking according to the standard API J
 repo: 516310460/nuxt-swaggerjsonapi
 npm: nuxt-swaggerjsonapi
 icon: ''
-github: 'https://github.com/516310460/nuxt-swaggerjsonapi'
-website: 'https://github.com/516310460/nuxt-swaggerjsonapi'
+github: https://github.com/516310460/nuxt-swaggerjsonapi
+website: https://github.com/516310460/nuxt-swaggerjsonapi
 learn_more: ''
 category: Request
 type: 3rd-party
 maintainers:
-  - name: 516310460
+  - name: HomWang
     github: 516310460
-    avatar: 'https://avatars0.githubusercontent.com/u/17541676?s=460&u=6c32ffb40c70d9a6390f5e758bdd6bf6acc132fc&v=4'
 compatibility:
   nuxt: ^2.0.0
   requires: {}
