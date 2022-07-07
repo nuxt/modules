@@ -35,7 +35,8 @@
   "resolutions": {
     "nuxt": "npm:nuxt3@latest",
     "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
-    "@nuxt/kit-edge": "latest"
+    "@nuxt/kit-edge": "latest",
+    "vite-node": "0.17.1"
   },
   "packageManager": "yarn@3.2.1"
 }
