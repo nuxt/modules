@@ -1,4 +1,4 @@
-name: bestkolobok
+name: jsoneditor
 description: Nuxt.js module - UI tool for manage json data
 repo: bestkolobok/nuxt-jsoneditor
 npm: nuxt-jsoneditor
