@@ -2,7 +2,7 @@ name: jsoneditor
 description: UI tool for managing JSON data
 repo: bestkolobok/nuxt-jsoneditor
 npm: nuxt-jsoneditor
-icon: ''
+icon: 'jsoneditor.png'
 github: https://github.com/bestkolobok/nuxt-jsoneditor
 website: https://github.com/bestkolobok/nuxt-jsoneditor
 learn_more: https://github.com/bestkolobok/nuxt-jsoneditor
