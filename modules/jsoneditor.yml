@@ -1,5 +1,5 @@
 name: jsoneditor
-description: Nuxt.js module - UI tool for manage json data
+description: UI tool for managing JSON data
 repo: bestkolobok/nuxt-jsoneditor
 npm: nuxt-jsoneditor
 icon: ''
