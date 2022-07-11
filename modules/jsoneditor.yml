@@ -1,0 +1,16 @@
+name: bestkolobok
+description: Nuxt.js module - UI tool for manage json data
+repo: bestkolobok/nuxt-jsoneditor
+npm: nuxt-jsoneditor
+icon: ''
+github: https://github.com/bestkolobok/nuxt-jsoneditor
+website: https://github.com/bestkolobok/nuxt-jsoneditor
+learn_more: https://github.com/bestkolobok/nuxt-jsoneditor
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Alex Guzey
+    github: bestkolobok
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
