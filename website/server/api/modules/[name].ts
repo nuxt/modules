@@ -1,4 +1,4 @@
-import { sendError, createError } from 'h3'
+import { createError } from 'h3'
 import { ModuleInfo } from '../../../../lib/types'
 import { fetchModuleStats } from '../modules'
 
@@ -7,7 +7,7 @@ export default defineEventHandler(async (event) => {
   const module = modules.find(m => m.name === event.context.params.name)
 
   if (!module) {
-    return sendError(event, createError({ statusCode: 404, statusMessage: 'Module not found' }))
+    throw createError({ statusCode: 404, statusMessage: 'Module not found' })
   }
 
   return await fetchModuleStats(module)
