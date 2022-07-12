@@ -1,13 +1,23 @@
 import seedrandom from 'seedrandom'
+import { createRouter, useBase } from 'h3'
 import { ModuleInfo } from '../../../lib/types'
 
-export default async () => {
+const router = createRouter()
+
+router.get('/', async () => {
   const _modules = await import('../../../npm/modules.json').then(r => r.default || r) as ModuleInfo[]
   const modules = await Promise.all(_modules.map(module => fetchModuleStats(module)))
   return {
     modules
   }
-}
+})
+
+router.get('/:name', () => {
+  console.log('Endpoint not accessible')
+  return 'Module Detail'
+})
+
+export default useBase('/api/modules', router.handler)
 
 async function fetchModuleStats (module: ModuleInfo) {
   const ghRepo = module.repo.split('#')[0]

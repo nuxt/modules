@@ -8,6 +8,7 @@ sw.js
 .env
 .vscode
 cache
+<<<<<<< Updated upstream
 .vercel_build_output
 .output
 package-lock.json
@@ -20,3 +21,6 @@ npm/modules.json
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+=======
+.history
+>>>>>>> Stashed changes
