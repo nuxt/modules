@@ -1,7 +1,7 @@
 name: delay-hydration
 description: Improve your Nuxt.js v2 Google Lighthouse score by delaying hydration.
 repo: harlan-zw/nuxt-delay-hydration
-npm: nuxt-delay-hydration
+npm: mono-nuxt-delay-hydration
 icon: lighthouse.svg
 github: https://github.com/harlan-zw/nuxt-delay-hydration
 website: https://github.com/harlan-zw/nuxt-delay-hydration
