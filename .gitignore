@@ -20,3 +20,4 @@ npm/modules.json
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+.history

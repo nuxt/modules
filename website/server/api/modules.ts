@@ -9,7 +9,7 @@ export default async () => {
   }
 }
 
-async function fetchModuleStats (module: ModuleInfo) {
+export async function fetchModuleStats (module: ModuleInfo) {
   const ghRepo = module.repo.split('#')[0]
   if (process.env.NODE_ENV === 'production' || process.env.USE_NUXT_API) {
     const [npm, github, contributors] = await Promise.all([
