@@ -1,13 +1,13 @@
 name: stylify
 description: >-
-  Stylify is a library that generates utility-first CSS dynamically based on
-  what you write. Write HTML. Get CSS.
-repo: stylify/packages#master/packages/nuxt-module
-npm: '@stylify/nuxt-module'
+  Stylify generates utility-first CSS dynamically based on what you write. Write
+  HTML. Get CSS.
+repo: stylify/packages#master/packages/nuxt
+npm: '@stylify/nuxt'
 icon: stylify.svg
-github: https://github.com/stylify/packages/tree/master/packages/nuxt-module
-website: https://stylify.dev/docs/nuxt-module
-learn_more: https://stylify.dev
+github: https://github.com/stylify/packages/tree/master/packages/nuxt
+website: https://stylifycss.com/docs/nuxt
+learn_more: https://stylifycss.com
 category: UI
 type: 3rd-party
 maintainers:
@@ -15,5 +15,5 @@ maintainers:
     github: Machy8
     twitter: 8machy
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^2.0.0 || ^3.0.0
   requires: {}

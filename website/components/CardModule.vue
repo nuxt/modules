@@ -45,7 +45,7 @@
         </h2>
         <div class="flex gap-2 py-3 w-full flex-wrap">
           <div
-            v-for="{ tag, tagText, supportText, color, cssClass } of useModuleComptatibility(mod)"
+            v-for="{ tag, tagText, supportText, color, cssClass } of useModuleCompatibility(mod)"
             :key="tag"
             v-tooltip="tagText + ': ' + supportText"
             :style="{ color: color, background: color + '20' }"
@@ -101,9 +101,9 @@
           >{{ numberFormat(mod.downloads) }} installs</div>
         </a>
       </div>
-      <div class="flex -space-x-3 hover:space-x-0 absolute right-0 -bottom-1 hover:bg-white  dark:hover:bg-sky-darkest">
+      <div class="flex gap1 absolute -right-1 hover:bg-white dark:hover:bg-sky-darkest">
         <a
-          v-for="contributor of mod.contributors.slice(0, 5).reverse()"
+          v-for="contributor of mod.contributors.slice(0, 4).reverse()"
           :key="contributor.login"
           v-tooltip="contributor.name || contributor.login"
           :aria-label="contributor.name || contributor.login"
@@ -113,12 +113,10 @@
         >
           <!-- TODO: use <nuxt-img> -->
           <img
-            class="w-7 h-7 flex rounded-full text-white border-4 border-white dark:border-sky-darkest"
+            class="w-5.5 h-5.5 rounded-full text-white transition duration-400 hover:shadow hover-scale-110"
             :src="'https://api.nuxtjs.org/api/ipx/s_44,f_webp/gh_avatar/' + contributor.login"
             :alt="contributor.name|| contributor.login"
             format="jpg"
-            width="28"
-            height="28"
           >
         </a>
       </div>
@@ -127,7 +125,7 @@
 </template>
 
 <script setup lang="ts">
-import { ModuleInfo, MaintainerInfo } from '~/../lib/types'
+import { ModuleInfo } from '~/../lib/types'
 import { numberFormatter } from '~/utils/format'
 import { CATEGORIES_ICONS } from '~/composables/constants'
 
@@ -135,20 +133,14 @@ defineProps<{ mod: ModuleInfo }>()
 
 const coverError = ref(false)
 
-interface CompatibilityData {
-  statusText: string
-  icon: string | null
-  color: string
-  class?: string
-}
-
 const tagMap = Object.fromEntries(VERSIONS.map(v => [v.key, { tagText: v.label }]))
 const supportMap = {
   supported: { supportText: 'Supported', supportIcon: 'i-carbon-checkmark', color: '#1aa346', cssClass: '' },
   notSupported: { supportText: 'Not supported', supportIcon: 'i-carbon-help', color: '#61626c', cssClass: 'opacity-85' },
   wip: { supportText: 'Work in progress', supportIcon: 'i-carbon-time', color: '#c4930a', cssClass: '' }
 }
-const useModuleComptatibility = (mod: ModuleInfo) => {
+
+const useModuleCompatibility = (mod: ModuleInfo) => {
   return ['2.x', '2.x-bridge', '3.x'].map(tag => ({
     tag,
     ...tagMap[tag],

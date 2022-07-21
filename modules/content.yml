@@ -1,22 +1,26 @@
 name: content
 description: >-
-  Use markdown, JSON, YAML, XML or CSV in your nuxt application to easily write
-  content fetched using a MongoDB like API.
-repo: nuxt/content#main/packages/content
+  Nuxt Content reads the content/ directory in your project, parses .md, .yml,
+  .csv or .json files and creates a powerful data layer for your application. 
+  Bonus, use Vue components in Markdown with the MDC syntax.
+repo: nuxt/content#main
 npm: '@nuxt/content'
-icon: content.png
+icon: nuxt.png
 github: https://github.com/nuxt/content
 website: https://content.nuxtjs.org
 learn_more: ''
 category: CMS
 type: official
 maintainers:
-  - name: Benjamin Canac
-    github: benjamincanac
-    twitter: benjamincanac
+  - name: Yaël Guilloux
+    github: Tahul
+    twitter: yaeeelglx
+  - name: Ahad Birang
+    github: farnabaz
+    twitter: a_birang
   - name: Sebastien Chopin
     github: Atinux
     twitter: Atinux
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^2.0.0 || ^3.0.0
   requires: {}
