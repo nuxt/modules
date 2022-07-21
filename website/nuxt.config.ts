@@ -70,15 +70,5 @@ export default defineNuxtConfig({
   },
   plausible: {
     domain: 'modules.nuxtjs.org'
-  },
-  vue: {
-    compilerOptions: {
-      directiveTransforms: {
-        tooltip: () => ({
-          props: [],
-          needRuntime: true
-        })
-      }
-    }
   }
 })

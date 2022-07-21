@@ -4241,7 +4241,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"floating-vue@npm:^2.0.0-y.0":
+"floating-vue@npm:^2.0.0-beta.17":
   version: 2.0.0-y.0
   resolution: "floating-vue@npm:2.0.0-y.0"
   dependencies:
@@ -6376,7 +6376,7 @@ __metadata:
     "@types/seedrandom": ^3.0.2
     "@unocss/nuxt": ^0.44.5
     "@vueuse/nuxt": ^8.9.4
-    floating-vue: ^2.0.0-y.0
+    floating-vue: ^2.0.0-beta.17
     fuse.js: ^6.6.2
     millify: ^4.0.0
     nuxt: ^3.0.0-rc.6
