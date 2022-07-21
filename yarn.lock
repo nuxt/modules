@@ -4241,15 +4241,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"floating-vue@npm:^2.0.0-beta.17":
-  version: 2.0.0-y.0
-  resolution: "floating-vue@npm:2.0.0-y.0"
+"floating-vue@npm:2.0.0-beta.17":
+  version: 2.0.0-beta.17
+  resolution: "floating-vue@npm:2.0.0-beta.17"
   dependencies:
     "@floating-ui/dom": ^0.1.10
     vue-resize: ^2.0.0-alpha.1
   peerDependencies:
     vue: ^3.2.0
-  checksum: b2fda2ab779946b42d1ede75d04ad9995369ae5c3b3a79c4bd16765151f17dd334bceca474b1d28cda5fdb011fbb44c4e41365a680f4494bae794b4ba98ad6b2
+  checksum: 89780d8eb1ff50bbb207afc270dc9362a0f0d7b7b78b55cdd35dd61440b32ffa7b0fba9d48e912aeb7252341ee0adc063a769ca391fcaa9dd1178f58894718a6
   languageName: node
   linkType: hard
 
@@ -6376,7 +6376,7 @@ __metadata:
     "@types/seedrandom": ^3.0.2
     "@unocss/nuxt": ^0.44.5
     "@vueuse/nuxt": ^8.9.4
-    floating-vue: ^2.0.0-beta.17
+    floating-vue: 2.0.0-beta.17
     fuse.js: ^6.6.2
     millify: ^4.0.0
     nuxt: ^3.0.0-rc.6
