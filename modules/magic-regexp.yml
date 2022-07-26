@@ -1,0 +1,17 @@
+name: magic-regexp
+description: A compiled-away, type-safe, readable RegExp alternative
+repo: danielroe/magic-regexp
+npm: magic-regexp
+icon: magic-regexp.svg
+github: https://github.com/danielroe/magic-regexp
+website: https://magic-regexp.roe.dev
+learn_more: https://magic-regexp.roe.dev
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Daniel Roe
+    github: danielroe
+    twitter: danielcroe
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
