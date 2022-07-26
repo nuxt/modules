@@ -6,8 +6,6 @@ const description = 'Discover our list of modules to supercharge your Nuxt proje
 const url = 'https://modules.nuxtjs.org'
 
 export default defineNuxtConfig({
-  // TODO: https://github.com/nuxt-community/web-vitals-module/pull/47
-  webVitals: { disabled: true },
   app: {
     head: {
       bodyAttrs: {

@@ -945,14 +945,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/web-vitals@npm:^0.1.8":
-  version: 0.1.8
-  resolution: "@nuxtjs/web-vitals@npm:0.1.8"
+"@nuxtjs/web-vitals@npm:^0.1.10":
+  version: 0.1.10
+  resolution: "@nuxtjs/web-vitals@npm:0.1.10"
   dependencies:
-    defu: ^5.0.0
-    ufo: ^0.7.9
-    web-vitals: ^2.1.0
-  checksum: 69cce8724075f51372990dab916cdebe12f29fa148ebab3c0dde244ac9caed11e601f84fb78af84d51d518451420c1b6eed1972349a18f7808a1d2120807de58
+    defu: ^6.0.0
+    ufo: ^0.8.5
+    web-vitals: ^2.1.4
+  checksum: 22e14a9f9975e72c34c1bea015d32c0fbbc11ccc998a918677462f0140a2947474379cdfda967cf7d9e6ea9ae9f45585c8c49e62c5045fccccc320e654ba2f7c
   languageName: node
   linkType: hard
 
@@ -2899,13 +2899,6 @@ __metadata:
   version: 3.2.2
   resolution: "defu@npm:3.2.2"
   checksum: 60e0a5b849bdd9ebf527d65ef721edc144a0570579115fcfd0c3c8d8b5df41304c8a7b9fe82e739f4baccf6fc637cae3e800d16132fc968369786555d4f33621
-  languageName: node
-  linkType: hard
-
-"defu@npm:^5.0.0":
-  version: 5.0.1
-  resolution: "defu@npm:5.0.1"
-  checksum: f65556c2e8aa7789080f04c1d52fd7188d8258d9bc7f673e5bedc6be33eb6150f41844ac96aec99c798e47eb9beb97dae03c24edd73d3ddc643e4c7c72124606
   languageName: node
   linkType: hard
 
@@ -6119,7 +6112,7 @@ __metadata:
     "@nuxtjs/color-mode": ^3.1.4
     "@nuxtjs/html-validator": ^0.7.0
     "@nuxtjs/pwa": ^3.3.5
-    "@nuxtjs/web-vitals": ^0.1.8
+    "@nuxtjs/web-vitals": ^0.1.10
     "@types/seedrandom": ^3.0.2
     "@unocss/nuxt": ^0.39.3
     "@vueuse/nuxt": ^8.9.4
@@ -8246,13 +8239,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^0.7.9":
-  version: 0.7.11
-  resolution: "ufo@npm:0.7.11"
-  checksum: e5dfaff619e9b6d2e1e205877738f701722c99a0da8eda5e180f72844cdb668488656de47d6777d85c1ca17717d527a45ae8eb3954a0271d7d08e59acc02dd99
-  languageName: node
-  linkType: hard
-
 "ufo@npm:^0.8.3, ufo@npm:^0.8.4, ufo@npm:^0.8.5":
   version: 0.8.5
   resolution: "ufo@npm:0.8.5"
@@ -8826,7 +8812,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"web-vitals@npm:^2.1.0":
+"web-vitals@npm:^2.1.4":
   version: 2.1.4
   resolution: "web-vitals@npm:2.1.4"
   checksum: 03d3f47dbf55c3dce07beb0ff5de8ddd52e2d0a53a8df5c84e7a16dda93543341d67231fa79b1d9772b091419af4ec0fd395b8bcf451a0e26846e3f76b3d0efc
