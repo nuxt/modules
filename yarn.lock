@@ -5566,14 +5566,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"millify@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "millify@npm:4.0.1"
+"millify@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "millify@npm:5.0.0"
   dependencies:
     yargs: ^17.0.1
   bin:
     millify: bin/millify
-  checksum: 165497e31235157c356297e7166aff074372daaefdac8fa64973970113858bcab7da959c8e2fa3b045ab28c897178f5b9470ec60d9f5245e0b80c6cbefca55fd
+  checksum: ae01792fce9d9b5d7062f3286c925d3c0139e3a23ce1423e5faca5267ab0627621330c7929e8c569ffbb0e660efe5db51619e4ae17fb43c98da4907ea8c72894
   languageName: node
   linkType: hard
 
@@ -6118,7 +6118,7 @@ __metadata:
     "@vueuse/nuxt": ^8.9.4
     floating-vue: ^2.0.0-beta.17
     fuse.js: ^6.6.2
-    millify: ^4.0.1
+    millify: ^5.0.0
     nuxt: "npm:nuxt3@latest"
     ohmyfetch: ^0.4.18
     seedrandom: ^3.0.5
