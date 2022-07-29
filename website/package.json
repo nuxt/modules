@@ -16,7 +16,7 @@
     "@nuxtjs/web-vitals": "^0.1.10",
     "@types/seedrandom": "^3.0.2",
     "@unocss/nuxt": "^0.44.7",
-    "@vueuse/nuxt": "^8.9.4",
+    "@vueuse/nuxt": "^9.0.0",
     "floating-vue": "^2.0.0-beta.17",
     "fuse.js": "^6.6.2",
     "millify": "^5.0.0",
