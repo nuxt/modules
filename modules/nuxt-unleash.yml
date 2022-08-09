@@ -1,0 +1,16 @@
+name: nuxt-unleash
+description: Nuxt.js module to use Unleash toggle feature services
+repo: conejerock/nuxt-unleash
+npm: nuxt-unleash
+icon: nuxt-unleash.svg
+github: https://github.com/conejerock/nuxt-unleash
+website: https://github.com/conejerock/nuxt-unleash
+learn_more: https://github.com/Unleash/unleash
+category: Deployment
+type: 3rd-party
+maintainers:
+  - name: Juanjo Conejerock
+    github: conejerock
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

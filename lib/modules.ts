@@ -33,7 +33,7 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
 
   // Fetch latest package.json from github
   const pkg = await fetchGithubPkg(mod.repo)
-  mod.npm = pkg.name
+  mod.npm = pkg.name || mod.npm
 
   // Type
   if (mod.repo.startsWith('nuxt-community/')) {
