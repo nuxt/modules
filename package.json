@@ -26,7 +26,7 @@
     "hasha": "^5.2.2",
     "jiti": "^1.14.0",
     "js-yaml": "^4.1.0",
-    "nuxt": "^3.0.0-rc.6",
+    "nuxt": "npm:nuxt3@latest",
     "ohmyfetch": "^0.4.18",
     "p-limit": "^4.0.0",
     "typescript": "^4.7.4",
