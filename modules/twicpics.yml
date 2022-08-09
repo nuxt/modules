@@ -5,7 +5,7 @@ description: >-
 repo: TwicPics/components
 npm: '@twicpics/components'
 icon: twicpics.svg
-github: https://github.com/TwicPics/components/tree/main/documentation
+github: https://github.com/TwicPics/components
 website: https://www.twicpics.com/docs/components/nuxt-3
 learn_more: https://www.twicpics.com
 category: Images
