@@ -5,7 +5,7 @@ npm: nuxt-unleash
 icon: nuxt-unleash.svg
 github: https://github.com/conejerock/nuxt-unleash
 website: https://github.com/conejerock/nuxt-unleash
-learn_more: ''
+learn_more: 'https://github.com/Unleash/unleash'
 category: Deployment
 type: 3rd-party
 maintainers:
