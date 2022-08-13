@@ -5,7 +5,7 @@ npm: '@vuestic/nuxt'
 icon: ''
 github: https://github.com/epicmaxco/vuestic-ui/tree/develop/packages/nuxt
 website: https://vuestic.dev
-learn_more: 'https://vuestic.dev/en/getting-started/nuxt'
+learn_more: https://vuestic.dev/en/getting-started/nuxt
 category: UI
 type: 3rd-party
 maintainers:
