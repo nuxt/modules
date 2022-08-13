@@ -1,0 +1,16 @@
+name: vuestic
+description: Vuestic UI module for Nuxt 3
+repo: epicmaxco/vuestic-ui#develop/packages/nuxt
+npm: '@vuestic/nuxt'
+icon: ''
+github: https://github.com/epicmaxco/vuestic-ui/tree/develop/packages/nuxt
+website: https://vuestic.dev
+learn_more: 'https://vuestic.dev/en/getting-started/nuxt'
+category: UI
+type: 3rd-party
+maintainers:
+  - name: epicmaxco
+    github: epicmaxco
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
