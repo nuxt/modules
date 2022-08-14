@@ -1,0 +1,17 @@
+name: umami
+description: Embed the Umami analytics library into Nuxt
+repo: ijkml/nuxt-umami
+npm: nuxt-umami
+icon: umami.svg
+github: https://github.com/ijkml/nuxt-umami
+website: https://github.com/ijkml/nuxt-umami
+learn_more: https://umami.is/docs/
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: ML
+    github: ijkml
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires:
+    bridge: optional
