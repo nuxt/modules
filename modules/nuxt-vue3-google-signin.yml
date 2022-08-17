@@ -1,0 +1,16 @@
+name: nuxt-vue3-google-signin
+description: Empower your Nuxt app with Google Sign-in hassle-free
+repo: syetalabs/nuxt-vue3-google-signin
+npm: "nuxt-vue3-google-signin"
+icon: vue3-google-signin.svg
+github: https://github.com/syetalabs/nuxt-vue3-google-signin
+website: https://vue3-google-signin.syetalabs.io
+learn_more: https://vue3-google-signin.syetalabs.io
+category: Libraries
+type: community
+maintainers:
+  - name: Kasun Vithanage
+    github: kasvith
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
