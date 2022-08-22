@@ -3,7 +3,7 @@ description: >-
   Harlem is a simple, unopinionated, lightweight and extensible state management
   solution for Vue 3.
 repo: nuxt-modules/harlem
-npm: "@nuxtjs/harlem"
+npm: '@nuxtjs/harlem'
 icon: harlem.svg
 github: https://github.com/nuxt-modules/harlem
 website: https://github.com/nuxt-modules/harlem
