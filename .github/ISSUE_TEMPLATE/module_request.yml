@@ -1,5 +1,5 @@
 name: Module Request
-description: Request to add a new module to the overview
+description: Request to add a new module to the modules list
 title: "[Module Request]: `...`"
 labels: ["module-request"]
 body:
