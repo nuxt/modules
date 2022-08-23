@@ -1,12 +1,12 @@
-name: Module Request
+name: Module Listing Request
 description: Request to add a new module to the modules list
-title: "[Module Request]: `...`"
+title: "[Module Listing Request]: `...`"
 labels: ["module-request"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this module request!
+        Thanks for taking the time to fill out this module listing request!
   - type: textarea
     id: description
     attributes:
