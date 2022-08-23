@@ -8,9 +8,9 @@ body:
       value: |
         Thanks for taking the time to fill out this module request!
   - type: textarea
-    id: features
+    id: description
     attributes:
-      label: Features
+      label: Description
       description: Explain in a few sentences what your module does.
       placeholder: This module is a wrapper for...
     validations:
@@ -21,6 +21,14 @@ body:
       label: Repository
       description: Drop a link to the source repository.
       placeholder: "https://github.com/..."
+    validations:
+      required: true
+  - type: input
+    id: npm-link
+    attributes:
+      label: npm
+      description: Drop a link to the npm package.
+      placeholder: "https://www.npmjs.com/package/..."
     validations:
       required: true
   - type: dropdown
