@@ -20,7 +20,7 @@ body:
     attributes:
       label: Repository
       description: Drop a link to the source repository.
-      placeholder: https://github.com/...
+      placeholder: "https://github.com/..."
     validations:
       required: true
   - type: dropdown
