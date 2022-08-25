@@ -36,7 +36,7 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
   mod.npm = pkg.name || mod.npm
 
   // Type
-  if (mod.repo.startsWith('nuxt-community/')) {
+  if (mod.repo.startsWith('nuxt-community/') || mod.repo.startsWith('nuxt-modules/')) {
     mod.type = 'community'
   } else if (mod.repo.startsWith('nuxt/')) {
     mod.type = 'official'

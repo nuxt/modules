@@ -1,9 +1,9 @@
 name: html-validator
 description: Automatically validate Nuxt server-rendered HTML html
-repo: nuxt-community/html-validator-module
+repo: nuxt-modules/html-validator
 npm: '@nuxtjs/html-validator'
 icon: html-validator.png
-github: https://github.com/nuxt-community/html-validator-module
+github: https://github.com/nuxt-modules/html-validator
 website: https://html-validator.nuxtjs.org
 learn_more: https://html-validate.org
 category: Performance

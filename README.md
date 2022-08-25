@@ -1,3 +1,5 @@
+[![Screenshot 2022-08-21 at 23 47 1](https://user-images.githubusercontent.com/904724/185812304-f972bc80-05d5-4278-8cdd-7da0c7d3f9cc.png)](https://modules.nuxtjs.org)
+
 # Nuxt Modules
 
 [![automated](https://flat.badgen.net/badge/publish/automated/green)](#)
@@ -11,6 +13,16 @@
 ## Modules Database
 
 Metadata of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/YAML) files inside [./modules](./modules) directory and automatically synced from upstream to fetch latest information.
+
+### Add/Update a module
+
+```bash
+yarn sync <name> <repo>
+```
+
+Example: `yarn sync tailwindcss nuxt-community/tailwindcss-module`
+
+To sync with a branch different than `master`, suffix the repo with `#repo-branch`, example: `yarn sync tailwindcss nuxt-community/tailwindcss-module#dev`
 
 ### Contribution
 
@@ -65,16 +77,6 @@ Field Name      | Auto sync | Description
 
 
 ## Maintenance
-
-### Add or update repository
-
-```bash
-yarn sync <name> <repo>
-```
-
-Example: `yarn sync tailwindcss nuxt-community/tailwindcss-module`
-
-To sync with a branch different than `master`, suffix the repo with `#repo-branch`, example: `yarn sync tailwindcss nuxt-community/tailwindcss-module#dev`
 
 ### Auto update all current modules
 
