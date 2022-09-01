@@ -1,22 +1,17 @@
 name: prismic
 description: Easily connect your Nuxt.js application to your content hosted on Prismic
-repo: nuxt-community/prismic-module
+repo: nuxt-modules/prismic
 npm: '@nuxtjs/prismic'
 icon: prismic.png
-github: https://github.com/nuxt-community/prismic-module
+github: https://github.com/nuxt-modules/prismic
 website: https://prismic.nuxtjs.org
-learn_more: https://prismic.io/
+learn_more: https://prismic.io
 category: CMS
 type: community
 maintainers:
-  - name: Sébastien Chopin
-    github: Atinux
-    twitter: Atinux
   - name: lihbr
     github: lihbr
     twitter: li_hbr
-  - name: James Pegg
-    github: jamespegg
 compatibility:
   nuxt: ^2.0.0 || ^3.0.0
   requires: {}

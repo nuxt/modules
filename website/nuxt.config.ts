@@ -51,10 +51,6 @@ export default defineNuxtConfig({
     // https://color-mode.nuxtjs.org
     '@nuxtjs/color-mode'
   ],
-  // vueuse: {
-  //   autoImports: true,
-  //   ssrHandlers: true
-  // },
   colorMode: {
     classSuffix: ''
   },
