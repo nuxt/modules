@@ -1,0 +1,16 @@
+name: nuxt-monaco-editor
+description: Integrate monaco-editor with Nuxt
+repo: e-chan1007/nuxt-monaco-editor
+npm: nuxt-monaco-editor
+icon: ''
+github: https://github.com/e-chan1007/nuxt-monaco-editor
+website: https://github.com/e-chan1007/nuxt-monaco-editor
+learn_more: https://e-chan1007.github.io/nuxt-monaco-editor
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: e-chan1007
+    github: e-chan1007
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
