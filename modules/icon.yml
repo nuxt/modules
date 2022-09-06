@@ -1,0 +1,15 @@
+name: icon
+repo: nuxt-modules/icon
+npm: nuxt-icon
+icon: nuxt-icon.png
+github: https://github.com/nuxt-modules/icon
+website: https://github.com/nuxt-modules/icon
+learn_more: ''
+category: UI
+type: community
+maintainers:
+  - name: Atinux
+    github: Atinux
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
