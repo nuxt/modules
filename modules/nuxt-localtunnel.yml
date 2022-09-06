@@ -1,0 +1,17 @@
+name: nuxt-localtunnel
+description: Exposes your Nuxt localhost to the world automatically.
+repo: nuxtus/localtunnel
+npm: '@nuxtus/localtunnel'
+icon: localtunnel.png
+github: https://github.com/nuxtus/localtunnel
+website: https://nuxtus.com
+learn_more: https://docs.nuxtus.com/localtunnel
+category: Devtools
+type: community
+maintainers:
+  - name: Craig Harman
+    github: craigharman
+    twitter: craig_harman
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
