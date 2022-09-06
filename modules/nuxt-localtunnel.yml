@@ -2,7 +2,7 @@ name: nuxt-localtunnel
 description: Exposes your Nuxt localhost to the world automatically.
 repo: nuxtus/localtunnel
 npm: '@nuxtus/localtunnel'
-icon: localtunnel.png
+icon: ''
 github: https://github.com/nuxtus/localtunnel
 website: https://nuxtus.com
 learn_more: https://docs.nuxtus.com/localtunnel
