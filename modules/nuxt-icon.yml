@@ -1,9 +1,9 @@
 name: nuxt-icon
-repo: Atinux/nuxt-icon
+repo: nuxt-modules/icon
 npm: nuxt-icon
 icon: nuxt-icon.png
-github: https://github.com/Atinux/nuxt-icon
-website: https://github.com/Atinux/nuxt-icon
+github: https://github.com/nuxt-modules/icon
+website: https://github.com/nuxt-modules/icon
 learn_more: ''
 category: UI
 type: 3rd-party
