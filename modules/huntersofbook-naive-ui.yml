@@ -3,7 +3,7 @@ description: >-
   A Vue 3 Component Library
   Fairly Complete, Theme Customizable, Uses TypeScript, Fast
   Kinda Interesting
-repo: huntersofbook/huntersofbook/tree/main/packages/naive-ui-nuxt
+repo: huntersofbook/huntersofbook
 npm: '@huntersofbook/naive-ui-nuxt'
 icon: naive-ui.svg
 github: https://github.com/huntersofbook/huntersofbook/tree/main/packages/naive-ui-nuxt
