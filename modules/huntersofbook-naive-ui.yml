@@ -4,7 +4,7 @@ description: >-
   Fairly Complete, Theme Customizable, Uses TypeScript, Fast
   Kinda Interesting
 repo: huntersofbook/huntersofbook/tree/main/packages/naive-ui-nuxt
-npm: naive-ui-nuxt
+npm: @huntersofbook/naive-ui-nuxt
 icon: naive-ui.svg
 github: https://github.com/huntersofbook/huntersofbook/tree/main/packages/naive-ui-nuxt
 website: https://github.com/huntersofbook/huntersofbook/tree/main/packages/naive-ui-nuxt
