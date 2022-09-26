@@ -27,9 +27,9 @@
     "jiti": "^1.14.0",
     "js-yaml": "^4.1.0",
     "nuxt": "rc",
-    "ohmyfetch": "^0.4.18",
+    "ohmyfetch": "^0.4.19",
     "p-limit": "^4.0.0",
-    "typescript": "^4.8.2",
+    "typescript": "^4.8.3",
     "ufo": "^0.8.5"
   },
   "packageManager": "yarn@3.2.3"
