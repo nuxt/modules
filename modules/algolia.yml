@@ -1,9 +1,9 @@
 name: algolia
 description: Algolia Search Module for Nuxt 3
-repo: nuxt-community/algolia-module
+repo: nuxt-modules/algolia
 npm: '@nuxtjs/algolia'
 icon: algolia.svg
-github: https://github.com/nuxt-community/algolia-module
+github: https://github.com/nuxt-modules/algolia
 website: https://algolia.nuxtjs.org/
 learn_more: https://algolia.nuxtjs.org/
 category: Libraries
