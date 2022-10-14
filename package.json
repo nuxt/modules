@@ -8,6 +8,7 @@
     "build": "yarn cli build",
     "cli": "jiti ./lib/cli",
     "dev": "yarn website:dev",
+    "prepare": "nuxi prepare website",
     "website:build": "yarn build && nuxi build website",
     "website:dev": "yarn build && nuxi dev website",
     "lint": "eslint --ext .vue,.ts .",
