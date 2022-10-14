@@ -20,7 +20,7 @@
     "@types/js-yaml": "^4.0.5",
     "@types/node": "^18.7.13",
     "defu": "^6.1.0",
-    "eslint": "^8.23.0",
+    "eslint": "^8.23.1",
     "eslint-plugin-nuxt": "^3.2.0",
     "globby": "^13.1.2",
     "hasha": "^5.2.2",
