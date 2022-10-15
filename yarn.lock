@@ -1013,15 +1013,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/html-validator@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@nuxtjs/html-validator@npm:1.0.0"
+"@nuxtjs/html-validator@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@nuxtjs/html-validator@npm:1.1.0"
   dependencies:
     "@nuxt/kit": ^3.0.0-rc.10
-    chalk: ^5.0.1
-    html-validate: 7.5.0
+    chalk: ^5.1.2
+    html-validate: 7.6.0
     prettier: ^2.7.1
-  checksum: 82974de9b47143b58e1f12685b7008cecf09ef8df199b4cb5b96359c708ac6054494e790479ff83448260d3760f1d34b8cfb5922a922d97c5327956c249d88da
+  checksum: 7efe6ae7a67ff251da0d17cc5d2d4e7e12bbccfb67ad7d111251aacb15f6a4c71528fc9bb70e11075e11bbbd00ae819e022b2801a9fc5066940ad1f2f18201c8
   languageName: node
   linkType: hard
 
@@ -2507,7 +2507,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^5.1.0":
+"chalk@npm:^5.1.0, chalk@npm:^5.1.2":
   version: 5.1.2
   resolution: "chalk@npm:5.1.2"
   checksum: 804d7485e33531abe45b14e91026ceb5615974a8c04259ab0806f214a7666f6ea03e39ab124f7d5a0c78a83fda89005f236db3c5f10c2abe9ae875f7aa56bcb5
@@ -5004,9 +5004,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-validate@npm:7.5.0":
-  version: 7.5.0
-  resolution: "html-validate@npm:7.5.0"
+"html-validate@npm:7.6.0":
+  version: 7.6.0
+  resolution: "html-validate@npm:7.6.0"
   dependencies:
     "@babel/code-frame": ^7.10.0
     "@html-validate/stylish": ^3.0.0
@@ -5034,7 +5034,7 @@ __metadata:
       optional: true
   bin:
     html-validate: bin/html-validate.js
-  checksum: 04d73c5173e31358917d44d6bba3a256fdebc97f00aaca5d69966485b2a2743fa3de6a9042b54cbb402b4e6c7b4a626d622e9a83906702b89b684f2990e95a4d
+  checksum: 3e7ba991862b5a422cabb8caed64ab296555ad31c4fb051beb93bbb3b29cb2f9efd1df918401092fb596ef99d5fa4c8ac3632f82fcbab4e0aac1c38ae98f911e
   languageName: node
   linkType: hard
 
@@ -6629,7 +6629,7 @@ __metadata:
   dependencies:
     "@iconify-json/carbon": ^1.1.8
     "@nuxtjs/color-mode": ^3.1.8
-    "@nuxtjs/html-validator": ^1.0.0
+    "@nuxtjs/html-validator": ^1.1.0
     "@nuxtjs/pwa": ^3.3.5
     "@nuxtjs/web-vitals": ^0.1.10
     "@types/seedrandom": ^3.0.2
