@@ -2,15 +2,17 @@ name: xstate
 description: XState integration for Nuxt
 repo: Lexpeartha/nuxt-xstate
 npm: nuxt-xstate
-icon: ''
+icon: xstate.svg
 github: https://github.com/Lexpeartha/nuxt-xstate
-website: https://github.com/Lexpeartha/nuxt-xstate
-learn_more: ''
+website: https://nuxt-xstate.lexpeartha.com
+learn_more: https://xstate.js.org/
 category: Extensions
 type: 3rd-party
 maintainers:
   - name: Lexpeartha
     github: Lexpeartha
+    twitter: lexpeartha
 compatibility:
-  nuxt: ^3.0.0
-  requires: {}
+  nuxt: ^2.0.0 || ^3.0.0
+  requires:
+    bridge: true
