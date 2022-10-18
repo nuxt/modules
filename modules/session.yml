@@ -1,0 +1,17 @@
+name: session
+description: 'Session middleware to persist data across multiple requests, supports many backends via unjs/unstorage: memory, redis, fs, ...'
+repo: sidebase/nuxt-session
+npm: '@sidebase/nuxt-session'
+icon: session.png
+github: https://github.com/sidebase/nuxt-session
+website: https://github.com/sidebase/nuxt-session
+learn_more: https://github.com/sidebase
+category: Security
+type: 3rd-party
+maintainers:
+  - name: sidebase
+    github: sidebase
+    twitter: sidebase_io
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
