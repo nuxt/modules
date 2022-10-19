@@ -17,3 +17,4 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/johannschopplich?v=4
 compatibility:
   nuxt: ^3.0.0
+  requires: {}
