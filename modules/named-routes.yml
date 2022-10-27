@@ -1,0 +1,16 @@
+name: named-routes
+description: A Nuxt.js module that sets router named routes from nuxt.config file
+repo: tiborpino/nuxtjs-named-routes
+npm: nuxtjs-named-routes
+icon:
+github: https://github.com/tiborpino/nuxtjs-named-routes
+website: https://github.com/tiborpino/nuxtjs-named-routes
+learn_more: ''
+category: module
+type: 3rd-party
+maintainers:
+  - name: Tibor Pino
+    github: tiborpino
+compatibility:
+  nuxt: ^3.0.9
+  requires: {}
