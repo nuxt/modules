@@ -1,0 +1,17 @@
+name: fontaine
+description: Automatically optimized font fallback based on font metrics
+repo: nuxt-modules/fontaine
+npm: '@nuxtjs/fontaine'
+icon: fontaine.svg
+github: https://github.com/nuxt-modules/fontaine
+website: https://github.com/unjs/fontaine
+learn_more: https://github.com/unjs/fontaine
+category: Performance
+type: community
+maintainers:
+  - name: Daniel Roe
+    github: danielroe
+    twitter: danielcroe
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

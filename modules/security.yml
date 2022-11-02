@@ -1,0 +1,17 @@
+name: security
+description: Security Module for Nuxt based on OWASP Top 10 and Helmet
+repo: Baroshem/nuxt-security
+npm: nuxt-security
+icon: nuxt-security.svg
+github: https://github.com/Baroshem/nuxt-security
+website: https://nuxt-security.vercel.app/
+learn_more: https://nuxt-security.vercel.app/
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Jakub Andrzejewski
+    github: Baroshem
+    avatar: https://avatars.githubusercontent.com/u/37120330?v=4
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
