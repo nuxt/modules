@@ -1,7 +1,7 @@
 name: chatwoot
 description: >-
-  Chatwoot is an open-source customer engagement  platform that helps companies
-  engage their  ustomers on their website
+  Chatwoot is an open-source customer engagement platform that helps companies
+  engage their customers on their website
 repo: huntersofbook/huntersofbook#main/packages/chatwoot-nuxt
 npm: '@huntersofbook/chatwoot-nuxt'
 icon: chatwoot.png
