@@ -2,7 +2,7 @@ name: nuxt-svgo
 description: Nuxt module to load optimized SVG files as Vue components
 repo: cpsoinos/nuxt-svgo
 npm: nuxt-svgo
-icon: ''
+icon: nuxt-svgo.png
 github: https://github.com/cpsoinos/nuxt-svgo
 website: https://github.com/cpsoinos/nuxt-svgo
 learn_more: ''
