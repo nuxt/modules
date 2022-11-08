@@ -2,7 +2,7 @@ name: nuxt-monaco-editor
 description: Integrate monaco-editor with Nuxt
 repo: e-chan1007/nuxt-monaco-editor
 npm: nuxt-monaco-editor
-icon: 'nuxt-monaco-editor.png'
+icon: nuxt-monaco-editor.png
 github: https://github.com/e-chan1007/nuxt-monaco-editor
 website: https://github.com/e-chan1007/nuxt-monaco-editor
 learn_more: https://e-chan1007.github.io/nuxt-monaco-editor
