@@ -1,4 +1,4 @@
-name: plausible
+name: vue-plausible
 description: Plausible analytics for Vue.js and Nuxt
 repo: moritzsternemann/vue-plausible
 npm: vue-plausible
