@@ -1,11 +1,11 @@
-name: nuxt-plausible
+name: plausible
 description: Nuxt 3 module to natively integrate Plausible analytics
 repo: johannschopplich/nuxt-plausible
 npm: nuxt-plausible
 icon: plausible.png
 github: https://github.com/johannschopplich/nuxt-plausible
 website: https://github.com/johannschopplich/nuxt-plausible
-learn_more: ''
+learn_more: 'https://plausible.io/'
 category: Analytics
 type: 3rd-party
 maintainers:
