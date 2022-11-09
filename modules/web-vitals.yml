@@ -2,7 +2,7 @@ name: web-vitals
 description: Web Vitals for Nuxt
 repo: nuxt-community/web-vitals-module
 npm: '@nuxtjs/web-vitals'
-icon: ''
+icon: web-vitals.png
 github: https://github.com/nuxt-community/web-vitals-module
 website: https://github.com/nuxt-community/web-vitals-module
 learn_more: ''
