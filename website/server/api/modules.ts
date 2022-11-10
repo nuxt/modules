@@ -52,7 +52,7 @@ export async function fetchModuleStats (module: ModuleInfo) {
     ]
 
     // Uncoment for real stats
-    module.contributors = await $fetch<any>(`https://ungh.unjs.io/repo/${ghRepo}/contributors`)
+    // module.contributors = await $fetch<any>(`https://ungh.unjs.io/repo/${ghRepo}/contributors`).then(r => r.contributors)
   }
   return module
 }
