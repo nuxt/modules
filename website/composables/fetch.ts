@@ -27,7 +27,7 @@ export async function fetchModules () {
   }
 
   // Unique contributors
-  const contributors = new Set(modules.flatMap(m => m.contributors.map(m => m.login)))
+  const contributors = new Set(modules.flatMap(m => m.contributors.map(m => m.username)))
 
   return {
     modules,
