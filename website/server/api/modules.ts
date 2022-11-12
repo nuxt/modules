@@ -18,16 +18,16 @@ export async function fetchModuleStats (module: ModuleInfo) {
           console.error(`Cannot fetch npm info for ${module.npm}: ${err}`)
           return { downloads: { lastMonth: 0 } }
         }),
-      $fetch<any>(`https://api.nuxtjs.org/api/github/repo/${ghRepo}`)
+      $fetch<any>(`https://ungh.unjs.io/repo/${ghRepo}`)
         .catch((err) => {
           console.error(`Cannot fetch github repo info for ${ghRepo}: ${err}`)
-          return { stars: 0 }
-        }),
-      $fetch<any>(`https://api.nuxtjs.org/api/github/contributors/${ghRepo}`)
+          return { repo: { stars: 0 } }
+        }).then(r => r.repo),
+      $fetch<any>(`https://ungh.unjs.io/repo/${ghRepo}/contributors`)
         .catch((err) => {
           console.error(`Cannot fetch github contributors info for ${ghRepo}: ${err}`)
-          return []
-        })
+          return { contributors: [] }
+        }).then(r => r.contributors)
     ])
     module.downloads = npm.downloads.lastMonth
     module.stars = github.stars
@@ -46,13 +46,13 @@ export async function fetchModuleStats (module: ModuleInfo) {
     module.publishedAt = rand(1_600_000_000_000, 1_630_000_000_000)
     module.createdAt = rand(1_600_000_000_000, 1_630_000_000_000)
     module.contributors = [
-      { login: 'nuxt' },
-      { login: 'vuejs' },
-      { login: 'unjs' }
+      { username: 'nuxt' },
+      { username: 'vuejs' },
+      { username: 'unjs' }
     ]
 
     // Uncoment for real stats
-    // module.contributors = await $fetch<any>(`https://api.nuxtjs.org/api/github/contributors/${ghRepo}`)
+    // module.contributors = await $fetch<any>(`https://ungh.unjs.io/repo/${ghRepo}/contributors`).then(r => r.contributors)
   }
   return module
 }

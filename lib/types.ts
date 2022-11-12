@@ -14,7 +14,7 @@ export interface MaintainerInfo {
 }
 
 export interface GithubContributor {
-  login: string
+  username: string
   name?: string
   avatar_url?: string
 }
