@@ -1,5 +1,5 @@
 name: nuxt-ssr-lit
-description: 'Server-Side Rendering for Lit Element components'
+description: Server-Side Rendering for Lit Element components
 repo: prashantpalikhe/nuxt-ssr-lit
 npm: nuxt-ssr-lit
 icon: ''
