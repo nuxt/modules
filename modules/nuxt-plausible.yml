@@ -1,0 +1,19 @@
+name: plausible
+description: >-
+  Plausible analytics for Vue 3 and Nuxt 3
+repo: huntersofbook/huntersofbook#main/packages/plausible-nuxt
+npm: '@huntersofbook/plausible-nuxt'
+icon: plausible.png
+github: >-
+  https://github.com/huntersofbook/huntersofbook/tree/main/packages/plausible-nuxt
+website: >-
+  https://github.com/huntersofbook/huntersofbook/tree/main/packages/plausible-nuxt
+learn_more: https://plausible.io
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: productdevbook
+    github: productdevbook
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
