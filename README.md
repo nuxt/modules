@@ -70,7 +70,7 @@ Field Name      | Auto sync | Description
 `github`        | No        | GitHub URL
 `website`       | No        | Website URL
 `learn_more`    | No        | Link to learn more (website or relevant integration website)
-`category`      | No        | Module category from [./lib/categories.json](./lib/categories.json)
+`category`      | No        | Module category from [./lib/categories.ts](./lib/categories.ts)
 `type`          | No        | `community` (for [nuxt-community](https://github.com/nuxt-community/)), `official` (for https://github.com/) or `3rd-party`
 `maintainers`   | Yes       | List of maintainers each item has `name`, `github` and `avatar`
 `compatibility` | No        | Module compatibility status. `nuxt` field specifies semver of supported nuxt version. `requires.bridge: true\|optional` can be used to specify Nuxt 2 bridge compatibility.

@@ -3,7 +3,7 @@ description: Easily connect your Nuxt3 application to your directus server.
 repo: intevel/nuxt-directus
 npm: nuxt-directus
 icon: directus.svg
-github: https://github.com/intevel/nuxt-directus/
+github: https://github.com/directus/nuxt-directus/
 website: https://nuxt-directus.netlify.app/
 learn_more: https://nuxt-directus.netlify.app/
 category: CMS
