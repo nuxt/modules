@@ -15,7 +15,7 @@ export function fetchRawGithub (path) {
 
 export function fetchGithubPkg (repo) {
   let path
-  [repo, path = 'master'] = repo.split('#')
+  [repo, path = 'main'] = repo.split('#')
 
   return fetchRawGithub(repo + '/' + path + '/' + 'package.json')
 }
