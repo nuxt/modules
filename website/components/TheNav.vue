@@ -64,13 +64,17 @@ function toggleColorMode () {
   colorMode.preference = colorMode.preference === 'dark' ? 'light' : 'dark'
 }
 
+const updateSearch = useDebounceFn((v: string) => {
+  emit('update:search', v)
+}, 500)
+
 const searchEl = ref<HTMLInputElement>()
 const searchModel = computed<string>({
   get () {
     return props.search
   },
   set (v) {
-    emit('update:search', v)
+    updateSearch(v)
   }
 })
 

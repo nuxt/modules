@@ -1,0 +1,20 @@
+name: ssr-lit
+description: Server-Side Rendering for Lit Element components
+repo: prashantpalikhe/nuxt-ssr-lit
+npm: nuxt-ssr-lit
+icon: ''
+github: https://github.com/prashantpalikhe/nuxt-ssr-lit
+website: https://github.com/prashantpalikhe/nuxt-ssr-lit
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Prashant Palikhe
+    github: prashantpalikhe
+    twitter: prashantpalikhe
+  - name: Steve Workman
+    github: steveworkman
+    twitter: steveworkman
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

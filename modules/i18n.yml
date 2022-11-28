@@ -3,7 +3,7 @@ description: >-
   i18n features for your Nuxt project so you can easily add
   internationalization.
 repo: nuxt-community/i18n-module
-npm: nuxt-i18n
+npm: '@nuxtjs/i18n'
 icon: i18n.png
 github: https://github.com/nuxt-community/i18n-module
 website: https://i18n.nuxtjs.org
@@ -16,5 +16,5 @@ maintainers:
   - name: Kazuya Kawaguchi
     github: kazupon
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^2.0.0 || ^3.0.0
   requires: {}

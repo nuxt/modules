@@ -23,7 +23,7 @@
         <!-- TODO: use <nuxt-img> -->
         <img
           v-if="!coverError && iconUrl(mod)"
-          :src="'https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/website/public/' + iconUrl(mod)"
+          :src="iconUrl(mod).endsWith('.svg') ? iconUrl(mod) : 'https://api.nuxtjs.org/api/ipx/s_80,f_webp/gh/nuxt/modules/main/website/public/' + iconUrl(mod)"
           :alt="mod.name"
           class="w-10 h-10 object-contain"
           width="40px"
@@ -104,18 +104,18 @@
       <div class="flex gap1 absolute -right-1 hover:bg-white dark:hover:bg-sky-darkest">
         <a
           v-for="contributor of mod.contributors.slice(0, 4).reverse()"
-          :key="contributor.login"
-          v-tooltip="contributor.name || contributor.login"
-          :aria-label="contributor.name || contributor.login"
-          :href="`https://github.com/${contributor.login}`"
+          :key="contributor.username"
+          v-tooltip="contributor.name || contributor.username"
+          :aria-label="contributor.name || contributor.username"
+          :href="`https://github.com/${contributor.username}`"
           target="_blank"
           rel="noopener"
         >
           <!-- TODO: use <nuxt-img> -->
           <img
             class="w-5.5 h-5.5 rounded-full text-white transition duration-400 hover:shadow hover-scale-110"
-            :src="'https://api.nuxtjs.org/api/ipx/s_44,f_webp/gh_avatar/' + contributor.login"
-            :alt="contributor.name|| contributor.login"
+            :src="'https://api.nuxtjs.org/api/ipx/s_44,f_webp/gh_avatar/' + contributor.username"
+            :alt="contributor.name|| contributor.username"
             format="jpg"
           >
         </a>
