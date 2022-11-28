@@ -1,4 +1,5 @@
 name: icon
+description: Icon module for Nuxt with 100,000+ ready to use icons from Iconify.
 repo: nuxt-modules/icon
 npm: nuxt-icon
 icon: nuxt-icon.png
