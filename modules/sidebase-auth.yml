@@ -5,7 +5,7 @@ description: >-
   supports session manipulation, client- and server-side protection and more.
 repo: sidebase/nuxt-auth
 npm: '@sidebase/nuxt-auth'
-icon: nuxt-auth.png
+icon: sidebase-auth.png
 github: https://github.com/sidebase/nuxt-auth
 website: https://github.com/sidebase/nuxt-auth
 learn_more: https://github.com/sidebase
