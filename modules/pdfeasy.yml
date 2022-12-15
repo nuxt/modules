@@ -1,0 +1,16 @@
+name: pdfeasy
+description: A PDF-Generator based in PDFKit to your Nuxt Application
+repo: betterwrite/nuxt-pdfeasy
+npm: nuxt-pdfeasy
+icon: ''
+github: https://github.com/betterwrite/nuxt-pdfeasy
+website: https://github.com/betterwrite/nuxt-pdfeasy
+learn_more: ''
+category: Request
+type: 3rd-party
+maintainers:
+  - name: Giovane Cardoso
+    github: novout
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
