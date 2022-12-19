@@ -1,0 +1,15 @@
+name: nuxt-graphql-playground
+repo: pinpon-dev/nuxt-graphql-playground
+npm: '@pin-pon/nuxt-graphql-playground'
+icon: ''
+github: https://github.com/pinpon-dev/nuxt-graphql-playground
+website: https://github.com/pinpon-dev/nuxt-graphql-playground
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: pinpon-dev
+    github: pinpon-dev
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
