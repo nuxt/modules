@@ -2,8 +2,8 @@
 
 # Nuxt Modules
 
-[![automated](https://flat.badgen.net/badge/publish/automated/green)](#)
-[![npm version](https://flat.badgen.net/npm/v/@nuxt/modules)](https://www.npmjs.com/package/@nuxt/modules)
+[![npm version][npm-version-src]][npm-version-href]
+[![Volta][volta-src]][volta-href]
 
 > Discover Nuxt modules to supercharge your project! Created by the Nuxt team and community.
 
@@ -108,3 +108,9 @@ In the development, the npm downloads and GitHub stars will be mocked unless set
 ## License
 
 [MIT](./LICENSE) - Made by Nuxt Team
+
+[npm-version-src]: https://img.shields.io/npm/v/@nuxt/modules/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/@nuxt/modules
+
+[volta-src]: https://user-images.githubusercontent.com/904724/209143798-32345f6c-3cf8-4e06-9659-f4ace4a6acde.svg
+[volta-href]: https://volta.net/nuxt/modules?utm_source=readme_nuxt_modules
