@@ -7,7 +7,7 @@ npm: '@unlighthouse/nuxt'
 icon: unlighthouse.svg
 github: https://github.com/harlan-zw/unlighthouse
 website: https://github.com/harlan-zw/unlighthouse
-learn_more: https://github.com/harlan-zw/unlighthouse
+learn_more: https://unlighthouse.dev/
 category: Devtools
 type: 3rd-party
 maintainers:

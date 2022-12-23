@@ -1,11 +1,11 @@
 name: schema-org
-description: Schema.org for Nuxt, supporting typed and automated Google Rich Results.
+description: Quick and easy Schema.org graphs for Nuxt. Powered by Unhead.
 repo: vueuse/schema-org#main/packages/nuxt
 npm: nuxt-schema-org
 icon: schema-org.svg
 github: https://github.com/vueuse/schema-org/tree/main/packages/nuxt
 website: https://github.com/vueuse/schema-org/tree/main/packages/nuxt
-learn_more: https://vue-schema-org.netlify.app/guide/setup/nuxt.html
+learn_more: https://unhead-schema-org.harlanzw.com/integrations/nuxt/module
 category: SEO
 type: 3rd-party
 maintainers:
