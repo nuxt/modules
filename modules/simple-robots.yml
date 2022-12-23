@@ -1,7 +1,7 @@
 name: simple-robots
+description: Simply manage the robots crawling your Nuxt app.
 repo: harlan-zw/nuxt-simple-robots
 npm: nuxt-simple-robots
-description: Simply manage the robots crawling your Nuxt app.
 icon: ''
 github: https://github.com/harlan-zw/nuxt-simple-robots
 website: https://github.com/harlan-zw/nuxt-simple-robots
