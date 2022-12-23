@@ -1,5 +1,5 @@
 name: simple-sitemap
-description: 'Simple, minimal sitemap.xml generation.'
+description: Simple, minimal sitemap.xml generation.
 repo: harlan-zw/nuxt-simple-sitemap
 npm: nuxt-simple-sitemap
 icon: ''
