@@ -9,8 +9,8 @@ learn_more: ''
 category: Request
 type: 3rd-party
 maintainers:
-  - name: patrickcate
+  - name: Patrick Cate
     github: patrickcate
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^2.0.0 || ^3.0.0
   requires: {}
