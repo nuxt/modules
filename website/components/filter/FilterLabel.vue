@@ -3,7 +3,7 @@
     <slot />
     <UnoIcon
       class="i-carbon-close text-lg ml-2 -mr-1 opacity-50 hover:opacity-100 cursor-pointer"
-      @click.native="$emit('close')"
+      @click="$emit('close')"
     />
   </span>
 </template>
