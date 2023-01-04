@@ -1,4 +1,4 @@
-[![Screenshot 2022-08-21 at 23 47 1](https://user-images.githubusercontent.com/904724/185812304-f972bc80-05d5-4278-8cdd-7da0c7d3f9cc.png)](https://modules.nuxtjs.org)
+[![Explore Nuxt Modules to build Vue applications](https://user-images.githubusercontent.com/904724/210602531-624c6b8b-3add-4e5e-b3f4-d981e4f2d775.jpg)](https://nuxt.com/modules)
 
 # Nuxt Modules
 
@@ -7,8 +7,8 @@
 
 > Discover Nuxt modules to supercharge your project! Created by the Nuxt team and community.
 
-- 📖 [Module author guide](https://v3.nuxtjs.org/guide/going-further/modules)
-- 🔗 [Modules listing](https://modules.nuxtjs.org)
+- 📖 [Module author guide](https://nuxt.com/docs/guide/going-further/modules)
+- 🔗 [Modules listing](https://nuxt.com/modules)
 
 ## Modules Database
 
@@ -84,7 +84,7 @@ Field Name      | Auto sync | Description
 yarn sync
 ```
 
-### Generate `npm/modules.json`
+### Generate `modules.json`
 
 ```bash
 yarn build
