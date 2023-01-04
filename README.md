@@ -20,9 +20,9 @@ Metadata of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/Y
 pnpm sync <name> <repo>
 ```
 
-Example: `pnpm sync tailwindcss nuxt-community/tailwindcss-module`
+Example: `pnpm sync tailwindcss nuxt-modules/tailwindcss`
 
-To sync with a branch different than `master`, suffix the repo with `#repo-branch`, example: `pnpm sync tailwindcss nuxt-community/tailwindcss-module#dev`
+To sync with a branch different than `main`, suffix the repo with `#repo-branch`, example: `pnpm sync tailwindcss nuxt-modules/tailwindcss#dev`
 
 ### Contribution
 
@@ -89,21 +89,6 @@ pnpm sync
 ```bash
 pnpm build
 ```
-
-## Website development
-
-- Clone repository
-- Install website depenedencies using `npx pnpm install`
-
-Start development:
-
-```bash
-npx pnpm dev
-```
-
-Then visit http://localhost:3000
-
-In the development, the npm downloads and GitHub stars will be mocked unless setting `USE_NUXT_API` variable.
 
 ## License
 
