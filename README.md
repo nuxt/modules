@@ -84,7 +84,7 @@ Field Name      | Auto sync | Description
 yarn sync
 ```
 
-### Generate `npm/modules.json`
+### Generate `modules.json`
 
 ```bash
 yarn build

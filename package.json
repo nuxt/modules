@@ -1,8 +1,10 @@
 {
-  "private": true,
-  "workspaces": [
-    "npm",
-    "website"
+  "name": "@nuxt/modules",
+  "version": "0.6.0",
+  "license": "MIT",
+  "main": "./modules.json",
+  "files": [
+    "modules.json"
   ],
   "scripts": {
     "build": "yarn cli build",
@@ -12,7 +14,7 @@
     "website:build": "yarn build && nuxi build website",
     "website:dev": "yarn build && nuxi dev website",
     "lint": "eslint --ext .vue,.ts .",
-    "release": "yarn cli version && cd npm && npm publish",
+    "release": "yarn cli version && npm publish",
     "sync": "yarn cli sync",
     "test": "yarn lint && yarn sync"
   },
