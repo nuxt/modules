@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import { $fetch } from 'ohmyfetch'
 export const rootDir = resolve(__dirname, '..')
 export const modulesDir = resolve(rootDir, 'modules')
-export const distDir = resolve(rootDir, 'npm')
+export const distDir = resolve(rootDir)
 export const distFile = resolve(distDir, 'modules.json')
 
 export function fetchPKG (name) {

@@ -1,0 +1,15 @@
+name: ssr-lit
+repo: prashantpalikhe/nuxt-ssr-lit
+npm: nuxt-ssr-lit
+icon: ''
+github: https://github.com/prashantpalikhe/nuxt-ssr-lit
+website: https://github.com/prashantpalikhe/nuxt-ssr-lit
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: prashantpalikhe
+    github: prashantpalikhe
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
