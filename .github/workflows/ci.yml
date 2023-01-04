@@ -10,53 +10,29 @@ on:
 
 jobs:
   ci:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [14]
-
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node }}
-
-      - name: checkout
-        uses: actions/checkout@master
-
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - uses: actions/cache@v3
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      - name: Install dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn --immutable
-
-      - name: Prepare
-        run: yarn prepare
+          node-version: 16
+          cache: "pnpm"
+      - run: corepack enable
+      - run: pnpm install
 
       - name: Lint
-        run: yarn lint
+        run: pnpm lint
 
       - name: Sync
-        run: yarn sync
+        run: pnpm sync
 
-      - name: Sync check
+      - name: Sync Status
         run: git diff --exit-code
 
       - name: Build
-        run: yarn build
+        run: pnpm build
 
       - uses: dorny/paths-filter@v2
+        if: github.event_name == 'push'
         id: changes
         with:
           filters: |
@@ -64,11 +40,11 @@ jobs:
               - 'modules/**'
               - 'lib/**'
 
-      - name: Release
+      - name: Publish to npm
         if: github.event_name == 'push' && steps.changes.outputs.modules == 'true'
         run: |
           echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
-          echo "//registry.yarnpkg.com/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
-          yarn release
+          echo "//registry.pnpmpkg.com/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
+          pnpm release
         env:
           NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}

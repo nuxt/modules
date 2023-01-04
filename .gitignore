@@ -14,10 +14,4 @@ package-lock.json
 modules.json
 .idea
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
 .history
