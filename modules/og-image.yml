@@ -1,0 +1,18 @@
+name: og-image
+description: Easily generate dynamic social share images.
+repo: harlan-zw/nuxt-og-image
+npm: nuxt-og-image
+icon: ''
+github: https://github.com/harlan-zw/nuxt-og-image
+website: https://github.com/harlan-zw/nuxt-og-image
+learn_more: ''
+category: SEO
+type: 3rd-party
+maintainers:
+  - name: Harlan Wilton
+    github: harlan-zw
+    twitter: harlan_zw
+    avatar: https://avatars.githubusercontent.com/harlan-zw?v=4
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

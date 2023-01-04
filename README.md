@@ -1,14 +1,14 @@
-[![Screenshot 2022-08-21 at 23 47 1](https://user-images.githubusercontent.com/904724/185812304-f972bc80-05d5-4278-8cdd-7da0c7d3f9cc.png)](https://modules.nuxtjs.org)
+[![Explore Nuxt Modules to build Vue applications](https://user-images.githubusercontent.com/904724/210602531-624c6b8b-3add-4e5e-b3f4-d981e4f2d775.jpg)](https://nuxt.com/modules)
 
 # Nuxt Modules
 
 [![npm version][npm-version-src]][npm-version-href]
 [![Volta][volta-src]][volta-href]
 
-> Discover Nuxt modules to supercharge your project! Created by the Nuxt team and community.
+> Discover the Nuxt modules to add any CMS, Database, UI, Auth and integrations into your Vue application.
 
-- 📖 [Module author guide](https://v3.nuxtjs.org/guide/going-further/modules)
-- 🔗 [Modules listing](https://modules.nuxtjs.org)
+- 🔗 [Modules listing](https://nuxt.com/modules)
+- 📖 [Module author guide](https://nuxt.com/docs/guide/going-further/modules)
 
 ## Modules Database
 
@@ -17,12 +17,12 @@ Metadata of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/Y
 ### Add/Update a module
 
 ```bash
-yarn sync <name> <repo>
+pnpm sync <name> <repo>
 ```
 
-Example: `yarn sync tailwindcss nuxt-community/tailwindcss-module`
+Example: `pnpm sync tailwindcss nuxt-modules/tailwindcss`
 
-To sync with a branch different than `master`, suffix the repo with `#repo-branch`, example: `yarn sync tailwindcss nuxt-community/tailwindcss-module#dev`
+To sync with a branch different than `main`, suffix the repo with `#repo-branch`, example: `pnpm sync tailwindcss nuxt-modules/tailwindcss#dev`
 
 ### Contribution
 
@@ -44,8 +44,8 @@ You can use the `@nuxt/modules` package by installing it in your project:
 # npm
 npm install @nuxt/modules
 
-# yarn
-yarn add @nuxt/modules
+# pnpm
+pnpm add @nuxt/modules
 ```
 
 Then you can directly import the list of modules:
@@ -81,29 +81,14 @@ Field Name      | Auto sync | Description
 ### Auto update all current modules
 
 ```bash
-yarn sync
+pnpm sync
 ```
 
-### Generate `npm/modules.json`
+### Generate `modules.json`
 
 ```bash
-yarn build
+pnpm build
 ```
-
-## Website development
-
-- Clone repository
-- Install website depenedencies using `npx yarn install`
-
-Start development:
-
-```bash
-npx yarn dev
-```
-
-Then visit http://localhost:3000
-
-In the development, the npm downloads and GitHub stars will be mocked unless setting `USE_NUXT_API` variable.
 
 ## License
 
