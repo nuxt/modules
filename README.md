@@ -17,12 +17,12 @@ Metadata of nuxt modules are maintained in [yml](https://en.wikipedia.org/wiki/Y
 ### Add/Update a module
 
 ```bash
-yarn sync <name> <repo>
+pnpm sync <name> <repo>
 ```
 
-Example: `yarn sync tailwindcss nuxt-community/tailwindcss-module`
+Example: `pnpm sync tailwindcss nuxt-modules/tailwindcss`
 
-To sync with a branch different than `master`, suffix the repo with `#repo-branch`, example: `yarn sync tailwindcss nuxt-community/tailwindcss-module#dev`
+To sync with a branch different than `main`, suffix the repo with `#repo-branch`, example: `pnpm sync tailwindcss nuxt-modules/tailwindcss#dev`
 
 ### Contribution
 
@@ -44,8 +44,8 @@ You can use the `@nuxt/modules` package by installing it in your project:
 # npm
 npm install @nuxt/modules
 
-# yarn
-yarn add @nuxt/modules
+# pnpm
+pnpm add @nuxt/modules
 ```
 
 Then you can directly import the list of modules:
@@ -81,29 +81,14 @@ Field Name      | Auto sync | Description
 ### Auto update all current modules
 
 ```bash
-yarn sync
+pnpm sync
 ```
 
 ### Generate `modules.json`
 
 ```bash
-yarn build
+pnpm build
 ```
-
-## Website development
-
-- Clone repository
-- Install website depenedencies using `npx yarn install`
-
-Start development:
-
-```bash
-npx yarn dev
-```
-
-Then visit http://localhost:3000
-
-In the development, the npm downloads and GitHub stars will be mocked unless setting `USE_NUXT_API` variable.
 
 ## License
 
