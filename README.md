@@ -1,4 +1,4 @@
-[![Explore Nuxt Modules to build Vue applications](https://user-images.githubusercontent.com/904724/210602531-624c6b8b-3add-4e5e-b3f4-d981e4f2d775.jpg)](https://nuxt.com/modules)
+[![Explore Nuxt Modules to build Vue applications](https://user-images.githubusercontent.com/904724/210616249-25aec46e-ab06-4b4d-9154-10b02546d558.jpg)](https://nuxt.com/modules)
 
 # Nuxt Modules
 
