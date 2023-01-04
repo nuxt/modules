@@ -1,11 +1,11 @@
 name: element-plus
 description: A Vue 3 based component library for designers and developers
-repo: element-plus/nuxt-element-plus
+repo: element-plus/element-plus-nuxt
 npm: '@element-plus/nuxt'
 icon: element-plus.svg
 github: https://github.com/element-plus/element-plus
 website: https://element-plus.org
-learn_more: https://github.com/element-plus/nuxt-element-plus
+learn_more: https://github.com/element-plus/element-plus-nuxt
 category: UI
 type: 3rd-party
 maintainers:
