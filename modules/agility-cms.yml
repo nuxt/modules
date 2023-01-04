@@ -4,7 +4,6 @@ repo: agility/agilitycms-nuxt-module
 npm: '@agility/agilitycms-nuxt-module'
 icon: agility.png
 github: https://github.com/agility/agilitycms-nuxt-module
-website: https://github.com/agility/agilitycms-nuxt-module
 learn_more: https://help.agilitycms.com/hc/en-us/articles/360037500492
 category: CMS
 type: 3rd-party
