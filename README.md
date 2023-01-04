@@ -5,10 +5,10 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![Volta][volta-src]][volta-href]
 
-> Discover Nuxt modules to supercharge your project! Created by the Nuxt team and community.
+> Discover the Nuxt modules to add any CMS, Database, UI, Auth and integrations into your Vue application.
 
-- 📖 [Module author guide](https://nuxt.com/docs/guide/going-further/modules)
 - 🔗 [Modules listing](https://nuxt.com/modules)
+- 📖 [Module author guide](https://nuxt.com/docs/guide/going-further/modules)
 
 ## Modules Database
 
