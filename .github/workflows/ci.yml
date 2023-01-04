@@ -12,11 +12,11 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
+      - run: corepack enable
       - uses: actions/setup-node@v3
         with:
           node-version: 16
           cache: "pnpm"
-      - run: corepack enable
       - run: pnpm install
 
       - name: Lint
