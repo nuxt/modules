@@ -1,0 +1,18 @@
+name: swiper
+description: >-
+  Nuxt.js module for Swiper.js - Most modern mobile touch slider with hardware
+  accelerated transitions.
+repo: cpreston321/nuxt-swiper
+npm: nuxt-swiper
+icon: swiper.svg
+github: https://github.com/cpreston321/nuxt-swiper
+website: https://github.com/cpreston321/nuxt-swiper
+learn_more: https://github.com/cpreston321/nuxt-swiper#README.md
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Christian Preston
+    github: cpreston321
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

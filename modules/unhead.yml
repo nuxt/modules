@@ -1,0 +1,16 @@
+name: unhead
+description: Experimental features for Nuxt SEO / head management.
+repo: harlan-zw/nuxt-unhead
+npm: nuxt-unhead
+icon: ''
+github: https://github.com/harlan-zw/nuxt-unhead
+website: https://github.com/harlan-zw/nuxt-unhead
+learn_more: ''
+category: SEO
+type: 3rd-party
+maintainers:
+  - name: harlan-zw
+    github: harlan-zw
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
