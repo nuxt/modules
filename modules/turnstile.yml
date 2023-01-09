@@ -1,13 +1,13 @@
 name: turnstile
 description: Privacy-focused alternative to CAPTCHA from Cloudflare
-repo: danielroe/nuxt-turnstile
-npm: nuxt-turnstile
+repo: nuxt-modules/turnstile
+npm: '@nuxtjs/turnstile'
 icon: cloudflare.svg
-github: https://github.com/danielroe/nuxt-turnstile
-website: https://github.com/danielroe/nuxt-turnstile
+github: https://github.com/nuxt-modules/turnstile
+website: https://github.com/nuxt-modules/turnstile
 learn_more: https://www.cloudflare.com/products/turnstile/
 category: Security
-type: 3rd-party
+type: community
 maintainers:
   - name: Daniel Roe
     github: danielroe
