@@ -1,0 +1,15 @@
+name: analytics
+description: Prometheus metrics for NodeJS and a set of custom metrics for SSR applications
+repo: artmizu/analytics-nuxt
+npm: '@artmizu/analytics-nuxt'
+icon: analytics.png
+github: https://github.com/artmizu/analytics-nuxt
+category: Monitoring
+type: 3rd-party
+maintainers:
+  - name: Aleksandr Saburov
+    github: artmizu
+    avatar: https://avatars.githubusercontent.com/artmizu?v=4
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires: {}
