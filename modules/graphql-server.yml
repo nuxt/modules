@@ -1,0 +1,16 @@
+name: graphql-server
+description: Easy GraphQL server implementation with Nuxt
+repo: tobiasdiez/nuxt-graphql-server
+npm: nuxt-graphql-server
+icon: ''
+github: https://github.com/tobiasdiez/nuxt-graphql-server
+website: https://github.com/tobiasdiez/nuxt-graphql-server
+learn_more: ''
+category: Request
+type: 3rd-party
+maintainers:
+  - name: tobiasdiez
+    github: tobiasdiez
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

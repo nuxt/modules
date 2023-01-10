@@ -1,0 +1,18 @@
+name: vue-macros
+description: Explore and extend more macros and syntax sugar to Vue.
+repo: sxzz/unplugin-vue-macros#main/packages/nuxt
+npm: '@vue-macros/nuxt'
+icon: vue-macros.svg
+github: https://github.com/sxzz/unplugin-vue-macros
+website: https://vue-macros.sxzz.moe
+learn_more: https://github.com/sxzz/unplugin-vue-macros
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: 三咲智子 Kevin Deng
+    github: sxzz
+    twitter: sanxiaozhizi
+compatibility:
+  nuxt: ^3.0.0
+  requires:
+    bridge: optional
