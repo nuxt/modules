@@ -1,9 +1,9 @@
-name: analytics
-description: Prometheus metrics for NodeJS and a set of custom metrics for SSR applications
-repo: artmizu/analytics-nuxt
-npm: '@artmizu/analytics-nuxt'
-icon: analytics.png
-github: https://github.com/artmizu/analytics-nuxt
+name: prometheus
+description: Prometheus metrics for NodeJS and a set of custom metrics for Nuxt applications
+repo: artmizu/nuxt-prometheus
+npm: '@artmizu/nuxt-prometheus'
+icon: prometheus.svg
+github: https://github.com/artmizu/nuxt-prometheus
 category: Monitoring
 type: 3rd-party
 maintainers:
