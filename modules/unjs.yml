@@ -1,0 +1,15 @@
+name: unjs
+description: Auto-imports for UnJS utilities
+repo: ineshbose/nuxt-unjs-module
+npm: 'nuxt-unjs'
+icon: unjs.svg
+github: https://github.com/ineshbose/nuxt-unjs-module
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Inesh Bose
+    github: ineshbose
+    avatar: https://avatars.githubusercontent.com/artmizu?v=4
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
