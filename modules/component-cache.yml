@@ -5,7 +5,7 @@ npm: '@nuxtjs/component-cache'
 icon: ''
 github: https://github.com/nuxt-community/component-cache-module
 website: https://github.com/nuxt-community/component-cache-module
-learn_more: https://ssr.vuejs.org/guide/caching.html#component-level-caching
+learn_more: https://v2.ssr.vuejs.org/guide/caching.html#component-level-caching
 category: Performance
 type: community
 maintainers:
