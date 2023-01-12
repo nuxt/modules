@@ -1,14 +1,17 @@
 name: nuxt-loco
 description: A localise.biz module to synth locale with Nuxt.js
 repo: gaetansenn/nuxt-loco
-npm: 'nuxt-loco'
+npm: nuxt-loco
+icon: ''
 github: https://github.com/gaetansenn/nuxt-loco
 website: https://nuxt-loco.dewib.com/
+learn_more: ''
 category: Libraries
-type: community
+type: 3rd-party
 maintainers:
   - name: Gaetan SENN
     github: gaetansenn
     avatar: https://avatars.githubusercontent.com/u/2774075?v=4
 compatibility:
   nuxt: ^3.0.0
+  requires: {}
