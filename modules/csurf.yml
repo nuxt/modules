@@ -1,0 +1,17 @@
+name: csurf
+description: Cross-Site Request Forgery (CSRF) Prevention for Nuxt
+repo: morgbn/nuxt-csurf
+npm: nuxt-csurf
+icon: csurf.svg
+github: https://github.com/morgbn/nuxt-csurf
+website: https://github.com/morgbn/nuxt-csurf
+learn_more: 'https://github.com/Morgbn/nuxt-csurf#readme'
+category: Security
+type: 3rd-party
+maintainers:
+  - name: morgbn
+    github: morgbn
+    avatar: https://avatars.githubusercontent.com/u/25689856?v=4
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
