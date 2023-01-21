@@ -1,16 +1,16 @@
 import { resolve } from 'path'
-import { $fetch } from 'ohmyfetch'
+import { ofetch } from 'ofetch'
 export const rootDir = resolve(__dirname, '..')
 export const modulesDir = resolve(rootDir, 'modules')
-export const distDir = resolve(rootDir, 'npm')
+export const distDir = resolve(rootDir)
 export const distFile = resolve(distDir, 'modules.json')
 
 export function fetchPKG (name) {
-  return $fetch('http://registry.npmjs.org/' + name)
+  return ofetch('http://registry.npmjs.org/' + name)
 }
 
 export function fetchRawGithub (path) {
-  return $fetch('https://raw.githubusercontent.com/' + path, { responseType: 'json' })
+  return ofetch('https://raw.githubusercontent.com/' + path, { responseType: 'json' })
 }
 
 export function fetchGithubPkg (repo) {
