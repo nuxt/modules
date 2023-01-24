@@ -16,5 +16,5 @@ maintainers:
     github: codebender828
     twitter: codebender828
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: ^2.0.0 || ^3.0.0
   requires: {}
