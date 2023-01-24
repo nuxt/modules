@@ -5,7 +5,7 @@ npm: nuxt-csurf
 icon: csurf.svg
 github: https://github.com/morgbn/nuxt-csurf
 website: https://github.com/morgbn/nuxt-csurf
-learn_more: 'https://github.com/Morgbn/nuxt-csurf#readme'
+learn_more: https://github.com/Morgbn/nuxt-csurf#readme
 category: Security
 type: 3rd-party
 maintainers:
