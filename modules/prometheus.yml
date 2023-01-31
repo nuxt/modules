@@ -1,0 +1,18 @@
+name: prometheus
+description: >-
+  Allows you to better understand what's going on with your application and how
+  to optimize performance and other things in production
+repo: artmizu/nuxt-prometheus
+npm: '@artmizu/nuxt-prometheus'
+icon: ''
+github: https://github.com/artmizu/nuxt-prometheus
+website: https://github.com/artmizu/nuxt-prometheus
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: artmizu
+    github: artmizu
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
