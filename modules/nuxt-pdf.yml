@@ -1,0 +1,15 @@
+name: nuxt-pdf
+repo: sidebase/nuxt-pdf
+npm: '@sidebase/nuxt-pdf'
+icon: ''
+github: https://github.com/sidebase/nuxt-pdf
+website: https://sidebase.io/nuxt-pdf
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: sidebase
+    github: sidebase
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
