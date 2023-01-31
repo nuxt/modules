@@ -1,0 +1,16 @@
+name: nuxt-histoire
+description: This module is a simple wrapper around histoire.
+repo: Baroshem/nuxt-histoire
+npm: 'nuxt-histoire'
+icon: 'histoire.svg'
+github: https://github.com/Baroshem/nuxt-histoire
+website: ''
+learn_more: 'https://histoire.dev/'
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Jakub Andrzejewski
+    github: Baroshem
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
