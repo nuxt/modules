@@ -1,0 +1,20 @@
+name: calendly
+description: >-
+  Calendly is a scheduling tool that allows you to schedule meetings with your
+  customers. This module allows you to easily add Calendly to your Nuxt
+  application.
+repo: madebyfabian/nuxt-calendly
+npm: nuxt-calendly
+icon: calendly.svg
+github: https://github.com/madebyfabian/nuxt-calendly
+website: https://nuxt-calendly.vercel.app/
+learn_more: https://calendly.com/
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Fabian B.
+    github: madebyfabian
+    twitter: madebyfabian
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
