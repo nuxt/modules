@@ -5,13 +5,13 @@ npm: '@nuxtjs/snipcart'
 icon: snipcart.png
 github: https://github.com/nuxt-community/snipcart-module
 website: https://github.com/nuxt-community/snipcart-module
-learn_more: ''
+learn_more: https://github.com/nuxt-modules/snipcart
 category: Payment
 type: community
 maintainers:
   - name: Florent GIRAUD
-    github: f3ltron
-    twitter: giraud_florent
+    github: flozero
+    twitter: flozeroo
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}
