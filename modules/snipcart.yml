@@ -1,6 +1,6 @@
 name: snipcart
 description: Snipcart integration module for Nuxt.js
-repo: nuxt-community/snipcart-module
+repo: nuxt-modules/snipcart-module
 npm: '@nuxtjs/snipcart'
 icon: snipcart.png
 github: https://github.com/nuxt-modules/snipcart
