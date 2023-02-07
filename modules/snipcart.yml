@@ -3,9 +3,9 @@ description: Snipcart integration module for Nuxt.js
 repo: nuxt-community/snipcart-module
 npm: '@nuxtjs/snipcart'
 icon: snipcart.png
-github: https://github.com/nuxt-community/snipcart-module
-website: https://github.com/nuxt-community/snipcart-module
-learn_more: https://github.com/nuxt-modules/snipcart
+github: https://github.com/nuxt-modules/snipcart
+website: https://github.com/nuxt-modules/snipcart
+learn_more: https://snipcart.com
 category: Payment
 type: community
 maintainers:
@@ -13,5 +13,5 @@ maintainers:
     github: flozero
     twitter: flozeroo
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: ^2.0.0 || ^3.0.0
   requires: {}
