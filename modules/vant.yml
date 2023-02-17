@@ -1,0 +1,17 @@
+name: vant
+description: A lightweight, customizable Vue UI library for mobile web apps.
+repo: vant-ui/vant-nuxt
+npm: '@vant/nuxt'
+icon: vant.png
+github: https://github.com/vant-ui/vant-nuxt
+website: https://vant-ui.github.io/vant
+learn_more: https://github.com/vant-ui/vant-nuxt#readme
+category: UI
+type: 3rd-party
+maintainers:
+  - name: tolking
+    github: tolking
+compatibility:
+  nuxt: ^3.0.0
+  requires:
+    bridge: optional
