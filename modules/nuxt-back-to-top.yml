@@ -1,0 +1,16 @@
+name: nuxt-back-to-top
+description: Nuxt.js module for back-to-top
+repo: bdrtsky/nuxt-ackee
+npm: nuxt-back-to-top
+icon: back-to-top.svg
+github: https://github.com/Jeffrey-mu/nuxt-back-to-top
+website: https://github.com/Jeffrey-mu/nuxt-back-to-top
+learn_more: https://www.npmjs.com/package/nuxt-back-to-top
+category: ui tools
+type: 3rd-party
+maintainers:
+  - name: jeffrey-mu
+    github: jeffrey-mu
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
