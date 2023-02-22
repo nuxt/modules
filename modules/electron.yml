@@ -1,0 +1,16 @@
+name: electron
+description: Integrate Nuxt and Electron.
+repo: caoxiemeihao/nuxt-electron
+npm: nuxt-electron
+icon: electron.svg
+github: https://github.com/caoxiemeihao/nuxt-electron
+website: https://github.com/caoxiemeihao/nuxt-electron
+learn_more: https://github.com/caoxiemeihao/nuxt-electron#readme
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: 草鞋没号
+    github: caoxiemeihao
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
