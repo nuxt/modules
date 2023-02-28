@@ -1,0 +1,15 @@
+name: device
+description: ultrafast get output size after build
+repo: markthree/nuxt-size
+npm: "nuxt-size"
+icon: ""
+github: https://github.com/markthree/nuxt-size
+learn_more: ""
+category: Performance
+type: community
+maintainers:
+  - name: markthree
+    github: markthree
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
