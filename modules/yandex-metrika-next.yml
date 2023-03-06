@@ -1,0 +1,16 @@
+name: yandex-metrika-next
+description: Yandex Metrika integration for Nuxt 3
+repo: artmizu/yandex-metrika-nuxt
+npm: '@artmizu/yandex-metrika-nuxt'
+icon: yandex-metrika.svg
+github: https://github.com/artmizu/yandex-metrika-nuxt
+learn_more: ''
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Aleksandr Saburov
+    github: artmizu
+    avatar: https://avatars.githubusercontent.com/artmizu?v=4
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
