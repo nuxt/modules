@@ -4,6 +4,7 @@ repo: artmizu/yandex-metrika-nuxt
 npm: '@artmizu/yandex-metrika-nuxt'
 icon: yandex-metrika.svg
 github: https://github.com/artmizu/yandex-metrika-nuxt
+website: https://github.com/artmizu/yandex-metrika-nuxt
 learn_more: ''
 category: Monitoring
 type: 3rd-party
