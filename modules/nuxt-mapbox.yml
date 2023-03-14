@@ -1,7 +1,7 @@
 name: nuxt-mapbox
 description: Elegant Mapbox integration with Nuxt
 repo: AlexLavoie42/Nuxt-Mapbox
-npm: 'nuxt-mapbox'
+npm: nuxt-mapbox
 icon: nuxt-mapbox.svg
 github: https://github.com/AlexLavoie42/Nuxt-Mapbox
 website: https://github.com/AlexLavoie42/Nuxt-Mapbox
