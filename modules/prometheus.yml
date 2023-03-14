@@ -4,15 +4,15 @@ description: >-
   to optimize performance and other things in production
 repo: artmizu/nuxt-prometheus
 npm: '@artmizu/nuxt-prometheus'
-icon: ''
+icon: prometheus.svg
 github: https://github.com/artmizu/nuxt-prometheus
 website: https://github.com/artmizu/nuxt-prometheus
 learn_more: ''
-category: Devtools
+category: Monitoring
 type: 3rd-party
 maintainers:
   - name: artmizu
     github: artmizu
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}

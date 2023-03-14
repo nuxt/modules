@@ -3,6 +3,7 @@
 # Nuxt Modules
 
 [![npm version][npm-version-src]][npm-version-href]
+[![Nuxt][nuxt-src]][nuxt-href]
 [![Volta][volta-src]][volta-href]
 
 > Discover the Nuxt modules to add any CMS, Database, UI, Auth and integrations into your Vue application.
@@ -96,6 +97,9 @@ pnpm build
 
 [npm-version-src]: https://img.shields.io/npm/v/@nuxt/modules/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-version-href]: https://npmjs.com/package/@nuxt/modules
+
+[nuxt-src]: https://img.shields.io/badge/Nuxt%20Modules-18181B?logo=nuxt.js
+[nuxt-href]: https://nuxt.com/modules
 
 [volta-src]: https://user-images.githubusercontent.com/904724/209143798-32345f6c-3cf8-4e06-9659-f4ace4a6acde.svg
 [volta-href]: https://volta.net/nuxt/modules?utm_source=readme_nuxt_modules

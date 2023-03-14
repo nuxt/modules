@@ -1,7 +1,7 @@
 name: seo-kit
 description: Supercharge your Nuxt app with the all-in-one SEO layer.
-repo: harlan-zw/nuxt-seo-kit
-npm: nuxt-seo-kit-mono
+repo: harlan-zw/nuxt-seo-kit#main/layer
+npm: nuxt-seo-kit
 icon: seo-kit.svg
 github: https://github.com/harlan-zw/nuxt-seo-kit
 website: https://github.com/harlan-zw/nuxt-seo-kit
