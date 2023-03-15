@@ -1,16 +1,17 @@
 name: nuxt-vuetify
 description: Add Vuetify 3 to your Nuxt 3 application in seconds.
 repo: invictus-codes/nuxt-vuetify
-npm: @invictus.codes/nuxt-vuetify
+npm: '@invictus.codes/nuxt-vuetify'
 icon: vuetify-logo-v3-dark.svg
-category: UI
-type: 3rd-party
 github: https://github.com/invictus-codes/nuxt-vuetify
 website: https://invictus-codes.github.io/nuxt-vuetify/
 learn_more: https://github.com/invictus-codes/nuxt-vuetify/blob/main/README.md
+category: UI
+type: 3rd-party
 maintainers:
   - name: Jens van Hellemondt
     github: invictus-codes
 compatibility:
   nuxt: ^3.0.0
   requires: {}
+
