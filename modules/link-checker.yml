@@ -1,4 +1,5 @@
 name: link-checker
+description: Identify and fix link issues for prerendered Nuxt 3 apps.
 repo: harlan-zw/nuxt-link-checker
 npm: nuxt-link-checker
 icon: ''
