@@ -1,0 +1,16 @@
+name: nuxt-chatgpt
+description: ChatGPT integration for Nuxt 3
+repo: schnapsterdog/nuxt-chatgpt
+npm: nuxt-chatgpt
+icon: chatgpt.svg
+github: https://github.com/schnapsterdog/nuxt-chatgpt
+website: https://github.com/schnapsterdog/nuxt-chatgpt
+learn_more: https://github.com/schnapsterdog/nuxt-chatgpt/blob/main/README.md
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Oliver Trajceski
+    github: schnapsterdog
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
