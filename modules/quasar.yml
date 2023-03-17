@@ -1,7 +1,9 @@
 name: quasar
-description: Effortlessly build high-performance & high-quality Vue.js 3 user interfaces in record time
+description: >-
+  Effortlessly build high-performance & high-quality Vue.js 3 user interfaces in
+  record time
 repo: Maiquu/nuxt-quasar
-npm: 'nuxt-quasar-ui'
+npm: nuxt-quasar-ui
 icon: quasar.svg
 github: https://github.com/Maiquu/nuxt-quasar
 website: https://quasar.dev/
