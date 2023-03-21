@@ -1,0 +1,17 @@
+name: devtools
+description: Unleash Nuxt Developer Experience. A set of visual tools that help you to know your app better.
+repo: nuxt/devtools#main
+npm: '@nuxt/devtools'
+icon: nuxt.png
+github: https://github.com/nuxt/devtools
+website: https://devtools.nuxtjs.org/
+learn_more: ''
+category: DevTools
+type: official
+maintainers:
+  - name: Anthony Fu
+    github: antfu
+    twitter: antfu7
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
