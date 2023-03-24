@@ -1,7 +1,7 @@
 name: datocms
 description: DatoCMS module for Nuxt
 repo: hex-digital/nuxt-datocms
-npm: @hexdigital/nuxt-datocms
+npm: '@hexdigital/nuxt-datocms'
 icon: datocms.svg
 github: https://github.com/hex-digital/nuxt-datocms
 website: https://github.com/hex-digital/nuxt-datocms#readme
