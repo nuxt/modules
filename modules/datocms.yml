@@ -1,16 +1,18 @@
 name: datocms
-description: DatoCMS integration for Nuxt.js
-repo: voorhoede/nuxt-datocms-module
-npm: '@voorhoede/nuxt-datocms-module'
-icon: datocms.png
-github: https://github.com/voorhoede/nuxt-datocms-module
-website: https://github.com/voorhoede/nuxt-datocms-module
+description: DatoCMS module for Nuxt
+repo: hex-digital/nuxt-datocms
+npm: @hexdigital/nuxt-datocms
+icon: datocms.svg
+github: https://github.com/hex-digital/nuxt-datocms
+website: https://github.com/hex-digital/nuxt-datocms#readme
 learn_more: https://www.datocms.com/
 category: CMS
 type: 3rd-party
 maintainers:
-  - name: Frankwarnaar
-    github: Frankwarnaar
+  - name: Jamie Warburton
+    github: jamiewarb
+    twitter: jamiewarb
+    avatar: https://avatars.githubusercontent.com/jamiewarb?v=4
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}
