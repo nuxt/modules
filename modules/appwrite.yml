@@ -6,7 +6,7 @@ icon: appwrite.png
 github: https://github.com/Hrdtr/nuxt-appwrite
 website: https://github.com/Hrdtr/nuxt-appwrite
 learn_more: ''
-category: Request
+category: Database
 type: 3rd-party
 maintainers:
   - name: Hrdtr
