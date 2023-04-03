@@ -1,7 +1,7 @@
 name: Vunix
 description: Comprehensive UI toolkit for Vue.js and Nuxt.js that empowers you to build amazing user interfaces with ease. With Vunix, you can leverage the power of popular utility-first CSS frameworks like Tailwind CSS, Unocss, WindiCss, or use your own custom CSS classes.
 repo: gaetansenn/vunix
-npm: @vunix/nuxt
+npm: '@vunix/nuxt'
 icon: ''
 github: https://github.com/gaetansenn/vunix
 website: https://vunix.dewib.com/
