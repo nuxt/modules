@@ -1,0 +1,16 @@
+name: nuxt-oauth
+description: Simple OAuth 2 for Nuxt.js
+repo: bitinflow/nuxt-oauth
+npm: @bitinflow/nuxt-oauth
+icon: ''
+github: https://github.com/bitinflow/nuxt-oauth
+website: https://github.com/bitinflow/nuxt-oauth
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: ghostzero
+    github: ghostzero
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
