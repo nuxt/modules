@@ -1,9 +1,9 @@
-name: nuxt3-lazy-load
+name: nuxt-lazy-load
 description: You don't need to bother with extra attributes on elements (like data-src and data-srcset), just add the module in nuxt.config.js and that's it
-npm: nuxt3-lazy-load
+npm: nuxt-lazy-load
 icon: ''
-website: https://gitlab.com/broj42/nuxt3-lazy-load
-learn_more: https://gitlab.com/broj42/nuxt3-lazy-load
+website: https://gitlab.com/broj42/nuxt-lazy-load
+learn_more: https://gitlab.com/broj42/nuxt-lazy-load
 category: Performance
 type: 3rd-party
 maintainers:
