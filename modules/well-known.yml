@@ -1,0 +1,16 @@
+name: well-known
+description: A Nuxt.js module to add well-known URIs using middlewares
+repo: zadigetvoltaire/nuxt-well-known
+npm: '@zadigetvoltaire/nuxt-well-known'
+icon: well-known.svg
+github: https://github.com/zadigetvoltaire/nuxt-well-known
+website: https://github.com/zadigetvoltaire/nuxt-well-known#readme
+learn_more: https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml
+category: SEO
+type: 3rd-party
+maintainers:
+  - name: Zadig&Voltaire Team
+    github: https://github.com/zadigetvoltaire
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
