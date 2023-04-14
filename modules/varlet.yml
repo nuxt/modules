@@ -1,0 +1,17 @@
+name: varlet
+description: A Material design mobile component library developed based on Vue3
+repo: varletjs/varlet-nuxt
+npm: '@varlet/nuxt'
+icon: element-plus.svg
+github: https://github.com/varletjs/varlet
+website: https://varlet.gitee.io/varlet-ui/#/en-US/index
+learn_more: https://github.com/varletjs/varlet-nuxt
+category: UI
+type: 3rd-party
+maintainers:
+  - name: zhangmo8
+    github: zhangmo8
+compatibility:
+  nuxt: ^3.0.0
+  requires:
+    bridge: optional
