@@ -13,6 +13,4 @@ maintainers:
     github: arashsheyda
 compatibility:
   nuxt: ^3.0.0
-  requires: {
-    mongoose: ^7.0.3
-  }
+  requires: {}
