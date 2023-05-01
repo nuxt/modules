@@ -1,7 +1,7 @@
 name: dayjs
 description: Day.js module for Nuxt
 repo: fumeapp/dayjs
-npm: 'dayjs-nuxt'
+npm: dayjs-nuxt
 icon: day-js.png
 github: https://github.com/fumeapp/dayjs
 website: https://github.com/fumeapp/dayjs
