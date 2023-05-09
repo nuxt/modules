@@ -1,7 +1,7 @@
 name: animejs
 description: Anime.js module for Nuxt.js
 repo: ivodolenc/nuxt-animejs
-npm: nuxt-animejs
+npm: '@hypernym/nuxt-anime'
 icon: ''
 github: https://github.com/ivodolenc/nuxt-animejs
 website: https://github.com/ivodolenc/nuxt-animejs
