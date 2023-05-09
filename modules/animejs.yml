@@ -1,10 +1,10 @@
 name: animejs
-description: Anime.js module for Nuxt.js
-repo: ivodolenc/nuxt-animejs
+description: Anime.js module for Nuxt
+repo: hypernym-studio/nuxt-anime
 npm: '@hypernym/nuxt-anime'
 icon: ''
-github: https://github.com/ivodolenc/nuxt-animejs
-website: https://github.com/ivodolenc/nuxt-animejs
+github: https://github.com/hypernym-studio/nuxt-anime
+website: https://github.com/hypernym-studio/nuxt-anime
 learn_more: ''
 category: Libraries
 type: 3rd-party
@@ -12,5 +12,5 @@ maintainers:
   - name: ivodolenc
     github: ivodolenc
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^2.0.0 || ^3.0.0
   requires: {}
