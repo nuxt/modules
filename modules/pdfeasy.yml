@@ -1,7 +1,7 @@
 name: pdfeasy
 description: A JavaScript Client/Server Side PDF-Generator based in PDFKit
 repo: betterwrite/pdfeasy#main/packages/nuxt
-npm: 'nuxt-pdfeasy'
+npm: nuxt-pdfeasy
 icon: pdfeasy.png
 github: https://github.com/betterwrite/pdfeasy
 website: https://github.com/betterwrite/pdfeasy
