@@ -1,5 +1,7 @@
 name: nupolyon
-description: Inject polyfill from polyfill.io to nuxt project, auto detect based on browserslist config
+description: >-
+  Inject polyfill from polyfill.io to nuxt project, auto detect based on
+  browserslist config
 repo: adenvt/nupolyon
 npm: nupolyon
 icon: ''
