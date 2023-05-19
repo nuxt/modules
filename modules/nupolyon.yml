@@ -1,0 +1,16 @@
+name: nupolyon
+description: Inject polyfill from polyfill.io to nuxt project, auto detect based on browserslist config
+repo: adenvt/nupolyon
+npm: nupolyon
+icon: ''
+github: https://github.com/adenvt/nupolyon
+website: https://github.com/adenvt/nupolyon
+learn_more: ''
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: adenvt
+    github: adenvt
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
