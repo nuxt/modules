@@ -1,0 +1,14 @@
+name: nuxt-lazy-load
+description: A simple way to lazy load images, videos, audio, and iframes without custom components or extra attributes like data-src, just basic HTML tags
+npm: nuxt-lazy-load
+icon: nuxt-lazy-load.svg
+website: https://gitlab.com/broj42/nuxt-lazy-load
+learn_more: https://gitlab.com/broj42/nuxt-lazy-load
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: Dario Ferderber
+    github: darioferderber
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires: {}
