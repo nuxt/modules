@@ -1,7 +1,10 @@
 name: icon-font
-description: Automatically generates fonts and custom properties (variables) from a specified folder containing SVG icons, injecting them into pages with live monitoring.
+description: >-
+  Automatically generates fonts and custom properties (variables) from a
+  specified folder containing SVG icons, injecting them into pages with live
+  monitoring.
 repo: coremyslo/nuxt-icon-font
-npm: @coremyslo/nuxt-icon-font
+npm: '@coremyslo/nuxt-icon-font'
 icon: ''
 github: https://github.com/coremyslo/nuxt-icon-font
 website: https://github.com/coremyslo/nuxt-icon-font
