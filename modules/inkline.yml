@@ -2,12 +2,12 @@ name: inkline
 description: >-
   Nuxt Module for Inkline, the intuitive UI UX DX Components library for Vue.js
   3 Design Systems.
-repo: inkline/nuxt-module-inkline
-npm: '@inkline/nuxt'
+repo: inkline/plugin
+npm: '@inkline/plugin'
 icon: inkline.svg
-github: https://github.com/inkline/nuxt-module-inkline
+github: https://github.com/inkline/plugin
 website: https://inkline.io
-learn_more: https://inkline.io/docs/introduction/installation/nuxt
+learn_more: https://inkline.io/docs/installation/nuxt
 category: UI
 type: 3rd-party
 maintainers:
