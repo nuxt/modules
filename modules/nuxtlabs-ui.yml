@@ -4,7 +4,7 @@ description: >-
   Tailwind CSS.
 repo: nuxtlabs/ui
 npm: '@nuxthq/ui'
-icon: 'nuxtlabs-ui.svg'
+icon: nuxtlabs-ui.svg
 github: https://github.com/nuxtlabs/ui
 website: https://ui.nuxtlabs.com
 learn_more: https://ui.nuxtlabs.com
