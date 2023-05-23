@@ -1,0 +1,19 @@
+name: nuxtlabs-ui
+description: >-
+  Fully styled and customizable components for Nuxt, powered by Headless UI and
+  Tailwind CSS.
+repo: nuxtlabs/ui
+npm: '@nuxthq/ui'
+icon: nuxtlabs-ui.svg
+github: https://github.com/nuxtlabs/ui
+website: https://ui.nuxtlabs.com
+learn_more: https://ui.nuxtlabs.com
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Benjamin Canac
+    github: benjamincanac
+    twitter: benjamincanac
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
