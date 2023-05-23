@@ -4,7 +4,7 @@ description: >-
   your app better.
 repo: nuxt/devtools#main
 npm: '@nuxt/devtools'
-icon: nuxt.png
+icon: nuxt.svg
 github: https://github.com/nuxt/devtools
 website: https://devtools.nuxtjs.org/
 learn_more: ''

@@ -5,7 +5,7 @@ description: >-
   Bonus, use Vue components in Markdown with the MDC syntax.
 repo: nuxt/content#main
 npm: '@nuxt/content'
-icon: nuxt.png
+icon: nuxt.svg
 github: https://github.com/nuxt/content
 website: https://content.nuxtjs.org
 learn_more: ''
