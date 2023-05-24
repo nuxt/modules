@@ -1,0 +1,20 @@
+
+name: Naive UI
+description: >-
+  A Vue 3 Component Library
+  Fairly Complete, Theme Customizable, Uses TypeScript, Fast
+  Kinda Interesting
+repo: huntersofbook/naive-ui-nuxt
+npm: '@huntersofbook/naive-ui-nuxt'
+icon: naive-ui.svg
+github: https://github.com/huntersofbook/naive-ui-nuxt
+website: https://opensource.huntersofbook.com/npm/naive-ui
+learn_more: ''
+category: UI
+type: community
+maintainers:
+  - name: productdevbook
+    github: productdevbook
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
