@@ -1,0 +1,16 @@
+name: Naive UI
+description: Nuxt 3 Naive UI library
+repo: huntersofbook/naive-ui-nuxt
+npm: '@huntersofbook/naive-ui-nuxt'
+icon: ''
+github: https://github.com/huntersofbook/naive-ui-nuxt
+website: https://github.com/huntersofbook/naive-ui-nuxt
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: huntersofbook
+    github: huntersofbook
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
