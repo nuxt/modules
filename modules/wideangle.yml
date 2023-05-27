@@ -5,7 +5,7 @@ npm: wideangle-nuxt
 icon: wideangle.png
 github: https://github.com/inputobjects/wideangle-nuxt
 website: https://wideangle.co
-learn_more: https://wideangle.co/documentation/wide-angle-analytics-nuxt-module
+learn_more: https://wideangle.co/documentation/web-analytics-for-nuxt
 category: Analytics
 type: community
 maintainers:
