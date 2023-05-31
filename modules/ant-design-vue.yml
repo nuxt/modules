@@ -1,7 +1,7 @@
 name: ant-design-vue
 description: A Vue 3 based component library for designers and developers
 repo: vueComponent/ant-design-vue
-npm: '@ant-design-vue/nuxt'
+npm: ant-design-vue
 icon: ant-design-vue.svg
 github: https://github.com/vueComponent/ant-design-vue
 website: https://antdv.com
