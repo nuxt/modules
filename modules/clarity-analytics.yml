@@ -2,7 +2,7 @@ name: clarity-analytics
 description: Clarity Analytics Module for Nuxt
 repo: Barbapapazes/nuxt-clarity-analytics
 npm: nuxt-clarity-analytics
-icon:
+icon: ''
 github: https://github.com/Barbapapazes/nuxt-clarity-analytics
 website: https://github.com/Barbapapazes/nuxt-clarity-analytics#readme
 learn_more: https://clarity.microsoft.com/
