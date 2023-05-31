@@ -1,0 +1,17 @@
+name: clarity-analytics
+description: Clarity Analytics Module for Nuxt
+repo: Barbapapazes/nuxt-clarity-analytics
+npm: nuxt-clarity-analytics
+icon:
+github: https://github.com/Barbapapazes/nuxt-clarity-analytics
+website: https://github.com/Barbapapazes/nuxt-clarity-analytics#readme
+learn_more: https://clarity.microsoft.com/
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Barbapapazes
+    github: Barbapapazes
+    twitter: soubiran_
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
