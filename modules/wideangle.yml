@@ -7,7 +7,7 @@ github: https://github.com/inputobjects/wideangle-nuxt
 website: https://wideangle.co
 learn_more: https://wideangle.co/documentation/web-analytics-for-nuxt
 category: Analytics
-type: community
+type: 3rd-party
 maintainers:
   - name: Wide Angle Analytics by Input Objects GmbH
     github: inputobjects
