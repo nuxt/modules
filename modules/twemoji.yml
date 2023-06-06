@@ -2,7 +2,7 @@ name: twemoji
 description: Twemoji module for Nuxt. Render emojis as SVG elements or PNG images.
 repo: yizack/nuxt-twemoji
 npm: nuxt-twemoji
-icon: twemoji.png
+icon: twemoji.svg
 github: https://github.com/Yizack/nuxt-twemoji
 website: https://github.com/Yizack/nuxt-twemoji
 learn_more: ''
