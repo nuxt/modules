@@ -4,8 +4,8 @@ repo: ASoldo/frammer-nuxt
 npm: frammer-nuxt
 icon: frammer-nuxt.png
 github: https://github.com/ASoldo/frammer-nuxt
-website: https://github.com/ASoldo # Replace with your website URL, if you have one
-category: UI # Replace with the appropriate category for your module
+website: https://github.com/ASoldo
+category: UI
 type: 3rd-party
 maintainers:
   - name: Andrej Soldo
