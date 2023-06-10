@@ -1,0 +1,15 @@
+name: frammer-nuxt
+description: Frammer-Nuxt is used to integrate web application into nuxt dev tools
+repo: ASoldo/frammer-nuxt
+npm: frammer-nuxt
+icon: frammer-nuxt-logo.png
+github: https://github.com/ASoldo/frammer-nuxt
+website: https://github.com/ASoldo # Replace with your website URL, if you have one
+category: UI # Replace with the appropriate category for your module
+type: 3rd-party
+maintainers:
+  - name: Andrej Soldo
+    github: ASoldo
+    avatar: https://avatars.githubusercontent.com/u/1175537?v=4
+compatibility:
+  nuxt: "^3.5.1"
