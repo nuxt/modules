@@ -1,5 +1,5 @@
 name: time
-description: "Safely render local dates and times on the server with Nuxt"
+description: Safely render local dates and times on the server with Nuxt
 repo: danielroe/nuxt-time
 npm: nuxt-time
 icon: ''
@@ -12,5 +12,5 @@ maintainers:
   - name: danielroe
     github: danielroe
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}

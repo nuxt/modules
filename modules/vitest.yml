@@ -1,12 +1,12 @@
 name: vitest
 description: Vitest integration with Nuxt
-repo: danielroe/nuxt-vitest#main
+repo: danielroe/nuxt-vitest
 npm: nuxt-vitest
 icon: vitest.svg
 github: https://github.com/danielroe/nuxt-vitest
 website: https://github.com/danielroe/nuxt-vitest
 learn_more: ''
-category: Extensions
+category: Devtools
 type: 3rd-party
 maintainers:
   - name: Daniel Roe
