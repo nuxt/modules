@@ -1,0 +1,16 @@
+name: hanko
+description: Hanko integration for Nuxt for passwordless authentication
+repo: danielroe/nuxt-hanko
+npm: nuxt-hanko
+icon: ''
+github: https://github.com/danielroe/nuxt-hanko
+website: https://github.com/danielroe/nuxt-hanko
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: danielroe
+    github: danielroe
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
