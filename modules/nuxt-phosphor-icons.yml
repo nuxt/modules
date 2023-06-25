@@ -2,7 +2,7 @@ name: nuxt-phosphor-icons
 description: Just a simple integration for @phosphor-icons in Nuxt
 repo: OyewoleOyedeji/nuxt-phosphor-icons
 npm: nuxt-phosphor-icons
-icon: 'phosphor-icons.svg'
+icon: phosphor-icons.svg
 github: https://github.com/OyewoleOyedeji/nuxt-phosphor-icons
 website: https://github.com/OyewoleOyedeji/nuxt-phosphor-icons
 learn_more: https://github.com/OyewoleOyedeji/nuxt-phosphor-icons
