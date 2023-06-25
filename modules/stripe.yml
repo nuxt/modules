@@ -1,8 +1,9 @@
 name: stripe
 description: >-
-  This Nuxt module provides an easy way to integrate Stripe in your Nuxt application,
-  both on the client-side and server-side. It utilizes the official stripe package
-  for server-side usage and @stripe/stripe-js for the client-side.
+  This Nuxt module provides an easy way to integrate Stripe in your Nuxt
+  application, both on the client-side and server-side. It utilizes the official
+  stripe package for server-side usage and @stripe/stripe-js for the
+  client-side.
 repo: fuentesloic/nuxt3-stripe
 npm: nuxt3-stripe
 icon: stripe.png
