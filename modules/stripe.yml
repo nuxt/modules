@@ -9,7 +9,7 @@ npm: nuxt3-stripe
 icon: stripe.png
 github: https://github.com/fuentesloic/nuxt3-stripe
 website: https://github.com/fuentesloic/nuxt3-stripe
-learn_more: https://stripe.com/
+learn_more: https://stripe.com/docs
 category: Payment
 type: 3rd-party
 maintainers:
