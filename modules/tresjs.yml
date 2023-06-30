@@ -1,6 +1,5 @@
 name: tresjs
-description: >-
-  Create 3D experiences in your Nuxt application using TresJS.
+description: Create 3D experiences in your Nuxt application using TresJS.
 repo: tresjs/nuxt
 npm: '@tresjs/nuxt'
 icon: tresjs.png
