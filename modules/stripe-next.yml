@@ -4,11 +4,11 @@ description: >-
   application, both on the client-side and server-side. It utilizes the official
   stripe package for server-side usage and @stripe/stripe-js for the
   client-side.
-repo: fuentesloic/nuxt3-stripe
-npm: nuxt3-stripe
+repo: fuentesloic/nuxt-stripe
+npm: @unlok-co/nuxt-stripe
 icon: stripe.png
-github: https://github.com/fuentesloic/nuxt3-stripe
-website: https://github.com/fuentesloic/nuxt3-stripe
+github: https://github.com/fuentesloic/nuxt-stripe
+website: https://github.com/fuentesloic/nuxt-stripe
 learn_more: https://stripe.com/docs
 category: Payment
 type: 3rd-party
