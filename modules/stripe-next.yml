@@ -5,7 +5,7 @@ description: >-
   stripe package for server-side usage and @stripe/stripe-js for the
   client-side.
 repo: fuentesloic/nuxt-stripe
-npm: @unlok-co/nuxt-stripe
+npm: "@unlok-co/nuxt-stripe"
 icon: stripe.png
 github: https://github.com/fuentesloic/nuxt-stripe
 website: https://github.com/fuentesloic/nuxt-stripe
