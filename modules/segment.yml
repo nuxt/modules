@@ -5,7 +5,8 @@ npm: '@hexdigital/nuxt-segment'
 icon: segment.png
 github: https://github.com/hex-digital/nuxt-segment
 website: https://github.com/hex-digital/nuxt-segment#readme
-learn_more: https://segment.com/docs/connections/sources/catalog/libraries/website/javascript/
+learn_more: >-
+  https://segment.com/docs/connections/sources/catalog/libraries/website/javascript/
 category: Analytics
 type: 3rd-party
 maintainers:
