@@ -5,7 +5,7 @@ npm: nuxt-disqus
 icon: disqus.svg
 github: https://github.com/modbender/nuxt-disqus
 website: https://github.com/modbender/nuxt-disqus
-learn_more: 'https://github.com/modbender/vue3-disqus'
+learn_more: https://github.com/modbender/vue3-disqus
 category: Libraries
 type: 3rd-party
 maintainers:
