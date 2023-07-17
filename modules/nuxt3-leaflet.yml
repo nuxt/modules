@@ -1,0 +1,16 @@
+name: nuxt3-leaflet
+description: Nuxt 3 module for Leaflet
+repo: Gugustinette/Nuxt-Leaflet
+npm: nuxt3-leaflet
+icon: ''
+github: https://github.com/Gugustinette/Nuxt-Leaflet
+website: https://github.com/Gugustinette/Nuxt-Leaflet
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Gugustinette
+    github: Gugustinette
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
