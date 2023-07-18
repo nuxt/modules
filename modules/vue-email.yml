@@ -1,6 +1,6 @@
 name: vue-email
 description: Write email templates with vue
-repo: Dave136/vue-email
+repo: Dave136/vue-email#main/packages/vue-email
 npm: vue-email
 icon: vue-email.svg
 github: https://github.com/Dave136/vue-email#main/packages/vue-email
