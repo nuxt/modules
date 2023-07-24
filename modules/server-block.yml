@@ -1,0 +1,17 @@
+name: server-block
+description: Use <server> tags in your Nuxt pages components.
+repo: Hebilicious/server-block-nuxt/packages/server-block-nuxt#main
+npm: '@hebilicious/server-block-nuxt'
+icon: server-block.svg
+github: https://github.com/Hebilicious/server-block-nuxt
+website: https://github.com/Hebilicious/server-block-nuxt#readme
+learn_more: https://github.com/Hebilicious/server-block-nuxt#readme
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Hebilicious
+    github: Hebilicious
+    twitter: its_hebilicious
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
