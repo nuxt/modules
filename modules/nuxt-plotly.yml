@@ -6,7 +6,7 @@ icon: nuxt-plotly.svg
 github: https://github.com/superdev-tech/nuxt-plotly
 website: https://github.com/superdev-tech/nuxt-plotly
 learn_more: https://www.npmjs.com/package/nuxt-plotly
-category: Devtools
+category: Libraries
 type: 3rd-party
 maintainers:
   - name: Supanut Dokmaithong
