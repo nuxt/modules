@@ -1,0 +1,19 @@
+name: ark-ui
+description: >-
+  A headless library for building reusable, scalable design systems that works
+  for a wide range of JS frameworks.
+repo: iamdin/nuxt-ark-ui
+npm: nuxt-ark-ui
+icon: ark-ui.svg
+github: https://github.com/iamdin/nuxt-ark-ui
+website: https://ark-ui.com/
+learn_more: https://github.com/iamdin/nuxt-ark-ui
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Din
+    github: iamdin
+    twitter: iamdinq
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
