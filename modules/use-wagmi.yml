@@ -1,0 +1,16 @@
+name: use-wagmi
+description: Vue Composition for Ethereum based on wagmi
+repo: unicape/use-wagmi#main/packages/nuxt
+npm: '@use-wagmi/nuxt'
+icon: use-wagmi.png
+github: https://github.com/unicape/use-wagmi
+website: https://github.com/unicape/use-wagmi
+learn_more: https://github.com/unicape/use-wagmi
+category: Extensions
+maintainers:
+  - name: Unic Ape
+    github: unicape
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires:
+    bridge: true
