@@ -1,7 +1,10 @@
 name: nuxt-i18n-data
 description: >-
-  This nuxt 3 module is an extension for the nuxt module @nuxtjs/i18n and can be used to load locale messages from an custom api or google spreadsheet. 
-  The api configured in the config will be called initial after nuxt build and can be called again via plugin that is provided by this module - access via $i18nData
+  This nuxt 3 module is an extension for the nuxt module @nuxtjs/i18n and can be
+  used to load locale messages from an custom api or google spreadsheet.  The
+  api configured in the config will be called initial after nuxt build and can
+  be called again via plugin that is provided by this module - access via
+  $i18nData
 repo: devonik/nuxt-i18n-data
 npm: nuxt-i18n-data
 icon: i18n.png
