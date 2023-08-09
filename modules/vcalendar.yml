@@ -1,0 +1,16 @@
+name: vcalendar
+description: VCalendar module for Nuxt
+repo: samk-dev/nuxt-vcalendar
+npm: @samk-dev/nuxt-vcalendar
+icon: vcalendar.png
+github: https://github.com/samk-dev/vcalendar
+website: https://github.com/samk-dev/vcalendar
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Sam K
+    github: samk-dev
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
