@@ -9,7 +9,7 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: casualmatt
+  - name: CasualMatt
     github: casualmatt
 compatibility:
   nuxt: ^3.0.0
