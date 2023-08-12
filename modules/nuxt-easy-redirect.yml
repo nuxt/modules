@@ -1,5 +1,5 @@
 name: nuxt-easy-redirect
-description: redirects made easy for Nuxt 3
+description: Redirects made easy for Nuxt 3
 repo: casualmatt/nuxt-easy-redirect
 npm: nuxt-easy-redirect
 icon: nuxt-easy-redirect.svg
@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: CasualMatt
     github: casualmatt
+    avatar: https://avatars.githubusercontent.com/u/85650530?v=4
 compatibility:
   nuxt: ^3.0.0
   requires: {}
