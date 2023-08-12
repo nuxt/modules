@@ -1,13 +1,13 @@
 name: lucide-icons
 description: Nuxt 3 module to integrate Lucide icons
 repo: swisnl/nuxt-lucide-icons
-npm: 'nuxt-lucide-icons'
-icon: 'lucide-icons.svg'
+npm: nuxt-lucide-icons
+icon: lucide-icons.svg
 github: https://github.com/swisnl/nuxt-lucide-icons
 website: https://github.com/swisnl/nuxt-lucide-icons
 learn_more: ''
 category: UI
-type: community
+type: 3rd-party
 maintainers:
   - name: SWIS
     github: swisnl
