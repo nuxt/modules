@@ -1,5 +1,5 @@
 name: nuxt-feedme
-description: The RSS feed module for Nuxt web framework
+description: The RSS feed module for Nuxt web framework with ATOM, JSON and RSS support
 repo: helltraitor/nuxt-feedme
 npm: nuxt-feedme
 icon: ''
