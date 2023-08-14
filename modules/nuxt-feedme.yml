@@ -1,0 +1,16 @@
+name: nuxt-feedme
+description: The RSS feed module for Nuxt web framework with ATOM, JSON and RSS support
+repo: helltraitor/nuxt-feedme
+npm: nuxt-feedme
+icon: ''
+github: https://github.com/helltraitor/nuxt-feedme
+website: https://github.com/helltraitor/nuxt-feedme
+learn_more: ''
+category: SEO
+type: 3rd-party
+maintainers:
+  - name: Helltraitor
+    github: helltraitor
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
