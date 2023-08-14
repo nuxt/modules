@@ -2,7 +2,7 @@ name: radash
 description: radash module with auto-import and custom prefix
 repo: bbg/nuxt-radash
 npm: nuxt-radash
-icon: radash.svg
+icon: radash.png
 github: https://github.com/bbg/nuxt-radash
 website: https://github.com/bbg/nuxt-radash#readme
 learn_more: https://github.com/rayepps/radash/

@@ -1,10 +1,10 @@
 name: web-vitals
 description: Web Vitals for Nuxt
-repo: nuxt-community/web-vitals-module
+repo: nuxt-modules/web-vitals
 npm: '@nuxtjs/web-vitals'
 icon: web-vitals.png
-github: https://github.com/nuxt-community/web-vitals-module
-website: https://github.com/nuxt-community/web-vitals-module
+github: https://github.com/nuxt-modules/web-vitals
+website: https://github.com/nuxt-modules/web-vitals
 learn_more: ''
 category: Performance
 type: community
