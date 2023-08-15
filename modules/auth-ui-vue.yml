@@ -1,0 +1,17 @@
+name: auth-ui-vue
+description: Pre-built, customizable Vue components for authenticating users based on supabase
+repo: nuxtbase/auth-ui-vue
+npm: '@nuxtbase/auth-ui-vue'
+icon: auth-ui-vue.svg
+github: https://github.com/nuxtbase/auth-ui-vue
+website: https://auth-ui-vue.netlify.app/
+learn_more: https://auth-ui-vue.netlify.app/
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Robert Shaw
+    github: xiaoluoboding
+    avatar: https://avatars.githubusercontent.com/u/6118824?v=4
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
