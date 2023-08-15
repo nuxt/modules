@@ -1,5 +1,7 @@
 name: auth-ui-vue
-description: Pre-built, customizable Vue components for authenticating users based on supabase
+description: >-
+  Pre-built, customizable Vue components for authenticating users based on
+  supabase
 repo: nuxtbase/auth-ui-vue
 npm: '@nuxtbase/auth-ui-vue'
 icon: auth-ui-vue.svg
