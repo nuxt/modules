@@ -6,7 +6,7 @@ repo: nuxt/image
 npm: '@nuxt/image'
 icon: image.png
 github: https://github.com/nuxt/image
-website: https://image.nuxtjs.org
+website: https://image.nuxt.com
 learn_more: ''
 category: Images
 type: official
@@ -14,6 +14,9 @@ maintainers:
   - name: Ahad Birang
     github: farnabaz
     twitter: a_birang
+  - name: Daniel Roe
+    github: danielroe
+    twitter: danielcroe
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
