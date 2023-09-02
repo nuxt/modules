@@ -12,5 +12,5 @@ maintainers:
   - name: egidiusmengelberg
     github: egidiusmengelberg
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}
