@@ -2,7 +2,7 @@ name: aos
 description: A Nuxt module that adds Animate On Scroll
 repo: egidiusmengelberg/nuxt-aos
 npm: nuxt-aos
-icon: ''
+icon: aos.png
 github: https://github.com/egidiusmengelberg/nuxt-aos
 website: https://github.com/egidiusmengelberg/nuxt-aos
 learn_more: ''
@@ -12,5 +12,5 @@ maintainers:
   - name: egidiusmengelberg
     github: egidiusmengelberg
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}
