@@ -1,11 +1,11 @@
 name: og-image
-description: Easily generate dynamic social share images.
+description: Enlightened runtime images generated with Vue templates.
 repo: harlan-zw/nuxt-og-image
 npm: nuxt-og-image
-icon: ''
+icon: og-image.svg
 github: https://github.com/harlan-zw/nuxt-og-image
-website: https://github.com/harlan-zw/nuxt-og-image
-learn_more: ''
+website: https://nuxtseo.com/og-image
+learn_more: https://nuxtseo.com/og-image
 category: SEO
 type: 3rd-party
 maintainers:
