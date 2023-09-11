@@ -1,0 +1,16 @@
+name: nuxt-jsonld
+description: Manage JSON-LD in Vue component.
+repo: ymmooot/nuxt-jsonld
+npm: nuxt-jsonld
+icon: ''
+github: https://github.com/ymmooot/nuxt-jsonld
+website: https://github.com/ymmooot/nuxt-jsonld
+learn_more: ''
+category: SEO
+type: 3rd-party
+maintainers:
+  - name: ymmooot
+    github: ymmooot
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
