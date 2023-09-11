@@ -1,11 +1,11 @@
 name: simple-robots
-description: Simply manage the robots crawling your Nuxt app.
+description: Tame the robots crawling and indexing your Nuxt site.
 repo: harlan-zw/nuxt-simple-robots
 npm: nuxt-simple-robots
-icon: ''
+icon: simple-robots.svg
 github: https://github.com/harlan-zw/nuxt-simple-robots
-website: https://github.com/harlan-zw/nuxt-simple-robots
-learn_more: ''
+website: https://nuxtseo.com/robots
+learn_more: https://nuxtseo.com/robots
 category: SEO
 type: 3rd-party
 maintainers:
