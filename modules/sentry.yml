@@ -4,7 +4,7 @@ description: >-
   performance of their code
 repo: nuxt-community/sentry-module
 npm: '@nuxtjs/sentry'
-icon: sentry.png
+icon: sentry.svg
 github: https://github.com/nuxt-community/sentry-module
 website: https://sentry.nuxtjs.org/
 learn_more: https://sentry.io/welcome/

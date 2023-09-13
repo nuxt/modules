@@ -1,0 +1,17 @@
+name: authjs
+description: Auth.js authentication Nuxt module. Edge compatible.
+repo: Hebilicious/authjs-nuxt#main
+npm: '@hebilicious/authjs-nuxt'
+icon: authjs.png
+github: https://github.com/Hebilicious/authjs-nuxt
+website: https://authjs-nuxt.pages.dev/
+learn_more: https://authjs.dev/
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Hebilicious
+    github: Hebilicious
+    twitter: its_hebilicious
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
