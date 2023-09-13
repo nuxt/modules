@@ -1,0 +1,17 @@
+name: auto-animate
+description: Automatic animations for your Nuxt app with a single line of code.
+repo: formkit/auto-animate
+npm: '@formkit/auto-animate'
+icon: auto-animate.svg
+github: https://github.com/formkit/auto-animate
+website: https://auto-animate.formkit.com
+learn_more: https://auto-animate.formkit.com
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Justin Schroeder
+    github: justin-schroeder
+    twitter: jpschroeder
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
