@@ -1,5 +1,5 @@
 name: dotenv
-description: A Nuxt.js module that loads your .env file into your context options
+description: A Nuxt module that loads your .env file into your context options
 repo: nuxt-community/dotenv-module
 npm: '@nuxtjs/dotenv'
 icon: dotenv.png

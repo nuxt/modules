@@ -1,5 +1,5 @@
 name: color-mode
-description: Dark and Light mode for NuxtJS with auto detection
+description: Dark and Light mode for Nuxt with auto detection
 repo: nuxt-modules/color-mode
 npm: '@nuxtjs/color-mode'
 icon: color-mode.png

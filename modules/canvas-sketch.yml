@@ -1,6 +1,6 @@
 name: canvas-sketch
 description: >-
-  Nuxt.js module for making generative and 3D artwork with canvas-sketch in
+  Nuxt module for making generative and 3D artwork with canvas-sketch in
   JavaScript
 repo: LuXDAmore/generative-art
 npm: '@luxdamore/nuxt-canvas-sketch'

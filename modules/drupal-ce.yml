@@ -1,5 +1,5 @@
 name: drupal-ce
-description: Connects Nuxt.js with Drupal via the Lupus Custom Elements Renderer
+description: Connects Nuxt with Drupal via the Lupus Custom Elements Renderer
 repo: drunomics/nuxtjs-drupal-ce
 npm: nuxtjs-drupal-ce
 icon: drupal-ce.png

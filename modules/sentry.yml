@@ -1,6 +1,6 @@
 name: sentry
 description: >-
-  Sentry module for Nuxt.js to help developers diagnose, fix, and optimize the
+  Sentry module for Nuxt to help developers diagnose, fix, and optimize the
   performance of their code
 repo: nuxt-community/sentry-module
 npm: '@nuxtjs/sentry'
