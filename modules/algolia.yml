@@ -1,5 +1,5 @@
 name: algolia
-description: Algolia Search Module for Nuxt 3
+description: Algolia Search Module for Nuxt
 repo: nuxt-modules/algolia
 npm: '@nuxtjs/algolia'
 icon: algolia.svg

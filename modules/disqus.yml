@@ -1,5 +1,5 @@
 name: disqus
-description: Disqus for Nuxt 3
+description: Disqus for Nuxt
 repo: modbender/nuxt-disqus
 npm: nuxt-disqus
 icon: disqus.svg
