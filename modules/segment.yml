@@ -1,17 +1,19 @@
 name: segment
-description: Nuxt.js module for Segment Analytics.js
-repo: dansmaculotte/nuxt-segment
-npm: '@dansmaculotte/nuxt-segment'
+description: Segment Analytics module for Nuxt
+repo: hex-digital/nuxt-segment
+npm: '@hexdigital/nuxt-segment'
 icon: segment.png
-github: https://github.com/dansmaculotte/nuxt-segment
-website: https://github.com/dansmaculotte/nuxt-segment
+github: https://github.com/hex-digital/nuxt-segment
+website: https://github.com/hex-digital/nuxt-segment#readme
 learn_more: >-
-  https://segment.com/docs/connections/sources/catalog/Libraries/website/javascript/
+  https://segment.com/docs/connections/sources/catalog/libraries/website/javascript/
 category: Analytics
 type: 3rd-party
 maintainers:
-  - name: dansmaculotte
-    github: dansmaculotte
+  - name: Jamie Warburton
+    github: jamiewarb
+    twitter: jamiewarb
+    avatar: https://avatars.githubusercontent.com/jamiewarb?v=4
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}
