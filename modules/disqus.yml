@@ -1,5 +1,5 @@
 name: disqus
-description: Disqus Comments Module for Nuxt 3 - Instantly add comment widget to your app
+description: Disqus Comments Module for Nuxt - Instantly add a comment widget to your app
 repo: modbender/nuxt-disqus
 npm: nuxt-disqus
 icon: disqus.svg
