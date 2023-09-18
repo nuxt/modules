@@ -1,5 +1,5 @@
 name: nuxt-gtm
-description: A Nuxt.js module for Google Tag Manager
+description: A Nuxt module for Google Tag Manager
 repo: zadigetvoltaire/nuxt-gtm
 npm: '@zadigetvoltaire/nuxt-gtm'
 icon: nuxt-gtm.svg

@@ -1,5 +1,5 @@
 name: storyblok
-description: Storyblok Nuxt.js module
+description: Storyblok Nuxt module
 repo: storyblok/storyblok-nuxt#master/lib
 npm: '@storyblok/nuxt'
 icon: storyblok.png

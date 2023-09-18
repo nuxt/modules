@@ -1,5 +1,5 @@
 name: nuxt-plotly
-description: nuxt-plotly module is thin Nuxt3 wrapper for plotly.js
+description: nuxt-plotly is a thin Nuxt wrapper for plotly.js
 repo: superdev-tech/nuxt-plotly
 npm: nuxt-plotly
 icon: nuxt-plotly.svg

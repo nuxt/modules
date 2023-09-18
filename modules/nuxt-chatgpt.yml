@@ -1,5 +1,5 @@
 name: nuxt-chatgpt
-description: ChatGPT integration for Nuxt 3
+description: ChatGPT integration for Nuxt
 repo: schnapsterdog/nuxt-chatgpt
 npm: nuxt-chatgpt
 icon: chatgpt.svg

@@ -1,5 +1,5 @@
 name: nuxt-basic-auth
-description: Nuxt 3 Module for Basic Authentication
+description: Nuxt Module for Basic Authentication
 repo: kgierke/nuxt-basic-auth
 npm: '@kgierke/nuxt-basic-auth'
 icon: ''

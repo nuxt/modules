@@ -1,5 +1,5 @@
 name: cloudinary
-description: Optimize images and videos in your Nuxt.js application
+description: Optimize images and videos in your Nuxt application
 repo: nuxt-modules/cloudinary
 npm: '@nuxtjs/cloudinary'
 icon: cloudinary.png

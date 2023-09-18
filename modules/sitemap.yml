@@ -1,5 +1,5 @@
 name: sitemap
-description: Automatically generate or serve dynamic sitemap.xml for Nuxt.js projects
+description: Automatically generate or serve dynamic sitemap.xml for Nuxt projects
 repo: nuxt-community/sitemap-module#dev
 npm: '@nuxtjs/sitemap'
 icon: ''

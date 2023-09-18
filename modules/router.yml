@@ -1,5 +1,5 @@
 name: router
-description: Nuxt.js module to use router.js instead of pages/ directory
+description: Nuxt module to use router.js instead of pages/ directory
 repo: nuxt-community/router-module
 npm: '@nuxtjs/router'
 icon: vue.png

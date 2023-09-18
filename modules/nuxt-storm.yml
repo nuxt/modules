@@ -1,5 +1,5 @@
 name: nuxt-storm
-description: WebStorm & PHPStorm support for NuxtJS components
+description: WebStorm & PHPStorm support for Nuxt components
 repo: fumeapp/nuxt-storm
 npm: nuxt-storm
 icon: nuxt-storm.png

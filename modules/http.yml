@@ -1,5 +1,5 @@
 name: http
-description: Universal HTTP Module for Nuxt.js
+description: Universal HTTP Module for Nuxt
 repo: nuxt/http
 npm: '@nuxt/http'
 icon: http.png

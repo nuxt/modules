@@ -1,6 +1,6 @@
 name: image
 description: >-
-  Optimised images for NuxtJS, with progressive processing, lazy-loading,
+  Optimised images for Nuxt, with progressive processing, lazy-loading,
   real-time resizes and providers support.
 repo: nuxt/image
 npm: '@nuxt/image'

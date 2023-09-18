@@ -1,5 +1,5 @@
 name: date-fns
-description: Modern JavaScript date utility library - date-fns for Nuxt.js
+description: Modern JavaScript date utility library - date-fns for Nuxt
 repo: nuxt-community/date-fns-module
 npm: '@nuxtjs/date-fns'
 icon: date-fns.png
