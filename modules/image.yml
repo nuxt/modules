@@ -28,5 +28,5 @@ compatibility:
   requires:
     bridge: optional
   versionMap:
-    ^2.0.0: latest
-    ^3.0.0: rc
+    2.x: latest
+    3.x: rc
