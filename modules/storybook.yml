@@ -3,7 +3,7 @@ description: >-
   Easily integrate Storybook in your Nuxt application to design, build, and
   organize your UI components in isolation.
 repo: nuxt-community/storybook
-npm: '@storybook-vue/nuxt-storybook'
+npm: '@nuxtjs/storybook'
 icon: storybook.png
 github: https://github.com/nuxt-community/storybook
 website: https://storybook.nuxtjs.org
