@@ -3,7 +3,7 @@ description: >-
   install easily maz-ui library to take advantage of auto-import components, plugins, composables and CSS files.
 repo: louismazel/maz-ui
 npm: 'maz-ui'
-icon: maz-ui.svg
+icon: maz-ui.png
 github: https://github.com/louismazel/maz-ui
 website: https://louismazel.github.io/maz-ui-3/
 learn_more: https://louismazel.github.io/maz-ui-3/
