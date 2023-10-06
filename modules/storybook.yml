@@ -7,18 +7,16 @@ npm: '@nuxtjs/storybook'
 icon: storybook.png
 github: https://github.com/nuxt-modules/storybook
 website: https://storybook.nuxtjs.org
-learn_more: https://storybook.js.org/
+learn_more: https://github.com/storybook-vue/storybook-nuxt
 category: Devtools
 type: community
 maintainers:
-  - name: Ahad Birang
-    github: farnabaz
-    twitter: a_birang
-  - name: Pooya Parsa
-    github: pi0
-    twitter: _pi0_
+  - name: Chakir QATAB
+    github: chakAs3
+    twitter: ChakirQatab
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || ^3.6.5
   requires:
     bridge: optional
-  devtools: ^0.0.0
+  devtools: ^0.7.2
+  storybook: ^7.4.0
