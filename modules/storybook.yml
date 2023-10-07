@@ -1,5 +1,5 @@
 name: storybook
-description: >-
+description: 
   Easily integrate Storybook in your Nuxt application to design, build, and
   organize your UI components in isolation.
 repo: nuxt-modules/storybook
