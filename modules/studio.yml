@@ -7,7 +7,7 @@ github: https://github.com/nuxtlabs/studio-module
 website: https://nuxt.studio
 learn_more: https://nuxt.studio
 category: CMS
-type: official
+type: 3rd-party
 maintainers:
   - name: Ahad Birang
     github: farnabaz
