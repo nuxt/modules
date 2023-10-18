@@ -1,7 +1,7 @@
 name: vue-email
 description: 💌 Write email templates with vue
 repo: Dave136/vue-email
-npm: vue-email
+npm: '@vue-email/monorepo'
 icon: vue-email.svg
 github: https://github.com/Dave136/vue-email
 website: https://www.vuemail.net/
