@@ -1,0 +1,23 @@
+name: radix-vue
+repo: radix-vue/radix-vue
+description: Vue port of Radix UI Primitives. An open-source UI component library for building high-quality, accessible design systems and web apps.
+npm: radix-vue
+icon: "radix-vue"
+github: https://github.com/radix-vue/radix-vue
+website: https://radix-vue.com/
+learn_more: ""
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Zernonia
+    github: zernonia
+    twitter: zernonia
+  - name: Khairul Haaziq
+    github: khairulhaaziq
+  - name: Mujahid Anuar
+    github: mujahidfa
+  - name: Max
+    github: onmax
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
