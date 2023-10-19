@@ -4,8 +4,8 @@ description: Vue port of Radix UI Primitives. An open-source UI component librar
 npm: radix-vue
 icon: "radix-vue"
 github: https://github.com/radix-vue/radix-vue
-website: https://radix-vue.com/
-learn_more: ""
+website: https://www.radix-vue.com/
+learn_more: https://www.radix-vue.com/overview/installation.html#nuxt-modules
 category: UI
 type: 3rd-party
 maintainers:
