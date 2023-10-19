@@ -2,7 +2,7 @@ name: primevue
 description: Next Generation Vue UI Component Library
 repo: primefaces/primevue-nuxt-module
 npm: nuxt-primevue
-icon: primevue.png
+icon: primevue.svg
 github: https://github.com/primefaces/primevue-nuxt-module
 website: https://primevue.org/
 learn_more: "https://primevue.org/"
