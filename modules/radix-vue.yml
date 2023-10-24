@@ -1,6 +1,8 @@
 name: radix-vue
+description: >-
+  Vue port of Radix UI Primitives. An open-source UI component library for
+  building high-quality, accessible design systems and web apps.
 repo: radix-vue/radix-vue
-description: Vue port of Radix UI Primitives. An open-source UI component library for building high-quality, accessible design systems and web apps.
 npm: radix-vue
 icon: radix-vue.svg
 github: https://github.com/radix-vue/radix-vue
