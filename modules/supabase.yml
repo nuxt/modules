@@ -1,9 +1,9 @@
 name: supabase
 description: First class integration with Supabase
-repo: nuxt-community/supabase-module
+repo: nuxt-modules/supabase
 npm: '@nuxtjs/supabase'
 icon: supabase.png
-github: https://github.com/nuxt-community/supabase-module
+github: https://github.com/nuxt-modules/supabase
 website: https://supabase.nuxtjs.org
 learn_more: https://supabase.com
 category: Database

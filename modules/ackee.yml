@@ -1,5 +1,5 @@
 name: ackee
-description: Nuxt.js module for Ackee analytics
+description: Nuxt module for Ackee analytics
 repo: bdrtsky/nuxt-ackee
 npm: nuxt-ackee
 icon: ackee.png

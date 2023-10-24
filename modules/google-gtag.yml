@@ -1,5 +1,5 @@
 name: google-gtag
-description: Google GTag for Nuxt.js
+description: Google GTag for Nuxt
 repo: nuxt-community/google-gtag
 npm: '@nuxtjs/google-gtag'
 icon: gtm.png

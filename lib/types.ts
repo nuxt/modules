@@ -4,6 +4,10 @@ import type { categories } from './categories'
 // TODO: Support version matrix
 export interface ModuleCompatibility {
  nuxt: string
+ devtools?: string
+ versionMap?: {
+  [nuxtVersion: string]: string
+ }
  requires: { bridge?: boolean | 'optional' },
 }
 

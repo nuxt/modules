@@ -1,5 +1,5 @@
 name: storefront-ui
-description: Storefront UI Module for Nuxt.js
+description: Storefront UI Module for Nuxt
 repo: vuestorefront/storefront-ui#develop/packages/nuxt-module
 npm: '@storefront-ui/nuxt'
 icon: storefront-ui.svg

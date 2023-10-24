@@ -1,11 +1,11 @@
 name: vue-email
-description: Write email templates with vue
+description: 💌 Write email templates with vue
 repo: Dave136/vue-email#main/packages/vue-email
 npm: vue-email
 icon: vue-email.svg
 github: https://github.com/Dave136/vue-email
-website: https://vue-email.vercel.app/
-learn_more: https://vue-email.vercel.app/getting-started/nuxt.html
+website: https://www.vuemail.net/
+learn_more: https://vue-email.vercel.app/getting-started
 category: UI
 type: 3rd-party
 maintainers:
@@ -20,3 +20,4 @@ maintainers:
 compatibility:
   nuxt: ^3.0.0
   requires: {}
+  devtools: ^0.0.0

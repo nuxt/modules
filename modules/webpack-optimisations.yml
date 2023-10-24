@@ -1,5 +1,5 @@
 name: webpack-optimisations
-description: Nuxt.js v2 module to automatically make your builds faster.
+description: Nuxt v2 module to automatically make your builds faster.
 repo: harlan-zw/nuxt-webpack-optimisations#main/packages/nuxt-webpack-optimisations
 npm: nuxt-webpack-optimisations
 icon: build-optimisations.svg

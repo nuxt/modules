@@ -1,5 +1,5 @@
 name: snipcart
-description: Snipcart integration module for Nuxt.js
+description: Snipcart integration module for Nuxt
 repo: nuxt-modules/snipcart
 npm: '@nuxtjs/snipcart'
 icon: snipcart.png

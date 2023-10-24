@@ -1,6 +1,6 @@
 name: rollbar
 description: >-
-  Add Rollbar.js to your Nuxt.js app to automatically capture and report errors
+  Add Rollbar.js to your Nuxt app to automatically capture and report errors
   in your applications.
 repo: gaelreyrol/nuxt-rollbar-module
 npm: nuxt-rollbar-module

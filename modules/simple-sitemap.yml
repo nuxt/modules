@@ -1,11 +1,11 @@
 name: simple-sitemap
-description: Simple, minimal sitemap.xml generation.
+description: Powerfully flexible XML Sitemaps that integrate seamlessly.
 repo: harlan-zw/nuxt-simple-sitemap
 npm: nuxt-simple-sitemap
-icon: ''
+icon: simple-sitemap.svg
 github: https://github.com/harlan-zw/nuxt-simple-sitemap
-website: https://github.com/harlan-zw/nuxt-simple-sitemap
-learn_more: ''
+website: https://nuxtseo.com/simple-sitemap
+learn_more: https://nuxtseo.com/simple-sitemap
 category: SEO
 type: 3rd-party
 maintainers:

@@ -1,0 +1,16 @@
+name: nuxt-basic-auth
+description: Nuxt Module for Basic Authentication
+repo: kgierke/nuxt-basic-auth
+npm: '@kgierke/nuxt-basic-auth'
+icon: ''
+github: https://github.com/kgierke/nuxt-basic-auth
+website: https://github.com/kgierke/nuxt-basic-auth
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: kgierke
+    github: kgierke
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

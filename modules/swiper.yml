@@ -1,6 +1,6 @@
 name: swiper
 description: >-
-  Nuxt.js module for Swiper.js - Most modern mobile touch slider with hardware
+  Nuxt module for Swiper.js - Most modern mobile touch slider with hardware
   accelerated transitions.
 repo: cpreston321/nuxt-swiper
 npm: nuxt-swiper

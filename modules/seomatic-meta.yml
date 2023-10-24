@@ -1,5 +1,5 @@
 name: seomatic-meta
-description: A Nuxt.js module connecting Nuxt.js to the Craft CMS SEOmatic plugin
+description: A Nuxt module connecting Nuxt to the Craft CMS SEOmatic plugin
 repo: ben-rogerson/nuxt-seomatic-meta
 npm: nuxt-seomatic-meta
 icon: seomatic.png
