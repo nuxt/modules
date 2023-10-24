@@ -5,7 +5,7 @@ npm: nuxt-primevue
 icon: primevue.svg
 github: https://github.com/primefaces/primevue-nuxt-module
 website: https://primevue.org/
-learn_more: "https://primevue.org/"
+learn_more: https://primevue.org/
 category: UI
 type: 3rd-party
 maintainers:
