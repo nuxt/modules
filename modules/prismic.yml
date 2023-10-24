@@ -1,5 +1,5 @@
 name: prismic
-description: Easily connect your Nuxt.js application to your content hosted on Prismic
+description: Easily connect your Nuxt application to your content hosted on Prismic
 repo: nuxt-modules/prismic
 npm: '@nuxtjs/prismic'
 icon: prismic.png

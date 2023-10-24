@@ -1,0 +1,16 @@
+name: radash
+description: radash module with auto-import and custom prefix
+repo: bbg/nuxt-radash
+npm: nuxt-radash
+icon: radash.png
+github: https://github.com/bbg/nuxt-radash
+website: https://github.com/bbg/nuxt-radash#readme
+learn_more: https://github.com/rayepps/radash/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Batuhan Göksu
+    github: bbg
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

@@ -1,5 +1,5 @@
 name: shopify
-description: Easy Shopify Buy client module with Nuxt.js for ecommerce websites.
+description: Easy Shopify Buy client module with Nuxt for ecommerce websites.
 repo: Gomah/nuxt-shopify
 npm: nuxt-shopify
 icon: shopify.png

@@ -1,5 +1,5 @@
 name: meilisearch
-description: Meilisearch Instant Search module for Nuxt 3
+description: Meilisearch Instant Search module for Nuxt
 repo: xlanex6/nuxt-meilisearch
 npm: nuxt-meilisearch
 icon: meilisearch.svg
@@ -14,5 +14,6 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/u/13418668?v=4
 compatibility:
   nuxt: ^3.0.0
+  devtools: ^0.0.0
   requires:
     bridge: false

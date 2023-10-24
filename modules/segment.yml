@@ -1,5 +1,5 @@
 name: segment
-description: Nuxt.js module for Segment Analytics.js
+description: Nuxt module for Segment Analytics.js
 repo: dansmaculotte/nuxt-segment
 npm: '@dansmaculotte/nuxt-segment'
 icon: segment.png

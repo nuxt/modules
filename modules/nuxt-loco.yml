@@ -1,5 +1,5 @@
 name: nuxt-loco
-description: A localise.biz module to synth locale with Nuxt.js
+description: A localise.biz module to synth locale with Nuxt
 repo: gaetansenn/nuxt-loco
 npm: nuxt-loco
 icon: ''

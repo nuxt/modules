@@ -1,6 +1,6 @@
 name: netlify
 description: >-
-  Dynamically generate _headers and _redirects files for Netlify in your Nuxt.js
+  Dynamically generate _headers and _redirects files for Netlify in your Nuxt
   projects.
 repo: bazzite/nuxt-netlify
 npm: '@aceforth/nuxt-netlify'

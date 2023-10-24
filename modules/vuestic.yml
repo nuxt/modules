@@ -1,5 +1,5 @@
 name: vuestic
-description: Vuestic UI module for Nuxt 3
+description: Vuestic UI module for Nuxt
 repo: epicmaxco/vuestic-ui#develop/packages/nuxt
 npm: '@vuestic/nuxt'
 icon: vuestic.png

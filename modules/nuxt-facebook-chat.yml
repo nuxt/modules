@@ -1,0 +1,18 @@
+name: nuxt-facebook-chat
+description: nuxt-plotly module is thin Nuxt wrapper for Facebook's Customer Chat SDK
+repo: superdev-tech/nuxt-facebook-chat
+npm: nuxt-facebook-chat
+icon: nuxt-facebook-chat.svg
+github: https://github.com/superdev-tech/nuxt-facebook-chat
+website: https://github.com/superdev-tech/nuxt-facebook-chat
+learn_more: https://www.npmjs.com/package/nuxt-facebook-chat
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Supanut Dokmaithong
+    github: Boomgeek
+  - name: superdev-tech
+    github: superdev-tech
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

@@ -1,5 +1,5 @@
 name: emotion
-description: The Next Generation of CSS-in-JS for Nuxt.js
+description: The Next Generation of CSS-in-JS for Nuxt
 repo: nuxt-modules/emotion
 npm: '@nuxtjs/emotion'
 icon: emotion.png

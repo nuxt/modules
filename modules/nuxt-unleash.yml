@@ -1,5 +1,5 @@
 name: nuxt-unleash
-description: Nuxt.js module to use Unleash toggle feature services
+description: Nuxt module to use Unleash toggle feature services
 repo: conejerock/nuxt-unleash
 npm: nuxt-unleash
 icon: nuxt-unleash.svg

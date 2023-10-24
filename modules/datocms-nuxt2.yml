@@ -1,5 +1,5 @@
 name: datocms-nuxt2
-description: DatoCMS integration for Nuxt.js v2
+description: DatoCMS integration for Nuxt v2
 repo: voorhoede/nuxt-datocms-module
 npm: '@voorhoede/nuxt-datocms-module'
 icon: datocms.svg
