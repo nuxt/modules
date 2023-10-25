@@ -2,10 +2,10 @@ name: nuxt-payload-analyzer
 description: Analyze Nuxt Payload Size
 repo: barbapapazes/nuxt-payload-analyzer
 npm: nuxt-payload-analyzer
-icon: ""
+icon: ''
 github: https://github.com/barbapapazes/nuxt-payload-analyzer
 website: https://github.com/barbapapazes/nuxt-payload-analyzer#readme
-learn_more: ""
+learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
