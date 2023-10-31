@@ -1,0 +1,17 @@
+name: icon-tw
+description: Extended Icon module with Tailwind CSS Icons for Nuxt
+repo: jcamp-code/nuxt-icon-tw
+npm: nuxt-icon-tw
+icon: nuxt-icon.png
+github: https://github.com/jcamp-code/nuxt-icon-tw
+website: https://github.com/jcamp-code/nuxt-icon-tw
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: JohnCampionJr
+    github: JohnCampionJr
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
+  devtools: ^0.0.0
