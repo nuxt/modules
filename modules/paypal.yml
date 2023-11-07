@@ -1,7 +1,7 @@
 name: paypal
-description: 
+description: A Nuxt module for simplifying the use of Paypal in your project.
 repo: arashsheyda/nuxt-paypal
-npm: 'nuxt-paypal'
+npm: nuxt-paypal
 icon: paypal.svg
 github: https://github.com/arashsheyda/nuxt-paypal
 website: https://github.com/arashsheyda/nuxt-paypal#readme
