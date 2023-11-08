@@ -1,7 +1,7 @@
 name: nuxt-auth-sanctum
 description: Nuxt module for Laravel Sanctum authentication
 repo: manchenkoff/nuxt-auth-sanctum
-npm: 'nuxt-auth-sanctum'
+npm: nuxt-auth-sanctum
 icon: laravel.svg
 github: https://github.com/manchenkoff/nuxt-auth-sanctum
 website: https://github.com/manchenkoff/nuxt-auth-sanctum
