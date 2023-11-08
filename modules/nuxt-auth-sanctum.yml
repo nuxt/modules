@@ -6,7 +6,7 @@ icon: laravel.svg
 github: https://github.com/manchenkoff/nuxt-auth-sanctum
 website: https://github.com/manchenkoff/nuxt-auth-sanctum
 learn_more: ''
-category: Extensions
+category: Security
 type: 3rd-party
 maintainers:
   - name: Artem Manchenkov
