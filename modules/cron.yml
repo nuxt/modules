@@ -1,0 +1,16 @@
+name: cron
+description: A Nuxt module for cron jobs in your app.
+repo: hywax/nuxt-cron
+npm: nuxt-cron
+icon: 'cron.svg'
+github: https://github.com/hywax/nuxt-cron
+website: https://nuxt-cron.hywax.space
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: hywax
+    github: hywax
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
