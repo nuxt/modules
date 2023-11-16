@@ -1,4 +1,4 @@
-name: EdgeDB
+name: edgedb
 description: Integrate Nuxt 3 with EdgeDB effortlessly, adding a robust database layer to your app with minimal configuration.
 repo: Tahul/nuxt-edgedb
 npm: nuxt-edgedb-module
