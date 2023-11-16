@@ -1,6 +1,6 @@
 name: vueform
 description: Official Vueform module for Nuxt
-repo: vueform/nuxt
+repo: vueform/vueform/nuxt
 npm: '@vueform/nuxt'
 icon: vueform.svg
 github: https://github.com/vueform/vueform
