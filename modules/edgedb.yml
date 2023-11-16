@@ -4,7 +4,7 @@ description: >-
   your app with minimal configuration.
 repo: Tahul/nuxt-edgedb
 npm: nuxt-edgedb-module
-icon: edgedb.png
+icon: edgedb.svg
 github: https://github.com/Tahul/nuxt-edgedb
 website: https://github.com/Tahul/nuxt-edgedb
 learn_more: https://github.com/Tahul/nuxt-edgedb
