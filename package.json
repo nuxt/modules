@@ -2,6 +2,8 @@
   "name": "@nuxt/modules",
   "version": "0.6.0",
   "license": "MIT",
+  "repository": "nuxt/modules",
+  "homepage": "https://nuxt.com/modules",
   "main": "./modules.json",
   "files": [
     "modules.json"

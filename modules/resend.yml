@@ -1,0 +1,17 @@
+name: resend
+description: Resend integration for Nuxt
+repo: nhedger/nuxt-resend
+npm: nuxt-resend
+icon: resend.svg
+github: https://github.com/nhedger/nuxt-resend
+website: https://github.com/nhedger/nuxt-resend
+learn_more: https://resend.com
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Nicolas Hedger
+    github: nhedger
+    twitter: nicolashedger
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
