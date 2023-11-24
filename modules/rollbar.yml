@@ -1,18 +1,16 @@
 name: rollbar
-description: >-
-  Add Rollbar.js to your Nuxt app to automatically capture and report errors
-  in your applications.
-repo: gaelreyrol/nuxt-rollbar-module
-npm: nuxt-rollbar-module
+description: Nuxt 3 module to integrate Rollbar.
+repo: jairoblatt/nuxt-rollbar
+npm: nuxt-rollbar
 icon: rollbar.png
-github: https://github.com/gaelreyrol/nuxt-rollbar-module
-website: https://github.com/gaelreyrol/nuxt-rollbar-module
+github: https://github.com/jairoblatt/nuxt-rollbar
+website: https://github.com/jairoblatt/nuxt-rollbar
 learn_more: https://docs.rollbar.com/docs/javascript
 category: Monitoring
 type: 3rd-party
 maintainers:
-  - name: Gaël Reyrol
-    github: gaelreyrol
+  - name: Jairo Blatt
+    github: jairoblatt
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}
