@@ -1,10 +1,10 @@
 name: windicss
 description: Next generation utility-first CSS framework.
-repo: windicss/nuxt-windicss-module#main/packages/nuxt-windicss
+repo: windicss/nuxt-windicss/tree/main/packages/nuxt-windicss 
 npm: nuxt-windicss
 icon: windicss.svg
-github: https://github.com/windicss/nuxt-windicss-module
-website: https://github.com/windicss/nuxt-windicss-module
+github: https://github.com/windicss/nuxt-windicss
+website: https://github.com/windicss/nuxt-windicss
 learn_more: https://windicss.org/
 category: UI
 type: 3rd-party
