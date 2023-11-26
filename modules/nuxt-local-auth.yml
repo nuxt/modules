@@ -1,0 +1,17 @@
+name: nuxt-local-auth
+description: Next module for authentication with easy REST auth with refresh token methods from LorexIQ
+repo: LorexIQ/nuxt-local-auth
+npm: nuxt-local-auth
+icon: nuxt-local-auth.png
+github: https://github.com/LorexIQ/nuxt-local-auth
+website: https://github.com/LorexIQ/nuxt-local-auth
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Murashko Dmitry
+    github: LorexIQ
+    avatar: https://avatars.githubusercontent.com/lorexiq
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
