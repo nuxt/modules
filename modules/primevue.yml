@@ -1,0 +1,17 @@
+name: primevue
+description: Next Generation Vue UI Component Library
+repo: primefaces/primevue-nuxt-module
+npm: nuxt-primevue
+icon: primevue.svg
+github: https://github.com/primefaces/primevue-nuxt-module
+website: https://primevue.org/
+learn_more: https://primevue.org/
+category: UI
+type: 3rd-party
+maintainers:
+  - name: primefaces
+    github: primefaces
+    twitter: primevue
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

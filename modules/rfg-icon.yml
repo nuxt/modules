@@ -1,5 +1,5 @@
 name: rfg-icon
-description: Nuxt.js module for creating favicons with RealFaviconGenerator api
+description: Nuxt module for creating favicons with RealFaviconGenerator api
 repo: pimlie/nuxt-rfg-icon
 npm: nuxt-rfg-icon
 icon: real-favicon-generator.png

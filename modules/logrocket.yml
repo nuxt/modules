@@ -1,6 +1,6 @@
 name: logrocket
 description: >-
-  LogRocket module for Nuxt.js to help you fix bugs and understand user
+  LogRocket module for Nuxt to help you fix bugs and understand user
   behaviour.
 repo: nuxt-modules/logrocket
 npm: nuxt-logrocket

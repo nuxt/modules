@@ -4,8 +4,8 @@ repo: userquin/vuetify-nuxt-module
 npm: vuetify-nuxt-module
 icon: vuetify-logo-v3-dark.svg
 github: https://github.com/userquin/vuetify-nuxt-module
-website: https://github.com/userquin/vuetify-nuxt-module
-learn_more: https://github.com/userquin/vuetify-nuxt-module/README.md
+website: https://vuetify-nuxt-module.netlify.app/
+learn_more: https://github.com/userquin/vuetify-nuxt-module/blob/main/README.md
 category: UI
 type: 3rd-party
 maintainers:

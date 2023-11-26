@@ -1,5 +1,5 @@
 name: zendesk
-description: Nuxt.js module for Zendesk
+description: Nuxt module for Zendesk
 repo: DansMaCulotte/nuxt-zendesk
 npm: '@dansmaculotte/nuxt-zendesk'
 icon: zendesk.png

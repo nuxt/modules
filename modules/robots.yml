@@ -1,5 +1,5 @@
 name: robots
-description: A Nuxt.js module thats inject a middleware to generate a robots.txt file
+description: A Nuxt module thats inject a middleware to generate a robots.txt file
 repo: nuxt-modules/robots
 npm: '@nuxtjs/robots'
 icon: robots.png

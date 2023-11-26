@@ -1,5 +1,5 @@
 name: well-known
-description: A Nuxt.js module to add well-known URIs using middlewares
+description: A Nuxt module to add well-known URIs using middlewares
 repo: zadigetvoltaire/nuxt-well-known
 npm: '@zadigetvoltaire/nuxt-well-known'
 icon: well-known.svg

@@ -1,5 +1,5 @@
 name: lucide-icons
-description: Nuxt 3 module to integrate Lucide icons
+description: Nuxt module to integrate Lucide icons
 repo: swisnl/nuxt-lucide-icons
 npm: nuxt-lucide-icons
 icon: lucide-icons.svg

@@ -1,5 +1,5 @@
 name: applicationinsights
-description: AppInsights module for Nuxt.js
+description: AppInsights module for Nuxt
 repo: nuxt-community/applicationinsights-module
 npm: '@nuxtjs/applicationinsights'
 icon: application-insights.png

@@ -1,5 +1,5 @@
 name: guess
-description: Guess.js module for Nuxt.js
+description: Guess.js module for Nuxt
 repo: nuxt-community/guess-module
 npm: '@nuxtjs/guess-module'
 icon: guessjs.png

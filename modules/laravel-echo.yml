@@ -1,5 +1,5 @@
 name: laravel-echo
-description: Laravel Echo for Nuxt.js
+description: Laravel Echo for Nuxt
 repo: nuxt-community/laravel-echo
 npm: '@nuxtjs/laravel-echo'
 icon: laravel-echo.png

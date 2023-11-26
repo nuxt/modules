@@ -1,5 +1,5 @@
 name: basic-auth
-description: Provide basic authentication to your Nuxt.js application
+description: Provide basic authentication to your Nuxt application
 repo: potato4d/nuxt-basic-auth-module
 npm: nuxt-basic-auth-module
 icon: ''

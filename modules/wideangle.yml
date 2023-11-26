@@ -1,5 +1,5 @@
 name: wideangle
-description: Nuxt 3 module to integrate Wide Angle Analytics
+description: Nuxt module to integrate Wide Angle Analytics
 repo: inputobjects/wideangle-nuxt
 npm: wideangle-nuxt
 icon: wideangle.png

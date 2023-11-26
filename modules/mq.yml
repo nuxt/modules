@@ -1,6 +1,6 @@
 name: mq
 description: >-
-  vue-mq module for Nuxt.js. Define your breakpoints and build responsive design
+  vue-mq module for Nuxt. Define your breakpoints and build responsive design
   semantically and declaratively in a mobile-first way with Vue.
 repo: vanhoofmaarten/nuxt-mq
 npm: nuxt-mq

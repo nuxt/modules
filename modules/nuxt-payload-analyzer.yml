@@ -1,0 +1,17 @@
+name: nuxt-payload-analyzer
+description: Analyze Nuxt Payload Size
+repo: barbapapazes/nuxt-payload-analyzer
+npm: nuxt-payload-analyzer
+icon: ''
+github: https://github.com/barbapapazes/nuxt-payload-analyzer
+website: https://github.com/barbapapazes/nuxt-payload-analyzer#readme
+learn_more: ''
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: Barbapapazes
+    github: Barbapapazes
+    twitter: soubiran_
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

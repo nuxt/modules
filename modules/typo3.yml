@@ -1,0 +1,18 @@
+name: typo3
+description: TYPO3 Headless Frontend Rendering module
+repo: TYPO3-Headless/nuxt-typo3
+npm: '@t3headless/nuxt-typo3'
+icon: typo3.svg
+github: https://github.com/TYPO3-Headless/nuxt-typo3
+website: https://t3headless.macopedia.io/nuxt-typo3/
+learn_more: https://github.com/TYPO3-Headless
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Macopedia
+    github: macopedia
+    twitter: macopediapl
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires: {}
+  devtools: ^0.0.0

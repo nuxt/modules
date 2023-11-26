@@ -1,5 +1,5 @@
 name: agility-cms
-description: Agility CMS Integration for Nuxt.js
+description: Agility CMS Integration for Nuxt
 repo: agility/agilitycms-nuxt-module
 npm: '@agility/agilitycms-nuxt-module'
 icon: agility.png

@@ -1,5 +1,5 @@
 name: google-fonts
-description: Google Fonts module for NuxtJS
+description: Google Fonts module for Nuxt
 repo: nuxt-modules/google-fonts
 npm: '@nuxtjs/google-fonts'
 icon: google-fonts.png
