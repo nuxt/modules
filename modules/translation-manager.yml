@@ -1,0 +1,18 @@
+name: translation-manager
+description: >-
+  Simple and easy to use translation manager for Nuxt and Nuxt-i18n that allows
+  translation management from a single CSV file.
+repo: samk-dev/nuxt-translation-manager
+npm: nuxt-translation-manager
+icon: translation-manager.png
+github: https://github.com/samk-dev/nuxt-translation-manager
+website: https://github.com/samk-dev/nuxt-translation-manager
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Sam K
+    github: samk-dev
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
