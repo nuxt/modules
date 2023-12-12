@@ -5,7 +5,7 @@ npm: nuxt-fathom
 icon: fathom-analytics.svg
 github: https://github.com/valgeirb/nuxt-fathom
 website: https://github.com/valgeirb/nuxt-fathom#readme
-learn_more: ""
+learn_more: ''
 category: Analytics
 type: 3rd-party
 maintainers:
