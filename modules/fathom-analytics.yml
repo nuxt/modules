@@ -1,7 +1,7 @@
 name: fathom-analytics
 description: Fathom analytics integration for Nuxt
 repo: valgeirb/nuxt-fathom
-npm: nuxt-gtag
+npm: nuxt-fathom
 icon: fathom-analytics.svg
 github: https://github.com/valgeirb/nuxt-fathom
 website: https://github.com/valgeirb/nuxt-fathom#readme
