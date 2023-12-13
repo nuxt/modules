@@ -1,0 +1,16 @@
+name: tiptap
+description: Essentials to Quickly Integrate TipTap Editor into your Nuxt App
+repo: modbender/nuxt-tiptap-editor
+npm: nuxt-tiptap-editor
+icon: tiptap.png
+github: https://github.com/modbender/nuxt-tiptap-editor
+website: https://github.com/modbender/nuxt-tiptap-editor
+learn_more: https://github.com/modbender/nuxt-tiptap-editor
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: modbender
+    github: modbender
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
