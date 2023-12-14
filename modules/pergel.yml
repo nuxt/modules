@@ -1,6 +1,6 @@
 name: pergel
 repo: oku-ui/pergel
-npm: @pergel/nuxt
+npm: '@pergel/nuxt'
 description: >-
  Pergel is a tailor-made solution for Nuxt and Nitro, providing swift project kickstarts and seamless integration of various modules.
 icon: pergel.svg
