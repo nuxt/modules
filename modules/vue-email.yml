@@ -1,7 +1,7 @@
 name: vue-email
 description: 💌 Write email templates with vue
 repo: vue-email/nuxt
-npm: "@vue-email/nuxt"
+npm: '@vue-email/nuxt'
 icon: vue-email.svg
 github: https://github.com/vue-email/nuxt
 website: https://vuemail.net/
