@@ -1,0 +1,18 @@
+name: nuxt-svgo-loader
+description: Nuxt module to load SVG files as Vue components, using SVGO for optimization.
+repo: Mini-ghost/nuxt-svgo-loader
+npm: nuxt-svgo-loader
+icon: ''
+github: https://github.com/Mini-ghost/nuxt-svgo-loader
+website: https://github.com/Mini-ghost/nuxt-svgo-loader
+learn_more: https://github.com/Mini-ghost/nuxt-svgo-loader
+category: Images
+type: 3rd-party
+maintainers:
+  - name: Alex Liu
+    github: Mini-ghost
+    twitter: Minighost_Alex
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
+  devtools: ^0.0.0
