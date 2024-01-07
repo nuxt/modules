@@ -64,19 +64,10 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     }
   }
 
-  const headBlockedHosts = [
-    'stripe',
-    'stripe-next',
-    'chiffre'
-  ]
-
   for (const key of ['website', 'learn_more']) {
     if (mod[key] && !mod[key].includes('github.com')) {
       // we just need to test that we get a 200 response (or a valid redirect)
-      await $fetch.raw(mod[key], {
-        // some sites block HEAD
-        method: headBlockedHosts.includes(name) ? 'GET' : 'HEAD',
-        redirect: 'follow', // allow redirects
+      await $fetch(mod[key], {
         timeout: 20000,
       }).catch((err) => {
         throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
