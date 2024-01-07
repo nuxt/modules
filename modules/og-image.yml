@@ -1,9 +1,9 @@
 name: og-image
 description: Enlightened runtime images generated with Vue templates.
-repo: harlan-zw/nuxt-og-image
+repo: nuxt-modules/nuxt-og-image
 npm: nuxt-og-image
 icon: og-image.svg
-github: https://github.com/harlan-zw/nuxt-og-image
+github: https://github.com/nuxt-modules/nuxt-og-image
 website: https://nuxtseo.com/og-image
 learn_more: https://nuxtseo.com/og-image
 category: SEO

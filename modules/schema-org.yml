@@ -1,5 +1,5 @@
 name: schema-org
-description: Schema.org for Nuxt.
+description: Quick and easy Schema.org graphs.
 repo: harlan-zw/nuxt-schema-org
 npm: nuxt-schema-org
 icon: schema-org.svg
