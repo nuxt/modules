@@ -1,7 +1,7 @@
 name: vue-final-modal
 description: The most powerful yet most light-weight modal library for Vue 3.
-repo: vue-final/vue-final-modal
-npm: vfm
+repo: vue-final/vue-final-modal#master/packages/nuxt
+npm: '@vue-final-modal/nuxt'
 icon: vue-final-modal.svg
 github: https://github.com/vue-final/vue-final-modal
 website: https://vue-final-modal.org/
