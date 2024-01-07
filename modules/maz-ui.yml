@@ -2,12 +2,12 @@ name: maz-ui
 description: >-
   install easily maz-ui library to take advantage of auto-import components,
   plugins, composables and CSS files.
-repo: louismazel/maz-ui
-npm: root
+repo: louismazel/maz-ui#master/packages/nuxt-module
+npm: nuxt-module
 icon: maz-ui.png
 github: https://github.com/louismazel/maz-ui
-website: https://louismazel.github.io/maz-ui-3/
-learn_more: https://louismazel.github.io/maz-ui-3/
+website: https://maz-ui.com/
+learn_more: https://maz-ui.com/guide/nuxt
 category: UI
 type: 3rd-party
 maintainers:
