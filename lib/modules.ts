@@ -71,7 +71,7 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
         // some sites block HEAD
         method: ['stripe', 'stripe-next', 'chiffre'].includes(name) ? 'GET' : 'HEAD',
         redirect: 'follow', // allow redirects
-        timeout: 10000,
+        timeout: 20000,
       }).catch((err) => {
         throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
       })
