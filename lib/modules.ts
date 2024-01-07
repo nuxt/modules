@@ -8,6 +8,7 @@ import { categories } from './categories'
 import { ModuleInfo } from './types'
 import { fetchGithubPkg, modulesDir, distDir, distFile, rootDir } from './utils'
 import { $fetch } from 'ofetch'
+import { isCI } from 'std-env'
 
 export async function sync (name, repo?: string, isNew: boolean = false) {
   const mod = await getModule(name)
@@ -64,18 +65,15 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     }
   }
 
-  for (const key of ['website', 'learn_more']) {
-    if (mod[key] && !mod[key].includes('github.com')) {
-      // we just need to test that we get a 200 response (or a valid redirect)
-      await $fetch(mod[key], {
-        timeout: 20000,
-        // mock a real user so we don't get blocked
-        headers: {
-          'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36',
-        }
-      }).catch((err) => {
-        throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
-      })
+  // ci is flaky with external links
+  if (!isCI) {
+    for (const key of ['website', 'learn_more']) {
+      if (mod[key] && !mod[key].includes('github.com')) {
+        // we just need to test that we get a 200 response (or a valid redirect)
+        await $fetch(mod[key]).catch((err) => {
+          throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
+        })
+      }
     }
   }
 
