@@ -4,7 +4,7 @@ repo: dulnan/nuxt-graphql-middleware
 npm: nuxt-graphql-middleware
 icon: nuxt-graphql-middleware.svg
 github: https://github.com/dulnan/nuxt-graphql-middleware
-website: https://nuxt-graphql-middleware.dulnan.net
+website: https://nuxt-graphql-middleware.dulnan.net/
 learn_more: ''
 category: Request
 type: 3rd-party

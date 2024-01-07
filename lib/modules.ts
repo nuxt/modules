@@ -6,7 +6,8 @@ import defu from 'defu'
 import pLimit from 'p-limit'
 import { categories } from './categories'
 import { ModuleInfo } from './types'
-import { fetchGithubPkg, modulesDir, distDir, distFile } from './utils'
+import { fetchGithubPkg, modulesDir, distDir, distFile, rootDir } from './utils'
+import { $fetch } from 'ofetch'
 
 export async function sync (name, repo?: string, isNew: boolean = false) {
   const mod = await getModule(name)
@@ -60,6 +61,30 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
       mod.category = newCat
     } else {
       throw new Error(`Unknown category ${mod.category} for ${mod.name}.\nSupported categories: ${categories.join(', ')}`)
+    }
+  }
+
+  for (const key of ['website', 'learn_more']) {
+    if (mod[key] && !mod[key].includes('github.com')) {
+      // we just need to test that we get a 200 response (or a valid redirect)
+      const res = await $fetch.raw(mod[key], {
+        // some sites block HEAD
+        method: ['stripe', 'stripe-next', 'chiffre'].includes(name) ? 'GET' : 'HEAD',
+        redirect: 'follow', // allow redirects
+      }).catch((err) => {
+        throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
+      })
+      if (res.status !== 200) {
+        throw new Error(`${key} link is invalid for ${mod.name}, returned a ${res.status}`)
+      }
+    }
+  }
+
+  // validate icon
+  if (mod.icon) {
+    const file = resolve(rootDir, 'icons', mod.icon)
+    if (!existsSync(file)) {
+      throw new Error(`Icon ${mod.icon} does not exist for ${mod.name}`)
     }
   }
 
@@ -169,11 +194,16 @@ export async function readModules () {
 export async function syncAll () {
   const modules = await readModules()
   const limit = pLimit(10)
+  let success = true
   const updatedModules = await Promise.allSettled(modules.map(module => limit(() => {
     console.log(`Syncing ${module.name}`)
-    return sync(module.name, module.repo)
+    return sync(module.name, module.repo).catch((err) => {
+      console.error(`Error syncing ${module.name}`)
+      console.error(err)
+      success = false
+    })
   })))
-  return updatedModules
+  return { count: updatedModules.length, success }
 }
 
 export async function build () {

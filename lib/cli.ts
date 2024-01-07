@@ -14,8 +14,10 @@ async function main () {
           console.log('Synced', module.name)
         } else {
           console.log('Syncing all modules')
-          const modules = await syncAll()
-          console.log('Sync ' + modules.length + ' modules')
+          const { count, success } = await syncAll()
+          console.log('Sync ' + count + ' modules')
+          if (!success)
+            process.exit(1)
         }
       }
       break
