@@ -15,7 +15,8 @@ export function fetchRawGithub (path) {
 
 export function fetchGithubPkg (repo) {
   let path
-  [repo, path = 'main'] = repo.split('#')
+  // HEAD will be the default branch
+  [repo, path = 'HEAD'] = repo.split('#')
 
   return fetchRawGithub(repo + '/' + path + '/' + 'package.json')
 }

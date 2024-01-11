@@ -5,7 +5,7 @@ npm: '@nuxtjs/webpackmonitor'
 icon: webpack.png
 github: https://github.com/nuxt-community/webpackmonitor-module
 website: https://github.com/nuxt-community/webpackmonitor-module
-learn_more: http://webpackmonitor.com/
+learn_more: ''
 category: Devtools
 type: community
 maintainers:
