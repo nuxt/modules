@@ -5,7 +5,7 @@ npm: nuxt-validate
 icon: vee-validate.png
 github: https://github.com/lewyuburi/nuxt-validate
 website: https://github.com/lewyuburi/nuxt-validate
-learn_more: https://logaretm.github.io/vee-validate/
+learn_more: ''
 category: Libraries
 type: 3rd-party
 maintainers:

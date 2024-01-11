@@ -5,7 +5,7 @@ npm: '@nuxtjs/robots'
 icon: robots.png
 github: https://github.com/nuxt-modules/robots
 website: https://github.com/nuxt-modules/robots
-learn_more: https://support.google.com/webmasters/answer/6062608?hl=en
+learn_more: ''
 category: SEO
 type: community
 maintainers:
