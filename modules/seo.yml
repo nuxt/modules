@@ -1,0 +1,16 @@
+name: seo
+description: The complete SEO solution for Nuxt.
+repo: harlan-zw/nuxt-seo
+npm: '@nuxtjs/seo'
+icon: nuxt.svg
+github: https://github.com/harlan-zw/nuxt-seo
+website: https://nuxtseo.com/
+learn_more: https://nuxtseo.com/nuxt-seo/getting-started/installation
+category: SEO
+type: 3rd-party
+maintainers:
+  - name: harlan-zw
+    github: harlan-zw
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

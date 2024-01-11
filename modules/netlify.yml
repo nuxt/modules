@@ -2,12 +2,12 @@ name: netlify
 description: >-
   Dynamically generate _headers and _redirects files for Netlify in your Nuxt
   projects.
-repo: bazzite/nuxt-netlify
+repo: juliomrqz/nuxt-netlify
 npm: '@aceforth/nuxt-netlify'
 icon: netlify.png
-github: https://github.com/bazzite/nuxt-netlify
-website: https://marquez.co/docs/nuxt-netlify/
-learn_more: ''
+github: https://github.com/juliomrqz/nuxt-netlify
+website: https://github.com/juliomrqz/nuxt-netlify
+learn_more: https://github.com/juliomrqz/nuxt-netlify/tree/develop/docs
 category: Deployment
 type: 3rd-party
 maintainers:

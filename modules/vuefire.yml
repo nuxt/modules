@@ -1,7 +1,7 @@
 name: vuefire
 description: Idiomatic composables for the Firebase SDK
-repo: vuejs/vuefire/packages/nuxt
-npm: 'nuxt-vuefire'
+repo: vuejs/vuefire#main/packages/nuxt
+npm: nuxt-vuefire
 icon: vuefire.svg
 github: https://github.com/vuejs/vuefire/tree/main/packages/nuxt
 website: https://vuefire.vuejs.org/
@@ -13,3 +13,4 @@ maintainers:
     github: posva
 compatibility:
   nuxt: ^3.0.0
+  requires: {}

@@ -1,6 +1,6 @@
 name: unlazy
 description: Lazy loading library for placeholder images
-repo: johannschopplich/unlazy/packages/nuxt
+repo: johannschopplich/unlazy#main/packages/nuxt
 npm: '@unlazy/nuxt'
 icon: unlazy.svg
 github: https://github.com/johannschopplich/unlazy/tree/main/packages/nuxt
@@ -13,3 +13,4 @@ maintainers:
     github: johannschopplich
 compatibility:
   nuxt: ^3.0.0
+  requires: {}
