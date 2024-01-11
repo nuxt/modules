@@ -1,6 +1,6 @@
 name: form-actions
 description: A set of features and composables to interact with forms and server data.
-repo: Hebilicious/form-actions-nuxt#main/packages/form-action-nuxt
+repo: Hebilicious/form-actions-nuxt#main/packages/form-actions-nuxt
 npm: '@hebilicious/form-actions-nuxt'
 icon: form-actions.svg
 github: https://github.com/Hebilicious/form-actions-nuxt

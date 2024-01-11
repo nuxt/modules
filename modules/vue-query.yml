@@ -1,6 +1,6 @@
 name: vue-query
 description: 0 config lightweight Nuxt module for @tanstack/vue-query.
-repo: Hebilicious/vue-query-nuxt/packages/vue-query-nuxt#main
+repo: Hebilicious/vue-query-nuxt#main/packages/vue-query-nuxt
 npm: '@hebilicious/vue-query-nuxt'
 icon: vue-query.svg
 github: https://github.com/Hebilicious/vue-query-nuxt
