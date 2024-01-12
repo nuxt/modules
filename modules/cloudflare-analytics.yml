@@ -1,0 +1,19 @@
+name: cloudflare-analytics
+description: Cloudflare Web Analytics Module for Nuxt
+repo: hamlogic/nuxt-cloudflare-analytics
+npm: nuxt-cloudflare-analytics
+icon: cloudflare.svg
+github: https://github.com/hamlogic/nuxt-cloudflare-analytics
+website: https://github.com/hamlogic/nuxt-cloudflare-analytics
+learn_more: https://www.cloudflare.com/web-analytics/
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: hamlogic
+    github: hamlogic
+  - name: Fabian B.
+    github: madebyfabian
+    twitter: madebyfabian
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

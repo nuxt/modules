@@ -1,0 +1,17 @@
+name: nuxt-gtm
+description: A Nuxt module for Google Tag Manager
+repo: zadigetvoltaire/nuxt-gtm
+npm: '@zadigetvoltaire/nuxt-gtm'
+icon: nuxt-gtm.svg
+github: https://github.com/zadigetvoltaire/nuxt-gtm
+website: https://github.com/zadigetvoltaire/nuxt-gtm
+learn_more: https://developers.google.com/tag-platform/tag-manager?hl=fr
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Zadig&Voltaire Team
+    github: https://github.com/zadigetvoltaire
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
+  devtools: ^0.0.0

@@ -1,5 +1,5 @@
 name: recaptcha
-description: Simple and easy Google reCAPTCHA module with Nuxt.js
+description: Simple and easy Google reCAPTCHA module with Nuxt
 repo: nuxt-community/recaptcha-module
 npm: '@nuxtjs/recaptcha'
 icon: recaptcha.png

@@ -1,6 +1,6 @@
 name: vue-warehouse
 description: >-
-  A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy
+  A Cross-browser storage for Vue.js and Nuxt, with plugins support and easy
   extensibility based on Store.js
 repo: juliomrqz/vue-warehouse
 npm: vue-warehouse

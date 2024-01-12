@@ -1,0 +1,19 @@
+name: quasar
+description: >-
+  Effortlessly build high-performance & high-quality Vue.js 3 user interfaces in
+  record time
+repo: Maiquu/nuxt-quasar
+npm: nuxt-quasar-ui
+icon: quasar.svg
+github: https://github.com/Maiquu/nuxt-quasar
+website: https://quasar.dev/
+learn_more: https://github.com/Maiquu/nuxt-quasar
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Ege İliklier
+    github: Maiquu
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
+  devtools: ^0.0.0

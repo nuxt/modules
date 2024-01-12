@@ -1,0 +1,16 @@
+name: time
+description: Safely render local dates and times on the server with Nuxt
+repo: danielroe/nuxt-time
+npm: nuxt-time
+icon: ''
+github: https://github.com/danielroe/nuxt-time
+website: https://github.com/danielroe/nuxt-time
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: danielroe
+    github: danielroe
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

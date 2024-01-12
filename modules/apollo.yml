@@ -1,5 +1,5 @@
 name: apollo
-description: Integrate GraphQL in your Nuxt.js apps using vue-apollo.
+description: Integrate GraphQL in your Nuxt apps using vue-apollo.
 repo: nuxt-modules/apollo
 npm: '@nuxtjs/apollo'
 icon: apollo.png

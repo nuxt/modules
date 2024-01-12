@@ -1,7 +1,5 @@
 name: storage
-description: >-
-  Utilities to easily read and write to the browser's storage in a Nuxt.js
-  project
+description: Utilities to easily read and write to the browser's storage in a Nuxt project
 repo: mazipan/nuxt-storage
 npm: nuxt-storage
 icon: ''

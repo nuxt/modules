@@ -1,5 +1,5 @@
 name: jsonapi
-description: Easy JSON:API client integration for Nuxt.js
+description: Easy JSON:API client integration for Nuxt
 repo: patrickcate/nuxt-jsonapi
 npm: nuxt-jsonapi
 icon: jsonapi.svg
