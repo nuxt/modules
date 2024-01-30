@@ -2,7 +2,7 @@ name: nuxt-openid-connect
 description: OpenID-Connect(OIDC) integration module for nuxt 3.0.
 repo: aborn/nuxt-openid-connect
 npm: nuxt-openid-connect
-icon: vitest.svg
+icon: ''
 github: https://github.com/aborn/nuxt-openid-connect
 website: https://github.com/aborn/nuxt-openid-connect
 learn_more: ''
