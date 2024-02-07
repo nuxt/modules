@@ -1,7 +1,5 @@
 name: vuetify
-description: >-
-  Vuetify Module for Nuxt to add Material Design components to your
-  application.
+description: Vuetify Module for Nuxt to add Material Design components to your application.
 repo: nuxt-community/vuetify-module
 npm: '@nuxtjs/vuetify'
 icon: vuetify.png

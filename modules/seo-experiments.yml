@@ -1,5 +1,5 @@
 name: seo-experiments
-description: Powerful SEO DX improvements that may or may not land in the Nuxt core.
+description: Powerful SEO DX improvements.
 repo: harlan-zw/nuxt-seo-experiments
 npm: nuxt-seo-experiments
 icon: seo-experiments.svg

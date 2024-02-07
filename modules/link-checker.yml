@@ -1,7 +1,5 @@
 name: link-checker
-description: >-
-  Find and magically fix links that may be negatively effecting your Nuxt sites
-  SEO.
+description: Find and magically fix links that may be negatively effecting your SEO.
 repo: harlan-zw/nuxt-link-checker
 npm: nuxt-link-checker
 icon: link-checker.svg
