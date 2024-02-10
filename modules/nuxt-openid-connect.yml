@@ -6,7 +6,7 @@ icon: ''
 github: https://github.com/aborn/nuxt-openid-connect
 website: https://github.com/aborn/nuxt-openid-connect
 learn_more: ''
-category: Devtools
+category: Security
 type: 3rd-party
 maintainers:
   - name: Aborn Jiang
