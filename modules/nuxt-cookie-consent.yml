@@ -2,7 +2,7 @@ name: nuxt-cookie-consent
 description: Nuxt module for integrating with cookie consent providers with ease
 repo: weareheavy/nuxt-cookie-consent
 npm: '@weareheavy/nuxt-cookie-consent'
-icon: 'wah.svg'
+icon: wah.svg
 github: https://github.com/weareheavy/nuxt-cookie-consent
 website: https://nuxt-cookie-consent.packages.weareheavy.com
 learn_more: ''
