@@ -32,7 +32,7 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - uses: dorny/paths-filter@v2
+      - uses: dorny/paths-filter@v3
         if: github.event_name == 'push'
         id: changes
         with:
