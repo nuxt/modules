@@ -1,7 +1,7 @@
 name: nuxt-hotjar
-description: Add HotJar to your Nuxt.js application
+description: Add HotJar to your Nuxt application
 repo: damevin/nuxt-module-hotjar
-npm: nuxt-nodule-hotjar
+npm: nuxt-module-hotjar
 icon: nuxt-module-hotjar.png
 github: https://github.com/damevin/nuxt-module-hotjar
 website: https://github.com/damevin/nuxt-module-hotjar
