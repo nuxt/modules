@@ -1,5 +1,5 @@
 name: gtag
-description: Google Analytics integration for Nuxt
+description: "Google Analytics integration for Nuxt: Google Analytics, Google Ads and more"
 repo: johannschopplich/nuxt-gtag
 npm: nuxt-gtag
 icon: gtag.svg
