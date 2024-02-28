@@ -1,6 +1,5 @@
 name: api-party
-description: >-
-  Securely connect to any API with a server proxy and dynamic composables
+description: Securely connect to any API with a server proxy and dynamic composables
 repo: johannschopplich/nuxt-api-party
 npm: nuxt-api-party
 icon: api-party.svg
