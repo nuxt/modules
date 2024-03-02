@@ -4,6 +4,7 @@ repo: nuxt/fonts
 npm: '@nuxt/fonts'
 icon: nuxt.svg
 github: https://github.com/nuxt/fonts
+website: https://github.com/nuxt/fonts
 learn_more: ''
 category: Libraries
 type: official
