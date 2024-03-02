@@ -4,7 +4,7 @@ repo: johannschopplich/nuxt-api-party
 npm: nuxt-api-party
 icon: api-party.svg
 github: https://github.com/johannschopplich/nuxt-api-party
-website: https://nuxt-api-party.byjohann.dev
+website: https://nuxt-api-party.byjohann.dev/
 learn_more: ''
 category: Request
 type: 3rd-party
