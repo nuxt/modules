@@ -1,7 +1,7 @@
 name: nuxt-swiftsearch 
 description: >-
   Nuxt module for a typesafe, SSR first algolia instantsearch experience
-repo: @atoms-studio/nuxt-swiftsearch
+repo: atoms-studio/nuxt-swiftsearch
 npm: @atoms-studio/nuxt-swiftsearch
 icon: nuxt-swiftsearch.svg
 github: https://github.com/atoms-studio/nuxt-swiftsearch
