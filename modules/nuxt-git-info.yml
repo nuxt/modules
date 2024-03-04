@@ -1,0 +1,14 @@
+name: nuxt-git-info
+description: Nuxt module wrapper around git-repo-info module. It expose git information (like branch, sha, etc...) to public runtime config.
+repo: rtrap-rsi/nuxt-git-info
+npm: 'nuxt-git-info'
+icon: nuxt-git-info.svg
+github: https://github.com/rtrap-rsi/nuxt-git-info
+category: Extensions
+type: community
+maintainers:
+  - name: Roberto Trapletti
+    github: rtrap-rsi
+    avatar: https://avatars.githubusercontent.com/u/66370297?v=4
+compatibility:
+  nuxt: ^3.0.0
