@@ -1,0 +1,15 @@
+name: tdesign-vue-next
+description: A Vue 3 UI components library
+repo: tdesignOteam/tdesign-nuxt
+npm: "@tdesign-vue-next/nuxt"
+icon: tdesign.svg
+github: https://github.com/Tencent/tdesign-vue-next
+website: https://tdesign.tencent.com/vue-next/overview-en
+learn_more: https://github.com/tdesignoteam/tdesign-nuxt
+category: UI
+type: 3rd-party
+maintainers:
+  - name: uyarn
+    github: uyarn
+compatibility:
+  nuxt: ^3.0.0
