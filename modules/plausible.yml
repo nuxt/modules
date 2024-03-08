@@ -2,7 +2,7 @@ name: plausible
 description: Nuxt module to natively integrate Plausible analytics
 repo: nuxt-modules/plausible
 npm: '@nuxtjs/plausible'
-icon: ''
+icon: plausible.svg
 github: https://github.com/nuxt-modules/plausible
 website: https://github.com/nuxt-modules/plausible
 learn_more: ''
