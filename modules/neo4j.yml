@@ -4,15 +4,15 @@ description: >-
   applications!
 repo: arashsheyda/nuxt-neo4j
 npm: nuxt-neo4j
-icon: ''
+icon: nuxt-neo4j.png
 github: https://github.com/arashsheyda/nuxt-neo4j
 website: https://github.com/arashsheyda/nuxt-neo4j
 learn_more: ''
-category: Devtools
+category: Database
 type: 3rd-party
 maintainers:
   - name: arashsheyda
     github: arashsheyda
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}
