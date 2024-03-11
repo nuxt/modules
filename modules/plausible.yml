@@ -9,8 +9,8 @@ learn_more: ''
 category: Devtools
 type: community
 maintainers:
-  - name: nuxt-modules
-    github: nuxt-modules
+  - name: Johann Schopplich
+    github: johannschopplich
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^2.0.0 || ^3.0.0
   requires: {}
