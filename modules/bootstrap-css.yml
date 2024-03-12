@@ -1,0 +1,16 @@
+name: bootstrap-css
+description: Setup Bootstrap CSS instantly
+repo: modbender/nuxt-bootstrap-css
+npm: nuxt-bootstrap-css
+icon: bootstrap-css.svg
+github: https://github.com/modbender/nuxt-bootstrap-css
+website: https://github.com/modbender/nuxt-bootstrap-css
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: modbender
+    github: modbender
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
