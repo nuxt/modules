@@ -3,8 +3,8 @@ description: VCalendar module for Nuxt
 repo: samk-dev/nuxt-vcalendar
 npm: '@samk-dev/nuxt-vcalendar'
 icon: vcalendar.png
-github: https://github.com/samk-dev/vcalendar
-website: https://github.com/samk-dev/vcalendar
+github: https://github.com/samk-dev/nuxt-vcalendar
+website: https://github.com/samk-dev/nuxt-vcalendar
 learn_more: ''
 category: Libraries
 type: 3rd-party
