@@ -40,6 +40,7 @@ export interface ModuleInfo {
   maintainers: MaintainerInfo[]
   contributors?: GithubContributor[]
   compatibility: ModuleCompatibility
+  aliases?: string[]
 
   // Fetched in realtime API for modules.nuxt.org
   downloads?: number
