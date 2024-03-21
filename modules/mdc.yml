@@ -1,0 +1,16 @@
+name: nuxt-mdc
+description: MDC supercharges regular Markdown to write documents interacting deeply with any Vue component.
+repo: nuxt-modules/mdc
+npm: @nuxtjs/mdc
+icon: mdc.png
+github: https://github.com/nuxt-modules/mdc
+website: https://github.com/nuxt-modules/mdc
+learn_more: ''
+category: Extensions
+type: community
+maintainers:
+  - name: farnabaz
+    github: farnabaz
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
