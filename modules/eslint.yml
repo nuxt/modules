@@ -1,14 +1,15 @@
 name: eslint
 description: >-
-  Collection of ESLint-related packages for Nuxt, provides project-aware, easy-to-use, extensible and future-proof integrations.
-repo: nuxt/eslint#main
-npm: '@nuxt/eslint'
+  Collection of ESLint-related packages for Nuxt, provides project-aware,
+  easy-to-use, extensible and future-proof integrations.
+repo: nuxt-community/eslint-module
+npm: '@nuxtjs/eslint-module'
 icon: nuxt.svg
 github: https://github.com/nuxt/eslint
 website: https://eslint.nuxt.com
 learn_more: ''
 category: Devtools
-type: official
+type: community
 maintainers:
   - name: Anthony Fu
     github: antfu
