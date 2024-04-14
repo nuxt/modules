@@ -5,7 +5,7 @@ npm: notivue
 icon: notivue.svg
 github: https://github.com/smastrom/notivue/tree/main/packages/nuxt
 website: https://notivue.smastrom.io
-learn_more: https://notivuedocs.netlify.app/installation/nuxt
+learn_more: https://docs.notivue.smastrom.io/installation/nuxt
 category: UI
 type: 3rd-party
 maintainers: 
