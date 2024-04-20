@@ -5,7 +5,7 @@ npm: '@nuxtjs/snipcart'
 icon: snipcart.png
 github: https://github.com/nuxt-modules/snipcart
 website: https://github.com/nuxt-modules/snipcart
-learn_more: https://snipcart.com
+learn_more: ''
 category: Ecommerce
 type: community
 maintainers:
