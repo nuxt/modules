@@ -1,0 +1,16 @@
+name: nuxt-uswds
+description: Vue USWDS (United States Web Design System) integration for Nuxt.js
+repo: patrickcate/nuxt-uswds
+npm: nuxt-uswds
+icon: nuxt-uswds.svg
+github: https://github.com/patrickcate/nuxt-uswds
+website: https://github.com/patrickcate/nuxt-uswds
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Patrick Cate
+    github: patrickcate
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
