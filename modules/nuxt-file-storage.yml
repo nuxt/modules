@@ -1,13 +1,13 @@
-name: nuxt-nitro-storage
+name: nuxt-file-storage
 description: >-
   Easy solution to store files in your nuxt apps. Upload files from the frontend
   and recieve them from the backend to save the files in your project.
-repo: nyllre/nuxt-nitro-storage
+repo: nyllre/nuxt-file-storage
 npm: nuxt-file-storage
-icon: nuxt-nitro-storage.svg
-github: https://github.com/nyllre/nuxt-nitro-storage
-website: https://github.com/nyllre/nuxt-nitro-storage
-learn_more: https://github.com/nyllre/nuxt-nitro-storage
+icon: nuxt-file-storage.svg
+github: https://github.com/nyllre/nuxt-file-storage
+website: https://github.com/nyllre/nuxt-file-storage
+learn_more: https://github.com/nyllre/nuxt-file-storage
 category: Database
 type: 3rd-party
 maintainers:
