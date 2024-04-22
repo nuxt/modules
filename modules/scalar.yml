@@ -1,5 +1,5 @@
 name: Scalar
-description: Render a beautiful API References based on a OpenAPI/Swagger file with Nuxt.
+description: Render beautiful API References based on a OpenAPI/Swagger file with Nuxt.
 repo: scalar/scalar
 npm: '@scalar/nuxt'
 icon: scalar.svg
