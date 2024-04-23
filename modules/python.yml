@@ -1,5 +1,5 @@
 name: python
-description: Write Nuxt.js applications using Python
+description: Write Nuxt applications using Python
 repo: nuxt-community/python-module
 npm: '@nuxtjs/python'
 icon: python.png

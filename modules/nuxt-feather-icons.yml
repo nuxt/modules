@@ -1,0 +1,16 @@
+name: nuxt-feather-icons
+description: The Feather Icons in Nuxt 3.
+repo: 4sllan/nuxt-feather-icons
+npm: nuxt-feather-icons
+icon: nuxt-feather-icons.png
+github: https://github.com/4sllan/nuxt-feather-icons
+website: https://github.com/4sllan/nuxt-feather-icons
+learn_more: https://github.com/4sllan/nuxt-feather-icons
+category: UI
+type: 3rd-party
+maintainers:
+  - name: 4sllan
+    github: 4sllan
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

@@ -1,0 +1,17 @@
+name: mailpit
+description: Integrates Mailpit web UI in Nuxt devtools
+repo: tdolsen/nuxt-mailpit
+npm: nuxt-mailpit
+icon: mailpit.svg
+github: https://github.com/tdolsen/nuxt-mailpit
+website: https://github.com/tdolsen/nuxt-mailpit
+learn_more: https://github.com/tdolsen/nuxt-mailpit
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Torkild Dyvik Olsen
+    github: tdolsen
+    twitter: tdolsen
+compatibility:
+  nuxt: ^3.8.0
+  requires: {}

@@ -1,6 +1,6 @@
 name: bulma-slim
 description: >-
-  Nuxt.js module to automatically make a slim Bulma build of used features with
+  Nuxt module to automatically make a slim Bulma build of used features with
   Purgecss
 repo: mustardamus/nuxt-bulma-slim
 npm: nuxt-bulma-slim

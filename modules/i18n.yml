@@ -2,12 +2,12 @@ name: i18n
 description: >-
   i18n features for your Nuxt project so you can easily add
   internationalization.
-repo: nuxt-community/i18n-module
+repo: nuxt-modules/i18n
 npm: '@nuxtjs/i18n'
 icon: i18n.png
-github: https://github.com/nuxt-community/i18n-module
+github: https://github.com/nuxt-modules/i18n
 website: https://i18n.nuxtjs.org
-learn_more: https://kazupon.github.io/vue-i18n/
+learn_more: https://vue-i18n.intlify.dev/
 category: Extensions
 type: community
 maintainers:
@@ -15,6 +15,8 @@ maintainers:
     github: rchl
   - name: Kazuya Kawaguchi
     github: kazupon
+  - name: Bobbie Goede
+    github: BobbieGoede
 compatibility:
   nuxt: ^2.0.0 || ^3.0.0
   requires: {}

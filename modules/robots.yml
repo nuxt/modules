@@ -1,11 +1,11 @@
 name: robots
-description: A Nuxt.js module thats inject a middleware to generate a robots.txt file
-repo: nuxt-community/robots-module
+description: A Nuxt module thats inject a middleware to generate a robots.txt file
+repo: nuxt-modules/robots
 npm: '@nuxtjs/robots'
 icon: robots.png
-github: https://github.com/nuxt-community/robots-module
-website: https://github.com/nuxt-community/robots-module
-learn_more: https://support.google.com/webmasters/answer/6062608?hl=en
+github: https://github.com/nuxt-modules/robots
+website: https://github.com/nuxt-modules/robots
+learn_more: ''
 category: SEO
 type: community
 maintainers:

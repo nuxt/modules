@@ -1,0 +1,19 @@
+name: vue3-carousel-nuxt
+description: >-
+  This module seamlessly integrates the Vue 3 Carousel module of ismail9k into
+  Nuxt applications.
+repo: gaetansenn/vue3-carousel-nuxt
+npm: vue3-carousel-nuxt
+icon: ''
+github: https://github.com/gaetansenn/vue3-carousel-nuxt
+website: https://github.com/gaetansenn/vue3-carousel-nuxt
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Gaetan SENN
+    github: gaetansenn
+    avatar: https://avatars.githubusercontent.com/u/2774075?v=4
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

@@ -1,0 +1,16 @@
+name: nuxt-bootstrap-icons
+description: Just a simple integration for Bootstrap Icons
+repo: OyewoleOyedeji/nuxt-bootstrap-icons
+npm: nuxt-bootstrap-icons
+icon: bootstrap-icons.svg
+github: https://github.com/OyewoleOyedeji/nuxt-bootstrap-icons
+website: https://github.com/OyewoleOyedeji/nuxt-bootstrap-icons
+learn_more: https://github.com/OyewoleOyedeji/nuxt-bootstrap-icons
+category: UI
+type: 3rd-party
+maintainers:
+  - name: OyewoleOyedeji
+    github: OyewoleOyedeji
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

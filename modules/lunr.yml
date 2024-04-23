@@ -1,5 +1,5 @@
 name: lunr
-description: Full-text search with pre-build indexes for Nuxt.js using lunr.js
+description: Full-text search with pre-build indexes for Nuxt using lunr.js
 repo: nuxt-community/lunr-module
 npm: '@nuxtjs/lunr-module'
 icon: ''

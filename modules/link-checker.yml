@@ -1,11 +1,11 @@
 name: link-checker
-description: Identify and fix link issues for prerendered Nuxt 3 apps.
+description: Find and magically fix links that may be negatively effecting your SEO.
 repo: harlan-zw/nuxt-link-checker
 npm: nuxt-link-checker
-icon: ''
+icon: link-checker.svg
 github: https://github.com/harlan-zw/nuxt-link-checker
-website: https://github.com/harlan-zw/nuxt-link-checker
-learn_more: ''
+website: https://nuxtseo.com/link-checker
+learn_more: https://nuxtseo.com/link-checker
 category: SEO
 type: 3rd-party
 maintainers:
@@ -16,3 +16,4 @@ maintainers:
 compatibility:
   nuxt: ^3.0.0
   requires: {}
+  devtools: ^0.0.0

@@ -1,0 +1,16 @@
+name: flags
+description: Nuxt module to use Feature Flags toggle feature services.
+repo: conejerock/nuxt-flags
+npm: 'conejerock/nuxt-flags'
+icon: flags.png
+github: https://github.com/conejerock/nuxt-flags
+website: https://github.com/conejerock/nuxt-flags
+learn_more: ''
+category: Devtools
+type: community
+maintainers:
+  - name: Juanjo Conejero
+    github: conejerock
+    twitter: juanjoconejero
+compatibility:
+  nuxt: ^3.0.0

@@ -1,0 +1,18 @@
+name: nuxt-mail
+description: >-
+  Adds email sending capability to a Nuxt.js app. Adds a server route, an
+  injected variable, and uses nodemailer to send emails.
+repo: dword-design/nuxt-mail
+npm: nuxt-mail
+icon: ''
+github: https://github.com/dword-design/nuxt-mail
+website: https://github.com/dword-design/nuxt-mail
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Sebastian Landwehr
+    github: dword-design
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires: {}

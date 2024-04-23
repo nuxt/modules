@@ -3,7 +3,7 @@ description: >-
   nuxt-speedkit will help you to improve the lighthouse performance (score:
   100/100) of your website.
 repo: GrabarzUndPartner/nuxt-speedkit
-npm: nuxt-speedkit
+npm: nuxt-booster
 icon: speedkit.png
 github: https://github.com/GrabarzUndPartner/nuxt-speedkit
 website: https://nuxt-speedkit.grabarzundpartner.dev
