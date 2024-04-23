@@ -1,0 +1,15 @@
+name: Scalar
+repo: scalar/scalar
+npm: root
+icon: ''
+github: https://github.com/scalar/scalar
+website: https://github.com/scalar/scalar
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: scalar
+    github: scalar
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
