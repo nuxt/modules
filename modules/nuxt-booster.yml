@@ -1,0 +1,21 @@
+name: nuxt-booster
+description: nuxt-booster will help you to improve the lighthouse performance score (100/100) of your website.
+repo: basics/nuxt-booster
+npm: nuxt-booster
+icon: nuxt-booster.svg
+github: https://github.com/basics/nuxt-booster
+website: https://basics.github.io/nuxt-booster/
+learn_more: https://basics.github.io/nuxt-booster/
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: Thorn Walli
+    github: ThornWalli
+    avatar: https://avatars.githubusercontent.com/u/8287751?v=4
+  - name: Stephan Gerbeth
+    github: StephanGerbeth
+    avatar: https://avatars.githubusercontent.com/u/3775511?v=4
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
+  devtools: ^0.0.0
