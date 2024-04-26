@@ -1,0 +1,16 @@
+name: Nuxt Lazytube
+description: Video component - will reduce loadtime
+repo: 4sllan/nuxt-lazytube
+npm: nuxt-lazytube
+icon: nuxt-lazytube.png
+github: https://github.com/4sllan/nuxt-lazytube
+website: https://github.com/4sllan/nuxt-lazytube
+learn_more: https://github.com/4sllan/nuxt-lazytube
+category: Images
+type: 3rd-party
+maintainers:
+  - name: 4sllan
+    github: 4sllan
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
