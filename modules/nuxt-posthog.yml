@@ -1,0 +1,16 @@
+name: nuxt-posthog
+description: Integrate PostHog into your application with minimal configuration
+repo: mitjans/nuxt-posthog
+npm: nuxt-posthog
+icon: posthog.svg
+github: https://github.com/mitjans/nuxt-posthog
+website: https://nuxt-posthog.cmitjans.dev
+learn_more: https://posthog.com
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Carles Mitjans
+    github: mitjans
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

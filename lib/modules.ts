@@ -98,7 +98,9 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     'category',
     'type',
     'maintainers',
-    'compatibility'
+    'compatibility',
+    'sponsor',
+    'aliases'
   ]
   const invalidFields = []
   for (const key in mod) {
@@ -116,6 +118,13 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     mod.name = (pkg.name.startsWith('@') ? pkg.name.split('/')[1] : pkg.name)
       .replace('nuxt-', '')
       .replace('-module', '')
+  }
+
+  if (mod.aliases) {
+    // Force to be an array
+    mod.aliases = Array.isArray(mod.aliases) ? mod.aliases : [mod.aliases]
+    // Remove name if in it
+    mod.aliases = mod.aliases.filter(alias => alias !== mod.name)
   }
 
   // Maintainers

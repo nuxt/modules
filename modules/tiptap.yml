@@ -4,8 +4,8 @@ repo: modbender/nuxt-tiptap-editor
 npm: nuxt-tiptap-editor
 icon: tiptap.png
 github: https://github.com/modbender/nuxt-tiptap-editor
-website: https://github.com/modbender/nuxt-tiptap-editor
-learn_more: https://github.com/modbender/nuxt-tiptap-editor
+website: https://nuxt-tiptap-editor.vercel.app
+learn_more: https://nuxt-tiptap-editor.vercel.app
 category: Libraries
 type: 3rd-party
 maintainers:

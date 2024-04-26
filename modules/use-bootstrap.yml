@@ -1,0 +1,16 @@
+name: use-bootstrap
+description: This module is a wrapper to front-end framework based on Nuxt3 and Bootstrap5
+repo: simplise/use-bootstrap
+npm: usebootstrap
+icon: use-bootstrap.svg
+github: https://github.com/simplise/use-bootstrap
+website: https://usebootstrap.org/
+learn_more: https://usebootstrap.org/
+category: UI
+type: 3rd-party
+maintainers:
+  - name: KoujiSano
+    github: KoujiSano
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
