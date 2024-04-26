@@ -1,0 +1,16 @@
+name: Nuxt Lazytube
+description: Nuxt.js 3 nuxt-lazytube
+repo: 4sllan/nuxt-lazytube
+npm: nuxt-lazytube
+icon: ''
+github: https://github.com/4sllan/nuxt-lazytube
+website: https://github.com/4sllan/nuxt-lazytube
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: 4sllan
+    github: 4sllan
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
