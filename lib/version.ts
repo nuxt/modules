@@ -1,10 +1,10 @@
-import path from 'path'
-import { promises as fsp } from 'fs'
+import path from 'node:path'
+import { promises as fsp } from 'node:fs'
 import hasha from 'hasha'
 import { rootDir, distFile } from './utils'
 import { build } from './modules'
 
-export async function version () {
+export async function version() {
   await build()
 
   const pkgFile = path.resolve(rootDir, 'package.json')
