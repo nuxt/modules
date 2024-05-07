@@ -1,16 +1,16 @@
-import { resolve, join, basename, extname } from 'path'
-import { promises as fsp, existsSync } from 'fs'
+import { resolve, join, basename, extname } from 'node:path'
+import { promises as fsp, existsSync } from 'node:fs'
 import * as yml from 'js-yaml'
 import { globby } from 'globby'
 import defu from 'defu'
 import pLimit from 'p-limit'
-import { categories } from './categories'
-import { ModuleInfo } from './types'
-import { fetchGithubPkg, modulesDir, distDir, distFile, rootDir } from './utils'
 import { $fetch } from 'ofetch'
 import { isCI } from 'std-env'
+import { categories } from './categories'
+import type { ModuleInfo } from './types'
+import { fetchGithubPkg, modulesDir, distDir, distFile, rootDir } from './utils'
 
-export async function sync (name, repo?: string, isNew: boolean = false) {
+export async function sync(name, repo?: string, isNew: boolean = false) {
   const mod = await getModule(name)
 
   // Repo
@@ -40,9 +40,11 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
   // Type
   if (mod.repo.startsWith('nuxt-community/') || mod.repo.startsWith('nuxt-modules/')) {
     mod.type = 'community'
-  } else if (mod.repo.startsWith('nuxt/')) {
+  }
+  else if (mod.repo.startsWith('nuxt/')) {
     mod.type = 'official'
-  } else {
+  }
+  else {
     mod.type = '3rd-party'
   }
 
@@ -50,17 +52,20 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
   if (!mod.category) {
     if (!isNew) {
       throw new Error(`No category for ${name}`)
-    } else {
+    }
+    else {
       console.log(`[TODO] Add a category to ./modules/${name}.yml`)
     }
-  } else if (!categories.includes(mod.category)) {
+  }
+  else if (!categories.includes(mod.category)) {
     let newCat = mod.category[0].toUpperCase() + mod.category.substr(1)
     if (newCat.length <= 3) {
       newCat = newCat.toUpperCase()
     }
     if (categories.includes(newCat)) {
       mod.category = newCat
-    } else {
+    }
+    else {
       throw new Error(`Unknown category ${mod.category} for ${mod.name}.\nSupported categories: ${categories.join(', ')}`)
     }
   }
@@ -100,7 +105,7 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     'maintainers',
     'compatibility',
     'sponsor',
-    'aliases'
+    'aliases',
   ]
   const invalidFields = []
   for (const key in mod) {
@@ -134,12 +139,13 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
     if (owner !== 'nuxt-community' && owner !== 'nuxt') {
       mod.maintainers.push({
         name: owner,
-        github: owner
+        github: owner,
       })
-    } else if (!isNew) {
+    }
+    else if (!isNew) {
       throw new Error(`No maintainer for ${mod.name}`)
-    } else {
-      // eslint-disable-next-line no-console
+    }
+    else {
       console.log(`[TODO] Add a maintainer to ./modules/${name}.yml`)
     }
   }
@@ -157,7 +163,7 @@ export async function sync (name, repo?: string, isNew: boolean = false) {
   return mod
 }
 
-export async function getModule (name): Promise<ModuleInfo> {
+export async function getModule(name): Promise<ModuleInfo> {
   let mod: ModuleInfo = {
     name,
     description: '',
@@ -172,8 +178,8 @@ export async function getModule (name): Promise<ModuleInfo> {
     maintainers: [],
     compatibility: {
       nuxt: '^2.0.0',
-      requires: {}
-    }
+      requires: {},
+    },
   }
 
   const file = resolve(modulesDir, name + '.yml')
@@ -184,12 +190,12 @@ export async function getModule (name): Promise<ModuleInfo> {
   return mod
 }
 
-export async function writeModule (module) {
+export async function writeModule(module) {
   const file = resolve(modulesDir, `${module.name}.yml`)
   await fsp.writeFile(file, yml.dump(module), 'utf8')
 }
 
-export async function readModules () {
+export async function readModules() {
   const globPattern = join(modulesDir, '*.yml').replace(/\\/g, '/')
   const names = (await globby(globPattern)).map(p => basename(p, extname(p))).filter(_ => _)
 
@@ -197,7 +203,7 @@ export async function readModules () {
     .then(modules => modules.filter(m => m.name))
 }
 
-export async function syncAll () {
+export async function syncAll() {
   const modules = await readModules()
   const limit = pLimit(10)
   let success = true
@@ -212,7 +218,7 @@ export async function syncAll () {
   return { count: updatedModules.length, success }
 }
 
-export async function build () {
+export async function build() {
   const modules = await readModules()
   await fsp.mkdir(distDir, { recursive: true })
   await fsp.writeFile(distFile, JSON.stringify(modules, null, 2))
