@@ -6,9 +6,4 @@ export default createConfigForNuxt({
     tooling: true,
     stylistic: true,
   },
-  dirs: {
-    src: [
-
-    ],
-  },
 })
