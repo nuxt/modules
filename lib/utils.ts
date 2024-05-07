@@ -15,13 +15,13 @@ export function fetchRawGithub(path) {
 }
 
 export function fetchGithubPkg(repo) {
-  let path
+  let path: string
   // HEAD will be the default branch
   [repo, path = 'HEAD'] = repo.split('#')
 
   return fetchRawGithub(repo + '/' + path + '/' + 'package.json')
 }
 
-export function uniq(items: any[]) {
+export function uniq<T>(items: T[]) {
   return Array.from(new Set(items))
 }

@@ -111,6 +111,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   for (const key in mod) {
     if (!validFields.includes(key)) {
       invalidFields.push(key)
+      // eslint-disable-next-line @typescript-eslint/no-dynamic-delete
       delete mod[key]
     }
   }
