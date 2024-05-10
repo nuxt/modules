@@ -1,6 +1,6 @@
 name: shadcn-nuxt
 description: shadcn-vue module for Nuxt
-repo: radix-vue/shadcn-vue#dev
+repo: radix-vue/shadcn-vue#dev/packages/module
 npm: shadcn-vue
 icon: ''
 github: https://github.com/radix-vue/shadcn-vue/tree/dev/packages/module
