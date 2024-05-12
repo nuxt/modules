@@ -1,5 +1,5 @@
-name: shadcn-nuxt
-description: shadcn-vue module for Nuxt
+name: shadcn
+description: Re-usable components built with Radix Vue and Tailwind CSS.
 repo: radix-vue/shadcn-vue#dev/packages/module
 npm: shadcn-nuxt
 icon: ''
