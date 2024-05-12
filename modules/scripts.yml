@@ -4,7 +4,7 @@ repo: nuxt/scripts
 npm: '@nuxt/scripts'
 icon: nuxt.svg
 github: https://github.com/nuxt/scripts
-website: https://github.com/nuxt/scripts
+website: https://scripts.nuxt.com
 learn_more: ''
 category: Libraries
 type: official
