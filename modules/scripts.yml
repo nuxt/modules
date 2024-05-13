@@ -1,0 +1,17 @@
+name: scripts
+description: Plug-and-play script optimization for Nuxt applications.
+repo: nuxt/scripts
+npm: '@nuxt/scripts'
+icon: nuxt.svg
+github: https://github.com/nuxt/scripts
+website: https://scripts.nuxt.com
+learn_more: ''
+category: Libraries
+type: official
+maintainers:
+  - name: Harlan Wilton
+    github: harlan-zw
+    twitter: harlan_zw
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
