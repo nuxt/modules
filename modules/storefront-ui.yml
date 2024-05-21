@@ -1,4 +1,4 @@
-name: Storefront-ui
+name: storefront-ui
 description: Storefront UI for Nuxt by Alokai
 repo: vuestorefront/storefront-ui#v2-develop/packages/sfui/frameworks/nuxt
 npm: '@storefront-ui/nuxt'
