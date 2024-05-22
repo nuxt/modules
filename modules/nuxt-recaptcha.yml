@@ -1,11 +1,11 @@
 name: recaptcha
 description: >-
-  Nuxt 3 integration for Google Recaptcha
-repo: arashsheyda/nuxt3-recaptcha
-npm: nuxt3-recaptcha
+  Nuxt integration for Google Recaptcha
+repo: arashsheyda/nuxt-recaptcha
+npm: nuxt-recaptcha
 icon: nuxt3-recaptcha.svg
-github: https://github.com/arashsheyda/nuxt3-recaptcha
-website: https://docs.arashsheyda.me/nuxt3-recaptcha
+github: https://github.com/arashsheyda/nuxt-recaptcha
+website: https://docs.arashsheyda.me/nuxt-recaptcha
 learn_more: ''
 category: Security
 type: 3rd-party
