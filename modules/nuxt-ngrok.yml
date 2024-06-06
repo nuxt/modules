@@ -1,5 +1,5 @@
 name: nuxt-ngrok
-description: Easily expose your Nuxt application to the internet with NGROK.
+description: Easily expose your Nuxt application to the internet with ngrok.
 repo: arashsheyda/nuxt-ngrok
 npm: nuxt-ngrok
 icon: ngrok.svg
