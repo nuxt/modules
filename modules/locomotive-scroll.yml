@@ -6,7 +6,7 @@ repo: arashsheyda/nuxt-locomotive-scroll
 npm: nuxt-locomotive-scroll
 icon: locomotive-scroll.png
 github: https://github.com/arashsheyda/nuxt-locomotive-scroll
-website: https://github.com/arashsheyda/nuxt-locomotive-scroll#readme
+website: https://docs.arashsheyda.me/nuxt-locomotive-scroll
 learn_more: https://github.com/locomotivemtl/locomotive-scroll
 category: Libraries
 type: 3rd-party
