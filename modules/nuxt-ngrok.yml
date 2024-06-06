@@ -1,4 +1,4 @@
-name: ngrok
+name: nuxt-ngrok
 description: Easily expose your Nuxt application to the internet with NGROK.
 repo: arashsheyda/nuxt-ngrok
 npm: nuxt-ngrok
