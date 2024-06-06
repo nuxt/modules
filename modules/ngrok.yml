@@ -1,13 +1,13 @@
 name: ngrok
-description: Easily expose your Nuxt application to the internet with ngrok.
-repo: arashsheyda/nuxt-ngrok
-npm: nuxt-ngrok
+description: ngrok exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes.
+repo: nuxt-modules/ngrok
+npm: '@nuxtjs/ngrok'
 icon: ngrok.svg
-github: https://github.com/arashsheyda/nuxt-ngrok
-website: https://docs.arashsheyda.me/nuxt-ngrok
+github: https://github.com/nuxt-modules/ngrok
+website: https://ngrok.nuxtjs.org/
 learn_more: https://ngrok.com/
 category: Devtools
-type: 3rd-party
+type: community
 maintainers:
   - name: Arash Sheyda
     github: arashsheyda
