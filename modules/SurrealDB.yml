@@ -4,6 +4,7 @@ repo: sandros94/nuxt-surrealdb
 npm: nuxt-surrealdb
 icon: surrealdb.png
 github: https://github.com/sandros94/nuxt-surrealdb
+website: https://github.com/sandros94/nuxt-surrealdb
 learn_more: ''
 category: Database
 type: 3rd-party
