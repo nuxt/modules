@@ -1,4 +1,4 @@
-name: SurrealDB
+name: surrealdb
 description: A Nuxt module aimed to simplify the use of SurrealDB
 repo: sandros94/nuxt-surrealdb
 npm: nuxt-surrealdb
