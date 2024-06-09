@@ -11,12 +11,6 @@ learn_more: https://ngrok.com/
 category: Devtools
 type: community
 maintainers:
-  - name: Debbie O'Brien
-    github: debs-obrien
-    twitter: debs_obrien
-  - name: Pooya Parsa
-    github: pi0
-    twitter: _pi0_
   - name: Arash Sheyda
     github: arashsheyda
 compatibility:
