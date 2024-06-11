@@ -1,0 +1,16 @@
+name: Mojo CSS
+description: Mojo CSS Nuxt module
+repo: mojocss/mojocss-nuxt-module
+npm: '@mojocss/nuxt'
+icon: ''
+github: https://github.com/mojocss/mojocss-nuxt-module
+website: https://github.com/mojocss/mojocss-nuxt-module
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: mojocss
+    github: mojocss
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
