@@ -8,7 +8,7 @@ npm: '@luxdamore/nuxt-humans-txt'
 icon: ''
 github: https://github.com/LuXDAmore/nuxt-humans-txt
 website: https://luxdamore.github.io/nuxt-humans-txt/
-learn_more: ''
+learn_more: https://humanstxt.org/
 category: SEO
 type: 3rd-party
 maintainers:
