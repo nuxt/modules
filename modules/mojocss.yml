@@ -1,4 +1,4 @@
-name: Mojo CSS
+name: mojocss
 description: The Atomic CSS Framework for crafting gorgeous UIs without shipping any CSS.
 repo: mojocss/mojocss-nuxt-module
 npm: '@mojocss/nuxt'
@@ -12,5 +12,5 @@ maintainers:
   - name: mojocss
     github: mojocss
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: ^2.0.0 || ^3.0.0
   requires: {}
