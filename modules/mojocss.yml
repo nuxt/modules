@@ -1,0 +1,16 @@
+name: mojocss
+description: The Atomic CSS Framework for crafting gorgeous UIs without shipping any CSS.
+repo: mojocss/mojocss-nuxt-module
+npm: '@mojocss/nuxt'
+icon: mojocss.svg
+github: https://github.com/mojocss/mojocss-nuxt-module
+website: https://mojocss.com/docs/guide/nuxtjs
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: mojocss
+    github: mojocss
+compatibility:
+  nuxt: ^2.0.0 || ^3.0.0
+  requires: {}
