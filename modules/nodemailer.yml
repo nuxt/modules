@@ -1,5 +1,5 @@
-name: nuxt-nodemailer
-description: Adds nodemailer to the Nuxt3
+name: nodemailer
+description: Nuxt integration for nodemailer
 repo: kleinpetr/nuxt-nodemailer
 npm: nuxt-nodemailer
 icon: nodemailer.png
