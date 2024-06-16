@@ -1,7 +1,7 @@
 name: easy-lightbox
 description: >-
-  A plugin for simple Vue 3 Image Lightbox component with Zoom / Drag /
-  Rotate / Switch.
+  A plugin for simple Vue 3 Image Lightbox component with Zoom / Drag / Rotate /
+  Switch.
 repo: modbender/nuxt-easy-lightbox
 npm: nuxt-easy-lightbox
 icon: easy-lightbox.svg
