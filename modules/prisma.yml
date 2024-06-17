@@ -6,7 +6,7 @@ icon: prisma.png
 github: https://github.com/prisma/nuxt-prisma
 website: https://github.com/prisma/nuxt-prisma
 learn_more: https://www.prisma.io/orm
-category: Devtools
+category: Database
 type: 3rd-party
 maintainers:
   - name: prisma
