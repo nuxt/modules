@@ -1,7 +1,7 @@
 name: prisma
-description: "Integrate Nuxt with Prisma ORM to simplify database access!"
+description: Integrate Nuxt with Prisma ORM to simplify database access!
 repo: prisma/nuxt-prisma
-npm: "@prisma/nuxt"
+npm: '@prisma/nuxt'
 icon: prisma.png
 github: https://github.com/prisma/nuxt-prisma
 website: https://github.com/prisma/nuxt-prisma
