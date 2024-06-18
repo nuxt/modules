@@ -1,6 +1,6 @@
 name: pinia-plugin-persistedstate
 description: Configurable persistence and rehydration of Pinia stores.
-repo: prazdevs/pinia-plugin-persistedstate#main/packages/nuxt
+repo: prazdevs/pinia-plugin-persistedstate/tree/main/packages/nuxt
 npm: '@pinia-plugin-persistedstate/nuxt'
 icon: pinia-plugin-persistedstate.png
 github: >-
