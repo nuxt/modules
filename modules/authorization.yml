@@ -1,5 +1,5 @@
 name: authorization
-description: Authorization module for managing permissions inside a Nuxt app.
+description: Manage permissions inside the app and the server.
 repo: barbapapazes/nuxt-authorization
 npm: nuxt-authorization
 icon: ''
