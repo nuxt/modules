@@ -4,7 +4,7 @@ repo: prisma/nuxt-prisma
 npm: '@prisma/nuxt'
 icon: prisma.png
 github: https://github.com/prisma/nuxt-prisma
-website: https://github.com/prisma/nuxt-prisma
+website: https://pris.ly/prisma-nuxt
 learn_more: https://www.prisma.io/orm
 category: Database
 type: 3rd-party
