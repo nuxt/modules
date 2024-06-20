@@ -1,0 +1,16 @@
+name: nodemailer
+description: Nuxt integration for nodemailer
+repo: kleinpetr/nuxt-nodemailer
+npm: nuxt-nodemailer
+icon: nodemailer.png
+github: https://github.com/kleinpetr/nuxt-nodemailer
+website: https://github.com/kleinpetr/nuxt-nodemailer
+learn_more: https://www.nodemailer.com/
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: kleinpetr
+    github: kleinpetr
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
