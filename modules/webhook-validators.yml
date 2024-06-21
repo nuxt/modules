@@ -1,0 +1,16 @@
+name: webhook-validators
+description: Nuxt module that works on the edge to easily validate incoming webhooks from different services.
+repo: yizack/nuxt-webhook-validators
+npm: nuxt-webhook-validators
+icon: webhook-validators.svg
+github: https://github.com/Yizack/nuxt-webhook-validators
+website: https://github.com/Yizack/nuxt-webhook-validators
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Yizack Rangel
+    github: yizack
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
