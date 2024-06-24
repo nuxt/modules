@@ -1,0 +1,16 @@
+name: onyx
+description: A design system and Vue.js component library created by Schwarz IT
+repo: SchwarzIT/onyx#main/packages/nuxt
+npm: '@sit-onyx/nuxt'
+icon: onyx.svg
+github: https://github.com/SchwarzIT/onyx
+website: https://onyx.schwarz/development/packages/nuxt.html
+learn_more: https://onyx.schwarz
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Schwarz IT
+    github: SchwarzIT
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
