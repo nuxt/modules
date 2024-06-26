@@ -1,13 +1,13 @@
 name: leaflet
 description: Leaflet integration with Nuxt
-repo: nuxt-modules/leaflet
-npm: '@nuxtjs/leaflet'
+repo: schlunsen/nuxt-leaflet
+npm: nuxt-leaflet
 icon: leaflet.png
 github: https://github.com/nuxt-modules/leaflet
 website: https://leaflet.nuxtjs.org/
 learn_more: https://leaflet.nuxtjs.org/
 category: Libraries
-type: community
+type: 3rd-party
 maintainers:
   - name: Augustin MERCIER
     github: Gugustinette
