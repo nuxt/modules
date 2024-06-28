@@ -2,15 +2,15 @@ name: echarts
 description: Nuxt Module for Apache ECharts™
 repo: kingyue737/nuxt-echarts
 npm: nuxt-echarts
-icon: ''
+icon: echarts.svg
 github: https://github.com/kingyue737/nuxt-echarts
-website: https://github.com/kingyue737/nuxt-echarts
-learn_more: ''
-category: Devtools
+website: https://echarts.nuxt.dev
+learn_more: https://nuxt-echarts.nuxt.dev
+category: Libraries
 type: 3rd-party
 maintainers:
-  - name: kingyue737
+  - name: Yue JIN
     github: kingyue737
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}
