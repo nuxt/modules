@@ -12,5 +12,5 @@ maintainers:
   - name: Michal Čípa
     github: cipami
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
