@@ -12,5 +12,5 @@ maintainers:
   - name: Schwarz IT
     github: SchwarzIT
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

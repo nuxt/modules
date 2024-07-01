@@ -1,7 +1,7 @@
 name: nuxt3-leaflet
 description: Leaflet integration with Nuxt
 repo: Gugustinette/Nuxt-Leaflet
-npm: nuxt3-leaflet
+npm: '@nuxtjs/leaflet'
 icon: leaflet.png
 github: https://github.com/Gugustinette/Nuxt-Leaflet
 website: https://gugustinette.github.io/Nuxt-Leaflet
@@ -12,5 +12,5 @@ maintainers:
   - name: Augustin MERCIER
     github: Gugustinette
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
