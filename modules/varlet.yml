@@ -12,6 +12,6 @@ maintainers:
   - name: zhangmo8
     github: zhangmo8
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires:
     bridge: optional
