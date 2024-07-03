@@ -4,8 +4,8 @@ repo: Gugustinette/Nuxt-Leaflet
 npm: '@nuxtjs/leaflet'
 icon: leaflet.png
 github: https://github.com/Gugustinette/Nuxt-Leaflet
-website: https://gugustinette.github.io/Nuxt-Leaflet
-learn_more: https://github.com/Gugustinette/Nuxt-Leaflet
+website: https://leaflet.nuxtjs.org/
+learn_more: https://leaflet.nuxtjs.org/
 category: Libraries
 type: 3rd-party
 maintainers:
