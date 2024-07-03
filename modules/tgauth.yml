@@ -1,6 +1,6 @@
 name: tgauth
 description: Extremely simple "Login with Telegram" button
-repo: nuxt-modules/tgauth
+repo: paranoidphantom/tgauth
 npm: '@paranoidphantom/tgauth'
 icon: tgauth.png
 github: https://github.com/paranoidphantom/tgauth
