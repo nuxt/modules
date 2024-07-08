@@ -4,8 +4,8 @@ repo: nuxtus/localtunnel
 npm: '@nuxtus/nuxt-localtunnel'
 icon: nuxt-localtunnel.svg
 github: https://github.com/nuxtus/localtunnel
-website: https://docs.nuxtus.com
-learn_more: https://docs.nuxtus.com/localtunnel.html
+website: https://github.com/nuxtus/localtunnel
+learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
@@ -13,5 +13,5 @@ maintainers:
     github: craigharman
     twitter: craig_harman
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

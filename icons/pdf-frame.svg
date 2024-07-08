@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 103</title>
+    <defs>
+        <linearGradient x1="-256.038487%" y1="50%" x2="344.974279%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FF727C" offset="0%"></stop>
+            <stop stop-color="#E2598A" offset="50.21597%"></stop>
+            <stop stop-color="#0077FC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-256.038487%" y1="50%" x2="344.974279%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FF727C" offset="0%"></stop>
+            <stop stop-color="#E2598A" offset="50.21597%"></stop>
+            <stop stop-color="#0077FC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-256.038487%" y1="50%" x2="344.974279%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#FF727C" offset="0%"></stop>
+            <stop stop-color="#E2598A" offset="50.21597%"></stop>
+            <stop stop-color="#0077FC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-47.4801797%" y1="50%" x2="149.350662%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#50399F" offset="0%"></stop>
+            <stop stop-color="#FF727C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-103" transform="translate(0.000000, 0.000000)">
+            <rect id="Rectangle" fill="#F8F8F8" opacity="0.0792643229" x="0" y="0" width="800" height="800" rx="110"></rect>
+            <g id="pdf-frame-(1)" transform="translate(5.000000, 240.000000)" fill-rule="nonzero">
+                <g id="Group" transform="translate(216.000000, 91.000000)">
+                    <path d="M123,0 L123,86.4672131 L123,87.5901639 L149.971429,87.5901639 L150.081968,27.0140845 L186.667771,27.0140845 C201.717607,27.0140845 213.918032,39.1839296 213.918032,54.1960422 L213.918032,82.8039578 C213.918032,97.8160704 201.717607,109.985916 186.667771,109.985916 L123,110.04918 L123,137 L188.667968,137 C217.570229,137 241,113.628958 241,84.7991409 L241,52.2008591 C241,23.3710422 217.570229,0 188.667968,0 L150.081968,0 L123,0 Z" id="Fill-5" fill="url(#linearGradient-1)"></path>
+                    <path d="M0,137 L0,0 L59.2688172,0 C89.0896058,0 104,14.5983607 104,43.795082 C104,72.9918033 89.0896058,87.5901639 59.2688172,87.5901639 L45.8494624,87.5901639 L45.8494624,64.0081967 L50.3225806,64.0081967 C67.469534,64.0081967 76.0430108,57.2704918 76.0430108,43.795082 C76.0430108,30.3196721 67.469534,23.5819672 50.3225806,23.5819672 L27.9569892,23.5819672 L27.9569892,64.0081967 L27.9569892,137 L0,137 Z" id="Path-2" fill="url(#linearGradient-2)"></path>
+                    <path d="M359,0 L359,23.5819672 L289.16092,23.5819672 L289.16092,137 L261,137 L261,0 L359,0 Z M349.988506,56.147541 L349.988506,79.7295082 L307.183908,79.7295082 L307.183908,56.147541 L349.988506,56.147541 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+                </g>
+                <polygon id="Path" fill="url(#linearGradient-4)" transform="translate(150.155000, 160.000000) scale(-1, 1) rotate(-180.000000) translate(-150.155000, -160.000000) " points="179.769618 0 76.155 161.594684 179.769618 320 224.155 320 120.540382 161.594684 224.155 0"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-4)" transform="translate(74.155000, 160.000000) scale(-1, 1) rotate(-180.000000) translate(-74.155000, -160.000000) " points="103.769618 0 0.155 161.594684 103.769618 320 148.155 320 44.5403821 161.594684 148.155 0"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-4)" transform="translate(714.155000, 160.000000) rotate(180.000000) translate(-714.155000, -160.000000) " points="743.769618 0 640.155 161.594684 743.769618 320 788.155 320 684.540382 161.594684 788.155 0"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-4)" transform="translate(637.155000, 160.000000) rotate(180.000000) translate(-637.155000, -160.000000) " points="666.769618 0 563.155 161.594684 666.769618 320 711.155 320 607.540382 161.594684 711.155 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

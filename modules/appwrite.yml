@@ -12,5 +12,5 @@ maintainers:
   - name: Hrdtr
     github: Hrdtr
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

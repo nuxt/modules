@@ -1,0 +1,16 @@
+name: shuimo-ui
+description: A Chinese Shuimo style component library.
+repo: shuimo-design/shuimo-ui#main/plugins/nuxt
+npm: '@shuimo-design/shuimo-ui-nuxt'
+icon: shuimo-ui.svg
+github: https://github.com/shuimo-design/shuimo-ui
+website: https://shuimo.design
+learn_more: https://github.com/shuimo-design/shuimo-ui/tree/main/plugins/nuxt
+category: UI
+type: 3rd-party
+maintainers:
+  - name: higuaifan
+    github: higuaifan
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
