@@ -21,4 +21,4 @@ jobs:
       - run: pnpm install
       - name: Run sync
         run: npm run sync
-      - uses: autofix-ci/action@ea32e3a12414e6d3183163c3424a7d7a8631ad84
+      - uses: autofix-ci/action@2891949f3779a1cafafae1523058501de3d4e944
