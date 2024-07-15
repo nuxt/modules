@@ -5,7 +5,7 @@ npm: '@vue-email/nuxt'
 icon: vue-email.svg
 github: https://github.com/vue-email/nuxt
 website: https://vuemail.net/
-learn_more: https://vuemail.net/ssr/nuxt
+learn_more: https://vuemail.net/
 category: UI
 type: 3rd-party
 maintainers:
