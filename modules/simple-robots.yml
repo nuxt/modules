@@ -1,7 +1,7 @@
 name: simple-robots
 description: Tame the robots crawling and indexing your Nuxt site.
 repo: harlan-zw/nuxt-simple-robots
-npm: nuxt-simple-robots
+npm: '@nuxtjs/robots'
 icon: simple-robots.svg
 github: https://github.com/harlan-zw/nuxt-simple-robots
 website: https://nuxtseo.com/robots
