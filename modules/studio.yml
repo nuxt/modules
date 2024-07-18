@@ -16,6 +16,6 @@ maintainers:
     github: Atinux
     twitter: Atinux
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires:
     content: true

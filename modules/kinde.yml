@@ -15,6 +15,6 @@ maintainers:
     github: DaveOrDead
     twitter: dave_or_dead
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
 sponsor: true

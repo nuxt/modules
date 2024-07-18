@@ -14,5 +14,5 @@ maintainers:
     twitter: MatteoRigoni
     avatar: https://avatars.githubusercontent.com/rigo-m?v=4
 compatibility:
-  nuxt: ^3.10.0
+  nuxt: '>=3.10.0'
   requires: {}

@@ -1,17 +1,19 @@
 name: icon
-description: Icon module for Nuxt with 100,000+ ready to use icons from Iconify.
-repo: nuxt-modules/icon
-npm: nuxt-icon
+description: Icon module for Nuxt with 200,000+ ready to use icons from Iconify.
+repo: nuxt/icon
+npm: '@nuxt/icon'
 icon: nuxt-icon.png
-github: https://github.com/nuxt-modules/icon
-website: https://github.com/nuxt-modules/icon
+github: https://github.com/nuxt/icon
+website: https://github.com/nuxt/icon
 learn_more: ''
 category: UI
-type: community
+type: official
 maintainers:
   - name: Atinux
     github: Atinux
+  - name: Anthony Fu
+    github: antfu
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
   devtools: ^0.0.0

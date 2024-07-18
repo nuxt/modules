@@ -13,7 +13,7 @@ maintainers:
     github: antfu
     twitter: antfu7
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires:
     bridge: optional
   devtools: ^0.0.0

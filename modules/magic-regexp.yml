@@ -13,5 +13,5 @@ maintainers:
     github: danielroe
     twitter: danielcroe
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

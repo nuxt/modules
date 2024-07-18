@@ -12,5 +12,5 @@ maintainers:
   - name: Carles Mitjans
     github: mitjans
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

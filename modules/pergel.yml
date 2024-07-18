@@ -14,5 +14,5 @@ maintainers:
   - name: Mehmet - productdevbook
     github: productdevbook
 compatibility:
-  nuxt: ^3.10.0
+  nuxt: '>=3.10.0'
   requires: {}

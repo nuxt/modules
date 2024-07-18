@@ -13,5 +13,5 @@ maintainers:
     github: bezumkin
     avatar: https://avatars.githubusercontent.com/u/1257284
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

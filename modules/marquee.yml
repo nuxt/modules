@@ -15,6 +15,6 @@ maintainers:
     github: hanzydev
     avatar: https://avatars.githubusercontent.com/u/77491112?v=4
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
   devtools: ^0.0.0

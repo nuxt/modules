@@ -14,5 +14,5 @@ maintainers:
     twitter: jamiewarb
     avatar: https://avatars.githubusercontent.com/jamiewarb?v=4
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

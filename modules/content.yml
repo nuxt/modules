@@ -22,5 +22,5 @@ maintainers:
     github: Atinux
     twitter: Atinux
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

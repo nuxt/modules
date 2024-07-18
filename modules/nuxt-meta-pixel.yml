@@ -1,0 +1,19 @@
+name: nuxt-meta-pixel
+description: >-
+  Meta (Facebook) pixel integration for Nuxt. Multi-pixel, auto page view and
+  more.
+repo: tanukijs/meta-pixel#dev/packages/nuxt-meta-pixel
+npm: nuxt-meta-pixel
+icon: ''
+github: https://github.com/tanukijs/meta-pixel
+website: https://github.com/tanukijs/meta-pixel
+learn_more: https://github.com/tanukijs/meta-pixel/tree/dev/packages/nuxt-meta-pixel
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: tanukijs
+    github: tanukijs
+    avatar: https://avatars.githubusercontent.com/u/25182349?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
