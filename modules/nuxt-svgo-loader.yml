@@ -13,6 +13,6 @@ maintainers:
     github: Mini-ghost
     twitter: Minighost_Alex
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
   devtools: ^0.0.0

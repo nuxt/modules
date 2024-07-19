@@ -15,5 +15,5 @@ maintainers:
     github: Tahul
     twitter: yaeeelglx
 compatibility:
-  nuxt: ^3.8.0
+  nuxt: '>=3.8.0'
   requires: {}
