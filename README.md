@@ -103,3 +103,7 @@ pnpm build
 
 [volta-src]: https://user-images.githubusercontent.com/904724/209143798-32345f6c-3cf8-4e06-9659-f4ace4a6acde.svg
 [volta-href]: https://volta.net/nuxt/modules?utm_source=readme_nuxt_modules
+
+## Contributors
+
+<img src="https://markupgo.com/github/nuxt/modules/contributors?count=0&circleSpacing=10&center=true" width="100%" />
