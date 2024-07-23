@@ -1,0 +1,16 @@
+name: nuxt-apollo-client
+Description: Apollo Client with SSR, Codegen, Uploads, Tokens, Types & Auto-Imports.
+repo: safdar-azeem/nuxt-apollo-client
+npm: 'nuxt-apollo-client'
+icon: nuxt-apollo-client.svg
+github: https://github.com/safdar-azeem/nuxt-apollo-client
+learn_more: https://github.com/safdar-azeem/nuxt-apollo-client
+website: ''
+category: Request
+type: 3rd-party
+maintainers:
+    - name: Safdar Azeem
+      github: safdar-azeem
+compatibility:
+    nuxt: ^2.0.0 || >=3.0.0
+    requires: {}
