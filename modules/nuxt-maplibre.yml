@@ -1,0 +1,16 @@
+name: nuxt-maplibre
+description: A Nuxt module to use MapLibre
+repo: Gugustinette/nuxt-maplibre
+npm: nuxt-maplibre
+icon: ''
+github: https://github.com/Gugustinette/nuxt-maplibre
+website: https://github.com/Gugustinette/nuxt-maplibre
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Gugustinette
+    github: Gugustinette
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
