@@ -4,7 +4,7 @@ repo: 4sllan/nuxt-lazytube
 npm: nuxt-lazytube
 icon: nuxt-lazytube.png
 github: https://github.com/4sllan/nuxt-lazytube
-website: https://github.com/4sllan/nuxt-lazytube
+website: https://nuxt-lazytube.netlify.app/
 learn_more: https://github.com/4sllan/nuxt-lazytube
 category: Images
 type: 3rd-party
