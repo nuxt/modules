@@ -2,7 +2,7 @@ name: nuxt-ollama
 description: Simple integration of the official Ollama JavaScript Library for your Nuxt application.
 repo: jericho1060/nuxt-ollama
 npm: nuxt-ollama
-icon: ''
+icon: nuxt-ollama.png
 github: https://github.com/jericho1060/nuxt-ollama
 website: https://github.com/jericho1060/nuxt-ollama
 learn_more: https://github.com/jericho1060/nuxt-ollama
