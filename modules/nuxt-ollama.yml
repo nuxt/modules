@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Jericho
     github: jericho1060
+    avatar: https://avatars.githubusercontent.com/jericho1060
 compatibility:
   nuxt: ^3.0.0
   requires: {}
