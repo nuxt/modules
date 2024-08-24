@@ -1,5 +1,7 @@
 name: nuxt-i18n-micro
-description: I18n Micro is a fast, simple, and lightweight internationalization (i18n) module.
+description: >-
+  I18n Micro is a fast, simple, and lightweight internationalization (i18n)
+  module.
 repo: s00d/nuxt-i18n-micro
 npm: nuxt-i18n-micro
 icon: nuxt-i18n-micro.png
