@@ -1,4 +1,4 @@
-name: Precognition
+name: precognition
 description: Nuxt module implementing Laravel Precognition protocol in Nitro
 repo: sot1986/nuxt-precognition
 npm: nuxt-precognition
