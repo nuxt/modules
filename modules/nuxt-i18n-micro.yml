@@ -1,12 +1,12 @@
 name: nuxt-i18n-micro
-description: A lightweight, high-performance internationalization module for Nuxt
+description: I18n Micro is a fast, simple, and lightweight internationalization (i18n) module.
 repo: s00d/nuxt-i18n-micro
 npm: nuxt-i18n-micro
 icon: nuxt-i18n-micro.png
 github: https://github.com/s00d/nuxt-i18n-micro
 website: https://github.com/s00d/nuxt-i18n-micro
 learn_more: https://www.npmjs.com/package/nuxt-i18n-micro
-category: Libraries
+category: Extensions
 type: 3rd-party
 maintainers:
   - name: Pavel Kuzmin
