@@ -1,0 +1,16 @@
+name: tgauth
+description: Extremely simple "Login with Telegram" button
+repo: paranoidphantom/tgauth
+npm: '@paranoidphantom/tgauth'
+icon: tgauth.png
+github: https://github.com/paranoidphantom/tgauth
+website: https://github.com/paranoidphantom/tgauth
+learn_more: https://github.com/paranoidphantom/tgauth
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Andrei Hudalla
+    github: paranoidPhantom
+compatibility:
+  nuxt: ^3.11.0
+  requires: {}

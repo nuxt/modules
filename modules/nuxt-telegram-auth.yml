@@ -1,0 +1,17 @@
+name: nuxt-telegram-auth
+description: Telegram login widget integration for Nuxt 3
+repo: halitsever/nuxt-telegram-auth
+npm: nuxt-telegram-auth
+icon: nuxt-telegram-auth.png
+github: https://github.com/halitsever/nuxt-telegram-auth
+website: https://halitsever.github.io/nuxt-telegram-auth
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Halit Sever
+    github: halitsever
+    avatar: https://avatars.githubusercontent.com/u/34791459?v=4
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
