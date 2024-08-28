@@ -1,5 +1,7 @@
 name: css-media-splitter
-description: The tool extracts all media at-rules into dedicated files and download them only when the user device matches the media query.
+description: >-
+  The tool extracts all media at-rules into dedicated files and download them
+  only when the user device matches the media query.
 repo: levchak0910/css-media-splitter
 npm: css-media-splitter
 icon: css-media-splitter.png
