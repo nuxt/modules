@@ -12,5 +12,5 @@ maintainers:
   - name: 草鞋没号
     github: caoxiemeihao
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

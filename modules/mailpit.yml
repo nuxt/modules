@@ -13,5 +13,5 @@ maintainers:
     github: tdolsen
     twitter: tdolsen
 compatibility:
-  nuxt: ^3.8.0
+  nuxt: '>=3.8.0'
   requires: {}
