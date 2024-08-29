@@ -5,7 +5,7 @@ npm: nuxt-auth-sanctum
 icon: laravel.svg
 github: https://github.com/manchenkoff/nuxt-auth-sanctum
 website: https://manchenkoff.gitbook.io/nuxt-auth-sanctum/
-learn_more: https://laravel.com/docs/10.x/sanctum
+learn_more: https://laravel.com/docs/11.x/sanctum
 category: Security
 type: 3rd-party
 maintainers:
@@ -13,5 +13,5 @@ maintainers:
     github: manchenkoff
     avatar: https://avatars.githubusercontent.com/manchenkoff
 compatibility:
-  nuxt: '>=3.9.0'
+  nuxt: '>=3.12.0'
   requires: {}
