@@ -1,0 +1,17 @@
+name: nuxt-inline-scripts
+description: Enable/Disable inlineScripts for Nuxt3
+repo: Dante-dan/nuxt-inline-scripts
+npm: nuxt-inline-scripts
+icon: ''
+github: https://github.com/Dante-dan/nuxt-inline-scripts
+website: https://github.com/Dante-dan/nuxt-inline-scripts
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Dante-dan
+    github: Dante-dan
+    twitter: Dante21299538
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
