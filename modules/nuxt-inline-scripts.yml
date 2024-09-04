@@ -2,7 +2,7 @@ name: nuxt-inline-scripts
 description: Enable/Disable inlineScripts for Nuxt3
 repo: Dante-dan/nuxt-inline-scripts
 npm: nuxt-inline-scripts
-icon: ''
+icon: nuxt-inline-scripts.svg
 github: https://github.com/Dante-dan/nuxt-inline-scripts
 website: https://github.com/Dante-dan/nuxt-inline-scripts
 learn_more: ''
