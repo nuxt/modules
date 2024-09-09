@@ -2,7 +2,7 @@ name: artivue
 description: >-
   A dynamic & layered theming engine for Vue applications. Pick a color and transform your entire application!
 repo: Eschricht/artivue
-npm: artivue
+npm: '@artivue/nuxt'
 icon: artivue.svg
 github: https://github.com/Eschricht/artivue
 website: https://artivue.eschricht.dev
