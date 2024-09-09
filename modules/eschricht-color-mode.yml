@@ -1,0 +1,17 @@
+name: '@eschricht/nuxt-color-mode'
+description: >-
+  A module similar to `@nuxtjs/color-mode` but with SSR support (through cookie and the `sec-ch-prefers-color-scheme` header to fetch system preferred color scheme on server)
+repo: Eschricht/nuxt-color-mode
+npm: '@eschricht/nuxt-color-mode'
+icon: ''
+github: https://github.com/Eschricht/nuxt-color-mode
+website: ''
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Eschricht
+    github: Eschricht
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
