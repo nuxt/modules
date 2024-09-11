@@ -4,8 +4,8 @@ repo: intevel/nuxt-directus
 npm: nuxt-directus
 icon: directus.svg
 github: https://github.com/intevel/nuxt-directus/
-website: https://nuxt-directus.site/
-learn_more: https://nuxt-directus.site/
+website: https://nuxt-directus.de/
+learn_more: https://directus.io/
 category: CMS
 type: 3rd-party
 maintainers:
