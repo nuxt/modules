@@ -1,5 +1,5 @@
-name: Dragon Editor
-description: Javascript WYSIWYG editor in Nuxt3!
+name: dragon-editor
+description: Javascript WYSIWYG editor in Nuxt!
 repo: lovefields/dragonEditor
 npm: dragon-editor
 icon: ''
