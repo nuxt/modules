@@ -1,4 +1,4 @@
-name: sentry
+name: nuxt2-sentry
 description: >-
   Sentry module for Nuxt to help developers diagnose, fix, and optimize the
   performance of their code
