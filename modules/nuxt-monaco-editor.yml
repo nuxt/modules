@@ -12,5 +12,5 @@ maintainers:
   - name: e-chan1007
     github: e-chan1007
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

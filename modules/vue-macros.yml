@@ -13,7 +13,7 @@ maintainers:
     github: sxzz
     twitter: sanxiaozhizi
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires:
     bridge: optional
   devtools: ^0.0.0

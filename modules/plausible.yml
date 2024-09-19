@@ -6,11 +6,11 @@ icon: plausible.svg
 github: https://github.com/nuxt-modules/plausible
 website: https://github.com/nuxt-modules/plausible
 learn_more: ''
-category: Devtools
+category: Analytics
 type: community
 maintainers:
   - name: Johann Schopplich
     github: johannschopplich
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}
