@@ -1,0 +1,19 @@
+name: nuxt-sanctum-authentication
+description: Nuxt 3 module for easy Laravel Sanctum authentication, offering CSRF token management, both cookie and token-based auth, and SSR compatibility.
+repo: qirolab/nuxt-sanctum-authentication
+npm: @qirolab/nuxt-sanctum-authentication
+icon: laravel.svg
+github: https://github.com/qirolab/nuxt-sanctum-authentication
+website: https://qirolab.com
+learn_more: https://qirolab.github.io/nuxt-sanctum-authentication/
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Qirolab
+    github: qirolab
+    avatar: https://avatars.githubusercontent.com/qirolab
+  - name: Harish Kumar
+    github: hkp22
+compatibility:
+  nuxt: '>=3.12.0'
+  requires: {}
