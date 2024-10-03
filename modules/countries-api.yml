@@ -1,0 +1,16 @@
+name: countries-api
+description: Self hosted REST API with countries data
+repo: vis97c/countries-api
+npm: nuxt-countries-api
+icon: countries-api.png
+github: https://github.com/vis97c/countries-api
+website: https://countries.xamu.com.co/
+learn_more: https://github.com/vis97c/countries-api/#readme
+category: Request
+type: 3rd-party
+maintainers:
+  - name: vis97c
+    github: vis97c
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
