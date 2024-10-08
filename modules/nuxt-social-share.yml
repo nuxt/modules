@@ -1,10 +1,10 @@
 name: nuxt-social-share
-description: Simple Social Sharing for Nuxt
+description: Simple social sharing for your Nuxt Sites
 repo: stefanobartoletti/nuxt-social-share
 npm: '@stefanobartoletti/nuxt-social-share'
 icon: nuxt-social-share.png
 github: https://github.com/stefanobartoletti/nuxt-social-share
-website: https://github.com/stefanobartoletti/nuxt-social-share
+website: https://nuxt-social-share.stefanobartoletti.it
 learn_more: https://github.com/stefanobartoletti/nuxt-social-share#readme
 category: Extensions
 type: 3rd-party
