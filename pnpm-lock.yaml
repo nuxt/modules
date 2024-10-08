@@ -33,8 +33,8 @@ devDependencies:
     specifier: ^4.1.0
     version: 4.1.0
   ofetch:
-    specifier: ^1.3.3
-    version: 1.3.4
+    specifier: ^1.4.0
+    version: 1.4.0
   std-env:
     specifier: ^3.7.0
     version: 3.7.0
@@ -1363,8 +1363,8 @@ packages:
       boolbase: 1.0.0
     dev: true
 
-  /ofetch@1.3.4:
-    resolution: {integrity: sha512-KLIET85ik3vhEfS+3fDlc/BAZiAp+43QEC/yCo5zkNoY2YaKvNkOaFr/6wCFgFH1kuYQM5pMNi0Tg8koiIemtw==}
+  /ofetch@1.4.0:
+    resolution: {integrity: sha512-MuHgsEhU6zGeX+EMh+8mSMrYTnsqJQQrpM00Q6QHMKNqQ0bKy0B43tk8tL1wg+CnsSTy1kg4Ir2T5Ig6rD+dfQ==}
     dependencies:
       destr: 2.0.3
       node-fetch-native: 1.6.4
