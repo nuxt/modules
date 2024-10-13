@@ -1,0 +1,16 @@
+name: nuxt-http-client-hints
+description: Nuxt HTTP Client Hints
+repo: userquin/nuxt-http-client-hints
+npm: nuxt-http-client-hints
+icon: ''
+github: https://github.com/userquin/nuxt-http-client-hints
+website: https://github.com/userquin/nuxt-http-client-hints
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: userquin
+    github: userquin
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
