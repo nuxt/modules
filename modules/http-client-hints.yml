@@ -1,0 +1,17 @@
+name: nuxt-http-client-hints
+description: Nuxt HTTP Client Hints
+repo: userquin/nuxt-http-client-hints
+npm: nuxt-http-client-hints
+icon: http-client-hints.svg
+github: https://github.com/userquin/nuxt-http-client-hints
+website: https://github.com/userquin/nuxt-http-client-hints
+learn_more: https://github.com/userquin/nuxt-http-client-hints?tab=readme-ov-file#features
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Joaquín Sánchez
+    github: userquin
+    twitter: userquin
+compatibility:
+  nuxt: '>=3.9.0'
+  requires: {}
