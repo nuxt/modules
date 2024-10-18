@@ -22,7 +22,7 @@
     "test": "pnpm lint && pnpm sync"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.3.10",
+    "@nuxt/eslint-config": "^0.3.13",
     "@types/js-yaml": "^4.0.5",
     "@types/node": "^18.17.15",
     "defu": "^6.1.2",
