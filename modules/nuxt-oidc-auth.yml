@@ -1,13 +1,11 @@
 name: nuxt-oidc-auth
-description: >-
-  Nuxt SSR OIDC (OpenID Connect) authentication with server side encrypted
-  sessions.
+description: Seamless modern authentication for Nuxt applications.
 repo: itpropro/nuxt-oidc-auth
 npm: nuxt-oidc-auth
-icon: ''
+icon: nuxt-oidc-auth.png
 github: https://github.com/itpropro/nuxt-oidc-auth
-website: https://github.com/itpropro/nuxt-oidc-auth
-learn_more: https://github.com/itpropro/nuxt-oidc-auth
+website: https://nuxtoidc.cloud/
+learn_more: https://nuxtoidc.cloud/
 category: Security
 type: 3rd-party
 maintainers:
