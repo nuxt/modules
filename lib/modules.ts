@@ -183,10 +183,10 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
         }
         for (const social of response.user.socialAccounts.nodes) {
           if (social.provider === 'TWITTER') {
-            maintainer.twitter = social.displayName
+            maintainer.twitter = social.displayName.replace(/^@/, '')
           }
           if (social.provider === 'BLUESKY') {
-            maintainer.bluesky = social.displayName
+            maintainer.bluesky = social.displayName.replace(/^@/, '')
           }
         }
       }
