@@ -13,10 +13,11 @@ learn_more: https://stripe.com/docs
 category: Payment
 type: 3rd-party
 maintainers:
-  - name: Loic Fuentes
+  - name: Loïc Fuentes
     github: fuentesloic
-  - name: Florent Giraud
+  - name: florent giraud
     github: flozero
+    twitter: flozeroo
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

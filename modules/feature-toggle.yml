@@ -9,7 +9,7 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: stephenkr
+  - name: Stephen
     github: stephenkr
 compatibility:
   nuxt: ^2.0.0

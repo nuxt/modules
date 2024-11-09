@@ -12,6 +12,7 @@ maintainers:
   - name: Jakub Andrzejewski
     github: Baroshem
     avatar: https://avatars.githubusercontent.com/u/37120330?v=4
+    twitter: jacobandrewsky
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

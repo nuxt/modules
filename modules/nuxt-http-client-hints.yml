@@ -12,6 +12,7 @@ maintainers:
   - name: Joaquín Sánchez
     github: userquin
     twitter: userquin
+    bluesky: userquin.bsky.social
 compatibility:
   nuxt: '>=3.9.0'
   requires: {}

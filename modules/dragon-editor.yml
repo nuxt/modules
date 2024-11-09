@@ -9,7 +9,7 @@ learn_more: ''
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: lovefields
+  - name: lovefield
     github: lovefields
 compatibility:
   nuxt: ^3.0.0

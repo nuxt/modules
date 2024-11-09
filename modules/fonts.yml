@@ -12,6 +12,7 @@ maintainers:
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
+    bluesky: danielroe.dev
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

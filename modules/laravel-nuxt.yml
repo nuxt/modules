@@ -9,7 +9,7 @@ learn_more: https://laravel.com/
 category: CMS
 type: 3rd-party
 maintainers:
-  - name: skyrpex
+  - name: Cristian Pallarés
     github: skyrpex
 compatibility:
   nuxt: ^2.0.0

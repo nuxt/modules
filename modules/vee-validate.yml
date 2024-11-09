@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Abdelrahman Awad
     github: logaretm
+    twitter: logaretm
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
