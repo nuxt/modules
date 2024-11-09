@@ -156,6 +156,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
   }
 
   if (process.env.GITHUB_TOKEN) {
+    console.log('Syncing maintainer socials with GitHub')
     const client = new Octokit({ auth: `Bearer ${process.env.GITHUB_TOKEN}` })
     for (const maintainer of mod.maintainers) {
       const response = await client.graphql<{ user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }>({
