@@ -9,7 +9,7 @@ learn_more: ''
 category: CSS
 type: 3rd-party
 maintainers:
-  - name: vaso2
+  - name: Vasyl Iatsenko
     github: vaso2
 compatibility:
   nuxt: ^2.0.0

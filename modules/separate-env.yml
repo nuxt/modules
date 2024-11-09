@@ -12,6 +12,7 @@ maintainers:
   - name: Alexander Lichter
     github: manniL
     twitter: TheAlexLichter
+    bluesky: thealexlichter.com
 compatibility:
   nuxt: ^2.0.0
   requires: {}

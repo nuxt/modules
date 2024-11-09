@@ -9,7 +9,7 @@ learn_more: https://nuxt-phosphor-icons.vercel.app
 category: UI
 type: 3rd-party
 maintainers:
-  - name: oyedejioyewole
+  - name: Oyedeji Oyewole
     github: oyedejioyewole
 compatibility:
   nuxt: '>=3.0.0'

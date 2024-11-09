@@ -9,8 +9,9 @@ learn_more: ''
 category: Database
 type: 3rd-party
 maintainers:
-  - name: posva
+  - name: Eduardo San Martin Morote
     github: posva
+    twitter: posva
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

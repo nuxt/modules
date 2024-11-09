@@ -9,7 +9,7 @@ learn_more: ''
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: xibman
+  - name: Georget Julien
     github: xibman
 compatibility:
   nuxt: '>=3.0.0'

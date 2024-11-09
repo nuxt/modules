@@ -1,3 +1,4 @@
+import process from 'node:process'
 import { resolve, join, basename, extname } from 'node:path'
 import { promises as fsp, existsSync } from 'node:fs'
 import * as yml from 'js-yaml'
@@ -6,6 +7,7 @@ import defu from 'defu'
 import pLimit from 'p-limit'
 import { $fetch } from 'ofetch'
 import { isCI } from 'std-env'
+import { Octokit } from '@octokit/rest'
 import { categories } from './categories'
 import type { ModuleInfo } from './types'
 import { fetchGithubPkg, modulesDir, distDir, distFile, rootDir } from './utils'
@@ -150,6 +152,43 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     }
     else {
       console.log(`[TODO] Add a maintainer to ./modules/${name}.yml`)
+    }
+  }
+
+  if (process.env.GITHUB_TOKEN) {
+    const client = new Octokit({ auth: `Bearer ${process.env.GITHUB_TOKEN}` })
+    for (const maintainer of mod.maintainers) {
+      const response = await client.graphql<{ user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }>({
+        query: `
+            query ($login: String!) {
+              user (login: $login) {
+                name
+                email
+                socialAccounts(first: 100) {
+                  nodes {
+                    displayName
+                    provider
+                    url
+                  }
+                }
+              }
+            }`,
+        login: maintainer.github,
+      }).catch(() => null)
+
+      if (response) {
+        if (response.user.name) {
+          maintainer.name = response.user.name
+        }
+        for (const social of response.user.socialAccounts.nodes) {
+          if (social.provider === 'TWITTER') {
+            maintainer.twitter = social.displayName
+          }
+          if (social.provider === 'BLUESKY') {
+            maintainer.bluesky = social.displayName
+          }
+        }
+      }
     }
   }
 

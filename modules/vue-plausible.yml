@@ -9,8 +9,9 @@ learn_more: ''
 category: Analytics
 type: 3rd-party
 maintainers:
-  - name: moritzsternemann
+  - name: Moritz Sternemann
     github: moritzsternemann
+    twitter: strnmn
 compatibility:
   nuxt: ^2.0.0
   requires: {}

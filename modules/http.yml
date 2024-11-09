@@ -12,9 +12,11 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
+    bluesky: pi0.io
   - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
+    bluesky: atinux.com
 compatibility:
   nuxt: ^2.0.0
   requires: {}

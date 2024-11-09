@@ -12,9 +12,11 @@ maintainers:
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
+    bluesky: danielroe.dev
   - name: Anthony Fu
     github: antfu
     twitter: antfu7
+    bluesky: antfu.me
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
