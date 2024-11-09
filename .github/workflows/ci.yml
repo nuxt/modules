@@ -23,6 +23,9 @@ jobs:
       - name: Lint
         run: pnpm lint
 
+      - name: Test types
+        run: pnpm tsc --noEmit
+
       - name: Sync
         run: pnpm sync
 
