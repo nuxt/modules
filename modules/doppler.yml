@@ -9,7 +9,7 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: JamieCurnow
+  - name: Jamie Curnow
     github: JamieCurnow
 compatibility:
   nuxt: '>=3.0.0'

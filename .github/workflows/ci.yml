@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   ci:
     runs-on: ubuntu-latest
@@ -23,8 +26,13 @@ jobs:
       - name: Lint
         run: pnpm lint
 
+      - name: Test types
+        run: pnpm tsc --noEmit
+
       - name: Sync
         run: pnpm sync
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Sync Status
         run: git diff --exit-code

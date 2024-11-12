@@ -9,7 +9,7 @@ learn_more: ''
 category: Security
 type: 3rd-party
 maintainers:
-  - name: mmoollllee
+  - name: Moritz Graf
     github: mmoollllee
 compatibility:
   nuxt: ^2.0.0

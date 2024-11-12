@@ -9,8 +9,10 @@ learn_more: ''
 category: Security
 type: 3rd-party
 maintainers:
-  - name: atinux
+  - name: Sébastien Chopin
     github: atinux
+    twitter: Atinux
+    bluesky: atinux.com
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

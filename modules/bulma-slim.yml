@@ -11,7 +11,7 @@ learn_more: https://bulma.io/
 category: UI
 type: 3rd-party
 maintainers:
-  - name: mustardamus
+  - name: Sebastian Senf
     github: mustardamus
 compatibility:
   nuxt: ^2.0.0
