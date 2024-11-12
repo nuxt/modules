@@ -9,8 +9,9 @@ learn_more: ''
 category: Request
 type: 3rd-party
 maintainers:
-  - name: lindsaykwardell
+  - name: Lindsay Wardell
     github: lindsaykwardell
+    bluesky: lindsaykwardell.com
 compatibility:
   nuxt: ^2.0.0
   requires: {}

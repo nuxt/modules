@@ -9,8 +9,9 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: daliborgogic
+  - name: Dalibor Gogic
     github: daliborgogic
+    twitter: dalibor_gogic
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

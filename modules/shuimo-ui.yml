@@ -9,7 +9,7 @@ learn_more: https://github.com/shuimo-design/shuimo-ui/tree/main/plugins/nuxt
 category: UI
 type: 3rd-party
 maintainers:
-  - name: higuaifan
+  - name: 你好怪凡
     github: higuaifan
 compatibility:
   nuxt: '>=3.0.0'

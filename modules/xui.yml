@@ -9,7 +9,7 @@ learn_more: ''
 category: UI
 type: 3rd-party
 maintainers:
-  - name: MetaCorp
+  - name: Léopold Szabatura
     github: MetaCorp
 compatibility:
   nuxt: ^2.0.0
