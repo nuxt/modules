@@ -20,6 +20,7 @@ maintainers:
   - name: Bobbie Goede
     github: BobbieGoede
     twitter: bobbiegoede
+    bluesky: goede.dev
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires: {}

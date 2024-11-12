@@ -13,6 +13,7 @@ maintainers:
     github: Baroshem
     avatar: https://avatars.githubusercontent.com/u/37120330?v=4
     twitter: jacobandrewsky
+    bluesky: jacobandrewsky.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
