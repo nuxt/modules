@@ -9,7 +9,7 @@ learn_more: ''
 category: UI
 type: 3rd-party
 maintainers:
-  - name: Sebastian Wludzik
+  - name: foxCode (Sebastian Włudzik)
     github: gitfoxcode
 compatibility:
   nuxt: '>=3.0.0'

@@ -9,8 +9,9 @@ learn_more: ''
 category: Request
 type: 3rd-party
 maintainers:
-  - name: gomah
+  - name: Thomas Marrec
     github: gomah
+    twitter: Gomah
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires: {}

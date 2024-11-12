@@ -12,6 +12,7 @@ maintainers:
   - name: Artem Manchenkov
     github: manchenkoff
     avatar: https://avatars.githubusercontent.com/manchenkoff
+    twitter: AManchenkov
 compatibility:
   nuxt: '>=3.12.0'
   requires: {}

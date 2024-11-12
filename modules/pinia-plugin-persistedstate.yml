@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: PraZ
     github: prazdevs
+    bluesky: praz.dev
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires:

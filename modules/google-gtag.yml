@@ -13,6 +13,7 @@ maintainers:
     github: dohomi
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
+    twitter: gobbo_ricardo
 compatibility:
   nuxt: ^2.0.0
   requires: {}

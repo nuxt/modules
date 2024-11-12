@@ -9,8 +9,9 @@ learn_more: https://github.com/vueuse/sound
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: Tahul
+  - name: Yaël Guilloux
     github: Tahul
+    twitter: yaeeelglx
 compatibility:
   nuxt: ^2.0.0
   requires: {}
