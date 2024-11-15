@@ -12,9 +12,10 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
+    bluesky: pi0.io
   - name: Jonathan Bakebwa
     github: codebender828
     twitter: codebender828
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

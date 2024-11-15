@@ -1,17 +1,22 @@
 name: robots
-description: A Nuxt module thats inject a middleware to generate a robots.txt file
+description: Tame the robots crawling and indexing your Nuxt site.
 repo: nuxt-modules/robots
 npm: '@nuxtjs/robots'
-icon: robots.png
+icon: simple-robots.svg
 github: https://github.com/nuxt-modules/robots
 website: https://github.com/nuxt-modules/robots
-learn_more: https://support.google.com/webmasters/answer/6062608?hl=en
+learn_more: ''
 category: SEO
 type: community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
+    twitter: gobbo_ricardo
+  - name: Harlan Wilton
+    github: harlan-zw
+    twitter: harlan_zw
+    avatar: https://avatars.githubusercontent.com/harlan-zw?v=4
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires:
     bridge: optional

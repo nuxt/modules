@@ -1,0 +1,16 @@
+name: hotjar
+description: Add HotJar to your Nuxt application
+repo: damevin/nuxt-module-hotjar
+npm: nuxt-module-hotjar
+icon: hotjar.png
+github: https://github.com/damevin/nuxt-module-hotjar
+website: https://github.com/damevin/nuxt-module-hotjar
+learn_more: https://github.com/damevin/nuxt-module-hotjar#nuxt-hotjar
+category: SEO
+type: 3rd-party
+maintainers:
+  - name: raphaeldamevin
+    github: damevin
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

@@ -9,8 +9,10 @@ learn_more: https://developer.paypal.com/sdk/js/reference/
 category: Payment
 type: 3rd-party
 maintainers:
-  - name: Arash Sheyda
+  - name: Arash Ari Sheyda
     github: arashsheyda
+    twitter: arash_sheyda
+    bluesky: arashsheyda.me
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

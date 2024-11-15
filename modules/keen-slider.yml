@@ -1,0 +1,16 @@
+name: keen-slider
+description: Best, lightweight Keen Slider for best web performance
+repo: modbender/nuxt-keen-slider
+npm: nuxt-keen-slider
+icon: keen-slider.png
+github: https://github.com/modbender/nuxt-keen-slider
+website: https://github.com/modbender/nuxt-keen-slider
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: modbender
+    github: modbender
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

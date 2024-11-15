@@ -11,8 +11,9 @@ learn_more: https://github.com/wiidede/arco-design-nuxt-module#readme
 category: UI
 type: 3rd-party
 maintainers:
-  - name: wiidede
+  - name: 小的的 DeDe
     github: wiidede
+    twitter: wiixdede
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

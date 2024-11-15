@@ -9,9 +9,11 @@ learn_more: ''
 category: Database
 type: 3rd-party
 maintainers:
-  - name: arashsheyda
+  - name: Arash Ari Sheyda
     github: arashsheyda
+    twitter: arash_sheyda
+    bluesky: arashsheyda.me
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
   devtools: ^0.0.0

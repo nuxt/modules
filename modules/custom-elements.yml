@@ -4,7 +4,7 @@ repo: GrabarzUndPartner/nuxt-custom-elements
 npm: nuxt-custom-elements
 icon: custom-elements.png
 github: https://github.com/GrabarzUndPartner/nuxt-custom-elements
-website: https://nuxt-custom-elements.grabarzundpartner.dev
+website: https://grabarzundpartner.github.io/nuxt-custom-elements/
 learn_more: https://github.com/karol-f/vue-custom-element
 category: Extensions
 type: 3rd-party

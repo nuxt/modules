@@ -1,16 +1,16 @@
 name: nuxt-phosphor-icons
 description: Just a simple integration for @phosphor-icons in Nuxt
-repo: OyewoleOyedeji/nuxt-phosphor-icons
+repo: oyedejioyewole/nuxt-phosphor-icons
 npm: nuxt-phosphor-icons
 icon: phosphor-icons.svg
-github: https://github.com/OyewoleOyedeji/nuxt-phosphor-icons
-website: https://github.com/OyewoleOyedeji/nuxt-phosphor-icons
-learn_more: https://github.com/OyewoleOyedeji/nuxt-phosphor-icons
+github: https://github.com/oyedejioyewole/nuxt-phosphor-icons
+website: https://nuxt-phosphor-icons.vercel.app
+learn_more: https://nuxt-phosphor-icons.vercel.app
 category: UI
 type: 3rd-party
 maintainers:
-  - name: OyewoleOyedeji
-    github: OyewoleOyedeji
+  - name: Oyedeji Oyewole
+    github: oyedejioyewole
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

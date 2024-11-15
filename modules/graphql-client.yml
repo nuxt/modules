@@ -7,12 +7,13 @@ npm: nuxt-graphql-client
 icon: graphql-client.svg
 github: https://github.com/diizzayy/nuxt-graphql-client
 website: https://github.com/diizzayy/nuxt-graphql-client
-learn_more: https://www.graphql-code-generator.com/plugins/typescript-graphql-request
+learn_more: https://nuxt-graphql-client.web.app/
 category: Request
 type: 3rd-party
 maintainers:
-  - name: Diizzayy
+  - name: Conrawl Rogers
     github: diizzayy
+    twitter: Diizzayy
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

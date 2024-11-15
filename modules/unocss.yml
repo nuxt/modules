@@ -6,15 +6,16 @@ icon: unocss.svg
 github: https://github.com/unocss/unocss
 website: https://github.com/unocss/unocss
 learn_more: https://github.com/unocss/unocss
-category: UI
+category: CSS
 type: 3rd-party
 maintainers:
   - name: Anthony Fu
     github: antfu
     twitter: antfu7
     avatar: https://avatars.githubusercontent.com/antfu?v=4
+    bluesky: antfu.me
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires:
     bridge: optional
   devtools: ^0.0.0

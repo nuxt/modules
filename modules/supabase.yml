@@ -12,12 +12,13 @@ maintainers:
   - name: Baptiste Leproux
     github: larbish
     twitter: baptistelprx
-  - name: Sebastien Chopin
+  - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
+    bluesky: atinux.com
   - name: Scott Robertson
     github: scottrobertson
     twitter: scottymeuk
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

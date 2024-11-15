@@ -9,9 +9,10 @@ learn_more: ''
 category: Performance
 type: 3rd-party
 maintainers:
-  - name: Barbapapazes
+  - name: Estéban
     github: Barbapapazes
     twitter: soubiran_
+    bluesky: soubiran.dev
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

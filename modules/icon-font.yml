@@ -12,8 +12,8 @@ learn_more: ''
 category: UI
 type: 3rd-party
 maintainers:
-  - name: coremyslo
+  - name: Konstantin Koromyslo
     github: coremyslo
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

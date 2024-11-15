@@ -12,9 +12,11 @@ maintainers:
   - name: Joaquín Sánchez
     github: userquin
     twitter: userquin
+    bluesky: userquin.bsky.social
   - name: Anthony Fu
     github: antfu
     twitter: antfu7
+    bluesky: antfu.me
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

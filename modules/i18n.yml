@@ -6,15 +6,21 @@ repo: nuxt-modules/i18n
 npm: '@nuxtjs/i18n'
 icon: i18n.png
 github: https://github.com/nuxt-modules/i18n
-website: https://v8.i18n.nuxtjs.org
-learn_more: https://kazupon.github.io/vue-i18n/
+website: https://i18n.nuxtjs.org
+learn_more: https://vue-i18n.intlify.dev/
 category: Extensions
 type: community
 maintainers:
   - name: Rafał Chłodnicki
     github: rchl
-  - name: Kazuya Kawaguchi
+  - name: kazuya kawaguchi
     github: kazupon
+    twitter: kazu_pon
+    bluesky: kazupon.dev
+  - name: Bobbie Goede
+    github: BobbieGoede
+    twitter: bobbiegoede
+    bluesky: goede.dev
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

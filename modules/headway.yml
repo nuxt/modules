@@ -9,9 +9,10 @@ learn_more: https://headwayapp.co/
 category: UI
 type: 3rd-party
 maintainers:
-  - name: l-portet
+  - name: Lucas Portet
     github: l-portet
     avatar: https://avatars.githubusercontent.com/u/34057690?v=4
+    twitter: lucasportet
 compatibility:
   nuxt: ^2.0.0
   requires: {}

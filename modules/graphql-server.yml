@@ -9,9 +9,10 @@ learn_more: ''
 category: Request
 type: 3rd-party
 maintainers:
-  - name: tobiasdiez
+  - name: Tobias Diez
     github: tobiasdiez
+    twitter: tobias_diez
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
   devtools: ^0.0.0
