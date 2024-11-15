@@ -11,9 +11,9 @@ learn_more: https://github.com/vexip-ui/nuxt
 category: UI
 type: 3rd-party
 maintainers:
-  - name: 未觉雨声
+  - name: Rocco
     github: qmhc
     twitter: qmhc95
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

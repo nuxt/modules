@@ -1,9 +1,9 @@
 name: magic-regexp
 description: A compiled-away, type-safe, readable RegExp alternative
-repo: danielroe/magic-regexp
+repo: unjs/magic-regexp
 npm: magic-regexp
 icon: magic-regexp.svg
-github: https://github.com/danielroe/magic-regexp
+github: https://github.com/unjs/magic-regexp
 website: https://magic-regexp.roe.dev
 learn_more: https://magic-regexp.roe.dev
 category: Libraries
@@ -12,6 +12,7 @@ maintainers:
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
+    bluesky: danielroe.dev
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

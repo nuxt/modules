@@ -9,8 +9,9 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: victorgarciaesgi
+  - name: Victor Garcia
     github: victorgarciaesgi
+    twitter: desnoth_dev
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

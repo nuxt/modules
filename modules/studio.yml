@@ -9,13 +9,14 @@ learn_more: https://nuxt.studio
 category: CMS
 type: 3rd-party
 maintainers:
-  - name: Ahad Birang
+  - name: Farnabaz
     github: farnabaz
     twitter: a_birang
   - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
+    bluesky: atinux.com
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires:
     content: true

@@ -9,8 +9,9 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: potato4d
+  - name: Takuma HANATANI
     github: potato4d
+    twitter: potato4d
 compatibility:
   nuxt: ^2.0.0
   requires: {}

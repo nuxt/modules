@@ -1,0 +1,20 @@
+name: marquee
+description: >-
+  A lightweight Nuxt 3 module that harnesses the power of CSS animations to
+  create silky smooth marquees.
+repo: hanzydev/nuxt-marquee
+npm: nuxt-marquee
+icon: marquee.png
+github: https://github.com/hanzydev/nuxt-marquee/
+website: https://hanzydev.github.io/nuxt-marquee/
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Emirhan
+    github: hanzydev
+    avatar: https://avatars.githubusercontent.com/u/77491112?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
+  devtools: ^0.0.0

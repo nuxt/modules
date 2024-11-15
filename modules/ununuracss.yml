@@ -4,8 +4,8 @@ repo: novout/ununuracss#main/packages/nuxt
 npm: nuxt-ununura
 icon: ununuracss.png
 github: https://github.com/novout/ununuracss
-website: https://ununura.com/#/
-learn_more: https://ununura.com/#/docs/why
+website: https://github.com/novout/ununuracss
+learn_more: https://github.com/novout/ununuracss
 category: UI
 type: 3rd-party
 maintainers:
@@ -13,5 +13,5 @@ maintainers:
     github: novout
     avatar: https://avatars.githubusercontent.com/novout?v=4
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

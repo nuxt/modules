@@ -13,6 +13,7 @@ type: 3rd-party
 maintainers:
   - name: Christian Preston
     github: cpreston321
+    twitter: christian_ggg
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

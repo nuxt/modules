@@ -9,8 +9,9 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: fukuiretu
+  - name: Retu Fukui
     github: fukuiretu
+    twitter: fukuiretu
 compatibility:
   nuxt: ^2.0.0
   requires: {}

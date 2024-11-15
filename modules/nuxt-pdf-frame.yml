@@ -1,0 +1,17 @@
+name: nuxt-pdf-frame
+description: Nuxt module for template based PDF and Canvas rendering, powered by I2djs.
+repo: i2djs/pdf-frame#main/packages/pdf-frame-nuxt
+npm: '@i2d/nuxt-pdf-frame'
+icon: pdf-frame.svg
+github: https://github.com/i2djs/pdf-frame/tree/main/packages/pdf-frame-nuxt
+website: https://www.pdf-frame.org
+learn_more: https://github.com/I2Djs/pdf-frame/wiki/nuxt%E2%80%90pdf%E2%80%90frame
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Narayana Swamy
+    github: nswamy14
+    email: narayanaswamy14@gmail.com
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

@@ -9,11 +9,12 @@ learn_more: https://github.com/sxzz/vue-macros
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: 三咲智子 Kevin Deng
+  - name: Kevin Deng 三咲智子
     github: sxzz
     twitter: sanxiaozhizi
+    bluesky: sxzz.moe
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires:
     bridge: optional
   devtools: ^0.0.0

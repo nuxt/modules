@@ -9,8 +9,9 @@ learn_more: https://github.com/caoxiemeihao/nuxt-electron#readme
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: 草鞋没号
+  - name: Leo Wang(草鞋没号)
     github: caoxiemeihao
+    twitter: cao_xie
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

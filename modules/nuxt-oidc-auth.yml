@@ -1,0 +1,17 @@
+name: nuxt-oidc-auth
+description: Seamless modern authentication for Nuxt applications.
+repo: itpropro/nuxt-oidc-auth
+npm: nuxt-oidc-auth
+icon: nuxt-oidc-auth.png
+github: https://github.com/itpropro/nuxt-oidc-auth
+website: https://nuxtoidc.cloud/
+learn_more: https://nuxtoidc.cloud/
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Jan-Henrik Damaschke
+    github: itpropro
+    twitter: jandamaschke
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

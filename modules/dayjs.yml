@@ -9,9 +9,9 @@ learn_more: https://day.js.org/
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: Kevin Olson
+  - name: kevin olson
     github: acidjazz
-    twitter: AppFume
+    twitter: appfume
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

@@ -9,9 +9,9 @@ learn_more: https://github.com/vant-ui/vant-nuxt#readme
 category: UI
 type: 3rd-party
 maintainers:
-  - name: tolking
+  - name: qiang
     github: tolking
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires:
     bridge: optional

@@ -17,5 +17,5 @@ export const categories = [
   'Request',
   'SEO',
   'Security',
-  'UI'
+  'UI',
 ]

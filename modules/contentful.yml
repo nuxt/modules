@@ -9,7 +9,7 @@ learn_more: https://www.contentful.com/
 category: CMS
 type: 3rd-party
 maintainers:
-  - name: scaccogatto
+  - name: Marco 'Gatto' Boffo
     github: scaccogatto
 compatibility:
   nuxt: ^2.0.0

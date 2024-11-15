@@ -14,5 +14,5 @@ maintainers:
   - name: Pascal Sthamer
     github: P4sca1
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

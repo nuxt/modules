@@ -1,6 +1,6 @@
 name: nuxt3-interpolation
 description: ''
-repo: daliborgogic/interpolation#master
+repo: daliborgogic/interpolation
 npm: nuxt3-interpolation
 icon: ''
 github: https://github.com/daliborgogic/interpolation/tree/master
@@ -9,8 +9,9 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: daliborgogic
+  - name: Dalibor Gogic
     github: daliborgogic
+    twitter: dalibor_gogic
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

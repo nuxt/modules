@@ -10,8 +10,8 @@ category: Analytics
 type: 3rd-party
 maintainers:
   - name: Zadig&Voltaire Team
-    github: https://github.com/zadigetvoltaire
+    github: zadigetvoltaire
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
   devtools: ^0.0.0

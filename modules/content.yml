@@ -7,7 +7,7 @@ repo: nuxt/content#main
 npm: '@nuxt/content'
 icon: nuxt.svg
 github: https://github.com/nuxt/content
-website: https://content.nuxtjs.org
+website: https://content.nuxt.com
 learn_more: ''
 category: CMS
 type: official
@@ -15,12 +15,14 @@ maintainers:
   - name: Yaël Guilloux
     github: Tahul
     twitter: yaeeelglx
-  - name: Ahad Birang
+    bluesky: yael.dev
+  - name: Farnabaz
     github: farnabaz
     twitter: a_birang
-  - name: Sebastien Chopin
+  - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
+    bluesky: atinux.com
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}
