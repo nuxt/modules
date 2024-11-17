@@ -8,7 +8,7 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: prashantpalikhe
+  - name: Prashant Palikhe
     github: prashantpalikhe
 compatibility:
   nuxt: ^2.0.0

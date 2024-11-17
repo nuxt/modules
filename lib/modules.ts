@@ -1,3 +1,4 @@
+import process from 'node:process'
 import { resolve, join, basename, extname } from 'node:path'
 import { promises as fsp, existsSync } from 'node:fs'
 import * as yml from 'js-yaml'
@@ -6,11 +7,12 @@ import defu from 'defu'
 import pLimit from 'p-limit'
 import { $fetch } from 'ofetch'
 import { isCI } from 'std-env'
+import { Octokit } from '@octokit/rest'
 import { categories } from './categories'
 import type { ModuleInfo } from './types'
 import { fetchGithubPkg, modulesDir, distDir, distFile, rootDir } from './utils'
 
-export async function sync(name, repo?: string, isNew: boolean = false) {
+export async function sync(name: string, repo?: string, isNew: boolean = false) {
   const mod = await getModule(name)
 
   // Repo
@@ -23,7 +25,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   }
 
   // Defaults
-  if (!mod.repo) {
+  if (!mod.repo && repo) {
     mod.repo = repo
   }
   if (!mod.github) {
@@ -58,7 +60,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
     }
   }
   else if (!categories.includes(mod.category)) {
-    let newCat = mod.category[0].toUpperCase() + mod.category.substr(1)
+    let newCat = mod.category[0]!.toUpperCase() + mod.category.substr(1)
     if (newCat.length <= 3) {
       newCat = newCat.toUpperCase()
     }
@@ -72,7 +74,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
 
   // ci is flaky with external links
   if (!isCI) {
-    for (const key of ['website', 'learn_more']) {
+    for (const key of ['website', 'learn_more'] as const) {
       if (mod[key] && !mod[key].includes('github.com')) {
         // we just need to test that we get a 200 response (or a valid redirect)
         await $fetch(mod[key]).catch((err) => {
@@ -111,6 +113,8 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   for (const key in mod) {
     if (!validFields.includes(key)) {
       invalidFields.push(key)
+
+      // @ts-expect-error dynamic delete
       // eslint-disable-next-line @typescript-eslint/no-dynamic-delete
       delete mod[key]
     }
@@ -137,7 +141,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   // TODO: Sync with maintainers.app
   if (!mod.maintainers.length) {
     const owner = mod.repo.split('/')[0]
-    if (owner !== 'nuxt-community' && owner !== 'nuxt') {
+    if (owner && owner !== 'nuxt-community' && owner !== 'nuxt') {
       mod.maintainers.push({
         name: owner,
         github: owner,
@@ -148,6 +152,44 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
     }
     else {
       console.log(`[TODO] Add a maintainer to ./modules/${name}.yml`)
+    }
+  }
+
+  if (process.env.GITHUB_TOKEN) {
+    console.log('Syncing maintainer socials with GitHub')
+    const client = new Octokit({ auth: `Bearer ${process.env.GITHUB_TOKEN}` })
+    for (const maintainer of mod.maintainers) {
+      const response = await client.graphql<{ user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }>({
+        query: `
+            query ($login: String!) {
+              user (login: $login) {
+                name
+                email
+                socialAccounts(first: 100) {
+                  nodes {
+                    displayName
+                    provider
+                    url
+                  }
+                }
+              }
+            }`,
+        login: maintainer.github,
+      }).catch(() => null)
+
+      if (response) {
+        if (response.user.name) {
+          maintainer.name = response.user.name
+        }
+        for (const social of response.user.socialAccounts.nodes) {
+          if (social.provider === 'TWITTER') {
+            maintainer.twitter = social.displayName.replace(/^@/, '')
+          }
+          if (social.provider === 'BLUESKY') {
+            maintainer.bluesky = social.displayName.replace(/^@/, '')
+          }
+        }
+      }
     }
   }
 
@@ -164,7 +206,7 @@ export async function sync(name, repo?: string, isNew: boolean = false) {
   return mod
 }
 
-export async function getModule(name): Promise<ModuleInfo> {
+export async function getModule(name: string): Promise<ModuleInfo> {
   let mod: ModuleInfo = {
     name,
     description: '',
@@ -191,7 +233,7 @@ export async function getModule(name): Promise<ModuleInfo> {
   return mod
 }
 
-export async function writeModule(module) {
+export async function writeModule(module: ModuleInfo) {
   const file = resolve(modulesDir, `${module.name}.yml`)
   await fsp.writeFile(file, yml.dump(module), 'utf8')
 }

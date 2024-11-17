@@ -4,19 +4,20 @@ description: >-
   application, both on the client-side and server-side. It utilizes the official
   stripe package for server-side usage and @stripe/stripe-js for the
   client-side.
-repo: fuentesloic/nuxt-stripe
+repo: flozero/nuxt-stripe
 npm: '@unlok-co/nuxt-stripe'
 icon: stripe.png
-github: https://github.com/fuentesloic/nuxt-stripe
-website: https://github.com/fuentesloic/nuxt-stripe
+github: https://github.com/flozero/nuxt-stripe
+website: https://github.com/flozero/nuxt-stripe
 learn_more: https://stripe.com/docs
 category: Payment
 type: 3rd-party
 maintainers:
-  - name: Loic Fuentes
+  - name: Loïc Fuentes
     github: fuentesloic
-  - name: Florent Giraud
+  - name: florent giraud
     github: flozero
+    twitter: flozeroo
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

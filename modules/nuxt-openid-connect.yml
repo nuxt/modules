@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Aborn Jiang
     github: aborn
+    twitter: aborn_jiang
   - name: Khaled Almana
     github: KhaledAlMana
 compatibility:

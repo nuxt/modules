@@ -9,7 +9,7 @@ learn_more: ''
 category: Security
 type: 3rd-party
 maintainers:
-  - name: kgierke
+  - name: Kurt Gierke
     github: kgierke
 compatibility:
   nuxt: '>=3.0.0'

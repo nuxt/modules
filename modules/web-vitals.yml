@@ -9,14 +9,17 @@ learn_more: ''
 category: Performance
 type: community
 maintainers:
-  - name: daliborgogic
+  - name: Dalibor Gogic
     github: daliborgogic
+    twitter: dalibor_gogic
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-  - name: Sebastien Chopin
+    bluesky: pi0.io
+  - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
+    bluesky: atinux.com
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires:

@@ -9,7 +9,7 @@ learn_more: https://vue2-leaflet.netlify.app/quickstart/
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: schlunsen
+  - name: Rasmus Schlünsen
     github: schlunsen
 compatibility:
   nuxt: ^2.0.0

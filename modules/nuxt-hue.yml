@@ -9,8 +9,10 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: lihbr
+  - name: Lucie
     github: lihbr
+    twitter: li_hbr
+    bluesky: lihbr.com
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires:

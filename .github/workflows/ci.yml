@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   ci:
     runs-on: ubuntu-latest
@@ -18,34 +21,28 @@ jobs:
         with:
           node-version: 20
           cache: "pnpm"
+
       - run: pnpm install
 
       - name: Lint
+        # these run in the autofix workflow on pull requests
+        if: github.event_name == 'push'
         run: pnpm lint
+
+      - name: Test types
+        run: pnpm tsc --noEmit
 
       - name: Sync
         run: pnpm sync
+        # these run in the autofix workflow on pull requests
+        if: github.event_name == 'push'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Sync Status
+        # these run in the autofix workflow on pull requests
+        if: github.event_name == 'push'
         run: git diff --exit-code
 
       - name: Build
         run: pnpm build
-
-      - uses: dorny/paths-filter@v2
-        if: github.event_name == 'push'
-        id: changes
-        with:
-          filters: |
-            modules:
-              - 'modules/**'
-              - 'lib/**'
-
-      - name: Publish to npm
-        if: github.event_name == 'push' && steps.changes.outputs.modules == 'true'
-        run: |
-          echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
-          echo "//registry.pnpmpkg.com/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
-          pnpm release
-        env:
-          NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}

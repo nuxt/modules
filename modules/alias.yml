@@ -9,7 +9,7 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: kdydesign
+  - name: Dev.DY
     github: kdydesign
 compatibility:
   nuxt: ^2.0.0
