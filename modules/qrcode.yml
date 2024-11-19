@@ -1,0 +1,19 @@
+name: qrcode
+description: A Nuxt module that provides support for generating and reading QRCodes.
+repo: sandros94/nuxt-qrcode
+npm: nuxt-qrcode
+icon: qrcode.svg
+github: https://github.com/sandros94/nuxt-qrcode
+website: https://qrcode.s94.dev
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Sandro Circi
+    github: sandros94
+    avatar: https://avatars.githubusercontent.com/u/13056429
+    bluesky: sandros94.com
+    twitter: _sandros94
+compatibility:
+  nuxt: '>=3.10.0'
+  requires: {}
