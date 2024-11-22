@@ -9,12 +9,16 @@ learn_more: ''
 category: Database
 type: 3rd-party
 maintainers:
-  - name: Sebastien Chopin
+  - name: Sébastien Chopin
     github: Atinux
-  - name: Ahad Birang
+    twitter: Atinux
+    bluesky: atinux.com
+  - name: Farnabaz
     github: farnabaz
+    twitter: a_birang
   - name: Sylvain Marroufin
     github: smarroufin
+    twitter: smarroufin
   - name: Florent Delerue
     github: flosciante
   - name: NuxtLabs

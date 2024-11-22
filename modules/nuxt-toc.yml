@@ -1,0 +1,16 @@
+name: nuxt-toc
+description: Nuxt module for table of contents (TOC) component in Nuxt Content projects
+repo: hanyujie2002/nuxt-toc
+npm: nuxt-toc
+icon: nuxt-toc.png
+github: https://github.com/hanyujie2002/nuxt-toc
+website: https://github.com/hanyujie2002/nuxt-toc
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: hanyujie2002
+    github: hanyujie2002
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

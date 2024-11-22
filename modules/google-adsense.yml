@@ -11,6 +11,8 @@ type: community
 maintainers:
   - name: Alexander Lichter
     github: manniL
+    bluesky: thealexlichter.com
+    twitter: TheAlexLichter
   - name: Troy Morehouse
     github: tmorehouse
 compatibility:

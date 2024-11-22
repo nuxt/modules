@@ -12,12 +12,15 @@ maintainers:
   - name: Conner Bachmann
     github: intevel
     avatar: https://avatars.githubusercontent.com/u/59223342?v=4
-  - name: Matt.
+    twitter: heyconnery
+  - name: 'Matt. '
     github: casualmatt
     avatar: https://avatars.githubusercontent.com/u/85650530?v=4
   - name: Sandro Circi
     github: sandros94
     avatar: https://avatars.githubusercontent.com/u/13056429?v=4
+    bluesky: sandros94.com
+    twitter: _sandros94
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
