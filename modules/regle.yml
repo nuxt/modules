@@ -1,7 +1,7 @@
 name: regle
 description: Typescript-first model-based form validation library for Vue 3
 repo: victorgarciaesgi/nuxt-typed-router
-npm: "@regle/nuxt"
+npm: nuxt-typed-router
 icon: regle.svg
 github: https://github.com/victorgarciaesgi/regle
 website: https://regle.vercel.app
@@ -12,6 +12,7 @@ maintainers:
   - name: Victor Garcia
     github: victorgarciaesgi
     twitter: desnoth_dev
+    bluesky: vicflix.dev
 compatibility:
-  nuxt: ">=3.0.0"
+  nuxt: '>=3.0.0'
   requires: {}
