@@ -1,0 +1,19 @@
+name: vexip-ui
+description: >-
+  A Vue 3 UI library, Highly customizability, full TypeScript, performance
+  pretty good
+repo: vexip-ui/nuxt
+npm: '@vexip-ui/nuxt'
+icon: vexip-ui.svg
+github: https://github.com/vexip-ui/vexip-ui
+website: https://www.vexipui.com/
+learn_more: https://github.com/vexip-ui/nuxt
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Rocco
+    github: qmhc
+    twitter: qmhc95
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

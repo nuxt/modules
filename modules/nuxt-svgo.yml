@@ -9,8 +9,8 @@ learn_more: ''
 category: Images
 type: 3rd-party
 maintainers:
-  - name: cpsoinos
+  - name: Corey Psoinos
     github: cpsoinos
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

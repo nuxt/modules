@@ -1,0 +1,16 @@
+name: nuxt-mdi
+description: Add 7,000+ icons to your Nuxt application, from Material Design Icons.
+repo: ERPedersen/nuxt-mdi
+npm: nuxt-mdi
+icon: mdi.png
+github: https://github.com/ERPedersen/nuxt-mdi
+website: https://nuxt-mdi.emilrosenius.com
+learn_more: https://github.com/ERPedersen/nuxt-mdi/blob/main/README.md
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Emil Rosenius
+    github: ERPedersen
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

@@ -1,0 +1,17 @@
+name: pinia-colada
+description: The smart data fetching layer for Pinia
+repo: posva/pinia-colada#main/nuxt
+npm: '@pinia/colada-nuxt'
+icon: pinia-colada.png
+github: https://github.com/posva/pinia-colada/tree/main/nuxt
+website: https://pinia-colada.esm.dev
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Eduardo San Martin Morote
+    github: posva
+    twitter: posva
+compatibility:
+  nuxt: ^3.13.0
+  requires: {}

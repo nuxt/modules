@@ -1,0 +1,16 @@
+name: snackbar
+description: Nuxt Snackbar module using vue3-snackbar
+repo: modbender/nuxt-snackbar#master
+npm: nuxt-snackbar
+icon: snackbar.png
+github: https://github.com/modbender/nuxt-snackbar/tree/master
+website: https://github.com/modbender/nuxt-snackbar/tree/master
+learn_more: https://github.com/craigrileyuk/vue3-snackbar
+category: UI
+type: 3rd-party
+maintainers:
+  - name: modbender
+    github: modbender
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

@@ -1,18 +1,16 @@
 name: sentry
-description: >-
-  Sentry module for Nuxt.js to help developers diagnose, fix, and optimize the
-  performance of their code
-repo: nuxt-community/sentry-module
-npm: '@nuxtjs/sentry'
-icon: sentry.png
-github: https://github.com/nuxt-community/sentry-module
-website: https://sentry.nuxtjs.org/
-learn_more: https://sentry.io/welcome/
+description: Official Sentry SDK for Nuxt (EXPERIMENTAL)
+repo: getsentry/sentry-javascript#HEAD/packages/nuxt
+npm: '@sentry/nuxt'
+icon: sentry.svg
+github: https://github.com/getsentry/sentry-javascript/tree/HEAD/packages/nuxt
+website: https://docs.sentry.io/platforms/javascript/guides/nuxt
+learn_more: https://sentry.io
 category: Monitoring
-type: community
+type: 3rd-party
 maintainers:
-  - name: Rafał Chłodnicki
-    github: rchl
+  - name: Sentry
+    github: getsentry
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}

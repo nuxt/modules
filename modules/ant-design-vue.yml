@@ -1,0 +1,17 @@
+name: ant-design-vue
+description: A Vue 3 based component library for designers and developers
+repo: vueComponent/ant-design-vue-nuxt
+npm: '@ant-design-vue/nuxt'
+icon: ant-design-vue.svg
+github: https://github.com/vueComponent/ant-design-vue-nuxt
+website: https://antdv.com
+learn_more: https://github.com/vueComponent/ant-design-vue-nuxt
+category: UI
+type: 3rd-party
+maintainers:
+  - name: tangjinzhou
+    github: tangjinzhou
+compatibility:
+  nuxt: '>=3.0.0'
+  requires:
+    bridge: optional

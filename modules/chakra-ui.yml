@@ -1,5 +1,5 @@
 name: chakra-ui
-description: Chakra UI Module for Nuxt.js
+description: Chakra UI Module for Nuxt
 repo: chakra-ui/chakra-ui-vue#develop/packages/chakra-ui-nuxt
 npm: '@chakra-ui/nuxt'
 icon: chakra-ui.png

@@ -1,0 +1,17 @@
+name: vueform-builder
+description: Official Vueform Builder module for Nuxt
+repo: vueform/builder#main/nuxt
+npm: '@vueform/builder-nuxt'
+icon: vueform.svg
+github: https://github.com/vueform/builder
+website: https://builder.vueform.com
+learn_more: https://builder.vueform.com/docs/installation#nuxt
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Adam Berecz
+    github: adamberecz
+    twitter: bereczadam
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

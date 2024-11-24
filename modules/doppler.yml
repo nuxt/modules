@@ -1,0 +1,16 @@
+name: doppler
+description: Integrate your Doppler secrets into your Nuxt build
+repo: JamieCurnow/nuxt-doppler
+npm: nuxt-doppler
+icon: doppler.png
+github: https://github.com/JamieCurnow/nuxt-doppler
+website: https://github.com/JamieCurnow/nuxt-doppler
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Jamie Curnow
+    github: JamieCurnow
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

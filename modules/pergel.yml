@@ -1,0 +1,19 @@
+name: pergel
+description: >-
+  Pergel is a tailor-made solution for Nuxt and Nitro, providing swift project
+  kickstarts and seamless integration of various modules.
+repo: oku-ui/pergel#main/packages-core/pergel
+npm: pergel
+icon: pergel.svg
+github: https://github.com/oku-ui/pergel
+website: https://pergel.oku-ui.com/
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Mehmet
+    github: productdevbook
+    twitter: productdevbook
+compatibility:
+  nuxt: '>=3.10.0'
+  requires: {}

@@ -1,0 +1,18 @@
+name: auth-utils
+description: Minimalist Auth module for Nuxt with SSR.
+repo: atinux/nuxt-auth-utils
+npm: nuxt-auth-utils
+icon: ''
+github: https://github.com/atinux/nuxt-auth-utils
+website: https://github.com/atinux/nuxt-auth-utils
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Sébastien Chopin
+    github: atinux
+    twitter: Atinux
+    bluesky: atinux.com
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

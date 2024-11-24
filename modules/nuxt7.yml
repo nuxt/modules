@@ -1,5 +1,5 @@
 name: nuxt7
-description: Full Featured iOS & Android PWA Apps with Nuxt.js and Framework7
+description: Full Featured iOS & Android PWA Apps with Nuxt and Framework7
 repo: nuxt-community/nuxt7
 npm: nuxt7
 icon: ''
@@ -12,6 +12,7 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
+    bluesky: pi0.io
 compatibility:
   nuxt: ^2.0.0
   requires: {}

@@ -1,0 +1,17 @@
+name: vuefire
+description: Idiomatic composables for the Firebase SDK
+repo: vuejs/vuefire#main/packages/nuxt
+npm: nuxt-vuefire
+icon: vuefire.svg
+github: https://github.com/vuejs/vuefire/tree/main/packages/nuxt
+website: https://vuefire.vuejs.org/
+learn_more: ''
+category: Database
+type: 3rd-party
+maintainers:
+  - name: Eduardo San Martin Morote
+    github: posva
+    twitter: posva
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

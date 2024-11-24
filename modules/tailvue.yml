@@ -1,0 +1,17 @@
+name: tailvue
+description: Vue components built for Vue3 powered by Windi CSS or tailwindcss
+repo: fumeapp/tailvue
+npm: tailvue
+icon: tailvue.jpg
+github: https://github.com/fumeapp/tailvue
+website: https://github.com/fumeapp/tailvue
+learn_more: https://github.com/fumeapp/tailvue#readme
+category: UI
+type: 3rd-party
+maintainers:
+  - name: kevin olson
+    github: acidjazz
+    twitter: appfume
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

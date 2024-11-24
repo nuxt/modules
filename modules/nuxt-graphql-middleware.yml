@@ -1,0 +1,21 @@
+name: nuxt-graphql-middleware
+description: Expose GraphQL queries and mutations as server API routes.
+repo: dulnan/nuxt-graphql-middleware
+npm: nuxt-graphql-middleware
+icon: nuxt-graphql-middleware.svg
+github: https://github.com/dulnan/nuxt-graphql-middleware
+website: https://github.com/dulnan/nuxt-graphql-middleware
+learn_more: ''
+category: Request
+type: 3rd-party
+maintainers:
+  - name: Jan Hug
+    github: dulnan
+    twitter: dulnan
+    avatar: https://avatars.githubusercontent.com/dulnan?v=4
+  - name: ayalon
+    github: ayalon
+    avatar: https://avatars.githubusercontent.com/ayalon?v=4
+compatibility:
+  nuxt: ^2.0.0 || >=3.0.0
+  requires: {}

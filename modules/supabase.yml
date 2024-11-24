@@ -1,9 +1,9 @@
 name: supabase
 description: First class integration with Supabase
-repo: nuxt-community/supabase-module
+repo: nuxt-modules/supabase
 npm: '@nuxtjs/supabase'
 icon: supabase.png
-github: https://github.com/nuxt-community/supabase-module
+github: https://github.com/nuxt-modules/supabase
 website: https://supabase.nuxtjs.org
 learn_more: https://supabase.com
 category: Database
@@ -12,12 +12,13 @@ maintainers:
   - name: Baptiste Leproux
     github: larbish
     twitter: baptistelprx
-  - name: Sebastien Chopin
+  - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
+    bluesky: atinux.com
   - name: Scott Robertson
     github: scottrobertson
     twitter: scottymeuk
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

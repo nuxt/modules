@@ -1,12 +1,10 @@
 name: api-party
-description: >-
-  Nuxt 3 module to securely connect with any API – server proxy & dynamic
-  composable names
+description: Securely connect to any API with a server proxy and dynamic composables
 repo: johannschopplich/nuxt-api-party
 npm: nuxt-api-party
 icon: api-party.svg
 github: https://github.com/johannschopplich/nuxt-api-party
-website: https://github.com/johannschopplich/nuxt-api-party#readme
+website: https://nuxt-api-party.byjohann.dev/
 learn_more: ''
 category: Request
 type: 3rd-party
@@ -16,5 +14,5 @@ maintainers:
     twitter: jschopplich
     avatar: https://avatars.githubusercontent.com/johannschopplich?v=4
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

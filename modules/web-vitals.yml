@@ -1,23 +1,26 @@
 name: web-vitals
 description: Web Vitals for Nuxt
-repo: nuxt-community/web-vitals-module
+repo: nuxt-modules/web-vitals
 npm: '@nuxtjs/web-vitals'
 icon: web-vitals.png
-github: https://github.com/nuxt-community/web-vitals-module
-website: https://github.com/nuxt-community/web-vitals-module
+github: https://github.com/nuxt-modules/web-vitals
+website: https://github.com/nuxt-modules/web-vitals
 learn_more: ''
 category: Performance
 type: community
 maintainers:
-  - name: daliborgogic
+  - name: Dalibor Gogic
     github: daliborgogic
+    twitter: dalibor_gogic
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-  - name: Sebastien Chopin
+    bluesky: pi0.io
+  - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
+    bluesky: atinux.com
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires:
     bridge: optional

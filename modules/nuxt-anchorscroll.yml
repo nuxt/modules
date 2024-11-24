@@ -1,0 +1,16 @@
+name: nuxt-anchorscroll
+description: Scroll to top and to anchor support for Nuxt
+repo: helltraitor/nuxt-anchorscroll
+npm: nuxt-anchorscroll
+icon: ''
+github: https://github.com/helltraitor/nuxt-anchorscroll
+website: https://github.com/helltraitor/nuxt-anchorscroll
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Helltraitor
+    github: helltraitor
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

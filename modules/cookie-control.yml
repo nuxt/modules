@@ -1,0 +1,17 @@
+name: cookie-control
+description: A highly configurable cookie banner for Nuxt.
+repo: dargmuesli/nuxt-cookie-control
+npm: '@dargmuesli/nuxt-cookie-control'
+icon: cookie-control.png
+github: https://github.com/dargmuesli/nuxt-cookie-control
+website: https://github.com/dargmuesli/nuxt-cookie-control
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Jonas Thelemann
+    github: dargmuesli
+    avatar: https://avatars.githubusercontent.com/dargmuesli
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

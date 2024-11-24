@@ -1,5 +1,5 @@
 name: agility-cms
-description: Agility CMS Integration for Nuxt.js
+description: Agility CMS Integration for Nuxt
 repo: agility/agilitycms-nuxt-module
 npm: '@agility/agilitycms-nuxt-module'
 icon: agility.png
@@ -13,6 +13,7 @@ maintainers:
     github: joelvarty
     avatar: >-
       https://avatars.githubusercontent.com/u/4520625?s=400&u=95fcb09b5ead7bb09fb9950e4e7a115a8a4377e8&v=4
+    twitter: joelvarty
 compatibility:
   nuxt: ^2.0.0
   requires: {}

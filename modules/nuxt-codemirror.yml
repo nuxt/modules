@@ -1,0 +1,17 @@
+name: nuxt-codemirror
+description: Nuxt codemirror module
+repo: thimodev/nuxt-codemirror
+npm: nuxt-codemirror
+icon: nuxt-codemirror.svg
+github: https://github.com/ThimoDEV/nuxt-codemirror
+website: https://github.com/ThimoDEV/nuxt-codemirror
+learn_more: https://github.com/ThimoDEV/nuxt-codemirror
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Thimo
+    github: ThimoDEV
+    twitter: ThimoDEV
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

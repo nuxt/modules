@@ -1,18 +1,21 @@
 name: storefront-ui
-description: Storefront UI Module for Nuxt.js
-repo: vuestorefront/storefront-ui#develop/packages/nuxt-module
+description: Storefront UI for Nuxt by Alokai
+repo: vuestorefront/storefront-ui#v2-develop/packages/sfui/frameworks/nuxt
 npm: '@storefront-ui/nuxt'
 icon: storefront-ui.svg
-github: >-
-  https://github.com/vuestorefront/storefront-ui/tree/develop/packages/nuxt-module
-website: >-
-  https://docs.storefrontui.io/?path=/story/getting-started-installation--page#installation
-learn_more: https://docs.storefrontui.io/
+github: https://github.com/vuestorefront/storefront-ui
+website: https://docs.storefrontui.io/v2/
+learn_more: https://docs.storefrontui.io/v2/getting-started/vue#nuxt-3
 category: UI
 type: 3rd-party
 maintainers:
-  - name: Jakub Andrzejewski
-    github: Baroshem
+  - name: Szymon Dziewoński
+    github: Szymon-dziewonski
+    avatar: https://avatars.githubusercontent.com/u/2566152?v=4
+  - name: Jakub Freisler
+    github: FRSgit
+    avatar: https://avatars.githubusercontent.com/u/10456649?v=4
+    twitter: jakFRS
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: '>=3.0.0'
   requires: {}

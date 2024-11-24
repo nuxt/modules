@@ -1,0 +1,22 @@
+name: vite-pwa-nuxt
+description: Zero-config PWA Plugin for Nuxt
+repo: vite-pwa/nuxt
+npm: '@vite-pwa/nuxt'
+icon: vite-pwa-nuxt.svg
+github: https://github.com/vite-pwa/nuxt
+website: https://github.com/vite-pwa/nuxt
+learn_more: https://vite-pwa-org.netlify.app/frameworks/nuxt.html
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: Joaquín Sánchez
+    github: userquin
+    twitter: userquin
+    bluesky: userquin.bsky.social
+  - name: Anthony Fu
+    github: antfu
+    twitter: antfu7
+    bluesky: antfu.me
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

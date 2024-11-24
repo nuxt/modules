@@ -1,0 +1,26 @@
+name: ui
+description: >-
+  Fully styled and customizable components for Nuxt, powered by Headless UI and
+  Tailwind CSS.
+repo: nuxt/ui#dev
+npm: '@nuxt/ui'
+icon: nuxt.svg
+github: https://github.com/nuxt/ui
+website: https://ui.nuxt.com
+learn_more: ''
+category: UI
+type: official
+maintainers:
+  - name: Benjamin Canac
+    github: benjamincanac
+    twitter: benjamincanac
+  - name: Sébastien Chopin
+    github: Atinux
+    twitter: Atinux
+    bluesky: atinux.com
+  - name: Sylvain Marroufin
+    github: smarroufin
+    twitter: smarroufin
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

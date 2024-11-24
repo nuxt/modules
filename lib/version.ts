@@ -1,13 +1,13 @@
-import path from 'path'
-import { promises as fsp } from 'fs'
+import path from 'node:path'
+import { promises as fsp } from 'node:fs'
 import hasha from 'hasha'
 import { rootDir, distFile } from './utils'
 import { build } from './modules'
 
-export async function version () {
+export async function version() {
   await build()
 
-  const pkgFile = path.resolve(rootDir, 'npm/package.json')
+  const pkgFile = path.resolve(rootDir, 'package.json')
   const pkg = JSON.parse(await fsp.readFile(pkgFile, 'utf8'))
 
   const hash = hasha(await fsp.readFile(distFile, 'utf8')).substr(0, 6)

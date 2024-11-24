@@ -1,17 +1,17 @@
 name: svg-sprite
-description: Optimized and Easy way to use svg files in Nuxt.js
-repo: nuxt-community/svg-sprite-module
+description: Optimized and Easy way to use svg files in Nuxt
+repo: nuxt-modules/svg-sprite
 npm: '@nuxtjs/svg-sprite'
 icon: ''
-github: https://github.com/nuxt-community/svg-sprite-module
-website: https://github.com/nuxt-community/svg-sprite-module
+github: https://github.com/nuxt-modules/svg-sprite
+website: https://github.com/nuxt-modules/svg-sprite
 learn_more: ''
 category: UI
 type: community
 maintainers:
-  - name: Ahad Birang
+  - name: Farnabaz
     github: farnabaz
     twitter: a_birang
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

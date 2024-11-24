@@ -1,5 +1,5 @@
 name: google-analytics
-description: Google analytics Module for Nuxt.js
+description: Google analytics Module for Nuxt
 repo: nuxt-community/analytics-module
 npm: '@nuxtjs/google-analytics'
 icon: google-analytics.png
@@ -12,8 +12,10 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
+    bluesky: pi0.io
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
+    twitter: gobbo_ricardo
   - name: Matteo Gabriele
     github: MatteoGabriele
     twitter: matteo_gabriele

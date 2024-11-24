@@ -1,0 +1,19 @@
+name: shadcn
+description: Re-usable components built with Radix Vue and Tailwind CSS.
+repo: radix-vue/shadcn-vue#dev/packages/module
+npm: shadcn-nuxt
+icon: ''
+github: https://github.com/radix-vue/shadcn-vue/tree/dev/packages/module
+website: https://www.shadcn-vue.com
+learn_more: https://www.shadcn-vue.com/docs/installation/nuxt
+category: UI
+type: 3rd-party
+maintainers:
+  - name: zernonia
+    github: zernonia
+    twitter: zernonia
+  - name: Sadegh Barati
+    github: sadeghbarati
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
