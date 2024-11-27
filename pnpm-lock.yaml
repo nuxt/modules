@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@nuxt/eslint-config':
-    specifier: ^0.3.10
+    specifier: ^0.3.13
     version: 0.3.13(eslint@9.13.0)(typescript@5.6.3)
   '@octokit/rest':
     specifier: ^21.0.2
