@@ -22,6 +22,7 @@ maintainers:
   - name: Max
     github: onmax
     twitter: _onmax
+    bluesky: onmax.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

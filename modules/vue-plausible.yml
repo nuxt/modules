@@ -12,6 +12,7 @@ maintainers:
   - name: Moritz Sternemann
     github: moritzsternemann
     twitter: strnmn
+    bluesky: strnmn.me
 compatibility:
   nuxt: ^2.0.0
   requires: {}

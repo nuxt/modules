@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: tangjinzhou
     github: tangjinzhou
+    twitter: tangjinzhou
 compatibility:
   nuxt: '>=3.0.0'
   requires:
