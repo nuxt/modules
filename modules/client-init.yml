@@ -12,6 +12,7 @@ maintainers:
   - name: Takuma HANATANI
     github: potato4d
     twitter: potato4d
+    bluesky: potato4d.bsky.social
 compatibility:
   nuxt: ^2.0.0
   requires: {}
