@@ -11,15 +11,18 @@ learn_more: https://www.radix-vue.com/overview/installation.html#nuxt-modules
 category: UI
 type: 3rd-party
 maintainers:
-  - name: Zernonia
+  - name: zernonia
     github: zernonia
     twitter: zernonia
   - name: Khairul Haaziq
     github: khairulhaaziq
   - name: Mujahid Anuar
     github: mujahidfa
+    twitter: mujahid_fa
   - name: Max
     github: onmax
+    twitter: _onmax
+    bluesky: onmax.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

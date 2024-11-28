@@ -9,7 +9,7 @@ learn_more: https://github.com/pimlie/node-memwatcher
 category: Monitoring
 type: 3rd-party
 maintainers:
-  - name: pimlie
+  - name: Pim
     github: pimlie
 compatibility:
   nuxt: ^2.0.0

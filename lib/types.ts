@@ -15,6 +15,7 @@ export interface MaintainerInfo {
   name: string
   github: string
   twitter?: string
+  bluesky?: string
 }
 
 export interface GithubContributor {

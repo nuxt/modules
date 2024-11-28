@@ -9,7 +9,7 @@ learn_more: https://socket.io/
 category: Request
 type: 3rd-party
 maintainers:
-  - name: richardeschloss
+  - name: Richard Schloss
     github: richardeschloss
 compatibility:
   nuxt: ^2.0.0

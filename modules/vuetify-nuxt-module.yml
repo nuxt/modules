@@ -1,16 +1,17 @@
 name: vuetify-nuxt-module
 description: Zero-config Nuxt Module for Vuetify.
-repo: userquin/vuetify-nuxt-module
+repo: vuetifyjs/nuxt-module
 npm: vuetify-nuxt-module
 icon: vuetify-logo-v3-dark.svg
-github: https://github.com/userquin/vuetify-nuxt-module
-website: https://vuetify-nuxt-module.netlify.app/
-learn_more: https://github.com/userquin/vuetify-nuxt-module/blob/main/README.md
+github: https://github.com/vuetifyjs/nuxt-module
+website: https://nuxt.vuetifyjs.com/
+learn_more: https://github.com/vuetifyjs/nuxt-module/blob/main/README.md
 category: UI
 type: 3rd-party
 maintainers:
   - name: Joaquín Sánchez
     github: userquin
+    bluesky: userquin.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

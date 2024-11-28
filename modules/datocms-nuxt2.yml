@@ -9,7 +9,7 @@ learn_more: https://www.datocms.com/
 category: CMS
 type: 3rd-party
 maintainers:
-  - name: Frankwarnaar
+  - name: Frank Warnaar
     github: Frankwarnaar
 compatibility:
   nuxt: ^2.0.0

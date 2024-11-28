@@ -3,13 +3,13 @@ description: A Vue 3 based component library for designers and developers
 repo: element-plus/element-plus-nuxt
 npm: '@element-plus/nuxt'
 icon: element-plus.svg
-github: https://github.com/element-plus/element-plus
+github: https://github.com/element-plus/element-plus-nuxt
 website: https://element-plus.org
 learn_more: https://github.com/element-plus/element-plus-nuxt
 category: UI
 type: 3rd-party
 maintainers:
-  - name: tolking
+  - name: qiang
     github: tolking
 compatibility:
   nuxt: '>=3.0.0'

@@ -11,8 +11,9 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: CodeDredd
+  - name: Gregor Becker
     github: CodeDredd
+    twitter: _Gregor_Becker
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires:

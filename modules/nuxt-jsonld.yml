@@ -9,7 +9,7 @@ learn_more: ''
 category: SEO
 type: 3rd-party
 maintainers:
-  - name: ymmooot
+  - name: ryota yamamoto
     github: ymmooot
 compatibility:
   nuxt: '>=3.0.0'
