@@ -9,7 +9,7 @@ learn_more: https://github.com/element-plus/element-plus-nuxt
 category: UI
 type: 3rd-party
 maintainers:
-  - name: tolking
+  - name: qiang
     github: tolking
 compatibility:
   nuxt: '>=3.0.0'

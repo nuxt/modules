@@ -11,7 +11,7 @@ learn_more: https://vue-select.org/
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: madmod
+  - name: John Wells
     github: madmod
 compatibility:
   nuxt: ^2.0.0

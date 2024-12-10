@@ -12,6 +12,7 @@ maintainers:
   - name: Nicolas Hedger
     github: nhedger
     twitter: nicolashedger
+    bluesky: hedger.ch
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

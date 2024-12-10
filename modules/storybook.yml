@@ -16,6 +16,7 @@ maintainers:
     twitter: ChakirQatab
   - name: Tobias Diez
     github: tobiasdiez
+    twitter: tobias_diez
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires:

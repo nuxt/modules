@@ -9,8 +9,10 @@ learn_more: https://leaflet.nuxtjs.org/
 category: Libraries
 type: community
 maintainers:
-  - name: Augustin MERCIER
+  - name: Gugustinette
     github: Gugustinette
+    twitter: gugustinette
+    bluesky: gugustinette.com
 compatibility:
   nuxt: ^3.0.0
   requires: {}
