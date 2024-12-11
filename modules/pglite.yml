@@ -1,0 +1,19 @@
+name: pglite
+description: A Nuxt module aimed to simplify the use of PGlite.
+repo: sandros94/nuxt-pglite
+npm: nuxt-pglite
+icon: pglite.svg
+github: https://github.com/sandros94/nuxt-pglite
+website: https://github.com/sandros94/nuxt-pglite
+learn_more: 'https://pglite.dev'
+category: Database
+type: 3rd-party
+maintainers:
+  - name: Sandro Circi
+    github: sandros94
+    avatar: https://avatars.githubusercontent.com/u/13056429
+    bluesky: sandros94.com
+    twitter: _sandros94
+compatibility:
+  nuxt: '>=3.14.0'
+  requires: {}
