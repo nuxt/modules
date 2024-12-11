@@ -5,7 +5,7 @@ npm: nuxt-pglite
 icon: pglite.svg
 github: https://github.com/sandros94/nuxt-pglite
 website: https://github.com/sandros94/nuxt-pglite
-learn_more: 'https://pglite.dev'
+learn_more: https://pglite.dev
 category: Database
 type: 3rd-party
 maintainers:

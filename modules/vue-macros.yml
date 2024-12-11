@@ -12,7 +12,7 @@ maintainers:
   - name: Kevin Deng 三咲智子
     github: sxzz
     twitter: sanxiaozhizi
-    bluesky: sxzz.moe
+    bluesky: sxzz.dev
 compatibility:
   nuxt: '>=3.0.0'
   requires:
