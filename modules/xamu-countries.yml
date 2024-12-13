@@ -9,8 +9,9 @@ learn_more: https://github.com/xamu-co/countries-api/#readme
 category: Request
 type: 3rd-party
 maintainers:
-  - name: vis97c
+  - name: Victor Saa
     github: vis97c
+    twitter: vis97c
 compatibility:
   nuxt: ^3.0.0
   requires: {}
