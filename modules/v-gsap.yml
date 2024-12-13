@@ -1,7 +1,7 @@
 name: v-gsap
 description: GSAP as a directive (Unofficial). Build stunning animations with v-gsap.
 repo: holux-design/v-gsap-nuxt
-npm: 'v-gsap-nuxt'
+npm: v-gsap-nuxt
 icon: v-gsap.svg
 github: https://github.com/holux-design/v-gsap-nuxt
 website: https://v-gsap-nuxt.vercel.app/
@@ -13,3 +13,4 @@ maintainers:
     github: holux-design
 compatibility:
   nuxt: '>=3.0.0'
+  requires: {}
