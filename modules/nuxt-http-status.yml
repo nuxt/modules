@@ -1,0 +1,18 @@
+name: nuxt-http-status
+description: HTTP status codes for easy way requests 
+repo: eralpozcan/nuxt-http-status
+npm: nuxt-http-status
+icon: http-status.svg
+github: https://github.com/eralpozcan/nuxt-http-status
+website: https://github.com/eralpozcan/nuxt-http-status
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Eralp Özcan
+    github: eralpozcan
+    twitter: eralpozcan
+    avatar: https://avatars.githubusercontent.com/u/13126587?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
