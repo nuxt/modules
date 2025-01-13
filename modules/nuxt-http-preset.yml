@@ -4,14 +4,14 @@ description: >-
   endpoints.
 repo: DarlanPrado/nuxt-http-preset
 npm: nuxt-http-preset
-icon: 'nuxt-http-preset.png'
+icon: nuxt-http-preset.png
 github: https://github.com/DarlanPrado/nuxt-http-preset
 website: https://github.com/DarlanPrado/nuxt-http-preset
 learn_more: ''
 category: Request
 type: 3rd-party
 maintainers:
-  - name: DarlanPrado
+  - name: Darlan José Batista do Prado
     github: DarlanPrado
 compatibility:
   nuxt: ^3.0.0
