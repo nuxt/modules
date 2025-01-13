@@ -11,6 +11,7 @@ type: community
 maintainers:
   - name: Shinji Yamada
     github: dotneet
+    twitter: santa128bit
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires: {}

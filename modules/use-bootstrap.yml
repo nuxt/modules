@@ -9,7 +9,7 @@ learn_more: https://usebootstrap.org/
 category: UI
 type: 3rd-party
 maintainers:
-  - name: KoujiSano
+  - name: KoujiSan
     github: KoujiSano
 compatibility:
   nuxt: '>=3.0.0'

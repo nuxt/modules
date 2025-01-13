@@ -9,8 +9,9 @@ learn_more: https://www.shopify.com/
 category: Ecommerce
 type: 3rd-party
 maintainers:
-  - name: Gomah
+  - name: Thomas Marrec
     github: Gomah
+    twitter: Gomah
 compatibility:
   nuxt: ^2.0.0
   requires: {}

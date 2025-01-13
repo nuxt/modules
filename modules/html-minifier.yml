@@ -9,7 +9,7 @@ learn_more: ''
 category: Performance
 type: community
 maintainers:
-  - name: Xin Du
+  - name: Xin Du (Clark)
     github: clarkdo
 compatibility:
   nuxt: ^2.0.0

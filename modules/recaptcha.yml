@@ -9,7 +9,7 @@ learn_more: https://www.google.com/recaptcha/about/
 category: Security
 type: community
 maintainers:
-  - name: mvrlin
+  - name: Igor Talpa
     github: mvrlin
 compatibility:
   nuxt: ^2.0.0

@@ -9,7 +9,7 @@ learn_more: https://www.nodemailer.com/
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: kleinpetr
+  - name: Klein Petr
     github: kleinpetr
 compatibility:
   nuxt: '>=3.0.0'
