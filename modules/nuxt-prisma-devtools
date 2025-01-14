@@ -6,7 +6,7 @@ icon: ''
 github: https://github.com/gsxdsm/nuxt-prisma-devtools
 website: https://www.npmjs.com/package/nuxt-prisma-devtools
 learn_more: ''
-category: Database
+category: Devtools
 type: community
 maintainers:
   - name: gsxdsm
