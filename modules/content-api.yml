@@ -9,7 +9,7 @@ learn_more: ''
 category: CMS
 type: 3rd-party
 maintainers:
-  - name: Marlo Corridor
+  - name: mcorridor
     github: marlocorridor
 compatibility:
   nuxt: '>=3.0.0'
