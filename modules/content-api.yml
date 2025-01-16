@@ -1,0 +1,16 @@
+name: content-api
+description: Nuxt module for Nuxt Content files
+repo: marlocorridor/nuxt-content-from-api
+npm: nuxt-content-from-api
+icon: content-api.png
+github: https://github.com/marlocorridor/nuxt-content-from-api
+website: https://github.com/marlocorridor/nuxt-content-from-api
+learn_more: ''
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: mcorridor
+    github: marlocorridor
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
