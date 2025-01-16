@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Valerii Strilets
     github: letstri
+    twitter: letstri
 compatibility:
   nuxt: ^3.0.0
   requires: {}
