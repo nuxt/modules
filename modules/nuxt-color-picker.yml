@@ -1,6 +1,7 @@
 name: nuxt-color-picker
 description: >-
-  A module that adds a convenient, customizable ColorPicker component to select colors in your application.
+  A module that adds a convenient, customizable ColorPicker component to select
+  colors in your application.
 repo: lorexiq/nuxt-color-picker
 npm: nuxt-color-picker
 icon: nuxt-color-picker.png
