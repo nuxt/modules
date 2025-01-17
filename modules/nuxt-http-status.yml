@@ -1,5 +1,5 @@
 name: nuxt-http-status
-description: HTTP status codes for easy way requests 
+description: HTTP status codes for easy way requests
 repo: eralpozcan/nuxt-http-status
 npm: nuxt-http-status
 icon: http-status.svg
@@ -9,7 +9,7 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: Eralp Özcan
+  - name: Eralp
     github: eralpozcan
     twitter: eralpozcan
     avatar: https://avatars.githubusercontent.com/u/13126587?v=4
