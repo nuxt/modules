@@ -1,0 +1,16 @@
+name: nuxt-glaze
+description: Glaze.dev module for Nuxt
+repo: holux-design/nuxt-glaze
+npm: nuxt-glaze
+icon: nuxt-glaze.png
+github: https://github.com/holux-design/nuxt-glaze
+website: https://glaze.dev
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Lukas Hofstätter
+    github: holux-design
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
