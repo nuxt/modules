@@ -9,7 +9,7 @@ learn_more: ''
 category: UI
 type: 3rd-party
 maintainers:
-  - name: Gwynerva (Peter Radko)
+  - name: Peter Radko
     github: Gwynerva
 compatibility:
   nuxt: '>=3.15.2'
