@@ -1,0 +1,16 @@
+name: my-icons
+description: All-in-one toolkit for using SVG icons in your Nuxt site!
+repo: Gwynerva/nuxt-my-icons
+npm: nuxt-my-icons
+icon: my-icons.svg
+github: https://github.com/Gwynerva/nuxt-my-icons
+website: https://github.com/Gwynerva/nuxt-my-icons
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Gwynerva (Peter Radko)
+    github: Gwynerva
+compatibility:
+  nuxt: '>=3.15.2'
+  requires: {}
