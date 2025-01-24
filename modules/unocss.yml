@@ -1,6 +1,6 @@
 name: unocss
 description: The instant on-demand atomic CSS engine.
-repo: unocss/unocss#main/packages/nuxt
+repo: unocss/unocss#main/packages-integrations/nuxt
 npm: '@unocss/nuxt'
 icon: unocss.svg
 github: https://github.com/unocss/unocss
