@@ -1,0 +1,18 @@
+name: google-translate
+description: Easily integrate Google Translate into your Nuxt 3 application with this powerful and customizable module.
+repo: nexoscreation/nuxt-google-translate
+npm: 'nuxt-google-translate'
+icon: google-translate.png
+github: https://github.com/nexoscreation/nuxt-google-translate
+website: https://nexoscreation.github.io/nuxt-google-translate/
+learn_more: 'https://nexoscreation.tech/docs/google-translate'
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Nexos Creator
+    github: nexoscreator
+    twitter: nexoscreator
+    bluesky: nexoscreator.tech
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
