@@ -1,0 +1,16 @@
+name: paper-ui
+description: A ui kit for nuxt
+repo: paper-kit/nuxt#main
+npm: '@paper-ui/nuxt'
+icon: 'paper-ui.svg'
+github: https://github.com/paper-kit/nuxt/tree/main
+website: https://github.com/paper-kit/nuxt/tree/main
+learn_more: 'https://paper-docs.nuxt.space/'
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: paper-kit
+    github: paper-kit
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
