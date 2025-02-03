@@ -1,0 +1,16 @@
+name: GPT for Nuxt
+description: Plug and Play ChatGPT for Nuxt.
+repo: holux-design/nuxt-GPT
+npm: nuxt-gpt
+icon: nuxt-gpt.svg
+github: https://github.com/holux-design/nuxt-GPT
+website: https://nuxt-gpt-module.vercel.app/
+learn_more: https://nuxt-gpt-module.vercel.app/usage/examples
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Lukas Hofstätter
+    github: holux-design
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
