@@ -1,7 +1,7 @@
 name: regle
 description: Type safe model-based form validation library for Vue.js
-repo: victorgarciaesgi/regle
-npm: "@regle/nuxt"
+repo: victorgarciaesgi/regle#main/packages/nuxt
+npm: '@regle/nuxt'
 icon: regle.svg
 github: https://github.com/victorgarciaesgi/regle
 website: https://reglejs.dev/
