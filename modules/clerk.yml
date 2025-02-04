@@ -2,7 +2,7 @@ name: clerk
 description: Clerk SDK for Nuxt
 repo: clerk/javascript
 npm: '@clerk/javascript'
-icon: clerk.png
+icon: clerk.svg
 github: https://github.com/clerk/javascript/tree/main/packages/nuxt
 website: https://clerk.com/docs/references/nuxt/overview
 learn_more: https://clerk.com
