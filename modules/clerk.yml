@@ -1,0 +1,18 @@
+name: clerk
+description: Clerk SDK for Nuxt
+repo: clerk/javascript
+npm: '@clerk/nuxt'
+icon: ''
+github: https://github.com/clerk/javascript/tree/main/packages/nuxt
+website: https://clerk.com/docs/references/nuxt/overview
+learn_more: https://clerk.com
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Daniel Roe
+    github: danielroe
+    twitter: danielcroe
+    bluesky: danielroe.dev
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
