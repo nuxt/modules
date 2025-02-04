@@ -9,10 +9,10 @@ learn_more: https://clerk.com
 category: Security
 type: 3rd-party
 maintainers:
-  - name: Daniel Roe
-    github: danielroe
-    twitter: danielcroe
-    bluesky: danielroe.dev
+  - name: Clerk
+    github: clerk
+    twitter: clerkdev
+    bluesky: clerk.com
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
