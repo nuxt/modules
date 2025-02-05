@@ -1,10 +1,10 @@
 name: scalar
 description: Render a beautiful API References based on a OpenAPI/Swagger file with Nuxt.
-repo: scalar/scalar#main/packages/nuxt
+repo: scalar/scalar#main/integrations/nuxt
 npm: '@scalar/nuxt'
 icon: scalar.svg
-github: https://github.com/scalar/scalar/tree/main/packages/nuxt
-website: https://github.com/scalar/scalar/tree/main/packages/nuxt
+github: https://github.com/scalar/scalar/tree/main/integrations/nuxt
+website: https://github.com/scalar/scalar/tree/main/integrations/nuxt
 learn_more: https://scalar.com
 category: Devtools
 type: 3rd-party

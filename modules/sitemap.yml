@@ -16,6 +16,7 @@ maintainers:
   - name: Nicolas PENNEC
     github: NicoPennec
     twitter: NicoPennec
+    bluesky: nicopennec.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
