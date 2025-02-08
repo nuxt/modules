@@ -13,7 +13,8 @@ type: 3rd-party
 maintainers:
   - name: Felix Orinda
     github: forinda
+    twitter: felix_orinda
 compatibility:
   nuxt: ^3.0.0
-  vue: ^3.0.0
   requires: {}
+  vue: ^3.0.0
