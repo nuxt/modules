@@ -6,8 +6,8 @@ repo: jericho1060/nuxt-ollama
 npm: nuxt-ollama
 icon: nuxt-ollama.png
 github: https://github.com/jericho1060/nuxt-ollama
-website: https://github.com/jericho1060/nuxt-ollama
-learn_more: https://github.com/jericho1060/nuxt-ollama
+website: https://nuxt-ollama.jericho.dev/
+learn_more: https://nuxt-ollama.jericho.dev/
 category: Libraries
 type: 3rd-party
 maintainers:
@@ -16,5 +16,5 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/jericho1060
     twitter: jerichodev
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: ^3.15.0
   requires: {}
