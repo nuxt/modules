@@ -11,8 +11,9 @@ learn_more: https://stripe.com/
 category: Payment
 type: 3rd-party
 maintainers:
-  - name: WilliamDASILVA
+  - name: William DA SILVA
     github: WilliamDASILVA
+    twitter: willia_am
 compatibility:
   nuxt: ^2.0.0
   requires: {}

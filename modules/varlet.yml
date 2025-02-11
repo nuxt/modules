@@ -9,8 +9,9 @@ learn_more: https://github.com/varletjs/varlet-nuxt
 category: UI
 type: 3rd-party
 maintainers:
-  - name: zhangmo8
+  - name: xiaomo
     github: zhangmo8
+    twitter: wegi8666
 compatibility:
   nuxt: '>=3.0.0'
   requires:

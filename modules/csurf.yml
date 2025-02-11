@@ -9,9 +9,10 @@ learn_more: https://github.com/Morgbn/nuxt-csurf#readme
 category: Security
 type: 3rd-party
 maintainers:
-  - name: morgbn
+  - name: Morgän
     github: morgbn
     avatar: https://avatars.githubusercontent.com/u/25689856?v=4
+    twitter: MorgbnDev
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

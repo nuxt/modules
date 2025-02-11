@@ -9,8 +9,9 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: letstri
+  - name: Valerii Strilets
     github: letstri
+    twitter: letstri
 compatibility:
   nuxt: ^3.0.0
   requires: {}

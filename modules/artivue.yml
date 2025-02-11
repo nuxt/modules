@@ -11,7 +11,7 @@ learn_more: https://github.com/Eschricht/artivue
 category: UI
 type: 3rd-party
 maintainers:
-  - name: Eschricht
+  - name: Johannes Eschricht
     github: Eschricht
 compatibility:
   nuxt: '>=3.0.0'

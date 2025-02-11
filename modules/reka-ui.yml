@@ -1,25 +1,28 @@
-name: radix-vue
+name: reka-ui
 description: >-
   Vue port of Radix UI Primitives. An open-source UI component library for
   building high-quality, accessible design systems and web apps.
-repo: radix-vue/radix-vue
-npm: radix-vue
-icon: radix-vue.svg
-github: https://github.com/radix-vue/radix-vue
-website: https://www.radix-vue.com/
-learn_more: https://www.radix-vue.com/overview/installation.html#nuxt-modules
+repo: unovue/radix-vue
+npm: reka-ui
+icon: reka-ui.svg
+github: https://github.com/unovue/radix-vue
+website: https://www.reka-ui.com/
+learn_more: https://reka-ui.com/docs/overview/installation#nuxt-modules
 category: UI
 type: 3rd-party
 maintainers:
-  - name: Zernonia
+  - name: zernonia
     github: zernonia
     twitter: zernonia
   - name: Khairul Haaziq
     github: khairulhaaziq
   - name: Mujahid Anuar
     github: mujahidfa
+    twitter: mujahid_fa
   - name: Max
     github: onmax
+    twitter: _onmax
+    bluesky: onmax.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
