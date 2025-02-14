@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Joaquín Sánchez
     github: userquin
+    bluesky: userquin.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

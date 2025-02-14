@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Johann Schopplich
     github: johannschopplich
+    twitter: jschopplich
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

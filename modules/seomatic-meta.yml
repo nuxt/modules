@@ -9,8 +9,9 @@ learn_more: https://plugins.craftcms.com/seomatic
 category: CMS
 type: 3rd-party
 maintainers:
-  - name: ben-rogerson
+  - name: Ben Rogerson
     github: ben-rogerson
+    twitter: benrogerson
 compatibility:
   nuxt: ^2.0.0
   requires: {}

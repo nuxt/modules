@@ -4,25 +4,28 @@ description: >-
   real-time resizes and providers support.
 repo: nuxt/image
 npm: '@nuxt/image'
-icon: image.png
+icon: nuxt.svg
 github: https://github.com/nuxt/image
 website: https://image.nuxt.com
 learn_more: ''
 category: Images
 type: official
 maintainers:
-  - name: Ahad Birang
+  - name: Farnabaz
     github: farnabaz
     twitter: a_birang
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
+    bluesky: danielroe.dev
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
-  - name: Sebastien Chopin
+    bluesky: pi0.io
+  - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
+    bluesky: atinux.com
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires:

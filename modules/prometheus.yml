@@ -11,7 +11,7 @@ learn_more: ''
 category: Monitoring
 type: 3rd-party
 maintainers:
-  - name: artmizu
+  - name: Aleksandr Kriuchkov
     github: artmizu
 compatibility:
   nuxt: '>=3.0.0'

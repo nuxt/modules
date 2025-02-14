@@ -11,6 +11,8 @@ type: 3rd-party
 maintainers:
   - name: rrd
     github: rrd108
+    twitter: radharadhya
+    bluesky: rrd108.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

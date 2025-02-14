@@ -12,6 +12,7 @@ maintainers:
   - name: Alex Liu
     github: Mini-ghost
     twitter: Minighost_Alex
+    bluesky: mini-ghost.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
