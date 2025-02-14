@@ -9,8 +9,9 @@ learn_more: https://nuxt-coolify.justserdar.dev/
 category: Request
 type: 3rd-party
 maintainers:
-  - name: JustSerdar
+  - name: h+
     github: JustSerdar
+    twitter: darwebdb
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
