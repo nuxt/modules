@@ -1,6 +1,5 @@
 name: nuxt-componentsbook-module
-description: >-
-  Storybook-like experience for Nuxt components
+description: Storybook-like experience for Nuxt components
 repo: s00d/nuxt-componentsbook-module
 npm: nuxt-componentsbook-module
 icon: nuxt-componentsbook-module.png
