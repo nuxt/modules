@@ -6,12 +6,12 @@ repo: oku-ui/pergel#main/packages-core/pergel
 npm: pergel
 icon: pergel.svg
 github: https://github.com/oku-ui/pergel
-website: https://oku-ui.com/pergel
+website: https://pergel.oku-ui.com/
 learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: Mehmet
+  - name: Dev
     github: productdevbook
     twitter: productdevbook
 compatibility:

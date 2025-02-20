@@ -12,6 +12,7 @@ maintainers:
   - name: Eduardo San Martin Morote
     github: posva
     twitter: posva
+    bluesky: esm.dev
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires:
