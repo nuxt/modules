@@ -1,0 +1,16 @@
+name: notivue
+description: Powerful toast notification system for Vue and Nuxt.
+repo: smastrom/notivue#main/packages/notivue/nuxt
+npm: notivue
+icon: notivue.svg
+github: https://github.com/smastrom/notivue/tree/main/packages/notivue/nuxt
+website: https://notivue.smastrom.io
+learn_more: https://docs.notivue.smastrom.io/installation/nuxt
+category: UI
+type: 3rd-party
+maintainers: 
+  - name: Simone Mastromattei
+    github: smastrom
+compatibility:
+  nuxt: ^3.5.0
+  requires: {}
