@@ -1,0 +1,18 @@
+name: error
+description: Error Module for Nuxt
+repo: Dennisadriaans/nuxt-error
+npm: nuxt-error
+icon: nuxt-error.svg
+github: https://github.com/dennisadriaans/nuxt-error
+website: https://nuxterror.com
+learn_more: https://nuxterror.com
+category: Monitoring
+type: 3rd-party
+maintainers:
+  - name: Dennis Adriaansen
+    github: Dennisadriaans
+    twitter: DennisAdriaans
+    bluesky: dennisadriaans.bsky.social
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
