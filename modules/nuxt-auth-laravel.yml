@@ -1,0 +1,17 @@
+name: nuxt-auth-laravel
+description: Sanctum and passport support featuring support for separate auth and data apps in Laravel
+repo: joshdonnell/nuxt-auth-laravel
+npm: nuxt-auth-laravel
+icon: nuxt-auth-laravel.svg
+github: https://github.com/joshdonnell/nuxt-auth-laravel
+website: https://github.com/joshdonnell/nuxt-auth-laravel
+learn_more: https://laravel.com/docs/11.x/sanctum
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Josh Donnell
+    github: joshdonnell
+    avatar: https://avatars.githubusercontent.com/joshdonnell
+compatibility:
+  nuxt: '>=3.9.0'
+  requires: {}
