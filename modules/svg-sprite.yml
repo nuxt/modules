@@ -12,6 +12,7 @@ maintainers:
   - name: Farnabaz
     github: farnabaz
     twitter: a_birang
+    bluesky: farnabaz.dev
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires: {}
