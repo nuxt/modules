@@ -9,8 +9,14 @@ learn_more: ''
 category: SEO
 type: 3rd-party
 maintainers:
-  - name: nuxtlabs
-    github: nuxtlabs
+  - name: Farnabaz
+    github: farnabaz
+    twitter: a_birang
+    bluesky: farnabaz.dev
+  - name: Sébastien Chopin
+    github: Atinux
+    twitter: Atinux
+    bluesky: atinux.com
 compatibility:
   nuxt: ^3.0.0
   requires: {}
