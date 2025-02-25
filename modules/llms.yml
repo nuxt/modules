@@ -1,0 +1,16 @@
+name: llms
+description: Generate llms.txt documentation for your Nuxt application
+repo: nuxtlabs/nuxt-llms
+npm: nuxt-llms
+icon: llms.png
+github: https://github.com/nuxtlabs/nuxt-llms
+website: https://github.com/nuxtlabs/nuxt-llms
+learn_more: ''
+category: SEO
+type: 3rd-party
+maintainers:
+  - name: nuxtlabs
+    github: nuxtlabs
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
