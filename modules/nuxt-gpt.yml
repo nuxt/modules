@@ -1,4 +1,4 @@
-name: GPT for Nuxt
+name: nuxt-gpt
 description: Plug and Play ChatGPT for Nuxt.
 repo: holux-design/nuxt-GPT
 npm: nuxt-gpt
