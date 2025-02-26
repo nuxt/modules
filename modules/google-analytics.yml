@@ -19,6 +19,7 @@ maintainers:
   - name: Matteo Gabriele
     github: MatteoGabriele
     twitter: matteo_gabriele
+    bluesky: matteogabriele.bsky.social
 compatibility:
   nuxt: ^2.0.0
   requires: {}
