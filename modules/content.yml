@@ -12,14 +12,14 @@ learn_more: ''
 category: CMS
 type: official
 maintainers:
-  - name: Yaël Guilloux
-    github: Tahul
-    twitter: yaeeelglx
-    bluesky: yael.dev
   - name: Farnabaz
     github: farnabaz
     twitter: a_birang
     bluesky: farnabaz.dev
+  - name: Baptiste Leproux
+    github: larbish
+    twitter: _larbish
+    bluesky: larbish.bsky.social
   - name: Sébastien Chopin
     github: Atinux
     twitter: Atinux
