@@ -1,0 +1,16 @@
+name: markdown-it
+description: A Nuxt module that fully integrates markdown-it.
+repo: sandros94/nuxt-markdown-render
+npm: nuxt-markdown-render
+icon: markdown.png
+github: https://github.com/sandros94/nuxt-markdown-render
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Sandro Circi
+    github: sandros94
+    avatar: https://avatars.githubusercontent.com/u/13056429
+compatibility:
+  nuxt: ^3.5.0
+  requires: {}
