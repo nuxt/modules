@@ -16,14 +16,14 @@ importers:
         specifier: ^0.7.5
         version: 0.7.6(@vue/compiler-sfc@3.5.13)(eslint@9.21.0(jiti@2.4.2))(typescript@5.7.3)
       '@octokit/rest':
-        specifier: ^21.1.0
+        specifier: ^21.1.1
         version: 21.1.1
       '@types/js-yaml':
         specifier: ^4.0.9
         version: 4.0.9
       '@types/node':
-        specifier: ^18.19.70
-        version: 18.19.76
+        specifier: ^18.19.78
+        version: 18.19.79
       defu:
         specifier: ^6.1.4
         version: 6.1.4
@@ -31,7 +31,7 @@ importers:
         specifier: ^9.18.0
         version: 9.21.0(jiti@2.4.2)
       globby:
-        specifier: ^14.0.2
+        specifier: ^14.1.0
         version: 14.1.0
       hasha:
         specifier: ^6.0.0
@@ -261,8 +261,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@18.19.76':
-    resolution: {integrity: sha512-yvR7Q9LdPz2vGpmpJX5LolrgRdWvB67MJKDPSgIIzpFbaf9a1j/f5DnLp5VDyHGMR0QZHlTr1afsD87QCXFHKw==}
+  '@types/node@18.19.79':
+    resolution: {integrity: sha512-90K8Oayimbctc5zTPHPfZloc/lGVs7f3phUAAMcTgEPtg8kKquGZDERC8K4vkBYkQQh48msiYUslYtxTWvqcAg==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1413,7 +1413,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@18.19.76':
+  '@types/node@18.19.79':
     dependencies:
       undici-types: 5.26.5
 
