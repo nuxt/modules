@@ -1,5 +1,7 @@
 name: nuxt-music-flow
-description: Nuxt 3 module for audio player component with playlist and waveform visualization.
+description: >-
+  Nuxt 3 module for audio player component with playlist and waveform
+  visualization.
 repo: ndragun92/nuxt-music-flow
 npm: nuxt-music-flow
 icon: nuxt-music-flow.png
