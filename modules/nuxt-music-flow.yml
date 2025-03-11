@@ -1,0 +1,17 @@
+name: nuxt-music-flow
+description: Nuxt 3 module for audio player component with playlist and waveform visualization.
+repo: ndragun92/nuxt-music-flow
+npm: nuxt-music-flow
+icon: nuxt-music-flow.png
+github: https://github.com/ndragun92/nuxt-music-flow
+website: https://vue-music-flow-docs.vercel.app/usage#nuxt
+learn_more: https://vue-music-flow-docs.vercel.app/demo
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Nemanja Dragun
+    github: ndragun92
+    twitter: nemanjadragun
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
