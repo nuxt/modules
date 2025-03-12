@@ -1,5 +1,5 @@
 name: fonts
-description: Plug-and-play web font optimization and configuration for Nuxt apps.
+description: Add custom web fonts with performance in mind.
 repo: nuxt/fonts
 npm: '@nuxt/fonts'
 icon: nuxt.svg
