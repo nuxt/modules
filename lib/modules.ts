@@ -8,9 +8,15 @@ import pLimit from 'p-limit'
 import { $fetch } from 'ofetch'
 import { isCI } from 'std-env'
 import { Octokit } from '@octokit/rest'
+import dotenv from 'dotenv'
+
 import { categories } from './categories'
 import type { ModuleInfo } from './types'
 import { fetchGithubPkg, modulesDir, distDir, distFile, rootDir } from './utils'
+
+const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
+
+dotenv.config()
 
 export async function sync(name: string, repo?: string, isNew: boolean = false) {
   const mod = await getModule(name)
@@ -156,32 +162,35 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
   }
 
   if (process.env.GITHUB_TOKEN) {
-    console.log('Syncing maintainer socials with GitHub')
     const client = new Octokit({ auth: `Bearer ${process.env.GITHUB_TOKEN}` })
     for (const maintainer of mod.maintainers) {
-      const response = await client.graphql<{ user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }>({
-        query: `
-            query ($login: String!) {
-              user (login: $login) {
-                name
-                email
-                socialAccounts(first: 100) {
-                  nodes {
-                    displayName
-                    provider
-                    url
+      if (!(maintainer.github in maintainerSocialCache)) {
+        console.log('Syncing maintainer socials with GitHub')
+        maintainerSocialCache[maintainer.github] = await client.graphql<{ user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }>({
+          query: `
+              query ($login: String!) {
+                user (login: $login) {
+                  name
+                  email
+                  socialAccounts(first: 100) {
+                    nodes {
+                      displayName
+                      provider
+                      url
+                    }
                   }
                 }
-              }
-            }`,
-        login: maintainer.github,
-      }).catch(() => null)
+              }`,
+          login: maintainer.github,
+        }).catch(() => null)
+      }
 
-      if (response) {
-        if (response.user.name) {
-          maintainer.name = response.user.name
+      const user = maintainerSocialCache[maintainer.github]?.user
+      if (user) {
+        if (user.name) {
+          maintainer.name = user.name
         }
-        for (const social of response.user.socialAccounts.nodes) {
+        for (const social of user.socialAccounts.nodes) {
           if (social.provider === 'TWITTER') {
             maintainer.twitter = social.displayName.replace(/^@/, '')
           }
@@ -220,7 +229,7 @@ export async function getModule(name: string): Promise<ModuleInfo> {
     type: '3rd-party', // official, community, 3rd-party
     maintainers: [],
     compatibility: {
-      nuxt: '^2.0.0',
+      nuxt: '^3.0.0',
       requires: {},
     },
   }

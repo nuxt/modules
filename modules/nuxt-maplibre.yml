@@ -12,6 +12,7 @@ maintainers:
   - name: Gugustinette
     github: Gugustinette
     twitter: gugustinette
+    bluesky: gugustinette.com
 compatibility:
   nuxt: ^3.0.0
   requires: {}
