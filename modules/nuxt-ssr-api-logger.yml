@@ -1,0 +1,19 @@
+name: nuxt-ssr-api-logger
+description: >-
+  A small module that helps you see when your Nuxt application sends any API
+  request via SSR.
+repo: buglavecz/nuxt-ssr-api-logger
+npm: nuxt-ssr-api-logger
+icon: nuxt-ssr-api-logger.png
+github: https://github.com/buglavecz/nuxt-ssr-api-logger
+website: https://github.com/buglavecz/nuxt-ssr-api-logger
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Peter Buglavecz
+    github: buglavecz
+    avatar: https://avatars.githubusercontent.com/u/43108336
+compatibility:
+  nuxt: ^3.16.0
+  requires: {}
