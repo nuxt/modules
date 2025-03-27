@@ -1,0 +1,18 @@
+name: nuxt-listmonk
+description: Nuxt module for Listmonk
+repo: roncallyt/nuxt-listmonk
+npm: nuxt-listmonk
+icon: listmonk.svg
+github: https://github.com/roncallyt/nuxt-listmonk
+website: https://nuxt-listmonk.t7n.dev
+learn_more: https://listmonk.app/docs/
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Thomerson Roncally
+    github: roncallyt
+    avatar: https://avatars.githubusercontent.com/roncallyt
+    twitter: t7ndotdev
+compatibility:
+  nuxt: '>=3.12.0'
+  requires: {}
