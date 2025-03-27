@@ -1,0 +1,16 @@
+name: yandex-metrika
+description: Add Yandex Metrika to your Nuxt 3 application.
+repo: TakNePoidet/nuxt-yandex-metrika
+npm: nuxt-yandex-metrika
+icon: ''
+github: https://github.com/TakNePoidet/nuxt-yandex-metrika
+website: https://github.com/TakNePoidet/nuxt-yandex-metrika
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: TakNePoidet
+    github: TakNePoidet
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
