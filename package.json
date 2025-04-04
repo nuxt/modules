@@ -35,7 +35,7 @@
     "ofetch": "^1.4.1",
     "p-limit": "^6.2.0",
     "std-env": "^3.8.0",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   },
   "packageManager": "pnpm@9.15.3",
   "dependencies": {
