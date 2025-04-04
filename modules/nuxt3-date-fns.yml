@@ -1,0 +1,16 @@
+name: nuxt3-date-fns
+description: date-fns module with auto-import and custom prefix
+repo: siddharth223437/nuxt-date-fns
+npm: nuxt3-date-fns
+icon: date-fns.png
+github: https://github.com/siddharth223437/nuxt-date-fns
+website: https://github.com/siddharth223437/nuxt-date-fns#readme
+learn_more: https://date-fns.org/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Siddharth Sarathe
+    github: siddharth223437
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
