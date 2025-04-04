@@ -1,0 +1,16 @@
+name: stonecrop
+description: Stonecrop for Nuxt
+repo: agritheory/stonecrop#development/nuxt
+npm: '@stonecrop/nuxt'
+icon: stonecrop.svg
+github: https://github.com/agritheory/stonecrop/tree/development/nuxt
+website: https://agritheory.com/
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Tyler Matteson
+    github: agritheory
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
