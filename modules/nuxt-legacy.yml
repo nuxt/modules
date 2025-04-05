@@ -1,0 +1,16 @@
+name: nuxt-legacy
+description: 'A Nuxt module for supporting legacy browsers.'
+repo: teages/nuxt-legacy
+npm: '@teages/nuxt-legacy'
+icon: 'nuxt-legacy.svg'
+github: https://github.com/teages/nuxt-legacy
+website: https://github.com/teages/nuxt-legacy
+learn_more: 'https://www.npmjs.com/package/@vitejs/plugin-legacy'
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: Teages
+    github: teages
+compatibility:
+  nuxt: '>=3.15.0'
+  requires: {}
