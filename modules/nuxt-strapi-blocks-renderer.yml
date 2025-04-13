@@ -1,0 +1,15 @@
+name: nuxt-strapi-blocks-renderer
+description: Render the Strapi CMS blocks text element easily in Nuxt.
+repo: freb97/nuxt-strapi-blocks-renderer
+npm: nuxt-strapi-blocks-renderer
+icon: nuxt-strapi-blocks-renderer.png
+github: https://github.com/freb97/nuxt-strapi-blocks-renderer
+learn_more: https://strapi.io
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Frederik Bußmann
+    github: freb97
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
