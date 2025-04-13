@@ -4,6 +4,7 @@ repo: freb97/nuxt-strapi-blocks-renderer
 npm: nuxt-strapi-blocks-renderer
 icon: nuxt-strapi-blocks-renderer.png
 github: https://github.com/freb97/nuxt-strapi-blocks-renderer
+website: https://github.com/freb97/nuxt-strapi-blocks-renderer
 learn_more: https://strapi.io
 category: CMS
 type: 3rd-party
