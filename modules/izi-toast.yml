@@ -1,0 +1,19 @@
+name: izi-toast
+description: >-
+  Elegant, responsive, and lightweight toast notification module for Nuxt 3
+  using iziToast. Supports auto-imported composables and full customization.
+repo: stephenjason89/nuxt-toast
+npm: nuxt-toast
+icon: toast.png
+github: https://github.com/stephenjason89/nuxt-toast
+website: https://github.com/stephenjason89/nuxt-toast
+learn_more: https://izitoast.marcelodolce.com/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Stephen Jason Wang
+    github: stephenjason89
+    twitter: stephenjason89
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
