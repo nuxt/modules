@@ -229,7 +229,7 @@ export async function getModule(name: string): Promise<ModuleInfo> {
     type: '3rd-party', // official, community, 3rd-party
     maintainers: [],
     compatibility: {
-      nuxt: '^2.0.0',
+      nuxt: '^3.0.0',
       requires: {},
     },
   }

@@ -1,0 +1,17 @@
+name: compodium
+description: A plug an play component playground for Nuxt.
+repo: romhml/compodium#main/packages/nuxt
+npm: '@compodium/nuxt'
+icon: ''
+github: https://github.com/romhml/compodium
+website: https://github.com/romhml/compodium
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Romain Hamel
+    github: romhml
+    bluesky: rohm.bsky.social
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
