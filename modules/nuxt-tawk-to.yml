@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: atlaxt
     github: atlaxt
+    bluesky: atlaxt.me
 compatibility:
   nuxt: ^3.0.0
   requires: {}
