@@ -5,11 +5,11 @@ npm: nuxt-tawk-to
 icon: tawk-to.png
 github: https://github.com/atlaxt/nuxt-tawk-to
 website: https://github.com/atlaxt/nuxt-tawk-to
-learn_more: https://github.com/atlaxt/nuxt-tawk-to
+learn_more: https://www.tawk.to/
 category: UI
 type: 3rd-party
 maintainers:
-  - name: atlaxt
+  - name: Atlas Yiğit Aydın
     github: atlaxt
     bluesky: atlaxt.me
 compatibility:
