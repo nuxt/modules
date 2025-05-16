@@ -1,0 +1,16 @@
+name: nuxt-tawk-to
+description: Nuxt 3 module for integrating Tawk.to live chat widget.
+repo: atlaxt/nuxt-tawk-to
+npm: nuxt-tawk-to
+icon: tawk-to.png
+github: https://github.com/atlaxt/nuxt-tawk-to
+website: https://github.com/atlaxt/nuxt-tawk-to
+learn_more: https://github.com/atlaxt/nuxt-tawk-to
+category: UI
+type: 3rd-party
+maintainers:
+  - name: atlaxt
+    github: atlaxt
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
