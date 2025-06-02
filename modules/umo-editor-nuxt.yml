@@ -9,7 +9,7 @@ learn_more: https://editor.umodoc.com
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: umodoc
+  - name: Umo Team
     github: umodoc
 compatibility:
   nuxt: ^3.0.0
