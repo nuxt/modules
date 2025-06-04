@@ -4,7 +4,7 @@ repo: roncallyt/nuxt-listmonk
 npm: nuxt-listmonk
 icon: listmonk.svg
 github: https://github.com/roncallyt/nuxt-listmonk
-website: https://nuxt-listmonk.t7n.dev
+website: https://github.com/roncallyt/nuxt-listmonk
 learn_more: https://listmonk.app/docs/
 category: Extensions
 type: 3rd-party
