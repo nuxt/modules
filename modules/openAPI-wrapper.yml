@@ -1,0 +1,16 @@
+name: openAPI-wrapper
+description: An openapi client wrapper for Nuxt fetch client.
+repo: Pentadome/nuxt-openAPI-wrapper
+npm: nuxt-openapi-wrapper
+icon: ''
+github: https://github.com/Pentadome/nuxt-openAPI-wrapper
+website: https://github.com/Pentadome/nuxt-openAPI-wrapper
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Wouter Kettlitz
+    github: Pentadome
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
