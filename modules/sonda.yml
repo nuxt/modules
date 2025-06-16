@@ -1,7 +1,7 @@
 name: sonda
 description: Bundle analyzer and visualizer
 repo: filipsobol/sonda
-npm: sonda
+npm: sonda-repo
 icon: sonda.svg
 github: https://github.com/filipsobol/sonda
 website: https://sonda.dev/
@@ -9,7 +9,7 @@ learn_more: https://sonda.dev/
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: filipsobol
+  - name: Filip Sobol
     github: filipsobol
     twitter: filipsobol
     bluesky: filipsobol.bsky.social
