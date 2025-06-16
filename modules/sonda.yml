@@ -1,7 +1,7 @@
 name: sonda
 description: Bundle analyzer and visualizer
-repo: filipsobol/sonda
-npm: sonda-repo
+repo: filipsobol/sonda#release/packages/sonda
+npm: sonda
 icon: sonda.svg
 github: https://github.com/filipsobol/sonda
 website: https://sonda.dev/
