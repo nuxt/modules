@@ -1,6 +1,6 @@
 name: nuxt-whatsapp-widget
 description: A floating WhatsApp chat widget module for Nuxt 3
-repo: yourusername/nuxt-whatsapp-widget
+repo: oussamalkd/nuxt-whatsapp-widget
 npm: nuxt-whatsapp-widget
 icon: ph:whatsapp-logo
 github: true
