@@ -1,0 +1,17 @@
+name: content-island
+description: Content Island - A headless CMS that’s refreshingly simple
+repo: content-island/nuxt-content-island
+npm: '@content-island/nuxt'
+icon: content-island.png
+github: https://github.com/content-island/nuxt-content-island
+website: https://contentisland.net/
+learn_more: https://github.com/content-island/nuxt-content-island
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: nasdan
+    github: nasdan
+    avatar: https://avatars.githubusercontent.com/u/4374977?v=4
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
