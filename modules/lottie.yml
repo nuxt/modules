@@ -1,0 +1,18 @@
+name: lottie
+description: Easily integrate Lottie animations into your Nuxt App.
+repo: volkanakkus/nuxt-lottie
+npm: nuxt-lottie
+icon: lottie.png
+github: https://github.com/volkanakkus/nuxt-lottie
+website: https://github.com/volkanakkus/nuxt-lottie
+learn_more: https://github.com/volkanakkus/nuxt-lottie/blob/main/README.md
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Volkan Akkuş
+    github: volkanakkus
+    avatar: https://avatars.githubusercontent.com/volkanakkus
+    twitter: volkanakks
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
