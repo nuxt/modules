@@ -2,7 +2,7 @@ name: compodium
 description: A plug an play component playground for Nuxt.
 repo: romhml/compodium#main/packages/nuxt
 npm: '@compodium/nuxt'
-icon: ''
+icon: 'compodium.svg'
 github: https://github.com/romhml/compodium
 website: https://github.com/romhml/compodium
 learn_more: ''
