@@ -1,0 +1,16 @@
+name: query-api
+description: Provides simple ways to query data from Craft CMS.
+repo: samuelreichor/query-api#HEAD/packages/nuxt
+npm: '@query-api/nuxt'
+icon: query-api.svg
+github: https://github.com/samuelreichor/query-api/tree/main/packages/nuxt
+website: https://samuelreichor.at/libraries/nuxt-craftcms
+learn_more: https://samuelreichor.at/libraries
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Samuel Reichör
+    github: samuelreichor
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
