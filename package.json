@@ -14,8 +14,8 @@
   "scripts": {
     "build": "pnpm cli build",
     "cli": "jiti ./lib/cli",
-    "website:build": "pnpm build && nuxi build website",
-    "website:dev": "pnpm build && nuxi dev website",
+    "website:build": "pnpm build && nuxt build website",
+    "website:dev": "pnpm build && nuxt dev website",
     "lint": "eslint",
     "release": "pnpm cli version && npm publish",
     "sync": "pnpm cli sync",
