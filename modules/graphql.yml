@@ -1,6 +1,8 @@
 name: graphql
 description: >-
-  A standalone Nitro module that integrates GraphQL servers into any Nitro application with automatic type generation, file watching, and seamless framework integration.
+  A standalone Nitro module that integrates GraphQL servers into any Nitro
+  application with automatic type generation, file watching, and seamless
+  framework integration.
 repo: productdevbook/nitro-graphql
 npm: nitro-graphql
 icon: ''
@@ -10,7 +12,7 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: productdevbook
+  - name: Wind
     github: productdevbook
 compatibility:
   nuxt: ^3.0.0
