@@ -1,0 +1,15 @@
+name: bcms
+description: Nuxt BCMS module
+repo: nuxt-modules/bcms#main
+npm: '@nuxtjs/bcms'
+icon: bcms.png
+github: https://github.com/nuxt-modules/bcms#main
+website: https://thebcms.com
+learn_more: https://thebcms.com/docs/integrations/nuxt-js
+category: CMS
+type: community
+maintainers:
+  - name: Branislav Vajagic
+    github: bbanez
+compatibility:
+  nuxt: '>=3.0.0'
