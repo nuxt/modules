@@ -11,8 +11,6 @@ type: 3rd-party
 maintainers:
   - name: Branislav Vajagic
     github: bbanez
-  - name: Momcilo Popov
-    github: momciloo
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
