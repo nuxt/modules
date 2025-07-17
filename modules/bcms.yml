@@ -7,7 +7,7 @@ github: https://github.com/bcms/nuxt-module
 website: https://thebcms.com
 learn_more: https://thebcms.com/docs/integrations/nuxt-js
 category: CMS
-type: community
+type: 3rd-party
 maintainers:
   - name: Branislav Vajagic
     github: bbanez
@@ -15,3 +15,4 @@ maintainers:
     github: momciloo
 compatibility:
   nuxt: '>=3.0.0'
+  requires: {}
