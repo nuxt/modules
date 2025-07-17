@@ -1,9 +1,9 @@
 name: bcms
 description: Nuxt BCMS module
-repo: nuxt-modules/bcms#main
-npm: '@nuxtjs/bcms'
+repo: bcms/nuxt-module
+npm: '@thebcms/nuxt'
 icon: bcms.png
-github: https://github.com/nuxt-modules/bcms#main
+github: https://github.com/bcms/nuxt-module
 website: https://thebcms.com
 learn_more: https://thebcms.com/docs/integrations/nuxt-js
 category: CMS
