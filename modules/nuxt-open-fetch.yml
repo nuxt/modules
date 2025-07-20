@@ -1,0 +1,20 @@
+name: nuxt-open-fetch
+description: Generate zero-overhead, 100% typed OpenAPI clients for Nuxt.
+repo: Norbiros/nuxt-open-fetch
+npm: nuxt-open-fetch
+icon: nuxt-open-fetch.svg
+github: https://github.com/Norbiros/nuxt-open-fetch
+website: https://nuxt-open-fetch.norbiros.dev
+learn_more: https://www.npmjs.com/package/nuxt-open-fetch
+category: Request
+type: 3rd-party
+maintainers:
+  - name: Norbiros
+    github: Norbiros
+    avatar: https://avatars.githubusercontent.com/u/89837724?v=4
+  - name: Taras Batenkov
+    github: enkot
+    avatar: https://avatars.githubusercontent.com/u/10506522?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
