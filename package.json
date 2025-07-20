@@ -1,5 +1,6 @@
 {
   "name": "@nuxt/modules",
+  "type": "module",
   "version": "0.6.0",
   "license": "MIT",
   "repository": {
