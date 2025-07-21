@@ -39,6 +39,6 @@
   },
   "packageManager": "pnpm@9.15.3",
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.6.1"
   }
 }
