@@ -4,15 +4,24 @@ repo: intevel/nuxt-directus
 npm: nuxt-directus
 icon: directus.svg
 github: https://github.com/intevel/nuxt-directus/
-website: https://nuxt-directus.site/
-learn_more: https://nuxt-directus.site/
+website: https://nuxt-directus.de/
+learn_more: https://directus.io/
 category: CMS
 type: 3rd-party
 maintainers:
   - name: Conner Bachmann
     github: intevel
     avatar: https://avatars.githubusercontent.com/u/59223342?v=4
+    twitter: heyconnery
+  - name: 'Matt. '
+    github: casualmatt
+    avatar: https://avatars.githubusercontent.com/u/85650530?v=4
+  - name: Sandro Circi
+    github: sandros94
+    avatar: https://avatars.githubusercontent.com/u/13056429?v=4
+    bluesky: sandros94.com
+    twitter: _sandros94
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
   devtools: ^0.0.0

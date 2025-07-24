@@ -11,7 +11,7 @@ learn_more: ''
 category: SEO
 type: 3rd-party
 maintainers:
-  - name: AlekseyPleshkov
+  - name: Aleksey Pleshkov
     github: AlekseyPleshkov
 compatibility:
   nuxt: ^2.0.0

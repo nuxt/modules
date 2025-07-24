@@ -11,8 +11,8 @@ learn_more: ''
 category: Performance
 type: 3rd-party
 maintainers:
-  - name: adenvt
+  - name: Ade Novid
     github: adenvt
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

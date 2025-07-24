@@ -4,14 +4,15 @@ repo: manchenkoff/nuxt-auth-sanctum
 npm: nuxt-auth-sanctum
 icon: laravel.svg
 github: https://github.com/manchenkoff/nuxt-auth-sanctum
-website: https://github.com/manchenkoff/nuxt-auth-sanctum
-learn_more: ''
+website: https://manchenkoff.gitbook.io/nuxt-auth-sanctum/
+learn_more: https://laravel.com/docs/12.x/sanctum
 category: Security
 type: 3rd-party
 maintainers:
   - name: Artem Manchenkov
     github: manchenkoff
     avatar: https://avatars.githubusercontent.com/manchenkoff
+    twitter: AManchenkov
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.12.0'
   requires: {}

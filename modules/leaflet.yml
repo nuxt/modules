@@ -1,16 +1,18 @@
 name: leaflet
-description: A Nuxt module which makes it easy to create reactive maps with Leaflet
-repo: schlunsen/nuxt-leaflet
-npm: nuxt-leaflet
+description: Leaflet integration with Nuxt
+repo: nuxt-modules/leaflet
+npm: '@nuxtjs/leaflet'
 icon: leaflet.png
-github: https://github.com/schlunsen/nuxt-leaflet
-website: https://github.com/schlunsen/nuxt-leaflet
-learn_more: https://vue2-leaflet.netlify.app/quickstart/
+github: https://github.com/nuxt-modules/leaflet
+website: https://leaflet.nuxtjs.org/
+learn_more: https://leaflet.nuxtjs.org/
 category: Libraries
-type: 3rd-party
+type: community
 maintainers:
-  - name: schlunsen
-    github: schlunsen
+  - name: Gugustinette
+    github: Gugustinette
+    twitter: gugustinette
+    bluesky: gugustinette.com
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}

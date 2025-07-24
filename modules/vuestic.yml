@@ -4,13 +4,13 @@ repo: epicmaxco/vuestic-ui#develop/packages/nuxt
 npm: '@vuestic/nuxt'
 icon: vuestic.png
 github: https://github.com/epicmaxco/vuestic-ui/tree/develop/packages/nuxt
-website: https://vuestic.dev
-learn_more: https://vuestic.dev/en/getting-started/nuxt
+website: https://ui.vuestic.dev
+learn_more: https://ui.vuestic.dev/getting-started/nuxt
 category: UI
 type: 3rd-party
 maintainers:
   - name: epicmaxco
     github: epicmaxco
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

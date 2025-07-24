@@ -2,7 +2,7 @@ name: nuxt-openapi-docs-module
 description: Generate pages from OpenAPI specifications
 repo: on-org/nuxt-openapi-docs-module
 npm: nuxt-openapi-docs-module
-icon: nuxt-openapi-docs-module.svg
+icon: nuxt-openapi-docs-module.png
 github: https://github.com/on-org/nuxt-openapi-docs-module
 website: https://github.com/on-org/nuxt-openapi-docs-module
 learn_more: https://www.npmjs.com/package/nuxt-openapi-docs-module
@@ -12,5 +12,5 @@ maintainers:
   - name: Pavel Kuzmin
     github: s00d
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

@@ -1,0 +1,35 @@
+name: release
+
+on:
+  push:
+    branches:
+      - main
+    paths: 
+      - 'modules/**'
+      - 'lib/**'
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: corepack enable
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: "pnpm"
+      - run: pnpm install
+
+      - name: Build
+        run: pnpm build
+
+      - name: Publish to npm
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
+          echo "//registry.pnpmpkg.com/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
+          pnpm release
+        env:
+          NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}

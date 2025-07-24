@@ -9,11 +9,14 @@ learn_more: https://kinde.com/
 category: Security
 type: community
 maintainers:
-  - name: danielroe
+  - name: Daniel Roe
     github: danielroe
-  - name: daveordead
+    twitter: danielcroe
+    bluesky: danielroe.dev
+  - name: Dave
     github: DaveOrDead
     twitter: dave_or_dead
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
+sponsor: true

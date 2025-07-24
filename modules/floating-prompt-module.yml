@@ -11,8 +11,9 @@ learn_more: ''
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: sandoche
+  - name: Sandoche ADITTANE
     github: sandoche
+    twitter: sandochee
 compatibility:
   nuxt: ^2.0.0
   requires: {}

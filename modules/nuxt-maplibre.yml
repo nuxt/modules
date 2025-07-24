@@ -1,0 +1,18 @@
+name: nuxt-maplibre
+description: Maplibre integration with Nuxt
+repo: Gugustinette/nuxt-maplibre
+npm: nuxt-maplibre
+icon: maplibre.png
+github: https://github.com/Gugustinette/nuxt-maplibre
+website: https://gugustinette.github.io/nuxt-maplibre/
+learn_more: https://gugustinette.github.io/nuxt-maplibre/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Gugustinette
+    github: Gugustinette
+    twitter: gugustinette
+    bluesky: gugustinette.com
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

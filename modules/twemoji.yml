@@ -11,6 +11,8 @@ type: 3rd-party
 maintainers:
   - name: Yizack Rangel
     github: yizack
+    twitter: YizackR
+    bluesky: yizack.com
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

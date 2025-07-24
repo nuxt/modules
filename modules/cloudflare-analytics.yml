@@ -9,11 +9,12 @@ learn_more: https://www.cloudflare.com/web-analytics/
 category: Analytics
 type: 3rd-party
 maintainers:
-  - name: hamlogic
+  - name: 0xHam
     github: hamlogic
+    twitter: hamlogic
   - name: Fabian B.
     github: madebyfabian
     twitter: madebyfabian
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

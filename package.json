@@ -2,7 +2,10 @@
   "name": "@nuxt/modules",
   "version": "0.6.0",
   "license": "MIT",
-  "repository": "nuxt/modules",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuxt/modules.git"
+  },
   "homepage": "https://nuxt.com/modules",
   "main": "./modules.json",
   "files": [
@@ -11,25 +14,31 @@
   "scripts": {
     "build": "pnpm cli build",
     "cli": "jiti ./lib/cli",
-    "website:build": "pnpm build && nuxi build website",
-    "website:dev": "pnpm build && nuxi dev website",
-    "lint": "eslint --ext .",
+    "website:build": "pnpm build && nuxt build website",
+    "website:dev": "pnpm build && nuxt dev website",
+    "lint": "eslint",
     "release": "pnpm cli version && npm publish",
     "sync": "pnpm cli sync",
     "test": "pnpm lint && pnpm sync"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.2.0",
-    "@types/js-yaml": "^4.0.5",
-    "@types/node": "^18.17.15",
-    "defu": "^6.1.2",
-    "eslint": "^8.49.0",
-    "globby": "^13.2.2",
-    "hasha": "^5.2.2",
-    "jiti": "^1.20.0",
+    "@nuxt/eslint-config": "^0.7.5",
+    "@octokit/rest": "^21.1.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^18.19.70",
+    "defu": "^6.1.4",
+    "eslint": "^9.18.0",
+    "globby": "^14.0.2",
+    "hasha": "^6.0.0",
+    "jiti": "^2.4.2",
     "js-yaml": "^4.1.0",
-    "ofetch": "^1.3.3",
-    "typescript": "^5.2.2"
+    "ofetch": "^1.4.1",
+    "p-limit": "^6.2.0",
+    "std-env": "^3.8.0",
+    "typescript": "^5.7.3"
   },
-  "packageManager": "pnpm@8.7.4"
+  "packageManager": "pnpm@9.15.3",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
 }

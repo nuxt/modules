@@ -1,0 +1,18 @@
+name: api-shield
+description: Nuxt API Shield - Rate Limiting
+repo: rrd108/nuxt-api-shield
+npm: nuxt-api-shield
+icon: api-shield.png
+github: https://github.com/rrd108/nuxt-api-shield
+website: https://github.com/rrd108/nuxt-api-shield
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: rrd
+    github: rrd108
+    twitter: radharadhya
+    bluesky: rrd108.bsky.social
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

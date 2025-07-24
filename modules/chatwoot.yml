@@ -11,8 +11,9 @@ learn_more: https://www.chatwoot.com
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: productdevbook
+  - name: Wind
     github: productdevbook
+    twitter: productdevbook
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

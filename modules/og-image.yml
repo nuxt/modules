@@ -1,19 +1,19 @@
 name: og-image
 description: Enlightened runtime images generated with Vue templates.
-repo: harlan-zw/nuxt-og-image
+repo: nuxt-modules/og-image
 npm: nuxt-og-image
 icon: og-image.svg
-github: https://github.com/harlan-zw/nuxt-og-image
+github: https://github.com/nuxt-modules/og-image
 website: https://nuxtseo.com/og-image
 learn_more: https://nuxtseo.com/og-image
 category: SEO
-type: 3rd-party
+type: community
 maintainers:
   - name: Harlan Wilton
     github: harlan-zw
     twitter: harlan_zw
     avatar: https://avatars.githubusercontent.com/harlan-zw?v=4
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
   devtools: ^0.0.0

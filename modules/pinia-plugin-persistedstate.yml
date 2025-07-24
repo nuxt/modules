@@ -1,10 +1,9 @@
 name: pinia-plugin-persistedstate
 description: Configurable persistence and rehydration of Pinia stores.
-repo: prazdevs/pinia-plugin-persistedstate#main/packages/nuxt
-npm: '@pinia-plugin-persistedstate/nuxt'
+repo: prazdevs/pinia-plugin-persistedstate
+npm: pinia-plugin-persistedstate
 icon: pinia-plugin-persistedstate.png
-github: >-
-  https://github.com/prazdevs/pinia-plugin-persistedstate/tree/main/packages/nuxt
+github: https://github.com/prazdevs/pinia-plugin-persistedstate
 website: https://prazdevs.github.io/pinia-plugin-persistedstate/
 learn_more: ''
 category: Extensions
@@ -12,7 +11,8 @@ type: 3rd-party
 maintainers:
   - name: PraZ
     github: prazdevs
+    bluesky: dev.praz.me
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires:
     bridge: optional

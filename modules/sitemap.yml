@@ -1,17 +1,22 @@
 name: sitemap
-description: Automatically generate or serve dynamic sitemap.xml for Nuxt projects
-repo: nuxt-community/sitemap-module#dev
+description: Powerfully flexible XML Sitemaps that integrate seamlessly.
+repo: nuxt-modules/sitemap
 npm: '@nuxtjs/sitemap'
-icon: ''
-github: https://github.com/nuxt-community/sitemap-module#dev
-website: https://sitemap.nuxtjs.org
-learn_more: ''
+icon: simple-sitemap.svg
+github: https://github.com/nuxt-modules/sitemap
+website: https://nuxtseo.com/
+learn_more: https://nuxtseo.com/sitemap
 category: SEO
 type: community
 maintainers:
+  - name: Harlan Wilton
+    github: harlan-zw
+    twitter: harlan_zw
+    avatar: https://avatars.githubusercontent.com/harlan-zw?v=4
   - name: Nicolas PENNEC
     github: NicoPennec
     twitter: NicoPennec
+    bluesky: nicopennec.bsky.social
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: '>=3.0.0'
   requires: {}

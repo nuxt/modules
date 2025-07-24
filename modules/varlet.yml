@@ -4,14 +4,15 @@ repo: varletjs/varlet-nuxt
 npm: '@varlet/nuxt'
 icon: varlet.svg
 github: https://github.com/varletjs/varlet
-website: https://varlet.gitee.io/varlet-ui/#/en-US/index
+website: https://varlet.pages.dev/#/en-US/index
 learn_more: https://github.com/varletjs/varlet-nuxt
 category: UI
 type: 3rd-party
 maintainers:
-  - name: zhangmo8
+  - name: xiaomo
     github: zhangmo8
+    twitter: wegi8666
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires:
     bridge: optional
