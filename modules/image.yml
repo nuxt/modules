@@ -25,7 +25,7 @@ maintainers:
     bluesky: pi0.io
   - name: Sébastien Chopin
     github: Atinux
-    twitter: Atinux
+    twitter: atinux
     bluesky: atinux.com
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
