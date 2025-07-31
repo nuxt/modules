@@ -1,7 +1,9 @@
 name: vue-gsap-flip
-description: A powerful Vue 3 library for creating stunning flip animations using GSAP's Flip plugin. Modular, extensible, and easy to use.
+description: >-
+  A powerful Vue 3 library for creating stunning flip animations using GSAP's
+  Flip plugin. Modular, extensible, and easy to use.
 repo: lavolpecheprogramma/vue-gsap-flip
-npm: '@vue-gsap-flip/nuxt'
+npm: vue-gsap-flip-monorepo
 icon: ''
 github: https://github.com/lavolpecheprogramma/vue-gsap-flip
 website: https://lavolpecheprogramma.github.io/vue-gsap-flip/
