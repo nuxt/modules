@@ -15,5 +15,5 @@ maintainers:
     github: lavolpecheprogramma
     twitter: lavolpechevola
 compatibility:
-  nuxt: >=4.0.0
+  nuxt: '>=3.0.0'
   requires: {}
