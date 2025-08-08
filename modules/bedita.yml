@@ -14,3 +14,4 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/batopa
 compatibility:
   nuxt: ^3.0.0
+  requires: {}
