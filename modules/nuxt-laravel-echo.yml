@@ -5,7 +5,7 @@ npm: nuxt-laravel-echo
 icon: laravel.svg
 github: https://github.com/manchenkoff/nuxt-laravel-echo
 website: https://manchenkoff.gitbook.io/nuxt-laravel-echo
-learn_more: https://laravel.com/docs/11.x/broadcasting
+learn_more: https://laravel.com/docs/12.x/broadcasting
 category: Libraries
 type: 3rd-party
 maintainers:

@@ -11,9 +11,10 @@ type: 3rd-party
 maintainers:
   - name: Serhii Bedrytskyi
     github: bdrtsky
+    twitter: serhii_be
   - name: Sébastien Chopin
     github: Atinux
-    twitter: Atinux
+    twitter: atinux
     bluesky: atinux.com
 compatibility:
   nuxt: ^2.0.0
