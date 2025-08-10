@@ -14,6 +14,7 @@ maintainers:
   - name: William DA SILVA
     github: WilliamDASILVA
     twitter: willia_am
+    bluesky: william.to
 compatibility:
   nuxt: ^2.0.0
   requires: {}

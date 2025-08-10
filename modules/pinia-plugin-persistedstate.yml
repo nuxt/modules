@@ -9,7 +9,7 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: PraZ
+  - name: praz
     github: prazdevs
     bluesky: dev.praz.me
 compatibility:
