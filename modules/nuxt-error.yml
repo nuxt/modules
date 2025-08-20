@@ -1,0 +1,17 @@
+name: nuxt-error
+description: The error module for Nuxt
+repo: Dennisadriaans/nuxt-error
+npm: nuxt-error
+icon: ''
+github: https://github.com/Dennisadriaans/nuxt-error
+website: https://github.com/Dennisadriaans/nuxt-error
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Dennis Adriaansen
+    github: Dennisadriaans
+    twitter: DennisAdriaans
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
