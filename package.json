@@ -30,15 +30,15 @@
     "eslint": "^9.18.0",
     "globby": "^14.0.2",
     "hasha": "^6.0.0",
-    "jiti": "^2.4.2",
+    "jiti": "^2.5.1",
     "js-yaml": "^4.1.0",
     "ofetch": "^1.4.1",
     "p-limit": "^6.2.0",
     "std-env": "^3.8.0",
-    "typescript": "^5.7.3"
+    "typescript": "^5.9.2"
   },
   "packageManager": "pnpm@9.15.3",
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.6.1"
   }
 }
