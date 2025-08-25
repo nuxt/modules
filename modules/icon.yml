@@ -11,7 +11,7 @@ type: official
 maintainers:
   - name: Sébastien Chopin
     github: Atinux
-    twitter: Atinux
+    twitter: atinux
     bluesky: atinux.com
   - name: Anthony Fu
     github: antfu
