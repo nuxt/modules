@@ -1,0 +1,16 @@
+name: nuxt-useless-blobs
+description: An easier way of using useless-blobs in your Nuxt project!
+repo: oyedejioyewole/nuxt-useless-blobs
+npm: nuxt-useless-blobs
+icon: nuxt-useless-blobs.svg
+github: https://github.com/oyedejioyewole/nuxt-useless-blobs
+website: https://nuxt-useless-blobs.vercel.app
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Oyedeji Oyewole
+    github: oyedejioyewole
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

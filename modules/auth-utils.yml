@@ -11,7 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Sébastien Chopin
     github: atinux
-    twitter: Atinux
+    twitter: atinux
     bluesky: atinux.com
 compatibility:
   nuxt: '>=3.0.0'

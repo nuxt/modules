@@ -1,7 +1,5 @@
 name: devtools
-description: >-
-  Unleash Nuxt Developer Experience. A set of visual tools that help you to know
-  your app better.
+description: Visual tools that help you to know your Nuxt application better.
 repo: nuxt/devtools#main/packages/devtools
 npm: '@nuxt/devtools'
 icon: nuxt.svg

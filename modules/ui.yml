@@ -1,7 +1,5 @@
 name: ui
-description: >-
-  Fully styled and customizable components for Nuxt, powered by Headless UI and
-  Tailwind CSS.
+description: The Intuitive UI Library powered by Reka UI and Tailwind CSS.
 repo: nuxt/ui#dev
 npm: '@nuxt/ui'
 icon: nuxt.svg
@@ -17,11 +15,8 @@ maintainers:
     bluesky: benjamincanac.dev
   - name: Sébastien Chopin
     github: Atinux
-    twitter: Atinux
+    twitter: atinux
     bluesky: atinux.com
-  - name: Sylvain Marroufin
-    github: smarroufin
-    twitter: smarroufin
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

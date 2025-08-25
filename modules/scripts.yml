@@ -1,12 +1,12 @@
 name: scripts
-description: Plug-and-play script optimization for Nuxt applications.
+description: Add 3rd-party scripts without sacrificing performance.
 repo: nuxt/scripts
 npm: '@nuxt/scripts'
 icon: nuxt.svg
 github: https://github.com/nuxt/scripts
 website: https://scripts.nuxt.com
 learn_more: ''
-category: Libraries
+category: Performance
 type: official
 maintainers:
   - name: Harlan Wilton

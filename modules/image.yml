@@ -1,7 +1,7 @@
 name: image
 description: >-
-  Optimised images for Nuxt, with progressive processing, lazy-loading,
-  real-time resizes and providers support.
+  Add images with progressive processing, lazy-loading, resizing and providers
+  support.
 repo: nuxt/image
 npm: '@nuxt/image'
 icon: nuxt.svg
@@ -14,6 +14,7 @@ maintainers:
   - name: Farnabaz
     github: farnabaz
     twitter: a_birang
+    bluesky: farnabaz.dev
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
@@ -24,7 +25,7 @@ maintainers:
     bluesky: pi0.io
   - name: Sébastien Chopin
     github: Atinux
-    twitter: Atinux
+    twitter: atinux
     bluesky: atinux.com
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0

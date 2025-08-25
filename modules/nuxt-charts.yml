@@ -1,0 +1,18 @@
+name: nuxt-charts
+description: Nuxt module for vue-chrts
+repo: dennisadriaans/vue-chrts#main/packages/nuxt
+npm: nuxt-charts
+icon: nuxt-charts.svg
+github: https://github.com/dennisadriaans/vue-chrts
+website: https://nuxtcharts.com/
+learn_more: https://nuxtcharts.com/docs
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Dennis Adriaansen
+    github: dennisadriaans
+    avatar: https://avatars.githubusercontent.com/dennisadriaans
+    twitter: DennisAdriaans
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
