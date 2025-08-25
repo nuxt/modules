@@ -14,6 +14,7 @@ type: 3rd-party
 maintainers:
   - name: Wind
     github: productdevbook
+    twitter: productdevbook
 compatibility:
   nuxt: ^3.0.0
   requires: {}
