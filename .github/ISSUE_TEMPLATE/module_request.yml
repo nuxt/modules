@@ -1,7 +1,7 @@
 name: Module Listing Request
 description: Request to add a new module to the modules list
-title: "[Module Listing Request]: `...`"
-labels: ["module-request"]
+title: '[Module Listing Request]: `...`'
+labels: ['module-request']
 body:
   - type: markdown
     attributes:
@@ -20,7 +20,7 @@ body:
     attributes:
       label: Repository
       description: Drop a link to the source repository.
-      placeholder: "https://github.com/..."
+      placeholder: 'https://github.com/...'
     validations:
       required: true
   - type: input
@@ -28,7 +28,7 @@ body:
     attributes:
       label: npm
       description: Drop a link to the npm package.
-      placeholder: "https://www.npmjs.com/package/..."
+      placeholder: 'https://www.npmjs.com/package/...'
     validations:
       required: true
   - type: dropdown
@@ -41,5 +41,6 @@ body:
         - Nuxt 2
         - Nuxt Bridge
         - Nuxt 3
+        - Nuxt 4
     validations:
       required: true
