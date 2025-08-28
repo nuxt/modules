@@ -17,7 +17,7 @@
     "website:build": "pnpm build && nuxt build website",
     "website:dev": "pnpm build && nuxt dev website",
     "lint": "eslint",
-    "release": "pnpm cli version && npm publish",
+    "release": "pnpm cli version && npm publish --tag latest",
     "sync": "pnpm cli sync",
     "test": "pnpm lint && pnpm sync"
   },
