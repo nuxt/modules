@@ -9,7 +9,7 @@ learn_more: https://aidanhibbard.github.io/nuxt-processor/
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: aidanhibbard
+  - name: Aidan Hibbard
     github: aidanhibbard
 compatibility:
   nuxt: ^3.0.0
