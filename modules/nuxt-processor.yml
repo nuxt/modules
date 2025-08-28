@@ -1,0 +1,16 @@
+name: nuxt-processor
+description: Decoupled processing for Nuxt backed by BullMQ.
+repo: aidanhibbard/nuxt-processor
+npm: nuxt-processor
+icon: ''
+github: https://github.com/aidanhibbard/nuxt-processor
+website: https://github.com/aidanhibbard/nuxt-processor
+learn_more: https://aidanhibbard.github.io/nuxt-processor/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: aidanhibbard
+    github: aidanhibbard
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
