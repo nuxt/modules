@@ -1,0 +1,18 @@
+name: lettermint
+description: Nuxt module for sending emails with Lettermint
+repo: lettermint/nuxt-lettermint
+npm: nuxt-lettermint
+icon: 'lettermint.svg'
+github: https://github.com/lettermint/nuxt-lettermint
+website: https://github.com/lettermint/nuxt-lettermint
+learn_more: 'https://lettermint.co'
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: lettermint
+    github: lettermint
+    twitter: lettermintco
+    bluesky: lettermint.co
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
