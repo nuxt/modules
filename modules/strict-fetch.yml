@@ -1,0 +1,15 @@
+name: Nuxt Strict Fetch
+description: Typed API module with Yup/Zod validation, request queuing, composables and many other features.
+repo: alexbidenko/nuxt-strict-fetch
+npm: nuxt-strict-fetch
+icon: ''
+github: https://github.com/alexbidenko/nuxt-strict-fetch
+website: https://www.npmjs.com/package/nuxt-strict-fetch
+category: Request
+type: community
+maintainers:
+  - name: Alexander Bidenko
+    github: alexbidenko
+    twitter: alexbidenko
+compatibility:
+  nuxt: '>=3.0.0'
