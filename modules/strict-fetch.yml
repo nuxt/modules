@@ -1,4 +1,4 @@
-name: Nuxt Strict Fetch
+name: strict-fetch
 description: Typed API module with Yup/Zod validation, request queuing, composables and many other features.
 repo: alexbidenko/nuxt-strict-fetch
 npm: nuxt-strict-fetch
