@@ -1,13 +1,13 @@
 name: nuxt-shopify
 description: Easily integrate Shopify into your Nuxt app.
-repo: konkonam/nuxt-shopify
+repo: nuxt-modules/shopify
 npm: '@nuxtjs/shopify'
 icon: nuxt-shopify.png
 github: https://github.com/nuxt-modules/shopify
 website: https://nuxt-modules.github.io/shopify
 learn_more: https://shopify.dev/docs
 category: Ecommerce
-type: 3rd-party
+type: community
 maintainers:
   - name: Zoltan Lukacs
     github: konkonam
