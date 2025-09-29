@@ -1,8 +1,8 @@
-name: 'solar-icons'
+name: solar-icons
 description: >-
   Nuxt module that provides seamless integration of Solar Icons with
   auto-import, global configuration, and reactive controls.
-repo: saoudi-h/solar-icons/tree/main/packages/nuxt
+repo: saoudi-h/solar-icons#main/packages/nuxt
 npm: '@solar-icons/nuxt'
 icon: solar-icons.svg
 github: https://github.com/saoudi-h/solar-icons/tree/main/packages/nuxt
