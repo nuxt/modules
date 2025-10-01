@@ -11,7 +11,7 @@ learn_more: ''
 category: Request
 type: 3rd-party
 maintainers:
-  - name: Abbasmoe
+  - name: Abbas Mohamed
     github: Abbasmoe
 compatibility:
   nuxt: ^3.0.0
