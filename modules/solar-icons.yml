@@ -16,5 +16,5 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/saoudi-h?v=4
     twitter: hakim__saoudi
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: >=3.0.0
   requires: {}
