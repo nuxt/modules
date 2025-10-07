@@ -4,8 +4,8 @@ repo: timbenniks/nuxt-contentstack
 npm: nuxt-contentstack
 icon: contentstack.png
 github: https://github.com/timbenniks/nuxt-contentstack
-website: https://github.com/timbenniks/nuxt-contentstack
-learn_more: https://contentstack.com/
+website: https://nuxt-contentstack-docs.eu-contentstackapps.com/
+learn_more: https://community.contentstack.com/
 category: CMS
 type: 3rd-party
 maintainers:
@@ -15,5 +15,6 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/u/121096
     bluesky: timbenniks.dev
 compatibility:
-  nuxt: ^3.12.0
+  nuxt: ^3.16.0
   requires: {}
+  devtools: ^0.0.0
