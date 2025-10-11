@@ -1,13 +1,13 @@
 name: recaptcha
 description: Simple and easy Google reCAPTCHA module with Nuxt
-repo: nuxt-community/recaptcha-module
-npm: '@nuxtjs/recaptcha'
+repo: arashsheyda/nuxt-recaptcha
+npm: nuxt-recaptcha
 icon: recaptcha.png
 github: https://github.com/nuxt-community/recaptcha-module
 website: https://github.com/nuxt-community/recaptcha-module
 learn_more: https://www.google.com/recaptcha/about/
 category: Security
-type: community
+type: 3rd-party
 maintainers:
   - name: Igor Talpa
     github: mvrlin
