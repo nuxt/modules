@@ -4,7 +4,7 @@ repo: manchenkoff/nuxt-laravel-echo
 npm: nuxt-laravel-echo
 icon: laravel.svg
 github: https://github.com/manchenkoff/nuxt-laravel-echo
-website: https://manchenkoff.gitbook.io/nuxt-laravel-echo
+website: https://echo.manchenkoff.me
 learn_more: https://laravel.com/docs/12.x/broadcasting
 category: Libraries
 type: 3rd-party
@@ -14,5 +14,5 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/manchenkoff
     twitter: AManchenkov
 compatibility:
-  nuxt: '>=3.12.0'
+  nuxt: ">=3.12.0"
   requires: {}
