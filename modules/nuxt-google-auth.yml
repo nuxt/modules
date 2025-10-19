@@ -8,7 +8,7 @@ icon: ''
 github: https://github.com/go-fireball/nuxt-google-auth
 website: https://github.com/go-fireball/nuxt-google-auth
 learn_more: ''
-category: Devtools
+category: Security
 type: 3rd-party
 maintainers:
   - name: go-fireball
