@@ -1,0 +1,20 @@
+name: nuxt-email-renderer
+description: >-
+  A Nuxt module that provides high-quality, unstyled components & utils for
+  creating emails using Vue and TypeScript.
+repo: Mokkapps/nuxt-email-renderer
+npm: nuxt-email-renderer
+icon: ''
+github: https://github.com/Mokkapps/nuxt-email-renderer
+website: https://nuxtemail.com
+learn_more: https://nuxtemail.com
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Michael Hoffmann
+    github: Mokkapps
+    twitter: mokkapps
+    avatar: https://avatars.githubusercontent.com/u/3127210?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
