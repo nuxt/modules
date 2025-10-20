@@ -12,5 +12,5 @@ maintainers:
   - name: Darlan José Batista do Prado
     github: DarlanPrado
 compatibility:
-  nuxt: ^4.0.0
+  nuxt: ^3.0.0
   requires: {}
