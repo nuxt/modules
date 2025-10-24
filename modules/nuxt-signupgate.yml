@@ -1,0 +1,18 @@
+name: nuxt-signupgate
+description: Easily integrate SignupGate into your Nuxt app.
+repo: Mokkapps/nuxt-signupgate
+npm: nuxt-signupgate
+icon: nuxt-signupgate.png
+github: https://github.com/Mokkapps/nuxt-signupgate
+website: https://github.com/Mokkapps/nuxt-signupgate
+learn_more: https://github.com/Mokkapps/nuxt-signupgate
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Michael Hoffmann
+    github: Mokkapps
+    twitter: mokkapps
+    avatar: https://avatars.githubusercontent.com/u/3127210?v=4
+compatibility:
+  nuxt: ">=3.0.0"
+  requires: {}
