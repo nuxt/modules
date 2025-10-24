@@ -14,5 +14,5 @@ maintainers:
     twitter: mokkapps
     avatar: https://avatars.githubusercontent.com/u/3127210?v=4
 compatibility:
-  nuxt: ">=3.0.0"
+  nuxt: '>=3.0.0'
   requires: {}
