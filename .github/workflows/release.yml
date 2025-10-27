@@ -7,19 +7,21 @@ on:
     paths: 
       - 'modules/**'
       - 'lib/**'
+      - '.github/workflows/release.yml'
 
 permissions:
   contents: read
+  id-token: write
 
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm i -g --force corepack && corepack enable
+      - run: corepack enable
       - uses: actions/setup-node@v4
         with:
-          node-version: lts/*
+          node-version: latest
           cache: "pnpm"
       - run: pnpm install
 
@@ -27,9 +29,4 @@ jobs:
         run: pnpm build
 
       - name: Publish to npm
-        run: |
-          echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
-          echo "//registry.pnpmpkg.com/:_authToken=$NPM_AUTH_TOKEN" >> ~/.npmrc
-          pnpm release
-        env:
-          NPM_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+        run: pnpm release

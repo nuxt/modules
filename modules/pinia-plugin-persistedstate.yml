@@ -9,9 +9,9 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: PraZ
+  - name: praz
     github: prazdevs
-    bluesky: praz.dev
+    bluesky: dev.praz.me
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires:
