@@ -1,0 +1,15 @@
+name: nuxt-formisch
+description: Formisch integration for Nuxt - schema-based, headless form library
+repo: onmax/nuxt-formisch
+npm: nuxt-formisch
+icon: nuxt-formisch.svg
+github: https://github.com/onmax/nuxt-formisch
+website: https://github.com/onmax/nuxt-formisch
+category: Libraries
+type: community
+maintainers:
+  - name: Max
+    github: onmax
+    avatar: https://avatars.githubusercontent.com/u/22072217?v=4
+compatibility:
+  nuxt: ^3.0.0
