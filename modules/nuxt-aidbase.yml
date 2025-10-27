@@ -1,0 +1,18 @@
+name: nuxt-aidbase
+description: Easily integrate Aidbase into your Nuxt app.
+repo: Mokkapps/nuxt-aidbase
+npm: nuxt-aidbase
+icon: nuxt-aidbase.png
+github: https://github.com/Mokkapps/nuxt-aidbase
+website: https://github.com/Mokkapps/nuxt-aidbase
+learn_more: https://github.com/Mokkapps/nuxt-aidbase
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Michael Hoffmann
+    github: Mokkapps
+    twitter: mokkapps
+    avatar: https://avatars.githubusercontent.com/u/3127210?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

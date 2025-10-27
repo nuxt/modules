@@ -15,7 +15,7 @@ maintainers:
     bluesky: farnabaz.dev
   - name: Sébastien Chopin
     github: Atinux
-    twitter: Atinux
+    twitter: atinux
     bluesky: atinux.com
 compatibility:
   nuxt: '>=3.0.0'
