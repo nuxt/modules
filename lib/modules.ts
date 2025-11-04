@@ -108,6 +108,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     'github',
     'website',
     'learn_more',
+    'mcp',
     'category',
     'type',
     'maintainers',
