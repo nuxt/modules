@@ -2,7 +2,7 @@ name: vue-nuxt-permission
 description: A unified permission system for Vue 3 and Nuxt 3 with directives, guards, and async support.
 repo: keroloszakaria/vue-nuxt-permission
 npm: vue-nuxt-permission
-icon: lock
+icon: nuxt-signupgate.png
 github: https://github.com/keroloszakaria/vue-nuxt-permission
 website: https://github.com/keroloszakaria/vue-nuxt-permission
 learn_more: https://github.com/keroloszakaria/vue-nuxt-permission#readme
