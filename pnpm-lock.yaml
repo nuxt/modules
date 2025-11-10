@@ -13,7 +13,7 @@ importers:
         version: 16.6.1
     devDependencies:
       '@nuxt/eslint-config':
-        specifier: ^0.7.5
+        specifier: ^0.7.6
         version: 0.7.6(@typescript-eslint/utils@8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2))(@vue/compiler-sfc@3.5.22)(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2)
       '@octokit/rest':
         specifier: ^21.1.0
