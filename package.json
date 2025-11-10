@@ -32,9 +32,9 @@
     "hasha": "^6.0.0",
     "jiti": "^2.4.2",
     "js-yaml": "^4.1.0",
-    "ofetch": "^1.4.1",
+    "ofetch": "^1.5.1",
     "p-limit": "^6.2.0",
-    "std-env": "^3.8.0",
+    "std-env": "^3.10.0",
     "typescript": "^5.7.3"
   },
   "packageManager": "pnpm@9.15.3",
