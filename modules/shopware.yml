@@ -3,7 +3,7 @@ description: >-
   Nuxt module that allows you to set up a Nuxt 3 project with Shopware
   Frontends.
 repo: shopware/frontends
-npm: '@shopware/nuxt-module'
+npm: shopware-frontends
 icon: shopware.svg
 github: https://github.com/shopware/frontends/tree/main/packages/nuxt-module
 website: https://frontends.shopware.com/packages/nuxt-module.html
