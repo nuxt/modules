@@ -4,7 +4,7 @@ description: >-
   Nuxt's composables and VueUse.
 repo: Abbasmoe/nuxt-gql-pulse
 npm: nuxt-gql-pulse
-icon: ''
+icon: nuxt-gql-pulse.png
 github: https://github.com/Abbasmoe/nuxt-gql-pulse
 website: https://github.com/Abbasmoe/nuxt-gql-pulse
 learn_more: ''
