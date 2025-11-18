@@ -14,7 +14,7 @@ maintainers:
   - name: Thomas
     github: thoda-dev
     avatar: https://avatars.githubusercontent.com/thoda-dev
-    twitter: jerichodev
+    twitter: thoda_dev
 compatibility:
   nuxt: ^4.0.0
   requires: {}
