@@ -6,9 +6,9 @@ repo: rrd108/nuxt-users
 npm: nuxt-users
 icon: ''
 github: https://github.com/rrd108/nuxt-users
-website: https://github.com/rrd108/nuxt-users
-learn_more: ''
-category: Devtools
+website: https://nuxt-users.webmania.cc/
+learn_more: https://nuxt-users.webmania.cc/
+category: Auth
 type: 3rd-party
 maintainers:
   - name: rrd
@@ -16,5 +16,5 @@ maintainers:
     twitter: radharadhya
     bluesky: rrd108.bsky.social
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^3.0.0
   requires: {}
