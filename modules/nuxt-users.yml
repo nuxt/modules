@@ -8,7 +8,7 @@ icon: ''
 github: https://github.com/rrd108/nuxt-users
 website: https://nuxt-users.webmania.cc/
 learn_more: https://nuxt-users.webmania.cc/
-category: Auth
+category: Security
 type: 3rd-party
 maintainers:
   - name: rrd
