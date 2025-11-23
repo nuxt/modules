@@ -4,7 +4,7 @@ description: >-
   authentication, authorization, database support, and CLI tools
 repo: rrd108/nuxt-users
 npm: nuxt-users
-icon: ''
+icon: nuxt-users.png
 github: https://github.com/rrd108/nuxt-users
 website: https://nuxt-users.webmania.cc/
 learn_more: https://nuxt-users.webmania.cc/
