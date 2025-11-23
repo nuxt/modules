@@ -11,8 +11,10 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: rrd108
+  - name: rrd
     github: rrd108
+    twitter: radharadhya
+    bluesky: rrd108.bsky.social
 compatibility:
   nuxt: ^2.0.0
   requires: {}
