@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.7.5",
-    "@octokit/rest": "^21.1.0",
+    "@octokit/rest": "^22.0.1",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^18.19.70",
     "defu": "^6.1.4",
