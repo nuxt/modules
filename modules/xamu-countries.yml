@@ -1,0 +1,17 @@
+name: xamu-countries
+description: Self hosted REST API with countries data
+repo: xamu-co/countries-api
+npm: nuxt-countries-api
+icon: xamu-countries.png
+github: https://github.com/xamu-co/countries-api
+website: https://countries.xamu.com.co/
+learn_more: https://github.com/xamu-co/countries-api/#readme
+category: Request
+type: 3rd-party
+maintainers:
+  - name: Victor Saa
+    github: vis97c
+    twitter: vis97c
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
