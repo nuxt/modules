@@ -23,22 +23,22 @@
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.7.5",
-    "@octokit/rest": "^21.1.0",
+    "@octokit/rest": "^21.1.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^18.19.70",
+    "@types/node": "^18.19.130",
     "defu": "^6.1.4",
     "eslint": "^9.18.0",
-    "globby": "^14.0.2",
+    "globby": "^14.1.0",
     "hasha": "^6.0.0",
-    "jiti": "^2.4.2",
-    "js-yaml": "^4.1.0",
+    "jiti": "^2.6.1",
+    "js-yaml": "^4.1.1",
     "ofetch": "^1.4.1",
     "p-limit": "^6.2.0",
-    "std-env": "^3.8.0",
-    "typescript": "^5.7.3"
+    "std-env": "^3.8.1",
+    "typescript": "^5.9.3"
   },
   "packageManager": "pnpm@10.23.0",
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.6.1"
   }
 }
