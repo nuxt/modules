@@ -6,8 +6,8 @@ repo: BitwoHQ/nuxt-cryptography
 npm: '@bitwo.io/nuxt-cryptography'
 icon: nuxt-cryptography.png
 github: https://github.com/BitwoHQ/nuxt-cryptography
-website: https://github.com/BitwoHQ/nuxt-cryptography
-learn_more: https://github.com/BitwoHQ/nuxt-cryptography
+website: https://oss.bitwo.io/nuxt-cryptography/overview
+learn_more: https://oss.bitwo.io/
 category: Security
 type: 3rd-party
 maintainers:
