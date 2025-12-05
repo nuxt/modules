@@ -1,0 +1,18 @@
+name: kongponents
+description: Kong Component library
+repo: kong/kongponents
+npm: '@kong/kongponents'
+icon: kong.svg
+github: https://github.com/Kong/kongponents/tree/main/nuxt
+website: https://kongponents.konghq.com/
+learn_more: https://kongponents.konghq.com/guide/usage.html#nuxt-module
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Kong
+    github: Kong
+    twitter: kong
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
+  devtools: ^0.0.0
