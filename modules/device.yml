@@ -1,16 +1,17 @@
 name: device
-description: Device detection module for Nuxt.js
-repo: nuxt-community/device-module
+description: Device detection module for Nuxt
+repo: nuxt-modules/device
 npm: '@nuxtjs/device'
 icon: ''
-github: https://github.com/nuxt-community/device-module
-website: https://github.com/nuxt-community/device-module
+github: https://github.com/nuxt-modules/device
+website: https://github.com/nuxt-modules/device
 learn_more: ''
 category: Extensions
 type: community
 maintainers:
   - name: Shinji Yamada
     github: dotneet
+    twitter: santa128bit
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

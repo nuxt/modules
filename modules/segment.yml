@@ -1,12 +1,11 @@
 name: segment
-description: Nuxt.js module for Segment Analytics.js
+description: Nuxt module for Segment Analytics.js
 repo: dansmaculotte/nuxt-segment
 npm: '@dansmaculotte/nuxt-segment'
 icon: segment.png
 github: https://github.com/dansmaculotte/nuxt-segment
 website: https://github.com/dansmaculotte/nuxt-segment
-learn_more: >-
-  https://segment.com/docs/connections/sources/catalog/Libraries/website/javascript/
+learn_more: ''
 category: Analytics
 type: 3rd-party
 maintainers:

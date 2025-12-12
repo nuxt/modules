@@ -1,0 +1,29 @@
+name: hub
+description: Build full-stack Nuxt applications on the edge, with zero configuration.
+repo: nuxt-hub/core
+npm: '@nuxthub/core'
+icon: nuxthub.svg
+github: https://github.com/nuxt-hub/core
+website: https://hub.nuxt.com
+learn_more: ''
+category: Database
+type: 3rd-party
+maintainers:
+  - name: Sébastien Chopin
+    github: Atinux
+    twitter: atinux
+    bluesky: atinux.com
+  - name: Farnabaz
+    github: farnabaz
+    twitter: a_birang
+    bluesky: farnabaz.dev
+  - name: Sylvain Marroufin
+    github: smarroufin
+    twitter: smarroufin
+  - name: Florent Delerue
+    github: flosciante
+  - name: NuxtLabs
+    github: nuxtlabs
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

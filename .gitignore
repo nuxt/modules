@@ -11,12 +11,7 @@ cache
 .vercel_build_output
 .output
 package-lock.json
-npm/modules.json
+modules.json
 .idea
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+.history

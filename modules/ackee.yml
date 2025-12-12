@@ -1,5 +1,5 @@
 name: ackee
-description: Nuxt.js module for Ackee analytics
+description: Nuxt module for Ackee analytics
 repo: bdrtsky/nuxt-ackee
 npm: nuxt-ackee
 icon: ackee.png
@@ -9,11 +9,13 @@ learn_more: https://ackee.electerious.com
 category: Analytics
 type: 3rd-party
 maintainers:
-  - name: bdrtsky
+  - name: Serhii Bedrytskyi
     github: bdrtsky
-  - name: Sebastien Chopin
+    twitter: serhii_be
+  - name: Sébastien Chopin
     github: Atinux
-    twitter: Atinux
+    twitter: atinux
+    bluesky: atinux.com
 compatibility:
   nuxt: ^2.0.0
   requires: {}

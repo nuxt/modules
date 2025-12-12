@@ -1,0 +1,17 @@
+name: nuxt-vue3-google-signin
+description: Empower your Nuxt app with Google Sign-In, hassle-free
+repo: wavezync/nuxt-vue3-google-signin
+npm: nuxt-vue3-google-signin
+icon: vue3-google-signin.svg
+github: https://github.com/wavezync/nuxt-vue3-google-signin
+website: https://vue3-google-signin.wavezync.com
+learn_more: https://vue3-google-signin.wavezync.com
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Kasun Vithanage
+    github: kasvith
+    twitter: kasvith
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

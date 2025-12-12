@@ -1,17 +1,17 @@
 name: snipcart
-description: Snipcart integration module for Nuxt.js
-repo: nuxt-community/snipcart-module
+description: Snipcart integration module for Nuxt
+repo: nuxt-modules/snipcart
 npm: '@nuxtjs/snipcart'
 icon: snipcart.png
-github: https://github.com/nuxt-community/snipcart-module
-website: https://github.com/nuxt-community/snipcart-module
+github: https://github.com/nuxt-modules/snipcart
+website: https://github.com/nuxt-modules/snipcart
 learn_more: ''
-category: Payment
+category: Ecommerce
 type: community
 maintainers:
-  - name: Florent GIRAUD
-    github: f3ltron
-    twitter: giraud_florent
+  - name: florent giraud
+    github: flozero
+    twitter: flozeroo
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

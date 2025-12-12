@@ -1,0 +1,25 @@
+name: twicpics
+description: >-
+  Images and videos components - Context aware resizing and cropping,
+  lazy-loading, LQIP, Next-Gen format, compression, CDN.
+repo: TwicPics/components
+npm: '@twicpics/components'
+icon: twicpics.svg
+github: https://github.com/TwicPics/components
+website: https://www.twicpics.com/docs/components/nuxt-3
+learn_more: https://www.twicpics.com
+category: Images
+type: 3rd-party
+maintainers:
+  - name: Florent Bourgeois
+    github: florentb
+    twitter: florent_b
+  - name: Julian Aubourg
+    github: jaubourg
+    twitter: jaubourg
+  - name: Miguel Beignon
+    github: mbgspcii
+    twitter: m_beignon
+compatibility:
+  nuxt: ^2.0.0 || >=3.0.0
+  requires: {}

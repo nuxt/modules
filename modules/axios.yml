@@ -1,5 +1,5 @@
 name: axios
-description: Secure and easy Axios module with Nuxt.js
+description: Secure and easy Axios module with Nuxt
 repo: nuxt-community/axios-module
 npm: '@nuxtjs/axios'
 icon: axios.svg
@@ -12,6 +12,7 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
+    bluesky: pi0.io
 compatibility:
   nuxt: ^2.0.0
   requires: {}

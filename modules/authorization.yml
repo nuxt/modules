@@ -1,0 +1,18 @@
+name: authorization
+description: Manage permissions inside the app and the server.
+repo: barbapapazes/nuxt-authorization
+npm: nuxt-authorization
+icon: ''
+github: https://github.com/barbapapazes/nuxt-authorization
+website: https://github.com/barbapapazes/nuxt-authorization
+learn_more: https://soubiran.dev/posts/nuxt-going-full-stack-how-to-handle-authorization
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Estéban
+    github: barbapapazes
+    twitter: soubiran_
+    bluesky: soubiran.dev
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

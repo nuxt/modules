@@ -1,19 +1,21 @@
 name: unocss
 description: The instant on-demand atomic CSS engine.
-repo: antfu/unocss#main/packages/nuxt
+repo: unocss/unocss#main/packages-integrations/nuxt
 npm: '@unocss/nuxt'
 icon: unocss.svg
-github: https://github.com/antfu/unocss
-website: https://github.com/antfu/unocss
-learn_more: https://github.com/antfu/unocss
-category: UI
+github: https://github.com/unocss/unocss
+website: https://github.com/unocss/unocss
+learn_more: https://github.com/unocss/unocss
+category: CSS
 type: 3rd-party
 maintainers:
   - name: Anthony Fu
     github: antfu
     twitter: antfu7
     avatar: https://avatars.githubusercontent.com/antfu?v=4
+    bluesky: antfu.me
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires:
     bridge: optional
+  devtools: ^0.0.0

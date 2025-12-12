@@ -1,12 +1,10 @@
 name: logrocket
-description: >-
-  LogRocket module for Nuxt.js to help you fix bugs and understand user
-  behaviour.
-repo: nuxt-community/nuxt-logrocket
+description: LogRocket module for Nuxt to help you fix bugs and understand user behaviour.
+repo: nuxt-modules/logrocket
 npm: nuxt-logrocket
 icon: logrocket.png
-github: https://github.com/nuxt-community/nuxt-logrocket
-website: https://github.com/nuxt-community/nuxt-logrocket
+github: https://github.com/nuxt-modules/logrocket
+website: https://github.com/nuxt-modules/logrocket
 learn_more: https://docs.logrocket.com/docs
 category: Monitoring
 type: community
@@ -15,5 +13,5 @@ maintainers:
     github: farzadso
     twitter: farzadso
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

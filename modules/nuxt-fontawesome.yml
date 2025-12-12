@@ -1,0 +1,17 @@
+name: nuxt-fontawesome
+description: Module to use Font Awesome 6 icons in your Nuxt project
+repo: bezumkin/nuxt-fontawesome
+npm: '@vesp/nuxt-fontawesome'
+icon: nuxt-fontawesome.svg
+github: https://github.com/bezumkin/nuxt-fontawesome
+website: https://github.com/bezumkin/nuxt-fontawesome
+learn_more: https://fontawesome.com
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Vasily Naumkin
+    github: bezumkin
+    avatar: https://avatars.githubusercontent.com/u/1257284
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

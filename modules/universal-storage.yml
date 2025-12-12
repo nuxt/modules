@@ -1,5 +1,5 @@
 name: universal-storage
-description: Universal Storage Utilities for Nuxt.js
+description: Universal Storage Utilities for Nuxt
 repo: nuxt-community/universal-storage-module
 npm: '@nuxtjs/universal-storage'
 icon: ''
@@ -12,6 +12,7 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
+    bluesky: pi0.io
   - name: Farzad Soltani
     github: farzadso
     twitter: farzadso

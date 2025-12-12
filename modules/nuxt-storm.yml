@@ -1,0 +1,16 @@
+name: nuxt-storm
+description: WebStorm & PHPStorm support for Nuxt components
+repo: fumeapp/nuxt-storm
+npm: nuxt-storm
+icon: ''
+github: https://github.com/fumeapp/nuxt-storm
+website: https://github.com/fumeapp/nuxt-storm
+learn_more: https://github.com/fumeapp/nuxt-storm
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: fumeapp
+    github: fumeapp
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

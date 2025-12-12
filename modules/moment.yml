@@ -1,6 +1,6 @@
 name: moment
 description: >-
-  Efficient Moment.js module for Nuxt.js so you can Parse, validate, manipulate,
+  Efficient Moment.js module for Nuxt so you can Parse, validate, manipulate,
   and display dates and times in JavaScript.
 repo: nuxt-community/moment-module
 npm: '@nuxtjs/moment'
@@ -14,8 +14,10 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
+    bluesky: pi0.io
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
+    twitter: gobbo_ricardo
 compatibility:
   nuxt: ^2.0.0
   requires: {}

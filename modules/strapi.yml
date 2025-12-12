@@ -1,9 +1,9 @@
 name: strapi
 description: Design APIs fast and manage content easily using REST or GraphQL.
-repo: nuxt-community/strapi-module
+repo: nuxt-modules/strapi
 npm: '@nuxtjs/strapi'
 icon: strapi.png
-github: https://github.com/nuxt-community/strapi-module
+github: https://github.com/nuxt-modules/strapi
 website: https://strapi.nuxtjs.org
 learn_more: https://strapi.io/
 category: CMS
@@ -12,10 +12,13 @@ maintainers:
   - name: Benjamin Canac
     github: benjamincanac
     twitter: benjamincanac
+    bluesky: benjamincanac.dev
   - name: Sébastien Chopin
     github: Atinux
-    twitter: Atinux
+    twitter: atinux
+    bluesky: atinux.com
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires:
     bridge: true
+  devtools: ^0.0.0

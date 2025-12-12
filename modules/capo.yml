@@ -1,0 +1,18 @@
+name: capo
+description: Capo.js implementation for Nuxt
+repo: danielroe/nuxt-capo
+npm: nuxt-capo
+icon: ''
+github: https://github.com/danielroe/nuxt-capo
+website: https://github.com/danielroe/nuxt-capo
+learn_more: ''
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: Daniel Roe
+    github: danielroe
+    twitter: danielcroe
+    bluesky: danielroe.dev
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

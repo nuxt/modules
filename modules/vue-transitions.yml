@@ -1,0 +1,18 @@
+name: vue-transitions
+description: Reusable interface transitions with no CSS needed ❤️
+repo: MorevM/vue-transitions
+npm: '@morev/vue-transitions'
+icon: vue-transitions.svg
+github: https://github.com/MorevM/vue-transitions
+website: https://github.com/MorevM/vue-transitions#readme
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Maxim Morev
+    github: MorevM
+    avatar: https://avatars.githubusercontent.com/u/49679666?v=4
+compatibility:
+  nuxt: ^2.0.0 || >=3.0.0
+  requires:
+    bridge: optional

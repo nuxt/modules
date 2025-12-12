@@ -1,0 +1,23 @@
+name: studio
+description: A new experience to build content-driven website with Nuxt.
+repo: nuxtlabs/studio-module
+npm: '@nuxthq/studio'
+icon: studio.svg
+github: https://github.com/nuxtlabs/studio-module
+website: https://nuxt.studio
+learn_more: https://nuxt.studio
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Farnabaz
+    github: farnabaz
+    twitter: a_birang
+    bluesky: farnabaz.dev
+  - name: Sébastien Chopin
+    github: Atinux
+    twitter: atinux
+    bluesky: atinux.com
+compatibility:
+  nuxt: '>=3.0.0'
+  requires:
+    content: true

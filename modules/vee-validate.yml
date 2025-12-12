@@ -1,0 +1,18 @@
+name: vee-validate
+description: Painless Vue forms for Nuxt
+repo: logaretm/vee-validate#main/packages/nuxt
+npm: '@vee-validate/nuxt'
+icon: vee-validate.png
+github: https://github.com/logaretm/vee-validate/
+website: https://vee-validate.logaretm.com/v4/
+learn_more: https://vee-validate.logaretm.com/v4/integrations/nuxt/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Abdelrahman Awad
+    github: logaretm
+    twitter: logaretm
+    bluesky: logaretm.com
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

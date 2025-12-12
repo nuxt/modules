@@ -1,0 +1,46 @@
+name: Module Listing Request
+description: Request to add a new module to the modules list
+title: '[Module Listing Request]: `...`'
+labels: ['module-request']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this module listing request!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain in a few sentences what your module does.
+      placeholder: This module is a wrapper for...
+    validations:
+      required: true
+  - type: input
+    id: repository-link
+    attributes:
+      label: Repository
+      description: Drop a link to the source repository.
+      placeholder: 'https://github.com/...'
+    validations:
+      required: true
+  - type: input
+    id: npm-link
+    attributes:
+      label: npm
+      description: Drop a link to the npm package.
+      placeholder: 'https://www.npmjs.com/package/...'
+    validations:
+      required: true
+  - type: dropdown
+    id: compatibility
+    attributes:
+      label: Nuxt Compatibility
+      description: What version of Nuxt is the module compatible with?
+      multiple: true
+      options:
+        - Nuxt 2
+        - Nuxt Bridge
+        - Nuxt 3
+        - Nuxt 4
+    validations:
+      required: true

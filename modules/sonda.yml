@@ -1,0 +1,18 @@
+name: sonda
+description: Bundle analyzer and visualizer
+repo: filipsobol/sonda#release/packages/sonda
+npm: sonda
+icon: sonda.svg
+github: https://github.com/filipsobol/sonda
+website: https://sonda.dev/
+learn_more: https://sonda.dev/
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Filip Sobol
+    github: filipsobol
+    twitter: filipsobol
+    bluesky: filipsobol.bsky.social
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

@@ -1,10 +1,10 @@
 name: kql
-description: Nuxt 3 module for Kirby's Query Language API
+description: Nuxt module for Kirby's Query Language API
 repo: johannschopplich/nuxt-kql
-npm: nuxt-kql
+npm: nuxt-kirby
 icon: kql.svg
 github: https://github.com/johannschopplich/nuxt-kql
-website: https://nuxt-kql.jhnn.dev
+website: https://nuxt-kql.byjohann.dev/
 learn_more: ''
 category: CMS
 type: 3rd-party
@@ -14,5 +14,5 @@ maintainers:
     twitter: jschopplich
     avatar: https://avatars.githubusercontent.com/johannschopplich?v=4
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

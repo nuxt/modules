@@ -2,11 +2,11 @@ name: partytown
 description: >-
   Partytown integration for Nuxt - relocate resource intensive scripts into a
   web worker, and off of the main thread.
-repo: nuxt-community/partytown-module
+repo: nuxt-modules/partytown
 npm: '@nuxtjs/partytown'
 icon: partytown.svg
-github: https://github.com/nuxt-community/partytown-module
-website: https://github.com/nuxt-community/partytown-module
+github: https://github.com/nuxt-modules/partytown
+website: https://github.com/nuxt-modules/partytown
 learn_more: https://partytown.builder.io/
 category: Performance
 type: community
@@ -14,7 +14,8 @@ maintainers:
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
+    bluesky: danielroe.dev
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires:
     bridge: true

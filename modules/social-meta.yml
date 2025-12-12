@@ -1,6 +1,6 @@
 name: social-meta
 description: >-
-  Nuxt.js module generate meta-tags for social networks - Facebook, Twitter and
+  Nuxt module generate meta-tags for social networks - Facebook, Twitter and
   LinkedIn (and the rest uses OG tags, such as Discord etc.).
 repo: AlekseyPleshkov/nuxt-social-meta
 npm: nuxt-social-meta
@@ -11,7 +11,7 @@ learn_more: ''
 category: SEO
 type: 3rd-party
 maintainers:
-  - name: AlekseyPleshkov
+  - name: Aleksey Pleshkov
     github: AlekseyPleshkov
 compatibility:
   nuxt: ^2.0.0

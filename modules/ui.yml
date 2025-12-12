@@ -1,0 +1,23 @@
+name: ui
+description: The Intuitive UI Library powered by Reka UI and Tailwind CSS.
+repo: nuxt/ui#dev
+npm: '@nuxt/ui'
+icon: nuxt.svg
+github: https://github.com/nuxt/ui
+website: https://ui.nuxt.com
+learn_more: ''
+category: UI
+type: official
+maintainers:
+  - name: Benjamin Canac
+    github: benjamincanac
+    twitter: benjamincanac
+    bluesky: benjamincanac.dev
+  - name: Sébastien Chopin
+    github: Atinux
+    twitter: atinux
+    bluesky: atinux.com
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
+mcp: https://ui.nuxt.com/mcp

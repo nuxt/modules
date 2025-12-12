@@ -1,17 +1,17 @@
 name: plausible
-description: Plausible analytics for Vue.js and Nuxt
-repo: moritzsternemann/vue-plausible
-npm: vue-plausible
-icon: plausible.png
-github: https://github.com/moritzsternemann/vue-plausible
-website: https://github.com/moritzsternemann/vue-plausible
+description: Nuxt module to natively integrate Plausible analytics
+repo: nuxt-modules/plausible
+npm: '@nuxtjs/plausible'
+icon: plausible.svg
+github: https://github.com/nuxt-modules/plausible
+website: https://github.com/nuxt-modules/plausible
 learn_more: ''
 category: Analytics
-type: 3rd-party
+type: community
 maintainers:
-  - name: moritzsternemann
-    github: moritzsternemann
+  - name: Johann Schopplich
+    github: johannschopplich
+    twitter: jschopplich
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
-  requires:
-    bridge: optional
+  nuxt: ^2.0.0 || >=3.0.0
+  requires: {}

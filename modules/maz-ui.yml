@@ -1,0 +1,20 @@
+name: maz-ui
+description: >-
+  A modern Vue.js UI library with auto-import components, plugins, and
+  composables designed for seamless Nuxt integration and enhanced developer
+  experience.
+repo: louismazel/maz-ui#master/packages/nuxt
+npm: '@maz-ui/nuxt'
+icon: maz-ui.png
+github: https://github.com/LouisMazel/maz-ui/tree/master/packages/nuxt
+website: https://maz-ui.com/
+learn_more: https://maz-ui.com/guide/nuxt
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Mazel
+    github: LouisMazel
+    twitter: Mazeel
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

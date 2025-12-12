@@ -1,0 +1,17 @@
+name: nuxt-pdf
+description: Zero-boilerplate PDF exports of your Pages and Components
+repo: sidebase/nuxt-pdf
+npm: '@sidebase/nuxt-pdf'
+icon: nuxt-pdf.png
+github: https://github.com/sidebase/nuxt-pdf
+website: https://github.com/sidebase/nuxt-pdf
+learn_more: https://github.com/sidebase
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: sidebase
+    github: sidebase
+    twitter: sidebase_io
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

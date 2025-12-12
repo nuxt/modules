@@ -1,5 +1,5 @@
 name: svg
-description: Super simple svg loading module for Nuxt.js
+description: Super simple svg loading module for Nuxt
 repo: nuxt-community/svg-module
 npm: '@nuxtjs/svg'
 icon: ''
@@ -9,7 +9,7 @@ learn_more: ''
 category: Extensions
 type: community
 maintainers:
-  - name: Sam Holmes
+  - name: brooke
     github: sam3d
 compatibility:
   nuxt: ^2.0.0

@@ -1,0 +1,20 @@
+name: medusa
+description: Easily connect to Medusa from your Nuxt application
+repo: Baroshem/nuxt-medusa
+npm: '@nuxtjs/medusa'
+icon: medusa.svg
+github: https://github.com/Baroshem/nuxt-medusa/
+website: https://nuxt-medusa.vercel.app/
+learn_more: https://nuxt-medusa.vercel.app/
+category: Ecommerce
+type: 3rd-party
+maintainers:
+  - name: Jakub Andrzejewski
+    github: Baroshem
+    avatar: https://avatars.githubusercontent.com/u/37120330?v=4
+    twitter: jacobandrewsky
+    bluesky: jacobandrewsky.bsky.social
+compatibility:
+  nuxt: ^2.0.0 || >=3.0.0
+  requires:
+    bridge: true

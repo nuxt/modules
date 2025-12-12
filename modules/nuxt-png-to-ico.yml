@@ -1,5 +1,5 @@
 name: nuxt-png-to-ico
-description: Nuxt.js module for auto generating favicons
+description: Nuxt module for auto generating favicons
 repo: b5710546232/nuxt-png-to-ico
 npm: nuxt-png-to-ico
 icon: ''
@@ -9,9 +9,10 @@ learn_more: https://github.com/steambap/png-to-ico
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: b5710546232
+  - name: safesuk
     github: b5710546232
     avatar: https://avatars.githubusercontent.com/u/11013287?v=4
+    twitter: safesuk_
 compatibility:
   nuxt: ^2.0.0
   requires: {}

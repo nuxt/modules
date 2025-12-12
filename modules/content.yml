@@ -1,26 +1,26 @@
 name: content
-description: >-
-  Nuxt Content reads the content/ directory in your project, parses .md, .yml,
-  .csv or .json files and creates a powerful data layer for your application. 
-  Bonus, use Vue components in Markdown with the MDC syntax.
+description: The file-based CMS with support for Markdown, YAML, JSON.
 repo: nuxt/content#main
 npm: '@nuxt/content'
-icon: nuxt.png
+icon: nuxt.svg
 github: https://github.com/nuxt/content
-website: https://content.nuxtjs.org
+website: https://content.nuxt.com
 learn_more: ''
 category: CMS
 type: official
 maintainers:
-  - name: Yaël Guilloux
-    github: Tahul
-    twitter: yaeeelglx
-  - name: Ahad Birang
+  - name: Farnabaz
     github: farnabaz
     twitter: a_birang
-  - name: Sebastien Chopin
+    bluesky: farnabaz.dev
+  - name: Baptiste Leproux
+    github: larbish
+    twitter: _larbish
+    bluesky: larbish.bsky.social
+  - name: Sébastien Chopin
     github: Atinux
-    twitter: Atinux
+    twitter: atinux
+    bluesky: atinux.com
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

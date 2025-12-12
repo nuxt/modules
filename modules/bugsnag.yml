@@ -11,11 +11,10 @@ learn_more: https://www.bugsnag.com/
 category: Monitoring
 type: 3rd-party
 maintainers:
-  - name: JulianMar
+  - name: Julian Martin
     github: JulianMar
     twitter: julian_martin96
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
-  requires: {
+  nuxt: ^2.0.0 || >=3.0.0
+  requires:
     bridge: true
-  }

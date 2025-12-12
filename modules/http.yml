@@ -1,5 +1,5 @@
 name: http
-description: Universal HTTP Module for Nuxt.js
+description: Universal HTTP Module for Nuxt
 repo: nuxt/http
 npm: '@nuxt/http'
 icon: http.png
@@ -12,9 +12,11 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
+    bluesky: pi0.io
   - name: Sébastien Chopin
     github: Atinux
-    twitter: Atinux
+    twitter: atinux
+    bluesky: atinux.com
 compatibility:
   nuxt: ^2.0.0
   requires: {}

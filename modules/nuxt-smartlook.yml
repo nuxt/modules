@@ -1,5 +1,5 @@
 name: nuxt-smartlook
-description: Integrate Smartlook in your Nuxt.js apps using nuxt-smartlook.
+description: Integrate Smartlook in your Nuxt apps using nuxt-smartlook.
 repo: f00b4r/nuxt-smartlook
 npm: nuxt-smartlook
 icon: nuxt-smartlook.png
@@ -9,7 +9,7 @@ learn_more: https://www.smartlook.com/
 category: Analytics
 type: 3rd-party
 maintainers:
-  - name: Milan Sulc
+  - name: Milan Felix Šulc
     github: f3l1x
     twitter: xf3l1x
     avatar: https://avatars.githubusercontent.com/u/538058?v=4

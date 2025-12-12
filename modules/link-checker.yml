@@ -1,0 +1,19 @@
+name: link-checker
+description: Find and magically fix links that may be negatively effecting your SEO.
+repo: harlan-zw/nuxt-link-checker
+npm: nuxt-link-checker
+icon: link-checker.svg
+github: https://github.com/harlan-zw/nuxt-link-checker
+website: https://nuxtseo.com/link-checker
+learn_more: https://nuxtseo.com/link-checker
+category: SEO
+type: 3rd-party
+maintainers:
+  - name: Harlan Wilton
+    github: harlan-zw
+    twitter: harlan_zw
+    avatar: https://avatars.githubusercontent.com/harlan-zw?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
+  devtools: ^0.0.0

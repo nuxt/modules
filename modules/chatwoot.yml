@@ -1,0 +1,19 @@
+name: chatwoot
+description: >-
+  Chatwoot is an open-source customer engagement platform that helps companies
+  engage their customers on their website
+repo: productdevbookcom/chatwoot
+npm: '@productdevbook/chatwoot'
+icon: chatwoot.png
+github: https://github.com/productdevbookcom/chatwoot
+website: https://github.com/productdevbookcom/chatwoot
+learn_more: https://www.chatwoot.com
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Wind
+    github: productdevbook
+    twitter: productdevbook
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

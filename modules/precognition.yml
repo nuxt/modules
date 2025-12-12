@@ -1,0 +1,16 @@
+name: precognition
+description: Nuxt module implementing Laravel Precognition protocol in Nitro
+repo: sot1986/nuxt-precognition
+npm: nuxt-precognition
+icon: laravel.svg
+github: https://github.com/sot1986/nuxt-precognition
+website: https://github.com/sot1986/nuxt-precognition
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: sot1986
+    github: sot1986
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

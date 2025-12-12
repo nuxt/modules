@@ -1,16 +1,18 @@
 name: eslint
-description: ESLint module for Nuxt.js
-repo: nuxt-community/eslint-module
-npm: '@nuxtjs/eslint-module'
-icon: eslint.png
-github: https://github.com/nuxt-community/eslint-module
-website: https://github.com/nuxt-community/eslint-module
-learn_more: https://eslint.org/
+description: Project-aware, easy-to-use, extensible and future-proof ESLint integration.
+repo: nuxt/eslint
+npm: '@nuxt/eslint'
+icon: nuxt.svg
+github: https://github.com/nuxt/eslint
+website: https://eslint.nuxt.com
+learn_more: https://eslint.nuxt.com/packages/module
 category: Devtools
-type: community
+type: official
 maintainers:
-  - name: Ricardo Gobbo de Souza
-    github: ricardogobbosouza
+  - name: Anthony Fu
+    github: antfu
+    twitter: antfu7
+    bluesky: antfu.me
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: '>=3.0.0'
   requires: {}

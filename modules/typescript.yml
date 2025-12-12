@@ -11,12 +11,15 @@ type: official
 maintainers:
   - name: Kevin Marrec
     github: kevinmarrec
+    twitter: K_Marrec
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
+    bluesky: pi0.io
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
+    bluesky: danielroe.dev
 compatibility:
   nuxt: ^2.0.0
   requires: {}

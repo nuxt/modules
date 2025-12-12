@@ -1,5 +1,5 @@
 name: feature-toggle
-description: Feature toggle module for Nuxt.js
+description: Feature toggle module for Nuxt
 repo: stephenkr/nuxt-feature-toggle
 npm: nuxt-feature-toggle
 icon: ''
@@ -9,7 +9,7 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: stephenkr
+  - name: Stephen
     github: stephenkr
 compatibility:
   nuxt: ^2.0.0

@@ -1,0 +1,17 @@
+name: particles
+description: Easily add particle animations to your Nuxt projects using tsParticles
+repo: Joepocalyptic/nuxt-particles
+npm: nuxt-particles
+icon: ''
+github: https://github.com/Joepocalyptic/nuxt-particles
+website: https://nuxt-particles.joeypereira.dev
+learn_more: https://particles.js.org/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Joey Pereira
+    github: Joepocalyptic
+    avatar: https://avatars.githubusercontent.com/Joepocalyptic?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

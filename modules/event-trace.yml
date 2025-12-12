@@ -1,5 +1,5 @@
 name: event-trace
-description: Module for event trace in Nuxt.js
+description: Module for event trace in Nuxt
 repo: nuxt-community/nuxt-event-trace
 npm: nuxt-event-trace
 icon: ''
@@ -9,7 +9,7 @@ learn_more: ''
 category: Monitoring
 type: community
 maintainers:
-  - name: Xin Du
+  - name: Xin Du (Clark)
     github: clarkdo
 compatibility:
   nuxt: ^2.0.0

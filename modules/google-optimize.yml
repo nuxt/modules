@@ -1,5 +1,5 @@
 name: google-optimize
-description: SSR friendly Google Optimize module for Nuxt.js
+description: SSR friendly Google Optimize module for Nuxt
 repo: nuxt-community/google-optimize-module
 npm: nuxt-google-optimize
 icon: google-optimize.png
@@ -12,6 +12,7 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
+    bluesky: pi0.io
   - name: Farzad Soltani
     github: farzadso
     twitter: farzadso

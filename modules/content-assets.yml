@@ -1,0 +1,17 @@
+name: content-assets
+description: Enable locally-located assets in Nuxt Content
+repo: davestewart/nuxt-content-assets
+npm: nuxt-content-assets
+icon: content-assets.png
+github: https://github.com/davestewart/nuxt-content-assets
+website: https://davestewart.co.uk/projects/open-source/nuxt-content-assets/
+learn_more: ''
+category: Images
+type: 3rd-party
+maintainers:
+  - name: Dave Stewart
+    github: davestewart
+    twitter: dave_stewart
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

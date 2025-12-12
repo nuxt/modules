@@ -12,8 +12,9 @@ category: Deployment
 type: community
 maintainers:
   - name: Alexander Lichter
-    github: manniL
+    github: TheAlexLichter
     twitter: TheAlexLichter
+    bluesky: thealexlichter.com
 compatibility:
   nuxt: ^2.0.0
   requires: {}

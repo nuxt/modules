@@ -1,0 +1,17 @@
+name: ununuracss
+description: A Real CSS Engine. Only Scoped.
+repo: novout/ununuracss#main/packages/nuxt
+npm: nuxt-ununura
+icon: ununuracss.png
+github: https://github.com/novout/ununuracss
+website: https://github.com/novout/ununuracss
+learn_more: https://github.com/novout/ununuracss
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Giovane Silva
+    github: novout
+    avatar: https://avatars.githubusercontent.com/novout?v=4
+compatibility:
+  nuxt: ^2.0.0 || >=3.0.0
+  requires: {}
