@@ -1,4 +1,4 @@
-name: graphql
+name: nitro-graphql
 description: >-
   A standalone Nitro module that integrates GraphQL servers into any Nitro
   application with automatic type generation, file watching, and seamless
