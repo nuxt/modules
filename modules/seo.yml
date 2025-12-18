@@ -9,8 +9,9 @@ learn_more: https://nuxtseo.com/nuxt-seo/getting-started/installation
 category: SEO
 type: 3rd-party
 maintainers:
-  - name: harlan-zw
+  - name: Harlan Wilton
     github: harlan-zw
+    twitter: harlan_zw
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

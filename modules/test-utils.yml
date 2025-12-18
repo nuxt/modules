@@ -1,5 +1,5 @@
 name: test-utils
-description: Test utilities for Nuxt
+description: Test utilities for Nuxt.
 repo: nuxt/test-utils#main
 npm: '@nuxt/test-utils'
 icon: nuxt.svg
@@ -12,9 +12,11 @@ maintainers:
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
+    bluesky: danielroe.dev
   - name: Anthony Fu
     github: antfu
     twitter: antfu7
+    bluesky: antfu.me
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

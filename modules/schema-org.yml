@@ -5,7 +5,7 @@ npm: nuxt-schema-org
 icon: schema-org.svg
 github: https://github.com/harlan-zw/nuxt-schema-org
 website: https://nuxtseo.com/schema-org
-learn_more: https://unhead.unjs.io/schema-org/getting-started/setup
+learn_more: https://unhead.unjs.io/docs/typescript/schema-org/guides/get-started/overview
 category: SEO
 type: 3rd-party
 maintainers:
@@ -14,5 +14,5 @@ maintainers:
     twitter: harlan_zw
     avatar: https://avatars.githubusercontent.com/harlan-zw?v=4
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Kasun Vithanage
     github: kasvith
+    twitter: kasvith
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

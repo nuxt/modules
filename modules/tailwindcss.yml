@@ -8,15 +8,18 @@ icon: tailwindcss.png
 github: https://github.com/nuxt-modules/tailwindcss
 website: https://tailwindcss.nuxtjs.org
 learn_more: https://tailwindcss.com/
-category: UI
+category: CSS
 type: community
 maintainers:
   - name: Sébastien Chopin
     github: Atinux
-    twitter: Atinux
+    twitter: atinux
+    bluesky: atinux.com
   - name: Inesh Bose
     github: ineshbose
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}
   devtools: ^0.0.0
+aliases:
+  - tailwind

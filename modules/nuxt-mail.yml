@@ -13,6 +13,7 @@ type: 3rd-party
 maintainers:
   - name: Sebastian Landwehr
     github: dword-design
+    twitter: seblandwehr
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

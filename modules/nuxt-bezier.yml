@@ -9,8 +9,8 @@ learn_more: https://github.com/Noction/vue-bezier
 category: UI
 type: 3rd-party
 maintainers:
-  - name: Soryn Gitlan
+  - name: Soryn
     github: 50rayn
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

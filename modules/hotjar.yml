@@ -9,8 +9,8 @@ learn_more: https://github.com/damevin/nuxt-module-hotjar#nuxt-hotjar
 category: SEO
 type: 3rd-party
 maintainers:
-  - name: Raphaël DAMEVIN
+  - name: raphaeldamevin
     github: damevin
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

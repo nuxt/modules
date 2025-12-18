@@ -67,7 +67,7 @@ Field Name      | Auto sync | Description
 `description`   | Yes       | Short description
 `repo`          | No        | GitHub repository. Format is `org/name` or `org/name#main/path`
 `npm`           | Yes       | NPM package name
-`icon`          | No        | Icon of module from [./website/public/icons](./website/public/icons) directory
+`icon`          | No        | Icon of module from [./icons](./icons) directory
 `github`        | No        | GitHub URL
 `website`       | No        | Website URL
 `learn_more`    | No        | Link to learn more (website or relevant integration website)
@@ -98,7 +98,7 @@ pnpm build
 [npm-version-src]: https://img.shields.io/npm/v/@nuxt/modules/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-version-href]: https://npmjs.com/package/@nuxt/modules
 
-[nuxt-src]: https://img.shields.io/badge/Nuxt%20Modules-18181B?logo=nuxt.js
+[nuxt-src]: https://img.shields.io/badge/Nuxt%20Modules-18181B?logo=nuxt
 [nuxt-href]: https://nuxt.com/modules
 
 [volta-src]: https://user-images.githubusercontent.com/904724/209143798-32345f6c-3cf8-4e06-9659-f4ace4a6acde.svg

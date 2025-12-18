@@ -1,0 +1,24 @@
+name: oku-primitives
+description: >-
+  Unlock seamless, high-performance Vue apps with accessible, customizable
+  components designed for modern, intuitive web experiences. Empower your Vue
+  apps.
+repo: oku-ui/primitives#main/packages/core
+npm: '@oku-ui/primitives'
+icon: oku.svg
+github: https://github.com/oku-ui/primitives
+website: https://primitives.oku-ui.com
+learn_more: https://primitives.oku-ui.com/overview/installation#nuxt-modules
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Валентин Степанов
+    github: teleskop150750
+    twitter: teleskop150750
+  - name: Wind
+    github: productdevbook
+    twitter: productdevbook
+    bluesky: productdevbook.com
+compatibility:
+  nuxt: '>=3.14'
+  requires: {}

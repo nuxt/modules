@@ -9,8 +9,8 @@ learn_more: https://github.com/4sllan/nuxt-feather-icons
 category: UI
 type: 3rd-party
 maintainers:
-  - name: 4sllan
+  - name: Aslan Gama
     github: 4sllan
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

@@ -9,9 +9,9 @@ learn_more: https://github.com/Chris2011/nuxt-asciidoc/blob/main/README.md
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: Christian Lenz
+  - name: Chrizzly
     github: Chris2011
     twitter: Chrizzly42
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

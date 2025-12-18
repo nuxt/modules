@@ -1,0 +1,19 @@
+name: nuxt-mqtt
+description: A Nuxt module for real-time MQTT communication using mqtt.js
+repo: arashsheyda/nuxt-mqtt
+npm: nuxt-mqtt
+icon: nuxt-mqtt.png
+github: https://github.com/arashsheyda/nuxt-mqtt
+website: https://github.com/arashsheyda/nuxt-mongoose#readme
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Arash Ari Sheyda
+    github: arashsheyda
+    twitter: arash_sheyda
+    bluesky: arashsheyda.me
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
+  devtools: ^0.0.0

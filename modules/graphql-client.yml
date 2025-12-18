@@ -11,8 +11,9 @@ learn_more: https://nuxt-graphql-client.web.app/
 category: Request
 type: 3rd-party
 maintainers:
-  - name: Diizzayy
+  - name: Conrawl Rogers
     github: diizzayy
+    twitter: Diizzayy
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

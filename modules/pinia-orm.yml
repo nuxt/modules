@@ -2,7 +2,7 @@ name: pinia-orm
 description: >-
   The Pinia plugin to enable Object-Relational Mapping access to the Pinia
   Store.
-repo: CodeDredd/pinia-orm#master/packages/nuxt
+repo: CodeDredd/pinia-orm#main/packages/nuxt
 npm: '@pinia-orm/nuxt'
 icon: pinia-orm.svg
 github: https://github.com/CodeDredd/pinia-orm/tree/master/packages/nuxt
@@ -11,9 +11,10 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: CodeDredd
+  - name: Gregor Becker
     github: CodeDredd
+    twitter: _Gregor_Becker
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires:
     bridge: optional

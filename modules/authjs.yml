@@ -9,9 +9,9 @@ learn_more: https://authjs.dev/
 category: Security
 type: 3rd-party
 maintainers:
-  - name: Hebilicious
+  - name: Heb
     github: Hebilicious
     twitter: its_hebilicious
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

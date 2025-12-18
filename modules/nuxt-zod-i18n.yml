@@ -4,13 +4,13 @@ repo: xibman/nuxt-zod-i18n
 npm: nuxt-zod-i18n
 icon: nuxt-zod-i18n.svg
 github: https://github.com/xibman/nuxt-zod-i18n
-website: https://xibman-nuxt-zod-i18n.nuxt.space
+website: https://github.com/xibman/nuxt-zod-i18n
 learn_more: ''
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: xibman
+  - name: Georget Julien
     github: xibman
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

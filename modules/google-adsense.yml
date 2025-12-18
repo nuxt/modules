@@ -10,9 +10,11 @@ category: Analytics
 type: community
 maintainers:
   - name: Alexander Lichter
-    github: manniL
+    github: TheAlexLichter
+    bluesky: thealexlichter.com
+    twitter: TheAlexLichter
   - name: Troy Morehouse
     github: tmorehouse
 compatibility:
-  nuxt: ^2.0.0 || ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

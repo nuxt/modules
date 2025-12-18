@@ -1,17 +1,18 @@
 name: fonts
-description: Plug-and-play web font optimization and configuration for Nuxt apps.
+description: Add custom web fonts with performance in mind.
 repo: nuxt/fonts
 npm: '@nuxt/fonts'
 icon: nuxt.svg
 github: https://github.com/nuxt/fonts
-website: https://github.com/nuxt/fonts
+website: https://fonts.nuxt.com
 learn_more: ''
-category: Libraries
+category: Fonts
 type: official
 maintainers:
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
+    bluesky: danielroe.dev
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
