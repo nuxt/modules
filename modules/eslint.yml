@@ -1,7 +1,5 @@
 name: eslint
-description: >-
-  All-in-one ESLint module for Nuxt, provides project-aware, easy-to-use,
-  extensible and future-proof integrations.
+description: Project-aware, easy-to-use, extensible and future-proof ESLint integration.
 repo: nuxt/eslint
 npm: '@nuxt/eslint'
 icon: nuxt.svg

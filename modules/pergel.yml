@@ -11,9 +11,10 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: Dev
+  - name: Wind
     github: productdevbook
     twitter: productdevbook
+    bluesky: productdevbook.com
 compatibility:
   nuxt: '>=3.10.0'
   requires: {}

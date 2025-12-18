@@ -1,17 +1,18 @@
 name: shopify
-description: Easy Shopify Buy client module with Nuxt for ecommerce websites.
-repo: Gomah/nuxt-shopify
-npm: nuxt-shopify
+description: Easily integrate Shopify into your Nuxt app.
+repo: nuxt-modules/shopify
+npm: '@nuxtjs/shopify'
 icon: shopify.png
-github: https://github.com/Gomah/nuxt-shopify
-website: https://github.com/Gomah/nuxt-shopify
-learn_more: https://www.shopify.com/
+github: https://github.com/nuxt-modules/shopify
+website: https://nuxt-modules.github.io/shopify
+learn_more: https://shopify.dev/docs
 category: Ecommerce
-type: 3rd-party
+type: community
 maintainers:
-  - name: Thomas Marrec
-    github: Gomah
-    twitter: Gomah
+  - name: Zoltan Lukacs
+    github: konkonam
+  - name: Frederik Bußmann
+    github: freb97
 compatibility:
-  nuxt: ^2.0.0
+  nuxt: '>=3.0.0'
   requires: {}
