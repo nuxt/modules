@@ -16,5 +16,5 @@ maintainers:
     twitter: radharadhya
     bluesky: rrd108.bsky.social
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}
