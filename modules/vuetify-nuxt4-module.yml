@@ -2,7 +2,7 @@ name: vuetify-nuxt4-module
 description: Zero-config Vuetify 3 module for Nuxt 4 with performance optimizations, SSR support, and full TypeScript integration.
 repo: KHNexTech/Vuetify-Nuxt4-Module
 npm: vuetify-nuxt4-module
-icon: https://vuetifyjs.com/favicon.ico
+icon: vuetify-logo-v3.svg
 github: KHNexTech/Vuetify-Nuxt4-Module
 website: https://github.com/KHNexTech/Vuetify-Nuxt4-Module
 learn_more: https://github.com/KHNexTech/Vuetify-Nuxt4-Module#readme
