@@ -1,0 +1,16 @@
+name: nuxt-yup
+description: Yup integration for Nuxt 4 with a simple composable.
+repo: DarlanPrado/nuxt-yup
+npm: nuxt-yup
+icon: ''
+github: https://github.com/DarlanPrado/nuxt-yup
+website: https://github.com/DarlanPrado/nuxt-yup
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Darlan José Batista do Prado
+    github: DarlanPrado
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

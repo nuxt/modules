@@ -1,0 +1,16 @@
+name: workflow
+description: Workflow DevKit - Build durable, resilient, and observable workflows
+repo: vercel/workflow#main/packages/workflow
+npm: workflow
+icon: workflow.svg
+github: https://github.com/vercel/workflow/tree/main/packages/workflow
+website: https://useworkflow.dev
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: vercel
+    github: vercel
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

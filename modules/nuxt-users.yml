@@ -1,0 +1,20 @@
+name: nuxt-users
+description: >-
+  A comprehensive user management module for Nuxt 3 and Nuxt 4 applications with
+  authentication, authorization, database support, and CLI tools
+repo: rrd108/nuxt-users
+npm: nuxt-users
+icon: nuxt-users.png
+github: https://github.com/rrd108/nuxt-users
+website: https://nuxt-users.webmania.cc/
+learn_more: https://nuxt-users.webmania.cc/
+category: Security
+type: 3rd-party
+maintainers:
+  - name: rrd
+    github: rrd108
+    twitter: radharadhya
+    bluesky: rrd108.bsky.social
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

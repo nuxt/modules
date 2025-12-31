@@ -2,19 +2,19 @@ name: nuxt-ollama
 description: >-
   Simple integration of the official Ollama JavaScript Library for your Nuxt
   application.
-repo: jericho1060/nuxt-ollama
+repo: thoda-dev/nuxt-ollama
 npm: nuxt-ollama
 icon: nuxt-ollama.png
-github: https://github.com/jericho1060/nuxt-ollama
+github: https://github.com/thoda-dev/nuxt-ollama
 website: https://nuxt-ollama.jericho.dev/
 learn_more: https://nuxt-ollama.jericho.dev/
 category: Libraries
 type: 3rd-party
 maintainers:
   - name: Thomas
-    github: jericho1060
-    avatar: https://avatars.githubusercontent.com/jericho1060
-    twitter: jerichodev
+    github: thoda-dev
+    avatar: https://avatars.githubusercontent.com/thoda-dev
+    twitter: thoda_dev
 compatibility:
-  nuxt: ^3.15.0
+  nuxt: '>=3.15.0'
   requires: {}
