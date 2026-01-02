@@ -1,5 +1,7 @@
 name: convex
-description: Nuxt module for Convex - reactive backend with real-time sync, file storage, and auto-imports
+description: >-
+  Nuxt module for Convex - reactive backend with real-time sync, file storage,
+  and auto-imports
 repo: onmax/nuxt-convex
 npm: nuxt-convex
 icon: convex.svg
@@ -7,11 +9,12 @@ github: https://github.com/onmax/nuxt-convex
 website: https://nuxt-convex.onmax.me
 learn_more: https://docs.convex.dev
 category: Database
-type: community
+type: 3rd-party
 maintainers:
-  - name: onmax
+  - name: Max
     github: onmax
     twitter: _onmax
+    bluesky: onmax.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
