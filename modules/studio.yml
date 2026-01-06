@@ -1,14 +1,18 @@
 name: studio
 description: A new experience to build content-driven website with Nuxt.
-repo: nuxtlabs/studio-module
-npm: '@nuxthq/studio'
-icon: studio.svg
-github: https://github.com/nuxtlabs/studio-module
+repo: nuxt-content/nuxt-studio
+npm: nuxt-studio
+icon: nuxt.svg
+github: https://github.com/nuxt-content/nuxt-studio
 website: https://nuxt.studio
-learn_more: https://nuxt.studio
+learn_more: ''
 category: CMS
 type: 3rd-party
 maintainers:
+  - name: Baptiste Leproux
+    github: larbish
+    twitter: _larbish
+    bluesky: larbish.bsky.social
   - name: Farnabaz
     github: farnabaz
     twitter: a_birang
