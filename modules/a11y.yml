@@ -1,6 +1,7 @@
 name: a11y
 description: >-
-  Real-time accessibility feedback and automated testing right in your browser during development.
+  Real-time accessibility feedback and automated testing in your browser during
+  development.
 repo: nuxt/a11y
 npm: '@nuxt/a11y'
 icon: nuxt.svg
