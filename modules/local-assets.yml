@@ -1,0 +1,16 @@
+name: local-assets
+description: Serve local files with authentication, authorization, audit logging, caching, and compression
+repo: Ray0907/nuxt-local-assets
+npm: nuxt-local-assets
+icon: ''
+github: https://github.com/Ray0907/nuxt-local-assets
+website: https://github.com/Ray0907/nuxt-local-assets
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Ray Tien
+    github: Ray0907
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
