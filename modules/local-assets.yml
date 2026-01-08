@@ -1,5 +1,7 @@
 name: local-assets
-description: Serve local files with authentication, authorization, audit logging, caching, and compression
+description: >-
+  Serve local files with authentication, authorization, audit logging, caching,
+  and compression
 repo: Ray0907/nuxt-local-assets
 npm: nuxt-local-assets
 icon: ''
