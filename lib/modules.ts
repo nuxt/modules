@@ -108,7 +108,6 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     'github',
     'website',
     'learn_more',
-    'docs',
     'mcp',
     'category',
     'type',
@@ -209,13 +208,13 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     mod.description = pkg.description
   }
 
-  const moduleJson = await fetchModuleJson(mod.npm, pkg.version).catch(() => null)
+  const moduleJson = await fetchModuleJson(mod.npm, pkg.version)
   if (moduleJson) {
     if (moduleJson.compatibility?.nuxt) {
       mod.compatibility.nuxt = moduleJson.compatibility.nuxt
     }
     if (moduleJson.docs) {
-      mod.docs = moduleJson.docs
+      mod.website = moduleJson.docs
     }
   }
 

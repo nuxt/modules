@@ -36,7 +36,6 @@ export interface ModuleInfo {
   github: string
   website: string
   learn_more: string
-  docs?: string
   category: (typeof categories)[number]
   type: ModuleType
   maintainers: MaintainerInfo[]
