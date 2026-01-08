@@ -13,5 +13,5 @@ maintainers:
     github: acidjazz
     twitter: appfume
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3'
   requires: {}

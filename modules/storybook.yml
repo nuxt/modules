@@ -18,7 +18,7 @@ maintainers:
     github: tobiasdiez
     twitter: tobias_diez
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: '>=3.0.0'
   requires:
     bridge: optional
   devtools: ^0.7.2
