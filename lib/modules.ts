@@ -12,7 +12,7 @@ import dotenv from 'dotenv'
 
 import { categories } from './categories'
 import type { ModuleInfo } from './types'
-import { fetchGithubPkg, modulesDir, distDir, distFile, rootDir } from './utils'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir } from './utils'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
@@ -108,6 +108,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     'github',
     'website',
     'learn_more',
+    'docs',
     'mcp',
     'category',
     'type',
@@ -208,7 +209,15 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     mod.description = pkg.description
   }
 
-  // Compatibility
+  const moduleJson = await fetchModuleJson(mod.npm, pkg.version).catch(() => null)
+  if (moduleJson) {
+    if (moduleJson.compatibility?.nuxt) {
+      mod.compatibility.nuxt = moduleJson.compatibility.nuxt
+    }
+    if (moduleJson.docs) {
+      mod.docs = moduleJson.docs
+    }
+  }
 
   // Write module
   await writeModule(mod)
