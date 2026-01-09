@@ -22,6 +22,7 @@
     "test": "pnpm lint && pnpm sync"
   },
   "devDependencies": {
+    "@npm/types": "^2.1.0",
     "@nuxt/eslint-config": "^0.7.5",
     "@octokit/rest": "^21.1.0",
     "@types/js-yaml": "^4.0.9",
