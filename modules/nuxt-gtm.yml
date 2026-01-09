@@ -12,6 +12,6 @@ maintainers:
   - name: Zadig&Voltaire Team
     github: zadigetvoltaire
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: ^3.0.0
   requires: {}
   devtools: ^0.0.0

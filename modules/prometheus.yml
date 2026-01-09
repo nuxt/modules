@@ -14,5 +14,5 @@ maintainers:
   - name: Aleksandr Kriuchkov
     github: artmizu
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.0.0 || ^2.16.0 || >=4.0.0'
   requires: {}

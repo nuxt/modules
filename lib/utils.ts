@@ -22,6 +22,17 @@ export function fetchGithubPkg(repo: string) {
   return fetchRawGithub(repo + '/' + path + '/' + 'package.json')
 }
 
+export async function fetchModuleJson(npmPackage: string, version: string) {
+  try {
+    return await ofetch(`https://unpkg.com/${npmPackage}@${version}/dist/module.json`, {
+      responseType: 'json',
+    })
+  }
+  catch {
+    return null
+  }
+}
+
 export function uniq<T>(items: T[]) {
   return Array.from(new Set(items))
 }

@@ -16,5 +16,5 @@ maintainers:
     github: MikeCheng1208
     twitter: mike_cheng1208
 compatibility:
-  nuxt: '>=3.17.0'
+  nuxt: ^3.0.0 || ^4.0.0
   requires: {}
