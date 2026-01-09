@@ -12,7 +12,7 @@ import dotenv from 'dotenv'
 
 import { categories } from './categories'
 import type { ModuleInfo } from './types'
-import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir } from './utils'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, userAgent } from './utils'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
@@ -82,10 +82,17 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
   if (!isCI) {
     for (const key of ['website', 'learn_more'] as const) {
       if (mod[key] && !mod[key].includes('github.com')) {
-        // we just need to test that we get a 200 response (or a valid redirect)
-        await $fetch(mod[key]).catch((err) => {
+        try {
+          // we just need to test that we get a 200 response (or a valid redirect)
+          await $fetch(mod[key], {
+            headers: {
+              'user-agent': userAgent,
+            },
+          })
+        }
+        catch (err) {
           throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
-        })
+        }
       }
     }
   }

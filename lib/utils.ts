@@ -1,17 +1,30 @@
 import { resolve } from 'node:path'
 import { ofetch } from 'ofetch'
+import type { Packument } from '@npm/types'
 
 export const rootDir = resolve(__dirname, '..')
 export const modulesDir = resolve(rootDir, 'modules')
 export const distDir = resolve(rootDir)
 export const distFile = resolve(distDir, 'modules.json')
 
+export const userAgent = 'sync-script for https://nuxt.com/modules'
+
 export function fetchPKG(name: string) {
-  return ofetch('http://registry.npmjs.org/' + name)
+  return ofetch<Packument>('https://registry.npmjs.org/' + name, {
+    responseType: 'json',
+    headers: {
+      'user-agent': userAgent,
+    },
+  })
 }
 
 export function fetchRawGithub(path: string) {
-  return ofetch('https://raw.githubusercontent.com/' + path, { responseType: 'json' })
+  return ofetch('https://raw.githubusercontent.com/' + path, {
+    responseType: 'json',
+    headers: {
+      'user-agent': userAgent,
+    },
+  })
 }
 
 export function fetchGithubPkg(repo: string) {
