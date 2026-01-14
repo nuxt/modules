@@ -10,13 +10,25 @@ async function main() {
         const [name, repo] = args
         if (name) {
           console.log('Syncing ' + (name === '-' ? repo : name))
-          const module = await sync(name, repo, true)
+          const { module, regressions } = await sync(name, repo, true)
           console.log('Synced', module.name)
+          if (regressions.length > 0) {
+            console.log('\nRegressions detected:')
+            for (const r of regressions) {
+              console.log(`  - [${r.type}] ${r.description}`)
+            }
+          }
         }
         else {
           console.log('Syncing all modules')
-          const { count, success } = await syncAll()
-          console.log('Sync ' + count + ' modules')
+          const { count, success, regressions } = await syncAll()
+          console.log('Synced ' + count + ' modules')
+          if (regressions.length > 0) {
+            console.log('\nRegressions detected (' + regressions.length + '):')
+            for (const r of regressions) {
+              console.log(`  - [${r.type}] ${r.moduleName}: ${r.description}`)
+            }
+          }
           if (!success)
             process.exit(1)
         }

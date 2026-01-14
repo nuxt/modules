@@ -50,3 +50,17 @@ export interface ModuleInfo {
   publishedAt?: number
   createdAt?: number
 }
+
+export interface SyncRegression {
+  type: 'docs-url' | 'compatibility'
+  moduleName: string
+  repo: string
+  currentValue: string
+  moduleValue: string
+  description: string
+}
+
+export interface SyncResult {
+  module: ModuleInfo
+  regressions: SyncRegression[]
+}

@@ -29,6 +29,7 @@
     "@types/node": "^18.19.70",
     "@types/semver": "^7.7.1",
     "defu": "^6.1.4",
+    "dotenv": "^16.4.7",
     "eslint": "^9.18.0",
     "globby": "^14.0.2",
     "hasha": "^6.0.0",
@@ -40,8 +41,5 @@
     "std-env": "^3.8.0",
     "typescript": "^5.7.3"
   },
-  "packageManager": "pnpm@10.23.0",
-  "dependencies": {
-    "dotenv": "^16.4.7"
-  }
+  "packageManager": "pnpm@10.23.0"
 }
