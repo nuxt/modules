@@ -12,5 +12,5 @@ maintainers:
   - name: Developmint
     github: Developmint
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: ^3.0.0-rc.11
   requires: {}
