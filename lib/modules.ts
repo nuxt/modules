@@ -12,7 +12,7 @@ import dotenv from 'dotenv'
 
 import { categories } from './categories'
 import type { ModuleInfo } from './types'
-import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, userAgent } from './utils'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, userAgent, getMajorVersions, deduplicateCompatibilityRanges } from './utils'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
@@ -215,13 +215,33 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     mod.description = pkg.description
   }
 
-  const moduleJson = await fetchModuleJson(mod.npm, pkg.version)
-  if (moduleJson) {
-    if (moduleJson.compatibility?.nuxt) {
-      mod.compatibility.nuxt = moduleJson.compatibility.nuxt
+  const majorVersions = await getMajorVersions(mod.npm)
+
+  const nuxtCompatibilities: string[] = []
+  let latestModuleJson = null
+
+  for (const version of majorVersions) {
+    const moduleJson = await fetchModuleJson(mod.npm, version)
+    if (moduleJson) {
+      // Keep the latest module.json for other metadata
+      if (!latestModuleJson) {
+        latestModuleJson = moduleJson
+      }
+
+      if (moduleJson.compatibility?.nuxt) {
+        nuxtCompatibilities.push(moduleJson.compatibility.nuxt)
+      }
     }
-    if (moduleJson.docs) {
-      mod.website = moduleJson.docs
+  }
+
+  if (nuxtCompatibilities.length > 0) {
+    mod.compatibility.nuxt = deduplicateCompatibilityRanges(nuxtCompatibilities)
+  }
+
+  // Use latest module.json for other metadata
+  if (latestModuleJson) {
+    if (latestModuleJson.docs) {
+      mod.website = latestModuleJson.docs
     }
   }
 
