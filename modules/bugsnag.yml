@@ -15,6 +15,6 @@ maintainers:
     github: JulianMar
     twitter: julian_martin96
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: ^2.16.0 || ^3.0.0-rc.10
   requires:
     bridge: true

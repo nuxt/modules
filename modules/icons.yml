@@ -12,5 +12,5 @@ maintainers:
   - name: foxCode (Sebastian Włudzik)
     github: gitfoxcode
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: ^3.0.0-rc.3
   requires: {}
