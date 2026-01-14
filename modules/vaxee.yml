@@ -13,5 +13,5 @@ maintainers:
     github: letstri
     twitter: letstri
 compatibility:
-  nuxt: '>=3.5.0'
+  nuxt: ^3.0.0
   requires: {}

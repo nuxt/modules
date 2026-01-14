@@ -18,7 +18,7 @@ maintainers:
     twitter: atinux
     bluesky: atinux.com
 compatibility:
-  nuxt: '>=3.7.0'
+  nuxt: ^2.0.0 || >=3.0.0
   requires:
     bridge: true
   devtools: ^0.0.0

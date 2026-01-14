@@ -14,5 +14,5 @@ maintainers:
     twitter: harlan_zw
     avatar: https://avatars.githubusercontent.com/harlan-zw?v=4
 compatibility:
-  nuxt: <3.16.0 || >=3.6.1
+  nuxt: '>=3.0.0'
   requires: {}

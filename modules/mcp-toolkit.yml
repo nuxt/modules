@@ -5,7 +5,7 @@ npm: '@nuxtjs/mcp-toolkit'
 icon: mcp-toolkit.png
 github: >-
   https://github.com/nuxt-modules/mcp-toolkit/tree/main/packages/nuxt-mcp-toolkit
-website: https://mcp-toolkit.nuxt.dev/getting-started/installation
+website: https://mcp-toolkit.nuxt.dev
 learn_more: ''
 category: AI
 type: community

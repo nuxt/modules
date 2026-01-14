@@ -14,7 +14,7 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/u/13418668?v=4
     twitter: xlanex6
 compatibility:
-  nuxt: ^3.0.0-rc.9
+  nuxt: '>=3.0.0'
   requires:
     bridge: false
   devtools: ^0.0.0

@@ -14,5 +14,5 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/roncallyt
     twitter: t7ndotdev
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.12.0'
   requires: {}

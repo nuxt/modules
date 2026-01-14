@@ -22,6 +22,6 @@ maintainers:
     bluesky: sandros94.com
     twitter: _sandros94
 compatibility:
-  nuxt: ^2.16.0 || >=3.0.0-rc.9
+  nuxt: '>=3.0.0'
   requires: {}
   devtools: ^0.0.0

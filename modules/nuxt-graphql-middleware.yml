@@ -17,5 +17,5 @@ maintainers:
     github: ayalon
     avatar: https://avatars.githubusercontent.com/ayalon?v=4
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: ^2.0.0 || >=3.0.0
   requires: {}

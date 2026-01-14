@@ -18,5 +18,5 @@ maintainers:
     twitter: antfu7
     bluesky: antfu.me
 compatibility:
-  nuxt: '>=3.6.5'
+  nuxt: '>=3.0.0'
   requires: {}

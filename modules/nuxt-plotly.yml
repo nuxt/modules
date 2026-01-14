@@ -14,5 +14,5 @@ maintainers:
   - name: superdev-tech
     github: superdev-tech
 compatibility:
-  nuxt: ^3.6.0
+  nuxt: '>=3.0.0'
   requires: {}

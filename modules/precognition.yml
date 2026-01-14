@@ -12,5 +12,5 @@ maintainers:
   - name: sot1986
     github: sot1986
 compatibility:
-  nuxt: '>=3.9.0'
+  nuxt: '>=3.0.0'
   requires: {}
