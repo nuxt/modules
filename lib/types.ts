@@ -42,6 +42,7 @@ export interface ModuleInfo {
   contributors?: GithubContributor[]
   compatibility: ModuleCompatibility
   aliases?: string[]
+  archived?: boolean
 
   // Fetched in realtime API for modules.nuxt.org
   downloads?: number
@@ -64,3 +65,18 @@ export interface SyncResult {
   module: ModuleInfo
   regressions: SyncRegression[]
 }
+
+export interface SyncError {
+  moduleName: string
+  error: Error
+}
+
+export interface SyncAllResult {
+  total: number
+  synced: string[]
+  errors: SyncError[]
+  regressions: SyncRegression[]
+  archivedModules: string[]
+}
+
+export type SyncProgressCallback = (current: number, total: number, moduleName: string) => void

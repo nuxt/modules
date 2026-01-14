@@ -22,6 +22,7 @@
     "test": "pnpm lint && pnpm sync"
   },
   "devDependencies": {
+    "@clack/prompts": "1.0.0-alpha.9",
     "@npm/types": "^2.1.0",
     "@nuxt/eslint-config": "^0.7.5",
     "@octokit/rest": "^21.1.0",

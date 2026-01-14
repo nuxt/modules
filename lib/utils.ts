@@ -19,6 +19,21 @@ export function fetchPKG(name: string) {
   })
 }
 
+export async function npmPackageExists(name: string): Promise<boolean> {
+  try {
+    await fetchPKG(name)
+    return true
+  }
+  catch {
+    return false
+  }
+}
+
+export function parseNpmUrl(url: string): string | null {
+  const match = url.match(/^https?:\/\/(?:www\.)?npmjs\.com\/package\/([^/]+(?:\/[^/]+)?)/)
+  return match ? match[1]! : null
+}
+
 export function fetchRawGithub(path: string) {
   return ofetch('https://raw.githubusercontent.com/' + path, {
     responseType: 'json',

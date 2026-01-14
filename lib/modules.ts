@@ -11,8 +11,8 @@ import { Octokit } from '@octokit/rest'
 import dotenv from 'dotenv'
 
 import { categories } from './categories'
-import type { ModuleInfo, SyncRegression, SyncResult } from './types'
-import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, userAgent, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl } from './utils'
+import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback } from './types'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, userAgent, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists } from './utils'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
@@ -87,16 +87,25 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   if (!isCI) {
     for (const key of ['website', 'learn_more'] as const) {
       if (mod[key] && !mod[key].includes('github.com')) {
-        try {
-          // we just need to test that we get a 200 response (or a valid redirect)
-          await $fetch(mod[key], {
-            headers: {
-              'user-agent': userAgent,
-            },
-          })
+        const npmPackage = parseNpmUrl(mod[key])
+        if (npmPackage) {
+          const exists = await npmPackageExists(npmPackage)
+          if (!exists) {
+            throw new Error(`${key} link references non-existent npm package "${npmPackage}" for ${mod.name}`)
+          }
         }
-        catch (err) {
-          throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
+        else {
+          try {
+            // we just need to test that we get a 200 response (or a valid redirect)
+            await $fetch(mod[key], {
+              headers: {
+                'user-agent': userAgent,
+              },
+            })
+          }
+          catch (err) {
+            throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
+          }
         }
       }
     }
@@ -127,6 +136,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     'compatibility',
     'sponsor',
     'aliases',
+    'archived',
   ]
   const invalidFields = []
   for (const key in mod) {
@@ -211,6 +221,18 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
             maintainer.bluesky = social.displayName.replace(/^@/, '')
           }
         }
+      }
+    }
+
+    const repoParts = mod.repo.split('#')[0]?.split('/') || []
+    const [owner, repoName] = repoParts
+    if (owner && repoName) {
+      try {
+        const { data } = await client.repos.get({ owner, repo: repoName })
+        mod.archived = data.archived || undefined // only set if true
+      }
+      catch (err) {
+        console.warn(`Could not check archived status for ${mod.repo}: ${err}`)
       }
     }
   }
@@ -326,30 +348,42 @@ export async function readModules() {
     .then(modules => modules.filter(m => m.name))
 }
 
-export async function syncAll() {
+export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAllResult> {
   const modules = await readModules()
-  const limit = pLimit(10)
-  let success = true
-  const allRegressions: SyncRegression[] = []
+  const total = modules.length
+  const synced: string[] = []
+  const errors: SyncError[] = []
+  const regressions: SyncRegression[] = []
+  const archivedModules: string[] = []
 
-  const results = await Promise.allSettled(modules.map(module => limit(async () => {
-    console.log(`Syncing ${module.name}`)
+  let completed = 0
+  const limit = pLimit(10)
+
+  await Promise.all(modules.map(module => limit(async () => {
     try {
       const result = await sync(module.name, module.repo)
+      synced.push(module.name)
+
       if (result.regressions.length > 0) {
-        allRegressions.push(...result.regressions)
+        regressions.push(...result.regressions)
       }
-      return result
+      if (result.module.archived) {
+        archivedModules.push(module.name)
+      }
     }
     catch (err) {
-      console.error(`Error syncing ${module.name}`)
-      console.error(err)
-      success = false
-      return null
+      errors.push({
+        moduleName: module.name,
+        error: err instanceof Error ? err : new Error(String(err)),
+      })
+    }
+    finally {
+      completed++
+      onProgress?.(completed, total, module.name)
     }
   })))
 
-  return { count: results.length, success, regressions: allRegressions }
+  return { total, synced, errors, regressions, archivedModules }
 }
 
 export async function build() {
