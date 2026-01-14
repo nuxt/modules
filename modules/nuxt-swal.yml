@@ -1,0 +1,20 @@
+name: nuxt-swal
+description: >-
+  A sweat alert module for Nuxt.js with support for options and composition API.
+  Extends the default sweetalert2 module.
+repo: forinda/nuxt-swal
+npm: nuxt-swal
+icon: ''
+github: https://github.com/forinda/nuxt-swal.git
+website: https://github.com/forinda/nuxt-swal.git
+learn_more: https://sweetalert2.github.io/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Felix Orinda
+    github: forinda
+    twitter: felix_orinda
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
+  vue: ^3.0.0
