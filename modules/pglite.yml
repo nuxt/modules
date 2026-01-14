@@ -15,5 +15,5 @@ maintainers:
     bluesky: sandros94.com
     twitter: _sandros94
 compatibility:
-  nuxt: '>=3.14.0'
+  nuxt: '>=3.15.0'
   requires: {}

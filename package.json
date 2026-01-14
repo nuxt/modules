@@ -27,7 +27,9 @@
     "@octokit/rest": "^21.1.0",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^18.19.70",
+    "@types/semver": "^7.7.1",
     "defu": "^6.1.4",
+    "dotenv": "^16.4.7",
     "eslint": "^9.18.0",
     "globby": "^14.0.2",
     "hasha": "^6.0.0",
@@ -35,11 +37,9 @@
     "js-yaml": "^4.1.0",
     "ofetch": "^1.4.1",
     "p-limit": "^6.2.0",
+    "semver": "^7.7.3",
     "std-env": "^3.8.0",
     "typescript": "^5.7.3"
   },
-  "packageManager": "pnpm@10.23.0",
-  "dependencies": {
-    "dotenv": "^16.4.7"
-  }
+  "packageManager": "pnpm@10.23.0"
 }

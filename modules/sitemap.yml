@@ -18,5 +18,5 @@ maintainers:
     twitter: NicoPennec
     bluesky: nicopennec.bsky.social
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.9.0'
   requires: {}
