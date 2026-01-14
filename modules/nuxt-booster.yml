@@ -18,6 +18,6 @@ maintainers:
     github: StephanGerbeth
     avatar: https://avatars.githubusercontent.com/u/3775511?v=4
 compatibility:
-  nuxt: '>=3.13.1'
+  nuxt: '>=3.0.0'
   requires: {}
   devtools: ^0.0.0

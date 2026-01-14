@@ -12,5 +12,5 @@ maintainers:
   - name: Lukas Hofstätter
     github: holux-design
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

@@ -17,5 +17,5 @@ maintainers:
     github: gaetansenn
     avatar: https://avatars.githubusercontent.com/u/2774075?v=4
 compatibility:
-  nuxt: '>=3.0.0-rc.11'
+  nuxt: '>=3.0.0'
   requires: {}

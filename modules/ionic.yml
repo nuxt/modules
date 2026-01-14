@@ -14,5 +14,5 @@ maintainers:
     twitter: danielcroe
     bluesky: danielroe.dev
 compatibility:
-  nuxt: '>=3.0.0-rc.12'
+  nuxt: '>=3.0.0'
   requires: {}

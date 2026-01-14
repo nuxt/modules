@@ -18,6 +18,6 @@ maintainers:
     bluesky: antfu.me
     twitter: antfu7
 compatibility:
-  nuxt: '>=4.0.0'
+  nuxt: '>=3.0.0'
   requires: {}
   devtools: ^0.0.0

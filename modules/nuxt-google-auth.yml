@@ -14,5 +14,5 @@ maintainers:
   - name: go-fireball
     github: go-fireball
 compatibility:
-  nuxt: ^3.0.0 || ^4.0.0
+  nuxt: ^3.0.0
   requires: {}

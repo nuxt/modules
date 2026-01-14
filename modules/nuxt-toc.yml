@@ -12,5 +12,5 @@ maintainers:
   - name: hanyujie2002
     github: hanyujie2002
 compatibility:
-  nuxt: '>= 3.0.0'
+  nuxt: '>=3.0.0'
   requires: {}
