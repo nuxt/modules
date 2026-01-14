@@ -302,23 +302,17 @@ export function mergeCompatibilityRanges(ranges: string[]): string {
   const mostPermissivePerMajor: ParsedRange[] = []
 
   for (const [_major, rangesForMajor] of byMajor) {
-    // Sort by version (ascending) - lowest minimum version is most permissive
-    rangesForMajor.sort(compareVersionTuple)
+    const gteRanges = rangesForMajor.filter(r => r.type === 'gte' && !r.hasUpperBound)
 
-    // The first one (lowest minimum) is the most permissive for this major
-    let mostPermissive = rangesForMajor[0]!
-
-    // If there's an open-ended >= range, prefer it over caret ranges
-    for (const range of rangesForMajor) {
-      if (range.type === 'gte' && !range.hasUpperBound) {
-        // Check if this >= range starts at or before the current most permissive
-        if (compareVersionTuple(range, mostPermissive) <= 0) {
-          mostPermissive = range
-        }
-      }
+    if (gteRanges.length > 0) {
+      // Among >= ranges, pick the one with the lowest minimum version
+      gteRanges.sort(compareVersionTuple)
+      mostPermissivePerMajor.push(gteRanges[0]!)
     }
-
-    mostPermissivePerMajor.push(mostPermissive)
+    else {
+      rangesForMajor.sort(compareVersionTuple)
+      mostPermissivePerMajor.push(rangesForMajor[0]!)
+    }
   }
 
   // Now check if any range covers others across major versions
