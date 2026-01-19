@@ -27,7 +27,7 @@
     "@nuxt/eslint-config": "^0.7.6",
     "@octokit/rest": "^21.1.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^18.19.130",
+    "@types/node": "^24.10.9",
     "@types/semver": "^7.7.1",
     "defu": "^6.1.4",
     "dotenv": "^16.6.1",
