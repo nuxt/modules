@@ -8,13 +8,15 @@
     ":automergePatch",
     ":automergeTypes"
   ],
-  "stabilityDays": 3,
+  "minimumReleaseAge": "3 days",
   "prCreation": "not-pending",
   "packageRules": [
     {
-      "packagePatterns": ["lint"],
       "groupName": "all lint dependencies",
-      "groupSlug": "all-lint"
+      "groupSlug": "all-lint",
+      "matchPackageNames": [
+        "/lint/"
+      ]
     }
   ]
 }
