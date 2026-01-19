@@ -30,7 +30,7 @@
     "@types/node": "^24.10.9",
     "@types/semver": "^7.7.1",
     "defu": "^6.1.4",
-    "dotenv": "^16.6.1",
+    "dotenv": "^17.2.3",
     "eslint": "^9.39.2",
     "globby": "^14.1.0",
     "hasha": "^6.0.0",
