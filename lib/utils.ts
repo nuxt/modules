@@ -1,9 +1,10 @@
 import { resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { ofetch } from 'ofetch'
 import semver from 'semver'
 import type { Packument } from '@npm/types'
 
-export const rootDir = resolve(__dirname, '..')
+export const rootDir = fileURLToPath(new URL('..', import.meta.url))
 export const modulesDir = resolve(rootDir, 'modules')
 export const distDir = resolve(rootDir)
 export const distFile = resolve(distDir, 'modules.json')

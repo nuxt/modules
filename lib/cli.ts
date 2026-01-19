@@ -1,7 +1,7 @@
 import * as p from '@clack/prompts'
 import c from 'picocolors'
-import { sync, syncAll, build } from './modules'
-import { version } from './version'
+import { sync, syncAll, build } from './modules.ts'
+import { version } from './version.ts'
 
 async function main() {
   const [command, ...args] = process.argv.splice(2)

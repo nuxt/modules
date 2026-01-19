@@ -10,9 +10,9 @@ import { isCI } from 'std-env'
 import { Octokit } from '@octokit/rest'
 import dotenv from 'dotenv'
 
-import { categories } from './categories'
-import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback } from './types'
-import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, userAgent, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists } from './utils'
+import { categories } from './categories.ts'
+import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback } from './types.ts'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, userAgent, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 

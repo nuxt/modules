@@ -1,4 +1,4 @@
-import type { categories } from './categories'
+import type { categories } from './categories.ts'
 
 // TODO: Move to @nuxt/kit
 // TODO: Support version matrix

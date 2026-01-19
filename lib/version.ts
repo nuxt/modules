@@ -1,8 +1,8 @@
 import path from 'node:path'
 import { promises as fsp } from 'node:fs'
 import { hashFile } from 'hasha'
-import { rootDir, distFile } from './utils'
-import { build } from './modules'
+import { rootDir, distFile } from './utils.ts'
+import { build } from './modules.ts'
 
 export async function version() {
   await build()
