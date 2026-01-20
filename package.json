@@ -24,7 +24,7 @@
   "devDependencies": {
     "@clack/prompts": "1.0.0-alpha.9",
     "@npm/types": "^2.1.0",
-    "@nuxt/eslint-config": "^0.7.6",
+    "@nuxt/eslint-config": "^1.12.1",
     "@octokit/rest": "^22.0.1",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^24.10.9",
