@@ -1,0 +1,14 @@
+name: nuxt-csp-report
+description: A Nuxt module for collecting, normalizing, and persisting Content Security Policy (CSP) reports.
+repo: Gonzo17/nuxt-csp-report
+npm: nuxt-csp-report
+icon: nuxt-csp-report.svg
+github: https://github.com/Gonzo17/nuxt-csp-report
+website: https://github.com/Gonzo17/nuxt-csp-report
+category: Security
+type: 3rd-party
+maintainers:
+  - name: David Gonzalez Casin
+    github: Gonzo17
+compatibility:
+  nuxt: '>=3.12.0'
