@@ -1,0 +1,18 @@
+name: nuxt-claude-devtools
+description: Integrate Claude Code into Nuxt DevTools (AI tab, streaming chat, sessions, skills, subagents, slash commands, MCP).
+repo: oro-ad/nuxt-claude-devtools
+npm: "@oro.ad/nuxt-claude-devtools"
+icon: nuxt-claude-devtools.png
+github: https://github.com/oro-ad/nuxt-claude-devtools/
+website: https://github.com/oro-ad/nuxt-claude-devtools/
+learn_more: https://claude.ai/
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Simon Bystrov
+    github: SemBystrov
+    avatar: https://avatars.githubusercontent.com/u/47738499?v=4
+compatibility:
+  nuxt: ">=4.0.0"
+  requires: {}
+  devtools: "^3.0.0"
