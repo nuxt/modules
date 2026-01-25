@@ -4,7 +4,7 @@ repo: onmax/nuxt-safe-runtime-config#main
 npm: nuxt-safe-runtime-config
 icon: nuxt-safe-runtime-config.svg
 github: https://github.com/onmax/nuxt-safe-runtime-config/tree/main
-website: https://github.com/onmax/nuxt-safe-runtime-config/tree/main
+website: https://nuxt-safe-runtime-config.onmax.me
 learn_more: ''
 category: Devtools
 type: 3rd-party
