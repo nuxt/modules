@@ -24,7 +24,7 @@
   "devDependencies": {
     "@clack/prompts": "1.0.0-alpha.9",
     "@npm/types": "^2.1.0",
-    "@nuxt/eslint-config": "^1.12.1",
+    "@nuxt/eslint-config": "^1.13.0",
     "@octokit/rest": "^22.0.1",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^24.10.9",
@@ -33,14 +33,14 @@
     "dotenv": "^17.2.3",
     "eslint": "^9.39.2",
     "globby": "^16.1.0",
-    "hasha": "^6.0.0",
+    "hasha": "^7.0.0",
     "js-yaml": "^4.1.1",
     "ofetch": "^1.5.1",
-    "p-limit": "^6.2.0",
+    "p-limit": "^7.2.0",
     "picocolors": "^1.1.1",
     "semver": "^7.7.3",
     "std-env": "^3.10.0",
     "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@10.28.1"
+  "packageManager": "pnpm@10.28.2"
 }
