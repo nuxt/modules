@@ -42,8 +42,8 @@ importers:
         specifier: ^16.1.0
         version: 16.1.0
       hasha:
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^7.0.0
+        version: 7.0.0
       js-yaml:
         specifier: ^4.1.1
         version: 4.1.1
@@ -849,9 +849,9 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hasha@6.0.0:
-    resolution: {integrity: sha512-MLydoyGp9QJcjlhE5lsLHXYpWayjjWqkavzju2ZWD2tYa1CgmML1K1gWAu22BLFa2eZ0OfvJ/DlfoVjaD54U2Q==}
-    engines: {node: '>=18'}
+  hasha@7.0.0:
+    resolution: {integrity: sha512-+OPiRBbKJgGQRJ/IaYXmpnMlg7E+GPL38vVJx4Jcjnax4mrrYV0WteTMf57tgkKs10a1wWS4DOXCnDORWdIy4g==}
+    engines: {node: '>=20'}
 
   html-entities@2.6.0:
     resolution: {integrity: sha512-kig+rMn/QOVRvr7c86gQ8lWXq+Hkv6CbAH1hLu+RG338StTpE8Z0b44SDVaqVu7HGKf27frdmUYEs9hTUX/cLQ==}
@@ -896,9 +896,9 @@ packages:
     resolution: {integrity: sha512-lJJV/5dYS+RcL8uQdBDW9c9uWFLLBNRyFhnAKXw5tVqLlKZ4RMGZKv+YQ/IA3OhD+RpbJa1LLFM1FQPGyIXvOA==}
     engines: {node: '>=12'}
 
-  is-stream@3.0.0:
-    resolution: {integrity: sha512-LnQR4bZ9IADDRSkvpqMGvt/tEJWclzklNgSw48V5EAaAeDd6qGvN8ei6k5p0tvxSR171VmGyHuTiAOfxAbr8kA==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+  is-stream@4.0.1:
+    resolution: {integrity: sha512-Dnz92NInDqYckGEUJv689RbRiTSEHCQ7wOVeALbkOz999YpqT46yMRIGtSNl2iCL1waAZSx40+h59NV/EwzV/A==}
+    engines: {node: '>=18'}
 
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
@@ -2136,9 +2136,9 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hasha@6.0.0:
+  hasha@7.0.0:
     dependencies:
-      is-stream: 3.0.0
+      is-stream: 4.0.1
       type-fest: 4.41.0
 
   html-entities@2.6.0: {}
@@ -2170,7 +2170,7 @@ snapshots:
 
   is-path-inside@4.0.0: {}
 
-  is-stream@3.0.0: {}
+  is-stream@4.0.1: {}
 
   isexe@2.0.0: {}
 
