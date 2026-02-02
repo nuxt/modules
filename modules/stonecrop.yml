@@ -4,13 +4,14 @@ repo: agritheory/stonecrop#development/nuxt
 npm: '@stonecrop/nuxt'
 icon: stonecrop.svg
 github: https://github.com/agritheory/stonecrop/tree/development/nuxt
-website: https://agritheory.com/
-learn_more: ''
+website: https://stonecrop.io/
+learn_more: https://agritheory.com/
 category: Libraries
 type: 3rd-party
 maintainers:
   - name: Tyler Matteson
     github: agritheory
 compatibility:
-  nuxt: ^3.0.0
-  requires: {}
+  nuxt: ^4.0.0
+  requires:
+    bridge: false
