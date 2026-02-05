@@ -1,0 +1,17 @@
+name: freeform
+description: Desktop-like drag & drop for Nuxt. Lasso selection, reorder, drop into containers - zero dependencies, pure Vue magic.
+repo: Flo0806/nuxt-freeform#main/packages/nuxt-freeform
+npm: nuxt-freeform
+icon: nuxt-freeform.png
+github: https://github.com/Flo0806/nuxt-freeform
+website: https://nuxt-freeform.fh-softdev.de
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Florian Heuberger
+    github: Flo0806
+    bluesky: flo-heuberger.bsky.social
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
