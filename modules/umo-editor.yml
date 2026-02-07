@@ -1,0 +1,16 @@
+name: umo-editor
+description: Quickly integrate Umo editor into your Nuxt4 applications
+repo: umodoc/editor-nuxt
+npm: '@umoteam/umo-editor-nuxt'
+icon: umo-editor.svg
+github: https://github.com/umodoc/editor-nuxt
+website: https://www.umodoc.com
+learn_more: https://dev.umodoc.com/en/docs/editor
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: umodoc
+    github: umodoc
+compatibility:
+  nuxt: ^4.0.0
+  requires: {}
