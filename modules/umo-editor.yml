@@ -4,7 +4,6 @@ repo: umodoc/editor-nuxt
 npm: '@umoteam/umo-editor-nuxt'
 icon: umo-editor.svg
 github: https://github.com/umodoc/editor-nuxt
-website: https://github.com/umodoc/editor-nuxt
 website: https://www.umodoc.com
 learn_more: https://dev.umodoc.com/en/docs/editor
 category: Libraries
