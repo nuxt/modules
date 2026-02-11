@@ -1,0 +1,19 @@
+name: evlog
+description: Wide events and structured errors for TypeScript. One log per request. Full context.
+repo: HugoRCD/evlog
+npm: evlog
+icon: evlog.svg
+github: https://github.com/HugoRCD/evlog
+website: https://evlog.dev
+learn_more: https://evlog.dev/getting-started/introduction
+category: Monitoring
+type: 3rd-party
+maintainers:
+  - name: Hugo Richard
+    github: HugoRCD
+    twitter: hugorcd
+    bluesky: hrcd.fr
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
+mcp: https://evlog.dev/mcp
