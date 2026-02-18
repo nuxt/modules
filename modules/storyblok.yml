@@ -1,10 +1,10 @@
 name: storyblok
 description: Storyblok Nuxt module
-repo: storyblok/storyblok-nuxt#main
+repo: storyblok/monoblok#main/packages/nuxt
 npm: '@storyblok/nuxt'
 icon: storyblok.png
-github: https://github.com/storyblok/storyblok-nuxt
-website: https://github.com/storyblok/storyblok-nuxt
+github: https://github.com/storyblok/monoblok/tree/main/packages/nuxt
+website: https://github.com/storyblok/monoblok/tree/main/packages/nuxt
 learn_more: ''
 category: CMS
 type: 3rd-party

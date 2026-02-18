@@ -4,7 +4,7 @@ repo: tresjs/nuxt
 npm: '@tresjs/nuxt'
 icon: tresjs.svg
 github: https://github.com/Tresjs/nuxt
-website: https://tresjs.org/guide/nuxt.html
+website: https://docs.tresjs.org/getting-started/installation#nuxt-project
 learn_more: https://tresjs.org/
 category: Libraries
 type: 3rd-party
@@ -20,5 +20,5 @@ maintainers:
     github: Tinoooo
     twitter: ichbintino
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.16.0'
   requires: {}

@@ -10,16 +10,21 @@ import { isCI } from 'std-env'
 import { Octokit } from '@octokit/rest'
 import dotenv from 'dotenv'
 
-import { categories } from './categories'
-import type { ModuleInfo } from './types'
-import { fetchGithubPkg, modulesDir, distDir, distFile, rootDir } from './utils'
+import { categories } from './categories.ts'
+import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback } from './types.ts'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, userAgent, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
 dotenv.config()
 
-export async function sync(name: string, repo?: string, isNew: boolean = false) {
+export async function sync(name: string, repo?: string, isNew: boolean = false): Promise<SyncResult> {
   const mod = await getModule(name)
+  const regressions: SyncRegression[] = []
+
+  // Store original values for regression detection
+  const originalWebsite = mod.website
+  const originalCompatibility = mod.compatibility.nuxt
 
   // Repo
   if (repo) {
@@ -82,10 +87,26 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
   if (!isCI) {
     for (const key of ['website', 'learn_more'] as const) {
       if (mod[key] && !mod[key].includes('github.com')) {
-        // we just need to test that we get a 200 response (or a valid redirect)
-        await $fetch(mod[key]).catch((err) => {
-          throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
-        })
+        const npmPackage = parseNpmUrl(mod[key])
+        if (npmPackage) {
+          const exists = await npmPackageExists(npmPackage)
+          if (!exists) {
+            throw new Error(`${key} link references non-existent npm package "${npmPackage}" for ${mod.name}`)
+          }
+        }
+        else {
+          try {
+            // we just need to test that we get a 200 response (or a valid redirect)
+            await $fetch(mod[key], {
+              headers: {
+                'user-agent': userAgent,
+              },
+            })
+          }
+          catch (err) {
+            throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
+          }
+        }
       }
     }
   }
@@ -115,6 +136,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     'compatibility',
     'sponsor',
     'aliases',
+    'archived',
   ]
   const invalidFields = []
   for (const key in mod) {
@@ -201,6 +223,18 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
         }
       }
     }
+
+    const repoParts = mod.repo.split('#')[0]?.split('/') || []
+    const [owner, repoName] = repoParts
+    if (owner && repoName) {
+      try {
+        const { data } = await client.repos.get({ owner, repo: repoName })
+        mod.archived = data.archived || undefined // only set if true
+      }
+      catch (err) {
+        console.warn(`Could not check archived status for ${mod.repo}: ${err}`)
+      }
+    }
   }
 
   // Default description
@@ -208,12 +242,70 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     mod.description = pkg.description
   }
 
-  // Compatibility
+  const majorVersions = await getMajorVersions(mod.npm)
+
+  const nuxtCompatibilities: string[] = []
+  let latestModuleJson: { docs?: string, compatibility?: { nuxt?: string } } | null = null
+
+  for (const version of majorVersions) {
+    const moduleJson = await fetchModuleJson(mod.npm, version)
+    if (moduleJson) {
+      // Keep the latest module.json for other metadata
+      if (!latestModuleJson) {
+        latestModuleJson = moduleJson
+      }
+
+      if (moduleJson.compatibility?.nuxt) {
+        nuxtCompatibilities.push(moduleJson.compatibility.nuxt)
+      }
+    }
+  }
+
+  if (nuxtCompatibilities.length > 0) {
+    const mergedCompatibility = mergeCompatibilityRanges(nuxtCompatibilities)
+    if (mergedCompatibility) {
+      mod.compatibility.nuxt = mergedCompatibility
+
+      const wasNuxt4Compatible = isNuxt4Compatible(originalCompatibility)
+      const isNowNuxt4Compatible = isNuxt4Compatible(mergedCompatibility)
+      if (wasNuxt4Compatible && !isNowNuxt4Compatible) {
+        regressions.push({
+          type: 'compatibility',
+          moduleName: mod.name,
+          repo: mod.repo,
+          currentValue: originalCompatibility,
+          moduleValue: mergedCompatibility,
+          description: `Module was marked as Nuxt 4 compatible (${originalCompatibility}) but module.json indicates only ${mergedCompatibility}`,
+        })
+      }
+    }
+  }
+
+  // Always use docs URL from module.json if present (module is source of truth)
+  if (latestModuleJson?.docs) {
+    const newWebsite = latestModuleJson.docs
+
+    // Detect docs URL regression: was a real docs site, now it's just GitHub
+    const wasRealDocsUrl = isRealDocsUrl(originalWebsite)
+    const isNowRealDocsUrl = isRealDocsUrl(newWebsite)
+    if (wasRealDocsUrl && !isNowRealDocsUrl) {
+      regressions.push({
+        type: 'docs-url',
+        moduleName: mod.name,
+        repo: mod.repo,
+        currentValue: originalWebsite,
+        moduleValue: newWebsite,
+        description: `Module had a documentation site (${originalWebsite}) but module.json now points to ${newWebsite}`,
+      })
+    }
+
+    mod.website = newWebsite
+  }
 
   // Write module
   await writeModule(mod)
 
-  return mod
+  return { module: mod, regressions }
 }
 
 export async function getModule(name: string): Promise<ModuleInfo> {
@@ -256,19 +348,42 @@ export async function readModules() {
     .then(modules => modules.filter(m => m.name))
 }
 
-export async function syncAll() {
+export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAllResult> {
   const modules = await readModules()
+  const total = modules.length
+  const synced: string[] = []
+  const errors: SyncError[] = []
+  const regressions: SyncRegression[] = []
+  const archivedModules: string[] = []
+
+  let completed = 0
   const limit = pLimit(10)
-  let success = true
-  const updatedModules = await Promise.allSettled(modules.map(module => limit(() => {
-    console.log(`Syncing ${module.name}`)
-    return sync(module.name, module.repo).catch((err) => {
-      console.error(`Error syncing ${module.name}`)
-      console.error(err)
-      success = false
-    })
+
+  await Promise.all(modules.map(module => limit(async () => {
+    try {
+      const result = await sync(module.name, module.repo)
+      synced.push(module.name)
+
+      if (result.regressions.length > 0) {
+        regressions.push(...result.regressions)
+      }
+      if (result.module.archived) {
+        archivedModules.push(module.name)
+      }
+    }
+    catch (err) {
+      errors.push({
+        moduleName: module.name,
+        error: err instanceof Error ? err : new Error(String(err)),
+      })
+    }
+    finally {
+      completed++
+      onProgress?.(completed, total, module.name)
+    }
   })))
-  return { count: updatedModules.length, success }
+
+  return { total, synced, errors, regressions, archivedModules }
 }
 
 export async function build() {

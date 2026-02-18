@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "build": "pnpm cli build",
-    "cli": "jiti ./lib/cli",
+    "cli": "node ./lib/cli.ts",
     "website:build": "pnpm build && nuxt build website",
     "website:dev": "pnpm build && nuxt dev website",
     "lint": "eslint",
@@ -22,23 +22,25 @@
     "test": "pnpm lint && pnpm sync"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.7.5",
-    "@octokit/rest": "^21.1.0",
+    "@clack/prompts": "1.0.0-alpha.9",
+    "@npm/types": "^2.1.0",
+    "@nuxt/eslint-config": "^1.13.0",
+    "@octokit/rest": "^22.0.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^18.19.70",
+    "@types/node": "^24.10.9",
+    "@types/semver": "^7.7.1",
     "defu": "^6.1.4",
-    "eslint": "^9.18.0",
-    "globby": "^14.0.2",
-    "hasha": "^6.0.0",
-    "jiti": "^2.4.2",
-    "js-yaml": "^4.1.0",
-    "ofetch": "^1.4.1",
-    "p-limit": "^6.2.0",
-    "std-env": "^3.8.0",
-    "typescript": "^5.7.3"
+    "dotenv": "^17.2.3",
+    "eslint": "^9.39.2",
+    "globby": "^16.1.0",
+    "hasha": "^7.0.0",
+    "js-yaml": "^4.1.1",
+    "ofetch": "^1.5.1",
+    "p-limit": "^7.2.0",
+    "picocolors": "^1.1.1",
+    "semver": "^7.7.3",
+    "std-env": "^3.10.0",
+    "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@10.23.0",
-  "dependencies": {
-    "dotenv": "^16.4.7"
-  }
+  "packageManager": "pnpm@10.28.2"
 }

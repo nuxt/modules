@@ -28,6 +28,7 @@ maintainers:
     twitter: atinux
     bluesky: atinux.com
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: '>=3.1.0'
   requires:
     bridge: optional
+mcp: https://image.nuxt.com/mcp
