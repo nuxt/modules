@@ -1,5 +1,7 @@
 name: nuxt-actions
-description: Type-safe server actions with Standard Schema validation, middleware, optimistic updates, streaming, and SSR queries
+description: >-
+  Type-safe server actions with Standard Schema validation, middleware,
+  optimistic updates, streaming, and SSR queries
 repo: billymaulana/nuxt-actions
 npm: nuxt-actions
 icon: nuxt-actions.svg
@@ -12,5 +14,5 @@ maintainers:
   - name: Billy Maulana
     github: billymaulana
 compatibility:
-  nuxt: '>=3.7.0'
+  nuxt: ^3.7.0 || ^4.0.0
   requires: {}
