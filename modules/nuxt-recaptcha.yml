@@ -1,0 +1,17 @@
+name: recaptcha
+description: >-
+  Nuxt integration for Google Recaptcha
+repo: arashsheyda/nuxt-recaptcha
+npm: nuxt-recaptcha
+icon: recaptcha.png
+github: https://github.com/arashsheyda/nuxt-recaptcha
+website: https://docs.arashsheyda.me/nuxt-recaptcha
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: arashsheyda
+    github: arashsheyda
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
