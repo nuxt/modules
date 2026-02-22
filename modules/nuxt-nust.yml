@@ -1,0 +1,17 @@
+name: nuxt-nust
+description: A Nuxt module that provides NestJS-like features to your Nuxt backend, Standardizing your backend with CRUD structure and enhancing it with features like Controllers, Decorators, Injectable services, Validation, Transformers, Guards and OpenAPI decorators.
+repo: sweetscript/nuxt-nust
+npm: nuxt-nust
+icon: nuxt-nust.svg
+github: https://github.com/sweetscript/nuxt-nust
+website: https://sweetscript.github.io/nuxt-nust/
+learn_more: https://sweetscript.github.io/nuxt-nust/
+category: Request
+type: 3rd-party
+maintainers:
+  - name: Majid Kuhail
+    github: sweetscript
+    avatar: https://avatars.githubusercontent.com/u/101215002?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
