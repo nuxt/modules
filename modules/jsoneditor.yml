@@ -1,0 +1,16 @@
+name: jsoneditor
+description: UI tool for managing JSON data
+repo: bestkolobok/nuxt-jsoneditor
+npm: nuxt-jsoneditor
+icon: nuxt-jsoneditor.png
+github: https://github.com/bestkolobok/nuxt-jsoneditor
+website: https://github.com/bestkolobok/nuxt-jsoneditor
+learn_more: https://github.com/bestkolobok/nuxt-jsoneditor
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Alex
+    github: bestkolobok
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
