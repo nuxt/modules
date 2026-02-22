@@ -1,0 +1,17 @@
+name: bedita
+description: Easily integrate BEdita API to your Nuxt application
+repo: atlasconsulting/nuxt-bedita
+npm: '@atlasconsulting/nuxt-bedita'
+icon: bedita.svg
+github: https://github.com/atlasconsulting/nuxt-bedita
+website: https://atlasconsulting.github.io/nuxt-bedita/
+learn_more: https://atlasconsulting.github.io/nuxt-bedita/
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Alberto Pagliarini
+    github: batopa
+    avatar: https://avatars.githubusercontent.com/batopa
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
