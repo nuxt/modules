@@ -1,0 +1,22 @@
+name: nuxt-cryptography
+description: >-
+  Secure, framework-native cryptography utilities that work identically on the
+  server and in the browser.
+repo: BitwoHQ/nuxt-cryptography
+npm: '@bitwo.io/nuxt-cryptography'
+icon: nuxt-cryptography.png
+github: https://github.com/BitwoHQ/nuxt-cryptography
+website: https://oss.bitwo.io/docs/nuxt-cryptography/overview
+learn_more: https://oss.bitwo.io/projects/nuxt-cryptography/
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Bitwo
+    github: BitwoHQ
+    twitter: BitwoHQ
+  - name: André Nunes
+    github: ItsAnunesS
+    twitter: itsanuness
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
