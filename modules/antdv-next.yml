@@ -9,7 +9,7 @@ learn_more: https://www.antdv-next.com
 category: UI
 type: 3rd-party
 maintainers:
-  - name: aibayanyu20
+  - name: yanyu
     github: aibayanyu20
 compatibility:
   nuxt: '>=4.0.0'
