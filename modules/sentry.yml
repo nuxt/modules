@@ -1,5 +1,5 @@
 name: sentry
-description: Official Sentry SDK for Nuxt (EXPERIMENTAL)
+description: Sentry SDK for Nuxt
 repo: getsentry/sentry-javascript#HEAD/packages/nuxt
 npm: '@sentry/nuxt'
 icon: sentry.svg
