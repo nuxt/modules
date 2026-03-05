@@ -95,8 +95,8 @@ pnpm build
 
 [MIT](./LICENSE) - Made by Nuxt Team
 
-[npm-version-src]: https://img.shields.io/npm/v/@nuxt/modules/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/@nuxt/modules
+[npm-version-src]: https://npmx.dev/api/registry/badge/version/@nuxt/modules
+[npm-version-href]: https://npmx.dev/package/@nuxt/modules
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt%20Modules-18181B?logo=nuxt
 [nuxt-href]: https://nuxt.com/modules
