@@ -1,0 +1,19 @@
+name: drizzle
+description: >-
+  Automate Drizzle ORM setup with support for multiple datasources, 
+  conditional database driver imports 
+  and optional migrations at service startup.
+repo: Myshkouski/nuxt-drizzle-module
+npm: '@nuxt-drizzle/module'
+icon: drizzle.svg
+github: https://github.com/Myshkouski/nuxt-drizzle-module
+website: https://github.com/Myshkouski/nuxt-drizzle-module
+learn_more: ''
+category: Database
+type: 3rd-party
+maintainers:
+  - name: Alexei Myshkouski
+    github: Myshkouski
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
