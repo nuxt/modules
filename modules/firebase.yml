@@ -5,7 +5,7 @@ npm: '@nuxtjs/firebase'
 icon: firebase.png
 github: https://github.com/nuxt-community/firebase-module
 website: https://firebase.nuxtjs.org
-learn_more: https://firebase.google.com/
+learn_more: https://firebase.google.com/?hl=es-419
 category: Database
 type: community
 maintainers:
