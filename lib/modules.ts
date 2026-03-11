@@ -90,7 +90,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   }
 
   for (const key of ['website', 'learn_more'] as const) {
-    if (mod[key] && !mod[key].includes('github.com')) {
+    if (mod[key]) {
       const npmPackage = parseNpmUrl(mod[key])
       if (npmPackage) {
         const exists = await npmPackageExists(npmPackage)
@@ -285,7 +285,13 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
 
   // Always use docs URL from module.json if present (module is source of truth)
   if (latestModuleJson?.docs) {
-    const newWebsite = latestModuleJson.docs
+    let newWebsite = latestModuleJson.docs
+
+    // Re-validate docs URL for redirects before using it
+    const redirectedUrl = await checkWebsiteRedirect(newWebsite).catch(() => null)
+    if (redirectedUrl) {
+      newWebsite = redirectedUrl
+    }
 
     // Detect docs URL regression: was a real docs site, now it's just GitHub
     const wasRealDocsUrl = isRealDocsUrl(originalWebsite)
