@@ -12,7 +12,7 @@ maintainers:
   - name: Abdelrahman Awad
     github: logaretm
     twitter: logaretm
-    bluesky: logaretm.com
+    bluesky: awad.dev
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
