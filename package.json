@@ -22,16 +22,16 @@
     "test": "pnpm lint && pnpm sync"
   },
   "devDependencies": {
-    "@clack/prompts": "1.0.1",
+    "@clack/prompts": "1.1.0",
     "@npm/types": "^2.1.0",
-    "@nuxt/eslint-config": "^1.15.1",
+    "@nuxt/eslint-config": "^1.15.2",
     "@octokit/rest": "^22.0.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^24.10.13",
+    "@types/node": "^24.12.0",
     "@types/semver": "^7.7.1",
     "defu": "^6.1.4",
     "dotenv": "^17.3.1",
-    "eslint": "^10.0.1",
+    "eslint": "^10.0.3",
     "globby": "^16.1.1",
     "hasha": "^7.0.0",
     "js-yaml": "^4.1.1",
@@ -42,5 +42,5 @@
     "std-env": "^3.10.0",
     "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@10.30.1"
+  "packageManager": "pnpm@10.32.1"
 }
