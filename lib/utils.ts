@@ -423,7 +423,7 @@ export async function checkGithubRepoRedirect(repo: string): Promise<string | nu
   const url = `https://github.com/${ownerRepo}`
 
   try {
-    const response = await ofetch(url, {
+    const response = await ofetch.raw(url, {
       method: 'HEAD',
       redirect: 'follow',
       retry: 3,
@@ -458,7 +458,7 @@ export async function checkWebsiteRedirect(url: string): Promise<string | null> 
   const fragment = hashIndex !== -1 ? url.slice(hashIndex) : ''
   const urlWithoutFragment = hashIndex !== -1 ? url.slice(0, hashIndex) : url
 
-  const response = await ofetch(urlWithoutFragment, {
+  const response = await ofetch.raw(urlWithoutFragment, {
     method: 'HEAD',
     redirect: 'follow',
     retry: 3,
