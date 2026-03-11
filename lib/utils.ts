@@ -11,9 +11,15 @@ export const distFile = resolve(distDir, 'modules.json')
 
 export const userAgent = 'sync-script for https://nuxt.com/modules'
 
+/** Small delay between sequential fetches to avoid rate limiting */
+export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
+export const FETCH_DELAY = 100 // ms between requests
+
 export function fetchPKG(name: string) {
   return ofetch<Packument>('https://registry.npmjs.org/' + name, {
     responseType: 'json',
+    retry: 3,
+    retryDelay: 500,
     headers: {
       'user-agent': userAgent,
     },
@@ -38,6 +44,8 @@ export function parseNpmUrl(url: string): string | null {
 export function fetchRawGithub(path: string) {
   return ofetch('https://raw.githubusercontent.com/' + path, {
     responseType: 'json',
+    retry: 3,
+    retryDelay: 500,
     headers: {
       'user-agent': userAgent,
     },
@@ -56,6 +64,8 @@ export async function fetchModuleJson(npmPackage: string, version: string) {
   try {
     return await ofetch(`https://unpkg.com/${npmPackage}@${version}/dist/module.json`, {
       responseType: 'json',
+      retry: 3,
+      retryDelay: 500,
       headers: {
         'user-agent': userAgent,
       },
@@ -416,6 +426,8 @@ export async function checkGithubRepoRedirect(repo: string): Promise<string | nu
     const response = await ofetch(url, {
       method: 'HEAD',
       redirect: 'follow',
+      retry: 3,
+      retryDelay: 500,
       headers: { 'user-agent': userAgent },
     })
 
@@ -449,6 +461,8 @@ export async function checkWebsiteRedirect(url: string): Promise<string | null> 
   const response = await ofetch(urlWithoutFragment, {
     method: 'HEAD',
     redirect: 'follow',
+    retry: 3,
+    retryDelay: 500,
     headers: { 'user-agent': userAgent },
   })
 

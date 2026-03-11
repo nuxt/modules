@@ -10,7 +10,7 @@ import dotenv from 'dotenv'
 
 import { categories } from './categories.ts'
 import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback } from './types.ts'
-import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect } from './utils.ts'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
@@ -38,12 +38,17 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     mod.repo = repo
   }
   // Check if the GitHub org/repo has been moved/renamed
-  const newOwnerRepo = await checkGithubRepoRedirect(mod.repo)
-  if (newOwnerRepo) {
-    // Preserve any #branch/path suffix
-    const hashIndex = mod.repo.indexOf('#')
-    const suffix = hashIndex !== -1 ? mod.repo.slice(hashIndex) : ''
-    mod.repo = newOwnerRepo + suffix
+  try {
+    const newOwnerRepo = await checkGithubRepoRedirect(mod.repo)
+    if (newOwnerRepo) {
+      // Preserve any #branch/path suffix
+      const hashIndex = mod.repo.indexOf('#')
+      const suffix = hashIndex !== -1 ? mod.repo.slice(hashIndex) : ''
+      mod.repo = newOwnerRepo + suffix
+    }
+  }
+  catch (err) {
+    console.warn(`Could not check repo redirect for ${mod.repo}: ${err}`)
   }
 
   // Always derive github URL from repo
@@ -51,6 +56,8 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   if (!mod.website) {
     mod.website = mod.github
   }
+
+  await sleep(FETCH_DELAY)
 
   // Fetch latest package.json from github
   const pkg = await fetchGithubPkg(mod.repo)
@@ -93,9 +100,14 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     if (mod[key]) {
       const npmPackage = parseNpmUrl(mod[key])
       if (npmPackage) {
-        const exists = await npmPackageExists(npmPackage)
-        if (!exists) {
-          throw new Error(`${key} link references non-existent npm package "${npmPackage}" for ${mod.name}`)
+        try {
+          const exists = await npmPackageExists(npmPackage)
+          if (!exists) {
+            console.warn(`${key} link references non-existent npm package "${npmPackage}" for ${mod.name}`)
+          }
+        }
+        catch (err) {
+          console.warn(`Could not check npm package "${npmPackage}" for ${mod.name}: ${err}`)
         }
       }
       else {
@@ -107,9 +119,10 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
           }
         }
         catch (err) {
-          throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
+          console.warn(`Could not validate ${key} URL for ${mod.name}: ${err}`)
         }
       }
+      await sleep(FETCH_DELAY)
     }
   }
 
@@ -244,12 +257,19 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     mod.description = pkg.description
   }
 
-  const majorVersions = await getMajorVersions(mod.npm)
+  let majorVersions: string[] = []
+  try {
+    majorVersions = await getMajorVersions(mod.npm)
+  }
+  catch (err) {
+    console.warn(`Could not fetch major versions for ${mod.npm}: ${err}`)
+  }
 
   const nuxtCompatibilities: string[] = []
   let latestModuleJson: { docs?: string, compatibility?: { nuxt?: string } } | null = null
 
   for (const version of majorVersions) {
+    await sleep(FETCH_DELAY)
     const moduleJson = await fetchModuleJson(mod.npm, version)
     if (moduleJson) {
       // Keep the latest module.json for other metadata
@@ -288,9 +308,15 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     let newWebsite = latestModuleJson.docs
 
     // Re-validate docs URL for redirects before using it
-    const redirectedUrl = await checkWebsiteRedirect(newWebsite).catch(() => null)
-    if (redirectedUrl) {
-      newWebsite = redirectedUrl
+    await sleep(FETCH_DELAY)
+    try {
+      const redirectedUrl = await checkWebsiteRedirect(newWebsite)
+      if (redirectedUrl) {
+        newWebsite = redirectedUrl
+      }
+    }
+    catch {
+      // If we can't validate the docs URL, use it as-is
     }
 
     // Detect docs URL regression: was a real docs site, now it's just GitHub
