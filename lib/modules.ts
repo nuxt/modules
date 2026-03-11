@@ -5,14 +5,12 @@ import * as yml from 'js-yaml'
 import { globby } from 'globby'
 import defu from 'defu'
 import pLimit from 'p-limit'
-import { $fetch } from 'ofetch'
-import { isCI } from 'std-env'
 import { Octokit } from '@octokit/rest'
 import dotenv from 'dotenv'
 
 import { categories } from './categories.ts'
 import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback } from './types.ts'
-import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, userAgent, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists } from './utils.ts'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
@@ -39,9 +37,17 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   if (!mod.repo && repo) {
     mod.repo = repo
   }
-  if (!mod.github) {
-    mod.github = `https://github.com/${mod.repo.replace('#', '/tree/')}`
+  // Check if the GitHub org/repo has been moved/renamed
+  const newOwnerRepo = await checkGithubRepoRedirect(mod.repo)
+  if (newOwnerRepo) {
+    // Preserve any #branch/path suffix
+    const hashIndex = mod.repo.indexOf('#')
+    const suffix = hashIndex !== -1 ? mod.repo.slice(hashIndex) : ''
+    mod.repo = newOwnerRepo + suffix
   }
+
+  // Always derive github URL from repo
+  mod.github = `https://github.com/${mod.repo.split('#')[0]}`
   if (!mod.website) {
     mod.website = mod.github
   }
@@ -83,29 +89,25 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     }
   }
 
-  // ci is flaky with external links
-  if (!isCI) {
-    for (const key of ['website', 'learn_more'] as const) {
-      if (mod[key] && !mod[key].includes('github.com')) {
-        const npmPackage = parseNpmUrl(mod[key])
-        if (npmPackage) {
-          const exists = await npmPackageExists(npmPackage)
-          if (!exists) {
-            throw new Error(`${key} link references non-existent npm package "${npmPackage}" for ${mod.name}`)
+  for (const key of ['website', 'learn_more'] as const) {
+    if (mod[key] && !mod[key].includes('github.com')) {
+      const npmPackage = parseNpmUrl(mod[key])
+      if (npmPackage) {
+        const exists = await npmPackageExists(npmPackage)
+        if (!exists) {
+          throw new Error(`${key} link references non-existent npm package "${npmPackage}" for ${mod.name}`)
+        }
+      }
+      else {
+        try {
+          // Validate the URL and check for redirects in a single request
+          const redirectedUrl = await checkWebsiteRedirect(mod[key])
+          if (redirectedUrl) {
+            mod[key] = redirectedUrl
           }
         }
-        else {
-          try {
-            // we just need to test that we get a 200 response (or a valid redirect)
-            await $fetch(mod[key], {
-              headers: {
-                'user-agent': userAgent,
-              },
-            })
-          }
-          catch (err) {
-            throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
-          }
+        catch (err) {
+          throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
         }
       }
     }
