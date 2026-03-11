@@ -1,5 +1,5 @@
 name: netlify
-description: Nuxt module providing local emulation of the Netlify environment
+description: Local emulation of the Netlify platform in development
 repo: netlify/primitives#main/packages/nuxt-module
 npm: '@netlify/nuxt'
 icon: netlify.svg
