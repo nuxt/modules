@@ -4,7 +4,7 @@ repo: nuxt-modules/eslint
 npm: '@nuxtjs/eslint-module'
 icon: eslint.png
 github: https://github.com/nuxt-modules/eslint
-website: https://github.com/nuxt-community/eslint-module
+website: https://github.com/nuxt-modules/eslint
 learn_more: https://eslint.org/
 category: Devtools
 type: community

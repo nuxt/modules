@@ -6,7 +6,7 @@ repo: nuxt-content/mdc
 npm: '@nuxtjs/mdc'
 icon: mdc.png
 github: https://github.com/nuxt-content/mdc
-website: https://github.com/nuxt-modules/mdc
+website: https://github.com/nuxt-content/mdc
 learn_more: ''
 category: Extensions
 type: community

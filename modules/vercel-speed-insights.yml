@@ -3,7 +3,7 @@ description: Real user performance metrics and suggestions for your Nuxt app
 repo: vercel/speed-insights#main/packages/web
 npm: '@vercel/speed-insights'
 icon: vercel.svg
-github: https://github.com/vercel/speed-insights/tree/main/packages/web
+github: https://github.com/vercel/speed-insights
 website: https://vercel.com/docs/speed-insights
 learn_more: https://vercel.com/docs/speed-insights/quickstart?framework=nuxt
 category: Performance

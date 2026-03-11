@@ -4,7 +4,7 @@ repo: nuxt-community/legacy-modules#master/packages/vendor
 npm: '@nuxtjs/vendor'
 icon: ''
 github: https://github.com/nuxt-community/legacy-modules
-website: https://github.com/nuxt-community/modules/tree/master/packages/vendor
+website: https://github.com/nuxt-community/legacy-modules/tree/master/packages/vendor
 learn_more: ''
 category: Extensions
 type: community

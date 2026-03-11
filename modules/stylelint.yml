@@ -6,7 +6,7 @@ repo: nuxt-modules/stylelint
 npm: '@nuxtjs/stylelint-module'
 icon: stylelint.png
 github: https://github.com/nuxt-modules/stylelint
-website: https://github.com/nuxt-community/stylelint-module
+website: https://github.com/nuxt-modules/stylelint
 learn_more: https://stylelint.io/
 category: CSS
 type: community

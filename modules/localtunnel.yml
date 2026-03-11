@@ -4,7 +4,8 @@ repo: nuxt-community/legacy-modules#master/packages/localtunnel
 npm: '@nuxtjs/localtunnel'
 icon: localtunnel.png
 github: https://github.com/nuxt-community/legacy-modules
-website: https://github.com/nuxt-community/modules/tree/master/packages/localtunnel
+website: >-
+  https://github.com/nuxt-community/legacy-modules/tree/master/packages/localtunnel
 learn_more: https://github.com/localtunnel/localtunnel
 category: Devtools
 type: community

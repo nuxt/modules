@@ -6,7 +6,7 @@ repo: nuxt-modules/style-resources
 npm: '@nuxtjs/style-resources'
 icon: ''
 github: https://github.com/nuxt-modules/style-resources
-website: https://github.com/nuxt-community/style-resources-module
+website: https://github.com/nuxt-modules/style-resources
 learn_more: ''
 category: CSS
 type: community

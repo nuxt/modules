@@ -4,7 +4,7 @@ repo: ihavecoke/nuxt-seo-meta#main/packages/core
 npm: nuxt-seo-meta
 icon: ''
 github: https://github.com/ihavecoke/nuxt-seo-meta
-website: https://github.com/ihavecoke/nuxtjs-seo-meta
+website: https://github.com/ihavecoke/nuxt-seo-meta
 learn_more: ''
 category: SEO
 type: 3rd-party

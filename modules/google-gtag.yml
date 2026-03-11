@@ -4,8 +4,8 @@ repo: nuxt-community/google-gtag-module
 npm: '@nuxtjs/google-gtag'
 icon: gtm.png
 github: https://github.com/nuxt-community/google-gtag-module
-website: https://github.com/nuxt-community/google-gtag
-learn_more: https://developers.google.com/analytics/legacy/universal-analytics
+website: https://github.com/nuxt-community/google-gtag-module
+learn_more: https://developers.google.com/analytics/legacy/universal-analytics?hl=ar
 category: Analytics
 type: community
 maintainers:

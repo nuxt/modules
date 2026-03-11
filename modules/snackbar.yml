@@ -5,7 +5,7 @@ npm: nuxt-snackbar
 icon: snackbar.png
 github: https://github.com/modbender/nuxt-snackbar
 website: https://github.com/modbender/nuxt-snackbar/tree/master
-learn_more: https://github.com/craigrileyuk/vue3-snackbar
+learn_more: https://github.com/evo-mark/vue3-snackbar
 category: UI
 type: 3rd-party
 maintainers:

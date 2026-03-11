@@ -4,10 +4,10 @@ repo: nuxt-content/nuxt-llms
 npm: nuxt-llms
 icon: llms.png
 github: https://github.com/nuxt-content/nuxt-llms
-website: https://github.com/nuxtlabs/nuxt-llms
+website: https://github.com/nuxt-content/nuxt-llms
 learn_more: ''
 category: AI
-type: 3rd-party
+type: community
 maintainers:
   - name: Farnabaz
     github: farnabaz

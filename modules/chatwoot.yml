@@ -6,7 +6,7 @@ repo: productdevbook/chatwoot
 npm: '@productdevbook/chatwoot'
 icon: chatwoot.png
 github: https://github.com/productdevbook/chatwoot
-website: https://github.com/productdevbookcom/chatwoot
+website: https://github.com/productdevbook/chatwoot
 learn_more: https://www.chatwoot.com
 category: Libraries
 type: 3rd-party
