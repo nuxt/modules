@@ -6,8 +6,8 @@ repo: inkline/inkline
 npm: inkline
 icon: inkline.svg
 github: https://github.com/inkline/inkline
-website: https://inkline.io
-learn_more: https://inkline.io/docs/installation/nuxt
+website: https://www.inkline.io/
+learn_more: https://www.inkline.io/docs/installation/nuxt
 category: UI
 type: 3rd-party
 maintainers:

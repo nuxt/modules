@@ -5,9 +5,9 @@ description: >-
 repo: shopware/frontends#main/packages/nuxt-module
 npm: '@shopware/nuxt-module'
 icon: shopware.svg
-github: https://github.com/shopware/frontends/tree/main/packages/nuxt-module
+github: https://github.com/shopware/frontends
 website: https://frontends.shopware.com/packages/nuxt-module.html
-learn_more: https://www.shopware.com
+learn_more: https://www.shopware.com/en/
 category: Ecommerce
 type: 3rd-party
 maintainers:

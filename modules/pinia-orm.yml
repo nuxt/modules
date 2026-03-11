@@ -5,7 +5,7 @@ description: >-
 repo: CodeDredd/pinia-orm#main/packages/nuxt
 npm: '@pinia-orm/nuxt'
 icon: pinia-orm.svg
-github: https://github.com/CodeDredd/pinia-orm/tree/master/packages/nuxt
+github: https://github.com/CodeDredd/pinia-orm
 website: https://pinia-orm.codedredd.de/
 learn_more: ''
 category: Extensions

@@ -1,9 +1,9 @@
 name: ununuracss
 description: A Real CSS Engine. Only Scoped.
-repo: novout/ununuracss#main/packages/nuxt
+repo: betterwrite/ununuracss#main/packages/nuxt
 npm: nuxt-ununura
 icon: ununuracss.png
-github: https://github.com/novout/ununuracss
+github: https://github.com/betterwrite/ununuracss
 website: https://github.com/novout/ununuracss
 learn_more: https://github.com/novout/ununuracss
 category: UI
