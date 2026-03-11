@@ -413,7 +413,7 @@ export async function checkGithubRepoRedirect(repo: string): Promise<string | nu
   const url = `https://github.com/${ownerRepo}`
 
   try {
-    const response = await fetch(url, {
+    const response = await ofetch(url, {
       method: 'HEAD',
       redirect: 'follow',
       headers: { 'user-agent': userAgent },
@@ -446,7 +446,7 @@ export async function checkWebsiteRedirect(url: string): Promise<string | null> 
   const fragment = hashIndex !== -1 ? url.slice(hashIndex) : ''
   const urlWithoutFragment = hashIndex !== -1 ? url.slice(0, hashIndex) : url
 
-  const response = await fetch(urlWithoutFragment, {
+  const response = await ofetch(urlWithoutFragment, {
     method: 'HEAD',
     redirect: 'follow',
     headers: { 'user-agent': userAgent },
