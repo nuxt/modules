@@ -5,7 +5,7 @@ npm: nuxt-charts
 icon: nuxt-charts.svg
 github: https://github.com/dennisadriaans/vue-chrts
 website: https://nuxtcharts.com/
-learn_more: https://nuxtcharts.com/docs
+learn_more: https://nuxtcharts.com/docs/getting-started/installation
 category: UI
 type: 3rd-party
 maintainers:
