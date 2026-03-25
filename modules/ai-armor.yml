@@ -13,4 +13,3 @@ maintainers:
     github: billymaulana
 compatibility:
   nuxt: '>=3.0.0'
-  requires: {}
