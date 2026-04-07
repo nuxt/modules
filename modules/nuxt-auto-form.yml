@@ -1,0 +1,17 @@
+name: nuxt-auto-form
+description: Auto-generate Nuxt UI forms from Zod 4 schemas
+repo: Norbiros/nuxt-auto-form
+npm: '@norbiros/nuxt-auto-form'
+icon: nuxt-auto-form.svg
+github: https://github.com/Norbiros/nuxt-auto-form
+website: https://nuxt-auto-form.norbiros.dev
+learn_more: https://www.npmjs.com/package/@norbiros/nuxt-auto-form
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Norbiros
+    github: Norbiros
+    avatar: https://avatars.githubusercontent.com/u/89837724?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

@@ -3,7 +3,7 @@ description: Validate Nuxt runtime config with Standard Schema at build time
 repo: onmax/nuxt-safe-runtime-config#main
 npm: nuxt-safe-runtime-config
 icon: nuxt-safe-runtime-config.svg
-github: https://github.com/onmax/nuxt-safe-runtime-config/tree/main
+github: https://github.com/onmax/nuxt-safe-runtime-config
 website: https://nuxt-safe-runtime-config.onmax.me
 learn_more: ''
 category: Devtools

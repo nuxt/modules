@@ -4,7 +4,7 @@ repo: mojocss/mojocss-nuxt-module
 npm: '@mojocss/nuxt'
 icon: mojocss.svg
 github: https://github.com/mojocss/mojocss-nuxt-module
-website: https://mojocss.com/docs/guide/nuxtjs
+website: https://github.com/mojocss/mojocss-nuxt-module
 learn_more: ''
 category: UI
 type: 3rd-party

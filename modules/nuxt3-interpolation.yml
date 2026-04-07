@@ -3,8 +3,8 @@ description: ''
 repo: daliborgogic/interpolation
 npm: nuxt3-interpolation
 icon: ''
-github: https://github.com/daliborgogic/interpolation/tree/master
-website: https://github.com/daliborgogic/interpolation/tree/master
+github: https://github.com/daliborgogic/interpolation
+website: https://github.com/daliborgogic/interpolation/tree/main
 learn_more: ''
 category: Devtools
 type: 3rd-party

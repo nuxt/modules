@@ -11,9 +11,15 @@ export const distFile = resolve(distDir, 'modules.json')
 
 export const userAgent = 'sync-script for https://nuxt.com/modules'
 
+/** Small delay between sequential fetches to avoid rate limiting */
+export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
+export const FETCH_DELAY = 100 // ms between requests
+
 export function fetchPKG(name: string) {
   return ofetch<Packument>('https://registry.npmjs.org/' + name, {
     responseType: 'json',
+    retry: 3,
+    retryDelay: 500,
     headers: {
       'user-agent': userAgent,
     },
@@ -38,6 +44,8 @@ export function parseNpmUrl(url: string): string | null {
 export function fetchRawGithub(path: string) {
   return ofetch('https://raw.githubusercontent.com/' + path, {
     responseType: 'json',
+    retry: 3,
+    retryDelay: 500,
     headers: {
       'user-agent': userAgent,
     },
@@ -56,6 +64,8 @@ export async function fetchModuleJson(npmPackage: string, version: string) {
   try {
     return await ofetch(`https://unpkg.com/${npmPackage}@${version}/dist/module.json`, {
       responseType: 'json',
+      retry: 3,
+      retryDelay: 500,
       headers: {
         'user-agent': userAgent,
       },
@@ -402,4 +412,87 @@ export function isNuxt4Compatible(range: string): boolean {
 export function isRealDocsUrl(url: string): boolean {
   if (!url) return false
   return !url.includes('github.com')
+}
+
+/**
+ * Check if a GitHub repo has been moved/renamed by following redirects.
+ * Returns the new `owner/repo` if redirected, or null if unchanged.
+ */
+export async function checkGithubRepoRedirect(repo: string): Promise<string | null> {
+  const [ownerRepo] = repo.split('#')
+  const url = `https://github.com/${ownerRepo}`
+
+  try {
+    const response = await ofetch.raw(url, {
+      method: 'HEAD',
+      redirect: 'follow',
+      retry: 3,
+      retryDelay: 500,
+      headers: { 'user-agent': userAgent },
+    })
+
+    const finalUrl = response.url
+    // Extract owner/repo from the final URL
+    const match = finalUrl.match(/^https?:\/\/github\.com\/([^/]+\/[^/]+)/)
+    if (match && match[1]) {
+      const newOwnerRepo = match[1]
+      if (newOwnerRepo.toLowerCase() !== ownerRepo!.toLowerCase()) {
+        return newOwnerRepo
+      }
+    }
+  }
+  catch {
+    // If we can't reach GitHub, don't update anything
+  }
+
+  return null
+}
+
+/**
+ * Check if a website URL is reachable and whether it redirects.
+ * Returns the final URL if redirected, or null if unchanged.
+ * Throws if the URL is unreachable or returns a non-OK status.
+ */
+export async function checkWebsiteRedirect(url: string): Promise<string | null> {
+  const hashIndex = url.indexOf('#')
+  const fragment = hashIndex !== -1 ? url.slice(hashIndex) : ''
+  const urlWithoutFragment = hashIndex !== -1 ? url.slice(0, hashIndex) : url
+
+  const response = await ofetch.raw(urlWithoutFragment, {
+    method: 'HEAD',
+    redirect: 'follow',
+    retry: 3,
+    retryDelay: 500,
+    headers: { 'user-agent': userAgent },
+  })
+
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`)
+  }
+
+  let finalUrl = response.url
+
+  // Strip common tracking params that may have been added during redirect
+  try {
+    const parsed = new URL(finalUrl)
+    for (const param of ['utm_source', 'utm_medium', 'utm_campaign', 'ref']) {
+      parsed.searchParams.delete(param)
+    }
+    finalUrl = parsed.toString()
+  }
+  catch {
+    // If URL parsing fails, just use as-is
+  }
+
+  // Normalize trailing slashes for comparison
+  const normalizedOriginal = urlWithoutFragment.replace(/\/+$/, '')
+  const normalizedFinal = finalUrl.replace(/\/+$/, '')
+
+  // Only update if the host or path actually changed
+  // (ignore trivial trailing slash differences)
+  if (normalizedFinal !== normalizedOriginal) {
+    return finalUrl + fragment
+  }
+
+  return null
 }

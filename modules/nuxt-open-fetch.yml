@@ -16,5 +16,5 @@ maintainers:
     github: enkot
     avatar: https://avatars.githubusercontent.com/u/10506522?v=4
 compatibility:
-  nuxt: '>=3.0.0 <5.0.0-alpha.0'
+  nuxt: '>=3.0.0'
   requires: {}

@@ -6,7 +6,7 @@ description: >-
 repo: louismazel/maz-ui#master/packages/nuxt
 npm: '@maz-ui/nuxt'
 icon: maz-ui.png
-github: https://github.com/LouisMazel/maz-ui/tree/master/packages/nuxt
+github: https://github.com/louismazel/maz-ui
 website: https://maz-ui.com/
 learn_more: https://maz-ui.com/guide/nuxt
 category: UI
