@@ -3,4 +3,17 @@ description: SSR-first Keycloak authentication for Nuxt with zero custom middlew
 repo: Nessiahs/nuxt-keycloak-oidc
 npm: nuxt-keycloak-oidc
 icon: simple-icons:keycloak
-category: security
+category: Security
+
+github: https://github.com/Nessiahs/nuxt-keycloak-oidc
+website: https://github.com/Nessiahs/nuxt-keycloak-oidc
+learn_more: https://github.com/Nessiahs/nuxt-keycloak-oidc#readme
+
+type: module
+
+maintainers:
+  - name: Nessiahs
+    github: Nessiahs
+
+compatibility:
+  nuxt: ">=3.0.0"
