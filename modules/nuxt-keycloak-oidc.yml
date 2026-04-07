@@ -1,0 +1,6 @@
+name: nuxt-keycloak-oidc
+description: SSR-first Keycloak authentication for Nuxt with zero custom middleware
+repo: Nessiahs/nuxt-keycloak-oidc
+npm: nuxt-keycloak-oidc
+icon: simple-icons:keycloak
+category: security
