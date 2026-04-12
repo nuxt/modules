@@ -1,10 +1,11 @@
 name: localtunnel
 description: exposes your localhost to the world for easy testing and sharing
-repo: nuxt-community/modules#master/packages/localtunnel
+repo: nuxt-community/legacy-modules#master/packages/localtunnel
 npm: '@nuxtjs/localtunnel'
 icon: localtunnel.png
-github: https://github.com/nuxt-community/modules/tree/master/packages/localtunnel
-website: https://github.com/nuxt-community/modules/tree/master/packages/localtunnel
+github: https://github.com/nuxt-community/legacy-modules
+website: >-
+  https://github.com/nuxt-community/legacy-modules/tree/master/packages/localtunnel
 learn_more: https://github.com/localtunnel/localtunnel
 category: Devtools
 type: community

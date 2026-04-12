@@ -5,7 +5,7 @@ description: >-
 repo: askdoppler/doppler-js#main/nuxt
 npm: '@askdoppler/nuxt'
 icon: askdoppler.png
-github: https://github.com/askdoppler/doppler-js/tree/main/nuxt
+github: https://github.com/askdoppler/doppler-js
 website: https://askdoppler.com
 learn_more: https://docs.askdoppler.com/integrations/nuxt
 category: SEO

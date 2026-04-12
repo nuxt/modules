@@ -3,8 +3,8 @@ description: Clerk SDK for Nuxt
 repo: clerk/javascript#main/packages/nuxt
 npm: '@clerk/nuxt'
 icon: clerk.svg
-github: https://github.com/clerk/javascript/tree/main/packages/nuxt
-website: https://clerk.com/docs/references/nuxt/overview
+github: https://github.com/clerk/javascript
+website: https://clerk.com/docs/reference/nuxt/overview
 learn_more: https://clerk.com
 category: Security
 type: 3rd-party

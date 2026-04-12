@@ -3,7 +3,7 @@ description: A Vue 3 UI components library
 repo: tdesignOteam/tdesign-nuxt
 npm: '@tdesign-vue-next/nuxt'
 icon: tdesign.svg
-github: https://github.com/Tencent/tdesign-vue-next
+github: https://github.com/tdesignOteam/tdesign-nuxt
 website: https://tdesign.tencent.com/vue-next/overview-en
 learn_more: https://github.com/tdesignoteam/tdesign-nuxt
 category: UI

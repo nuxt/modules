@@ -3,7 +3,7 @@ description: Simple MailChannels Email API integration for Nuxt
 repo: yizack/nuxt-mailchannels
 npm: nuxt-mailchannels
 icon: mailchannels.svg
-github: https://github.com/Yizack/nuxt-mailchannels
+github: https://github.com/yizack/nuxt-mailchannels
 website: https://github.com/Yizack/nuxt-mailchannels
 learn_more: https://www.mailchannels.com/email-api/
 category: Extensions

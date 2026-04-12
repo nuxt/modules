@@ -1,0 +1,16 @@
+name: vercel-analytics
+description: Privacy-friendly, real-time traffic insights for your Nuxt app
+repo: vercel/analytics#main/packages/web
+npm: '@vercel/analytics'
+icon: vercel.svg
+github: https://github.com/vercel/analytics
+website: https://vercel.com/docs/analytics
+learn_more: https://vercel.com/docs/analytics/quickstart?framework=nuxt
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Vercel
+    github: vercel
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

@@ -3,7 +3,7 @@ description: Kong Component library
 repo: kong/kongponents
 npm: '@kong/kongponents'
 icon: kong.svg
-github: https://github.com/Kong/kongponents/tree/main/nuxt
+github: https://github.com/kong/kongponents
 website: https://kongponents.konghq.com/
 learn_more: https://kongponents.konghq.com/guide/usage.html#nuxt-module
 category: UI
