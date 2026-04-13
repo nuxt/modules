@@ -1,0 +1,14 @@
+name: validex
+description: Type-safe validation rules built on Zod 4 with structured error codes, i18n, and auto-imported composables
+repo: chiptoma/validex
+npm: '@validex/nuxt'
+icon: ''
+github: https://github.com/chiptoma/validex
+website: https://github.com/chiptoma/validex/tree/main/packages/nuxt
+category: Extensions
+type: community
+maintainers:
+  - name: Ciprian Toma
+    github: chiptoma
+compatibility:
+  nuxt: '>=3.0.0'
