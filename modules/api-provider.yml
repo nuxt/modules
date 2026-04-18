@@ -1,0 +1,18 @@
+name: api-provider
+description: >-
+  Strongly-typed fetch client for Nuxt 3/4 with interceptors, retry/backoff, and
+  a framework-agnostic core.
+repo: alikhalilll/ali-nuxt-toolkit#master/packages/api-provider
+npm: '@alikhalilll/nuxt-api-provider'
+icon: ''
+github: https://github.com/alikhalilll/ali-nuxt-toolkit/tree/master/packages/api-provider
+website: https://alikhalilll.github.io/ali-nuxt-toolkit/api-provider
+learn_more: ''
+category: Request
+type: 3rd-party
+maintainers:
+  - name: alikhalilll
+    github: alikhalilll
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
