@@ -4,7 +4,7 @@ description: >-
   caching, pluggable algorithms, and optional device-fingerprint binding.
 repo: alikhalilll/ali-nuxt-toolkit#master/packages/crypto
 npm: '@alikhalilll/nuxt-crypto'
-icon: ''
+icon: crypto.svg
 github: https://github.com/alikhalilll/ali-nuxt-toolkit/tree/master/packages/crypto
 website: https://alikhalilll.github.io/ali-nuxt-toolkit/crypto
 learn_more: ''
