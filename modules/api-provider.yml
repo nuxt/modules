@@ -4,7 +4,7 @@ description: >-
   a framework-agnostic core.
 repo: alikhalilll/ali-nuxt-toolkit#master/packages/api-provider
 npm: '@alikhalilll/nuxt-api-provider'
-icon: ''
+icon: api-provider.svg
 github: https://github.com/alikhalilll/ali-nuxt-toolkit/tree/master/packages/api-provider
 website: https://alikhalilll.github.io/ali-nuxt-toolkit/api-provider
 learn_more: ''
