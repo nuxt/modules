@@ -1,0 +1,18 @@
+name: crypto
+description: >-
+  Symmetric Web Crypto service for Nuxt 3/4. AES-256-GCM + PBKDF2 with key
+  caching, pluggable algorithms, and optional device-fingerprint binding.
+repo: alikhalilll/ali-nuxt-toolkit#master/packages/crypto
+npm: '@alikhalilll/nuxt-crypto'
+icon: ''
+github: https://github.com/alikhalilll/ali-nuxt-toolkit/tree/master/packages/crypto
+website: https://alikhalilll.github.io/ali-nuxt-toolkit/crypto
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: alikhalilll
+    github: alikhalilll
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
