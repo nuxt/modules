@@ -1,0 +1,16 @@
+name: lucide-motion-vue
+description: Nuxt module for animated Lucide icons — 535 Vue 3 components with hover/tap/view triggers, built on Motion for Vue.
+repo: respeak-io/lucide-motion-vue
+npm: '@respeak/lucide-motion-vue'
+icon: ''
+github: https://github.com/respeak-io/lucide-motion-vue
+website: https://respeak-io.github.io/lucide-motion-vue/
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Tim Rietz
+    github: tr-evo
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
