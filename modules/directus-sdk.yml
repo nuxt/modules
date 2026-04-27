@@ -13,7 +13,7 @@ type: 3rd-party
 maintainers:
   - name: Matthew Rollinson
     github: matt-rolley
-  - name: Kevin Heiner
+  - name: K Heiner
     github: kheiner
 compatibility:
   nuxt: '>=4.0.0'
