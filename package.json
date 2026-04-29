@@ -40,7 +40,7 @@
     "picocolors": "^1.1.1",
     "semver": "^7.7.4",
     "std-env": "^4.0.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   },
   "packageManager": "pnpm@10.32.1"
 }
