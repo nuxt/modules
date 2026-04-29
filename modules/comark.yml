@@ -1,12 +1,12 @@
 name: comark
 description: Components in Markdown (Comark) parser with streaming support.
-repo: https://github.com/comarkdown/comark
-npm: "@comark/nuxt"
+repo: comarkdown/comark#main/packages/comark-nuxt
+npm: '@comark/nuxt'
 icon: comark.svg
-github: https://github.com/comarkdown/comark/tree/main/packages/comark-nuxt
+github: https://github.com/comarkdown/comark
 website: https://comark.dev/
 learn_more: https://comark.dev/rendering/nuxt
-category: Database
+category: Libraries
 type: 3rd-party
 maintainers:
   - name: Farnabaz
