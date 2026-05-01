@@ -6,7 +6,7 @@ repo: rolleyio/nuxt-directus-sdk
 npm: nuxt-directus-sdk
 icon: directus-sdk.svg
 github: https://github.com/rolleyio/nuxt-directus-sdk
-website: https://nuxt-directus-sdk.rolley.io
+website: https://nuxt-directus-sdk.com
 learn_more: https://directus.io/
 category: CMS
 type: 3rd-party
