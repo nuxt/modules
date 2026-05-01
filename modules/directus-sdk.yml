@@ -6,15 +6,15 @@ repo: rolleyio/nuxt-directus-sdk
 npm: nuxt-directus-sdk
 icon: directus-sdk.svg
 github: https://github.com/rolleyio/nuxt-directus-sdk
-website: https://nuxt-directus-sdk.com
+website: https://www.nuxt-directus-sdk.com/
 learn_more: https://directus.io/
 category: CMS
 type: 3rd-party
 maintainers:
   - name: Matthew Rollinson
     github: matt-rolley
-  - name: K Heiner
+  - name: kheiner
     github: kheiner
 compatibility:
-  nuxt: '>=4.0.0'
+  nuxt: ^3.0.0 || ^4.0.0
   requires: {}
