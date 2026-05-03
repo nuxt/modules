@@ -4,7 +4,7 @@ repo: vercel/workflow#main/packages/workflow
 npm: workflow
 icon: workflow.svg
 github: https://github.com/vercel/workflow
-website: https://useworkflow.dev
+website: https://workflow-sdk.dev/
 learn_more: ''
 category: Devtools
 type: 3rd-party
