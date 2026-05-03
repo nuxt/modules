@@ -7,7 +7,7 @@ npm: nuxt-stripe-module
 icon: stripe.png
 github: https://github.com/WilliamDASILVA/nuxt-stripe-module
 website: https://github.com/WilliamDASILVA/nuxt-stripe-module
-learn_more: https://stripe.com/
+learn_more: https://stripe.com/fr
 category: Payment
 type: 3rd-party
 maintainers:

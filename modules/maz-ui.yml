@@ -12,7 +12,7 @@ learn_more: https://maz-ui.com/guide/nuxt
 category: UI
 type: 3rd-party
 maintainers:
-  - name: Mazel
+  - name: Mazel (Loïc Mazuel)
     github: LouisMazel
     twitter: Mazeel
 compatibility:
