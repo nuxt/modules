@@ -5,13 +5,13 @@ description: >-
 repo: alikhalilll/ali-nuxt-toolkit#master/packages/auto-middleware
 npm: '@alikhalilll/nuxt-auto-middleware'
 icon: auto-middleware.svg
-github: https://github.com/alikhalilll/ali-nuxt-toolkit/tree/master/packages/auto-middleware
+github: https://github.com/alikhalilll/ali-nuxt-toolkit
 website: https://alikhalilll.github.io/ali-nuxt-toolkit/auto-middleware
 learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: alikhalilll
+  - name: Ali Khalill
     github: alikhalilll
 compatibility:
   nuxt: '>=3.0.0'
