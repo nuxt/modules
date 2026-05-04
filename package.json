@@ -42,5 +42,5 @@
     "std-env": "^4.1.0",
     "typescript": "^6.0.3"
   },
-  "packageManager": "pnpm@10.33.2"
+  "packageManager": "pnpm@10.33.3"
 }
