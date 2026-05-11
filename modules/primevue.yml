@@ -3,7 +3,7 @@ description: Next Generation Vue UI Component Library
 repo: primefaces/primevue#master/packages/nuxt-module
 npm: '@primevue/nuxt-module'
 icon: primevue.svg
-github: https://github.com/primefaces/primevue/tree/master/packages/nuxt-module
+github: https://github.com/primefaces/primevue
 website: https://primevue.org/
 learn_more: https://primevue.org/nuxt/
 category: UI

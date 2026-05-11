@@ -5,7 +5,7 @@ npm: nuxt-twa
 icon: ''
 github: https://github.com/tuarrep/nuxt-twa
 website: https://nuxt-twa.tuarrep.dev
-learn_more: https://developer.chrome.com/docs/android/trusted-web-activity/overview/
+learn_more: https://developer.chrome.com/docs/android/trusted-web-activity?hl=tr
 category: Performance
 type: 3rd-party
 maintainers:

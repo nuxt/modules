@@ -1,10 +1,10 @@
 name: laravel-echo
 description: Laravel Echo for Nuxt
-repo: nuxt-community/laravel-echo
+repo: nuxt-community/laravel-echo-module
 npm: '@nuxtjs/laravel-echo'
 icon: laravel-echo.png
-github: https://github.com/nuxt-community/laravel-echo
-website: https://github.com/nuxt-community/laravel-echo
+github: https://github.com/nuxt-community/laravel-echo-module
+website: https://github.com/nuxt-community/laravel-echo-module
 learn_more: https://laravel.com/docs/8.x/broadcasting#installing-laravel-echo
 category: CMS
 type: community

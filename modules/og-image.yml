@@ -4,8 +4,8 @@ repo: nuxt-modules/og-image
 npm: nuxt-og-image
 icon: og-image.svg
 github: https://github.com/nuxt-modules/og-image
-website: https://nuxtseo.com/og-image
-learn_more: https://nuxtseo.com/og-image
+website: https://nuxtseo.com/docs/og-image/getting-started/installation
+learn_more: https://nuxtseo.com/docs/og-image/getting-started/installation
 category: SEO
 type: community
 maintainers:

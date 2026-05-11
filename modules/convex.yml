@@ -3,7 +3,7 @@ description: >-
   Nuxt module for Convex - reactive backend with real-time sync, file storage,
   and auto-imports
 repo: onmax/nuxt-convex
-npm: nuxt-convex
+npm: convex-monorepo
 icon: convex.svg
 github: https://github.com/onmax/nuxt-convex
 website: https://nuxt-convex.onmax.me
