@@ -7,7 +7,7 @@ npm: evlog
 icon: evlog.svg
 github: https://github.com/HugoRCD/evlog
 website: https://www.evlog.dev/
-learn_more: https://www.evlog.dev/getting-started/introduction
+learn_more: https://www.evlog.dev/start/introduction
 category: Monitoring
 type: 3rd-party
 maintainers:

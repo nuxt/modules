@@ -27,7 +27,7 @@
     "@nuxt/eslint-config": "^1.15.2",
     "@octokit/rest": "^22.0.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^24.12.2",
+    "@types/node": "^24.12.3",
     "@types/semver": "^7.7.1",
     "defu": "^6.1.7",
     "dotenv": "^17.4.2",
@@ -38,9 +38,9 @@
     "ofetch": "^1.5.1",
     "p-limit": "^7.3.0",
     "picocolors": "^1.1.1",
-    "semver": "^7.7.4",
+    "semver": "^7.8.0",
     "std-env": "^4.1.0",
     "typescript": "^6.0.3"
   },
-  "packageManager": "pnpm@10.33.3"
+  "packageManager": "pnpm@10.33.4"
 }
