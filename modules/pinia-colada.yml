@@ -3,7 +3,7 @@ description: The smart data fetching layer for Pinia
 repo: posva/pinia-colada#main/nuxt
 npm: '@pinia/colada-nuxt'
 icon: pinia-colada.png
-github: https://github.com/posva/pinia-colada/tree/main/nuxt
+github: https://github.com/posva/pinia-colada
 website: https://pinia-colada.esm.dev
 learn_more: ''
 category: Extensions
@@ -14,5 +14,5 @@ maintainers:
     twitter: posva
     bluesky: esm.dev
 compatibility:
-  nuxt: ^3.13.0 || ^4.0.0
+  nuxt: ^3.17.7 || ^4.0.0
   requires: {}

@@ -5,7 +5,7 @@ npm: '@hebilicious/vue-query-nuxt'
 icon: vue-query.svg
 github: https://github.com/Hebilicious/vue-query-nuxt
 website: https://github.com/Hebilicious/vue-query-nuxt#readme
-learn_more: https://tanstack.com/query/latest/docs/vue/quick-start
+learn_more: https://tanstack.com/query/latest/docs/framework/vue/quick-start
 category: Request
 type: 3rd-party
 maintainers:
@@ -13,5 +13,5 @@ maintainers:
     github: Hebilicious
     twitter: its_hebilicious
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: ^3
   requires: {}

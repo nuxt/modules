@@ -4,8 +4,8 @@ repo: harlan-zw/nuxt-link-checker
 npm: nuxt-link-checker
 icon: link-checker.svg
 github: https://github.com/harlan-zw/nuxt-link-checker
-website: https://nuxtseo.com/link-checker
-learn_more: https://nuxtseo.com/link-checker
+website: https://nuxtseo.com/docs/link-checker/getting-started/installation
+learn_more: https://nuxtseo.com/docs/link-checker/getting-started/installation
 category: SEO
 type: 3rd-party
 maintainers:
@@ -14,6 +14,6 @@ maintainers:
     twitter: harlan_zw
     avatar: https://avatars.githubusercontent.com/harlan-zw?v=4
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.9.0'
   requires: {}
   devtools: ^0.0.0

@@ -12,5 +12,5 @@ maintainers:
   - name: Corey Psoinos
     github: cpsoinos
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.0.0-rc.0'
   requires: {}

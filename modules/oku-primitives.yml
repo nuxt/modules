@@ -18,6 +18,7 @@ maintainers:
   - name: Wind
     github: productdevbook
     twitter: productdevbook
+    bluesky: productdevbook.com
 compatibility:
   nuxt: '>=3.14'
   requires: {}

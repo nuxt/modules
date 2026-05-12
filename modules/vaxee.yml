@@ -3,7 +3,7 @@ description: The State Manager for Vue 3
 repo: letstri/vaxee#main/packages/nuxt
 npm: '@vaxee/nuxt'
 icon: vaxee.svg
-github: https://github.com/letstri/vaxee/tree/main/packages/nuxt
+github: https://github.com/letstri/vaxee
 website: https://vaxee.letstri.dev/
 learn_more: ''
 category: Extensions
@@ -13,5 +13,5 @@ maintainers:
     github: letstri
     twitter: letstri
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.5.0'
   requires: {}

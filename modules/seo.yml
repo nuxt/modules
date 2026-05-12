@@ -5,7 +5,7 @@ npm: '@nuxtjs/seo'
 icon: nuxt.svg
 github: https://github.com/harlan-zw/nuxt-seo
 website: https://nuxtseo.com/
-learn_more: https://nuxtseo.com/nuxt-seo/getting-started/installation
+learn_more: https://nuxtseo.com/docs/nuxt-seo/getting-started/installation
 category: SEO
 type: 3rd-party
 maintainers:
@@ -13,5 +13,6 @@ maintainers:
     github: harlan-zw
     twitter: harlan_zw
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.7.0'
   requires: {}
+mcp: https://nuxtseo.com/mcp

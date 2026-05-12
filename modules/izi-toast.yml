@@ -15,5 +15,5 @@ maintainers:
     github: stephenjason89
     twitter: stephenjason89
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

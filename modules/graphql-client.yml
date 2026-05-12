@@ -15,5 +15,5 @@ maintainers:
     github: diizzayy
     twitter: Diizzayy
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.7.0'
   requires: {}

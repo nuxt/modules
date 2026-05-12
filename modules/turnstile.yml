@@ -5,7 +5,7 @@ npm: '@nuxtjs/turnstile'
 icon: cloudflare.svg
 github: https://github.com/nuxt-modules/turnstile
 website: https://github.com/nuxt-modules/turnstile
-learn_more: https://www.cloudflare.com/products/turnstile/
+learn_more: https://www.cloudflare.com/application-services/products/turnstile/
 category: Security
 type: community
 maintainers:
@@ -14,6 +14,6 @@ maintainers:
     twitter: danielcroe
     bluesky: danielroe.dev
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: '>=3.0.0'
   requires:
     bridge: true

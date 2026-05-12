@@ -1,4 +1,4 @@
-import type { categories } from './categories'
+import type { categories } from './categories.ts'
 
 // TODO: Move to @nuxt/kit
 // TODO: Support version matrix
@@ -42,6 +42,7 @@ export interface ModuleInfo {
   contributors?: GithubContributor[]
   compatibility: ModuleCompatibility
   aliases?: string[]
+  archived?: boolean
 
   // Fetched in realtime API for modules.nuxt.org
   downloads?: number
@@ -50,3 +51,32 @@ export interface ModuleInfo {
   publishedAt?: number
   createdAt?: number
 }
+
+export interface SyncRegression {
+  type: 'docs-url' | 'compatibility'
+  moduleName: string
+  repo: string
+  currentValue: string
+  moduleValue: string
+  description: string
+}
+
+export interface SyncResult {
+  module: ModuleInfo
+  regressions: SyncRegression[]
+}
+
+export interface SyncError {
+  moduleName: string
+  error: Error
+}
+
+export interface SyncAllResult {
+  total: number
+  synced: string[]
+  errors: SyncError[]
+  regressions: SyncRegression[]
+  archivedModules: string[]
+}
+
+export type SyncProgressCallback = (current: number, total: number, moduleName: string) => void

@@ -1,0 +1,17 @@
+name: vorm
+description: Intuitive form engine for Vue 3 — dynamic, schema-driven, and fully validated
+repo: Flo0806/vorm#main/packages/vorm-nuxt
+npm: vorm-nuxt
+icon: vorm.png
+github: https://github.com/Flo0806/vorm
+website: https://vorm.fh-softdev.de
+learn_more: https://vorm.fh-softdev.de/nuxt/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Florian Heuberger
+    github: Flo0806
+compatibility:
+  nuxt: '>=3.0.0'
+  requires:
+    vorm-vue: '>=1.0.0'
