@@ -1,7 +1,7 @@
 name: nuxt-gql-pulse
 description: >-
-  A Nuxt 3 module for making GraphQL requests with ease, leveraging the power of
-  Nuxt's composables and VueUse.
+  A Nuxt module for making GraphQL requests with ease, leveraging the power of
+  Nuxt's composables.
 repo: Abbasmoe/nuxt-gql-pulse
 npm: nuxt-gql-pulse
 icon: nuxt-gql-pulse.png
