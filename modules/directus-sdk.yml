@@ -1,0 +1,20 @@
+name: directus-sdk
+description: >-
+  A Nuxt module for Directus with built-in authentication, realtime, file
+  management, type generation, and visual editor support.
+repo: rolleyio/nuxt-directus-sdk
+npm: nuxt-directus-sdk
+icon: directus-sdk.svg
+github: https://github.com/rolleyio/nuxt-directus-sdk
+website: https://www.nuxt-directus-sdk.com/
+learn_more: https://directus.io/
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Matthew Rollinson
+    github: matt-rolley
+  - name: kheiner
+    github: kheiner
+compatibility:
+  nuxt: ^3.0.0 || ^4.0.0
+  requires: {}
