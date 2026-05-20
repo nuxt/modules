@@ -1,0 +1,19 @@
+name: docx-editor
+description: >-
+  Docx editor library with canonical OOXML, tracked changes, and real-time
+  collaboration. Wraps @eigenpal/docx-editor-vue and auto-imports an SSR-safe
+  <DocxEditor /> component.
+repo: eigenpal/docx-editor#main/packages/nuxt
+npm: '@eigenpal/nuxt-docx-editor'
+icon: docx-editor.png
+github: https://github.com/eigenpal/docx-editor
+website: https://docx-editor.dev/
+learn_more: https://docx-editor.dev/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Jedr Blaszyk
+    github: jedrazb
+compatibility:
+  nuxt: ^3.14.0 || ^4.0.0
+  requires: {}
