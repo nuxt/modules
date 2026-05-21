@@ -1,11 +1,11 @@
 name: tdesign-vue-next
 description: A Vue 3 UI components library
-repo: tdesignOteam/tdesign-nuxt
+repo: Tencent/tdesign-vue-next#main/packages/tdesign-vue-next-nuxt
 npm: '@tdesign-vue-next/nuxt'
 icon: tdesign.svg
-github: https://github.com/tdesignOteam/tdesign-nuxt
+github: https://github.com/Tencent/tdesign-vue-next
 website: https://tdesign.tencent.com/vue-next/overview-en
-learn_more: https://github.com/tdesignoteam/tdesign-nuxt
+learn_more: https://github.com/Tencent/tdesign-vue-next
 category: UI
 type: 3rd-party
 maintainers:
