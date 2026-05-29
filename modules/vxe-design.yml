@@ -1,11 +1,13 @@
 name: vxe-design
-description: A PC-based visual designer based on Vxe UI, used for building zero-code and low-code platforms.
+description: >-
+  A PC-based visual designer based on Vxe UI, used for building zero-code and
+  low-code platforms.
 repo: x-extends/vxe-design-nuxt
-npm: 'vxe-design-nuxt'
+npm: vxe-design-nuxt
 icon: vxe.png
-github: https://github.com/x-extends/vxe-design-nuxt.git
+github: https://github.com/x-extends/vxe-design-nuxt
 website: https://design.vxeui.com
-learn_more: https://github.com/x-extends/vxe-design-nuxt.git
+learn_more: https://github.com/x-extends/vxe-design-nuxt
 category: UI
 type: 3rd-party
 maintainers:

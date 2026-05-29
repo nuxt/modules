@@ -1,11 +1,11 @@
 name: vxe-gantt
 description: A vue2,vue3 based gantt component.
 repo: x-extends/vxe-gantt-nuxt
-npm: 'vxe-gantt-nuxt'
+npm: vxe-gantt-nuxt
 icon: vxe.png
-github: https://github.com/x-extends/vxe-gantt-nuxt.git
+github: https://github.com/x-extends/vxe-gantt-nuxt
 website: https://gantt.vxeui.com
-learn_more: https://github.com/x-extends/vxe-gantt-nuxt.git
+learn_more: https://github.com/x-extends/vxe-gantt-nuxt
 category: UI
 type: 3rd-party
 maintainers:

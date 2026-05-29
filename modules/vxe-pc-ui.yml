@@ -1,11 +1,11 @@
 name: vxe-pc-ui
 description: A vue2,vue3 based PC component library.
 repo: x-extends/vxe-pc-ui-nuxt
-npm: 'vxe-pc-ui-nuxt'
+npm: vxe-pc-ui-nuxt
 icon: vxe.png
-github: https://github.com/x-extends/vxe-pc-ui-nuxt.git
+github: https://github.com/x-extends/vxe-pc-ui-nuxt
 website: https://vxeui.com
-learn_more: https://github.com/x-extends/vxe-pc-ui-nuxt.git
+learn_more: https://github.com/x-extends/vxe-pc-ui-nuxt
 category: UI
 type: 3rd-party
 maintainers:
