@@ -1,0 +1,16 @@
+name: vxe-table
+description: A PC-end table component based on Vxe UI, supporting copy-paste, data pivot table, and high-performance virtual list table solution.
+repo: x-extends/vxe-table-nuxt
+npm: 'vxe-table-nuxt'
+icon: vxe.png
+github: https://github.com/x-extends/vxe-table-nuxt.git
+website: https://vxetable.cn
+learn_more: https://github.com/x-extends/vxe-table-nuxt.git
+category: UI
+type: 3rd-party
+maintainers:
+  - name: xuliangzhan
+    github: xuliangzhan
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
