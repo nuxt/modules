@@ -1,0 +1,16 @@
+name: vxe-gantt
+description: A vue2,vue3 based gantt component.
+repo: x-extends/vxe-gantt-nuxt
+npm: 'vxe-gantt-nuxt'
+icon: vxe.png
+github: https://github.com/x-extends/vxe-gantt-nuxt.git
+website: https://gantt.vxeui.com
+learn_more: https://github.com/x-extends/vxe-gantt-nuxt.git
+category: UI
+type: 3rd-party
+maintainers:
+  - name: xuliangzhan
+    github: xuliangzhan
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
