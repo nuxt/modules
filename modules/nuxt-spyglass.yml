@@ -1,5 +1,7 @@
 name: nuxt-spyglass
-description: Capture browser and server logs in one correlated place — and let your AI agent read them over MCP
+description: >-
+  Capture browser and server logs in one correlated place — and let your AI
+  agent read them over MCP
 repo: Flo0806/nuxt-spyglass
 npm: nuxt-spyglass
 icon: nuxt-spyglass.svg
