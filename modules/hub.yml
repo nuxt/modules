@@ -1,11 +1,13 @@
 name: hub
-description: Add database, KV, blob storage, and cache to your Nuxt application. NuxtHub works on Vercel, Cloudflare, Netlify, and more.
+description: >-
+  Add database, KV, blob storage, and cache to your Nuxt application. NuxtHub
+  works on Vercel, Cloudflare, Netlify, and more.
 repo: nuxt-hub/core
-npm: "@nuxthub/core"
+npm: '@nuxthub/core'
 icon: nuxthub.svg
 github: https://github.com/nuxt-hub/core
 website: https://hub.nuxt.com
-learn_more: ""
+learn_more: ''
 category: Database
 type: 3rd-party
 maintainers:
@@ -25,6 +27,6 @@ maintainers:
   - name: NuxtLabs
     github: nuxtlabs
 compatibility:
-  nuxt: ">=3.0.0"
+  nuxt: '>=3.0.0'
   requires: {}
 mcp: https://hub.nuxt.com/mcp
