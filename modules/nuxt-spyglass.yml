@@ -1,0 +1,16 @@
+name: nuxt-spyglass
+description: Capture browser and server logs in one correlated place — and let your AI agent read them over MCP
+repo: Flo0806/nuxt-spyglass
+npm: nuxt-spyglass
+icon: nuxt-spyglass.svg
+github: https://github.com/Flo0806/nuxt-spyglass
+website: https://spyglass.fh-softdev.de
+learn_more: https://spyglass.fh-softdev.de
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Florian Heuberger
+    github: Flo0806
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
