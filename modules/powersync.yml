@@ -7,8 +7,8 @@ repo: powersync-ja/powersync-js#main/packages/nuxt
 npm: '@powersync/nuxt'
 icon: powersync.svg
 github: https://github.com/powersync-ja/powersync-js
-website: https://docs.powersync.com
-learn_more: https://www.powersync.com
+website: https://docs.powersync.com/intro/powersync-overview
+learn_more: https://powersync.com/
 category: Database
 type: 3rd-party
 maintainers:
