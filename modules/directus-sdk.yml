@@ -7,7 +7,7 @@ npm: nuxt-directus-sdk
 icon: directus-sdk.svg
 github: https://github.com/rolleyio/nuxt-directus-sdk
 website: https://www.nuxt-directus-sdk.com/
-learn_more: https://directus.io/
+learn_more: https://directus.com/
 category: CMS
 type: 3rd-party
 maintainers:
