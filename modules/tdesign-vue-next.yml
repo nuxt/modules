@@ -1,5 +1,5 @@
 name: tdesign-vue-next
-description: A Vue 3 UI components library
+description: A Vue3.x UI components lib for TDesign.
 repo: Tencent/tdesign-vue-next#main/packages/tdesign-vue-next-nuxt
 npm: '@tdesign-vue-next/nuxt'
 icon: tdesign.svg
