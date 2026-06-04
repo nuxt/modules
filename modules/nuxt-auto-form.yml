@@ -12,6 +12,7 @@ maintainers:
   - name: Norbiros
     github: Norbiros
     avatar: https://avatars.githubusercontent.com/u/89837724?v=4
+    twitter: norbiros_dev
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
