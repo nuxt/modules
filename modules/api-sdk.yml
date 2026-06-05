@@ -2,7 +2,7 @@ name: api-sdk
 description: Turn nuxt server routes into an SDK
 repo: jamiecurnow/nuxt-api-sdk
 npm: nuxt-api-sdk
-icon: ''
+icon: api-sdk.svg
 github: https://github.com/jamiecurnow/nuxt-api-sdk
 website: https://github.com/jamiecurnow/nuxt-api-sdk
 learn_more: ''
