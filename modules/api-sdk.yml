@@ -12,5 +12,5 @@ maintainers:
   - name: Jamie Curnow
     github: JamieCurnow
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=4.0.0'
   requires: {}
