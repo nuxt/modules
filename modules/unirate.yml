@@ -1,0 +1,19 @@
+name: unirate
+description: >-
+  Connect your Nuxt app to the UniRate currency-exchange API. Server proxy that
+  keeps your API key server-side, useUniRate() and useCurrency() composables,
+  useUniRateClient() server util, and <Currency> / <Rate> components.
+repo: UniRate-API/nuxt-unirate
+npm: '@unirate/nuxt'
+github: https://github.com/UniRate-API/nuxt-unirate
+website: https://github.com/UniRate-API/nuxt-unirate#readme
+learn_more: https://unirateapi.com
+category: Request
+type: 3rd-party
+maintainers:
+  - name: rob-browncc
+    github: rob-browncc
+    avatar: https://avatars.githubusercontent.com/u/199503049?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
