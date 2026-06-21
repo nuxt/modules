@@ -1,9 +1,9 @@
 name: notform
 description: Vue Forms Without the Friction
-repo: notform/notform#main/packages/nuxt
+repo: favorodera/notform#main/packages/nuxt
 npm: notform-nuxt
 icon: notform.svg
-github: https://github.com/notform/notform
+github: https://github.com/favorodera/notform
 website: https://notformdocs.vercel.app
 learn_more: https://notformdocs.vercel.app/get-started/nuxt-module
 category: Libraries
