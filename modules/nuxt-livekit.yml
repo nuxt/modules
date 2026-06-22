@@ -3,8 +3,8 @@ description: "LiveKit integration for Nuxt: realtime video, audio, and data with
 repo: nuxtaid/nuxt-livekit
 npm: nuxt-livekit
 icon: nuxt-livekit.svg
-github: "https://github.com/nuxtaid/nuxt-livekit"
-website: "https://github.com/nuxtaid/nuxt-livekit#readme"
+github: 'https://github.com/nuxtaid/nuxt-livekit'
+website: 'https://github.com/nuxtaid/nuxt-livekit#readme'
 learn_more: 'https://docs.livekit.io/intro/overview/'
 category: Libraries
 type: 3rd-party
