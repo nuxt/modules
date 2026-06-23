@@ -1,5 +1,7 @@
 name: nuxt-volcano
-description: A Nuxt module for Volcano Agent SDK - build AI agents with LLM reasoning and MCP tools
+description: >-
+  A Nuxt module for Volcano Agent SDK - build AI agents with LLM reasoning and
+  MCP tools
 repo: arashsheyda/nuxt-volcano
 npm: nuxt-volcano
 icon: nuxt-volcano.png
