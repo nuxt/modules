@@ -1,9 +1,9 @@
 name: polar
-description: 'Polar.sh integration for Nuxt'
+description: Polar.sh integration for Nuxt
 repo: polarsource/polar-adapters
-npm: '@polar-sh/nuxt'
+npm: '@polar-sh/adapters'
 icon: polar.svg
-github: https://github.com/polarsource/polar-adapters/tree/main/packages/polar-nuxt
+github: https://github.com/polarsource/polar-adapters
 website: https://polar.sh/docs/integrate/sdk/adapters/nuxt
 learn_more: https://polar.sh/docs/introduction
 category: Payment
