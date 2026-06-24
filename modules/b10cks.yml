@@ -1,0 +1,17 @@
+name: b10cks CMS
+description: b10cks CMS Nuxt module
+repo: b10cks/sdk#main/packages/nuxt
+npm: '@b10cks/nuxt'
+icon: b10cks.png
+github: https://github.com/b10cks/sdk
+website: https://github.com/b10cks/sdk/tree/main/packages/nuxt
+learn_more: ''
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: b10cks
+    github: b10cks
+compatibility:
+  nuxt: ^4.0.0
+  requires: {}
+  devtools: ^0.0.0
