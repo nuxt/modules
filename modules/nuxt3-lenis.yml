@@ -1,0 +1,17 @@
+name: nuxt3-lenis
+description: ✨ Nuxt 3 wrapper for Lenis
+repo: benoitdelorme/nuxt3-lenis
+npm: nuxt3-lenis
+icon: nuxt3-lenis.svg
+github: https://github.com/benoitdelorme/nuxt3-lenis
+website: https://github.com/benoitdelorme/nuxt3-lenis
+learn_more: https://github.com/benoitdelorme/nuxt3-lenis
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: benoitdelorme
+    github: benoitdelorme
+    twitter: alafrayme
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
