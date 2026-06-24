@@ -9,11 +9,10 @@ learn_more: https://notformdocs.vercel.app/get-started/nuxt-module
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: Favour Emeka
+  - name: Favour  Emeka
     github: favorodera
     twitter: favorodera
     avatar: https://avatars.githubusercontent.com/favorodera?v=4
 compatibility:
   nuxt: '>=4.0.0'
   requires: {}
-
