@@ -1,0 +1,16 @@
+name: nuxt-matomo
+description: Nuxt Module for Matomo Analytics
+repo: kgierke/nuxt-matomo
+npm: '@kgierke/nuxt-matomo'
+icon: ''
+github: https://github.com/kgierke/nuxt-matomo
+website: https://github.com/kgierke/nuxt-matomo
+learn_more: ''
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: kgierke
+    github: kgierke
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
