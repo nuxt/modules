@@ -1,0 +1,17 @@
+name: nuxt-creem
+description: Integrate Nuxt and Nitro With Creem's API using nuxt-creem.
+repo: justserdar/nuxt-creem
+npm: nuxt-creem
+icon: nuxt-creem.svg
+github: https://github.com/justserdar/nuxt-creem
+website: https://github.com/justserdar/nuxt-creem
+learn_more: https://nuxt-creem.justserdar.dev/
+category: Request
+type: 3rd-party
+maintainers:
+  - name: h+
+    github: JustSerdar
+    twitter: darwebdb
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
