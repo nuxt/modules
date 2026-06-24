@@ -1,0 +1,17 @@
+name: tsparticles-nuxt
+description: Easily add particle, confetti, ribbons and/or fireworks animations to your Nuxt projects using tsParticles
+repo: tsparticles/tsparticles
+npm: @tsparticles/nuxt4
+icon: ''
+github: https://github.com/tsparticles/tsparticles
+website: https://particles.js.org
+learn_more: https://particles.js.org/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Matteo Bruni
+    github: matteobruni
+    avatar: https://avatars.githubusercontent.com/matteobruni?v=4
+compatibility:
+  nuxt: ^4.0.0
+  requires: {}
