@@ -1,0 +1,17 @@
+name: polar
+description: Polar.sh integration for Nuxt
+repo: polarsource/polar-adapters
+npm: '@polar-sh/adapters'
+icon: polar.svg
+github: https://github.com/polarsource/polar-adapters
+website: https://polar.sh/docs/integrate/sdk/adapters/nuxt
+learn_more: https://polar.sh/docs/introduction
+category: Payment
+type: 3rd-party
+maintainers:
+  - name: Emil Widlund
+    github: emilwidlund
+    twitter: emilwidlund
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
