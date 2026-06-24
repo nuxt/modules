@@ -45,8 +45,8 @@ importers:
         specifier: ^7.0.0
         version: 7.0.0
       js-yaml:
-        specifier: ^4.1.1
-        version: 4.1.1
+        specifier: ^5.1.0
+        version: 5.1.0
       ofetch:
         specifier: ^1.5.1
         version: 1.5.1
@@ -876,8 +876,8 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  js-yaml@4.1.1:
-    resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
+  js-yaml@5.1.0:
+    resolution: {integrity: sha512-s8VA5jkR8f22S3NAXmhKPFqGUduqZGlsufabVOgN14iTdw/RXcym7bKkbwjxLK9Yw2lEvvmJjFp119+KPeo8Kg==}
     hasBin: true
 
   jsdoc-type-pratt-parser@7.1.1:
@@ -2065,7 +2065,7 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  js-yaml@4.1.1:
+  js-yaml@5.1.0:
     dependencies:
       argparse: 2.0.1
 
