@@ -1,0 +1,19 @@
+name: nuxt-openapi-hyperfetch
+description: >-
+  Generate useFetch and useAsyncData composables on top of the OpenAPI client
+  with Nuxt-friendly wrappers and auto-import support.
+repo: dmartindiaz/nuxt-openapi-hyperfetch
+npm: nuxt-openapi-hyperfetch
+icon: ''
+github: https://github.com/dmartindiaz/nuxt-openapi-hyperfetch
+website: https://nuxt-openapi-hyperfetch.netlify.app/
+learn_more: ''
+category: Request
+type: 3rd-party
+maintainers:
+  - name: DANIEL MARTIN DIAZ
+    github: dmartindiaz
+    avatar: https://avatars.githubusercontent.com/dmartindiaz?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
