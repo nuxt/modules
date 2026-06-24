@@ -1,15 +1,17 @@
 name: nuxt-pdfmake
-description: Easily generate PDFs in Nuxt using pdfmake 
+description: Easily generate PDFs in Nuxt using pdfmake
 repo: BayBreezy/nuxt-pdfmake
-npm: nuxt-pdfmake
+npm: nuxt-pdfmake-monorepo
 icon: nuxt-pdf.png
 github: https://github.com/BayBreezy/nuxt-pdfmake
 website: https://nuxt-pdfmake.behonbaker.com
+learn_more: ''
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: BayBreezy
+  - name: Behon Baker
     github: BayBreezy
+    twitter: iAm_BayBreezy
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
