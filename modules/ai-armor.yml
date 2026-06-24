@@ -1,0 +1,15 @@
+name: ai-armor
+description: Production AI toolkit with rate limiting, cost tracking, budget controls, safety guardrails, and observability for Nuxt
+repo: billymaulana/ai-armor#main/packages/nuxt
+npm: '@ai-armor/nuxt'
+icon: ai-armor.svg
+github: https://github.com/billymaulana/ai-armor
+website: https://billymaulana.github.io/ai-armor/
+learn_more: https://billymaulana.github.io/ai-armor/integrations/nuxt
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Billy Maulana
+    github: billymaulana
+compatibility:
+  nuxt: '>=3.0.0'
