@@ -1,0 +1,16 @@
+name: pages-cms
+description: 🦾 Use PagesCMS with confidence using Nuxt with type-safe composables.
+repo: StevenJPx2/nuxt-pagescms
+npm: nuxt-pagescms
+icon: pages-cms.svg
+github: https://github.com/StevenJPx2/nuxt-pagescms
+website: https://github.com/StevenJPx2/nuxt-pagescms
+learn_more: https://pagescms.org
+category: CMS
+type: community
+maintainers:
+  - name: StevenJPx2
+    github: StevenJPx2
+compatibility:
+  nuxt: ">=3.0.0 || <4.0.0"
+  requires: {}
