@@ -1,0 +1,16 @@
+name: nuxt-rpc
+description: `nuxt-rpc` allows you to call your backend-functions from the frontend, as if they were local. No need for an extra language or DSL to learn and maintain. Based off of [nuxt-remote-fn](https://github.com/wobsoriano/nuxt-remote-fn) & [nuxt-serverfn](https://github.com/antfu/nuxt-server-fn)
+repo: gsxdsm/nuxt-rpc
+npm: nuxt-rpc
+icon: ''
+github: https://github.com/gsxdsm/nuxt-rpc
+website: https://www.npmjs.com/package/nuxt-rpc
+learn_more: ''
+category: Request
+type: community
+maintainers:
+  - name: gsxdsm
+    github: gsxdsm
+compatibility:
+  nuxt: >=3.0.0
+  requires: {}
