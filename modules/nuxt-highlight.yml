@@ -1,5 +1,7 @@
 name: nuxt-highlight
-description: Nuxt module for Highlight.io with session replay, error monitoring, and logging
+description: >-
+  Nuxt module for Highlight.io with session replay, error monitoring, and
+  logging
 repo: nuxtaid/nuxt-highlight
 npm: nuxt-highlight
 icon: nuxt-highlight.svg
