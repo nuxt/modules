@@ -1,0 +1,18 @@
+name: nuxt-highlight
+description: Nuxt module for Highlight.io with session replay, error monitoring, and logging
+repo: nuxtaid/nuxt-highlight
+npm: nuxt-highlight
+icon: nuxt-highlight.svg
+github: https://github.com/nuxtaid/nuxt-highlight
+website: https://github.com/nuxtaid/nuxt-highlight#readme
+learn_more: https://highlight.io/docs/general/welcome
+category: Monitoring
+type: 3rd-party
+maintainers:
+  - name: Arash Ari Sheyda
+    github: arashsheyda
+    twitter: arash_sheyda
+    bluesky: arashsheyda.me
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
