@@ -1,0 +1,17 @@
+name: jasy
+description: Author PDFs as Vue components in Nuxt - client or server, zero-config. ZUGFeRD/XRechnung ready.
+repo: jasy-pdf/jasy#main/packages/nuxt
+npm: '@jasy/nuxt'
+icon: jasy.svg
+github: https://github.com/jasy-pdf/jasy
+website: https://jasy.dev
+learn_more: https://jasy.dev/docs/nuxt
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Florian Heuberger
+    github: Flo0806
+    bluesky: flo-heuberger.bsky.social
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
