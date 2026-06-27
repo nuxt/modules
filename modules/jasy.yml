@@ -1,5 +1,7 @@
 name: jasy
-description: Author PDFs as Vue components in Nuxt - client or server, zero-config. ZUGFeRD/XRechnung ready.
+description: >-
+  Author PDFs as Vue components in Nuxt - client or server, zero-config.
+  ZUGFeRD/XRechnung ready.
 repo: jasy-pdf/jasy#main/packages/nuxt
 npm: '@jasy/nuxt'
 icon: jasy.svg
