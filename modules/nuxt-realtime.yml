@@ -1,0 +1,17 @@
+name: nuxt-realtime
+description: >-
+  Real-time state synchronization for Nuxt applications. Share reactive state across clients, broadcast events, and manage connections.
+repo: daanvangeloven/nuxt-realtime
+npm: nuxt-realtime
+icon: nuxt-realtime.svg
+github: https://github.com/daanvangeloven/nuxt-realtime
+website: https://nuxtrealtime.com/
+learn_more: https://nuxtrealtime.com/getting-started
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Daan van Geloven
+    github: daanvangeloven
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
