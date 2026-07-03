@@ -1,0 +1,17 @@
+name: nuxt-skills
+description: >-
+  Scan your `skills/` directory and expose RFC-compliant AI agent skill indexes
+  and files through `.well-known` routes for IDEs, dev tools, and Nuxt builds.
+repo: Barbapapazes/unplugin-skills#main/packages/nuxt-skills
+npm: nuxt-skills
+github: https://github.com/Barbapapazes/unplugin-skills
+website: https://github.com/Barbapapazes/unplugin-skills/tree/main/packages/nuxt-skills#readme
+learn_more: https://github.com/Barbapapazes/unplugin-skills/blob/main/packages/nuxt-skills/README.md
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Estéban Soubiran
+    github: Barbapapazes
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
