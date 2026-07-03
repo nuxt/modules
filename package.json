@@ -31,10 +31,10 @@
     "@types/semver": "^7.7.1",
     "defu": "^6.1.7",
     "dotenv": "^17.4.2",
-    "eslint": "^10.5.0",
+    "eslint": "^10.6.0",
     "globby": "^16.2.0",
     "hasha": "^7.0.0",
-    "js-yaml": "^5.1.0",
+    "js-yaml": "^5.2.1",
     "ofetch": "^1.5.1",
     "p-limit": "^7.3.0",
     "picocolors": "^1.1.1",
@@ -42,5 +42,5 @@
     "std-env": "^4.1.0",
     "typescript": "^6.0.3"
   },
-  "packageManager": "pnpm@11.8.0"
+  "packageManager": "pnpm@11.9.0"
 }
