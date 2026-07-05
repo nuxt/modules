@@ -1,0 +1,14 @@
+name: nuxt-email
+description: Transactional email for Nuxt 4 with multi-provider support and Vue templates
+repo: razmatinyan/nuxt-email
+npm: '@razmatinyan/nuxt-email'
+github: https://github.com/razmatinyan/nuxt-email
+website: https://github.com/razmatinyan/nuxt-email#readme
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Razmik Matinyan
+    github: razmatinyan
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
