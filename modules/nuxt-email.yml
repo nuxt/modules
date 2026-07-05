@@ -4,6 +4,7 @@ repo: razmatinyan/nuxt-email
 npm: '@razmatinyan/nuxt-email'
 github: https://github.com/razmatinyan/nuxt-email
 website: https://github.com/razmatinyan/nuxt-email#readme
+learn_more: https://stackblitz.com/github/razmatinyan/nuxt-email-demo
 category: Extensions
 type: 3rd-party
 maintainers:
