@@ -12,7 +12,7 @@ maintainers:
   - name: Hugo
     github: HugoRCD
     twitter: hugorcd
-    bluesky: hrcd.fr
+    bluesky: hugorc.com
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
