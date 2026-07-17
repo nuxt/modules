@@ -22,25 +22,25 @@
     "test": "pnpm lint && pnpm sync"
   },
   "devDependencies": {
-    "@clack/prompts": "1.6.0",
+    "@clack/prompts": "1.7.0",
     "@npm/types": "^2.1.0",
     "@nuxt/eslint-config": "^1.16.0",
     "@octokit/rest": "^22.0.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^24.13.2",
+    "@types/node": "^24.13.3",
     "@types/semver": "^7.7.1",
     "defu": "^6.1.7",
     "dotenv": "^17.4.2",
-    "eslint": "^10.6.0",
-    "globby": "^16.2.0",
+    "eslint": "^10.7.0",
+    "globby": "^16.2.1",
     "hasha": "^7.0.0",
     "js-yaml": "^5.2.1",
     "ofetch": "^1.5.1",
     "p-limit": "^7.3.0",
     "picocolors": "^1.1.1",
     "semver": "^7.8.5",
-    "std-env": "^4.1.0",
+    "std-env": "^4.2.0",
     "typescript": "^6.0.3"
   },
-  "packageManager": "pnpm@11.9.0"
+  "packageManager": "pnpm@11.11.0"
 }
