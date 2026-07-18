@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 96 96" id="Zod--Streamline-Svg-Logos" height="24" width="24">
+  <desc>
+    Zod Streamline Icon: https://streamlinehq.com
+  </desc>
+  <g clip-path="url(#a)">
+    <path fill="#18253f" d="M22.9392 15.373h50.8337l14.8959 15.5514L46.522 78.1307 7.3252 30.9244l15.614-15.5514Z"></path>
+    <path fill="#274d82" d="M56.7388 66.9804H36.8147L27.8159 55.964l25.5007-.0009.0009-1.5627h14.5766l-11.1553 12.58Z"></path>
+    <path fill="#274d82" d="M84.3915 26.4902 29.4157 58.2305l-7.1716-8.9717 42.5607-24.5732-.7817-1.3545 11.3362-6.545 9.0322 9.7041Z"></path>
+    <path fill="#274d82" d="m54.9364 15.3885-41.2801 23.833-6.41997-8.0144L34.8748 15.25l20.0616.1385Z"></path>
+    <g filter="url(#b)">
+      <path fill="#000000" d="M75.7601 10.7021H21.0052L1 30.6044l45.4185 54.693 3.6233-4.0655L95 30.7912 75.7601 10.7021Zm-2.0003 4.6859 14.8609 15.5175-42.0764 47.2082L7.34119 30.9055 22.9388 15.388h50.821Z"></path>
+    </g>
+    <path fill="#3068b7" d="M75.7601 10.7021H21.0052L1 30.6044l45.4185 54.693 3.6233-4.0655L95 30.7912 75.7601 10.7021Zm-2.0003 4.6859 14.8609 15.5175-42.0764 47.2082L7.34119 30.9055 22.9388 15.388h50.821Z"></path>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <path fill="#ffffff" d="M0 0h96v96H0z"></path>
+    </clipPath>
+    <filter id="b" width="102" height="82.596" x="-2" y="7.702" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+      <feOffset dx="1" dy="1"></feOffset>
+      <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.36 0"></feColorMatrix>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_1011_25474"></feBlend>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow_1011_25474" result="shape"></feBlend>
+    </filter>
+  </defs>
+</svg>
