@@ -14,7 +14,7 @@ maintainers:
   - name: Hugo
     github: HugoRCD
     twitter: hugorcd
-    bluesky: hugorc.com
+    bluesky: hugorcd.com
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
