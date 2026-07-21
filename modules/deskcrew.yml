@@ -1,8 +1,6 @@
 name: deskcrew
 description: >-
-  Add AI live chat, a help center and ticketing to any Nuxt site with one
-  module. Answers visitor questions from your own help articles and turns
-  anything it cannot answer into a support ticket.
+  description: Nuxt module for the DeskCrew support widget - live chat, AI answers from your own help articles, and ticketing.
 repo: webmilmind1/nuxt-deskcrew
 npm: '@deskcrew/nuxt'
 icon: deskcrew.png
