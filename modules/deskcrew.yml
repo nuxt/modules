@@ -1,5 +1,7 @@
 name: deskcrew
-description: Nuxt module for the DeskCrew support widget - live chat, AI answers from your own help articles, and ticketing.
+description: >-
+  Nuxt module for the DeskCrew support widget - live chat, AI answers from your
+  own help articles, and ticketing.
 repo: webmilmind1/nuxt-deskcrew
 npm: '@deskcrew/nuxt'
 icon: deskcrew.png
