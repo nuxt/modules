@@ -12,7 +12,7 @@ learn_more: https://deskcrew.io
 category: AI
 type: 3rd-party
 maintainers:
-  - name: webmilmind1
+  - name: Millions Mind
     github: webmilmind1
 compatibility:
   nuxt: ^3.0.0
