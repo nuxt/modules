@@ -15,6 +15,6 @@ maintainers:
     github: CodeDredd
     twitter: _Gregor_Becker
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: '>=3.14.0'
   requires:
     bridge: optional

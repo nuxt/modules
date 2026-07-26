@@ -1,5 +1,7 @@
 name: hub
-description: Build full-stack Nuxt applications on the edge, with zero configuration.
+description: >-
+  Add database, KV, blob storage, and cache to your Nuxt application. NuxtHub
+  works on Vercel, Cloudflare, Netlify, and more.
 repo: nuxt-hub/core
 npm: '@nuxthub/core'
 icon: nuxthub.svg

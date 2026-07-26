@@ -7,14 +7,14 @@ npm: evlog
 icon: evlog.svg
 github: https://github.com/HugoRCD/evlog
 website: https://www.evlog.dev/
-learn_more: https://www.evlog.dev/getting-started/introduction
+learn_more: https://www.evlog.dev/start/introduction
 category: Monitoring
 type: 3rd-party
 maintainers:
   - name: Hugo
     github: HugoRCD
     twitter: hugorcd
-    bluesky: hrcd.fr
+    bluesky: hugorcd.com
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
