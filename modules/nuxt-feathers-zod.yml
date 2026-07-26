@@ -6,8 +6,8 @@ repo: vevedh/nuxt-feathers-zod
 npm: nuxt-feathers-zod
 icon: ''
 github: https://github.com/vevedh/nuxt-feathers-zod
-website: https://www.npmjs.com/package/nuxt-feathers-zod
-learn_more: https://vevedh.github.io/nuxt-feathers-zod/
+website: https://vevedh.github.io/nuxt-feathers-zod/
+learn_more: https://www.npmjs.com/package/nuxt-feathers-zod
 category: Database
 type: 3rd-party
 maintainers:
