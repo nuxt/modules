@@ -1,6 +1,7 @@
 name: nuxt-realtime
 description: >-
-  Real-time state synchronization for Nuxt applications. Share reactive state across clients, broadcast events, and manage connections.
+  Real-time state synchronization for Nuxt applications. Share reactive state
+  across clients, broadcast events, and manage connections.
 repo: daanvangeloven/nuxt-realtime
 npm: nuxt-realtime
 icon: nuxt-realtime.svg
