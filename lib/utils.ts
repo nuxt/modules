@@ -409,9 +409,20 @@ export function isNuxt4Compatible(range: string): boolean {
   }
 }
 
+export function isGitHubUrl(url: string): boolean {
+  if (!url) return false
+  try {
+    const { hostname } = new URL(url)
+    return hostname === 'github.com' || hostname.endsWith('.github.com')
+  }
+  catch {
+    return false
+  }
+}
+
 export function isRealDocsUrl(url: string): boolean {
   if (!url) return false
-  return !url.includes('github.com')
+  return !isGitHubUrl(url)
 }
 
 /**
