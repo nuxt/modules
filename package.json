@@ -28,7 +28,7 @@
     "@octokit/rest": "^22.0.1",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^24.13.3",
-    "@types/semver": "^7.7.1",
+    "@types/semver": "^7.8.0",
     "defu": "^6.1.7",
     "dotenv": "^17.4.2",
     "eslint": "^10.8.0",
