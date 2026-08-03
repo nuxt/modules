@@ -4,8 +4,8 @@ repo: bcms/nuxt-module
 npm: '@thebcms/nuxt'
 icon: bcms.png
 github: https://github.com/bcms/nuxt-module
-website: https://thebcms.com
-learn_more: https://thebcms.com/docs/integrations/nuxt-js
+website: https://www.thebcms.com/
+learn_more: https://www.thebcms.com/docs/integrations/nuxt-js/
 category: CMS
 type: 3rd-party
 maintainers:
