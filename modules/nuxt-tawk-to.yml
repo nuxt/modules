@@ -1,6 +1,6 @@
 name: nuxt-tawk-to
 description: Easily integrate Tawk.to live chat into your Nuxt app.
-repo: atlaxt/nuxt-tawk-to
+repo: atlaxt/nuxt-tawk-to#master/nuxt-tawk-to
 npm: nuxt-tawk-to
 icon: nuxt-tawk-to.png
 github: https://github.com/atlaxt/nuxt-tawk-to
