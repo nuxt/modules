@@ -1,0 +1,17 @@
+name: nuxt-tawk-to
+description: Easily integrate Tawk.to live chat into your Nuxt app.
+repo: atlaxt/nuxt-tawk-to#master/nuxt-tawk-to
+npm: nuxt-tawk-to
+icon: nuxt-tawk-to.png
+github: https://github.com/atlaxt/nuxt-tawk-to
+website: https://nuxt-tawk-to.atlaxt.me/
+learn_more: ''
+category: Ecommerce
+type: 3rd-party
+maintainers:
+  - name: Atlas Yiğit Aydın
+    github: atlaxt
+    avatar: https://avatars.githubusercontent.com/u/137510980?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
