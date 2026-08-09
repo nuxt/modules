@@ -1,0 +1,15 @@
+name: nuxt-content-tags
+description: Zero-config WordPress-like tagging module for Nuxt Content
+repo: poliha/nuxt-content-tags
+npm: nuxt-content-tags
+github: https://github.com/poliha/nuxt-content-tags
+website: https://github.com/poliha/nuxt-content-tags
+learn_more: https://github.com/poliha/nuxt-content-tags
+category: CMS
+type: community
+maintainers:
+  - name: Peter Oliha
+    github: poliha
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
