@@ -5,13 +5,13 @@ description: >-
 repo: vexip-ui/nuxt
 npm: '@vexip-ui/nuxt'
 icon: vexip-ui.svg
-github: https://github.com/vexip-ui/vexip-ui
+github: https://github.com/vexip-ui/nuxt
 website: https://www.vexipui.com/
 learn_more: https://github.com/vexip-ui/nuxt
 category: UI
 type: 3rd-party
 maintainers:
-  - name: 未觉雨声
+  - name: Rocco
     github: qmhc
     twitter: qmhc95
 compatibility:

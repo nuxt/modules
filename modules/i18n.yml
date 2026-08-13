@@ -13,10 +13,14 @@ type: community
 maintainers:
   - name: Rafał Chłodnicki
     github: rchl
-  - name: Kazuya Kawaguchi
+  - name: kazuya kawaguchi
     github: kazupon
+    twitter: kazupon
+    bluesky: kazupon.dev
   - name: Bobbie Goede
     github: BobbieGoede
+    twitter: bobbiegoede
+    bluesky: goede.dev
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: '>=3.0.0-rc.11'
   requires: {}

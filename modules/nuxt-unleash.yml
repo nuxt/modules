@@ -9,7 +9,7 @@ learn_more: https://github.com/Unleash/unleash
 category: Deployment
 type: 3rd-party
 maintainers:
-  - name: Juanjo Conejerock
+  - name: Juanjo Conejero
     github: conejerock
 compatibility:
   nuxt: ^2.0.0

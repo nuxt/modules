@@ -14,6 +14,7 @@ maintainers:
   - name: Pooya Parsa
     github: pi0
     twitter: _pi0_
+    bluesky: pi0.io
 compatibility:
   nuxt: ^2.0.0
   requires: {}

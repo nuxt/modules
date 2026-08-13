@@ -11,11 +11,12 @@ type: community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
+    twitter: gobbo_ricardo
   - name: Harlan Wilton
     github: harlan-zw
     twitter: harlan_zw
     avatar: https://avatars.githubusercontent.com/harlan-zw?v=4
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: '>=3.6.1'
   requires:
     bridge: optional

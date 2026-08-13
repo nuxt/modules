@@ -1,11 +1,11 @@
 name: google-gtag
 description: Google GTag for Nuxt
-repo: nuxt-community/google-gtag
+repo: nuxt-community/google-gtag-module
 npm: '@nuxtjs/google-gtag'
 icon: gtm.png
-github: https://github.com/nuxt-community/google-gtag
-website: https://github.com/nuxt-community/google-gtag
-learn_more: https://developers.google.com/analytics/devguides/collection/gtagjs/
+github: https://github.com/nuxt-community/google-gtag-module
+website: https://github.com/nuxt-community/google-gtag-module
+learn_more: https://developers.google.com/analytics/legacy/universal-analytics?hl=ar
 category: Analytics
 type: community
 maintainers:
@@ -13,6 +13,7 @@ maintainers:
     github: dohomi
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
+    twitter: gobbo_ricardo
 compatibility:
   nuxt: ^2.0.0
   requires: {}

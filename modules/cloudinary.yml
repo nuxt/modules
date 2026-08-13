@@ -12,6 +12,7 @@ maintainers:
   - name: Maya Shavin
     github: mayashavin
     twitter: MayaShavin
+    bluesky: mayashavin.com
 compatibility:
   nuxt: ^2.0.0
   requires: {}

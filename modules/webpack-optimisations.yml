@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Harlan Wilton
     github: harlan-zw
+    twitter: harlan_zw
 compatibility:
   nuxt: ^2.0.0
   requires:

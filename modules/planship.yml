@@ -1,0 +1,18 @@
+name: planship
+description: >-
+  Entitlements, metering, plan packaging, and subscription management for Nuxt
+  apps.
+repo: planship/planship-nuxt
+npm: '@planship/nuxt'
+icon: planship.svg
+github: https://github.com/planship/planship-nuxt
+website: https://planship.io
+learn_more: https://docs.planship.io
+category: Payment
+type: 3rd-party
+maintainers:
+  - name: Pawel Wojnarowicz
+    github: pwojnaro
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

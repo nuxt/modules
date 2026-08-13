@@ -9,7 +9,7 @@ learn_more: https://realfavicongenerator.net/
 category: SEO
 type: 3rd-party
 maintainers:
-  - name: pimlie
+  - name: Pim
     github: pimlie
 compatibility:
   nuxt: ^2.0.0

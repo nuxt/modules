@@ -9,9 +9,10 @@ learn_more: https://soubiran.dev/posts/nuxt-going-full-stack-how-to-handle-autho
 category: Security
 type: 3rd-party
 maintainers:
-  - name: Estéban Soubiran
+  - name: Estéban
     github: barbapapazes
     twitter: soubiran_
+    bluesky: soubiran.dev
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

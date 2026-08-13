@@ -1,10 +1,10 @@
 name: seo-meta
 description: Simple generate seo metadata
-repo: ihavecoke/nuxtjs-seo-meta#main/packages/core
+repo: ihavecoke/nuxt-seo-meta#main/packages/core
 npm: nuxt-seo-meta
 icon: ''
-github: https://github.com/ihavecoke/nuxtjs-seo-meta
-website: https://github.com/ihavecoke/nuxtjs-seo-meta
+github: https://github.com/ihavecoke/nuxt-seo-meta
+website: https://github.com/ihavecoke/nuxt-seo-meta
 learn_more: ''
 category: SEO
 type: 3rd-party
@@ -12,6 +12,7 @@ maintainers:
   - name: ihavecoke
     github: ihavecoke
     avatar: https://avatars0.githubusercontent.com/u/10757551?v=4
+    twitter: ihavecoke
 compatibility:
   nuxt: ^2.0.0
   requires: {}

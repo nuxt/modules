@@ -12,6 +12,7 @@ maintainers:
   - name: Charles Paul
     github: dev-charles15531
     avatar: https://avatars.githubusercontent.com/dev-charles15531
+    twitter: Charles__Paul
 compatibility:
   nuxt: '>=3.9.0'
   requires: {}

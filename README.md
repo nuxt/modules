@@ -1,4 +1,4 @@
-[![Explore Nuxt Modules to build Vue applications](https://user-images.githubusercontent.com/904724/210616249-25aec46e-ab06-4b4d-9154-10b02546d558.jpg)](https://nuxt.com/modules)
+[![Explore Nuxt Modules to build Vue applications](https://github.com/user-attachments/assets/139f18eb-7bb1-4e37-8ef6-a94a60d6b0b0)](https://nuxt.com/modules)
 
 # Nuxt Modules
 
@@ -67,7 +67,7 @@ Field Name      | Auto sync | Description
 `description`   | Yes       | Short description
 `repo`          | No        | GitHub repository. Format is `org/name` or `org/name#main/path`
 `npm`           | Yes       | NPM package name
-`icon`          | No        | Icon of module from [./website/public/icons](./website/public/icons) directory
+`icon`          | No        | Icon of module from [./icons](./icons) directory
 `github`        | No        | GitHub URL
 `website`       | No        | Website URL
 `learn_more`    | No        | Link to learn more (website or relevant integration website)
@@ -75,6 +75,7 @@ Field Name      | Auto sync | Description
 `type`          | No        | `community` (for [nuxt-community](https://github.com/nuxt-community/)), `official` (for https://github.com/) or `3rd-party`
 `maintainers`   | Yes       | List of maintainers each item has `name`, `github` and `avatar`
 `compatibility` | No        | Module compatibility status. `nuxt` field specifies semver of supported nuxt version. `requires.bridge: true\|optional` can be used to specify Nuxt 2 bridge compatibility.
+`mcp`           | No        | MCP Server URL
 
 
 ## Maintenance
@@ -95,10 +96,10 @@ pnpm build
 
 [MIT](./LICENSE) - Made by Nuxt Team
 
-[npm-version-src]: https://img.shields.io/npm/v/@nuxt/modules/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/@nuxt/modules
+[npm-version-src]: https://npmx.dev/api/registry/badge/version/@nuxt/modules
+[npm-version-href]: https://npmx.dev/package/@nuxt/modules
 
-[nuxt-src]: https://img.shields.io/badge/Nuxt%20Modules-18181B?logo=nuxt.js
+[nuxt-src]: https://img.shields.io/badge/Nuxt%20Modules-18181B?logo=nuxt
 [nuxt-href]: https://nuxt.com/modules
 
 [volta-src]: https://user-images.githubusercontent.com/904724/209143798-32345f6c-3cf8-4e06-9659-f4ace4a6acde.svg

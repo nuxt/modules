@@ -9,8 +9,9 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: hidekatsu-izuno
+  - name: Hidekatsu Izuno
     github: hidekatsu-izuno
+    twitter: hidekatsu_izuno
 compatibility:
   nuxt: ^2.0.0
   requires: {}

@@ -9,7 +9,7 @@ learn_more: ''
 category: UI
 type: 3rd-party
 maintainers:
-  - name: JohnCampionJr
+  - name: John Campion Jr
     github: JohnCampionJr
 compatibility:
   nuxt: '>=3.0.0'

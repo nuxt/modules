@@ -12,6 +12,7 @@ maintainers:
   - name: Alex Duval
     github: xlanex6
     avatar: https://avatars.githubusercontent.com/u/13418668?v=4
+    twitter: xlanex6
 compatibility:
   nuxt: '>=3.0.0'
   requires:

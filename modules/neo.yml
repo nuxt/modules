@@ -11,7 +11,7 @@ learn_more: ''
 category: Request
 type: 3rd-party
 maintainers:
-  - name: ezypeeze
+  - name: Pedro Miguel Da Silva Pereira
     github: ezypeeze
 compatibility:
   nuxt: ^2.0.0

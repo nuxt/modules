@@ -5,11 +5,11 @@ npm: nuxt-helmet
 icon: ''
 github: https://github.com/victor-perez/nuxt-helmet
 website: https://github.com/victor-perez/nuxt-helmet
-learn_more: https://helmetjs.github.io/
+learn_more: https://helmet.js.org/
 category: Security
 type: 3rd-party
 maintainers:
-  - name: victor-perez
+  - name: Victor
     github: victor-perez
 compatibility:
   nuxt: ^2.0.0

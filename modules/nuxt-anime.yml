@@ -1,0 +1,17 @@
+name: nuxt-anime
+description: Nuxt module for Anime.js
+repo: Enternikot/NuxtAnime
+npm: nuxt-anime
+icon: nuxt-anime.png
+github: https://github.com/Enternikot/NuxtAnime
+website: https://nuxtanime.vercel.app/
+learn_more: https://animejs.com/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Sebastian Gebhardt
+    github: Enternikot
+    avatar: https://avatars.githubusercontent.com/u/47455848?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

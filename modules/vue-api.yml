@@ -1,0 +1,20 @@
+name: vue-api
+description: >-
+  A flexible and provider-agnostic API handling library for Vue 3 and Nuxt 3.
+  Supports multiple data providers like axios, ofetch and more. It includes a
+  robust model mapping feature.
+repo: gaetansenn/vue-api#main/packages/nuxt
+npm: '@vue-api/nuxt'
+icon: ''
+github: https://github.com/gaetansenn/vue-api
+website: https://vue-api.dewib.com/
+learn_more: https://vue-api.dewib.com/guide/getting-started/installation.html
+category: Request
+type: 3rd-party
+maintainers:
+  - name: Gaetan SENN
+    github: gaetansenn
+    avatar: https://avatars.githubusercontent.com/u/2774075?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

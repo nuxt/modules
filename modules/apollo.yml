@@ -11,7 +11,7 @@ type: community
 maintainers:
   - name: Conrawl Rogers
     github: diizzayy
-    twitter: diizzayy
+    twitter: Diizzayy
     avatar: https://avatars.githubusercontent.com/diizzayy?v=4
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0

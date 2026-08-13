@@ -11,7 +11,7 @@ learn_more: https://github.com/vuejs/vuex-router-sync
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: paulgv
+  - name: Paul Gascou-Vaillancourt
     github: paulgv
 compatibility:
   nuxt: ^2.0.0

@@ -5,12 +5,13 @@ npm: '@nuxtjs/google-fonts'
 icon: google-fonts.png
 github: https://github.com/nuxt-modules/google-fonts
 website: https://google-fonts.nuxtjs.org
-learn_more: https://developers.google.com/fonts
+learn_more: https://developers.google.com/fonts?hl=tr
 category: Fonts
 type: community
 maintainers:
   - name: Ricardo Gobbo de Souza
     github: ricardogobbosouza
+    twitter: gobbo_ricardo
 compatibility:
   nuxt: ^2.0.0 || >=3.0.0
   requires:

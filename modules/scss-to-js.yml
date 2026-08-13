@@ -9,7 +9,7 @@ learn_more: ''
 category: CSS
 type: 3rd-party
 maintainers:
-  - name: sugoidesune
+  - name: Timar
     github: sugoidesune
 compatibility:
   nuxt: ^2.0.0

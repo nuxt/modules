@@ -5,12 +5,14 @@ npm: '@nuxtjs/hanko'
 icon: hanko.svg
 github: https://github.com/nuxt-modules/hanko
 website: https://github.com/nuxt-modules/hanko
-learn_more: https://hanko.io/
+learn_more: https://www.hanko.io/
 category: Security
 type: community
 maintainers:
-  - name: danielroe
+  - name: Daniel Roe
     github: danielroe
+    twitter: danielcroe
+    bluesky: danielroe.dev
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

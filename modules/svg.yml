@@ -9,7 +9,7 @@ learn_more: ''
 category: Extensions
 type: community
 maintainers:
-  - name: Sam Holmes
+  - name: brooke
     github: sam3d
 compatibility:
   nuxt: ^2.0.0

@@ -11,7 +11,7 @@ learn_more: https://developer.matomo.org/api-reference/tracking-javascript
 category: Analytics
 type: 3rd-party
 maintainers:
-  - name: pimlie
+  - name: Pim
     github: pimlie
 compatibility:
   nuxt: ^2.0.0

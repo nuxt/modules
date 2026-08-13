@@ -5,13 +5,13 @@ description: >-
 repo: hanzydev/nuxt-marquee
 npm: nuxt-marquee
 icon: marquee.png
-github: https://github.com/hanzydev/nuxt-marquee/
+github: https://github.com/hanzydev/nuxt-marquee
 website: https://hanzydev.github.io/nuxt-marquee/
 learn_more: ''
 category: UI
 type: 3rd-party
 maintainers:
-  - name: Hànzy
+  - name: Emirhan
     github: hanzydev
     avatar: https://avatars.githubusercontent.com/u/77491112?v=4
 compatibility:

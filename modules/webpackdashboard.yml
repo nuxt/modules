@@ -11,7 +11,7 @@ learn_more: https://github.com/FormidableLabs/webpack-dashboard
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: paulgv
+  - name: Paul Gascou-Vaillancourt
     github: paulgv
 compatibility:
   nuxt: ^2.0.0

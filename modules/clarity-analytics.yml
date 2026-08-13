@@ -9,9 +9,10 @@ learn_more: https://clarity.microsoft.com/
 category: Analytics
 type: 3rd-party
 maintainers:
-  - name: Barbapapazes
+  - name: Estéban
     github: Barbapapazes
     twitter: soubiran_
+    bluesky: soubiran.dev
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
