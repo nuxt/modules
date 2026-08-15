@@ -1,9 +1,9 @@
 name: nuxt-mongoose
 description: A Nuxt module for simplifying the use of Mongoose in your project.
-repo: arashsheyda/nuxt-mongoose
+repo: nuxtaid/nuxt-mongoose
 npm: nuxt-mongoose
 icon: nuxt-mongoose.svg
-github: https://github.com/arashsheyda/nuxt-mongoose
+github: https://github.com/nuxtaid/nuxt-mongoose
 website: https://nuxt-mongoose.nuxt.space
 learn_more: ''
 category: Database

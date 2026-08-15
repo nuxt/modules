@@ -3,6 +3,9 @@ name: autofix.ci  # needed to securely identify the workflow
 on:
   pull_request:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.sha }}
+
 permissions:
   contents: read
 
@@ -10,14 +13,20 @@ jobs:
   autofix:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
-      - run: corepack enable
-      - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Enable corepack
+        run: npm i -g --force corepack && corepack enable
+
+      - name: Setup node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
         with:
           node-version: lts/*
           cache: "pnpm"
 
-      - run: pnpm install
+      - name: Install dependencies
+        run: pnpm install
 
       - name: Lint
         run: pnpm lint --fix
@@ -27,4 +36,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - uses: autofix-ci/action@635ffb0c9798bd160680f18fd73371e355b85f27 # 635ffb0c9798bd160680f18fd73371e355b85f27
+      - name: Autofix
+        uses: autofix-ci/action@635ffb0c9798bd160680f18fd73371e355b85f27 # 635ffb0c9798bd160680f18fd73371e355b85f27

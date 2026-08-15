@@ -3,9 +3,9 @@ description: The better Nuxt auth module for developers.
 repo: logto-io/js#master/packages/nuxt
 npm: '@logto/nuxt'
 icon: logto.svg
-github: https://github.com/logto-io/js/tree/master/packages/nuxt
+github: https://github.com/logto-io/js
 website: https://logto.io
-learn_more: https://docs.logto.io
+learn_more: https://docs.logto.io/introduction
 category: Security
 type: 3rd-party
 maintainers:

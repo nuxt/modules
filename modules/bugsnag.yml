@@ -7,7 +7,7 @@ npm: nuxt-bugsnag
 icon: bugsnag.png
 github: https://github.com/JulianMar/nuxt-bugsnag
 website: https://github.com/JulianMar/nuxt-bugsnag
-learn_more: https://www.bugsnag.com/
+learn_more: ''
 category: Monitoring
 type: 3rd-party
 maintainers:

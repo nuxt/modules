@@ -5,7 +5,7 @@ npm: nuxt-umami
 icon: umami.svg
 github: https://github.com/ijkml/nuxt-umami
 website: https://github.com/ijkml/nuxt-umami
-learn_more: https://umami.is/docs/
+learn_more: https://docs.umami.is/docs
 category: Analytics
 type: 3rd-party
 maintainers:

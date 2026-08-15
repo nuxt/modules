@@ -4,8 +4,8 @@ repo: nuxt-modules/kinde
 npm: '@nuxtjs/kinde'
 icon: kinde.svg
 github: https://github.com/nuxt-modules/kinde
-website: https://kinde.com/docs/developer-tools/nuxt-module/
-learn_more: https://kinde.com/
+website: https://www.kinde.com/docs/developer-tools/nuxt-module/
+learn_more: https://www.kinde.com/
 category: Security
 type: community
 maintainers:

@@ -3,8 +3,8 @@ description: TypeScript Runtime support for Nuxt
 repo: nuxt/typescript#master/packages/typescript-runtime
 npm: '@nuxt/typescript-runtime'
 icon: typescript.svg
-github: https://github.com/nuxt/typescript/tree/master/packages/typescript-runtime
-website: https://typescript.nuxtjs.org/guide/runtime.html
+github: https://github.com/nuxt/typescript
+website: https://typescript.nuxtjs.org/guide/runtime/
 learn_more: ''
 category: Devtools
 type: official

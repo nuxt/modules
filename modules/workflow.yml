@@ -3,8 +3,8 @@ description: Workflow DevKit - Build durable, resilient, and observable workflow
 repo: vercel/workflow#main/packages/workflow
 npm: workflow
 icon: workflow.svg
-github: https://github.com/vercel/workflow/tree/main/packages/workflow
-website: https://useworkflow.dev
+github: https://github.com/vercel/workflow
+website: https://workflow-sdk.dev/
 learn_more: ''
 category: Devtools
 type: 3rd-party

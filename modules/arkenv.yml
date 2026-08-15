@@ -1,0 +1,16 @@
+name: arkenv
+description: Environment variable validation from editor to runtime
+repo: yamcodes/arkenv#main/packages/nuxt
+npm: '@arkenv/nuxt'
+icon: arkenv.svg
+github: https://github.com/yamcodes/arkenv
+website: https://arkenv.js.org
+learn_more: https://arkenv.js.org/docs/nuxt
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Yam Borodetsky
+    github: yamcodes
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

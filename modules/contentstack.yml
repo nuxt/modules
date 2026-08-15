@@ -5,7 +5,7 @@ npm: nuxt-contentstack
 icon: contentstack.png
 github: https://github.com/timbenniks/nuxt-contentstack
 website: https://github.com/timbenniks/nuxt-contentstack
-learn_more: https://community.contentstack.com/
+learn_more: https://www.contentstack.com/community
 category: CMS
 type: 3rd-party
 maintainers:

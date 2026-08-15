@@ -5,7 +5,7 @@ description: >-
 repo: yizack/nuxt-webhook-validators
 npm: nuxt-webhook-validators
 icon: webhook-validators.svg
-github: https://github.com/Yizack/nuxt-webhook-validators
+github: https://github.com/yizack/nuxt-webhook-validators
 website: https://github.com/Yizack/nuxt-webhook-validators
 learn_more: ''
 category: Security

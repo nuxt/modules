@@ -13,6 +13,7 @@ type: 3rd-party
 maintainers:
   - name: Ali Sokkar
     github: NyllRE
+    twitter: nyllre
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

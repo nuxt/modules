@@ -2,10 +2,10 @@ name: nuxt2-ngrok
 description: >-
   ngrok exposes your localhost to the world for easy testing and sharing! No
   need to mess with DNS or deploy just to have others test out your changes
-repo: nuxt-community/ngrok
+repo: nuxt-modules/ngrok
 npm: '@nuxtjs/ngrok'
 icon: ngrok.png
-github: https://github.com/nuxt-community/ngrok-module
+github: https://github.com/nuxt-modules/ngrok
 website: https://ngrok.nuxtjs.org
 learn_more: https://github.com/bubenshchykov/ngrok
 category: Devtools

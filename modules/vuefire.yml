@@ -3,7 +3,7 @@ description: Idiomatic composables for the Firebase SDK
 repo: vuejs/vuefire#main/packages/nuxt
 npm: nuxt-vuefire
 icon: vuefire.svg
-github: https://github.com/vuejs/vuefire/tree/main/packages/nuxt
+github: https://github.com/vuejs/vuefire
 website: https://vuefire.vuejs.org/
 learn_more: ''
 category: Database
