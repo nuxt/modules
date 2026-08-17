@@ -1,0 +1,18 @@
+name: nuxt-endpoints
+description: >-
+  Typed APIs, generated clients, and OpenAPI for Nuxt server routes — from one
+  endpoint definition
+repo: nuxt-endpoints/nuxt-endpoints
+npm: nuxt-endpoints
+icon: nuxt-endpoints.svg
+github: https://github.com/nuxt-endpoints/nuxt-endpoints
+website: https://nuxt-endpoints.github.io/nuxt-endpoints/
+learn_more: https://nuxt-endpoints.github.io/nuxt-endpoints/docs/getting-started
+category: Request
+type: 3rd-party
+maintainers:
+  - name: Yoshinori Ishii
+    github: yoshinoriishii
+compatibility:
+  nuxt: ^4.5.0
+  requires: {}
