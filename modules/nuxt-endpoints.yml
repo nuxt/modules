@@ -11,7 +11,7 @@ learn_more: https://nuxt-endpoints.github.io/nuxt-endpoints/docs/getting-started
 category: Request
 type: 3rd-party
 maintainers:
-  - name: Yoshinori Ishii
+  - name: y.ishii
     github: yoshinoriishii
 compatibility:
   nuxt: ^4.5.0
