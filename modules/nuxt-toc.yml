@@ -1,16 +1,17 @@
 name: nuxt-toc
-description: Nuxt module for table of contents (TOC) component in Nuxt Content projects
+description: Nuxt module for table of contents (TOC) component in @nuxt/content projects
 repo: thaikolja/nuxt-toc
 npm: nuxt-toc
 icon: nuxt-toc.png
 github: https://github.com/thaikolja/nuxt-toc
 website: https://github.com/thaikolja/nuxt-toc
-learn_more: ''
+learn_more: https://thaikolja.github.io/nuxt-toc
 category: UI
 type: 3rd-party
 maintainers:
-  - name: hanyujie2002
-    github: hanyujie2002
+  - name: Kolja Nolte
+    github: thaikolja
+    bluesky: thaikolja.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
