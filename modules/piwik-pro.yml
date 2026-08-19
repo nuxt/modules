@@ -1,0 +1,16 @@
+name: piwik-pro
+description: Nuxt module that adds Piwik PRO Analytics Suite to your application
+repo: PiwikPRO/nuxt-piwik-pro
+npm: '@piwikpro/nuxt-piwik-pro'
+icon: piwik-pro.svg
+github: https://github.com/PiwikPRO/nuxt-piwik-pro
+website: https://piwik.pro
+learn_more: 'https://github.com/PiwikPRO/nuxt-piwik-pro/blob/master/README.md'
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Antoni Bartczak
+    github: abartczakpiwik
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
