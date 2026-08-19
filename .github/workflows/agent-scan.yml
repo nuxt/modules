@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   agentscan:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     steps:
       - name: AgentScan
         id: agentscan
@@ -25,6 +25,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           mode: silent
+
       - name: Handle flagged PR
         if: contains(fromJSON('["automation","mixed"]'), steps.agentscan.outputs.classification) || steps.agentscan.outputs.community-flagged == 'true'
         env:
