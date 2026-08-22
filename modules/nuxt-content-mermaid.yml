@@ -1,0 +1,19 @@
+name: nuxt-content-mermaid
+description: >-
+  A Nuxt module designed for integrating Mermaid with `@nuxt/content`. It
+  automatically converts `mermaid` code blocks in Markdown into responsive chart
+  components, and supports lazy loading and dark/light theme switching.
+repo: andy820621/nuxt-content-mermaid
+npm: '@barzhsieh/nuxt-content-mermaid'
+icon: nuxt-content-mermaid.svg
+github: https://github.com/andy820621/nuxt-content-mermaid
+website: https://nuxt-content-mermaid.barz.app
+learn_more: https://nuxt-content-mermaid.barz.app
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: andy820621
+    github: andy820621
+compatibility:
+  nuxt: ^3.20.1 || ^4.1.0
+  requires: {}
