@@ -64,6 +64,8 @@ export interface SyncRegression {
 export interface SyncResult {
   module: ModuleInfo
   regressions: SyncRegression[]
+  /** The repository was archived since the last sync, so nobody has been told yet. */
+  newlyArchived: boolean
 }
 
 export interface SyncError {

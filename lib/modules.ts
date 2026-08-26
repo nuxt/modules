@@ -23,6 +23,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   // Store original values for regression detection
   const originalWebsite = mod.website
   const originalCompatibility = mod.compatibility.nuxt
+  const wasArchived = Boolean(mod.archived)
 
   // Repo
   if (repo) {
@@ -339,7 +340,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   // Write module
   await writeModule(mod)
 
-  return { module: mod, regressions }
+  return { module: mod, regressions, newlyArchived: Boolean(mod.archived) && !wasArchived }
 }
 
 export async function getModule(name: string): Promise<ModuleInfo> {
@@ -401,7 +402,9 @@ export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAl
       if (result.regressions.length > 0) {
         regressions.push(...result.regressions)
       }
-      if (result.module.archived) {
+      // Only report the ones nobody has seen yet: the flag written above keeps
+      // a known-archived module from failing every later run.
+      if (result.newlyArchived) {
         archivedModules.push(module.name)
       }
     }
