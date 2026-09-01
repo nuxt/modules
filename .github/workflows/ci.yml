@@ -44,7 +44,7 @@ jobs:
         run: pnpm tsc --noEmit
 
       - name: Sync
-        run: pnpm sync
+        run: pnpm sync --fail-on-archived
         # these run in the autofix workflow on pull requests
         if: github.event_name == 'push'
         env:

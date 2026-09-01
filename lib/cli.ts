@@ -23,17 +23,18 @@ async function main() {
 }
 
 async function runSync(args: string[]) {
-  const [name, repo] = args
+  const failOnArchived = args.includes('--fail-on-archived')
+  const [name, repo] = args.filter(arg => !arg.startsWith('--'))
 
   if (name) {
-    await runSingleSync(name, repo)
+    await runSingleSync(name, repo, failOnArchived)
   }
   else {
-    await runSyncAll()
+    await runSyncAll(failOnArchived)
   }
 }
 
-async function runSingleSync(name: string, repo?: string) {
+async function runSingleSync(name: string, repo?: string, failOnArchived: boolean = false) {
   p.intro(c.bgCyan(c.black(' Nuxt Modules Sync ')))
 
   const s = p.spinner()
@@ -55,7 +56,7 @@ async function runSingleSync(name: string, repo?: string) {
     }
 
     if (module.archived) {
-      hasIssues = true
+      hasIssues ||= failOnArchived
       p.log.error(c.red(`Repository is ${c.bold('archived')}`))
     }
 
@@ -75,7 +76,7 @@ async function runSingleSync(name: string, repo?: string) {
   }
 }
 
-async function runSyncAll() {
+async function runSyncAll(failOnArchived: boolean = false) {
   p.intro(c.bgCyan(c.black(' Nuxt Modules Sync ')))
 
   const progress = p.progress({ max: 100 })
@@ -96,7 +97,7 @@ async function runSyncAll() {
   const hasErrors = result.errors.length > 0
   const hasRegressions = result.regressions.length > 0
   const hasArchived = result.archivedModules.length > 0
-  const hasIssues = hasErrors || hasRegressions || hasArchived
+  const hasIssues = hasErrors || hasRegressions || (hasArchived && failOnArchived)
 
   if (hasIssues) {
     p.log.message('')
