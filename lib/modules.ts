@@ -382,8 +382,9 @@ export async function readModules() {
     .then(modules => modules.filter(m => m.name))
 }
 
-export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAllResult> {
-  const modules = await readModules()
+export async function syncAll(onProgress?: SyncProgressCallback, only?: string[]): Promise<SyncAllResult> {
+  const allModules = await readModules()
+  const modules = only ? allModules.filter(module => only.includes(module.name)) : allModules
   const total = modules.length
   const synced: string[] = []
   const errors: SyncError[] = []
