@@ -36,23 +36,23 @@ importers:
         specifier: ^17.4.2
         version: 17.4.2
       eslint:
-        specifier: ^10.8.1
+        specifier: ^10.9.1
         version: 10.9.1
       globby:
-        specifier: ^16.2.3
+        specifier: ^16.2.4
         version: 16.2.4
       hasha:
         specifier: ^7.0.0
         version: 7.0.0
       js-yaml:
-        specifier: ^5.2.3
+        specifier: ^5.4.1
         version: 5.4.1
       ofetch:
         specifier: ^1.5.1
         version: 1.5.1
       p-limit:
-        specifier: ^7.3.1
-        version: 7.3.1
+        specifier: ^7.3.2
+        version: 7.3.2
       picocolors:
         specifier: ^1.1.1
         version: 1.1.1
@@ -1047,8 +1047,8 @@ packages:
     resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==}
     engines: {node: '>=10'}
 
-  p-limit@7.3.1:
-    resolution: {integrity: sha512-0trZaiG7Y7kN/Egy9a8j47t9osC0Tch4PaIWd9yGF6bvmlk7muExRvGNYb8sXBwEKMoNKsbNN9P8EefuQekE4Q==}
+  p-limit@7.3.2:
+    resolution: {integrity: sha512-Ll0w3fU24vYpXoZmjjZIee6bJQDgG0oAyo1PdmFYI8UDwJJddaHAypxIH9avUu+t+lSsAwKVsb1jDCMIIChliw==}
     engines: {node: '>=20'}
 
   p-locate@5.0.0:
@@ -2319,7 +2319,7 @@ snapshots:
     dependencies:
       yocto-queue: 0.1.0
 
-  p-limit@7.3.1:
+  p-limit@7.3.2:
     dependencies:
       yocto-queue: 1.2.2
 
