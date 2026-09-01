@@ -1,0 +1,59 @@
+name: sync
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Enable corepack
+        run: npm i -g --force corepack && corepack enable
+
+      - name: Setup node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: lts/*
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Sync
+        id: sync
+        # a failure here (regressions, archived repos) should still produce a PR with whatever synced
+        continue-on-error: true
+        run: pnpm sync --fail-on-archived
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: chore/sync-modules
+          title: "chore: sync module metadata"
+          commit-message: "chore: sync module metadata"
+          body: |
+            Automated `pnpm sync` run from the [`sync` workflow](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}).
+          labels: automated
+          delete-branch: true
+
+      - name: Report sync issues
+        if: steps.sync.outcome == 'failure'
+        run: exit 1

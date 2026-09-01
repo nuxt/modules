@@ -5,7 +5,7 @@ npm: '@nuxtjs/laravel-echo'
 icon: laravel-echo.png
 github: https://github.com/nuxt-community/laravel-echo-module
 website: https://github.com/nuxt-community/laravel-echo-module
-learn_more: https://laravel.com/docs/8.x/broadcasting#installing-laravel-echo
+learn_more: https://laravel.com/framework/docs/8.x/broadcasting#installing-laravel-echo
 category: CMS
 type: community
 maintainers:

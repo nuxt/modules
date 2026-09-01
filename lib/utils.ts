@@ -1,4 +1,5 @@
-import { resolve } from 'node:path'
+import { execFileSync } from 'node:child_process'
+import { basename, extname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { ofetch } from 'ofetch'
 import semver from 'semver'
@@ -14,6 +15,19 @@ export const userAgent = 'sync-script for https://nuxt.com/modules'
 /** Small delay between sequential fetches to avoid rate limiting */
 export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 export const FETCH_DELAY = 100 // ms between requests
+
+/** Names of the modules whose yml files differ between `ref` and the working tree. */
+export function getChangedModuleNames(ref: string): string[] {
+  const output = execFileSync('git', ['diff', '--name-only', '--diff-filter=d', `${ref}...HEAD`, '--', 'modules'], {
+    cwd: rootDir,
+    encoding: 'utf8',
+  })
+
+  return output
+    .split('\n')
+    .filter(file => extname(file) === '.yml')
+    .map(file => basename(file, '.yml'))
+}
 
 export function fetchPKG(name: string) {
   return ofetch<Packument>('https://registry.npmjs.org/' + name, {

@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Yam Borodetsky
     github: yamcodes
+    twitter: _yamcodes
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

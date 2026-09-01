@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
 
       - name: Enable corepack
         run: npm i -g --force corepack && corepack enable
@@ -32,7 +34,7 @@ jobs:
         run: pnpm lint --fix
 
       - name: Sync
-        run: pnpm sync
+        run: pnpm sync --changed=origin/${{ github.base_ref }}
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
