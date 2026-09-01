@@ -44,10 +44,17 @@ async function runSingleSync(name: string, repo?: string, failOnArchived: boolea
   s.start(`Syncing ${c.cyan(displayName)}`)
 
   try {
-    const { module, regressions } = await sync(name, repo, true)
+    const { module, regressions, warnings } = await sync(name, repo, true)
     s.stop(`Synced ${c.green(module.name)}`)
 
     let hasIssues = false
+
+    if (warnings.length > 0) {
+      p.log.warn(c.yellow(`Warnings (${c.bold(warnings.length)})`))
+      for (const message of warnings) {
+        p.log.message(c.dim(message))
+      }
+    }
 
     if (regressions.length > 0) {
       hasIssues = true
@@ -105,6 +112,13 @@ async function runSyncAll(failOnArchived: boolean = false, base?: string) {
   }, only)
 
   progress.stop(`Synced ${c.green(c.bold(result.synced.length))}${c.dim('/')}${result.total} modules`)
+
+  if (result.warnings.length > 0) {
+    p.log.warn(c.yellow(c.bold(`Warnings (${result.warnings.length})`)))
+    for (const { moduleName, message } of result.warnings.sort((a, b) => a.moduleName.localeCompare(b.moduleName))) {
+      p.log.message(`  ${c.bold(moduleName)}: ${c.dim(message)}`)
+    }
+  }
 
   const hasErrors = result.errors.length > 0
   const hasRegressions = result.regressions.length > 0

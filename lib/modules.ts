@@ -9,7 +9,7 @@ import { Octokit } from '@octokit/rest'
 import dotenv from 'dotenv'
 
 import { categories } from './categories.ts'
-import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback } from './types.ts'
+import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback, SyncWarning } from './types.ts'
 import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
@@ -19,6 +19,7 @@ dotenv.config()
 export async function sync(name: string, repo?: string, isNew: boolean = false): Promise<SyncResult> {
   const mod = await getModule(name)
   const regressions: SyncRegression[] = []
+  const warnings: string[] = []
 
   // Store original values for regression detection
   const originalWebsite = mod.website
@@ -48,7 +49,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     }
   }
   catch (err) {
-    console.warn(`Could not check repo redirect for ${mod.repo}: ${err}`)
+    warnings.push(`Could not check repo redirect for ${mod.repo}: ${err}`)
   }
 
   // Always derive github URL from repo
@@ -80,7 +81,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
       throw new Error(`No category for ${name}`)
     }
     else {
-      console.log(`[TODO] Add a category to ./modules/${name}.yml`)
+      warnings.push(`[TODO] Add a category to ./modules/${name}.yml`)
     }
   }
   else if (!categories.includes(mod.category)) {
@@ -103,11 +104,11 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
         try {
           const exists = await npmPackageExists(npmPackage)
           if (!exists) {
-            console.warn(`${key} link references non-existent npm package "${npmPackage}" for ${mod.name}`)
+            warnings.push(`${key} link references non-existent npm package "${npmPackage}"`)
           }
         }
         catch (err) {
-          console.warn(`Could not check npm package "${npmPackage}" for ${mod.name}: ${err}`)
+          warnings.push(`Could not check npm package "${npmPackage}": ${err}`)
         }
       }
       else {
@@ -119,7 +120,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
           }
         }
         catch (err) {
-          console.warn(`Could not validate ${key} URL for ${mod.name}: ${err}`)
+          warnings.push(`Could not validate ${key} URL: ${err}`)
         }
       }
       await sleep(FETCH_DELAY)
@@ -164,7 +165,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     }
   }
   if (invalidFields.length) {
-    console.warn(`Invalid fields for ./modules/${mod.name}.yml`, invalidFields)
+    warnings.push(`Invalid fields in ./modules/${mod.name}.yml: ${invalidFields.join(', ')}`)
   }
 
   // Auto name
@@ -195,7 +196,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
       throw new Error(`No maintainer for ${mod.name}`)
     }
     else {
-      console.log(`[TODO] Add a maintainer to ./modules/${name}.yml`)
+      warnings.push(`[TODO] Add a maintainer to ./modules/${name}.yml`)
     }
   }
 
@@ -203,7 +204,6 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     const client = new Octokit({ auth: `Bearer ${process.env.GITHUB_TOKEN}` })
     for (const maintainer of mod.maintainers) {
       if (!(maintainer.github in maintainerSocialCache)) {
-        console.log('Syncing maintainer socials with GitHub')
         maintainerSocialCache[maintainer.github] = await client.graphql<{ user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }>({
           query: `
               query ($login: String!) {
@@ -247,7 +247,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
         mod.archived = data.archived || undefined // only set if true
       }
       catch (err) {
-        console.warn(`Could not check archived status for ${mod.repo}: ${err}`)
+        warnings.push(`Could not check archived status for ${mod.repo}: ${err}`)
       }
     }
   }
@@ -262,7 +262,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     majorVersions = await getMajorVersions(mod.npm)
   }
   catch (err) {
-    console.warn(`Could not fetch major versions for ${mod.npm}: ${err}`)
+    warnings.push(`Could not fetch major versions for ${mod.npm}: ${err}`)
   }
 
   const nuxtCompatibilities: string[] = []
@@ -339,7 +339,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   // Write module
   await writeModule(mod)
 
-  return { module: mod, regressions }
+  return { module: mod, regressions, warnings }
 }
 
 export async function getModule(name: string): Promise<ModuleInfo> {
@@ -390,6 +390,7 @@ export async function syncAll(onProgress?: SyncProgressCallback, only?: string[]
   const errors: SyncError[] = []
   const regressions: SyncRegression[] = []
   const archivedModules: string[] = []
+  const warnings: SyncWarning[] = []
 
   let completed = 0
   const limit = pLimit(10)
@@ -405,6 +406,9 @@ export async function syncAll(onProgress?: SyncProgressCallback, only?: string[]
       if (result.module.archived) {
         archivedModules.push(module.name)
       }
+      for (const message of result.warnings) {
+        warnings.push({ moduleName: module.name, message })
+      }
     }
     catch (err) {
       errors.push({
@@ -418,7 +422,7 @@ export async function syncAll(onProgress?: SyncProgressCallback, only?: string[]
     }
   })))
 
-  return { total, synced, errors, regressions, archivedModules }
+  return { total, synced, errors, regressions, archivedModules, warnings }
 }
 
 export async function build() {
