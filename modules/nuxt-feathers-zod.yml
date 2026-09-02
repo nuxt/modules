@@ -11,7 +11,7 @@ learn_more: https://vevedh.github.io/nuxt-feathers-zod/
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: vevedh
+  - name: Hervé de CHAVIGNY
     github: vevedh
 compatibility:
   nuxt: ^4.0.0
