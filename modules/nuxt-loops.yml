@@ -1,0 +1,17 @@
+name: loops
+description: Loops Nuxt Module
+repo: Loops-so/loops-nuxt
+npm: nuxt-loops
+icon: nuxt-loops.svg
+github: https://github.com/Loops-so/loops-nuxt
+website: https://loops.so/docs/sdks/nuxt
+learn_more: https://loops.so/docs
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Dan Rowden
+    github: danrowden
+    twitter: dr
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
