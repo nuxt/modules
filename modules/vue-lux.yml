@@ -1,0 +1,16 @@
+name: vue-lux
+description: Easy DateTime formatting & parsing in Vue using Luxon
+repo: dnldsht/vue-lux
+npm: vue-lux
+icon: ''
+github: https://github.com/dnldsht/vue-lux
+website: https://github.com/dnldsht/vue-lux
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: dnldsht
+    github: dnldsht
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
