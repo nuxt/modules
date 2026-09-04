@@ -1,0 +1,18 @@
+name: auto-middleware
+description: >-
+  Declarative, layout-based route middleware for Nuxt 3/4, with glob matching,
+  named groups, and per-page overrides.
+repo: alikhalilll/ali-nuxt-toolkit#master/packages/auto-middleware
+npm: '@alikhalilll/nuxt-auto-middleware'
+icon: auto-middleware.svg
+github: https://github.com/alikhalilll/ali-nuxt-toolkit
+website: https://alikhalilll.github.io/ali-nuxt-toolkit/auto-middleware
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Ali Khalill
+    github: alikhalilll
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
