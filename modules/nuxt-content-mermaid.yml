@@ -12,8 +12,9 @@ learn_more: https://nuxt-content-mermaid.barz.app
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: andy820621
+  - name: Yao Tsu Hsieh
     github: andy820621
+    twitter: Barz3064
 compatibility:
   nuxt: ^3.20.1 || ^4.1.0
   requires: {}
