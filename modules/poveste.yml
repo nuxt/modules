@@ -11,6 +11,8 @@ type: 3rd-party
 maintainers:
   - name: Soryn
     github: 50rayn
+    twitter: 50rayn
+    bluesky: poveste.dev
 compatibility:
   nuxt: '>=4.5.0'
   requires: {}
