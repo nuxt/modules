@@ -42,5 +42,16 @@
     "std-env": "^4.2.0",
     "typescript": "^6.0.3"
   },
-  "packageManager": "pnpm@12.3.4"
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.0.0",
+      "onFail": "download"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.3.4",
+      "onFail": "download"
+    }
+  }
 }
