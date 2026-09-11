@@ -1,0 +1,16 @@
+name: ai-chatbot
+description: 'AI chat assistant for your Nuxt site: it answers visitors from your own content in 80+ languages'
+repo: asyntai/nuxt-ai-chatbot
+npm: nuxt-ai-chatbot
+icon: asyntai.png
+github: https://github.com/asyntai/nuxt-ai-chatbot
+website: https://asyntai.com/documentation/integrations/nuxt/
+learn_more: https://asyntai.com
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Asyntai
+    github: asyntai
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
