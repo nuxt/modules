@@ -1,5 +1,7 @@
 name: ai-chatbot
-description: 'AI chat assistant for your Nuxt site: it answers visitors from your own content in 80+ languages'
+description: >-
+  AI chat assistant for your Nuxt site: it answers visitors from your own
+  content in 80+ languages
 repo: asyntai/nuxt-ai-chatbot
 npm: nuxt-ai-chatbot
 icon: asyntai.png
