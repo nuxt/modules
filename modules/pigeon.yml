@@ -15,5 +15,5 @@ maintainers:
     github: Flo0806
     bluesky: flo-heuberger.bsky.social
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=4.0.0'
   requires: {}
