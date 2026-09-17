@@ -1,0 +1,19 @@
+name: pigeon
+description: >-
+  Send and receive messages across Telegram, Slack, Discord, ntfy, Mastodon,
+  Bluesky and any webhook.
+repo: Flo0806/nuxt-pigeon
+npm: nuxt-pigeon
+icon: pigeon.svg
+github: https://github.com/Flo0806/nuxt-pigeon
+website: https://pigeon.fh-softdev.de
+learn_more: https://pigeon.fh-softdev.de/getting-started/installation
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Florian Heuberger
+    github: Flo0806
+    bluesky: flo-heuberger.bsky.social
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
