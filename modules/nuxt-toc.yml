@@ -5,7 +5,7 @@ npm: nuxt-toc
 icon: nuxt-toc.png
 github: https://github.com/thaikolja/nuxt-toc
 website: https://thaikolja.github.io/nuxt-toc
-learn_more: ''
+learn_more: https://thaikolja.github.io/nuxt-toc
 category: UI
 type: 3rd-party
 maintainers:
