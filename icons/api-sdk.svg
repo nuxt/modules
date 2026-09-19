@@ -1,0 +1,12 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>api-sdk</title>
+  <g stroke="#00DC82" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M100 56 C 80 56, 80 70, 80 100 C 80 120, 70 128, 60 128 C 70 128, 80 136, 80 156 C 80 186, 80 200, 100 200"/>
+    <path d="M156 56 C 176 56, 176 70, 176 100 C 176 120, 186 128, 196 128 C 186 128, 176 136, 176 156 C 176 186, 176 200, 156 200"/>
+  </g>
+  <g fill="#00DC82">
+    <circle cx="108" cy="128" r="9"/>
+    <circle cx="128" cy="128" r="9"/>
+    <circle cx="148" cy="128" r="9"/>
+  </g>
+</svg>
