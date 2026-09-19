@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Vue MapTiler SDK">
+  <rect width="32" height="32" rx="7" fill="#10b981"/>
+  <g stroke="#fff" stroke-opacity=".35" stroke-width="1">
+    <path d="M11 5V27M21 5V27M5 11H27M5 21H27"/>
+  </g>
+  <path d="M16 9c-3 0-5.4 2.4-5.4 5.4 0 4 5.4 9.1 5.4 9.1s5.4-5.1 5.4-9.1C21.4 11.4 19 9 16 9Z" fill="#fff"/>
+  <circle cx="16" cy="14.4" r="2" fill="#10b981"/>
+</svg>
