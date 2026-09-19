@@ -1,0 +1,16 @@
+name: oxc-nuxt
+description: Nuxt module to provide oxlint and oxfmt integration
+repo: porfirioribeiro/oxc-nuxt
+npm: oxc-nuxt
+icon: ''
+github: https://github.com/porfirioribeiro/oxc-nuxt
+website: https://github.com/porfirioribeiro/oxc-nuxt
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: porfirioribeiro
+    github: porfirioribeiro
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
