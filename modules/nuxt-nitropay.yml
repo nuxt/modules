@@ -1,0 +1,16 @@
+name: nuxt-nitropay
+description: Nitropay Ad Module for Nuxt.js
+repo: kylegl/nitropay
+npm: nuxt-nitropay
+icon: ''
+github: https://github.com/kylegl/nitropay
+website: https://github.com/kylegl/nitropay
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Kylegl
+    github: kylegl
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
