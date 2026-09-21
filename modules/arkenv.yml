@@ -5,7 +5,7 @@ npm: '@arkenv/nuxt'
 icon: arkenv.svg
 github: https://github.com/yamcodes/arkenv
 website: https://arkenv.js.org
-learn_more: https://arkenv.js.org/docs/nuxt
+learn_more: https://arkenv.js.org/docs/frameworks/nuxt
 category: Devtools
 type: 3rd-party
 maintainers:
