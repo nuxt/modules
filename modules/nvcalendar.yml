@@ -1,0 +1,22 @@
+name: nvcalendar
+description: >-
+  Calendar, date picker and attribute-driven date visualisation. Zero runtime
+  dependencies, Intl-powered locales, light and dark themes, fully typed.
+repo: msdoc11/nvcalendar
+npm: nvcalendar
+icon: nvcalendar.svg
+github: https://github.com/msdoc11/nvcalendar
+website: https://github.com/msdoc11/nvcalendar
+learn_more: https://github.com/msdoc11/nvcalendar#readme
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Nik
+    github: msdoc11
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
+aliases:
+  - calendar
+  - datepicker
+  - date-picker
