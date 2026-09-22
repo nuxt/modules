@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "build": "pnpm cli build",
-    "cli": "node ./lib/cli.ts",
+    "cli": "node --env-file-if-exists=.env ./lib/cli.ts",
     "website:build": "pnpm build && nuxt build website",
     "website:dev": "pnpm build && nuxt dev website",
     "lint": "eslint",
@@ -30,7 +30,6 @@
     "@types/node": "^24.13.6",
     "@types/semver": "^7.8.0",
     "defu": "^6.1.7",
-    "dotenv": "^18.0.1",
     "eslint": "^10.11.0",
     "globby": "^16.2.4",
     "hasha": "^7.0.0",
