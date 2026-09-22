@@ -5,7 +5,7 @@ npm: druxt
 icon: druxt.svg
 github: https://github.com/druxt/druxt.js
 website: https://druxtjs.org
-learn_more: https://druxtjs.org/guide
+learn_more: https://druxtjs.org/tutorials
 category: CMS
 type: 3rd-party
 maintainers:
