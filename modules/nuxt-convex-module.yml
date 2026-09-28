@@ -1,0 +1,21 @@
+name: nuxt-convex-module
+description: >-
+  Connects a Nuxt app to a Convex backend: live queries, mutations, actions,
+  pagination, file storage and SSR, auto-imported and typed against your
+  deployment.
+repo: qruto/nuxt-convex-module
+npm: nuxt-convex-module
+icon: nuxt-convex-module.svg
+github: https://github.com/qruto/nuxt-convex-module
+website: https://nuxt-convex-module.dev
+learn_more: https://docs.convex.dev
+category: Database
+type: 3rd-party
+maintainers:
+  - name: Slava Razum
+    github: slavarazum
+    twitter: slava_razum
+compatibility:
+  nuxt: '>=4.1.0'
+  requires: {}
+mcp: https://nuxt-convex-module.dev/mcp
