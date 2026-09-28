@@ -22,14 +22,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Enable corepack
-        run: npm i -g --force corepack && corepack enable
-
-      - name: Setup node
-        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+      - uses: pnpm/setup@fbda4c85fc2e1e08721cd8763afea8f48d60f024 # v3
         with:
-          node-version: latest
-          cache: "pnpm"
+          runtime: node@latest
+          cache: true
+          install: false
 
       - name: Install dependencies
         run: pnpm install

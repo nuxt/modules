@@ -6,15 +6,12 @@ import { globby } from 'globby'
 import defu from 'defu'
 import pLimit from 'p-limit'
 import { Octokit } from '@octokit/rest'
-import dotenv from 'dotenv'
 
 import { categories } from './categories.ts'
 import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback, SyncWarning } from './types.ts'
 import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
-
-dotenv.config()
 
 export async function sync(name: string, repo?: string, isNew: boolean = false): Promise<SyncResult> {
   const mod = await getModule(name)
