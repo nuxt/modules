@@ -27,7 +27,7 @@
     "@nuxt/eslint-config": "^1.17.0",
     "@octokit/rest": "^22.0.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^24.13.6",
+    "@types/node": "^24.19.0",
     "defu": "^6.1.7",
     "eslint": "^10.11.0",
     "globby": "^16.2.4",
