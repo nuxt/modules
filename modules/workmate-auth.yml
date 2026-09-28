@@ -1,0 +1,25 @@
+name: workmate-auth
+description: >-
+  Simplifies authentication setup for Nuxt.js applications, offering robust
+  support for OAuth, JWT, and local authentication strategies. Designed for
+  seamless integration, it provides features like user management, secure 
+  token handling, and middleware support, ensuring efficient and secure
+  authentication workflows.
+repo: work-mate/nuxt-auth-module
+npm: "@workmate/nuxt-auth"
+icon: "workmate-auth.png"
+github: https://github.com/work-mate/nuxt-auth-module
+website: https://github.com/work-mate/nuxt-auth-module
+learn_more: "https://github.com/work-mate/nuxt-auth-module"
+category: Security
+type: 3rd-party
+maintainers:
+  - name: David Oyinbo
+    github: dev-davexoyinbo
+    avatar: https://github.com/dev-davexoyinbo.png
+  - name: Workmate Technologies
+    github: work-mate
+    avatar: https://github.com/work-mate.png
+compatibility:
+  nuxt: ">=3.0.0"
+  requires: {}
