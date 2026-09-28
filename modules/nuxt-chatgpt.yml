@@ -9,7 +9,7 @@ learn_more: https://github.com/schnapsterdog/nuxt-chatgpt/blob/main/README.md
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: Oliver Trajceski
+  - name: Oliver Trajcheski
     github: schnapsterdog
 compatibility:
   nuxt: '>=3.0.0 <5.0.0'
