@@ -1,0 +1,17 @@
+name: nuxt-callapp
+description: >-
+  A nuxt module for callapp-lib
+repo: xjccc/nuxt-callapp
+npm: nuxt-callapp
+icon: callapp.svg
+github: https://github.com/xjccc/nuxt-callapp
+website: https://github.com/xjccc/nuxt-callapp
+learn_more: https://github.com/xjccc/nuxt-callapp
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: xjccc
+    github: xjccc
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
