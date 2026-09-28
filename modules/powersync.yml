@@ -1,0 +1,19 @@
+name: powersync
+description: >-
+  Offline-first sync with native Nuxt integration — auto-imported composables,
+  built-in diagnostics, Nuxt DevTools integration, and optional Kysely for
+  type-safe queries
+repo: powersync-ja/powersync-js#main/packages/nuxt
+npm: '@powersync/nuxt'
+icon: powersync.svg
+github: https://github.com/powersync-ja/powersync-js
+website: https://docs.powersync.com/intro/powersync-overview
+learn_more: https://powersync.com/
+category: Database
+type: 3rd-party
+maintainers:
+  - name: PowerSync
+    github: powersync-ja
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}

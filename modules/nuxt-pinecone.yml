@@ -1,0 +1,20 @@
+name: nuxt-pinecone
+description: >-
+  Pinecone integration for Nuxt: realtime video, audio, and data with client
+  composables and server utilities
+repo: nuxtaid/nuxt-pinecone
+npm: nuxt-pinecone
+icon: nuxt-pinecone.svg
+github: https://github.com/nuxtaid/nuxt-pinecone
+website: https://github.com/nuxtaid/nuxt-pinecone#readme
+learn_more: https://docs.pinecone.io/guides/get-started/overview
+category: Database
+type: 3rd-party
+maintainers:
+  - name: Arash Ari Sheyda
+    github: arashsheyda
+    twitter: arash_sheyda
+    bluesky: arashsheyda.me
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

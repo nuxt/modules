@@ -4,7 +4,7 @@ repo: nuxtaid/nuxt-mqtt
 npm: nuxt-mqtt
 icon: nuxt-mqtt.png
 github: https://github.com/nuxtaid/nuxt-mqtt
-website: https://github.com/nuxtaid/nuxt-mongoose#readme
+website: https://github.com/nuxtaid/nuxt-mqtt#readme
 learn_more: ''
 category: Extensions
 type: 3rd-party

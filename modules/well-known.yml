@@ -5,7 +5,7 @@ npm: '@zadigetvoltaire/nuxt-well-known'
 icon: well-known.svg
 github: https://github.com/zadigetvoltaire/nuxt-well-known
 website: https://github.com/zadigetvoltaire/nuxt-well-known#readme
-learn_more: https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml
+learn_more: https://www.iana.org/assignments/well-known-uris
 category: SEO
 type: 3rd-party
 maintainers:
