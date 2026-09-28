@@ -1,0 +1,17 @@
+name: nuxt-orama
+description: >-
+  Nuxt module (Unofficial) for first-class integration with OramaSearch. Build type-ahead search in no time.
+repo: amandesai01/nuxt-orama
+npm: nuxt-orama
+icon: nuxt-orama.svg
+github: https://github.com/amandesai01/nuxt-orama
+website: https://nuxt-orama.vercel.app/
+learn_more: ''
+category: Database
+type: 3rd-party
+maintainers:
+  - name: Aman Desai
+    github: amandesai01
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
