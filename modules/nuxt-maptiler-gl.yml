@@ -1,0 +1,16 @@
+name: nuxt-maptiler-gl
+description: MapTiler SDK integration with Nuxt
+repo: danh121097/vue-maptiler-gl#master/nuxt
+npm: nuxt-maptiler-gl
+icon: nuxt-maptiler-gl.svg
+github: https://github.com/danh121097/vue-maptiler-gl
+website: https://vue-maptiler-gl.pages.dev/
+learn_more: https://vue-maptiler-gl.pages.dev/guide/ssr-nuxt
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Harry Nguyen
+    github: danh121097
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
