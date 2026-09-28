@@ -1,0 +1,17 @@
+name: pulse-analytics
+description: Add Pulse Analytics to a Nuxt site — privacy-first, cookieless, under 3 KB
+repo: ciphera-net/pulse-nuxt
+npm: '@ciphera-net/pulse-nuxt'
+icon: pulse-analytics.png
+github: https://github.com/ciphera-net/pulse-nuxt
+website: https://github.com/ciphera-net/pulse-nuxt#readme
+learn_more: https://pulse.ciphera.net
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Ciphera
+    github: ciphera-net
+    avatar: https://avatars.githubusercontent.com/ciphera-net
+compatibility:
+  nuxt: ^3.0.0 || ^4.0.0
+  requires: {}
