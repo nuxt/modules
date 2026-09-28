@@ -1,0 +1,16 @@
+name: nanime
+description: 'Anime.js v4 for Nuxt: SSR-safe, auto-imported composables and transitions for animation, scroll, drag and text'
+repo: astraldev/nanime
+npm: nanime
+icon: 'nanime.svg'
+github: https://github.com/astraldev/nanime
+website: https://nanimejs.netlify.app/
+learn_more: https://nanimejs.netlify.app/composables/introduction
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: astraldev
+    github: astraldev
+compatibility:
+  nuxt: '>=3.13.5 <5.0.0'
+  requires: {}
