@@ -1,0 +1,17 @@
+name: layerscope
+description: Layer boundary checks for Nuxt, auto-imports included.
+repo: hamedniroomand/nuxt-layerscope#main/packages/layerscope
+npm: nuxt-layerscope
+icon: layerscope.svg
+github: https://github.com/hamedniroomand/nuxt-layerscope
+website: https://hamedniroomand.github.io/nuxt-layerscope/
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Hamed Niroomand
+    github: hamedniroomand
+    avatar: https://avatars.githubusercontent.com/hamedniroomand?v=4
+compatibility:
+  nuxt: '>=3.12.0'
+  requires: {}
