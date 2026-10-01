@@ -1,0 +1,16 @@
+name: vue-why-render
+description: See which Vue components re-render — and why. Highlights re-renders and names the exact reactive dependency that triggered them.
+repo: dadashi44/vue-why-render
+npm: vue-why-render
+icon: ''
+github: https://github.com/dadashi44/vue-why-render
+website: https://dadashi44.github.io/vue-why-render/
+learn_more: https://github.com/dadashi44/vue-why-render#nuxt
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Dadashiii
+    github: dadashi44
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
