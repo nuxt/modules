@@ -12,5 +12,5 @@ maintainers:
   - name: Dadashiii
     github: dadashi44
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.5.0'
   requires: {}
