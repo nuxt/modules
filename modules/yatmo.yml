@@ -1,0 +1,17 @@
+name: yatmo
+description: Real estate maps, points of interest and an indexable neighbourhood text for property pages, from Yatmo
+repo: Yatmo/yatmo-sdk-js
+npm: '@yatmo/nuxt'
+icon: yatmo.png
+github: https://github.com/Yatmo/yatmo-sdk-js/tree/main/packages/nuxt
+website: https://yatmo.com
+learn_more: https://documentation.yatmo.com/api/javascript-sdk
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Yatmo
+    github: Yatmo
+    avatar: https://github.com/Yatmo.png
+compatibility:
+  nuxt: '>=3.10.0'
+  requires: {}
