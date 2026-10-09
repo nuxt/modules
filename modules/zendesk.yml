@@ -5,7 +5,7 @@ npm: '@dansmaculotte/nuxt-zendesk'
 icon: zendesk.png
 github: https://github.com/DansMaCulotte/nuxt-zendesk
 website: https://github.com/DansMaCulotte/nuxt-zendesk
-learn_more: https://developer.zendesk.com/embeddables/docs/widget/introduction
+learn_more: https://developer.zendesk.com/api-reference/widget/introduction/
 category: Ecommerce
 type: 3rd-party
 maintainers:

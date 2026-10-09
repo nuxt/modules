@@ -3,7 +3,7 @@ description: Access text, images, and other media with Nuxt and the Sanity headl
 repo: nuxt-modules/sanity#main
 npm: '@nuxtjs/sanity'
 icon: sanity.png
-github: https://github.com/nuxt-modules/sanity#main
+github: https://github.com/nuxt-modules/sanity
 website: https://sanity.nuxtjs.org
 learn_more: https://www.sanity.io/
 category: CMS

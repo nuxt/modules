@@ -1,7 +1,8 @@
-import { resolve } from 'node:path'
+import { execFileSync } from 'node:child_process'
+import { basename, extname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { ofetch } from 'ofetch'
-import semver from 'semver'
+import { compare, findMinimumForRange, isGreaterThanOrEqual, normalizeRange, satisfies } from 'verkit'
 import type { Packument } from '@npm/types'
 
 export const rootDir = fileURLToPath(new URL('..', import.meta.url))
@@ -11,9 +12,28 @@ export const distFile = resolve(distDir, 'modules.json')
 
 export const userAgent = 'sync-script for https://nuxt.com/modules'
 
+/** Small delay between sequential fetches to avoid rate limiting */
+export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
+export const FETCH_DELAY = 100 // ms between requests
+
+/** Names of the modules whose yml files differ between `ref` and the working tree. */
+export function getChangedModuleNames(ref: string): string[] {
+  const output = execFileSync('git', ['diff', '--name-only', '--diff-filter=d', `${ref}...HEAD`, '--', 'modules'], {
+    cwd: rootDir,
+    encoding: 'utf8',
+  })
+
+  return output
+    .split('\n')
+    .filter(file => extname(file) === '.yml')
+    .map(file => basename(file, '.yml'))
+}
+
 export function fetchPKG(name: string) {
   return ofetch<Packument>('https://registry.npmjs.org/' + name, {
     responseType: 'json',
+    retry: 3,
+    retryDelay: 500,
     headers: {
       'user-agent': userAgent,
     },
@@ -38,6 +58,8 @@ export function parseNpmUrl(url: string): string | null {
 export function fetchRawGithub(path: string) {
   return ofetch('https://raw.githubusercontent.com/' + path, {
     responseType: 'json',
+    retry: 3,
+    retryDelay: 500,
     headers: {
       'user-agent': userAgent,
     },
@@ -56,6 +78,8 @@ export async function fetchModuleJson(npmPackage: string, version: string) {
   try {
     return await ofetch(`https://unpkg.com/${npmPackage}@${version}/dist/module.json`, {
       responseType: 'json',
+      retry: 3,
+      retryDelay: 500,
       headers: {
         'user-agent': userAgent,
       },
@@ -81,12 +105,12 @@ export async function getMajorVersions(npmPackage: string): Promise<string[]> {
     const current = majorVersionMap.get(major)
 
     // Keep the highest version for each major
-    if (!current || semver.compare(version, current) > 0) {
+    if (!current || compare(version, current) > 0) {
       majorVersionMap.set(major, version)
     }
   }
 
-  return Array.from(majorVersionMap.values()).sort((a, b) => semver.compare(b, a))
+  return Array.from(majorVersionMap.values()).sort((a, b) => compare(b, a))
 }
 
 export function uniq<T>(items: T[]) {
@@ -108,7 +132,7 @@ function parseRangeComponent(range: string): ParsedRange | null {
   const trimmed = range.trim()
 
   // Check if it's a valid semver range first
-  if (!semver.validRange(trimmed)) {
+  if (!normalizeRange(trimmed)) {
     return null
   }
 
@@ -171,7 +195,7 @@ function parseRangeComponent(range: string): ParsedRange | null {
   }
 
   // Complex range - we can still get minVersion from it
-  const minVersion = semver.minVersion(trimmed)
+  const minVersion = findMinimumForRange(trimmed)
   if (minVersion) {
     return {
       original: trimmed,
@@ -179,7 +203,7 @@ function parseRangeComponent(range: string): ParsedRange | null {
       major: minVersion.major,
       minor: minVersion.minor,
       patch: minVersion.patch,
-      prerelease: minVersion.prerelease.length > 0 ? minVersion.prerelease.join('.') : null,
+      prerelease: minVersion.prerelease?.length ? minVersion.prerelease.join('.') : null,
       hasUpperBound: true, // Assume complex ranges have upper bounds
     }
   }
@@ -194,9 +218,9 @@ function parseRangeComponent(range: string): ParsedRange | null {
 function isRangeCoveredBy(a: ParsedRange, b: ParsedRange): boolean {
   // An open-ended >= range covers another range if its minimum is <= the other's minimum
   if (b.type === 'gte' && !b.hasUpperBound) {
-    const aMin = semver.minVersion(a.original)
-    const bMin = semver.minVersion(b.original)
-    if (aMin && bMin && semver.gte(aMin, bMin)) {
+    const aMin = findMinimumForRange(a.original)
+    const bMin = findMinimumForRange(b.original)
+    if (aMin && bMin && isGreaterThanOrEqual(aMin, bMin)) {
       // b starts at or before a, and b has no upper bound
       // So if a has an upper bound, b covers all of a's range and more
       // If a also has no upper bound, they overlap from a's min onward
@@ -291,7 +315,7 @@ export function mergeCompatibilityRanges(ranges: string[]): string {
   if (allRangeStrings.length === 0) return ''
   if (allRangeStrings.length === 1) {
     // Single range - validate and return
-    const valid = semver.validRange(allRangeStrings[0]!)
+    const valid = normalizeRange(allRangeStrings[0]!)
     return valid ? allRangeStrings[0]! : ''
   }
 
@@ -392,7 +416,18 @@ export function isNuxt4Compatible(range: string): boolean {
   if (!range) return false
   try {
     // Test against a Nuxt 4 version
-    return semver.satisfies('4.0.0', range)
+    return satisfies('4.0.0', range)
+  }
+  catch {
+    return false
+  }
+}
+
+export function isGitHubUrl(url: string): boolean {
+  if (!url) return false
+  try {
+    const { hostname } = new URL(url)
+    return hostname === 'github.com' || hostname.endsWith('.github.com')
   }
   catch {
     return false
@@ -401,5 +436,88 @@ export function isNuxt4Compatible(range: string): boolean {
 
 export function isRealDocsUrl(url: string): boolean {
   if (!url) return false
-  return !url.includes('github.com')
+  return !isGitHubUrl(url)
+}
+
+/**
+ * Check if a GitHub repo has been moved/renamed by following redirects.
+ * Returns the new `owner/repo` if redirected, or null if unchanged.
+ */
+export async function checkGithubRepoRedirect(repo: string): Promise<string | null> {
+  const [ownerRepo] = repo.split('#')
+  const url = `https://github.com/${ownerRepo}`
+
+  try {
+    const response = await ofetch.raw(url, {
+      method: 'HEAD',
+      redirect: 'follow',
+      retry: 3,
+      retryDelay: 500,
+      headers: { 'user-agent': userAgent },
+    })
+
+    const finalUrl = response.url
+    // Extract owner/repo from the final URL
+    const match = finalUrl.match(/^https?:\/\/github\.com\/([^/]+\/[^/]+)/)
+    if (match && match[1]) {
+      const newOwnerRepo = match[1]
+      if (newOwnerRepo.toLowerCase() !== ownerRepo!.toLowerCase()) {
+        return newOwnerRepo
+      }
+    }
+  }
+  catch {
+    // If we can't reach GitHub, don't update anything
+  }
+
+  return null
+}
+
+/**
+ * Check if a website URL is reachable and whether it redirects.
+ * Returns the final URL if redirected, or null if unchanged.
+ * Throws if the URL is unreachable or returns a non-OK status.
+ */
+export async function checkWebsiteRedirect(url: string): Promise<string | null> {
+  const hashIndex = url.indexOf('#')
+  const fragment = hashIndex !== -1 ? url.slice(hashIndex) : ''
+  const urlWithoutFragment = hashIndex !== -1 ? url.slice(0, hashIndex) : url
+
+  const response = await ofetch.raw(urlWithoutFragment, {
+    method: 'HEAD',
+    redirect: 'follow',
+    retry: 3,
+    retryDelay: 500,
+    headers: { 'user-agent': userAgent },
+  })
+
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`)
+  }
+
+  let finalUrl = response.url
+
+  // Strip common tracking params that may have been added during redirect
+  try {
+    const parsed = new URL(finalUrl)
+    for (const param of ['utm_source', 'utm_medium', 'utm_campaign', 'ref']) {
+      parsed.searchParams.delete(param)
+    }
+    finalUrl = parsed.toString()
+  }
+  catch {
+    // If URL parsing fails, just use as-is
+  }
+
+  // Normalize trailing slashes for comparison
+  const normalizedOriginal = urlWithoutFragment.replace(/\/+$/, '')
+  const normalizedFinal = finalUrl.replace(/\/+$/, '')
+
+  // Only update if the host or path actually changed
+  // (ignore trivial trailing slash differences)
+  if (normalizedFinal !== normalizedOriginal) {
+    return finalUrl + fragment
+  }
+
+  return null
 }

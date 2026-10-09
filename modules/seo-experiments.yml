@@ -1,11 +1,11 @@
 name: seo-experiments
 description: Powerful SEO DX improvements.
-repo: harlan-zw/nuxt-seo-experiments
+repo: harlan-zw/nuxt-seo-utils
 npm: nuxt-seo-utils
 icon: seo-experiments.svg
-github: https://github.com/harlan-zw/nuxt-seo-experiments
-website: https://nuxtseo.com/experiments
-learn_more: https://nuxtseo.com/experiments
+github: https://github.com/harlan-zw/nuxt-seo-utils
+website: https://nuxtseo.com/docs/seo-utils/getting-started/installation
+learn_more: https://nuxtseo.com/docs/seo-utils/getting-started/installation
 category: SEO
 type: 3rd-party
 maintainers:

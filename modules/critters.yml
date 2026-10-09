@@ -1,0 +1,17 @@
+name: critters
+description: CSS optimization using beasties (formerly critters) for Nuxt
+repo: nuxt-modules/critters
+npm: '@nuxtjs/critters'
+icon: critters.png
+github: https://github.com/nuxt-modules/critters
+website: https://github.com/nuxt-modules/critters
+learn_more: https://github.com/danielroe/beasties
+category: Performance
+type: community
+maintainers:
+  - name: Daniel Roe
+    github: danielroe
+    bluesky: danielroe.dev
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

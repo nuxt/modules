@@ -3,7 +3,7 @@ description: Storyblok Nuxt module
 repo: storyblok/monoblok#main/packages/nuxt
 npm: '@storyblok/nuxt'
 icon: storyblok.png
-github: https://github.com/storyblok/monoblok/tree/main/packages/nuxt
+github: https://github.com/storyblok/monoblok
 website: https://github.com/storyblok/monoblok/tree/main/packages/nuxt
 learn_more: ''
 category: CMS

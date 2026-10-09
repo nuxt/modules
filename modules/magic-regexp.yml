@@ -4,8 +4,8 @@ repo: unjs/magic-regexp
 npm: magic-regexp
 icon: magic-regexp.svg
 github: https://github.com/unjs/magic-regexp
-website: https://magic-regexp.roe.dev
-learn_more: https://magic-regexp.roe.dev
+website: https://regexp.dev/
+learn_more: https://regexp.dev/
 category: Libraries
 type: 3rd-party
 maintainers:

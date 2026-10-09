@@ -5,7 +5,7 @@ npm: '@nuxtjs/sitemap'
 icon: simple-sitemap.svg
 github: https://github.com/nuxt-modules/sitemap
 website: https://nuxtseo.com/
-learn_more: https://nuxtseo.com/sitemap
+learn_more: https://nuxtseo.com/docs/sitemap/getting-started/installation
 category: SEO
 type: community
 maintainers:

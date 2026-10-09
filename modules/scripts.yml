@@ -1,6 +1,6 @@
 name: scripts
 description: Add 3rd-party scripts without sacrificing performance.
-repo: nuxt/scripts
+repo: nuxt/scripts#main/packages/script
 npm: '@nuxt/scripts'
 icon: nuxt.svg
 github: https://github.com/nuxt/scripts
@@ -13,5 +13,5 @@ maintainers:
     github: harlan-zw
     twitter: harlan_zw
 compatibility:
-  nuxt: '>=3.16'
+  nuxt: '>=3.16.0'
   requires: {}

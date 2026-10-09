@@ -5,7 +5,7 @@ npm: '@nuxtjs/speedcurve'
 icon: speedcurve.png
 github: https://github.com/nuxt-community/speedcurve-module
 website: https://speedcurve.nuxtjs.org
-learn_more: https://speedcurve.com
+learn_more: https://www.speedcurve.com/
 category: Analytics
 type: community
 maintainers:

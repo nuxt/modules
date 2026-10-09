@@ -3,7 +3,7 @@ description: Lazy loading library for placeholder images
 repo: johannschopplich/unlazy#main/packages/nuxt
 npm: '@unlazy/nuxt'
 icon: unlazy.svg
-github: https://github.com/johannschopplich/unlazy/tree/main/packages/nuxt
+github: https://github.com/johannschopplich/unlazy
 website: https://unlazy.byjohann.dev/
 learn_more: ''
 category: Images

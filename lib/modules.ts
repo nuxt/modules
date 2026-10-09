@@ -5,22 +5,18 @@ import * as yml from 'js-yaml'
 import { globby } from 'globby'
 import defu from 'defu'
 import pLimit from 'p-limit'
-import { $fetch } from 'ofetch'
-import { isCI } from 'std-env'
 import { Octokit } from '@octokit/rest'
-import dotenv from 'dotenv'
 
 import { categories } from './categories.ts'
-import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback } from './types.ts'
-import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, userAgent, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists } from './utils.ts'
+import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback, SyncWarning } from './types.ts'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
-
-dotenv.config()
 
 export async function sync(name: string, repo?: string, isNew: boolean = false): Promise<SyncResult> {
   const mod = await getModule(name)
   const regressions: SyncRegression[] = []
+  const warnings: string[] = []
 
   // Store original values for regression detection
   const originalWebsite = mod.website
@@ -39,19 +35,34 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   if (!mod.repo && repo) {
     mod.repo = repo
   }
-  if (!mod.github) {
-    mod.github = `https://github.com/${mod.repo.replace('#', '/tree/')}`
+  // Check if the GitHub org/repo has been moved/renamed
+  try {
+    const newOwnerRepo = await checkGithubRepoRedirect(mod.repo)
+    if (newOwnerRepo) {
+      // Preserve any #branch/path suffix
+      const hashIndex = mod.repo.indexOf('#')
+      const suffix = hashIndex !== -1 ? mod.repo.slice(hashIndex) : ''
+      mod.repo = newOwnerRepo + suffix
+    }
   }
+  catch (err) {
+    warnings.push(`Could not check repo redirect for ${mod.repo}: ${err}`)
+  }
+
+  // Always derive github URL from repo
+  mod.github = `https://github.com/${mod.repo.split('#')[0]}`
   if (!mod.website) {
     mod.website = mod.github
   }
+
+  await sleep(FETCH_DELAY)
 
   // Fetch latest package.json from github
   const pkg = await fetchGithubPkg(mod.repo)
   mod.npm = pkg.name || mod.npm
 
   // Type
-  if (mod.repo.startsWith('nuxt-community/') || mod.repo.startsWith('nuxt-modules/')) {
+  if (mod.repo.startsWith('nuxt-community/') || mod.repo.startsWith('nuxt-modules/') || mod.repo.startsWith('nuxt-content/')) {
     mod.type = 'community'
   }
   else if (mod.repo.startsWith('nuxt/')) {
@@ -67,7 +78,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
       throw new Error(`No category for ${name}`)
     }
     else {
-      console.log(`[TODO] Add a category to ./modules/${name}.yml`)
+      warnings.push(`[TODO] Add a category to ./modules/${name}.yml`)
     }
   }
   else if (!categories.includes(mod.category)) {
@@ -83,31 +94,33 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     }
   }
 
-  // ci is flaky with external links
-  if (!isCI) {
-    for (const key of ['website', 'learn_more'] as const) {
-      if (mod[key] && !mod[key].includes('github.com')) {
-        const npmPackage = parseNpmUrl(mod[key])
-        if (npmPackage) {
+  for (const key of ['website', 'learn_more'] as const) {
+    if (mod[key]) {
+      const npmPackage = parseNpmUrl(mod[key])
+      if (npmPackage) {
+        try {
           const exists = await npmPackageExists(npmPackage)
           if (!exists) {
-            throw new Error(`${key} link references non-existent npm package "${npmPackage}" for ${mod.name}`)
+            warnings.push(`${key} link references non-existent npm package "${npmPackage}"`)
           }
         }
-        else {
-          try {
-            // we just need to test that we get a 200 response (or a valid redirect)
-            await $fetch(mod[key], {
-              headers: {
-                'user-agent': userAgent,
-              },
-            })
-          }
-          catch (err) {
-            throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
-          }
+        catch (err) {
+          warnings.push(`Could not check npm package "${npmPackage}": ${err}`)
         }
       }
+      else {
+        try {
+          // Validate the URL and check for redirects in a single request
+          const redirectedUrl = await checkWebsiteRedirect(mod[key])
+          if (redirectedUrl) {
+            mod[key] = redirectedUrl
+          }
+        }
+        catch (err) {
+          warnings.push(`Could not validate ${key} URL: ${err}`)
+        }
+      }
+      await sleep(FETCH_DELAY)
     }
   }
 
@@ -149,7 +162,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     }
   }
   if (invalidFields.length) {
-    console.warn(`Invalid fields for ./modules/${mod.name}.yml`, invalidFields)
+    warnings.push(`Invalid fields in ./modules/${mod.name}.yml: ${invalidFields.join(', ')}`)
   }
 
   // Auto name
@@ -180,7 +193,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
       throw new Error(`No maintainer for ${mod.name}`)
     }
     else {
-      console.log(`[TODO] Add a maintainer to ./modules/${name}.yml`)
+      warnings.push(`[TODO] Add a maintainer to ./modules/${name}.yml`)
     }
   }
 
@@ -188,7 +201,6 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     const client = new Octokit({ auth: `Bearer ${process.env.GITHUB_TOKEN}` })
     for (const maintainer of mod.maintainers) {
       if (!(maintainer.github in maintainerSocialCache)) {
-        console.log('Syncing maintainer socials with GitHub')
         maintainerSocialCache[maintainer.github] = await client.graphql<{ user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }>({
           query: `
               query ($login: String!) {
@@ -232,7 +244,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
         mod.archived = data.archived || undefined // only set if true
       }
       catch (err) {
-        console.warn(`Could not check archived status for ${mod.repo}: ${err}`)
+        warnings.push(`Could not check archived status for ${mod.repo}: ${err}`)
       }
     }
   }
@@ -242,12 +254,19 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     mod.description = pkg.description
   }
 
-  const majorVersions = await getMajorVersions(mod.npm)
+  let majorVersions: string[] = []
+  try {
+    majorVersions = await getMajorVersions(mod.npm)
+  }
+  catch (err) {
+    warnings.push(`Could not fetch major versions for ${mod.npm}: ${err}`)
+  }
 
   const nuxtCompatibilities: string[] = []
   let latestModuleJson: { docs?: string, compatibility?: { nuxt?: string } } | null = null
 
   for (const version of majorVersions) {
+    await sleep(FETCH_DELAY)
     const moduleJson = await fetchModuleJson(mod.npm, version)
     if (moduleJson) {
       // Keep the latest module.json for other metadata
@@ -283,7 +302,19 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
 
   // Always use docs URL from module.json if present (module is source of truth)
   if (latestModuleJson?.docs) {
-    const newWebsite = latestModuleJson.docs
+    let newWebsite = latestModuleJson.docs
+
+    // Re-validate docs URL for redirects before using it
+    await sleep(FETCH_DELAY)
+    try {
+      const redirectedUrl = await checkWebsiteRedirect(newWebsite)
+      if (redirectedUrl) {
+        newWebsite = redirectedUrl
+      }
+    }
+    catch {
+      // If we can't validate the docs URL, use it as-is
+    }
 
     // Detect docs URL regression: was a real docs site, now it's just GitHub
     const wasRealDocsUrl = isRealDocsUrl(originalWebsite)
@@ -305,7 +336,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   // Write module
   await writeModule(mod)
 
-  return { module: mod, regressions }
+  return { module: mod, regressions, warnings }
 }
 
 export async function getModule(name: string): Promise<ModuleInfo> {
@@ -348,13 +379,15 @@ export async function readModules() {
     .then(modules => modules.filter(m => m.name))
 }
 
-export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAllResult> {
-  const modules = await readModules()
+export async function syncAll(onProgress?: SyncProgressCallback, only?: string[]): Promise<SyncAllResult> {
+  const allModules = await readModules()
+  const modules = only ? allModules.filter(module => only.includes(module.name)) : allModules
   const total = modules.length
   const synced: string[] = []
   const errors: SyncError[] = []
   const regressions: SyncRegression[] = []
   const archivedModules: string[] = []
+  const warnings: SyncWarning[] = []
 
   let completed = 0
   const limit = pLimit(10)
@@ -370,6 +403,9 @@ export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAl
       if (result.module.archived) {
         archivedModules.push(module.name)
       }
+      for (const message of result.warnings) {
+        warnings.push({ moduleName: module.name, message })
+      }
     }
     catch (err) {
       errors.push({
@@ -383,7 +419,7 @@ export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAl
     }
   })))
 
-  return { total, synced, errors, regressions, archivedModules }
+  return { total, synced, errors, regressions, archivedModules, warnings }
 }
 
 export async function build() {

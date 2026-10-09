@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.sha }}
+
 permissions:
   contents: read
 
@@ -15,14 +18,18 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
-      - run: corepack enable
-      - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
-          node-version: lts/*
-          cache: "pnpm"
+          persist-credentials: false
 
-      - run: pnpm install
+      - uses: pnpm/setup@fbda4c85fc2e1e08721cd8763afea8f48d60f024 # v3
+        with:
+          cache: true
+          install: false
+
+      - name: Install dependencies
+        run: pnpm install
 
       - name: Lint
         # these run in the autofix workflow on pull requests
@@ -33,7 +40,7 @@ jobs:
         run: pnpm tsc --noEmit
 
       - name: Sync
-        run: pnpm sync
+        run: pnpm sync --fail-on-archived
         # these run in the autofix workflow on pull requests
         if: github.event_name == 'push'
         env:
