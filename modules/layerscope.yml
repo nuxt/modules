@@ -4,7 +4,7 @@ repo: hamedniroomand/nuxt-layerscope#main/packages/layerscope
 npm: nuxt-layerscope
 icon: layerscope.svg
 github: https://github.com/hamedniroomand/nuxt-layerscope
-website: https://hamedniroomand.github.io/nuxt-layerscope/
+website: https://layerscope.kitdev.space/
 learn_more: ''
 category: Devtools
 type: 3rd-party
