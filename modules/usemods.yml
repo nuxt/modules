@@ -1,0 +1,20 @@
+name: usemods
+description: Zippy little utils for your Nuxt project.
+repo: littlefoxcompany/usemods#main/nuxt-module
+npm: usemods-nuxt
+icon: usemods.svg
+github: https://github.com/littlefoxcompany/usemods/tree/main/nuxt-module
+website: https://usemods.com
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Jeremy Butler
+    github: jrmymbtlr
+    twitter: jeremymbutler
+  - name: Phillip Hartin
+    github: philliphartin
+    twitter: philliphartin
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
