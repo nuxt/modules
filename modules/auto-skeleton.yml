@@ -11,7 +11,7 @@ learn_more: https://oleksiizlotnik.github.io/AutoSkeleton/guide/nuxt
 category: UI
 type: 3rd-party
 maintainers:
-  - name: oleksiizlotnik
+  - name: Oleksii Zlotnik
     github: oleksiizlotnik
 compatibility:
   nuxt: '>=3.10.0'
