@@ -1,0 +1,16 @@
+name: loops
+description: Loops Nuxt Module
+repo: Loops-so/loops-nuxt
+npm: nuxt-loops
+icon: ''
+github: https://github.com/Loops-so/loops-nuxt
+website: https://github.com/Loops-so/loops-nuxt
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Loops-so
+    github: Loops-so
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
