@@ -1,0 +1,15 @@
+name: nuxt-protected-mailto
+description: Protect email from spam without sacrificing usability
+repo: mmoollllee/nuxt-protected-mailto
+npm: nuxt-protected-mailto
+github: https://github.com/mmoollllee/nuxt-protected-mailto
+website: https://github.com/mmoollllee/nuxt-protected-mailto
+learn_more: https://mmoollllee.github.io/nuxt-protected-mailto/
+category: Security
+type: 3rd-party
+maintainers:
+  - name: mmoollllee
+    github: mmoollllee
+compatibility:
+  nuxt: ^2.0.0 || >=3.0.0
+  requires: {}
