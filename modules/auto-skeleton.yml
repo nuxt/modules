@@ -4,7 +4,7 @@ description: >-
   rendered layout — zero authoring, always in sync.
 repo: oleksiizlotnik/AutoSkeleton
 npm: auto-skeleton-vue
-icon: auto-skeleton-vue.svg
+icon: auto-skeleton.svg
 github: https://github.com/oleksiizlotnik/AutoSkeleton
 website: https://oleksiizlotnik.github.io/AutoSkeleton/
 learn_more: https://oleksiizlotnik.github.io/AutoSkeleton/guide/nuxt
