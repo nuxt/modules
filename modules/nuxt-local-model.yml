@@ -9,8 +9,9 @@ learn_more: ''
 category: AI
 type: 3rd-party
 maintainers:
-  - name: Aft1n
+  - name: Serhii Yarochevskyi
     github: Aft1n
+    bluesky: aft1n.github.io
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
