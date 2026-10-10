@@ -1,0 +1,16 @@
+name: nuxt-local-model
+description: A Nuxt module for local in-app Hugging Face transformer models.
+repo: Aft1n/nuxt-local-model
+npm: nuxt-local-model
+icon: ''
+github: https://github.com/Aft1n/nuxt-local-model
+website: https://github.com/Aft1n/nuxt-local-model#readme
+learn_more: ''
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Aft1n
+    github: Aft1n
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
