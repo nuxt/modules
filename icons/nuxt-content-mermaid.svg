@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Nuxt Content Mermaid icon</title>
+  <defs>
+    <linearGradient id="icon-green" x1="14" y1="8" x2="84" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="oklch(76.5% .177 163.223)"/>
+      <stop offset="1" stop-color="#00C16F"/>
+    </linearGradient>
+    <linearGradient id="icon-highlight" x1="48" y1="2" x2="48" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity=".22"/>
+      <stop offset=".28" stop-color="#FFFFFF" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#001F17" stop-opacity=".12"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="92" height="92" rx="16" fill="url(#icon-green)"/>
+  <rect x="2.5" y="2.5" width="91" height="91" rx="15.5" fill="url(#icon-highlight)"/>
+  <rect x="2.5" y="2.5" width="91" height="91" rx="15.5" stroke="#FFFFFF" stroke-opacity=".16"/>
+  <path d="M 54.056179,70.46528 C 54.575281,70.144457 55,67.640597 55,64.901145 c 0,-6.430263 2.58061,-11.367855 8.508894,-16.28043 5.59664,-4.637754 10.999352,-12.753399 12.68448,-19.053903 1.055848,-3.947697 1.004451,-4.797558 -0.373472,-6.175481 -1.459469,-1.459469 -2.067006,-1.461413 -7.016866,-0.02245 C 61.770785,25.413212 56.029966,29.339134 51.429449,35.25 49.3961,37.8625 47.197221,40 46.543051,40 45.888881,40 43.464737,37.677934 41.156063,34.839854 35.497791,27.884072 30.1815,24.160321 24.355233,23.071856 18.504851,21.978887 17,22.91672 17,27.655688 c 0,5.059038 4.390949,12.808571 10.624042,18.750245 8.124997,7.745125 9.361646,10.027785 9.369369,17.294377 0.0051,4.842812 0.386848,6.413114 1.743407,7.172282 1.756537,0.983008 13.578356,0.668688 15.319361,-0.407312 z" fill="#FFFFFF" transform="translate(1.5 1)"/>
+</svg>
