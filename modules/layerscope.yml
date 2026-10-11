@@ -13,5 +13,5 @@ maintainers:
     github: hamedniroomand
     avatar: https://avatars.githubusercontent.com/hamedniroomand?v=4
 compatibility:
-  nuxt: '>=3.12.0'
+  nuxt: ^3.12.0 || ^4.0.0
   requires: {}
