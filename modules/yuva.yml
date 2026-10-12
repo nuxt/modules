@@ -1,0 +1,18 @@
+name: yuva
+description: >-
+  Live chat, documentation page feedback and discussions, newsletter subscribe
+  forms and cookieless analytics from Yuva, the open-source customer inbox.
+repo: productdevbook/yuva#main/sdk/js
+npm: useyuva
+icon: yuva.svg
+github: https://github.com/productdevbook/yuva
+website: https://useyuva.com
+learn_more: https://useyuva.com/docs/widget/
+category: UI
+type: 3rd-party
+maintainers:
+  - name: productdevbook
+    github: productdevbook
+compatibility:
+  nuxt: '>=3.15.0'
+  requires: {}
