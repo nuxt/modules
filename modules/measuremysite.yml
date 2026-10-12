@@ -1,0 +1,16 @@
+name: measuremysite
+description: Cookieless web analytics your AI agent can read
+repo: developeron29/measuremysite-nuxt
+npm: nuxt-measuremysite
+icon: measuremysite.svg
+github: https://github.com/developeron29/measuremysite-nuxt
+website: https://measuremy.site
+learn_more: https://measuremy.site/docs/install
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Ayush Narula
+    github: developeron29
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
