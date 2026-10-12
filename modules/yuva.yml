@@ -11,8 +11,9 @@ learn_more: https://useyuva.com/docs/widget/
 category: UI
 type: 3rd-party
 maintainers:
-  - name: productdevbook
+  - name: Wind
     github: productdevbook
+    twitter: productdevbook
 compatibility:
   nuxt: '>=3.15.0'
   requires: {}
