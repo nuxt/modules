@@ -1,0 +1,18 @@
+name: nuxt-maplibre-gl
+description: >-
+  Nuxt module for vue3-maplibre-gl — auto-import components, composables, CSS,
+  and SSR configuration
+repo: danh121097/vue-maplibre-gl#master/nuxt
+npm: nuxt-maplibre-gl
+icon: maplibre.png
+github: https://github.com/danh121097/vue-maplibre-gl
+website: https://vue-maplibre-gl.pages.dev/
+learn_more: https://vue-maplibre-gl.pages.dev/guide/getting-started
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Harry Nguyen
+    github: danh121097
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
