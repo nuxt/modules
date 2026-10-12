@@ -13,6 +13,6 @@ maintainers:
     github: harlan-zw
     twitter: harlan_zw
 compatibility:
-  nuxt: '^4.6.1 || ^5.0.0'
+  nuxt: '>=3.7.0'
   requires: {}
 mcp: https://nuxtseo.com/mcp
