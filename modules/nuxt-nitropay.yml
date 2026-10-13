@@ -9,7 +9,7 @@ learn_more: https://nitropay.com/docs
 category: Analytics
 type: 3rd-party
 maintainers:
-  - name: Kyle Lauber
+  - name: Kylegl
     github: kylegl
 compatibility:
   nuxt: '>=3.0.0'
