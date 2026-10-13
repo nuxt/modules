@@ -4,7 +4,7 @@ description: >-
   4 with built-in stampede protection and DevTools dashboard.
 repo: narr07/nuxt-gsheet#master
 npm: nuxt-gsheet
-icon: ''
+icon: gsheet.svg
 github: https://github.com/narr07/nuxt-gsheet
 website: https://nuxtgsheet.permadi.dev
 learn_more: https://nuxtgsheet.permadi.dev
