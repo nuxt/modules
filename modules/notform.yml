@@ -5,7 +5,7 @@ npm: notform-nuxt
 icon: notform.svg
 github: https://github.com/favorodera/notform
 website: https://notformdocs.vercel.app
-learn_more: https://notformdocs.vercel.app/get-started/nuxt-module
+learn_more: https://notformdocs.vercel.app/docs/getting-started/nuxt-module
 category: Libraries
 type: 3rd-party
 maintainers:
