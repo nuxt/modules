@@ -13,6 +13,7 @@ maintainers:
     github: Norbiros
     avatar: https://avatars.githubusercontent.com/u/89837724?v=4
     twitter: norbiros_dev
+    bluesky: norbiros.dev
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

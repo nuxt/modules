@@ -1,10 +1,10 @@
 name: netlify
 description: Local emulation of the Netlify platform in development
-repo: netlify/primitives#main/packages/nuxt-module
+repo: netlify/framework-adapters#main/packages/nuxt-module
 npm: '@netlify/nuxt'
 icon: netlify.svg
-github: https://github.com/netlify/primitives
-website: https://github.com/netlify/primitives#readme
+github: https://github.com/netlify/framework-adapters
+website: https://github.com/netlify/framework-adapters#readme
 learn_more: https://npmx.dev/package/@netlify/nuxt
 category: Deployment
 type: 3rd-party
