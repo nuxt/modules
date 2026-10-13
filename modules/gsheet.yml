@@ -1,7 +1,7 @@
 name: gsheet
 description: >-
-  Zero-config, high-performance, secure Google Sheets integration for Nuxt 3 and
-  4 with built-in stampede protection and DevTools dashboard.
+  Zero-config, high-performance, secure Google Sheets integration for Nuxt 3, 4
+  and 5 with built-in stampede protection and DevTools dashboard.
 repo: narr07/nuxt-gsheet#master
 npm: nuxt-gsheet
 icon: gsheet.svg
