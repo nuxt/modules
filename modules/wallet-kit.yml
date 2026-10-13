@@ -1,5 +1,7 @@
 name: wallet-kit
-description: 'Zero-config wagmi for Nuxt: SSR-safe wallet state and Nuxt UI wallet components'
+description: >-
+  Zero-config wagmi for Nuxt: SSR-safe wallet state and Nuxt UI wallet
+  components
 repo: MaximeBignolet/nuxt-wallet-kit
 npm: nuxt-wallet-kit
 icon: ''
