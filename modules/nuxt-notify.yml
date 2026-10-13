@@ -19,23 +19,3 @@ maintainers:
 compatibility:
   nuxt: ^3.0.0 || ^4.0.0
   requires: {}
-aliases:
-  - toast
-  - notifications
-  - notify
-  - toast-notifications
-  - toastify
-  - snackbar
-  - snackbars
-  - alert
-  - alerts
-  - notifier
-  - nuxt-toast
-  - vue-toast
-  - messages
-  - notification
-  - toast-message
-  - toast-messages
-  - ui-toast
-  - flash-message
-  - flash-messages
