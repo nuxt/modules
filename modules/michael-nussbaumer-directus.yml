@@ -1,0 +1,16 @@
+name: michael-nussbaumer-directus
+description: Nuxt 4 module for Directus SDK with auth and TypeScript type generation
+repo: Michael-Nussbaumer/nuxt-directus-module
+npm: '@michael-nussbaumer/nuxt-directus'
+icon: ''
+github: https://github.com/Michael-Nussbaumer/nuxt-directus-module
+website: https://github.com/Michael-Nussbaumer/nuxt-directus-module
+learn_more: ''
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Michael Nussbaumer
+    github: Michael-Nussbaumer
+compatibility:
+  nuxt: ^3.0.0 || ^4.0.0
+  requires: {}
