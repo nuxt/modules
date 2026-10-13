@@ -1,0 +1,16 @@
+name: simple-donation
+description: A customizable PayPal donation module for Nuxt 3 and Nuxt 4 projects
+repo: giovannimanetti11/Simple-donation
+npm: simple-donation
+icon: simple-donation.svg
+github: https://github.com/giovannimanetti11/Simple-donation
+website: https://github.com/giovannimanetti11/Simple-donation
+learn_more: https://wikiherbalist.com/donazioni
+category: Payment
+type: 3rd-party
+maintainers:
+  - name: Giovanni Manetti
+    github: giovannimanetti11
+compatibility:
+  nuxt: '^3.0.0 || ^4.0.0'
+  requires: {}
