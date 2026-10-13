@@ -9,7 +9,7 @@ learn_more: ''
 category: UI
 type: 3rd-party
 maintainers:
-  - name: Ray0907
+  - name: Ray Tien
     github: Ray0907
 compatibility:
   nuxt: '>=4.0.0'
