@@ -5,7 +5,7 @@ npm: '@nuxtjs/emotion'
 icon: emotion.png
 github: https://github.com/nuxt-modules/emotion
 website: https://github.com/nuxt-modules/emotion
-learn_more: https://emotion.sh/
+learn_more: https://emotion.sh/docs/introduction
 category: Extensions
 type: community
 maintainers:

@@ -1,11 +1,11 @@
 name: sentry
-description: Official Sentry SDK for Nuxt (EXPERIMENTAL)
+description: Sentry SDK for Nuxt
 repo: getsentry/sentry-javascript#HEAD/packages/nuxt
 npm: '@sentry/nuxt'
 icon: sentry.svg
-github: https://github.com/getsentry/sentry-javascript/tree/HEAD/packages/nuxt
+github: https://github.com/getsentry/sentry-javascript
 website: https://docs.sentry.io/platforms/javascript/guides/nuxt
-learn_more: https://sentry.io
+learn_more: https://sentry.io/welcome/
 category: Monitoring
 type: 3rd-party
 maintainers:

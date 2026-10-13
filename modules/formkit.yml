@@ -16,5 +16,5 @@ maintainers:
     github: andrew-boyd
     twitter: 0xBOYD
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.0.0 <5.0.0'
   requires: {}

@@ -5,7 +5,7 @@ npm: '@nuxtjs/hanko'
 icon: hanko.svg
 github: https://github.com/nuxt-modules/hanko
 website: https://github.com/nuxt-modules/hanko
-learn_more: https://hanko.io/
+learn_more: https://www.hanko.io/
 category: Security
 type: community
 maintainers:

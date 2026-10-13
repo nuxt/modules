@@ -5,7 +5,7 @@ npm: nuxt-logrocket
 icon: logrocket.png
 github: https://github.com/nuxt-modules/logrocket
 website: https://github.com/nuxt-modules/logrocket
-learn_more: https://docs.logrocket.com/docs
+learn_more: https://docs.logrocket.com/docs/introduction
 category: Monitoring
 type: community
 maintainers:

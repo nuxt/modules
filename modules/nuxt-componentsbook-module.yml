@@ -1,0 +1,16 @@
+name: nuxt-componentsbook-module
+description: Storybook-like experience for Nuxt components
+repo: s00d/nuxt-componentsbook-module
+npm: nuxt-componentsbook-module
+icon: nuxt-componentsbook-module.png
+github: https://github.com/s00d/nuxt-componentsbook-module
+website: https://github.com/s00d/nuxt-componentsbook-module
+learn_more: https://www.npmjs.com/package/nuxt-componentsbook-module
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Pavel Kuzmin
+    github: s00d
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
