@@ -1,0 +1,16 @@
+name: drop
+description: Opt-in browser behaviors for static Nuxt routes
+repo: ilsrbn/drop
+npm: '@ilsrbn/drop'
+icon: drop.png
+github: https://github.com/ilsrbn/drop
+website: https://github.com/ilsrbn/drop
+learn_more: ''
+category: Performance
+type: 3rd-party
+maintainers:
+  - name: ilsrbn
+    github: ilsrbn
+compatibility:
+  nuxt: ^4.5.0
+  requires: {}
