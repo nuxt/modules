@@ -483,13 +483,17 @@ export async function checkWebsiteRedirect(url: string): Promise<string | null> 
   const fragment = hashIndex !== -1 ? url.slice(hashIndex) : ''
   const urlWithoutFragment = hashIndex !== -1 ? url.slice(0, hashIndex) : url
 
-  const response = await ofetch.raw(urlWithoutFragment, {
-    method: 'HEAD',
+  const fetchUrl = (method: 'HEAD' | 'GET') => ofetch.raw(urlWithoutFragment, {
+    method,
     redirect: 'follow',
     retry: 3,
     retryDelay: 500,
+    responseType: method === 'GET' ? 'text' : undefined,
     headers: { 'user-agent': userAgent },
   })
+
+  // Some servers reject HEAD requests even though the page is reachable via GET
+  const response = await fetchUrl('HEAD').catch(() => fetchUrl('GET'))
 
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`)
