@@ -1,0 +1,16 @@
+name: wallet-kit
+description: 'Zero-config wagmi for Nuxt: SSR-safe wallet state and Nuxt UI wallet components'
+repo: MaximeBignolet/nuxt-wallet-kit
+npm: nuxt-wallet-kit
+icon: ''
+github: https://github.com/MaximeBignolet/nuxt-wallet-kit
+website: https://github.com/MaximeBignolet/nuxt-wallet-kit
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Maxime Bignolet
+    github: MaximeBignolet
+compatibility:
+  nuxt: ^3.19.0 || >=4.1.0
+  requires: {}
