@@ -1,8 +1,8 @@
 name: vue-equipment
-description: Our Frontend Toolkit, Free and Open Source
+description: A collection of ready-to-use plugins and composables for building modern web applications. Unstyled, fully typed and with a flexible, yet opinionated API.
 repo: magicasaservice/vue-equipment
 npm: '@maas/vue-equipment'
-icon: ''
+icon: vue-equipment.svg
 github: https://github.com/magicasaservice/vue-equipment
 website: https://vue.equipment
 learn_more: https://vue.equipment
