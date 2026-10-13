@@ -14,7 +14,6 @@ maintainers:
   - name: Yaël Guilloux
     github: Tahul
     twitter: yaeeelglx
-    bluesky: yael.dev
 compatibility:
   nuxt: '>=3.8.0'
   requires: {}
