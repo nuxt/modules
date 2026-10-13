@@ -1,0 +1,16 @@
+name: otel
+description: OpenTelemetry tracing for Nuxt applications
+repo: lutejka/nuxt-otel
+npm: '@lutejka/nuxt-otel'
+icon: 'otel.svg'
+github: https://github.com/lutejka/nuxt-otel
+website: https://lutejka.github.io/nuxt-otel/
+learn_more: ''
+category: Monitoring
+type: 3rd-party
+maintainers:
+  - name: lutejka
+    github: lutejka
+compatibility:
+  nuxt: '>=4.5.0'
+  requires: {}
