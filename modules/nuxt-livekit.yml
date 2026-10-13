@@ -1,0 +1,20 @@
+name: nuxt-livekit
+description: >-
+  LiveKit integration for Nuxt: realtime video, audio, and data with client
+  composables and server utilities
+repo: nuxtaid/nuxt-livekit
+npm: nuxt-livekit
+icon: nuxt-livekit.svg
+github: https://github.com/nuxtaid/nuxt-livekit
+website: https://github.com/nuxtaid/nuxt-livekit#readme
+learn_more: https://docs.livekit.io/intro/overview/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Arash Ari Sheyda
+    github: arashsheyda
+    twitter: arash_sheyda
+    bluesky: arashsheyda.me
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

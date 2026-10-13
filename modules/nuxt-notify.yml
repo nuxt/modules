@@ -1,0 +1,21 @@
+name: nuxt-notify
+description: >-
+  Toast notifications for Nuxt 3/4. Tailwind CSS + Nuxt Icon with actions,
+  avatars, progress bars, themes, and per-toast UI overrides. Lightweight (~1.6
+  kB gzipped), type-safe, and SSR-friendly.
+repo: nizaamomer/nuxt-notify
+npm: nuxt-notify
+icon: nuxt-notify.png
+github: https://github.com/nizaamomer/nuxt-notify
+website: https://nuxt-notify.nizaamomer.com
+learn_more: https://nuxt-notify.nizaamomer.com/docs/getting-started/introduction
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Nizam Omer
+    github: nizaamomer
+  - name: Levi Labs
+    github: levilabs-dev
+compatibility:
+  nuxt: ^3.0.0 || ^4.0.0
+  requires: {}
