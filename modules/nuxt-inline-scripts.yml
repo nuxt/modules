@@ -11,7 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Dante
     github: Dante-dan
-    twitter: Dante21299538
+    twitter: duanjl_china
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
