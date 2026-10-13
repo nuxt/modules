@@ -4,7 +4,7 @@ description: >-
   Outscraper with built-in content moderation.
 repo: eralpozcan/nuxt-reviews
 npm: nuxt-reviews
-icon: ''
+icon: reviews.png
 github: https://github.com/eralpozcan/nuxt-reviews
 website: https://nuxt-reviews.netlify.app
 learn_more: ''
