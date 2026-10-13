@@ -11,7 +11,6 @@ type: 3rd-party
 maintainers:
   - name: Yue JIN
     github: kingyue737
-    twitter: kingyue737
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
