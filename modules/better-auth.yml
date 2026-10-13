@@ -1,0 +1,20 @@
+name: better-auth
+description: >-
+  Nuxt module for Better Auth integration with NuxtHub, route protection,
+  session management, and role-based access
+repo: nuxt-modules/better-auth
+npm: '@nuxtjs/better-auth'
+icon: better-auth.svg
+github: https://github.com/nuxt-modules/better-auth
+website: https://better-auth.nuxt.dev
+learn_more: https://better-auth.com/
+category: Security
+type: community
+maintainers:
+  - name: Max
+    github: onmax
+    twitter: _onmax
+    bluesky: onmax.bsky.social
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}

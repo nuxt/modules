@@ -7,7 +7,7 @@ npm: nuxt-highlight
 icon: nuxt-highlight.svg
 github: https://github.com/nuxtaid/nuxt-highlight
 website: https://github.com/nuxtaid/nuxt-highlight#readme
-learn_more: https://highlight.io/docs/general/welcome
+learn_more: https://launchdarkly.com/
 category: Monitoring
 type: 3rd-party
 maintainers:
