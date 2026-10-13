@@ -11,8 +11,9 @@ learn_more: ''
 category: Libraries
 type: 3rd-party
 maintainers:
-  - name: memotux
+  - name: Romeo Méndez Fuentes
     github: memotux
+    twitter: mendeztechsv
 compatibility:
   nuxt: '>=4.4.7'
   requires: {}
