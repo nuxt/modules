@@ -9,7 +9,7 @@ learn_more: https://nuxtpdfkit.permadi.dev
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: narr07
+  - name: Dinar, Permadi
     github: narr07
 compatibility:
   nuxt: '>=3.0.0'
