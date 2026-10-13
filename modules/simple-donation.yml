@@ -12,5 +12,5 @@ maintainers:
   - name: Giovanni Manetti
     github: giovannimanetti11
 compatibility:
-  nuxt: '^3.0.0 || ^4.0.0'
+  nuxt: ^3.0.0 || ^4.0.0
   requires: {}
