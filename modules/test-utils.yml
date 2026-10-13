@@ -4,7 +4,7 @@ repo: nuxt/test-utils#main
 npm: '@nuxt/test-utils'
 icon: nuxt.svg
 github: https://github.com/nuxt/test-utils
-website: https://nuxt.com/docs/getting-started/testing
+website: https://nuxt.com/docs/4.x/getting-started/testing
 learn_more: ''
 category: Devtools
 type: official

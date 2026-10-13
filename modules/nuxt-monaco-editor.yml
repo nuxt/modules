@@ -13,5 +13,5 @@ maintainers:
     github: e-chan1007
     twitter: e_chan1007
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.1.0'
   requires: {}

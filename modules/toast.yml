@@ -1,10 +1,10 @@
 name: toast
 description: Responsive Touch Compatible Toast plugin for Nuxt using vue-toasted
-repo: nuxt-community/modules#master/packages/toast
+repo: nuxt-community/legacy-modules#master/packages/toast
 npm: '@nuxtjs/toast'
 icon: ''
-github: https://github.com/nuxt-community/community-modules/tree/master/packages/toast
-website: https://github.com/nuxt-community/community-modules/tree/master/packages/toast
+github: https://github.com/nuxt-community/legacy-modules
+website: https://github.com/nuxt-community/legacy-modules/tree/master/packages/toast
 learn_more: https://github.com/shakee93/vue-toasted
 category: Libraries
 type: community

@@ -1,0 +1,16 @@
+name: nuxt-zod
+description: Zod integration for Nuxt with a simple composable.
+repo: DarlanPrado/nuxt-zod
+npm: nuxt-zod
+icon: nuxt-zod.svg
+github: https://github.com/DarlanPrado/nuxt-zod
+website: https://github.com/DarlanPrado/nuxt-zod
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Darlan José Batista do Prado
+    github: DarlanPrado
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
