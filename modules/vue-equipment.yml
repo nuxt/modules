@@ -1,0 +1,16 @@
+name: vue-equipment
+description: Our Frontend Toolkit, Free and Open Source
+repo: magicasaservice/vue-equipment
+npm: '@maas/vue-equipment'
+icon: ''
+github: https://github.com/magicasaservice/vue-equipment
+website: https://vue.equipment
+learn_more: https://vue.equipment
+category: UI
+type: 3rd-party
+maintainers:
+  - name: magicasaservice
+    github: magicasaservice
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
