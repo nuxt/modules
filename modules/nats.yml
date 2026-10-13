@@ -7,12 +7,12 @@ repo: lithqube/nuxt-nats
 npm: nuxt-nats
 icon: nuxt-nats.png
 github: https://github.com/lithqube/nuxt-nats
-website: ''
+website: https://github.com/lithqube/nuxt-nats
 learn_more: https://docs.nats.io/
 category: Database
 type: 3rd-party
 maintainers:
-  - name: lithqube
+  - name: Cristhian Ferrufino
     github: lithqube
 compatibility:
   nuxt: '>=3.0.0'
