@@ -5,8 +5,8 @@ description: >-
 repo: forinda/nuxt-swal
 npm: nuxt-swal
 icon: ''
-github: https://github.com/forinda/nuxt-swal.git
-website: https://github.com/forinda/nuxt-swal.git
+github: https://github.com/forinda/nuxt-swal
+website: https://github.com/forinda/nuxt-swal
 learn_more: https://sweetalert2.github.io/
 category: Libraries
 type: 3rd-party
