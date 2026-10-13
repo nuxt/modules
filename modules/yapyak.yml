@@ -11,6 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Joakim Uhrwing
     github: qwuide
+    twitter: qwuide
 compatibility:
   nuxt: '>=4.1.0'
   requires: {}
