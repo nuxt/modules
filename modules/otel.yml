@@ -2,7 +2,7 @@ name: otel
 description: OpenTelemetry tracing for Nuxt applications
 repo: lutejka/nuxt-otel
 npm: '@lutejka/nuxt-otel'
-icon: 'otel.svg'
+icon: otel.svg
 github: https://github.com/lutejka/nuxt-otel
 website: https://lutejka.github.io/nuxt-otel/
 learn_more: ''
