@@ -36,7 +36,7 @@ To list a module, open a pull request directly. You don't need to open an issue 
 3. Set `category` in the generated file to one of the values in [./lib/categories.ts](./lib/categories.ts). Optionally add an icon to [./icons](./icons) and reference it with `icon`.
 4. Open a pull request.
 
-If your module mainly loads a third-party script (analytics, tag manager, chat widget, consent manager, captcha, ads or embed), check whether [Nuxt Scripts](https://scripts.nuxt.com/scripts) already supports it. If it doesn't, consider adding it to the [Nuxt Scripts registry](https://github.com/nuxt/scripts) instead of publishing a separate module.
+If your module mainly loads a third-party script (analytics, tag manager, chat widget, consent manager, captcha, ads or embed), check whether [Nuxt Scripts](https://scripts.nuxt.com/scripts) already supports it. If it doesn't, consider adding it to the [Nuxt Scripts registry](https://github.com/nuxt/scripts). Modules that build on Nuxt Scripts are welcome too, for example when they add more than an API for the script, or when the script isn't a fit for the registry.
 
 If some data is outdated, please open a pull request with the fix.
 
