@@ -1,0 +1,16 @@
+name: utm
+description: A Nuxt 3/4 module for tracking UTM parameters.
+repo: stackbuilders/nuxt-utm
+npm: nuxt-utm
+icon: ''
+github: https://github.com/stackbuilders/nuxt-utm
+website: https://github.com/stackbuilders/nuxt-utm
+learn_more: ''
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: stackbuilders
+    github: stackbuilders
+compatibility:
+  nuxt: ^3.0.0 || ^4.0.0
+  requires: {}
