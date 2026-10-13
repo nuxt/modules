@@ -5,12 +5,12 @@ npm: nuxt-chatgpt
 icon: chatgpt.svg
 github: https://github.com/schnapsterdog/nuxt-chatgpt
 website: https://github.com/schnapsterdog/nuxt-chatgpt
-learn_more: https://github.com/schnapsterdog/nuxt-chatgpt/blob/main/README.md
+learn_more: https://github.com/schnapsterdog/nuxt-chatgpt/blob/master/README.md
 category: Libraries
 type: 3rd-party
 maintainers:
   - name: Oliver Trajceski
     github: schnapsterdog
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.0.0 <5.0.0'
   requires: {}

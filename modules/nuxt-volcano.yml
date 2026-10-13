@@ -1,0 +1,20 @@
+name: nuxt-volcano
+description: >-
+  A Nuxt module for Volcano Agent SDK - build AI agents with LLM reasoning and
+  MCP tools
+repo: arashsheyda/nuxt-volcano
+npm: nuxt-volcano
+icon: nuxt-volcano.png
+github: https://github.com/arashsheyda/nuxt-volcano
+website: https://github.com/arashsheyda/nuxt-volcano#readme
+learn_more: ''
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Arash Ari Sheyda
+    github: arashsheyda
+    twitter: arash_sheyda
+    bluesky: arashsheyda.me
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

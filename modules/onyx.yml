@@ -1,5 +1,5 @@
 name: onyx
-description: A design system and Vue.js component library created by Schwarz IT
+description: A design system and Vue.js component library created by Schwarz Digits
 repo: SchwarzIT/onyx#main/packages/nuxt
 npm: '@sit-onyx/nuxt'
 icon: onyx.svg
