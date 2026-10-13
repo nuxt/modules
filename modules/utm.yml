@@ -1,5 +1,5 @@
 name: utm
-description: A Nuxt 3/4 module for tracking UTM parameters.
+description: Capture UTM and Google Ads click parameters to attribute leads to campaigns
 repo: stackbuilders/nuxt-utm
 npm: nuxt-utm
 icon: ''
