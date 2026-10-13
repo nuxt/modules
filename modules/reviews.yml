@@ -11,7 +11,7 @@ learn_more: ''
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: eralpozcan
+  - name: Eralp
     github: eralpozcan
 compatibility:
   nuxt: '>=3.10.0'
