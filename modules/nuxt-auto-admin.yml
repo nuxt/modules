@@ -1,0 +1,16 @@
+name: nuxt-auto-admin
+description: Auto-generated admin panel from Drizzle schema
+repo: websideproject/nuxt-auto#main/packages/nuxt-auto-admin
+npm: '@websideproject/nuxt-auto-admin'
+icon: websideproject.png
+github: https://github.com/websideproject/nuxt-auto
+website: https://websideproject.com/docs/nuxt-auto/auto-admin/getting-started
+learn_more: ''
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: websideproject
+    github: websideproject
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
