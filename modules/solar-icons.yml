@@ -6,7 +6,7 @@ repo: saoudi-h/solar-icons#main/packages/nuxt
 npm: '@solar-icons/nuxt'
 icon: solar-icons.svg
 github: https://github.com/saoudi-h/solar-icons
-website: https://solar-icons.vercel.app/docs/packages/nuxt
+website: https://solar-icons.vercel.app/docs/v2/packages/nuxt
 learn_more: https://solar-icons.vercel.app
 category: UI
 type: 3rd-party
