@@ -5,7 +5,7 @@ npm: nuxt-sanctum-precognition
 icon: laravel.svg
 github: https://github.com/manchenkoff/nuxt-sanctum-precognition
 website: https://precognition.manchenkoff.me
-learn_more: https://laravel.com/docs/12.x/precognition
+learn_more: https://laravel.com/framework/docs/12.x/precognition
 category: Libraries
 type: 3rd-party
 maintainers:

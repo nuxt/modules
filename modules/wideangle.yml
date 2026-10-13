@@ -4,8 +4,8 @@ repo: wideangleanalytics/wideangle-nuxt
 npm: wideangle-nuxt
 icon: wideangle.png
 github: https://github.com/wideangleanalytics/wideangle-nuxt
-website: https://wideangle.co
-learn_more: https://wideangle.co/documentation/web-analytics-for-nuxt
+website: https://inputobjects.com/
+learn_more: https://inputobjects.com/
 category: Analytics
 type: 3rd-party
 maintainers:
