@@ -1,7 +1,7 @@
 name: reviews
 description: >-
-  Fetch and aggregate reviews from Google Places, Trustpilot, SerpAPI and
-  Outscraper with built-in content moderation.
+  Fetch and aggregate reviews from Google Places, Trustpilot, SerpAPI,
+  Outscraper and Booking.com with built-in content moderation.
 repo: eralpozcan/nuxt-reviews
 npm: nuxt-reviews
 icon: reviews.png
