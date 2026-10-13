@@ -1,0 +1,18 @@
+name: nuxt-protokit
+description: >-
+  Schema-driven rapid prototyping for Nuxt 4 — turn a TypeScript schema into a
+  persistent, interactive prototype in minutes
+repo: websideproject/nuxt-protokit#main/packages/nuxt-protokit
+npm: '@websideproject/nuxt-protokit'
+icon: websideproject.png
+github: https://github.com/websideproject/nuxt-protokit
+website: https://websideproject.com/docs/nuxt-protokit
+learn_more: ''
+category: UI
+type: 3rd-party
+maintainers:
+  - name: websideproject
+    github: websideproject
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
