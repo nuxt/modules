@@ -15,5 +15,5 @@ maintainers:
     github: LorexIQ
     avatar: https://avatars.githubusercontent.com/lorexiq?v=4
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

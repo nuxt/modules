@@ -1,7 +1,7 @@
 name: nuxt-users
 description: >-
-  A comprehensive user management module for Nuxt 3 and Nuxt 4 applications with
-  authentication, authorization, database support, and CLI tools
+  User management with authentication, authorization, database support and CLI
+  tools
 repo: rrd108/nuxt-users
 npm: nuxt-users
 icon: nuxt-users.png

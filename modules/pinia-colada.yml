@@ -5,7 +5,7 @@ npm: '@pinia/colada-nuxt'
 icon: pinia-colada.png
 github: https://github.com/posva/pinia-colada
 website: https://pinia-colada.esm.dev
-learn_more: ''
+learn_more: https://pinia-colada.esm.dev/nuxt.html
 category: Extensions
 type: 3rd-party
 maintainers:

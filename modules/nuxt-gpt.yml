@@ -6,7 +6,7 @@ icon: nuxt-gpt.svg
 github: https://github.com/holux-design/nuxt-GPT
 website: https://nuxt-gpt-module.vercel.app/
 learn_more: https://nuxt-gpt-module.vercel.app/usage/examples
-category: Libraries
+category: AI
 type: 3rd-party
 maintainers:
   - name: Lukas Hofstätter
