@@ -1,4 +1,4 @@
-name: api-sdk
+name: nuxt-api-sdk
 description: Turn nuxt server routes into an SDK
 repo: jamiecurnow/nuxt-api-sdk
 npm: nuxt-api-sdk
