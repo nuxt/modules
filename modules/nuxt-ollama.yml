@@ -8,7 +8,7 @@ icon: nuxt-ollama.png
 github: https://github.com/thoda-dev/nuxt-ollama
 website: https://nuxt-ollama.jericho.dev/
 learn_more: https://nuxt-ollama.jericho.dev/
-category: Libraries
+category: AI
 type: 3rd-party
 maintainers:
   - name: Thomas

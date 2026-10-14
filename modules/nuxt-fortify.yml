@@ -1,5 +1,5 @@
 name: nuxt-fortify
-description: Use Laravel fortify and sanctum with Nuxt
+description: Laravel Fortify and Sanctum authentication
 repo: dev-charles15531/nuxt-fortify
 npm: nuxt-fortify
 icon: laravel-nuxt-fortify.svg
