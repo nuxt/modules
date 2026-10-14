@@ -1,5 +1,5 @@
 name: nuxt-api-sdk
-description: Turn nuxt server routes into an SDK
+description: Generates a typed, chainable useApi() client from your Nitro server routes.
 repo: jamiecurnow/nuxt-api-sdk
 npm: nuxt-api-sdk
 icon: api-sdk.svg
