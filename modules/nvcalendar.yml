@@ -16,7 +16,3 @@ maintainers:
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
-aliases:
-  - calendar
-  - datepicker
-  - date-picker
