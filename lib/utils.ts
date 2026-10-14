@@ -410,6 +410,13 @@ export function mergeCompatibilityRanges(ranges: string[]): string {
 export const deduplicateCompatibilityRanges = mergeCompatibilityRanges
 
 /**
+ * Check that a module name is lowercase and only uses letters, numbers, hyphens and dots
+ */
+export function isValidModuleName(name: string): boolean {
+  return /^[a-z0-9]+(?:[-.][a-z0-9]+)*$/.test(name)
+}
+
+/**
  * Check if a compatibility range includes Nuxt 4.x
  */
 export function isNuxt4Compatible(range: string): boolean {

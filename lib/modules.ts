@@ -9,7 +9,7 @@ import { Octokit } from '@octokit/rest'
 
 import { categories } from './categories.ts'
 import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback, SyncWarning } from './types.ts'
-import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY } from './utils.ts'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, isValidModuleName, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
@@ -170,6 +170,10 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     mod.name = (pkg.name.startsWith('@') ? pkg.name.split('/')[1] : pkg.name)
       .replace('nuxt-', '')
       .replace('-module', '')
+  }
+
+  if (!isValidModuleName(mod.name)) {
+    throw new Error(`Invalid module name \`${mod.name}\`: use lowercase letters, numbers, hyphens and dots (usually the npm package name)`)
   }
 
   if (mod.aliases) {
@@ -361,6 +365,12 @@ export async function getModule(name: string): Promise<ModuleInfo> {
   const file = resolve(modulesDir, name + '.yml')
   if (existsSync(file)) {
     mod = defu(yml.load(await fsp.readFile(file, 'utf-8')) as object, mod)
+    if (mod.name !== name) {
+      throw new Error(`Module name \`${mod.name}\` in ./modules/${name}.yml must match the filename`)
+    }
+    if (!isValidModuleName(name)) {
+      throw new Error(`Invalid module name \`${name}\`: use lowercase letters, numbers, hyphens and dots (usually the npm package name)`)
+    }
   }
 
   return mod
