@@ -1,4 +1,4 @@
-name: wallet-kit
+name: nuxt-wallet-kit
 description: >-
   Zero-config wagmi for Nuxt: SSR-safe wallet state and Nuxt UI wallet
   components
