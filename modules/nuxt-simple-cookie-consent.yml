@@ -11,6 +11,8 @@ type: 3rd-party
 maintainers:
   - name: Galabin Vasilev
     github: criting
+    bluesky: criting.bsky.social
+    twitter: criting_
 compatibility:
   nuxt: ^4.0.2
   requires: {}
