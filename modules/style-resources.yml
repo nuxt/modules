@@ -1,7 +1,5 @@
 name: style-resources
-description: >-
-  Nuxt Style Resources - Share variables, mixins, functions across all style
-  files (no @import needed)
+description: Share variables, mixins, functions across all style files (no @import needed)
 repo: nuxt-modules/style-resources
 npm: '@nuxtjs/style-resources'
 icon: ''

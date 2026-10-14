@@ -1,5 +1,5 @@
 name: hanko
-description: Hanko integration for Nuxt for passwordless authentication
+description: Hanko integration for passwordless authentication
 repo: nuxt-modules/hanko
 npm: '@nuxtjs/hanko'
 icon: hanko.svg

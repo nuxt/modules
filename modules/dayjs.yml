@@ -1,5 +1,5 @@
 name: dayjs
-description: Day.js module for Nuxt
+description: Day.js integration
 repo: fumeapp/dayjs
 npm: dayjs-nuxt
 icon: day-js.png

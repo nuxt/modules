@@ -1,5 +1,5 @@
 name: polar
-description: Polar.sh integration for Nuxt
+description: Polar.sh integration
 repo: polarsource/polar#main/clients/adapters/nuxt
 npm: '@polar-sh/nuxt'
 icon: polar.svg

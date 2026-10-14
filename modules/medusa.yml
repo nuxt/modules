@@ -1,5 +1,5 @@
 name: medusa
-description: Easily connect to Medusa from your Nuxt application
+description: Easily connect to Medusa
 repo: nuxt-modules/medusa
 npm: '@nuxtjs/medusa'
 icon: medusa.svg

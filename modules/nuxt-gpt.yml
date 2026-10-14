@@ -1,5 +1,5 @@
 name: nuxt-gpt
-description: Plug and Play ChatGPT for Nuxt.
+description: Plug and play ChatGPT integration.
 repo: holux-design/nuxt-GPT
 npm: nuxt-gpt
 icon: nuxt-gpt.svg

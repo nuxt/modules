@@ -1,5 +1,5 @@
 name: vue-plausible
-description: Plausible analytics for Vue.js and Nuxt
+description: Plausible analytics integration
 repo: moritzsternemann/vue-plausible
 npm: vue-plausible
 icon: plausible.svg

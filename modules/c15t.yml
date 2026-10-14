@@ -1,7 +1,7 @@
 name: c15t
 description: >-
-  Consent management for Nuxt with cookie banners, privacy preferences, and
-  consent-gated scripts.
+  Consent management with cookie banners, privacy preferences, and consent-gated
+  scripts.
 repo: c15t/c15t#canary/packages/vue
 npm: '@c15t/vue'
 icon: c15t.svg

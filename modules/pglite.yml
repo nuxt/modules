@@ -1,5 +1,5 @@
 name: pglite
-description: A Nuxt module aimed to simplify the use of PGlite.
+description: Simplify the use of PGlite.
 repo: sandros94/nuxt-pglite
 npm: nuxt-pglite
 icon: pglite.svg

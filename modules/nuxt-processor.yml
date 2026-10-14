@@ -1,5 +1,5 @@
 name: nuxt-processor
-description: Decoupled processing for Nuxt backed by BullMQ.
+description: Decoupled processing backed by BullMQ.
 repo: aidanhibbard/nuxt-processor
 npm: nuxt-processor
 icon: ''

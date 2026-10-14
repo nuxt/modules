@@ -1,5 +1,5 @@
 name: highcharts
-description: Highcharts for Nuxt
+description: Highcharts integration
 repo: richardeschloss/nuxt-highcharts
 npm: nuxt-highcharts
 icon: ''

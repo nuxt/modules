@@ -1,5 +1,5 @@
 name: nuxt-yup
-description: Yup integration for Nuxt 4 with a simple composable.
+description: Yup integration with a simple composable.
 repo: DarlanPrado/nuxt-yup
 npm: nuxt-yup
 icon: ''

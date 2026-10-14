@@ -1,5 +1,5 @@
 name: simple-line-icons
-description: 'Nuxt module to add simple-line-icons '
+description: Add simple-line-icons
 repo: galsd/nuxt-simple-line-icons
 npm: nuxt-simple-line-icons
 icon: ''

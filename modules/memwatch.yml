@@ -1,5 +1,5 @@
 name: memwatch
-description: Quickly watch real-time memory stats of your nuxt app
+description: Quickly watch real-time memory stats of your app
 repo: pimlie/nuxt-memwatch
 npm: nuxt-memwatch
 icon: ''

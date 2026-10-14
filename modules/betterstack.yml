@@ -1,5 +1,5 @@
 name: betterstack
-description: A Nuxt module for integrating BetterStack into your Nuxt application
+description: BetterStack integration
 repo: nicogenz/nuxt-betterstack
 npm: nuxt-betterstack
 icon: betterstack.svg

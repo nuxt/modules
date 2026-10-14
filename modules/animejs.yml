@@ -1,5 +1,5 @@
 name: animejs
-description: Anime.js module for Nuxt
+description: Anime.js integration
 repo: hypernym-studio/nuxt-anime
 npm: '@hypernym/nuxt-anime'
 icon: ''

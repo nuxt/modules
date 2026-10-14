@@ -1,5 +1,5 @@
 name: qrcode
-description: A Nuxt module that provides support for generating and reading QRCodes.
+description: Support for generating and reading QR codes.
 repo: sandros94/nuxt-qrcode
 npm: nuxt-qrcode
 icon: qrcode.svg
