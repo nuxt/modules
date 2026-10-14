@@ -7,6 +7,7 @@
     "url": "git+https://github.com/nuxt/modules.git"
   },
   "homepage": "https://nuxt.com/modules",
+  "type": "module",
   "main": "./modules.json",
   "files": [
     "modules.json"
