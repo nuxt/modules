@@ -267,6 +267,9 @@ export async function sync(name: string, repo?: string, isNew: boolean = false, 
   if (!mod.description) {
     mod.description = pkg.description
   }
+  if (/\bnuxt(?:\.?js)?\s*v?[234]\b|\bnuxt\.js\b/i.test(mod.description || '')) {
+    warnings.push(`Description in ./modules/${name}.yml mentions a Nuxt version; describe what the module does instead`)
+  }
 
   let majorVersions: string[] = []
   try {
