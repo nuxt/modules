@@ -1,13 +1,13 @@
 name: nuxt-wallet-kit
 description: >-
-  Zero-config wagmi for Nuxt: SSR-safe wallet state and Nuxt UI wallet
+  Zero-config wagmi integration: SSR-safe wallet state and Nuxt UI wallet
   components
 repo: MaximeBignolet/nuxt-wallet-kit
 npm: nuxt-wallet-kit
 icon: ''
 github: https://github.com/MaximeBignolet/nuxt-wallet-kit
 website: https://github.com/MaximeBignolet/nuxt-wallet-kit
-learn_more: ''
+learn_more: https://github.com/MaximeBignolet/nuxt-wallet-kit#readme
 category: Libraries
 type: 3rd-party
 maintainers:
