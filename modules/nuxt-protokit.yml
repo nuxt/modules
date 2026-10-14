@@ -1,7 +1,7 @@
 name: nuxt-protokit
 description: >-
-  Schema-driven rapid prototyping for Nuxt 4 — turn a TypeScript schema into a
-  persistent, interactive prototype in minutes
+  Schema-driven prototyping that turns a TypeScript schema into an interactive,
+  offline-first tool persisted to IndexedDB with Y.js
 repo: websideproject/nuxt-protokit#main/packages/nuxt-protokit
 npm: '@websideproject/nuxt-protokit'
 icon: websideproject.png
