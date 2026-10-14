@@ -1,4 +1,4 @@
-name: rive
+name: nuxt-rive
 description: >-
   Add interactive Rive animations to your Nuxt app with full control over state
   machines, text runs and events.
