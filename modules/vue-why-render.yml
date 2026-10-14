@@ -1,6 +1,6 @@
 name: vue-why-render
 description: >-
-  See which Vue components re-render — and why. Highlights re-renders and names
+  See which Vue components re-render and why: highlights re-renders and names
   the exact reactive dependency that triggered them.
 repo: dadashi44/vue-why-render
 npm: vue-why-render
