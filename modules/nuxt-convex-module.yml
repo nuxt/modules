@@ -1,8 +1,7 @@
 name: nuxt-convex-module
 description: >-
-  Connects a Nuxt app to a Convex backend: live queries, mutations, actions,
-  pagination, file storage and SSR, auto-imported and typed against your
-  deployment.
+  Convex backend integration with live queries, mutations, actions, pagination,
+  file storage and SSR, auto-imported and typed against your deployment.
 repo: qruto/nuxt-convex-module
 npm: nuxt-convex-module
 icon: nuxt-convex-module.svg
