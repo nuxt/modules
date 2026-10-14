@@ -1,4 +1,4 @@
-name: nats
+name: nuxt-nats
 description: >-
   NATS and JetStream integration for Nuxt: publish/subscribe messaging, durable
   JetStream streams, consumers, and server-side event-driven workflows for
