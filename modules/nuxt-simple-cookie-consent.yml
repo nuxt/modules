@@ -1,12 +1,12 @@
 name: nuxt-simple-cookie-consent
-description: Headless cookie consent module for Nuxt
+description: Headless cookie consent
 repo: criting/nuxt-simple-cookie-consent
 npm: nuxt-simple-cookie-consent
 icon: nuxt-simple-cookie-consent.svg
 github: https://github.com/criting/nuxt-simple-cookie-consent
 website: https://github.com/criting/nuxt-simple-cookie-consent
 learn_more: ''
-category: Libraries
+category: Extensions
 type: 3rd-party
 maintainers:
   - name: Galabin Vasilev
@@ -14,5 +14,5 @@ maintainers:
     bluesky: criting.bsky.social
     twitter: criting_
 compatibility:
-  nuxt: ^4.0.2
+  nuxt: ^3.17.0 || ^4.0.0
   requires: {}
