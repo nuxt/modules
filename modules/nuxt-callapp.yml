@@ -1,6 +1,5 @@
 name: nuxt-callapp
-description: >-
-  A nuxt module for callapp-lib
+description: A nuxt module for callapp-lib
 repo: xjccc/nuxt-callapp
 npm: nuxt-callapp
 icon: callapp.svg
@@ -12,6 +11,8 @@ type: 3rd-party
 maintainers:
   - name: xjccc
     github: xjccc
+    twitter: xj_0811
+    bluesky: xjccc.bsky.social
 compatibility:
   nuxt: ^3.0.0
   requires: {}
