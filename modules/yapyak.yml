@@ -1,5 +1,7 @@
 name: yapyak
-description: Nuxt module for yapyak.
+description: >-
+  Compile-time i18n. Write t('Save changes') and yapyak keeps your locale files
+  in sync, with optional AI translation.
 repo: yapyak/yapyak#main/packages/nuxt
 npm: '@yapyak/nuxt'
 icon: yapyak.svg
