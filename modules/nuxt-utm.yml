@@ -1,5 +1,5 @@
 name: nuxt-utm
-description: Capture UTM and Google Ads click parameters to attribute leads to campaigns
+description: Capture UTM parameters and ad click IDs to attribute leads to campaigns
 repo: stackbuilders/nuxt-utm
 npm: nuxt-utm
 icon: ''
@@ -9,7 +9,7 @@ learn_more: ''
 category: Analytics
 type: 3rd-party
 maintainers:
-  - name: stackbuilders
+  - name: Stack Builders
     github: stackbuilders
 compatibility:
   nuxt: '>=3.0.0'
