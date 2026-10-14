@@ -1,4 +1,4 @@
-name: reviews
+name: nuxt-reviews
 description: >-
   Fetch and aggregate reviews from Google Places, Trustpilot, SerpAPI,
   Outscraper and Booking.com with built-in content moderation.
