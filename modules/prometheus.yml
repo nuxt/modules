@@ -1,7 +1,7 @@
 name: prometheus
 description: >-
-  Allows you to better understand what's going on with your application and how
-  to optimize performance and other things in production
+  Prometheus metrics with Node.js default metrics plus page render and API
+  request timings.
 repo: artmizu/nuxt-prometheus
 npm: '@artmizu/nuxt-prometheus'
 icon: prometheus.svg

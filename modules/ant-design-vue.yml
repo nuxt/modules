@@ -14,5 +14,4 @@ maintainers:
     twitter: tangjinzhou
 compatibility:
   nuxt: '>=3.0.0'
-  requires:
-    bridge: optional
+  requires: {}

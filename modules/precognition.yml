@@ -6,7 +6,7 @@ icon: laravel.svg
 github: https://github.com/sot1986/nuxt-precognition
 website: https://github.com/sot1986/nuxt-precognition
 learn_more: ''
-category: Security
+category: Request
 type: 3rd-party
 maintainers:
   - name: sot1986

@@ -22,5 +22,5 @@ maintainers:
     twitter: _larbish
     bluesky: larbish.bsky.social
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: ^4.0.0
   requires: {}
