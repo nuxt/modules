@@ -1,16 +1,18 @@
-name: openAPI-wrapper
-description: An openAPI client wrapper for Nuxt fetch client.
+name: nuxt-openapi-wrapper
+description: >-
+  Generates typed $fetch and useFetch clients from OpenAPI documents, for both
+  the app and Nitro.
 repo: Pentadome/nuxt-openAPI-wrapper
 npm: nuxt-openapi-wrapper
 icon: openapi-wrapper.svg
 github: https://github.com/Pentadome/nuxt-openAPI-wrapper
 website: https://github.com/Pentadome/nuxt-openAPI-wrapper
 learn_more: ''
-category: Libraries
+category: Request
 type: 3rd-party
 maintainers:
   - name: Pentadome
     github: Pentadome
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.17.0'
   requires: {}
