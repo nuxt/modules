@@ -1,7 +1,7 @@
 name: nuxt-rive
 description: >-
-  Add interactive Rive animations to your Nuxt app with full control over state
-  machines, text runs and events.
+  Interactive Rive animations with full control over state machines, text runs
+  and events.
 repo: mrnasil/nuxt-rive
 npm: nuxt-rive
 icon: rive.svg
