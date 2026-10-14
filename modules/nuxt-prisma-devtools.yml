@@ -1,5 +1,7 @@
 name: nuxt-prisma-devtools
-description: `nuxt-prisma-devtools` integrates Prisma Studio into Nuxt DevTools, without having to use nuxt-prisma. This is useful if you've manually integrated Prisma into Nuxt (or are using a wrapper like Zenstack).
+description: >-
+  Prisma Studio in Nuxt DevTools, for apps that integrate Prisma manually or
+  through a wrapper like ZenStack.
 repo: gsxdsm/nuxt-prisma-devtools
 npm: nuxt-prisma-devtools
 icon: ''
@@ -7,10 +9,10 @@ github: https://github.com/gsxdsm/nuxt-prisma-devtools
 website: https://www.npmjs.com/package/nuxt-prisma-devtools
 learn_more: ''
 category: Devtools
-type: community
+type: 3rd-party
 maintainers:
   - name: gsxdsm
     github: gsxdsm
 compatibility:
-  nuxt: >=3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

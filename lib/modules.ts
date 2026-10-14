@@ -382,6 +382,11 @@ export async function writeModule(module: ModuleInfo) {
 }
 
 export async function readModules() {
+  const invalidFiles = (await fsp.readdir(modulesDir)).filter(file => extname(file) !== '.yml')
+  if (invalidFiles.length) {
+    throw new Error(`Module files must use the .yml extension: ${invalidFiles.map(file => `./modules/${file}`).join(', ')}`)
+  }
+
   const globPattern = join(modulesDir, '*.yml').replace(/\\/g, '/')
   const names = (await globby(globPattern)).map(p => basename(p, extname(p))).filter(_ => _)
 
