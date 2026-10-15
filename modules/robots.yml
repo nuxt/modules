@@ -1,5 +1,5 @@
 name: robots
-description: Tame the robots crawling and indexing your Nuxt site.
+description: Tame the robots crawling and indexing your site.
 repo: nuxt-modules/robots
 npm: '@nuxtjs/robots'
 icon: simple-robots.svg

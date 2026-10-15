@@ -1,0 +1,18 @@
+name: nuxt-nats
+description: >-
+  NATS and JetStream integration: publish/subscribe messaging, durable streams,
+  consumers and event-driven server workflows.
+repo: lithqube/nuxt-nats
+npm: nuxt-nats
+icon: nuxt-nats.png
+github: https://github.com/lithqube/nuxt-nats
+website: https://github.com/lithqube/nuxt-nats
+learn_more: https://docs.nats.io/
+category: Database
+type: 3rd-party
+maintainers:
+  - name: Cristhian Ferrufino
+    github: lithqube
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}

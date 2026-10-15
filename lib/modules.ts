@@ -9,11 +9,16 @@ import { Octokit } from '@octokit/rest'
 
 import { categories } from './categories.ts'
 import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback, SyncWarning } from './types.ts'
-import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY } from './utils.ts'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, isValidModuleName, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
-export async function sync(name: string, repo?: string, isNew: boolean = false): Promise<SyncResult> {
+export interface SyncOptions {
+  /** Drop `aliases`, which are maintained by the Nuxt team rather than contributors */
+  stripAliases?: boolean
+}
+
+export async function sync(name: string, repo?: string, isNew: boolean = false, options: SyncOptions = {}): Promise<SyncResult> {
   const mod = await getModule(name)
   const regressions: SyncRegression[] = []
   const warnings: string[] = []
@@ -172,6 +177,15 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
       .replace('-module', '')
   }
 
+  if (!isValidModuleName(mod.name)) {
+    throw new Error(`Invalid module name \`${mod.name}\`: use lowercase letters, numbers, hyphens and dots (usually the npm package name)`)
+  }
+
+  if (options.stripAliases && mod.aliases) {
+    delete mod.aliases
+    warnings.push(`Removed \`aliases\` from ./modules/${name}.yml (new modules can't set aliases)`)
+  }
+
   if (mod.aliases) {
     // Force to be an array
     mod.aliases = Array.isArray(mod.aliases) ? mod.aliases : [mod.aliases]
@@ -252,6 +266,9 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   // Default description
   if (!mod.description) {
     mod.description = pkg.description
+  }
+  if (/\bnuxt(?:\.?js)?\s*v?[234]\b|\bnuxt\.js\b/i.test(mod.description || '')) {
+    warnings.push(`Description in ./modules/${name}.yml mentions a Nuxt version; describe what the module does instead`)
   }
 
   let majorVersions: string[] = []
@@ -361,6 +378,12 @@ export async function getModule(name: string): Promise<ModuleInfo> {
   const file = resolve(modulesDir, name + '.yml')
   if (existsSync(file)) {
     mod = defu(yml.load(await fsp.readFile(file, 'utf-8')) as object, mod)
+    if (mod.name !== name) {
+      throw new Error(`Module name \`${mod.name}\` in ./modules/${name}.yml must match the filename`)
+    }
+    if (!isValidModuleName(name)) {
+      throw new Error(`Invalid module name \`${name}\`: use lowercase letters, numbers, hyphens and dots (usually the npm package name)`)
+    }
   }
 
   return mod
@@ -372,6 +395,11 @@ export async function writeModule(module: ModuleInfo) {
 }
 
 export async function readModules() {
+  const invalidFiles = (await fsp.readdir(modulesDir)).filter(file => extname(file) !== '.yml')
+  if (invalidFiles.length) {
+    throw new Error(`Module files must use the .yml extension: ${invalidFiles.map(file => `./modules/${file}`).join(', ')}`)
+  }
+
   const globPattern = join(modulesDir, '*.yml').replace(/\\/g, '/')
   const names = (await globby(globPattern)).map(p => basename(p, extname(p))).filter(_ => _)
 
@@ -379,7 +407,7 @@ export async function readModules() {
     .then(modules => modules.filter(m => m.name))
 }
 
-export async function syncAll(onProgress?: SyncProgressCallback, only?: string[]): Promise<SyncAllResult> {
+export async function syncAll(onProgress?: SyncProgressCallback, only?: string[], added: string[] = []): Promise<SyncAllResult> {
   const allModules = await readModules()
   const modules = only ? allModules.filter(module => only.includes(module.name)) : allModules
   const total = modules.length
@@ -394,7 +422,7 @@ export async function syncAll(onProgress?: SyncProgressCallback, only?: string[]
 
   await Promise.all(modules.map(module => limit(async () => {
     try {
-      const result = await sync(module.name, module.repo)
+      const result = await sync(module.name, module.repo, false, { stripAliases: added.includes(module.name) })
       synced.push(module.name)
 
       if (result.regressions.length > 0) {

@@ -1,7 +1,7 @@
 name: nanime
 description: >-
-  Anime.js v4 for Nuxt: SSR-safe, auto-imported composables and transitions for
-  animation, scroll, drag and text
+  Anime.js v4 integration: SSR-safe, auto-imported composables and transitions
+  for animation, scroll, drag and text
 repo: astraldev/nanime
 npm: nanime
 icon: nanime.svg

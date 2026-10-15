@@ -1,5 +1,5 @@
 name: history-state
-description: Nuxt module to backup or restore historical states
+description: Back up or restore historical states
 repo: hidekatsu-izuno/nuxt-history-state
 npm: nuxt-history-state
 icon: ''

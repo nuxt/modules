@@ -1,5 +1,5 @@
 name: parse
-description: Parse package for Nuxt
+description: Parse integration
 repo: cierrateam/nuxt-parse
 npm: nuxt-parse
 icon: ''

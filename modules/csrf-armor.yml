@@ -1,5 +1,5 @@
 name: csrf-armor
-description: Nuxt module for CSRF protection powered by csrf-armor
+description: CSRF protection powered by csrf-armor
 repo: muneebs/csrf-armor#main/packages/nuxt
 npm: '@csrf-armor/nuxt'
 icon: csrf-armor.png

@@ -1,5 +1,5 @@
 name: bcms
-description: Nuxt BCMS module
+description: BCMS integration
 repo: bcms/nuxt-module
 npm: '@thebcms/nuxt'
 icon: bcms.png
