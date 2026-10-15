@@ -1,5 +1,5 @@
 name: nuxt-charts
-description: Nuxt module for vue-chrts
+description: vue-chrts integration
 repo: dennisadriaans/vue-chrts#main/packages/nuxt-charts-next
 npm: nuxt-charts
 icon: nuxt-charts.svg

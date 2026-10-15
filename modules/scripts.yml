@@ -5,7 +5,7 @@ npm: '@nuxt/scripts'
 icon: nuxt.svg
 github: https://github.com/nuxt/scripts
 website: https://scripts.nuxt.com
-learn_more: ''
+learn_more: https://scripts.nuxt.com/docs/getting-started
 category: Performance
 type: official
 maintainers:

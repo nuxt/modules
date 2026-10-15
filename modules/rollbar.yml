@@ -1,5 +1,5 @@
 name: rollbar
-description: Nuxt 3 module to integrate Rollbar.
+description: Rollbar integration.
 repo: jairoblatt/nuxt-rollbar
 npm: nuxt-rollbar
 icon: rollbar.png

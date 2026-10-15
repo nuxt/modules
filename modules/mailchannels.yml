@@ -1,5 +1,5 @@
 name: mailchannels
-description: Simple MailChannels Email API integration for Nuxt
+description: Simple MailChannels Email API integration
 repo: yizack/nuxt-mailchannels
 npm: nuxt-mailchannels
 icon: mailchannels.svg

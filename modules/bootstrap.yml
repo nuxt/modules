@@ -1,5 +1,5 @@
 name: bootstrap
-description: Add Bootstrap to your Nuxt app in seconds.
+description: Add Bootstrap in seconds.
 repo: bootstrap-vue/bootstrap-vue
 npm: bootstrap-vue
 icon: bootstrap.png

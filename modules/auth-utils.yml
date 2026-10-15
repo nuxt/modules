@@ -1,7 +1,5 @@
 name: auth-utils
-description: >-
-  Add Authentication to Nuxt applications with secured & sealed cookies
-  sessions.
+description: Add authentication with secured & sealed cookie sessions.
 repo: atinux/nuxt-auth-utils
 npm: nuxt-auth-utils
 icon: ''

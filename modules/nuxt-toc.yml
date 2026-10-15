@@ -1,5 +1,5 @@
 name: nuxt-toc
-description: Nuxt module for table of contents (TOC) component in Nuxt Content projects
+description: Table of contents (TOC) component for Nuxt Content projects
 repo: thaikolja/nuxt-toc
 npm: nuxt-toc
 icon: nuxt-toc.png

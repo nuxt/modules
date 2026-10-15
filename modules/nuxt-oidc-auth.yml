@@ -1,5 +1,5 @@
 name: nuxt-oidc-auth
-description: Seamless modern authentication for Nuxt applications.
+description: OpenID Connect (OIDC) authentication with presets for common providers.
 repo: itpropro/nuxt-oidc-auth
 npm: nuxt-oidc-auth
 icon: nuxt-oidc-auth.png

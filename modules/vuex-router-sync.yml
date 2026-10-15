@@ -1,7 +1,5 @@
 name: vuex-router-sync
-description: >-
-  vuex-router-sync module for Nuxt to effortlessly keep vue-router and vuex
-  store in sync.
+description: Effortlessly keep vue-router and vuex store in sync.
 repo: paulgv/nuxt-vuex-router-sync
 npm: nuxt-vuex-router-sync
 icon: ''

@@ -1,5 +1,5 @@
 name: feature-toggle
-description: Feature toggle module for Nuxt
+description: Feature toggles
 repo: stephenkr/nuxt-feature-toggle
 npm: nuxt-feature-toggle
 icon: ''

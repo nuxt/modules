@@ -1,5 +1,5 @@
 name: hotjar
-description: Add HotJar to your Nuxt application
+description: Add Hotjar to your app
 repo: damevin/nuxt-module-hotjar
 npm: nuxt-module-hotjar
 icon: hotjar.png

@@ -1,7 +1,7 @@
 name: bugsnag
 description: >-
-  Bugsnag integration for nuxt.js. Makes it easy to add bugsnag to your Project.
-  Supports uploading source maps.
+  Bugsnag integration with optional source map uploads and performance
+  monitoring.
 repo: JulianMar/nuxt-bugsnag
 npm: nuxt-bugsnag
 icon: bugsnag.png
@@ -16,5 +16,4 @@ maintainers:
     twitter: julian_martin96
 compatibility:
   nuxt: ^2.16.0 || >=3.0.0
-  requires:
-    bridge: true
+  requires: {}

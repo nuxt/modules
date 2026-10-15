@@ -1,5 +1,5 @@
 name: resend
-description: Resend integration for Nuxt
+description: Resend integration
 repo: nhedger/nuxt-resend
 npm: nuxt-resend
 icon: resend.svg
