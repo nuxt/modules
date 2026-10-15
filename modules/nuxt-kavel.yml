@@ -6,7 +6,7 @@ repo: hanshs474/nuxt-kavel#main
 npm: nuxt-kavel
 icon: kavel.png
 github: https://github.com/hanshs474/nuxt-kavel
-website: https://www.kavel.ai/?utm_source=nuxt&utm_medium=modules
+website: https://www.kavel.ai/
 learn_more: ''
 category: AI
 type: 3rd-party
