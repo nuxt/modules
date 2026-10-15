@@ -1,0 +1,18 @@
+name: nuxt-kavel
+description: >-
+  Generate and edit AI images from server routes with an auto-imported
+  generateKavelImage(), on Kavel's free tier or with an API key
+repo: hanshs474/nuxt-kavel#main
+npm: nuxt-kavel
+icon: kavel.png
+github: https://github.com/hanshs474/nuxt-kavel
+website: https://www.kavel.ai/?utm_source=nuxt&utm_medium=modules
+learn_more: ''
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Kavel
+    github: hanshs474
+compatibility:
+  nuxt: '>=3.13.0'
+  requires: {}
