@@ -1,5 +1,5 @@
 name: twa
-description: Nuxt module for generating Trusted Web App from Nuxt app
+description: Generate a Trusted Web App
 repo: tuarrep/nuxt-twa
 npm: nuxt-twa
 icon: ''

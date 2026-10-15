@@ -1,11 +1,13 @@
 name: vue-equipment
-description: A collection of ready-to-use plugins and composables for building modern web applications. Unstyled, fully typed and with a flexible, yet opinionated API.
+description: >-
+  A collection of ready-to-use plugins and composables for building modern web
+  applications. Unstyled, fully typed and with a flexible, yet opinionated API.
 repo: magicasaservice/vue-equipment
 npm: '@maas/vue-equipment'
 icon: vue-equipment.svg
 github: https://github.com/magicasaservice/vue-equipment
-website: https://vue.equipment
-learn_more: https://vue.equipment
+website: https://www.vue.equipment/
+learn_more: https://www.vue.equipment/
 category: UI
 type: 3rd-party
 maintainers:

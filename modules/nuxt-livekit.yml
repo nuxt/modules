@@ -1,7 +1,7 @@
 name: nuxt-livekit
 description: >-
-  LiveKit integration for Nuxt: realtime video, audio, and data with client
-  composables and server utilities
+  LiveKit integration: realtime video, audio, and data with client composables
+  and server utilities
 repo: nuxtaid/nuxt-livekit
 npm: nuxt-livekit
 icon: nuxt-livekit.svg

@@ -1,5 +1,5 @@
 name: datocms
-description: DatoCMS module for Nuxt
+description: DatoCMS integration
 repo: hex-digital/nuxt-datocms
 npm: '@hexdigital/nuxt-datocms'
 icon: datocms.svg

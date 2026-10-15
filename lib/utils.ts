@@ -17,8 +17,8 @@ export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, 
 export const FETCH_DELAY = 100 // ms between requests
 
 /** Names of the modules whose yml files differ between `ref` and the working tree. */
-export function getChangedModuleNames(ref: string): string[] {
-  const output = execFileSync('git', ['diff', '--name-only', '--diff-filter=d', `${ref}...HEAD`, '--', 'modules'], {
+export function getChangedModuleNames(ref: string, diffFilter: string = 'd'): string[] {
+  const output = execFileSync('git', ['diff', '--name-only', `--diff-filter=${diffFilter}`, `${ref}...HEAD`, '--', 'modules'], {
     cwd: rootDir,
     encoding: 'utf8',
   })
@@ -408,6 +408,13 @@ export function mergeCompatibilityRanges(ranges: string[]): string {
 
 // Keep the old name as an alias for backwards compatibility
 export const deduplicateCompatibilityRanges = mergeCompatibilityRanges
+
+/**
+ * Check that a module name is lowercase and only uses letters, numbers, hyphens and dots
+ */
+export function isValidModuleName(name: string): boolean {
+  return /^[a-z0-9]+(?:[-.][a-z0-9]+)*$/.test(name)
+}
 
 /**
  * Check if a compatibility range includes Nuxt 4.x

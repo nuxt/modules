@@ -1,5 +1,5 @@
 name: nuxt-maplibre
-description: Maplibre integration with Nuxt
+description: MapLibre integration
 repo: Gugustinette/nuxt-maplibre
 npm: nuxt-maplibre
 icon: maplibre.png

@@ -1,5 +1,5 @@
 name: cloudcms
-description: CloudCMS Nuxt Module
+description: CloudCMS integration
 repo: gitana/cloudcms-nuxt
 npm: cloudcms-nuxt
 icon: ''

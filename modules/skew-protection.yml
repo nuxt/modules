@@ -1,5 +1,5 @@
 name: skew-protection
-description: Solve Nuxt version skews with persistent assets and instant updates.
+description: Solve version skew with persistent assets and instant updates.
 repo: harlan-zw/nuxt-skew-protection
 npm: nuxt-skew-protection
 icon: skew-protection.svg

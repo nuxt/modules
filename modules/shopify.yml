@@ -1,5 +1,5 @@
 name: shopify
-description: Easily integrate Shopify into your Nuxt app.
+description: Easily integrate Shopify.
 repo: nuxt-modules/shopify
 npm: '@nuxtjs/shopify'
 icon: shopify.png
