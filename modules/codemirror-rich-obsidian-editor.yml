@@ -13,4 +13,6 @@ maintainers:
     github: Type-32
 compatibility:
   nuxt: '>=4.0.0'
-  requires: {}
+  requires:
+    bridge: false
+  ui: '>=4.11.0'
