@@ -1,0 +1,16 @@
+name: codemirror-rich-obsidian-editor
+description: CodeMirror-6-Powered Stylizable Obsidian-Flavored Markdown Editor Component for Nuxt.
+repo: Type-32/codemirror-rich-obsidian#dev
+npm: '@type32/codemirror-rich-obsidian-editor'
+icon: 'codemirror-rich-obsidian-editor.svg'
+github: https://github.com/Type-32/codemirror-rich-obsidian
+website: https://github.com/Type-32/codemirror-rich-obsidian
+learn_more: 'https://github.com/Type-32/codemirror-rich-obsidian/blob/dev/README.md'
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Type-32
+    github: Type-32
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
