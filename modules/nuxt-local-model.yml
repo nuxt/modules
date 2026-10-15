@@ -1,5 +1,5 @@
 name: nuxt-local-model
-description: A Nuxt module for local in-app Hugging Face transformer models.
+description: Local in-app Hugging Face transformer models.
 repo: Aft1n/nuxt-local-model
 npm: nuxt-local-model
 icon: nuxt-local-model.png

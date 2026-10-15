@@ -1,8 +1,7 @@
 name: powersync
 description: >-
-  Offline-first sync with native Nuxt integration — auto-imported composables,
-  built-in diagnostics, Nuxt DevTools integration, and optional Kysely for
-  type-safe queries
+  Offline-first sync with auto-imported composables, built-in diagnostics, Nuxt
+  DevTools integration, and optional Kysely for type-safe queries
 repo: powersync-ja/powersync-js#main/packages/nuxt
 npm: '@powersync/nuxt'
 icon: powersync.svg

@@ -1,5 +1,5 @@
 name: nuxt-codemirror
-description: Nuxt codemirror module
+description: CodeMirror integration
 repo: thimodev/nuxt-codemirror
 npm: nuxt-codemirror
 icon: nuxt-codemirror.svg

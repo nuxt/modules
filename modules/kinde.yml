@@ -1,5 +1,5 @@
 name: kinde
-description: Kinde authentication integration for Nuxt
+description: Kinde authentication integration
 repo: nuxt-modules/kinde
 npm: '@nuxtjs/kinde'
 icon: kinde.svg

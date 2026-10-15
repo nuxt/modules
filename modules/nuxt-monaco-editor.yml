@@ -1,5 +1,5 @@
 name: nuxt-monaco-editor
-description: Integrate monaco-editor with Nuxt
+description: Integrate monaco-editor
 repo: e-chan1007/nuxt-monaco-editor
 npm: nuxt-monaco-editor
 icon: nuxt-monaco-editor.png

@@ -1,5 +1,5 @@
 name: nuxt-anime
-description: Nuxt module for Anime.js
+description: Anime.js integration
 repo: Enternikot/NuxtAnime
 npm: nuxt-anime
 icon: nuxt-anime.png

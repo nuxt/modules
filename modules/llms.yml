@@ -1,5 +1,5 @@
 name: llms
-description: Generate llms.txt documentation for your Nuxt application
+description: Generate llms.txt documentation for your application
 repo: nuxt-content/nuxt-llms
 npm: nuxt-llms
 icon: llms.png

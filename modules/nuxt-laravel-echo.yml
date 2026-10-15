@@ -1,5 +1,5 @@
 name: nuxt-laravel-echo
-description: Nuxt module for Laravel Echo integration
+description: Laravel Echo integration
 repo: manchenkoff/nuxt-laravel-echo
 npm: nuxt-laravel-echo
 icon: laravel.svg

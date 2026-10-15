@@ -1,5 +1,5 @@
 name: stonecrop
-description: Stonecrop for Nuxt
+description: Stonecrop integration
 repo: agritheory/stonecrop#development/nuxt
 npm: '@stonecrop/nuxt'
 icon: stonecrop.svg

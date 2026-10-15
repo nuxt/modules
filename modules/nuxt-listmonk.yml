@@ -1,5 +1,5 @@
 name: nuxt-listmonk
-description: Nuxt module for Listmonk
+description: Listmonk integration
 repo: roncallyt/nuxt-listmonk
 npm: nuxt-listmonk
 icon: listmonk.svg

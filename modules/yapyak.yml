@@ -1,0 +1,19 @@
+name: yapyak
+description: >-
+  Compile-time i18n. Write t('Save changes') and yapyak keeps your locale files
+  in sync, with optional AI translation.
+repo: yapyak/yapyak#main/packages/nuxt
+npm: '@yapyak/nuxt'
+icon: yapyak.svg
+github: https://github.com/yapyak/yapyak
+website: https://yapyak.dev
+learn_more: https://yapyak.dev/reference/nuxt
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Joakim Uhrwing
+    github: qwuide
+    twitter: qwuide
+compatibility:
+  nuxt: '>=4.1.0'
+  requires: {}

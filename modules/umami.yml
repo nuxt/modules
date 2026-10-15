@@ -1,5 +1,5 @@
 name: umami
-description: Embed the Umami analytics library into Nuxt
+description: Embed the Umami analytics library
 repo: ijkml/nuxt-umami
 npm: nuxt-umami
 icon: umami.svg

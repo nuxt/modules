@@ -17,8 +17,8 @@ export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, 
 export const FETCH_DELAY = 100 // ms between requests
 
 /** Names of the modules whose yml files differ between `ref` and the working tree. */
-export function getChangedModuleNames(ref: string): string[] {
-  const output = execFileSync('git', ['diff', '--name-only', '--diff-filter=d', `${ref}...HEAD`, '--', 'modules'], {
+export function getChangedModuleNames(ref: string, diffFilter: string = 'd'): string[] {
+  const output = execFileSync('git', ['diff', '--name-only', `--diff-filter=${diffFilter}`, `${ref}...HEAD`, '--', 'modules'], {
     cwd: rootDir,
     encoding: 'utf8',
   })

@@ -1,7 +1,5 @@
 name: optimized-images
-description: >-
-  Automatically optimizes images used in Nuxt projects (jpeg, png, svg, webp and
-  gif).
+description: Automatically optimizes images (jpeg, png, svg, webp and gif).
 repo: juliomrqz/nuxt-optimized-images
 npm: '@aceforth/nuxt-optimized-images'
 icon: ''
