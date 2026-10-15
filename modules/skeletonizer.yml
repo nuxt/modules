@@ -11,7 +11,7 @@ learn_more: https://codecube0.github.io/nuxt-skeletonizer-docs/
 category: UI
 type: 3rd-party
 maintainers:
-  - name: CodeCube0
+  - name: CodeCube
     github: CodeCube0
 compatibility:
   nuxt: '>=3.10.0'
