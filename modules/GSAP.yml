@@ -1,0 +1,17 @@
+name: GSAP
+description: GSAP integration for Nuxt.
+repo: LucaArgentieri/gsap-nuxt-module
+npm: gsap-nuxt-module
+icon: ''
+github: https://github.com/LucaArgentieri/gsap-nuxt-module
+website: https://github.com/LucaArgentieri/gsap-nuxt-module
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Luca Argentieri
+    github: LucaArgentieri
+    twitter: luca_argentieri
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
