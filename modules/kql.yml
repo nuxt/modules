@@ -1,5 +1,5 @@
 name: kql
-description: Nuxt module for Kirby's Query Language API
+description: Kirby's Query Language API integration
 repo: johannschopplich/nuxt-kirby
 npm: nuxt-kirby
 icon: kql.svg

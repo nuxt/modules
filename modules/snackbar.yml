@@ -1,5 +1,5 @@
 name: snackbar
-description: Nuxt Snackbar module using vue3-snackbar
+description: Snackbar integration using vue3-snackbar
 repo: modbender/nuxt-snackbar#master
 npm: nuxt-snackbar
 icon: snackbar.png

@@ -1,5 +1,5 @@
 name: fullpage
-description: Nuxt module for fullpage-vue plugin
+description: Integration for the fullpage-vue plugin
 repo: vaso2/fullpage-nuxt
 npm: fullpage-nuxt
 icon: ''

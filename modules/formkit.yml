@@ -1,5 +1,5 @@
 name: formkit
-description: Seamless FormKit integration for Nuxt
+description: Seamless FormKit integration
 repo: formkit/formkit#master/packages/nuxt
 npm: '@formkit/nuxt'
 icon: formkit.png

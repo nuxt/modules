@@ -1,5 +1,5 @@
 name: icon-tw
-description: Extended Icon module with Tailwind CSS Icons for Nuxt
+description: Extended Nuxt Icon module with Tailwind CSS icons
 repo: jcamp-code/nuxt-icon-tw
 npm: nuxt-icon-tw
 icon: nuxt-icon.png

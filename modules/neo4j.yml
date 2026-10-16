@@ -1,7 +1,5 @@
 name: neo4j
-description: >-
-  Effortlessly integrate Neo4j's powerful graph database into your Nuxt
-  applications!
+description: Effortlessly integrate Neo4j's powerful graph database into your app!
 repo: nuxtaid/nuxt-neo4j
 npm: nuxt-neo4j
 icon: nuxt-neo4j.png

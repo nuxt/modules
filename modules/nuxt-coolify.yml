@@ -1,5 +1,5 @@
 name: nuxt-coolify
-description: Integrate Nuxt and Nitro With Coolify's API using nuxt-coolify.
+description: Integrate Nuxt and Nitro with Coolify's API.
 repo: justserdar/nuxt-coolify
 npm: nuxt-coolify
 icon: nuxt-coolify.svg

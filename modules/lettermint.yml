@@ -1,5 +1,5 @@
 name: lettermint
-description: Nuxt module for sending emails with Lettermint
+description: Send emails with Lettermint
 repo: lettermint/nuxt-lettermint
 npm: nuxt-lettermint
 icon: lettermint.svg

@@ -1,7 +1,7 @@
 name: askdoppler
 description: >-
-  Monitor impressions coming from ChatGPT, Perplexity and others in your Nuxt
-  app with this integration of Doppler.
+  Monitor impressions coming from ChatGPT, Perplexity and others with this
+  integration of Doppler.
 repo: askdoppler/doppler-js#main/nuxt
 npm: '@askdoppler/nuxt'
 icon: askdoppler.png

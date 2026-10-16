@@ -1,5 +1,5 @@
 name: nuxt-sanctum-precognition
-description: Nuxt module for Laravel Precognition integration
+description: Laravel Precognition integration
 repo: manchenkoff/nuxt-sanctum-precognition
 npm: nuxt-sanctum-precognition
 icon: laravel.svg

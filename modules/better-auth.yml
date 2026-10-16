@@ -1,7 +1,7 @@
 name: better-auth
 description: >-
-  Nuxt module for Better Auth integration with NuxtHub, route protection,
-  session management, and role-based access
+  Better Auth integration with NuxtHub, route protection, session management,
+  and role-based access
 repo: nuxt-modules/better-auth
 npm: '@nuxtjs/better-auth'
 icon: better-auth.svg
