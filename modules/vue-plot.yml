@@ -1,0 +1,19 @@
+name: vue-plot
+description: >-
+  Nuxt module for @memotux/vue-plot — declarative data visualization with
+  Observable Plot
+repo: memotux/vue-plot#master/nuxt
+npm: '@memotux/nuxt-vue-plot'
+icon: vue-plot.svg
+github: https://github.com/memotux/vue-plot
+website: https://vue-plot.mendezfuentes.net/guide/nuxt-integration
+learn_more: ''
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Romeo Méndez Fuentes
+    github: memotux
+    twitter: mendeztechsv
+compatibility:
+  nuxt: '>=4.4.7'
+  requires: {}
