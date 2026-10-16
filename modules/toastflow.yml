@@ -1,0 +1,18 @@
+name: nuxt-toastflow
+description: >-
+  Framework-agnostic toast engine with Vue 3 renderer and Nuxt module support.
+  Typed core, smooth stack animations, CSS-first theming, and full control over layout and behavior.
+repo: adrianjanocko/toastflow
+npm: nuxt-toastflow
+icon: toastflow.png
+github: https://github.com/adrianjanocko/toastflow/blob/main/packages/nuxt
+website: https://toastflow.top/
+learn_more: https://toastflow.top/
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Adrian Janocko
+    github: adrianjanocko
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
