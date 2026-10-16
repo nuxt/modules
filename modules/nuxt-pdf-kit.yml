@@ -1,0 +1,16 @@
+name: nuxt-pdf-kit
+description: A feature-rich PDF viewer module for Nuxt with Nuxt UI
+repo: narr07/nuxt-pdf-kit#master
+npm: nuxt-pdf-kit
+icon: pdf-kit.svg
+github: https://github.com/narr07/nuxt-pdf-kit
+website: https://nuxtpdfkit.permadi.dev
+learn_more: https://nuxtpdfkit.permadi.dev
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Dinar, Permadi
+    github: narr07
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
