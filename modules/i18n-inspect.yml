@@ -1,0 +1,18 @@
+name: i18n-inspect
+description: >-
+  Alt-click any text in your running app, edit the wording, and the change lands
+  in your locale JSON file. No backend, no database, no sync service.
+repo: Polkilof/nuxt-i18n-inspect
+npm: nuxt-i18n-inspect
+icon: i18n-inspect.svg
+github: https://github.com/Polkilof/nuxt-i18n-inspect
+website: https://polkilof.github.io/nuxt-i18n-inspect/
+learn_more: https://stackblitz.com/github/Polkilof/nuxt-i18n-inspect?file=demo%2Fi18n%2Flocales%2Fen.json
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Alex
+    github: Polkilof
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
