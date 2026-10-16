@@ -1,0 +1,22 @@
+name: bluesky-comments
+description: >-
+  Display Bluesky post comments on your website. Use as standalone component or
+  integrated with nuxt-content.
+repo: patzick/nuxt-bluesky-comments
+npm: nuxt-bluesky-comments
+icon: bluesky.svg
+github: https://github.com/patzick/nuxt-bluesky-comments
+website: https://nuxt-bluesky-comments.patzick.workers.dev
+learn_more: ''
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Patryk Tomczyk
+    github: patzick
+    bluesky: patzick.dev
+    twitter: tomczykpatryk
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
+aliases:
+  - nuxt-bluesky-comments
