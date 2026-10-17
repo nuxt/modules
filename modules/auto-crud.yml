@@ -4,14 +4,14 @@ description: >-
   schema-driven.
 repo: clifordpereira/nuxt-auto-crud
 npm: nuxt-auto-crud
-icon: 'auto-crud.svg'
+icon: auto-crud.svg
 github: https://github.com/clifordpereira/nuxt-auto-crud
 website: https://github.com/clifordpereira/nuxt-auto-crud
 learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: clifordpereira
+  - name: Cliford Pereira
     github: clifordpereira
 compatibility:
   nuxt: '>=3.0.0'
