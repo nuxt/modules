@@ -1,0 +1,16 @@
+name: sanitise-html
+description: A Nuxt module to sanitise HTML to protect against XSS attacks
+repo: benedictleejh/nuxt-sanitise-html
+npm: '@benedictleejh/nuxt-sanitise-html'
+icon: ''
+github: https://github.com/benedictleejh/nuxt-sanitise-html
+website: https://github.com/benedictleejh/nuxt-sanitise-html
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Benedict Lee
+    github: benedictleejh
+compatibility:
+  nuxt: '^4.0.0'
+  requires: {}
