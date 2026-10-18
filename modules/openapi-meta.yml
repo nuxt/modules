@@ -11,7 +11,7 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: davidtheheroes
+  - name: David Pham
     github: davidtheheroes
 compatibility:
   nuxt: '>=3.0.0'
