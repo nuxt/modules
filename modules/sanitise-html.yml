@@ -12,5 +12,5 @@ maintainers:
   - name: Benedict Lee
     github: benedictleejh
 compatibility:
-  nuxt: '^4.0.0'
+  nuxt: ^4.0.0
   requires: {}
