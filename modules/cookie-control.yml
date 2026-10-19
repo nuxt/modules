@@ -1,5 +1,5 @@
 name: cookie-control
-description: A highly configurable cookie banner for Nuxt.
+description: A highly configurable cookie banner.
 repo: dargmuesli/nuxt-cookie-control
 npm: '@dargmuesli/nuxt-cookie-control'
 icon: cookie-control.png

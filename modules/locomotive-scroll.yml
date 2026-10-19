@@ -1,7 +1,5 @@
 name: locomotive-scroll
-description: >-
-  A Nuxt module to easily integrate Locomotive Scroll into your Nuxt
-  application.
+description: Easily integrate Locomotive Scroll.
 repo: nuxtaid/nuxt-locomotive-scroll
 npm: nuxt-locomotive-scroll
 icon: locomotive-scroll.png

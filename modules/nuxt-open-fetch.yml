@@ -1,5 +1,5 @@
 name: nuxt-open-fetch
-description: Generate zero-overhead, 100% typed OpenAPI clients for Nuxt.
+description: Generate zero-overhead, 100% typed OpenAPI clients.
 repo: Norbiros/nuxt-open-fetch
 npm: nuxt-open-fetch
 icon: nuxt-open-fetch.svg

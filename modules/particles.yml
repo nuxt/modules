@@ -1,5 +1,5 @@
 name: particles
-description: Easily add particle animations to your Nuxt projects using tsParticles
+description: Easily add particle animations using tsParticles
 repo: Joepocalyptic/nuxt-particles
 npm: nuxt-particles
 icon: ''

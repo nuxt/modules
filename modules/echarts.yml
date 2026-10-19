@@ -1,5 +1,5 @@
 name: echarts
-description: Nuxt Module for Apache ECharts™
+description: Apache ECharts™ integration
 repo: kingyue737/nuxt-echarts
 npm: nuxt-echarts
 icon: echarts.svg

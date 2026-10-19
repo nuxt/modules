@@ -1,5 +1,5 @@
 name: nuxt-mqtt
-description: A Nuxt module for real-time MQTT communication using mqtt.js
+description: Real-time MQTT communication using mqtt.js
 repo: nuxtaid/nuxt-mqtt
 npm: nuxt-mqtt
 icon: nuxt-mqtt.png

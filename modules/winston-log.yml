@@ -1,5 +1,5 @@
 name: winston-log
-description: Nuxt module for logging SSR errors + client-side Vue errors using winston
+description: Log SSR errors and client-side Vue errors using winston
 repo: aaronransley/nuxt-winston-log
 npm: nuxt-winston-log
 icon: winston.png

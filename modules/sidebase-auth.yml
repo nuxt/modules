@@ -1,8 +1,8 @@
 name: sidebase-auth
 description: >-
-  Zero-boilerplate authentication for Nuxt with support for many strategies
-  (oauth, credentials, ...) and providers (google, azure, ...). Additionally
-  supports session manipulation, client- and server-side protection and more.
+  Zero-boilerplate authentication with support for many strategies (oauth,
+  credentials, ...) and providers (google, azure, ...). Additionally supports
+  session manipulation, client- and server-side protection and more.
 repo: sidebase/nuxt-auth
 npm: '@sidebase/nuxt-auth'
 icon: sidebase-auth.png

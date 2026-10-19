@@ -1,7 +1,7 @@
 name: graphql-client
 description: >-
-  Minimal GraphQL Client + Code Generation for Nuxt. Auto imports GraphQL
-  Operations for easy execution.
+  Minimal GraphQL client + code generation. Auto imports GraphQL operations for
+  easy execution.
 repo: diizzayy/nuxt-graphql-client
 npm: nuxt-graphql-client
 icon: graphql-client.svg

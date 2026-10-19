@@ -1,7 +1,5 @@
 name: nuxt-pinecone
-description: >-
-  Pinecone integration for Nuxt: realtime video, audio, and data with client
-  composables and server utilities
+description: Pinecone vector database integration
 repo: nuxtaid/nuxt-pinecone
 npm: nuxt-pinecone
 icon: nuxt-pinecone.svg

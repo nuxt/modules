@@ -1,5 +1,7 @@
 name: tiptap
-description: Essentials to Quickly Integrate TipTap Editor into your Nuxt App
+description: >-
+  TipTap editor with auto-imported components, extensions and an image upload
+  extension.
 repo: modbender/nuxt-tiptap-editor
 npm: nuxt-tiptap-editor
 icon: tiptap.png

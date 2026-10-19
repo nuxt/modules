@@ -1,7 +1,5 @@
 name: planship
-description: >-
-  Entitlements, metering, plan packaging, and subscription management for Nuxt
-  apps.
+description: Entitlements, metering, plan packaging, and subscription management.
 repo: planship/planship-nuxt
 npm: '@planship/nuxt'
 icon: planship.svg

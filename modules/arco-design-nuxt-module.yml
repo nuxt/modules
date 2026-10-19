@@ -1,7 +1,5 @@
 name: arco-design-nuxt-module
-description: >-
-  Nuxt Module for Arco Design Vue. Automatically import components, icons and
-  more.
+description: Arco Design Vue integration. Automatically import components, icons and more.
 repo: wiidede/arco-design-nuxt-module
 npm: arco-design-nuxt-module
 icon: arco-design.svg

@@ -89,8 +89,10 @@ async function runSyncAll(failOnArchived: boolean = false, base?: string) {
   p.intro(c.bgCyan(c.black(' Nuxt Modules Sync ')))
 
   let only: string[] | undefined
+  let added: string[] = []
   if (base) {
     only = getChangedModuleNames(base)
+    added = getChangedModuleNames(base, 'A')
     if (only.length === 0) {
       p.outro(c.green('No modules changed'))
       return
@@ -109,7 +111,7 @@ async function runSyncAll(failOnArchived: boolean = false, base?: string) {
       progress.advance(delta, `Syncing ${c.cyan(moduleName)} ${c.dim(`(${current}/${total})`)}`)
       lastPercent = percent
     }
-  }, only)
+  }, only, added)
 
   progress.stop(`Synced ${c.green(c.bold(result.synced.length))}${c.dim('/')}${result.total} modules`)
 

@@ -1,5 +1,5 @@
 name: contentstack
-description: Contentstack integration for Nuxt
+description: Contentstack integration
 repo: timbenniks/nuxt-contentstack
 npm: nuxt-contentstack
 icon: contentstack.png

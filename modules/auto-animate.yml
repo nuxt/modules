@@ -1,5 +1,5 @@
 name: auto-animate
-description: Automatic animations for your Nuxt app with a single line of code.
+description: Automatic animations with a single line of code.
 repo: formkit/auto-animate
 npm: '@formkit/auto-animate'
 icon: auto-animate.svg

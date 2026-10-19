@@ -1,0 +1,20 @@
+name: nuxt-callapp
+description: >-
+  Open your native app from mobile web pages (scheme, intent and universal links
+  with app store fallback) using callapp-lib
+repo: xjccc/nuxt-callapp
+npm: nuxt-callapp
+icon: callapp.svg
+github: https://github.com/xjccc/nuxt-callapp
+website: https://github.com/xjccc/nuxt-callapp
+learn_more: https://github.com/suanmei/callapp-lib
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: xjccc
+    github: xjccc
+    twitter: xj_0811
+    bluesky: xjccc.bsky.social
+compatibility:
+  nuxt: ^3.0.0 || ^4.0.0
+  requires: {}

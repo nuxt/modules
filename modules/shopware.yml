@@ -1,7 +1,5 @@
 name: shopware
-description: >-
-  Nuxt module that allows you to set up a Nuxt 3 project with Shopware
-  Frontends.
+description: Set up a project with Shopware Frontends.
 repo: shopware/frontends#main/packages/nuxt-module
 npm: '@shopware/nuxt-module'
 icon: shopware.svg

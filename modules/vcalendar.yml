@@ -1,5 +1,5 @@
 name: vcalendar
-description: VCalendar module for Nuxt
+description: VCalendar integration
 repo: samk-dev/nuxt-vcalendar
 npm: '@samk-dev/nuxt-vcalendar'
 icon: vcalendar.png

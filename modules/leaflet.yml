@@ -1,5 +1,5 @@
 name: leaflet
-description: Leaflet integration with Nuxt
+description: Leaflet integration
 repo: nuxt-modules/leaflet
 npm: '@nuxtjs/leaflet'
 icon: leaflet.png
