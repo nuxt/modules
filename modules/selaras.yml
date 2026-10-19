@@ -1,5 +1,7 @@
 name: selaras
-description: A UI component library built on Reka UI and Tailwind CSS v4 with customizable components and CSS-first theming.
+description: >-
+  A UI component library built on Reka UI and Tailwind CSS v4 with customizable
+  components and CSS-first theming.
 repo: sewadahapp/selaras#master
 npm: '@sewadah/selaras'
 icon: selaras.svg
