@@ -14,5 +14,5 @@ maintainers:
   - name: Wicaksana Pratama
     github: sewadahdev
 compatibility:
-  nuxt: '>=4.5.2'
+  nuxt: '^4.5.2'
   requires: {}
