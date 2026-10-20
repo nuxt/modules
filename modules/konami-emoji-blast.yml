@@ -1,0 +1,18 @@
+name: konami-emoji-blast
+description: Triggers blasts of emoji when the Konami Code is entered. 🎇
+repo: JoshuaKGoldberg/emoji-blast#main/packages/konami-emoji-blast-nuxt
+npm: '@konami-emoji-blast/nuxt'
+icon: konami-emoji-blast.png
+github: https://github.com/JoshuaKGoldberg/emoji-blast
+website: https://www.emojiblast.dev
+learn_more: https://www.emojiblast.dev/integrations/nuxt
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: Josh Ghoulberg 👻
+    github: JoshuaKGoldberg
+    bluesky: joshuakgoldberg.com
+    twitter: JoshuaKGoldberg
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
