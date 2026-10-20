@@ -11,7 +11,7 @@ learn_more: https://comvi.io/docs/i18n/nuxt
 category: Extensions
 type: 3rd-party
 maintainers:
-  - name: Eugene Balabai
+  - name: Eugene
     github: EugeneBalabai
 compatibility:
   nuxt: ^3.0.0 || ^4.0.0
