@@ -1,8 +1,8 @@
-name: kql
-description: Kirby's Query Language API integration
+name: kirby
+description: Fetch Kirby CMS data via KQL or the REST API
 repo: johannschopplich/nuxt-kirby
 npm: nuxt-kirby
-icon: kql.svg
+icon: kirby.svg
 github: https://github.com/johannschopplich/nuxt-kirby
 website: https://nuxt-kirby.byjohann.dev/
 learn_more: ''
@@ -16,3 +16,5 @@ maintainers:
 compatibility:
   nuxt: '>=4.0.0'
   requires: {}
+aliases:
+  - kql
