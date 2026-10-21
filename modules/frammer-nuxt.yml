@@ -5,11 +5,14 @@ npm: frammer-nuxt
 icon: frammer-nuxt.png
 github: https://github.com/ASoldo/frammer-nuxt
 website: https://github.com/ASoldo
+learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: Andrej Soldo
+  - name: Rootster
     github: ASoldo
     avatar: https://avatars.githubusercontent.com/u/1175537?v=4
+    twitter: RootsterAnon
 compatibility:
-  nuxt: "^3.5.1"
+  nuxt: ^3.5.1
+  requires: {}
