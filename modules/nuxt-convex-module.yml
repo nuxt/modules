@@ -8,7 +8,7 @@ icon: nuxt-convex-module.svg
 github: https://github.com/qruto/nuxt-convex-module
 website: https://nuxt-convex-module.dev
 learn_more: https://docs.convex.dev
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: Slava Razum

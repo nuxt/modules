@@ -8,7 +8,7 @@ icon: nuxt-freeform.png
 github: https://github.com/Flo0806/nuxt-freeform
 website: https://nuxt-freeform.fh-softdev.de
 learn_more: ''
-category: UI
+category: UI Components
 type: 3rd-party
 maintainers:
   - name: Florian Heuberger

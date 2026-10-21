@@ -8,7 +8,7 @@ icon: nuxt-nats.png
 github: https://github.com/lithqube/nuxt-nats
 website: https://github.com/lithqube/nuxt-nats
 learn_more: https://docs.nats.io/
-category: Database
+category: Realtime
 type: 3rd-party
 maintainers:
   - name: Cristhian Ferrufino

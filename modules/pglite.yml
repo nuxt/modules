@@ -6,7 +6,7 @@ icon: pglite.svg
 github: https://github.com/sandros94/nuxt-pglite
 website: https://nuxt-pglite.s94.dev
 learn_more: https://pglite.dev
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: Sandro Circi

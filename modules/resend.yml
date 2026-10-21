@@ -6,7 +6,7 @@ icon: resend.svg
 github: https://github.com/nhedger/nuxt-resend
 website: https://github.com/nhedger/nuxt-resend
 learn_more: https://resend.com
-category: Extensions
+category: Email & Notifications
 type: 3rd-party
 maintainers:
   - name: Nicolas Hedger

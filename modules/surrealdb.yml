@@ -6,7 +6,7 @@ icon: surrealdb.png
 github: https://github.com/sandros94/nuxt-surrealdb
 website: https://github.com/sandros94/nuxt-surrealdb
 learn_more: ''
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: Sandro Circi

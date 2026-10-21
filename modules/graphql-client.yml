@@ -8,7 +8,7 @@ icon: graphql-client.svg
 github: https://github.com/diizzayy/nuxt-graphql-client
 website: https://github.com/diizzayy/nuxt-graphql-client
 learn_more: https://nuxt-graphql-client.web.app/
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Conrawl Rogers

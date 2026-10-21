@@ -6,7 +6,7 @@ icon: tradingview.svg
 github: https://github.com/volkanakkus/nuxt-tradingview
 website: https://nuxt-tradingview.volkanakkus.com
 learn_more: https://nuxt-tradingview.volkanakkus.com/documentation/getting-started/setup
-category: Extensions
+category: Charts & Maps
 type: 3rd-party
 maintainers:
   - name: Volkan Akkuş
