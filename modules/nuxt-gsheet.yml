@@ -8,7 +8,7 @@ icon: gsheet.svg
 github: https://github.com/narr07/nuxt-gsheet
 website: https://nuxtgsheet.permadi.dev
 learn_more: https://nuxtgsheet.permadi.dev
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: Dinar, Permadi
