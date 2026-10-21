@@ -8,7 +8,7 @@ icon: ''
 github: https://github.com/forinda/nuxt-swal
 website: https://github.com/forinda/nuxt-swal
 learn_more: https://sweetalert2.github.io/
-category: Libraries
+category: UI Components
 type: 3rd-party
 maintainers:
   - name: Felix Orinda
