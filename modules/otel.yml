@@ -6,7 +6,7 @@ icon: otel.svg
 github: https://github.com/lutejka/nuxt-otel
 website: https://lutejka.github.io/nuxt-otel/
 learn_more: ''
-category: Monitoring
+category: Monitoring & Logging
 type: 3rd-party
 maintainers:
   - name: lutejka
