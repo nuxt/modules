@@ -6,7 +6,7 @@ icon: xamu-countries.png
 github: https://github.com/xamu-co/countries-api
 website: https://countries.xamu.com.co/
 learn_more: https://github.com/xamu-co/countries-api/#readme
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Victor Saa
