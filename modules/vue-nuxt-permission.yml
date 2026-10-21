@@ -8,7 +8,7 @@ icon: vue-nuxt-permission.svg
 github: https://github.com/keroloszakaria/vue-nuxt-permission
 website: https://vue-nuxt-permission.surge.sh
 learn_more: https://vue-nuxt-permission.surge.sh/getting-started
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Kerolos Zakaria
