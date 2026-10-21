@@ -8,7 +8,7 @@ icon: askdoppler.png
 github: https://github.com/askdoppler/doppler-js
 website: https://askdoppler.com
 learn_more: https://docs.askdoppler.com/integrations/nuxt
-category: SEO
+category: Analytics
 type: 3rd-party
 maintainers:
   - name: Maxime Dolores

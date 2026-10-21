@@ -8,7 +8,7 @@ icon: laravel.svg
 github: https://github.com/qirolab/nuxt-sanctum-authentication
 website: https://qirolab.com
 learn_more: https://qirolab.github.io/nuxt-sanctum-authentication/
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Qirolab

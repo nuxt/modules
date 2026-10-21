@@ -6,7 +6,7 @@ icon: polar.svg
 github: https://github.com/polarsource/polar
 website: https://polar.sh/docs/integrate/sdk/adapters/nuxt
 learn_more: https://polar.sh/docs/introduction
-category: Payment
+category: Ecommerce & Payments
 type: 3rd-party
 maintainers:
   - name: Emil Widlund

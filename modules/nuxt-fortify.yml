@@ -6,7 +6,7 @@ icon: laravel-nuxt-fortify.svg
 github: https://github.com/dev-charles15531/nuxt-fortify
 website: https://github.com/dev-charles15531/nuxt-fortify
 learn_more: https://laravel.com/framework/docs/11.x/fortify
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Charles Paul

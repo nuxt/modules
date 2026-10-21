@@ -9,7 +9,7 @@ icon: sidebase-auth.png
 github: https://github.com/sidebase/nuxt-auth
 website: https://auth.sidebase.io/
 learn_more: https://sidebase.io/
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: sidebase
