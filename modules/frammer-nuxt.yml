@@ -5,7 +5,7 @@ npm: frammer-nuxt
 icon: frammer-nuxt.png
 github: https://github.com/ASoldo/frammer-nuxt
 website: https://github.com/ASoldo
-category: UI
+category: Devtools
 type: 3rd-party
 maintainers:
   - name: Andrej Soldo
