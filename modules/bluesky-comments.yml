@@ -18,5 +18,3 @@ maintainers:
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
-aliases:
-  - nuxt-bluesky-comments
