@@ -13,10 +13,6 @@ maintainers:
     github: benjamincanac
     twitter: benjamincanac
     bluesky: benjamincanac.dev
-  - name: Sébastien Chopin
-    github: Atinux
-    twitter: atinux
-    bluesky: atinux.com
 compatibility:
   nuxt: '>=3.10.0'
   requires: {}

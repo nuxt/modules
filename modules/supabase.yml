@@ -11,7 +11,8 @@ type: community
 maintainers:
   - name: Baptiste Leproux
     github: larbish
-    twitter: baptistelprx
+    twitter: _larbish
+    bluesky: larbish.bsky.social
   - name: Sébastien Chopin
     github: Atinux
     twitter: atinux
