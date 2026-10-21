@@ -4,7 +4,7 @@ repo: rtrap-rsi/nuxt-git-info
 npm: 'nuxt-git-info'
 icon: nuxt-git-info.png
 github: https://github.com/rtrap-rsi/nuxt-git-info
-category: Extensions
+category: Utilities
 type: community
 maintainers:
   - name: Roberto Trapletti
