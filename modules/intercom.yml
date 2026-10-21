@@ -1,12 +1,12 @@
 name: intercom
-description: Conversational, messenger-based experiences with Intercom Module for Nuxt
+description: Conversational, messenger-based experiences with Intercom
 repo: hex-digital/nuxt-intercom
 npm: '@hexdigital/nuxt-intercom'
 icon: intercom.png
 github: https://github.com/hex-digital/nuxt-intercom
 website: https://github.com/hex-digital/nuxt-intercom
 learn_more: https://www.intercom.com/
-category: Ecommerce
+category: Widgets & Embeds
 type: 3rd-party
 maintainers:
   - name: hex-digital

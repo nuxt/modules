@@ -1,17 +1,17 @@
 name: vue-query
-description: 0 config lightweight Nuxt module for @tanstack/vue-query.
+description: Zero-config, lightweight @tanstack/vue-query integration.
 repo: Hebilicious/vue-query-nuxt#main/packages/vue-query-nuxt
 npm: '@hebilicious/vue-query-nuxt'
 icon: vue-query.svg
 github: https://github.com/Hebilicious/vue-query-nuxt
 website: https://github.com/Hebilicious/vue-query-nuxt#readme
-learn_more: https://tanstack.com/query/latest/docs/vue/quick-start
-category: Request
+learn_more: https://tanstack.com/query/latest/docs/framework/vue/quick-start
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Heb
     github: Hebilicious
     twitter: its_hebilicious
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: ^3
   requires: {}

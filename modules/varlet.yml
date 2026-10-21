@@ -3,10 +3,10 @@ description: A Material design mobile component library developed based on Vue3
 repo: varletjs/varlet-nuxt
 npm: '@varlet/nuxt'
 icon: varlet.svg
-github: https://github.com/varletjs/varlet
+github: https://github.com/varletjs/varlet-nuxt
 website: https://varlet.pages.dev/#/en-US/index
 learn_more: https://github.com/varletjs/varlet-nuxt
-category: UI
+category: UI Frameworks
 type: 3rd-party
 maintainers:
   - name: xiaomo
@@ -14,5 +14,4 @@ maintainers:
     twitter: wegi8666
 compatibility:
   nuxt: '>=3.0.0'
-  requires:
-    bridge: optional
+  requires: {}

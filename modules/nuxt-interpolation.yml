@@ -5,10 +5,10 @@ description: >-
 repo: daliborgogic/nuxt-interpolation#master
 npm: nuxt-interpolation
 icon: ''
-github: https://github.com/daliborgogic/nuxt-interpolation/tree/master
+github: https://github.com/daliborgogic/nuxt-interpolation
 website: https://github.com/daliborgogic/nuxt-interpolation/tree/master
 learn_more: ''
-category: Devtools
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Dalibor Gogic

@@ -6,11 +6,11 @@ icon: keen-slider.png
 github: https://github.com/modbender/nuxt-keen-slider
 website: https://github.com/modbender/nuxt-keen-slider
 learn_more: ''
-category: Libraries
+category: UI Components
 type: 3rd-party
 maintainers:
   - name: modbender
     github: modbender
 compatibility:
-  nuxt: ^3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

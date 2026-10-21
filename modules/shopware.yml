@@ -1,0 +1,16 @@
+name: shopware
+description: Set up a project with Shopware Frontends.
+repo: shopware/frontends#main/packages/nuxt-module
+npm: '@shopware/nuxt-module'
+icon: shopware.svg
+github: https://github.com/shopware/frontends
+website: https://developer.shopware.com/frontends/packages/nuxt-module.html
+learn_more: https://www.shopware.com/en/
+category: Ecommerce & Payments
+type: 3rd-party
+maintainers:
+  - name: Shopware AG
+    github: shopware
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

@@ -1,12 +1,12 @@
 name: svg-sprite
-description: Optimized and Easy way to use svg files in Nuxt
+description: Optimized and easy way to use SVG files
 repo: nuxt-modules/svg-sprite
 npm: '@nuxtjs/svg-sprite'
 icon: ''
 github: https://github.com/nuxt-modules/svg-sprite
 website: https://github.com/nuxt-modules/svg-sprite
 learn_more: ''
-category: UI
+category: Icons & Fonts
 type: community
 maintainers:
   - name: Farnabaz
@@ -14,5 +14,5 @@ maintainers:
     twitter: a_birang
     bluesky: farnabaz.dev
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

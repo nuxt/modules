@@ -1,12 +1,12 @@
 name: nuxt-sanctum-precognition
-description: Nuxt module for Laravel Precognition integration
+description: Laravel Precognition integration
 repo: manchenkoff/nuxt-sanctum-precognition
 npm: nuxt-sanctum-precognition
 icon: laravel.svg
 github: https://github.com/manchenkoff/nuxt-sanctum-precognition
-website: https://manchenkoff.gitbook.io/nuxt-sanctum-precognition
-learn_more: https://laravel.com/docs/12.x/precognition
-category: Libraries
+website: https://precognition.manchenkoff.me
+learn_more: https://laravel.com/framework/docs/12.x/precognition
+category: Forms & Validation
 type: 3rd-party
 maintainers:
   - name: Artem Manchenkov

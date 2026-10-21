@@ -6,12 +6,12 @@ icon: form-actions.svg
 github: https://github.com/Hebilicious/form-actions-nuxt
 website: https://form-actions-nuxt.pages.dev/
 learn_more: https://github.com/Hebilicious/form-actions-nuxt#readme
-category: Request
+category: Forms & Validation
 type: 3rd-party
 maintainers:
   - name: Heb
     github: Hebilicious
     twitter: its_hebilicious
 compatibility:
-  nuxt: '>=3.7.0'
+  nuxt: '>=3'
   requires: {}

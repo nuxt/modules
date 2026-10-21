@@ -1,12 +1,12 @@
 name: humans-txt
 description: >-
-  An initiative for knowing the people behind a website. It is a Nuxt
-  buildModules that add a TXT file containing information about the different
-  people who have contributed to building the website.
+  An initiative for knowing the people behind a website. Adds a TXT file
+  containing information about the different people who have contributed to
+  building the website.
 repo: Luxdamore/nuxt-humans-txt
 npm: '@luxdamore/nuxt-humans-txt'
 icon: ''
-github: https://github.com/LuXDAmore/nuxt-humans-txt
+github: https://github.com/Luxdamore/nuxt-humans-txt
 website: https://luxdamore.github.io/nuxt-humans-txt/
 learn_more: ''
 category: SEO
