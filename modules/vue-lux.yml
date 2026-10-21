@@ -9,8 +9,10 @@ learn_more: ''
 category: Utilities
 type: 3rd-party
 maintainers:
-  - name: dnldsht
+  - name: Donald Shtjefni
     github: dnldsht
+    twitter: Donald__SH
 compatibility:
   nuxt: ^3.0.0
   requires: {}
+archived: true
