@@ -1,5 +1,7 @@
 name: auto-crud
-description: Dynamic RESTful CRUD APIs for Nuxt without code generation, fully schema-driven.
+description: >-
+  Dynamic RESTful CRUD APIs for Nuxt without code generation, fully
+  schema-driven.
 repo: clifordpereira/nuxt-auto-crud
 npm: nuxt-auto-crud
 icon: auto-crud.svg
