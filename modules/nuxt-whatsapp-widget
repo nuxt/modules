@@ -6,6 +6,6 @@ icon: ph:whatsapp-logo
 github: true
 website: https://github.com/oussamalkd/nuxt-whatsapp-widget
 learn_more: https://github.com/oussamalkd/nuxt-whatsapp-widget#readme
-category: UI
+category: Widgets & Embeds
 type: module
 isOfficial: false
