@@ -6,7 +6,7 @@ icon: pdf-frame.svg
 github: https://github.com/i2djs/pdf-frame
 website: https://github.com/I2Djs/pdf-frame/tree/main/packages/pdf-frame-nuxt
 learn_more: https://github.com/I2Djs/pdf-frame/wiki/nuxt%E2%80%90pdf%E2%80%90frame
-category: Libraries
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Narayana Swamy

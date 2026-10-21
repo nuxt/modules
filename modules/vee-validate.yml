@@ -6,7 +6,7 @@ icon: vee-validate.png
 github: https://github.com/logaretm/vee-validate
 website: https://vee-validate.logaretm.com/v4/
 learn_more: https://vee-validate.logaretm.com/v4/integrations/nuxt/
-category: Libraries
+category: Forms & Validation
 type: 3rd-party
 maintainers:
   - name: Abdelrahman Awad

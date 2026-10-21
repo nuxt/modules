@@ -6,7 +6,7 @@ icon: nuxt-query.svg
 github: https://github.com/peterbud/nuxt-query
 website: https://github.com/peterbud/nuxt-query#readme
 learn_more: https://tanstack.com/query/latest/docs/framework/vue/overview
-category: Libraries
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Peter Budai

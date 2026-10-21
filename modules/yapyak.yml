@@ -8,7 +8,7 @@ icon: yapyak.svg
 github: https://github.com/yapyak/yapyak
 website: https://yapyak.dev
 learn_more: https://yapyak.dev/reference/nuxt
-category: Extensions
+category: i18n
 type: 3rd-party
 maintainers:
   - name: Joakim Uhrwing

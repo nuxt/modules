@@ -8,7 +8,7 @@ icon: ''
 github: https://github.com/ezypeeze/nuxt-neo
 website: https://ezypeeze.github.io/nuxt-neo
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Pedro Miguel Da Silva Pereira

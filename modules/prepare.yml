@@ -6,7 +6,7 @@ icon: prepare.svg
 github: https://github.com/johannschopplich/nuxt-prepare
 website: https://nuxt-prepare.byjohann.dev
 learn_more: ''
-category: Devtools
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Johann Schopplich

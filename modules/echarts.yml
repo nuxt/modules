@@ -6,7 +6,7 @@ icon: echarts.svg
 github: https://github.com/kingyue737/nuxt-echarts
 website: https://echarts.nuxt.dev
 learn_more: https://nuxt-echarts.nuxt.dev
-category: Libraries
+category: Charts & Maps
 type: 3rd-party
 maintainers:
   - name: Yue JIN

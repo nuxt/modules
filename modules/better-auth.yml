@@ -8,7 +8,7 @@ icon: better-auth.svg
 github: https://github.com/nuxt-modules/better-auth
 website: https://better-auth.nuxt.dev
 learn_more: https://better-auth.com/
-category: Security
+category: Authentication
 type: community
 maintainers:
   - name: Max
