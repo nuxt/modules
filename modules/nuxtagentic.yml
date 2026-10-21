@@ -13,6 +13,7 @@ type: 3rd-party
 maintainers:
   - name: Dennis Adriaansen
     github: dennisadriaans
+    twitter: DennisAdriaans
 compatibility:
   nuxt: '>=4.6.0'
   requires: {}
