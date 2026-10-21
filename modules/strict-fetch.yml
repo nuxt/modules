@@ -8,7 +8,7 @@ icon: ''
 github: https://github.com/alexbidenko/nuxt-strict-fetch
 website: https://www.npmjs.com/package/nuxt-strict-fetch
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Alexander
