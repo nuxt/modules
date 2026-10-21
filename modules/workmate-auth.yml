@@ -11,7 +11,7 @@ icon: workmate-auth.png
 github: https://github.com/work-mate/nuxt-auth-module
 website: https://github.com/work-mate/nuxt-auth-module
 learn_more: https://github.com/work-mate/nuxt-auth-module
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Oyinbo David Bayode
