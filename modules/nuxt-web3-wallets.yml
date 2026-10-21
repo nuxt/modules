@@ -1,7 +1,7 @@
 name: nuxt-web3-wallets
-description:  Web3 Wallets for connect dApp with web3 wallets in Nuxt3 projects.
+description: Web3 Wallets for connect dApp with web3 wallets in Nuxt3 projects.
 repo: thaibinh0131/vue-web3-wallets-nuxt
-npm: 'nuxt-web3-wallets'
+npm: nuxt-web3-wallets
 icon: ''
 github: https://github.com/thaibinh0131/vue-web3-wallets-nuxt
 website: https://github.com/thaibinh0131/vue-web3-wallets-nuxt
