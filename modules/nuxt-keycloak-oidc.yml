@@ -6,7 +6,7 @@ icon: ''
 github: https://github.com/Nessiahs/nuxt-keycloak-oidc
 website: https://github.com/Nessiahs/nuxt-keycloak-oidc
 learn_more: https://github.com/Nessiahs/nuxt-keycloak-oidc#readme
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Konstantin Kroner
