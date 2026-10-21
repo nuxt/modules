@@ -8,7 +8,7 @@ icon: codemirror-rich-obsidian-editor.svg
 github: https://github.com/Type-32/codemirror-rich-obsidian
 website: https://github.com/Type-32/codemirror-rich-obsidian
 learn_more: https://github.com/Type-32/codemirror-rich-obsidian/blob/dev/README.md
-category: Libraries
+category: UI Components
 type: 3rd-party
 maintainers:
   - name: Wilson
