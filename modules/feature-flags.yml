@@ -6,7 +6,7 @@ icon: feature-flags.svg
 github: https://github.com/roberthgnz/nuxt-feature-flags
 website: https://nuxt-feature-flags-docs.vercel.app/
 learn_more: https://nuxt-feature-flags-docs.vercel.app/guide/
-category: Extensions
+category: Deployment
 type: 3rd-party
 maintainers:
   - name: Roberth González
