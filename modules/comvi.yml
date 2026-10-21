@@ -8,7 +8,7 @@ icon: comvi.svg
 github: https://github.com/comvi-io/comvi-js
 website: https://comvi.io/docs/i18n/nuxt
 learn_more: https://comvi.io/docs/i18n/nuxt
-category: Extensions
+category: i18n
 type: 3rd-party
 maintainers:
   - name: Eugene Balabai
