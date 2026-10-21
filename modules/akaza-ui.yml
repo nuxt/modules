@@ -1,0 +1,17 @@
+name: akaza-ui
+description: Vue-native headless components designed from scratch for Vue 3, featuring flat templates, items-based APIs, and full styling control via the ui prop
+repo: igris-labs/akaza-ui
+npm: akaza-ui
+icon: "akaza-ui.svg"
+github: https://github.com/igris-labs/akaza-ui
+website: https://akaza-ui.com
+learn_more: "https://akaza-ui.com/getting-started"
+category: UI Frameworks
+type: 3rd-party
+maintainers:
+  - name: Rahul Vashishtha
+    github: rahul-vashishtha
+    twitter: rahulv_dev
+compatibility:
+  nuxt: ">=3.0.0"
+  requires: {}
