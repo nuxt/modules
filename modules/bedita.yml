@@ -6,7 +6,7 @@ icon: bedita.svg
 github: https://github.com/atlasconsulting/nuxt-bedita
 website: https://atlasconsulting.github.io/nuxt-bedita/
 learn_more: https://atlasconsulting.github.io/nuxt-bedita/
-category: CMS & Content
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Alberto Pagliarini
