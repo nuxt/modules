@@ -9,7 +9,7 @@ icon: websideproject.png
 github: https://github.com/websideproject/nuxt-auto
 website: https://websideproject.com/docs/nuxt-auto
 learn_more: ''
-category: Libraries
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: websideproject
