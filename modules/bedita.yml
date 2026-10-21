@@ -13,5 +13,5 @@ maintainers:
     github: batopa
     avatar: https://avatars.githubusercontent.com/batopa
 compatibility:
-  nuxt: ^4.0.0
+  nuxt: ^3.0.0 || ^4.0.0
   requires: {}
