@@ -9,7 +9,7 @@ icon: ''
 github: https://github.com/UniRate-API/nuxt-unirate
 website: https://github.com/UniRate-API/nuxt-unirate#readme
 learn_more: https://unirateapi.com
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: rob-browncc
