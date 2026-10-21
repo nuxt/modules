@@ -1,5 +1,5 @@
 name: nuxt-zod-i18n
-description: A Nuxt Module for localizing zod error messages.
+description: Localize Zod error messages.
 repo: xibman/nuxt-zod-i18n
 npm: nuxt-zod-i18n
 icon: nuxt-zod-i18n.svg

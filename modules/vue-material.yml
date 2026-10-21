@@ -1,7 +1,7 @@
 name: vue-material
 description: >-
-  Module to join nuxt and vue-material framework so you can build well-designed
-  apps with dynamic themes and components with an ease-to-use API.
+  Integrate the vue-material framework so you can build well-designed apps with
+  dynamic themes and components with an ease-to-use API.
 repo: vaso2/nuxt-vue-material
 npm: nuxt-vue-material
 icon: vue-material.png

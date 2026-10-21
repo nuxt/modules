@@ -1,5 +1,5 @@
 name: headway
-description: Headway changelog widget for Nuxt
+description: Headway changelog widget
 repo: l-portet/nuxt-headway
 npm: nuxt-headway
 icon: headway.png

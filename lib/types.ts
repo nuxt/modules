@@ -61,9 +61,15 @@ export interface SyncRegression {
   description: string
 }
 
+export interface SyncWarning {
+  moduleName: string
+  message: string
+}
+
 export interface SyncResult {
   module: ModuleInfo
   regressions: SyncRegression[]
+  warnings: string[]
 }
 
 export interface SyncError {
@@ -77,6 +83,7 @@ export interface SyncAllResult {
   errors: SyncError[]
   regressions: SyncRegression[]
   archivedModules: string[]
+  warnings: SyncWarning[]
 }
 
 export type SyncProgressCallback = (current: number, total: number, moduleName: string) => void

@@ -1,5 +1,5 @@
 name: xstate
-description: XState integration for Nuxt
+description: XState integration
 repo: Lexpeartha/nuxt-xstate
 npm: nuxt-xstate
 icon: xstate.svg

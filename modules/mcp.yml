@@ -1,5 +1,5 @@
 name: mcp
-description: Create MCP servers directly in your Nuxt application with zero configuration.
+description: Create MCP servers directly in your app with zero configuration.
 repo: nuxt-modules/mcp-toolkit#main/packages/nuxt-mcp-toolkit
 npm: '@nuxtjs/mcp-toolkit'
 icon: mcp-toolkit.png
@@ -12,7 +12,7 @@ maintainers:
   - name: Hugo
     github: HugoRCD
     twitter: hugorcd
-    bluesky: hrcd.fr
+    bluesky: hugorcd.com
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

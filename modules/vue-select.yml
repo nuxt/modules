@@ -1,6 +1,6 @@
 name: vue-select
 description: >-
-  Nuxt module for vue-select, a feature rich select/dropdown/typeahead
+  Integration for vue-select, a feature-rich select/dropdown/typeahead
   component.
 repo: madmod/nuxt-vue-select
 npm: nuxt-vue-select

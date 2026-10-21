@@ -6,19 +6,22 @@ import { globby } from 'globby'
 import defu from 'defu'
 import pLimit from 'p-limit'
 import { Octokit } from '@octokit/rest'
-import dotenv from 'dotenv'
 
 import { categories } from './categories.ts'
-import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback } from './types.ts'
-import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY } from './utils.ts'
+import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback, SyncWarning } from './types.ts'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, isValidModuleName, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
-dotenv.config()
+export interface SyncOptions {
+  /** Drop `aliases`, which are maintained by the Nuxt team rather than contributors */
+  stripAliases?: boolean
+}
 
-export async function sync(name: string, repo?: string, isNew: boolean = false): Promise<SyncResult> {
+export async function sync(name: string, repo?: string, isNew: boolean = false, options: SyncOptions = {}): Promise<SyncResult> {
   const mod = await getModule(name)
   const regressions: SyncRegression[] = []
+  const warnings: string[] = []
 
   // Store original values for regression detection
   const originalWebsite = mod.website
@@ -48,7 +51,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     }
   }
   catch (err) {
-    console.warn(`Could not check repo redirect for ${mod.repo}: ${err}`)
+    warnings.push(`Could not check repo redirect for ${mod.repo}: ${err}`)
   }
 
   // Always derive github URL from repo
@@ -80,7 +83,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
       throw new Error(`No category for ${name}`)
     }
     else {
-      console.log(`[TODO] Add a category to ./modules/${name}.yml`)
+      warnings.push(`[TODO] Add a category to ./modules/${name}.yml`)
     }
   }
   else if (!categories.includes(mod.category)) {
@@ -103,11 +106,11 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
         try {
           const exists = await npmPackageExists(npmPackage)
           if (!exists) {
-            console.warn(`${key} link references non-existent npm package "${npmPackage}" for ${mod.name}`)
+            warnings.push(`${key} link references non-existent npm package "${npmPackage}"`)
           }
         }
         catch (err) {
-          console.warn(`Could not check npm package "${npmPackage}" for ${mod.name}: ${err}`)
+          warnings.push(`Could not check npm package "${npmPackage}": ${err}`)
         }
       }
       else {
@@ -119,7 +122,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
           }
         }
         catch (err) {
-          console.warn(`Could not validate ${key} URL for ${mod.name}: ${err}`)
+          warnings.push(`Could not validate ${key} URL: ${err}`)
         }
       }
       await sleep(FETCH_DELAY)
@@ -164,7 +167,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     }
   }
   if (invalidFields.length) {
-    console.warn(`Invalid fields for ./modules/${mod.name}.yml`, invalidFields)
+    warnings.push(`Invalid fields in ./modules/${mod.name}.yml: ${invalidFields.join(', ')}`)
   }
 
   // Auto name
@@ -172,6 +175,15 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     mod.name = (pkg.name.startsWith('@') ? pkg.name.split('/')[1] : pkg.name)
       .replace('nuxt-', '')
       .replace('-module', '')
+  }
+
+  if (!isValidModuleName(mod.name)) {
+    throw new Error(`Invalid module name \`${mod.name}\`: use lowercase letters, numbers, hyphens and dots (usually the npm package name)`)
+  }
+
+  if (options.stripAliases && mod.aliases) {
+    delete mod.aliases
+    warnings.push(`Removed \`aliases\` from ./modules/${name}.yml (new modules can't set aliases)`)
   }
 
   if (mod.aliases) {
@@ -195,7 +207,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
       throw new Error(`No maintainer for ${mod.name}`)
     }
     else {
-      console.log(`[TODO] Add a maintainer to ./modules/${name}.yml`)
+      warnings.push(`[TODO] Add a maintainer to ./modules/${name}.yml`)
     }
   }
 
@@ -203,7 +215,6 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
     const client = new Octokit({ auth: `Bearer ${process.env.GITHUB_TOKEN}` })
     for (const maintainer of mod.maintainers) {
       if (!(maintainer.github in maintainerSocialCache)) {
-        console.log('Syncing maintainer socials with GitHub')
         maintainerSocialCache[maintainer.github] = await client.graphql<{ user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }>({
           query: `
               query ($login: String!) {
@@ -247,7 +258,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
         mod.archived = data.archived || undefined // only set if true
       }
       catch (err) {
-        console.warn(`Could not check archived status for ${mod.repo}: ${err}`)
+        warnings.push(`Could not check archived status for ${mod.repo}: ${err}`)
       }
     }
   }
@@ -256,13 +267,16 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   if (!mod.description) {
     mod.description = pkg.description
   }
+  if (/\bnuxt(?:\.?js)?\s*v?[234]\b|\bnuxt\.js\b/i.test(mod.description || '')) {
+    warnings.push(`Description in ./modules/${name}.yml mentions a Nuxt version; describe what the module does instead`)
+  }
 
   let majorVersions: string[] = []
   try {
     majorVersions = await getMajorVersions(mod.npm)
   }
   catch (err) {
-    console.warn(`Could not fetch major versions for ${mod.npm}: ${err}`)
+    warnings.push(`Could not fetch major versions for ${mod.npm}: ${err}`)
   }
 
   const nuxtCompatibilities: string[] = []
@@ -339,7 +353,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false):
   // Write module
   await writeModule(mod)
 
-  return { module: mod, regressions }
+  return { module: mod, regressions, warnings }
 }
 
 export async function getModule(name: string): Promise<ModuleInfo> {
@@ -364,6 +378,12 @@ export async function getModule(name: string): Promise<ModuleInfo> {
   const file = resolve(modulesDir, name + '.yml')
   if (existsSync(file)) {
     mod = defu(yml.load(await fsp.readFile(file, 'utf-8')) as object, mod)
+    if (mod.name !== name) {
+      throw new Error(`Module name \`${mod.name}\` in ./modules/${name}.yml must match the filename`)
+    }
+    if (!isValidModuleName(name)) {
+      throw new Error(`Invalid module name \`${name}\`: use lowercase letters, numbers, hyphens and dots (usually the npm package name)`)
+    }
   }
 
   return mod
@@ -375,6 +395,11 @@ export async function writeModule(module: ModuleInfo) {
 }
 
 export async function readModules() {
+  const invalidFiles = (await fsp.readdir(modulesDir)).filter(file => extname(file) !== '.yml')
+  if (invalidFiles.length) {
+    throw new Error(`Module files must use the .yml extension: ${invalidFiles.map(file => `./modules/${file}`).join(', ')}`)
+  }
+
   const globPattern = join(modulesDir, '*.yml').replace(/\\/g, '/')
   const names = (await globby(globPattern)).map(p => basename(p, extname(p))).filter(_ => _)
 
@@ -382,20 +407,22 @@ export async function readModules() {
     .then(modules => modules.filter(m => m.name))
 }
 
-export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAllResult> {
-  const modules = await readModules()
+export async function syncAll(onProgress?: SyncProgressCallback, only?: string[], added: string[] = []): Promise<SyncAllResult> {
+  const allModules = await readModules()
+  const modules = only ? allModules.filter(module => only.includes(module.name)) : allModules
   const total = modules.length
   const synced: string[] = []
   const errors: SyncError[] = []
   const regressions: SyncRegression[] = []
   const archivedModules: string[] = []
+  const warnings: SyncWarning[] = []
 
   let completed = 0
   const limit = pLimit(10)
 
   await Promise.all(modules.map(module => limit(async () => {
     try {
-      const result = await sync(module.name, module.repo)
+      const result = await sync(module.name, module.repo, false, { stripAliases: added.includes(module.name) })
       synced.push(module.name)
 
       if (result.regressions.length > 0) {
@@ -403,6 +430,9 @@ export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAl
       }
       if (result.module.archived) {
         archivedModules.push(module.name)
+      }
+      for (const message of result.warnings) {
+        warnings.push({ moduleName: module.name, message })
       }
     }
     catch (err) {
@@ -417,7 +447,7 @@ export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAl
     }
   })))
 
-  return { total, synced, errors, regressions, archivedModules }
+  return { total, synced, errors, regressions, archivedModules, warnings }
 }
 
 export async function build() {

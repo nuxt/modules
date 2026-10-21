@@ -1,8 +1,7 @@
 name: calendly
 description: >-
   Calendly is a scheduling tool that allows you to schedule meetings with your
-  customers. This module allows you to easily add Calendly to your Nuxt
-  application.
+  customers. This module allows you to easily add Calendly to your app.
 repo: madebyfabian/nuxt-calendly
 npm: nuxt-calendly
 icon: calendly.svg

@@ -1,5 +1,5 @@
 name: es-toolkit
-description: Es-toolkit auto import module for Nuxt
+description: Auto-imports for es-toolkit
 repo: bubblesortt/nuxt-es-toolkit
 npm: '@bubblesortt/nuxt-es-toolkit'
 icon: es-toolkit.png

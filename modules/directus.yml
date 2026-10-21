@@ -1,5 +1,5 @@
 name: directus
-description: Easily connect your Nuxt application to your directus server.
+description: Easily connect your app to your Directus server.
 repo: intevel/nuxt-directus
 npm: nuxt-directus
 icon: directus.svg

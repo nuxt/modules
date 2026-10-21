@@ -1,10 +1,10 @@
 name: nuxt-glaze
-description: Glaze.dev module for Nuxt
+description: Glaze.dev integration
 repo: holux-design/nuxt-glaze
 npm: nuxt-glaze
 icon: nuxt-glaze.png
 github: https://github.com/holux-design/nuxt-glaze
-website: https://www.glaze.dev/
+website: https://glaze.dev/
 learn_more: ''
 category: Libraries
 type: 3rd-party

@@ -1,5 +1,5 @@
 name: paper-ui
-description: A ui kit for nuxt
+description: A UI kit
 repo: paper-kit/nuxt
 npm: '@paper-ui/nuxt'
 icon: paper-ui.svg

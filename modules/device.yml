@@ -1,5 +1,5 @@
 name: device
-description: Device detection module for Nuxt
+description: Device detection
 repo: nuxt-modules/device
 npm: '@nuxtjs/device'
 icon: ''

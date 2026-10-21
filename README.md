@@ -25,10 +25,22 @@ Example: `pnpm sync tailwindcss nuxt-modules/tailwindcss`
 
 To sync with a branch different than `main`, suffix the repo with `#repo-branch`, example: `pnpm sync tailwindcss nuxt-modules/tailwindcss#dev`
 
+If the module lives in a subdirectory of a monorepo, add the path after the branch, example: `pnpm sync scripts nuxt/scripts#main/packages/script`
+
 ### Contribution
 
-- If you feel a module is missing, please create a new [issue](https://github.com/nuxt/modules/issues/new)
-- If some data is outdated please directly open a pull request
+To list a module, open a pull request directly. You don't need to open an issue first.
+
+1. Fork and clone this repository, then run `pnpm install`.
+2. Run `pnpm sync <name> <repo>` (see [Add/Update a module](#addupdate-a-module)). This creates `./modules/<name>.yml` from your repository's `package.json`.
+3. Set `category` in the generated file to one of the values in [./lib/categories.ts](./lib/categories.ts). Optionally add an icon to [./icons](./icons) and reference it with `icon`.
+4. Open a pull request.
+
+The `description` should say what the module does. There's no need to mention Nuxt or Nuxt versions.
+
+If your module mainly loads a third-party script (analytics, tag manager, chat widget, consent manager, captcha, ads or embed), check whether [Nuxt Scripts](https://scripts.nuxt.com/scripts) already supports it. If it doesn't, consider adding it to the [Nuxt Scripts registry](https://github.com/nuxt/scripts). Modules that build on Nuxt Scripts are welcome too, for example when they add more than an API for the script, or when the script isn't a fit for the registry.
+
+If some data is outdated, please open a pull request with the fix.
 
 ### Using CDN
 
@@ -75,6 +87,7 @@ Field Name      | Auto sync | Description
 `type`          | No        | `community` (for [nuxt-community](https://github.com/nuxt-community/)), `official` (for https://github.com/) or `3rd-party`
 `maintainers`   | Yes       | List of maintainers each item has `name`, `github` and `avatar`
 `compatibility` | No        | Module compatibility status. `nuxt` field specifies semver of supported nuxt version. `requires.bridge: true\|optional` can be used to specify Nuxt 2 bridge compatibility.
+`mcp`           | No        | MCP Server URL
 
 
 ## Maintenance

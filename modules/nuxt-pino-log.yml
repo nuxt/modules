@@ -1,5 +1,5 @@
 name: nuxt-pino-log
-description: Structured logs for nuxt apps using pino
+description: Structured logs using pino
 repo: kpn/nuxt-pino-log
 npm: nuxt-pino-log
 icon: ''

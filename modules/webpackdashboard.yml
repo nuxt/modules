@@ -1,7 +1,5 @@
 name: webpackdashboard
-description: >-
-  Webpack Dashboard module for Nuxt. A CLI dashboard for your webpack dev
-  server.
+description: Webpack Dashboard integration. A CLI dashboard for your webpack dev server.
 repo: paulgv/nuxt-webpackdashboard
 npm: nuxt-webpackdashboard
 icon: webpack.png
