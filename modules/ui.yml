@@ -6,7 +6,7 @@ icon: nuxt.svg
 github: https://github.com/nuxt/ui
 website: https://ui.nuxt.com/docs/getting-started/installation/nuxt
 learn_more: ''
-category: UI
+category: UI Frameworks
 type: official
 maintainers:
   - name: Benjamin Canac

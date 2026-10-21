@@ -6,7 +6,7 @@ icon: vueform.svg
 github: https://github.com/vueform/vueform
 website: https://vueform.com
 learn_more: https://vueform.com/docs/installation#nuxt
-category: Libraries
+category: Forms & Validation
 type: 3rd-party
 maintainers:
   - name: Adam Berecz

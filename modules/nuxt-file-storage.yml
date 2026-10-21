@@ -8,7 +8,7 @@ icon: nuxt-file-storage.svg
 github: https://github.com/nyllre/nuxt-file-storage
 website: https://github.com/nyllre/nuxt-file-storage
 learn_more: https://github.com/nyllre/nuxt-file-storage
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: Ali Sokkar

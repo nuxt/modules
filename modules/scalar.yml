@@ -6,7 +6,7 @@ icon: scalar.svg
 github: https://github.com/scalar/scalar
 website: https://github.com/scalar/scalar/tree/main/integrations/nuxt
 learn_more: https://scalar.com
-category: Devtools
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: scalar

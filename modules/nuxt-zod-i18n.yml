@@ -6,7 +6,7 @@ icon: nuxt-zod-i18n.svg
 github: https://github.com/xibman/nuxt-zod-i18n
 website: https://github.com/xibman/nuxt-zod-i18n
 learn_more: ''
-category: Libraries
+category: i18n
 type: 3rd-party
 maintainers:
   - name: Georget Julien

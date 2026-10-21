@@ -6,7 +6,7 @@ icon: nuxt-gql-pulse.png
 github: https://github.com/Abbasmoe/nuxt-gql-pulse
 website: https://github.com/Abbasmoe/nuxt-gql-pulse
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Abbas Mohamed Ahmed

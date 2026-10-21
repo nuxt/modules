@@ -8,7 +8,7 @@ icon: jasy.svg
 github: https://github.com/jasy-pdf/jasy
 website: https://jasy.dev
 learn_more: https://jasy.dev/docs/nuxt
-category: Libraries
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Florian Heuberger

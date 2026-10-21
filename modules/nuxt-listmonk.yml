@@ -6,7 +6,7 @@ icon: listmonk.svg
 github: https://github.com/roncallyt/nuxt-listmonk
 website: https://nuxt-listmonk.t7n.dev
 learn_more: https://listmonk.app/docs/
-category: Extensions
+category: Email & Notifications
 type: 3rd-party
 maintainers:
   - name: Thomerson Roncally

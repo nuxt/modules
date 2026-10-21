@@ -6,7 +6,7 @@ icon: nuxt-charts.svg
 github: https://github.com/dennisadriaans/vue-chrts
 website: https://nuxtcharts.com/
 learn_more: https://nuxtcharts.com/docs/getting-started/installation
-category: UI
+category: Charts & Maps
 type: 3rd-party
 maintainers:
   - name: Dennis Adriaansen

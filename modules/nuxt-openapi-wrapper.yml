@@ -8,7 +8,7 @@ icon: openapi-wrapper.svg
 github: https://github.com/Pentadome/nuxt-openAPI-wrapper
 website: https://github.com/Pentadome/nuxt-openAPI-wrapper
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Pentadome

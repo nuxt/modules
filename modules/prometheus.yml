@@ -8,7 +8,7 @@ icon: prometheus.svg
 github: https://github.com/artmizu/nuxt-prometheus
 website: https://github.com/artmizu/nuxt-prometheus
 learn_more: ''
-category: Monitoring
+category: Monitoring & Logging
 type: 3rd-party
 maintainers:
   - name: Aleksandr Kriuchkov

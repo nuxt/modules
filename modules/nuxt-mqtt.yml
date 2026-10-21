@@ -6,7 +6,7 @@ icon: nuxt-mqtt.png
 github: https://github.com/nuxtaid/nuxt-mqtt
 website: https://github.com/nuxtaid/nuxt-mqtt#readme
 learn_more: ''
-category: Extensions
+category: Realtime
 type: 3rd-party
 maintainers:
   - name: Arash Ari Sheyda

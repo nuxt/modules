@@ -6,7 +6,7 @@ icon: meilisearch.svg
 github: https://github.com/xlanex6/nuxt-meilisearch
 website: https://nuxt-meilisearch.vercel.app
 learn_more: https://github.com/xlanex6/nuxt-meilisearch
-category: Libraries
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Alex Duval

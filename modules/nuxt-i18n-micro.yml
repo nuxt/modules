@@ -8,7 +8,7 @@ icon: nuxt-i18n-micro.png
 github: https://github.com/s00d/nuxt-i18n-micro
 website: https://s00d.github.io/nuxt-i18n-micro/
 learn_more: https://s00d.github.io/nuxt-i18n-micro/
-category: Extensions
+category: i18n
 type: 3rd-party
 maintainers:
   - name: Pavel Kuzmin
