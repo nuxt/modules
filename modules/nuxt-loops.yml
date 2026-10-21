@@ -6,7 +6,7 @@ icon: nuxt-loops.svg
 github: https://github.com/Loops-so/loops-nuxt
 website: https://loops.so/docs/sdks/nuxt
 learn_more: https://loops.so/docs
-category: Analytics
+category: Email & Notifications
 type: 3rd-party
 maintainers:
   - name: Dan Rowden
