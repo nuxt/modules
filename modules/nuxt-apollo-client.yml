@@ -6,7 +6,7 @@ icon: nuxt-apollo-client.svg
 github: https://github.com/safdar-azeem/nuxt-apollo-client
 learn_more: https://github.com/safdar-azeem/nuxt-apollo-client
 website: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
     - name: Safdar Azeem
