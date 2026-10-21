@@ -6,7 +6,7 @@ icon: nuxt-strapi-blocks-renderer.png
 github: https://github.com/bussmann-io/nuxt-strapi-blocks-renderer
 website: https://github.com/bussmann-io/nuxt-strapi-blocks-renderer
 learn_more: https://strapi.io
-category: CMS
+category: CMS & Content
 type: 3rd-party
 maintainers:
   - name: Frederik Bußmann

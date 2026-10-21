@@ -6,7 +6,7 @@ icon: nuxt-mongoose.svg
 github: https://github.com/nuxtaid/nuxt-mongoose
 website: https://docs.arashsheyda.me/nuxt-mongoose
 learn_more: ''
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: Arash Ari Sheyda

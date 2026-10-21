@@ -8,7 +8,7 @@ icon: ''
 github: https://github.com/juliomrqz/vue-warehouse
 website: https://github.com/juliomrqz/vue-warehouse/tree/develop/docs
 learn_more: ''
-category: Libraries
+category: State Management
 type: 3rd-party
 maintainers:
   - name: Julio Marquez

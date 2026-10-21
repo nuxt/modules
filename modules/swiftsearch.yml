@@ -6,7 +6,7 @@ icon: nuxt-swiftsearch.svg
 github: https://github.com/atoms-studio/nuxt-swiftsearch
 website: https://nuxt-swiftsearch.netlify.app/
 learn_more: ''
-category: Libraries
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Matteo Rigoni

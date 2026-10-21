@@ -6,7 +6,7 @@ icon: nuxt-simple-cookie-consent.svg
 github: https://github.com/criting/nuxt-simple-cookie-consent
 website: https://github.com/criting/nuxt-simple-cookie-consent
 learn_more: ''
-category: Extensions
+category: Security
 type: 3rd-party
 maintainers:
   - name: Galabin Vasilev

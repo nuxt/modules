@@ -6,7 +6,7 @@ icon: api-sdk.svg
 github: https://github.com/jamiecurnow/nuxt-api-sdk
 website: https://github.com/jamiecurnow/nuxt-api-sdk
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Jamie Curnow

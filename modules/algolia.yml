@@ -6,7 +6,7 @@ icon: algolia.svg
 github: https://github.com/nuxt-modules/algolia
 website: https://algolia.nuxtjs.org/
 learn_more: https://algolia.nuxtjs.org/
-category: Libraries
+category: Utilities
 type: community
 maintainers:
   - name: Jakub Andrzejewski
