@@ -4,7 +4,7 @@ description: >-
   tab.
 repo: dennisadriaans/nuxt-agentic-oss#main/packages/nuxt
 npm: '@nuxtagentic/nuxt'
-icon: ''
+icon: nuxtagentic.svg
 github: https://github.com/dennisadriaans/nuxt-agentic-oss
 website: https://nuxtagentic.com/docs/getting-started/free
 learn_more: ''
@@ -17,3 +17,4 @@ maintainers:
 compatibility:
   nuxt: '>=4.6.0'
   requires: {}
+
