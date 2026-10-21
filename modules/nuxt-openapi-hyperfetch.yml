@@ -8,7 +8,7 @@ icon: ''
 github: https://github.com/dmartindiaz/nuxt-openapi-hyperfetch
 website: https://nuxt-openapi-hyperfetch.netlify.app/
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: DANIEL MARTIN DIAZ
