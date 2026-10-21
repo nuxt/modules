@@ -6,7 +6,7 @@ icon: vue3-google-signin.svg
 github: https://github.com/wavezync/nuxt-vue3-google-signin
 website: https://vue3-google-signin.wavezync.com
 learn_more: https://vue3-google-signin.wavezync.com
-category: Libraries
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Kasun Vithanage

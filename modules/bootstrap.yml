@@ -6,7 +6,7 @@ icon: bootstrap.png
 github: https://github.com/bootstrap-vue/bootstrap-vue
 website: https://bootstrap-vue.org/docs#nuxtjs-module
 learn_more: ''
-category: UI
+category: UI Frameworks
 type: 3rd-party
 maintainers:
   - name: Troy Morehouse

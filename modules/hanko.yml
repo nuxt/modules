@@ -6,7 +6,7 @@ icon: hanko.svg
 github: https://github.com/nuxt-modules/hanko
 website: https://github.com/nuxt-modules/hanko
 learn_more: https://www.hanko.io/
-category: Security
+category: Authentication
 type: community
 maintainers:
   - name: Daniel Roe

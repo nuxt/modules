@@ -6,7 +6,7 @@ icon: vue-query.svg
 github: https://github.com/Hebilicious/vue-query-nuxt
 website: https://github.com/Hebilicious/vue-query-nuxt#readme
 learn_more: https://tanstack.com/query/latest/docs/framework/vue/quick-start
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Heb

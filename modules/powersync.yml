@@ -8,7 +8,7 @@ icon: powersync.svg
 github: https://github.com/powersync-ja/powersync-js
 website: https://docs.powersync.com/intro/powersync-overview
 learn_more: https://powersync.com/
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: PowerSync

@@ -6,7 +6,7 @@ icon: notform.svg
 github: https://github.com/favorodera/notform
 website: https://notformdocs.vercel.app
 learn_more: https://notformdocs.vercel.app/docs/getting-started/nuxt-module
-category: Libraries
+category: Forms & Validation
 type: 3rd-party
 maintainers:
   - name: Favour  Emeka

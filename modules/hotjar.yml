@@ -6,7 +6,7 @@ icon: hotjar.png
 github: https://github.com/damevin/nuxt-module-hotjar
 website: https://github.com/damevin/nuxt-module-hotjar
 learn_more: https://github.com/damevin/nuxt-module-hotjar#nuxt-hotjar
-category: SEO
+category: Analytics
 type: 3rd-party
 maintainers:
   - name: damevin

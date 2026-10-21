@@ -6,7 +6,7 @@ icon: rollbar.png
 github: https://github.com/jairoblatt/nuxt-rollbar
 website: https://github.com/jairoblatt/nuxt-rollbar
 learn_more: https://docs.rollbar.com/docs/javascript
-category: Monitoring
+category: Monitoring & Logging
 type: 3rd-party
 maintainers:
   - name: Jairo Blatt

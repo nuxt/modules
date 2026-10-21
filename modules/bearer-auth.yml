@@ -8,7 +8,7 @@ icon: ''
 github: https://github.com/paaqwesilowelltetteh/nuxt-bearer-auth
 website: https://nuxt-bearer-auth.vercel.app/
 learn_more: ''
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Enoch Tetteh

@@ -6,7 +6,7 @@ icon: nuxt-telegram-auth.png
 github: https://github.com/halitsever/nuxt-telegram-auth
 website: https://halitsever.github.io/nuxt-telegram-auth
 learn_more: ''
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Halit Sever

@@ -6,7 +6,7 @@ icon: ''
 github: https://github.com/tuarrep/nuxt-twa
 website: https://nuxt-twa.tuarrep.dev
 learn_more: https://developer.chrome.com/docs/android/trusted-web-activity?hl=tr
-category: Performance
+category: Mobile & Desktop
 type: 3rd-party
 maintainers:
   - name: Nicolas Perraut

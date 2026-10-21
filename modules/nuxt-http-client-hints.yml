@@ -6,7 +6,7 @@ icon: http-client-hints.svg
 github: https://github.com/userquin/nuxt-http-client-hints
 website: https://github.com/userquin/nuxt-http-client-hints
 learn_more: https://github.com/userquin/nuxt-http-client-hints?tab=readme-ov-file#features
-category: Extensions
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Joaquín Sánchez
