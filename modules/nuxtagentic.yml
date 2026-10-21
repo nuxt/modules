@@ -17,4 +17,3 @@ maintainers:
 compatibility:
   nuxt: '>=4.6.0'
   requires: {}
-
