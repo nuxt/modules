@@ -8,7 +8,7 @@ icon: ''
 github: https://github.com/davidtheheroes/nuxt-openapi-meta
 website: https://github.com/davidtheheroes/nuxt-openapi-meta
 learn_more: ''
-category: Devtools
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: David Pham
