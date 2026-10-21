@@ -6,7 +6,7 @@ icon: ''
 github: https://github.com/gsxdsm/nuxt-rpc
 website: https://www.npmjs.com/package/nuxt-rpc
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: community
 maintainers:
   - name: gsxdsm
