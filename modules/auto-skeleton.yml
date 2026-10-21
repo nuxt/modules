@@ -1,14 +1,14 @@
 name: auto-skeleton
 description: >-
-  Auto-generated Vue 3 & Nuxt skeleton loaders that mirror a component's real
-  rendered layout — zero authoring, always in sync.
+  Auto-generated skeleton loaders that mirror a component's real rendered
+  layout. Zero authoring, always in sync.
 repo: oleksiizlotnik/AutoSkeleton
 npm: auto-skeleton-vue
 icon: auto-skeleton.svg
 github: https://github.com/oleksiizlotnik/AutoSkeleton
 website: https://oleksiizlotnik.github.io/AutoSkeleton/
 learn_more: https://oleksiizlotnik.github.io/AutoSkeleton/guide/nuxt
-category: UI
+category: UI Components
 type: 3rd-party
 maintainers:
   - name: Oleksii Zlotnik

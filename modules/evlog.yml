@@ -8,7 +8,7 @@ icon: evlog.svg
 github: https://github.com/evloghq/evlog
 website: https://www.evlog.dev/
 learn_more: https://www.evlog.dev/start/introduction
-category: Monitoring
+category: Monitoring & Logging
 type: 3rd-party
 maintainers:
   - name: Hugo

@@ -1,16 +1,14 @@
 name: bearer-auth
 description: >-
-  Server-side bearer authentication for Nuxt with Redis-backed sessions,
-  HTTP-only cookies, CSRF protection, social login, OTP verification, password
-  reset, session management, SSR hydration, and optional ability-based
-  authorization.
+  Cookie-session auth backed by an external API that issues bearer tokens, with
+  Redis-stored sessions, CSRF protection and optional ability checks.
 repo: paaqwesilowelltetteh/nuxt-bearer-auth#development
 npm: nuxt-bearer-auth
 icon: ''
 github: https://github.com/paaqwesilowelltetteh/nuxt-bearer-auth
 website: https://nuxt-bearer-auth.vercel.app/
 learn_more: ''
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Enoch Tetteh

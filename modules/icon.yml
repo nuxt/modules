@@ -1,12 +1,12 @@
 name: icon
-description: Icon module for Nuxt with 200,000+ ready to use icons from Iconify.
+description: 200,000+ ready to use icons from Iconify.
 repo: nuxt/icon
 npm: '@nuxt/icon'
 icon: nuxt.svg
 github: https://github.com/nuxt/icon
 website: https://github.com/nuxt/icon
 learn_more: ''
-category: UI
+category: Icons & Fonts
 type: official
 maintainers:
   - name: Sébastien Chopin

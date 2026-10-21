@@ -1,12 +1,12 @@
 name: graphql-server
-description: Easy GraphQL server implementation with Nuxt
+description: Easy GraphQL server implementation
 repo: tobiasdiez/nuxt-graphql-server
 npm: nuxt-graphql-server
 icon: ''
 github: https://github.com/tobiasdiez/nuxt-graphql-server
 website: https://github.com/tobiasdiez/nuxt-graphql-server
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Tobias Diez

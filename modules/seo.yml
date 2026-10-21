@@ -1,5 +1,5 @@
 name: seo
-description: The complete SEO solution for Nuxt.
+description: The complete SEO solution.
 repo: harlan-zw/nuxt-seo
 npm: '@nuxtjs/seo'
 icon: nuxt-seo.svg
