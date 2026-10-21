@@ -6,7 +6,7 @@ icon: laravel.png
 github: https://github.com/m2sd/nuxt-laravel
 website: https://github.com/m2sd/nuxt-laravel
 learn_more: https://laravel.com/
-category: CMS
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: m2sd

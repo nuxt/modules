@@ -8,7 +8,7 @@ icon: nuxthub.svg
 github: https://github.com/nuxt-hub/core
 website: https://hub.nuxt.com
 learn_more: ''
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: Sébastien Chopin

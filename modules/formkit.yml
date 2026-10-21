@@ -6,7 +6,7 @@ icon: formkit.png
 github: https://github.com/formkit/formkit
 website: https://formkit.com
 learn_more: https://formkit.com/getting-started/installation
-category: Libraries
+category: Forms & Validation
 type: 3rd-party
 maintainers:
   - name: Justin Schroeder

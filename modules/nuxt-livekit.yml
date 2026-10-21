@@ -8,7 +8,7 @@ icon: nuxt-livekit.svg
 github: https://github.com/nuxtaid/nuxt-livekit
 website: https://github.com/nuxtaid/nuxt-livekit#readme
 learn_more: https://docs.livekit.io/intro/overview/
-category: Libraries
+category: Realtime
 type: 3rd-party
 maintainers:
   - name: Arash Ari Sheyda

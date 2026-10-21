@@ -3,6 +3,7 @@ import c from 'picocolors'
 import { sync, syncAll, build } from './modules.ts'
 import { getChangedModuleNames } from './utils.ts'
 import { version } from './version.ts'
+import type { SyncAllResult } from './types.ts'
 
 async function main() {
   const [command, ...args] = process.argv.splice(2)
@@ -104,14 +105,23 @@ async function runSyncAll(failOnArchived: boolean = false, base?: string) {
   progress.start('Starting sync...')
 
   let lastPercent = 0
-  const result = await syncAll((current, total, moduleName) => {
-    const percent = Math.round((current / total) * 100)
-    const delta = percent - lastPercent
-    if (delta > 0) {
-      progress.advance(delta, `Syncing ${c.cyan(moduleName)} ${c.dim(`(${current}/${total})`)}`)
-      lastPercent = percent
-    }
-  }, only, added)
+  let result: SyncAllResult
+  try {
+    result = await syncAll((current, total, moduleName) => {
+      const percent = Math.round((current / total) * 100)
+      const delta = percent - lastPercent
+      if (delta > 0) {
+        progress.advance(delta, `Syncing ${c.cyan(moduleName)} ${c.dim(`(${current}/${total})`)}`)
+        lastPercent = percent
+      }
+    }, only, added)
+  }
+  catch (err) {
+    progress.error(c.red('Errors found:'))
+    p.log.error(err instanceof Error ? err.message : String(err))
+    p.outro(c.red('Sync failed'))
+    process.exit(1)
+  }
 
   progress.stop(`Synced ${c.green(c.bold(result.synced.length))}${c.dim('/')}${result.total} modules`)
 

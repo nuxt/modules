@@ -6,7 +6,7 @@ icon: apollo.png
 github: https://github.com/nuxt-modules/apollo
 website: https://apollo.nuxtjs.org
 learn_more: https://apollo.vuejs.org/guide/#what-is-graphql
-category: Request
+category: API & Data Fetching
 type: community
 maintainers:
   - name: Conrawl Rogers

@@ -6,7 +6,7 @@ icon: tailwindcss.png
 github: https://github.com/nuxt-modules/tailwindcss
 website: https://tailwindcss.nuxtjs.org
 learn_more: https://tailwindcss.com/
-category: CSS
+category: CSS & Theming
 type: community
 maintainers:
   - name: Sébastien Chopin

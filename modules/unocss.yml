@@ -6,7 +6,7 @@ icon: unocss.svg
 github: https://github.com/unocss/unocss
 website: https://unocss.dev/integrations/nuxt
 learn_more: https://unocss.dev
-category: CSS
+category: CSS & Theming
 type: 3rd-party
 maintainers:
   - name: Anthony Fu
