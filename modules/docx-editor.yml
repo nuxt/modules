@@ -4,7 +4,7 @@ description: >-
   collaboration. Wraps @eigenpal/docx-editor-vue and auto-imports an SSR-safe
   <DocxEditor /> component.
 repo: eigenpal/docx-editor#main/packages/nuxt
-npm: '@eigenpal/nuxt-docx-editor'
+npm: '@docx-editor.dev/nuxt'
 icon: docx-editor.png
 github: https://github.com/eigenpal/docx-editor
 website: https://www.docx-editor.dev/
