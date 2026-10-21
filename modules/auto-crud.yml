@@ -8,7 +8,7 @@ icon: auto-crud.svg
 github: https://github.com/clifordpereira/nuxt-auto-crud
 website: https://github.com/clifordpereira/nuxt-auto-crud
 learn_more: ''
-category: Devtools
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Cliford Pereira
