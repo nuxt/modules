@@ -24,6 +24,19 @@ export interface GithubContributor {
   avatar_url?: string
 }
 
+/** A third-party service the module integrates with (image CDN, font provider, analytics script...) */
+export interface ModuleProvider {
+  /** Unique within the module, ideally the key used in the module options (e.g. `cloudinary`) */
+  name: string
+  label: string
+  /** Iconify icon name, `collection:icon` (e.g. `simple-icons:cloudinary`) */
+  icon?: string
+  /** Free-form grouping within the module (e.g. `Analytics`) */
+  category?: string
+  /** Full URL to the provider docs */
+  docs?: string
+}
+
 export type CompatibilityStatus = 'working' | 'wip' | 'unknown' | 'not-working'
 export type ModuleType = 'community' | 'official' | '3rd-party'
 
@@ -41,6 +54,8 @@ export interface ModuleInfo {
   maintainers: MaintainerInfo[]
   contributors?: GithubContributor[]
   compatibility: ModuleCompatibility
+  mcp?: string
+  providers?: ModuleProvider[]
   aliases?: string[]
   archived?: boolean
 
