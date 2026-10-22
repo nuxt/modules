@@ -4,7 +4,7 @@ description: >-
   only the themes you use in the bundle.
 repo: VectorChi/nuxt-fun-loader
 npm: '@vectorchi/nuxt-fun-loader'
-icon: ''
+icon: fun-loader.svg
 github: https://github.com/VectorChi/nuxt-fun-loader
 website: https://vectorchi.github.io/fun-loader/
 learn_more: https://vectorchi.github.io/fun-loader/frameworks/nuxt
