@@ -8,7 +8,7 @@ icon: harlem.svg
 github: https://github.com/nuxt-modules/harlem
 website: https://github.com/nuxt-modules/harlem
 learn_more: https://harlemjs.com/
-category: Extensions
+category: State Management
 type: community
 maintainers:
   - name: Daniel Roe

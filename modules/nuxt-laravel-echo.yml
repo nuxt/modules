@@ -6,7 +6,7 @@ icon: laravel.svg
 github: https://github.com/manchenkoff/nuxt-laravel-echo
 website: https://echo.manchenkoff.me
 learn_more: https://laravel.com/framework/docs/12.x/broadcasting
-category: Libraries
+category: Realtime
 type: 3rd-party
 maintainers:
   - name: Artem Manchenkov

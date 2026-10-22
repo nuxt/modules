@@ -8,7 +8,7 @@ icon: auto-skeleton.svg
 github: https://github.com/oleksiizlotnik/AutoSkeleton
 website: https://oleksiizlotnik.github.io/AutoSkeleton/
 learn_more: https://oleksiizlotnik.github.io/AutoSkeleton/guide/nuxt
-category: UI
+category: UI Components
 type: 3rd-party
 maintainers:
   - name: Oleksii Zlotnik

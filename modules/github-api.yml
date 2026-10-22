@@ -6,7 +6,7 @@ icon: github.svg
 github: https://github.com/lindsaykwardell/nuxt-github-api
 website: https://github.com/lindsaykwardell/nuxt-github-api
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Lindsay Wardell

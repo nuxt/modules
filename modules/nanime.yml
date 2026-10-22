@@ -8,7 +8,7 @@ icon: nanime.svg
 github: https://github.com/astraldev/nanime
 website: https://nanimejs.netlify.app/
 learn_more: https://nanimejs.netlify.app/composables/introduction
-category: Libraries
+category: Animation
 type: 3rd-party
 maintainers:
   - name: Ekure Edem

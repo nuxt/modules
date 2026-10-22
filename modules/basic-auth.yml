@@ -6,7 +6,7 @@ icon: ''
 github: https://github.com/potato4d/nuxt-basic-auth-module
 website: https://github.com/potato4d/nuxt-basic-auth-module
 learn_more: ''
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Takuma HANATANI
