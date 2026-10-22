@@ -6,13 +6,13 @@ icon: tresjs.svg
 github: https://github.com/tresjs/tres
 website: https://docs.tresjs.org/getting-started/installation#nuxt-project
 learn_more: https://tresjs.org/
-category: Libraries
+category: Animation
 type: 3rd-party
 maintainers:
   - name: Alvaro Saburido
     github: alvarosabu
     twitter: alvarosabu
-    bluesky: alvarosaburido.dev
+    bluesky: alvarosabu.dev
   - name: Jaime A Torrealba C
     github: JaimeTorrealba
     twitter: Jaimebboyjt

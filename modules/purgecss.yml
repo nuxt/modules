@@ -6,7 +6,7 @@ icon: purgecss.png
 github: https://github.com/Developmint/nuxt-purgecss
 website: https://github.com/Developmint/nuxt-purgecss
 learn_more: https://purgecss.com/
-category: CSS
+category: CSS & Theming
 type: 3rd-party
 maintainers:
   - name: Developmint

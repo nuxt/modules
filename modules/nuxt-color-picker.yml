@@ -8,7 +8,7 @@ icon: nuxt-color-picker.png
 github: https://github.com/lorexiq/nuxt-color-picker
 website: https://nuxt-color-picker.nuxt.dev/
 learn_more: ''
-category: UI
+category: UI Components
 type: 3rd-party
 maintainers:
   - name: Dmitry Murashko

@@ -6,7 +6,7 @@ icon: qrcode.svg
 github: https://github.com/sandros94/nuxt-qrcode
 website: https://qrcode.s94.dev
 learn_more: ''
-category: Extensions
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Sandro Circi
