@@ -13,6 +13,7 @@ type: 3rd-party
 maintainers:
   - name: Adimchi Oka
     github: VectorChi
+    twitter: vector_chi
 compatibility:
   nuxt: '>=4.0.0'
   requires: {}
