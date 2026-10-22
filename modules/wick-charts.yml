@@ -1,0 +1,16 @@
+name: wick-charts
+description: Realtime, animated canvas charts, auto-imported as Vue components.
+repo: mo4islona/wick-charts#main/packages/nuxt
+npm: '@wick-charts/nuxt'
+icon: wick-charts.svg
+github: https://github.com/mo4islona/wick-charts
+website: https://wick-charts.eeff.io/integrations/nuxt/
+learn_more: https://wick-charts.eeff.io/
+category: Charts & Maps
+type: 3rd-party
+maintainers:
+  - name: Evgeny Formanenko
+    github: mo4islona
+compatibility:
+  nuxt: '>=3.12.0'
+  requires: {}
