@@ -138,7 +138,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false, 
     }
   }
 
-  if (mod.providers) {
+  if (mod.providers !== undefined) {
     await validateProviders(mod, warnings)
   }
 
@@ -373,7 +373,7 @@ async function validateProviders(mod: ModuleInfo, warnings: string[]) {
   const names = new Set<string>()
   const icons: Record<string, string[]> = {}
   for (const provider of mod.providers) {
-    if (!provider?.name || !provider.label) {
+    if (typeof provider?.name !== 'string' || !provider.name || typeof provider.label !== 'string' || !provider.label) {
       throw new Error(`Each provider in ${file} needs a \`name\` and a \`label\``)
     }
     if (names.has(provider.name)) {
@@ -404,6 +404,7 @@ async function validateProviders(mod: ModuleInfo, warnings: string[]) {
       const { not_found: notFound = [] } = await ofetch<{ not_found?: string[] }>(`https://api.iconify.design/${prefix}.json`, {
         query: { icons: iconNames.join(',') },
         headers: { 'user-agent': userAgent },
+        timeout: 10_000,
       })
       if (notFound.length) {
         warnings.push(`Unknown Iconify icons in ${file}: ${notFound.map(icon => `${prefix}:${icon}`).join(', ')}`)
