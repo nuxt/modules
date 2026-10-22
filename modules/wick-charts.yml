@@ -9,7 +9,7 @@ learn_more: https://wick-charts.eeff.io/
 category: Charts & Maps
 type: 3rd-party
 maintainers:
-  - name: mo4islona
+  - name: Evgeny Formanenko
     github: mo4islona
 compatibility:
   nuxt: '>=3.12.0'
