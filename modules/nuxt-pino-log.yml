@@ -6,7 +6,7 @@ icon: ''
 github: https://github.com/kpn/nuxt-pino-log
 website: https://github.com/kpn/nuxt-pino-log
 learn_more: https://github.com/pinojs/pino
-category: Monitoring
+category: Monitoring & Logging
 type: 3rd-party
 maintainers:
   - name: kpn

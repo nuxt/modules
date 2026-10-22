@@ -6,7 +6,7 @@ icon: html-validator.png
 github: https://github.com/nuxt-modules/html-validator
 website: https://github.com/nuxt-modules/html-validator
 learn_more: https://html-validate.org
-category: Performance
+category: Devtools
 type: community
 maintainers:
   - name: Daniel Roe

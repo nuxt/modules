@@ -8,7 +8,7 @@ icon: nuxt-realtime.svg
 github: https://github.com/daanvangeloven/nuxt-realtime
 website: https://nuxtrealtime.com/
 learn_more: https://nuxtrealtime.com/getting-started
-category: Libraries
+category: Realtime
 type: 3rd-party
 maintainers:
   - name: Daan van Geloven

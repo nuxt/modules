@@ -6,7 +6,7 @@ icon: day-js.png
 github: https://github.com/fumeapp/dayjs
 website: https://github.com/fumeapp/dayjs
 learn_more: https://day.js.org/
-category: Libraries
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: kevin olson
