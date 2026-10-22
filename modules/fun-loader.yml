@@ -1,0 +1,18 @@
+name: fun-loader
+description: >-
+  Rotating, playful loading messages for AI responses and other slow tasks, with
+  only the themes you use in the bundle.
+repo: VectorChi/nuxt-fun-loader
+npm: '@vectorchi/nuxt-fun-loader'
+icon: ''
+github: https://github.com/VectorChi/nuxt-fun-loader
+website: https://vectorchi.github.io/fun-loader/
+learn_more: https://vectorchi.github.io/fun-loader/frameworks/nuxt
+category: UI Components
+type: 3rd-party
+maintainers:
+  - name: Adimchi Oka
+    github: VectorChi
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
