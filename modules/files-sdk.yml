@@ -1,0 +1,16 @@
+name: files-sdk
+description: Files SDK integration for Nuxt with DevTools
+repo: liria24/nuxt-files-sdk#main/packages/nuxt-files-sdk
+npm: nuxt-files-sdk
+icon: ''
+github: https://github.com/liria24/nuxt-files-sdk
+website: https://nuxt-files-sdk.liria.me
+learn_more: ''
+category: Backend & Database
+type: 3rd-party
+maintainers:
+  - name: Liry24
+    github: liry24
+compatibility:
+  nuxt: ^4.6.0 || ^5.0.0-0
+  requires: {}
