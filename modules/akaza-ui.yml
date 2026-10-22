@@ -2,7 +2,7 @@ name: akaza-ui
 description: >-
   Vue-native headless components designed from scratch for Vue 3, featuring flat
   templates, items-based APIs, and full styling control via the ui prop
-repo: igris-labs/akaza-ui
+repo: igris-labs/akaza-ui#main/packages/akaza-ui
 npm: akaza-ui-monorepo
 icon: akaza-ui.svg
 github: https://github.com/igris-labs/akaza-ui
