@@ -1,0 +1,19 @@
+name: nuxt-swal
+description: >-
+  A SweetAlert2 module for Nuxt.js with support for options and composition API.
+  Extends the default sweetalert2 module.
+repo: forinda/nuxt-swal
+npm: nuxt-swal
+icon: ''
+github: https://github.com/forinda/nuxt-swal
+website: https://github.com/forinda/nuxt-swal
+learn_more: https://sweetalert2.github.io/
+category: UI Components
+type: 3rd-party
+maintainers:
+  - name: Felix Orinda
+    github: forinda
+    twitter: felix_orinda
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}
