@@ -1,0 +1,16 @@
+name: eve
+description: Filesystem-first framework for durable backend AI agents that run anywhere.
+repo: vercel/eve#main/packages/eve
+npm: eve
+icon: 'eve.svg'
+github: https://github.com/vercel/eve
+website: https://eve.dev
+learn_more: ''
+category: AI
+type: 3rd-party
+maintainers:
+  - name: vercel
+    github: vercel
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
