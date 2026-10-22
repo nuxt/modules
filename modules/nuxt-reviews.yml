@@ -1,0 +1,18 @@
+name: nuxt-reviews
+description: >-
+  Fetch and aggregate reviews from Google Places, Trustpilot, SerpAPI,
+  Outscraper and Booking.com with built-in content moderation.
+repo: eralpozcan/nuxt-reviews
+npm: nuxt-reviews
+icon: reviews.png
+github: https://github.com/eralpozcan/nuxt-reviews
+website: https://nuxt-reviews.netlify.app
+learn_more: ''
+category: Widgets & Embeds
+type: 3rd-party
+maintainers:
+  - name: Eralp
+    github: eralpozcan
+compatibility:
+  nuxt: '>=3.10.0'
+  requires: {}
