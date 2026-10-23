@@ -6,7 +6,7 @@ icon: usemods.svg
 github: https://github.com/littlefoxcompany/usemods/tree/main/nuxt-module
 website: https://usemods.com
 learn_more: ''
-category: Libraries
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Jeremy Butler
