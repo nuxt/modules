@@ -1,12 +1,12 @@
 name: contentstack
-description: Contentstack integration for Nuxt
+description: Contentstack integration
 repo: timbenniks/nuxt-contentstack
 npm: nuxt-contentstack
 icon: contentstack.png
 github: https://github.com/timbenniks/nuxt-contentstack
 website: https://github.com/timbenniks/nuxt-contentstack
 learn_more: https://www.contentstack.com/community
-category: CMS
+category: CMS & Content
 type: 3rd-party
 maintainers:
   - name: Tim Benniks

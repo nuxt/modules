@@ -1,4 +1,4 @@
-[![Explore Nuxt Modules to build Vue applications](https://user-images.githubusercontent.com/904724/210616249-25aec46e-ab06-4b4d-9154-10b02546d558.jpg)](https://nuxt.com/modules)
+[![Explore Nuxt Modules to build Vue applications](https://github.com/user-attachments/assets/139f18eb-7bb1-4e37-8ef6-a94a60d6b0b0)](https://nuxt.com/modules)
 
 # Nuxt Modules
 
@@ -25,10 +25,22 @@ Example: `pnpm sync tailwindcss nuxt-modules/tailwindcss`
 
 To sync with a branch different than `main`, suffix the repo with `#repo-branch`, example: `pnpm sync tailwindcss nuxt-modules/tailwindcss#dev`
 
+If the module lives in a subdirectory of a monorepo, add the path after the branch, example: `pnpm sync scripts nuxt/scripts#main/packages/script`
+
 ### Contribution
 
-- If you feel a module is missing, please create a new [issue](https://github.com/nuxt/modules/issues/new)
-- If some data is outdated please directly open a pull request
+To list a module, open a pull request directly. You don't need to open an issue first.
+
+1. Fork and clone this repository, then run `pnpm install`.
+2. Run `pnpm sync <name> <repo>` (see [Add/Update a module](#addupdate-a-module)). This creates `./modules/<name>.yml` from your repository's `package.json`.
+3. Set `category` in the generated file to one of the values in [./lib/categories.ts](./lib/categories.ts). Optionally add an icon to [./icons](./icons) and reference it with `icon`.
+4. Open a pull request.
+
+The `description` should say what the module does. There's no need to mention Nuxt or Nuxt versions.
+
+If your module mainly loads a third-party script (analytics, tag manager, chat widget, consent manager, captcha, ads or embed), check whether [Nuxt Scripts](https://scripts.nuxt.com/scripts) already supports it. If it doesn't, consider adding it to the [Nuxt Scripts registry](https://github.com/nuxt/scripts). Modules that build on Nuxt Scripts are welcome too, for example when they add more than an API for the script, or when the script isn't a fit for the registry.
+
+If some data is outdated, please open a pull request with the fix.
 
 ### Using CDN
 
@@ -75,6 +87,29 @@ Field Name      | Auto sync | Description
 `type`          | No        | `community` (for [nuxt-community](https://github.com/nuxt-community/)), `official` (for https://github.com/) or `3rd-party`
 `maintainers`   | Yes       | List of maintainers each item has `name`, `github` and `avatar`
 `compatibility` | No        | Module compatibility status. `nuxt` field specifies semver of supported nuxt version. `requires.bridge: true\|optional` can be used to specify Nuxt 2 bridge compatibility.
+`mcp`           | No        | MCP Server URL
+`providers`     | No        | Third-party services the module integrates with (see below)
+
+#### Providers
+
+Modules that integrate with many third-party services (image CDNs, font providers, analytics scripts...) can list them so they can be found when searching for the service:
+
+```yaml
+providers:
+  - name: plausibleAnalytics
+    label: Plausible Analytics
+    icon: simple-icons:plausibleanalytics
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/plausible-analytics
+```
+
+Field Name | Required | Description
+-----------|----------|--------------
+`name`     | Yes      | Unique within the module, ideally the key used in the module options
+`label`    | Yes      | Display name
+`icon`     | No       | [Iconify](https://icones.js.org) icon name, `collection:icon`
+`category` | No       | Free-form grouping within the module
+`docs`     | No       | Full URL to the provider docs
 
 
 ## Maintenance

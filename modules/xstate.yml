@@ -1,12 +1,12 @@
 name: xstate
-description: XState integration for Nuxt
+description: XState integration
 repo: Lexpeartha/nuxt-xstate
 npm: nuxt-xstate
 icon: xstate.svg
 github: https://github.com/Lexpeartha/nuxt-xstate
 website: https://nuxt-xstate.lexpeartha.com
 learn_more: https://xstate.js.org/
-category: Extensions
+category: State Management
 type: 3rd-party
 maintainers:
   - name: Lexpeartha

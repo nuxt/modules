@@ -1,5 +1,5 @@
 name: vercel-speed-insights
-description: Real user performance metrics and suggestions for your Nuxt app
+description: Real user performance metrics and suggestions
 repo: vercel/speed-insights#main/packages/web
 npm: '@vercel/speed-insights'
 icon: vercel.svg

@@ -8,13 +8,13 @@ icon: pinia-orm.svg
 github: https://github.com/CodeDredd/pinia-orm
 website: https://pinia-orm.codedredd.de/
 learn_more: ''
-category: Extensions
+category: State Management
 type: 3rd-party
 maintainers:
   - name: Gregor Becker
     github: CodeDredd
     twitter: _Gregor_Becker
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: '>=3.14.0'
   requires:
     bridge: optional

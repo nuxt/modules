@@ -6,7 +6,7 @@ icon: nuxt.svg
 github: https://github.com/nuxt/fonts
 website: https://fonts.nuxt.com
 learn_more: ''
-category: Fonts
+category: Icons & Fonts
 type: official
 maintainers:
   - name: Daniel Roe
@@ -16,3 +16,33 @@ maintainers:
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
+providers:
+  - name: local
+    label: Local
+    docs: https://fonts.nuxt.com/get-started/providers#local
+  - name: google
+    label: Google Fonts
+    icon: simple-icons:googlefonts
+    docs: https://fonts.nuxt.com/get-started/providers#google
+  - name: googleicons
+    label: Google Fonts Icons
+    icon: simple-icons:materialdesign
+    docs: https://fonts.nuxt.com/get-started/providers#googleicons
+  - name: bunny
+    label: Bunny Fonts
+    icon: simple-icons:bunnydotnet
+    docs: https://fonts.nuxt.com/get-started/providers#bunny
+  - name: fontshare
+    label: Fontshare
+    docs: https://fonts.nuxt.com/get-started/providers#fontshare
+  - name: fontsource
+    label: Fontsource
+    docs: https://fonts.nuxt.com/get-started/providers#fontsource
+  - name: npm
+    label: npm
+    icon: simple-icons:npm
+    docs: https://fonts.nuxt.com/get-started/providers#npm
+  - name: adobe
+    label: Adobe Fonts
+    icon: logos:adobe-icon
+    docs: https://fonts.nuxt.com/get-started/providers#adobe

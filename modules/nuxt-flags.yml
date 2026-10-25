@@ -1,0 +1,17 @@
+name: nuxt-flags
+description: Feature flags from toggle services such as Unleash.
+repo: conejerock/nuxt-flags
+npm: nuxt-flags
+icon: flags.png
+github: https://github.com/conejerock/nuxt-flags
+website: https://github.com/conejerock/nuxt-flags
+learn_more: ''
+category: Deployment
+type: 3rd-party
+maintainers:
+  - name: Juanjo Conejero
+    github: conejerock
+    twitter: juanjoconejero
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
