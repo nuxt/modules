@@ -9,7 +9,7 @@ icon: ''
 github: https://github.com/gaetansenn/vue-api
 website: https://vue-api.dewib.com/
 learn_more: https://vue-api.dewib.com/guide/getting-started/installation.html
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Gaetan SENN

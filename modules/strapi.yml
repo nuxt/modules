@@ -6,7 +6,7 @@ icon: strapi.png
 github: https://github.com/nuxt-modules/strapi
 website: https://strapi.nuxtjs.org
 learn_more: https://strapi.io/
-category: CMS
+category: CMS & Content
 type: community
 maintainers:
   - name: Benjamin Canac

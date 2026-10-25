@@ -6,7 +6,7 @@ icon: graphql-request.png
 github: https://github.com/gomah/nuxt-graphql-request
 website: https://github.com/gomah/nuxt-graphql-request
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Thomas Marrec

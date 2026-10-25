@@ -8,7 +8,7 @@ icon: convex.svg
 github: https://github.com/onmax/nuxt-convex
 website: https://nuxt-convex.onmax.me
 learn_more: https://docs.convex.dev
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: Max
@@ -16,5 +16,5 @@ maintainers:
     twitter: _onmax
     bluesky: onmax.bsky.social
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=4.6.0 <6.0.0'
   requires: {}

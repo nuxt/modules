@@ -6,7 +6,7 @@ icon: kinde.svg
 github: https://github.com/nuxt-modules/kinde
 website: https://www.kinde.com/docs/developer-tools/nuxt-module/
 learn_more: https://www.kinde.com/
-category: Security
+category: Authentication
 type: community
 maintainers:
   - name: Daniel Roe

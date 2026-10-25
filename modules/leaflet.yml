@@ -6,7 +6,7 @@ icon: leaflet.png
 github: https://github.com/nuxt-modules/leaflet
 website: https://leaflet.nuxtjs.org/
 learn_more: https://leaflet.nuxtjs.org/
-category: Libraries
+category: Charts & Maps
 type: community
 maintainers:
   - name: Gugustinette

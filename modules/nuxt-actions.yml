@@ -8,7 +8,7 @@ icon: nuxt-actions.svg
 github: https://github.com/billymaulana/nuxt-actions
 website: https://billymaulana.github.io/nuxt-actions/
 learn_more: https://billymaulana.github.io/nuxt-actions/guide/getting-started
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Billy Maulana

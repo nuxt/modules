@@ -4,9 +4,9 @@ repo: xlanex6/nuxt-meilisearch
 npm: nuxt-meilisearch
 icon: meilisearch.svg
 github: https://github.com/xlanex6/nuxt-meilisearch
-website: https://nuxt-meilisearch.vercel.app
+website: https://nuxt-meilisearch.vercel.app/getting-started/
 learn_more: https://github.com/xlanex6/nuxt-meilisearch
-category: Libraries
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Alex Duval

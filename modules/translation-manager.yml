@@ -8,7 +8,7 @@ icon: translation-manager.png
 github: https://github.com/samk-dev/nuxt-translation-manager
 website: https://github.com/samk-dev/nuxt-translation-manager
 learn_more: ''
-category: Extensions
+category: i18n
 type: 3rd-party
 maintainers:
   - name: Sam K
