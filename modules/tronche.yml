@@ -11,8 +11,10 @@ learn_more: ''
 category: Images & Media
 type: 3rd-party
 maintainers:
-  - name: rootasjey
+  - name: Jeremie Corpinot
     github: rootasjey
+    twitter: rootasjey
+    bluesky: corpinot.bsky.social
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}
