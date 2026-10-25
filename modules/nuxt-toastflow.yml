@@ -4,7 +4,7 @@ description: >-
   Typed core, smooth stack animations, CSS-first theming, and full control over
   layout and behavior.
 repo: adrianjanocko/toastflow
-npm: nuxt-toastflow
+npm: toastflow
 icon: toastflow.png
 github: https://github.com/adrianjanocko/toastflow
 website: https://www.toastflow.top/
