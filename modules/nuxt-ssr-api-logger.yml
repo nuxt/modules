@@ -1,7 +1,5 @@
 name: nuxt-ssr-api-logger
-description: >-
-  A small module that helps you see when your Nuxt application sends any API
-  request via SSR.
+description: A small module that helps you see when your app sends any API request via SSR.
 repo: buglavecz/nuxt-ssr-api-logger
 npm: nuxt-ssr-api-logger
 icon: nuxt-ssr-api-logger.png

@@ -1,0 +1,18 @@
+name: csrf-armor
+description: CSRF protection powered by csrf-armor
+repo: muneebs/csrf-armor#main/packages/nuxt
+npm: '@csrf-armor/nuxt'
+icon: csrf-armor.png
+github: https://github.com/muneebs/csrf-armor
+website: https://github.com/muneebs/csrf-armor/tree/main/packages/nuxt#readme
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Muneeb Samuels
+    github: muneebs
+  - name: Jordan Labrosse
+    github: Jorgagu
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

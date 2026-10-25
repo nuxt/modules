@@ -6,11 +6,13 @@ icon: nuxt-bezier.png
 github: https://github.com/50rayn/nuxt-bezier
 website: https://github.com/50rayn/nuxt-bezier
 learn_more: https://github.com/Noction/vue-bezier
-category: UI
+category: Animation
 type: 3rd-party
 maintainers:
   - name: Soryn
     github: 50rayn
+    twitter: 50rayn
+    bluesky: poveste.dev
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

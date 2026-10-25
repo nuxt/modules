@@ -6,7 +6,7 @@ icon: comark.svg
 github: https://github.com/comarkdown/comark
 website: https://comark.dev/
 learn_more: https://comark.dev/rendering/nuxt
-category: Libraries
+category: CMS & Content
 type: 3rd-party
 maintainers:
   - name: Farnabaz
@@ -22,5 +22,5 @@ maintainers:
     twitter: _larbish
     bluesky: larbish.bsky.social
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: ^4.0.0
   requires: {}

@@ -7,6 +7,7 @@
     "url": "git+https://github.com/nuxt/modules.git"
   },
   "homepage": "https://nuxt.com/modules",
+  "type": "module",
   "main": "./modules.json",
   "files": [
     "modules.json"
@@ -17,7 +18,7 @@
     "website:build": "pnpm build && nuxt build website",
     "website:dev": "pnpm build && nuxt dev website",
     "lint": "eslint",
-    "release": "pnpm cli version && npm publish --tag latest",
+    "release": "pnpm cli version && pnpm publish --tag latest --no-git-checks",
     "sync": "pnpm cli sync",
     "test": "pnpm lint && pnpm sync"
   },
@@ -27,12 +28,12 @@
     "@nuxt/eslint-config": "^1.17.0",
     "@octokit/rest": "^22.0.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^24.19.1",
+    "@types/node": "^24.19.2",
     "defu": "^6.1.7",
-    "eslint": "^10.12.0",
+    "eslint": "^10.13.0",
     "globby": "^16.2.4",
     "hasha": "^7.0.0",
-    "js-yaml": "^5.4.2",
+    "js-yaml": "^5.5.0",
     "ofetch": "^1.5.1",
     "p-limit": "^7.3.3",
     "picocolors": "^1.1.1",
@@ -43,12 +44,12 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.0.0",
+      "version": "^24.22.0",
       "onFail": "download"
     },
     "packageManager": {
       "name": "pnpm",
-      "version": "12.3.4",
+      "version": "12.14.0",
       "onFail": "download"
     }
   }

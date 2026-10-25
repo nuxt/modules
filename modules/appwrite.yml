@@ -1,12 +1,12 @@
 name: appwrite
-description: Appwrite module for Nuxt
+description: Appwrite integration
 repo: Hrdtr/nuxt-appwrite
 npm: nuxt-appwrite
 icon: appwrite.png
 github: https://github.com/Hrdtr/nuxt-appwrite
 website: https://github.com/Hrdtr/nuxt-appwrite
 learn_more: ''
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: Herdi Tr.

@@ -17,8 +17,8 @@ export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, 
 export const FETCH_DELAY = 100 // ms between requests
 
 /** Names of the modules whose yml files differ between `ref` and the working tree. */
-export function getChangedModuleNames(ref: string): string[] {
-  const output = execFileSync('git', ['diff', '--name-only', '--diff-filter=d', `${ref}...HEAD`, '--', 'modules'], {
+export function getChangedModuleNames(ref: string, diffFilter: string = 'd'): string[] {
+  const output = execFileSync('git', ['diff', '--name-only', `--diff-filter=${diffFilter}`, `${ref}...HEAD`, '--', 'modules'], {
     cwd: rootDir,
     encoding: 'utf8',
   })
@@ -410,6 +410,13 @@ export function mergeCompatibilityRanges(ranges: string[]): string {
 export const deduplicateCompatibilityRanges = mergeCompatibilityRanges
 
 /**
+ * Check that a module name is lowercase and only uses letters, numbers, hyphens and dots
+ */
+export function isValidModuleName(name: string): boolean {
+  return /^[a-z0-9]+(?:[-.][a-z0-9]+)*$/.test(name)
+}
+
+/**
  * Check if a compatibility range includes Nuxt 4.x
  */
 export function isNuxt4Compatible(range: string): boolean {
@@ -483,13 +490,17 @@ export async function checkWebsiteRedirect(url: string): Promise<string | null> 
   const fragment = hashIndex !== -1 ? url.slice(hashIndex) : ''
   const urlWithoutFragment = hashIndex !== -1 ? url.slice(0, hashIndex) : url
 
-  const response = await ofetch.raw(urlWithoutFragment, {
-    method: 'HEAD',
+  const fetchUrl = (method: 'HEAD' | 'GET') => ofetch.raw(urlWithoutFragment, {
+    method,
     redirect: 'follow',
     retry: 3,
     retryDelay: 500,
+    responseType: method === 'GET' ? 'text' : undefined,
     headers: { 'user-agent': userAgent },
   })
+
+  // Some servers reject HEAD requests even though the page is reachable via GET
+  const response = await fetchUrl('HEAD').catch(() => fetchUrl('GET'))
 
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`)
