@@ -13,5 +13,5 @@ maintainers:
     github: halitsever
     avatar: https://avatars.githubusercontent.com/u/34791459?v=4
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=4.0.0'
   requires: {}
