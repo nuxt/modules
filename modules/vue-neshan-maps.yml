@@ -2,7 +2,7 @@ name: vue-neshan-maps
 description: Typed Vue 3 maps with Neshan traffic and POI using Leaflet and MapLibre
 repo: sajadjanat/vue-neshan-maps#master
 npm: vue-neshan-maps
-icon: ''
+icon: neshan.png
 github: https://github.com/sajadjanat/vue-neshan-maps
 website: https://sajadjanat.github.io/vue-neshan-maps/
 learn_more: ''
