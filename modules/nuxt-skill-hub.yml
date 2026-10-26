@@ -1,0 +1,20 @@
+name: nuxt-skill-hub
+description: >-
+  Generate project-specific AI agent skills from installed modules and best
+  practices.
+repo: onmax/nuxt-skill-hub
+npm: nuxt-skill-hub
+icon: nuxt-skill-hub.png
+github: https://github.com/onmax/nuxt-skill-hub
+website: https://nuxt-skill.onmax.me
+learn_more: ''
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Max
+    github: onmax
+    twitter: _onmax
+    bluesky: onmax.bsky.social
+compatibility:
+  nuxt: '>=4.3.0'
+  requires: {}
