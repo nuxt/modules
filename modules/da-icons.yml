@@ -9,7 +9,7 @@ learn_more: ''
 category: Icons & Fonts
 type: 3rd-party
 maintainers:
-  - name: davidabou
+  - name: David Abou
     github: davidabou
 compatibility:
   nuxt: '>=4.0.0'
