@@ -1,5 +1,7 @@
 name: vue-llm
-description: Streaming AI chat composables, tool calling, Generative UI components and in-browser models for OpenAI, Anthropic, Gemini and Ollama.
+description: >-
+  Streaming AI chat composables, tool calling, Generative UI components and
+  in-browser models for OpenAI, Anthropic, Gemini and Ollama.
 repo: dadashi44/vue-llm
 npm: vue-llm
 icon: vue-llm.png
@@ -9,7 +11,7 @@ learn_more: https://vue-llm.js.org/guide/nuxt
 category: AI
 type: 3rd-party
 maintainers:
-  - name: dadashi44
+  - name: Dadashiii
     github: dadashi44
 compatibility:
   nuxt: '>=3.5.0'
