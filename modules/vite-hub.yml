@@ -4,7 +4,7 @@ description: >-
   API across deployment hosts.
 repo: vite-hub/vitehub#main/packages/vite-hub
 npm: vite-hub
-icon: ''
+icon: vite-hub.svg
 github: https://github.com/vite-hub/vitehub
 website: https://vitehub.dev
 learn_more: https://vitehub.dev/docs/frameworks-hosts/nuxt
