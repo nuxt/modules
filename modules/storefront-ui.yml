@@ -1,12 +1,12 @@
 name: storefront-ui
-description: Storefront UI for Nuxt by Alokai
+description: Storefront UI by Alokai
 repo: vuestorefront/storefront-ui#v2-develop/packages/sfui/frameworks/nuxt
 npm: '@storefront-ui/nuxt'
 icon: storefront-ui.svg
 github: https://github.com/vuestorefront/storefront-ui
 website: https://docs.storefrontui.io/v2/
 learn_more: https://docs.storefrontui.io/v2/getting-started/vue#nuxt-3
-category: UI
+category: UI Frameworks
 type: 3rd-party
 maintainers:
   - name: Szymon Dziewoński

@@ -1,12 +1,12 @@
 name: headway
-description: Headway changelog widget for Nuxt
+description: Headway changelog widget
 repo: l-portet/nuxt-headway
 npm: nuxt-headway
 icon: headway.png
 github: https://github.com/l-portet/nuxt-headway
 website: https://nuxt-headway.netlify.app/
 learn_more: https://headwayapp.co/
-category: UI
+category: Widgets & Embeds
 type: 3rd-party
 maintainers:
   - name: Lucas Portet

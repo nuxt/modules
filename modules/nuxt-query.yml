@@ -1,12 +1,12 @@
 name: nuxt-query
-description: Nuxt module for TanStack Query (FKA Vue Query) with Nuxt DevTools integration
+description: TanStack Query (FKA Vue Query) integration with Nuxt DevTools support
 repo: peterbud/nuxt-query
 npm: '@peterbud/nuxt-query'
 icon: nuxt-query.svg
 github: https://github.com/peterbud/nuxt-query
 website: https://github.com/peterbud/nuxt-query#readme
 learn_more: https://tanstack.com/query/latest/docs/framework/vue/overview
-category: Libraries
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Peter Budai

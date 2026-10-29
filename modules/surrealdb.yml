@@ -1,12 +1,12 @@
 name: surrealdb
-description: A Nuxt module aimed to simplify the use of SurrealDB
+description: Simplify the use of SurrealDB
 repo: sandros94/nuxt-surrealdb
 npm: nuxt-surrealdb
 icon: surrealdb.png
 github: https://github.com/sandros94/nuxt-surrealdb
 website: https://github.com/sandros94/nuxt-surrealdb
 learn_more: ''
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: Sandro Circi

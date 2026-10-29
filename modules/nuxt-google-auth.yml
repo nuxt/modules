@@ -1,14 +1,14 @@
 name: nuxt-google-auth
 description: >-
-  Google Identity Services integration for Nuxt 3 & 4 with a simple composable
-  and button component.
+  Google Identity Services integration with a composable and a login button
+  component.
 repo: go-fireball/nuxt-google-auth
 npm: nuxt-google-auth
 icon: ''
 github: https://github.com/go-fireball/nuxt-google-auth
 website: https://github.com/go-fireball/nuxt-google-auth
 learn_more: ''
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: go-fireball

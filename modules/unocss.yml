@@ -4,9 +4,9 @@ repo: unocss/unocss#main/packages-integrations/nuxt
 npm: '@unocss/nuxt'
 icon: unocss.svg
 github: https://github.com/unocss/unocss
-website: https://github.com/unocss/unocss
-learn_more: https://github.com/unocss/unocss
-category: CSS
+website: https://unocss.dev/integrations/nuxt
+learn_more: https://unocss.dev
+category: CSS & Theming
 type: 3rd-party
 maintainers:
   - name: Anthony Fu
@@ -15,7 +15,6 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/antfu?v=4
     bluesky: antfu.me
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
-  requires:
-    bridge: optional
+  nuxt: '>=3.0.0'
+  requires: {}
   devtools: ^0.0.0

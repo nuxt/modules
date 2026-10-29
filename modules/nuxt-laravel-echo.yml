@@ -1,12 +1,12 @@
 name: nuxt-laravel-echo
-description: Nuxt module for Laravel Echo integration
+description: Laravel Echo integration
 repo: manchenkoff/nuxt-laravel-echo
 npm: nuxt-laravel-echo
 icon: laravel.svg
 github: https://github.com/manchenkoff/nuxt-laravel-echo
 website: https://echo.manchenkoff.me
-learn_more: https://laravel.com/docs/12.x/broadcasting
-category: Libraries
+learn_more: https://laravel.com/framework/docs/12.x/broadcasting
+category: Realtime
 type: 3rd-party
 maintainers:
   - name: Artem Manchenkov

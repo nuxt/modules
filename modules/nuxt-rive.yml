@@ -1,0 +1,20 @@
+name: nuxt-rive
+description: >-
+  Interactive Rive animations with full control over state machines, text runs
+  and events.
+repo: mrnasil/nuxt-rive
+npm: nuxt-rive
+icon: rive.svg
+github: https://github.com/mrnasil/nuxt-rive
+website: https://nuxt-rive.pages.dev
+learn_more: https://nuxt-rive.pages.dev
+category: Animation
+type: 3rd-party
+maintainers:
+  - name: Mr. Nasıl
+    github: mrnasil
+    avatar: https://avatars.githubusercontent.com/mrnasil
+    twitter: faruk_arigun
+compatibility:
+  nuxt: ^3.0.0 || ^4.0.0
+  requires: {}
