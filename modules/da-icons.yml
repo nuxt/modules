@@ -1,0 +1,16 @@
+name: da-icons
+description: 150+ rounded outline SVG icons as a typed, server-rendered component.
+repo: davidabou/icons#master/packages/nuxt
+npm: '@davidabou/nuxt-icons'
+icon: da-icons.svg
+github: https://github.com/davidabou/icons
+website: https://github.com/davidabou/icons/tree/master/packages/nuxt
+learn_more: ''
+category: Icons & Fonts
+type: 3rd-party
+maintainers:
+  - name: David Abou
+    github: davidabou
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
