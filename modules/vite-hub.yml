@@ -11,8 +11,10 @@ learn_more: https://vitehub.dev/docs/frameworks-hosts/nuxt
 category: Backend & Database
 type: 3rd-party
 maintainers:
-  - name: Maxi
+  - name: Max
     github: onmax
+    bluesky: onmax.bsky.social
+    twitter: _onmax
 compatibility:
   nuxt: '>=4.5.2 <5'
   requires: {}
