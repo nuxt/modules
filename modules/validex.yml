@@ -2,7 +2,7 @@ name: validex
 description: >-
   Type-safe validation rules built on Zod 4 with structured error codes, i18n,
   and auto-imported composables
-repo: chiptoma/validex
+repo: chiptoma/validex#main/packages/nuxt
 npm: validex-monorepo
 icon: ''
 github: https://github.com/chiptoma/validex
