@@ -1,11 +1,13 @@
 name: vue-player
-description: Video player with HLS streaming, subtitles, chapters and thumbnail previews, auto-importing VideoPlayer and usePlayer
+description: >-
+  Video player with HLS streaming, subtitles, chapters and thumbnail previews,
+  auto-importing VideoPlayer and usePlayer
 repo: VladChernyak/vue-player#main/packages/nuxt
 npm: '@vue-player/nuxt'
 icon: vue-player.svg
 github: https://github.com/VladChernyak/vue-player
 website: https://vue-player.vercel.app
-learn_more: https://vue-player.vercel.app/guide/nuxt
+learn_more: https://vue-player.vercel.app/guide/nuxt.html
 category: Images & Media
 type: 3rd-party
 maintainers:
