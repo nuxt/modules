@@ -1,0 +1,18 @@
+name: nuxt-cloudflared-tunnel
+description: >-
+  Starts a Cloudflare Quick Tunnel to the dev server on startup, with the URL
+  available at runtime via useRuntimeConfig() and a $tunnelUrl plugin.
+repo: Decipher/nuxt-cloudflared-tunnel
+npm: nuxt-cloudflared-tunnel
+icon: nuxt-cloudflared-tunnel.svg
+github: https://github.com/Decipher/nuxt-cloudflared-tunnel
+website: https://github.com/Decipher/nuxt-cloudflared-tunnel
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Stuart Clark
+    github: Decipher
+compatibility:
+  nuxt: ^4.0.0
+  requires: {}
