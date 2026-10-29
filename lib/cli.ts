@@ -1,7 +1,9 @@
 import * as p from '@clack/prompts'
 import c from 'picocolors'
 import { sync, syncAll, build } from './modules.ts'
+import { getChangedModuleNames } from './utils.ts'
 import { version } from './version.ts'
+import type { SyncAllResult } from './types.ts'
 
 async function main() {
   const [command, ...args] = process.argv.splice(2)
@@ -23,17 +25,19 @@ async function main() {
 }
 
 async function runSync(args: string[]) {
-  const [name, repo] = args
+  const failOnArchived = args.includes('--fail-on-archived')
+  const base = args.find(arg => arg.startsWith('--changed='))?.slice('--changed='.length)
+  const [name, repo] = args.filter(arg => !arg.startsWith('--'))
 
   if (name) {
-    await runSingleSync(name, repo)
+    await runSingleSync(name, repo, failOnArchived)
   }
   else {
-    await runSyncAll()
+    await runSyncAll(failOnArchived, base)
   }
 }
 
-async function runSingleSync(name: string, repo?: string) {
+async function runSingleSync(name: string, repo?: string, failOnArchived: boolean = false) {
   p.intro(c.bgCyan(c.black(' Nuxt Modules Sync ')))
 
   const s = p.spinner()
@@ -41,10 +45,17 @@ async function runSingleSync(name: string, repo?: string) {
   s.start(`Syncing ${c.cyan(displayName)}`)
 
   try {
-    const { module, regressions } = await sync(name, repo, true)
+    const { module, regressions, warnings } = await sync(name, repo, true)
     s.stop(`Synced ${c.green(module.name)}`)
 
     let hasIssues = false
+
+    if (warnings.length > 0) {
+      p.log.warn(c.yellow(`Warnings (${c.bold(warnings.length)})`))
+      for (const message of warnings) {
+        p.log.message(c.dim(message))
+      }
+    }
 
     if (regressions.length > 0) {
       hasIssues = true
@@ -55,7 +66,7 @@ async function runSingleSync(name: string, repo?: string) {
     }
 
     if (module.archived) {
-      hasIssues = true
+      hasIssues ||= failOnArchived
       p.log.error(c.red(`Repository is ${c.bold('archived')}`))
     }
 
@@ -75,28 +86,56 @@ async function runSingleSync(name: string, repo?: string) {
   }
 }
 
-async function runSyncAll() {
+async function runSyncAll(failOnArchived: boolean = false, base?: string) {
   p.intro(c.bgCyan(c.black(' Nuxt Modules Sync ')))
+
+  let only: string[] | undefined
+  let added: string[] = []
+  if (base) {
+    only = getChangedModuleNames(base)
+    added = getChangedModuleNames(base, 'A')
+    if (only.length === 0) {
+      p.outro(c.green('No modules changed'))
+      return
+    }
+    p.log.info(`Syncing ${c.bold(only.length)} module(s) changed against ${c.cyan(base)}`)
+  }
 
   const progress = p.progress({ max: 100 })
   progress.start('Starting sync...')
 
   let lastPercent = 0
-  const result = await syncAll((current, total, moduleName) => {
-    const percent = Math.round((current / total) * 100)
-    const delta = percent - lastPercent
-    if (delta > 0) {
-      progress.advance(delta, `Syncing ${c.cyan(moduleName)} ${c.dim(`(${current}/${total})`)}`)
-      lastPercent = percent
-    }
-  })
+  let result: SyncAllResult
+  try {
+    result = await syncAll((current, total, moduleName) => {
+      const percent = Math.round((current / total) * 100)
+      const delta = percent - lastPercent
+      if (delta > 0) {
+        progress.advance(delta, `Syncing ${c.cyan(moduleName)} ${c.dim(`(${current}/${total})`)}`)
+        lastPercent = percent
+      }
+    }, only, added)
+  }
+  catch (err) {
+    progress.error(c.red('Errors found:'))
+    p.log.error(err instanceof Error ? err.message : String(err))
+    p.outro(c.red('Sync failed'))
+    process.exit(1)
+  }
 
   progress.stop(`Synced ${c.green(c.bold(result.synced.length))}${c.dim('/')}${result.total} modules`)
+
+  if (result.warnings.length > 0) {
+    p.log.warn(c.yellow(c.bold(`Warnings (${result.warnings.length})`)))
+    for (const { moduleName, message } of result.warnings.sort((a, b) => a.moduleName.localeCompare(b.moduleName))) {
+      p.log.message(`  ${c.bold(moduleName)}: ${c.dim(message)}`)
+    }
+  }
 
   const hasErrors = result.errors.length > 0
   const hasRegressions = result.regressions.length > 0
   const hasArchived = result.archivedModules.length > 0
-  const hasIssues = hasErrors || hasRegressions || hasArchived
+  const hasIssues = hasErrors || hasRegressions || (hasArchived && failOnArchived)
 
   if (hasIssues) {
     p.log.message('')

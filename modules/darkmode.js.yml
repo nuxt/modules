@@ -1,12 +1,12 @@
 name: darkmode.js
-description: Add darkmode / nightmode to your Nuxt project in a few seconds
+description: Add darkmode / nightmode in a few seconds
 repo: sandoche/nuxtjs-darkmode-js-module#main
 npm: nuxtjs-darkmode-js-module
 icon: darkmode.png
 github: https://github.com/sandoche/nuxtjs-darkmode-js-module
 website: https://github.com/sandoche/nuxtjs-darkmode-js-module
 learn_more: ''
-category: UI
+category: CSS & Theming
 type: 3rd-party
 maintainers:
   - name: Sandoche ADITTANE

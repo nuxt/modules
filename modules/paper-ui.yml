@@ -1,12 +1,12 @@
 name: paper-ui
-description: A ui kit for nuxt
+description: A UI kit
 repo: paper-kit/nuxt
 npm: '@paper-ui/nuxt'
 icon: paper-ui.svg
 github: https://github.com/paper-kit/nuxt
 website: https://paper-docs.nuxt.space/
 learn_more: https://paper-docs.nuxt.space/
-category: UI
+category: UI Frameworks
 type: 3rd-party
 maintainers:
   - name: paper-kit

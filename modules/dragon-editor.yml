@@ -1,12 +1,12 @@
 name: dragon-editor
-description: Javascript WYSIWYG editor in Nuxt!
+description: JavaScript WYSIWYG editor
 repo: lovefields/dragonEditor
 npm: dragon-editor
 icon: ''
 github: https://github.com/lovefields/dragonEditor
 website: https://github.com/lovefields/dragonEditor
 learn_more: ''
-category: Libraries
+category: UI Components
 type: 3rd-party
 maintainers:
   - name: lovefield

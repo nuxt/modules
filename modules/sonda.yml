@@ -12,7 +12,7 @@ maintainers:
   - name: Filip Sobol
     github: filipsobol
     twitter: filipsobol
-    bluesky: filipsobol.bsky.social
+    bluesky: filipsobol.com
 compatibility:
   nuxt: ^3.0.0
   requires: {}

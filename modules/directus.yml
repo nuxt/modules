@@ -1,12 +1,12 @@
 name: directus
-description: Easily connect your Nuxt application to your directus server.
+description: Easily connect your app to your Directus server.
 repo: intevel/nuxt-directus
 npm: nuxt-directus
 icon: directus.svg
 github: https://github.com/intevel/nuxt-directus
 website: https://nuxt-directus.de/
-learn_more: https://directus.io/
-category: CMS
+learn_more: https://directus.com/
+category: CMS & Content
 type: 3rd-party
 maintainers:
   - name: Conner Bachmann

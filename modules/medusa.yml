@@ -1,12 +1,12 @@
 name: medusa
-description: Easily connect to Medusa from your Nuxt application
+description: Easily connect to Medusa
 repo: nuxt-modules/medusa
 npm: '@nuxtjs/medusa'
 icon: medusa.svg
 github: https://github.com/nuxt-modules/medusa
 website: https://nuxt-medusa.vercel.app/
 learn_more: https://nuxt-medusa.vercel.app/
-category: Ecommerce
+category: Ecommerce & Payments
 type: community
 maintainers:
   - name: Jakub Andrzejewski

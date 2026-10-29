@@ -1,5 +1,5 @@
 name: eslint-module
-description: ESLint module for Nuxt
+description: ESLint integration
 repo: nuxt-modules/eslint
 npm: '@nuxtjs/eslint-module'
 icon: eslint.png

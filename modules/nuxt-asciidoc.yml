@@ -1,12 +1,12 @@
 name: nuxt-asciidoc
-description: Transformer for using asciidoc in nuxt
+description: Transformer for using AsciiDoc
 repo: Chris2011/nuxt-asciidoc
 npm: nuxt-asciidoc
 icon: nuxt-asciidoc.svg
 github: https://github.com/Chris2011/nuxt-asciidoc
 website: https://github.com/Chris2011/nuxt-asciidoc
 learn_more: https://github.com/Chris2011/nuxt-asciidoc/blob/main/README.md
-category: Extensions
+category: CMS & Content
 type: 3rd-party
 maintainers:
   - name: Chrizzly

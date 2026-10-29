@@ -1,12 +1,12 @@
 name: socket-io
-description: Socket.io client and server module for Nuxt. Just plug it in and GO
+description: Socket.io client and server integration. Just plug it in and go
 repo: richardeschloss/nuxt-socket-io
 npm: nuxt-socket-io
 icon: socket-io.png
 github: https://github.com/richardeschloss/nuxt-socket-io
 website: https://nuxt-socket-io.netlify.app/
 learn_more: https://socket.io/
-category: Request
+category: Realtime
 type: 3rd-party
 maintainers:
   - name: Richard Schloss
