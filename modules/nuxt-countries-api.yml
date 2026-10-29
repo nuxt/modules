@@ -1,0 +1,16 @@
+name: nuxt-countries-api
+description: Self hosted REST API module with countries data
+repo: xamu-co/countries-api
+npm: nuxt-countries-api
+icon: 'nuxt-countries-api.png'
+github: https://github.com/xamu-co/countries-api
+website: https://countries.xamu.com.co
+learn_more: ''
+category: API & Data Fetching
+type: 3rd-party
+maintainers:
+  - name: xamu-co
+    github: xamu-co
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
