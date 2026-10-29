@@ -1,0 +1,44 @@
+name: vite-hub
+description: >-
+  Portable Agents, databases, storage, queues, workflows, and schedules with one
+  API across deployment hosts.
+repo: vite-hub/vitehub#main/packages/vite-hub
+npm: vite-hub
+icon: ''
+github: https://github.com/vite-hub/vitehub
+website: https://vitehub.dev
+learn_more: https://vitehub.dev/docs/frameworks-hosts/nuxt
+category: Backend & Database
+type: 3rd-party
+maintainers:
+  - name: Maxi
+    github: onmax
+compatibility:
+  nuxt: '>=4.5.2 <5'
+  requires: {}
+mcp: https://vitehub.dev/mcp
+providers:
+  - name: cloudflare
+    label: Cloudflare
+    category: Deployment
+    docs: https://vitehub.dev/docs/frameworks-hosts/cloudflare
+  - name: vercel
+    label: Vercel
+    category: Deployment
+    docs: https://vitehub.dev/docs/frameworks-hosts/vercel
+  - name: netlify
+    label: Netlify
+    category: Deployment
+    docs: https://vitehub.dev/docs/frameworks-hosts/netlify
+  - name: upstash
+    label: Upstash Redis
+    category: KV
+    docs: https://vitehub.dev/docs/kv
+  - name: turso
+    label: Turso via libSQL
+    category: Database
+    docs: https://vitehub.dev/docs/database
+  - name: resend
+    label: Resend
+    category: Email
+    docs: https://vitehub.dev/docs/email
