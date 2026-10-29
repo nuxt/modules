@@ -15,6 +15,6 @@ maintainers:
     github: slavarazum
     twitter: slava_razum
 compatibility:
-  nuxt: '>=4.1.0'
+  nuxt: '>=4.6.0'
   requires: {}
 mcp: https://nuxt-convex-module.dev/mcp
