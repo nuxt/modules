@@ -8,7 +8,7 @@ npm: '@maz-ui/nuxt'
 icon: maz-ui.png
 github: https://github.com/louismazel/maz-ui
 website: https://maz-ui.com/
-learn_more: https://maz-ui.com/guide/nuxt
+learn_more: https://maz-ui.com/ecosystem/nuxt
 category: UI Frameworks
 type: 3rd-party
 maintainers:
