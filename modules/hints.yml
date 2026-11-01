@@ -6,7 +6,7 @@ repo: nuxt/hints
 npm: '@nuxt/hints'
 icon: nuxt.svg
 github: https://github.com/nuxt/hints
-website: https://github.com/nuxt/hints
+website: https://nuxt.com/modules/hints
 learn_more: ''
 category: Devtools
 type: official
