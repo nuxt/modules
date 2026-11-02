@@ -6,7 +6,7 @@ repo: nuxt/image
 npm: '@nuxt/image'
 icon: nuxt.svg
 github: https://github.com/nuxt/image
-website: https://image.nuxt.com
+website: https://nuxt.com/modules/image
 learn_more: ''
 category: Images & Media
 type: official
@@ -36,141 +36,141 @@ providers:
   - name: aliyun
     label: Aliyun
     icon: simple-icons:alibabacloud
-    docs: https://image.nuxt.com/providers/aliyun
+    docs: https://nuxt.com/modules/image/providers/aliyun
   - name: awsAmplify
     label: AWS Amplify
     icon: logos:aws-amplify
-    docs: https://image.nuxt.com/providers/aws-amplify
+    docs: https://nuxt.com/modules/image/providers/aws-amplify
   - name: builderio
     label: Builder.io
     icon: logos:builder-io-icon
-    docs: https://image.nuxt.com/providers/builderio
+    docs: https://nuxt.com/modules/image/providers/builderio
   - name: bunny
     label: Bunny
     icon: simple-icons:bunnydotnet
-    docs: https://image.nuxt.com/providers/bunny
+    docs: https://nuxt.com/modules/image/providers/bunny
   - name: caisy
     label: Caisy
-    docs: https://image.nuxt.com/providers/caisy
+    docs: https://nuxt.com/modules/image/providers/caisy
   - name: cloudflare
     label: Cloudflare
     icon: simple-icons:cloudflare
-    docs: https://image.nuxt.com/providers/cloudflare
+    docs: https://nuxt.com/modules/image/providers/cloudflare
   - name: cloudflareimages
     label: Cloudflare Images
     icon: simple-icons:cloudflare
-    docs: https://image.nuxt.com/providers/cloudflareimages
+    docs: https://nuxt.com/modules/image/providers/cloudflareimages
   - name: cloudimage
     label: Cloudimage
-    docs: https://image.nuxt.com/providers/cloudimage
+    docs: https://nuxt.com/modules/image/providers/cloudimage
   - name: cloudinary
     label: Cloudinary
     icon: simple-icons:cloudinary
-    docs: https://image.nuxt.com/providers/cloudinary
+    docs: https://nuxt.com/modules/image/providers/cloudinary
   - name: contentful
     label: Contentful
     icon: simple-icons:contentful
-    docs: https://image.nuxt.com/providers/contentful
+    docs: https://nuxt.com/modules/image/providers/contentful
   - name: directus
     label: Directus
     icon: simple-icons:directus
-    docs: https://image.nuxt.com/providers/directus
+    docs: https://nuxt.com/modules/image/providers/directus
   - name: edgeonePages
     label: EdgeOne Pages
-    docs: https://image.nuxt.com/providers/edgeone-pages
+    docs: https://nuxt.com/modules/image/providers/edgeone-pages
   - name: fastly
     label: Fastly
     icon: simple-icons:fastly
-    docs: https://image.nuxt.com/providers/fastly
+    docs: https://nuxt.com/modules/image/providers/fastly
   - name: filerobot
     label: Filerobot
-    docs: https://image.nuxt.com/providers/filerobot
+    docs: https://nuxt.com/modules/image/providers/filerobot
   - name: flyimg
     label: Flyimg
-    docs: https://image.nuxt.com/providers/flyimg
+    docs: https://nuxt.com/modules/image/providers/flyimg
   - name: github
     label: GitHub
     icon: simple-icons:github
-    docs: https://image.nuxt.com/providers/github
+    docs: https://nuxt.com/modules/image/providers/github
   - name: glide
     label: Glide
-    docs: https://image.nuxt.com/providers/glide
+    docs: https://nuxt.com/modules/image/providers/glide
   - name: gumlet
     label: Gumlet
-    docs: https://image.nuxt.com/providers/gumlet
+    docs: https://nuxt.com/modules/image/providers/gumlet
   - name: hygraph
     label: Hygraph
-    docs: https://image.nuxt.com/providers/hygraph
+    docs: https://nuxt.com/modules/image/providers/hygraph
   - name: imageengine
     label: ImageEngine
-    docs: https://image.nuxt.com/providers/imageengine
+    docs: https://nuxt.com/modules/image/providers/imageengine
   - name: imagekit
     label: ImageKit
-    docs: https://image.nuxt.com/providers/imagekit
+    docs: https://nuxt.com/modules/image/providers/imagekit
   - name: imgix
     label: Imgix
-    docs: https://image.nuxt.com/providers/imgix
+    docs: https://nuxt.com/modules/image/providers/imgix
   - name: imgproxy
     label: Imgproxy
-    docs: https://image.nuxt.com/providers/imgproxy
+    docs: https://nuxt.com/modules/image/providers/imgproxy
   - name: ipx
     label: IPX
-    docs: https://image.nuxt.com/providers/ipx
+    docs: https://nuxt.com/modules/image/providers/ipx
   - name: netlify
     label: Netlify
     icon: simple-icons:netlify
-    docs: https://image.nuxt.com/providers/netlify
+    docs: https://nuxt.com/modules/image/providers/netlify
   - name: picsum
     label: Picsum
-    docs: https://image.nuxt.com/providers/picsum
+    docs: https://nuxt.com/modules/image/providers/picsum
   - name: prepr
     label: Prepr
-    docs: https://image.nuxt.com/providers/prepr
+    docs: https://nuxt.com/modules/image/providers/prepr
   - name: prismic
     label: Prismic
     icon: simple-icons:prismic
-    docs: https://image.nuxt.com/providers/prismic
+    docs: https://nuxt.com/modules/image/providers/prismic
   - name: sanity
     label: Sanity
     icon: simple-icons:sanity
-    docs: https://image.nuxt.com/providers/sanity
+    docs: https://nuxt.com/modules/image/providers/sanity
   - name: shopify
     label: Shopify
     icon: simple-icons:shopify
-    docs: https://image.nuxt.com/providers/shopify
+    docs: https://nuxt.com/modules/image/providers/shopify
   - name: sirv
     label: Sirv
-    docs: https://image.nuxt.com/providers/sirv
+    docs: https://nuxt.com/modules/image/providers/sirv
   - name: storyblok
     label: Storyblok
     icon: simple-icons:storyblok
-    docs: https://image.nuxt.com/providers/storyblok
+    docs: https://nuxt.com/modules/image/providers/storyblok
   - name: strapi
     label: Strapi
     icon: simple-icons:strapi
-    docs: https://image.nuxt.com/providers/strapi
+    docs: https://nuxt.com/modules/image/providers/strapi
   - name: supabase
     label: Supabase
     icon: simple-icons:supabase
-    docs: https://image.nuxt.com/providers/supabase
+    docs: https://nuxt.com/modules/image/providers/supabase
   - name: twicpics
     label: Twicpics
-    docs: https://image.nuxt.com/providers/twicpics
+    docs: https://nuxt.com/modules/image/providers/twicpics
   - name: umbraco
     label: Umbraco
     icon: simple-icons:umbraco
-    docs: https://image.nuxt.com/providers/umbraco
+    docs: https://nuxt.com/modules/image/providers/umbraco
   - name: unsplash
     label: Unsplash
     icon: simple-icons:unsplash
-    docs: https://image.nuxt.com/providers/unsplash
+    docs: https://nuxt.com/modules/image/providers/unsplash
   - name: uploadcare
     label: Uploadcare
-    docs: https://image.nuxt.com/providers/uploadcare
+    docs: https://nuxt.com/modules/image/providers/uploadcare
   - name: vercel
     label: Vercel
     icon: simple-icons:vercel
-    docs: https://image.nuxt.com/providers/vercel
+    docs: https://nuxt.com/modules/image/providers/vercel
   - name: weserv
     label: Weserv
-    docs: https://image.nuxt.com/providers/weserv
+    docs: https://nuxt.com/modules/image/providers/weserv
