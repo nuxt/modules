@@ -11,18 +11,10 @@ learn_more: ''
 category: Images & Media
 type: official
 maintainers:
-  - name: Farnabaz
-    github: farnabaz
-    twitter: a_birang
-    bluesky: farnabaz.dev
   - name: Daniel Roe
     github: danielroe
     twitter: danielcroe
     bluesky: danielroe.dev
-  - name: Pooya Parsa
-    github: pi0
-    twitter: _pi0_
-    bluesky: pi0.io
   - name: Sébastien Chopin
     github: Atinux
     twitter: atinux
