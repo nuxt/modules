@@ -1,12 +1,12 @@
 name: algolia
-description: Algolia Search Module for Nuxt
+description: Algolia search integration
 repo: nuxt-modules/algolia
 npm: '@nuxtjs/algolia'
 icon: algolia.svg
 github: https://github.com/nuxt-modules/algolia
 website: https://algolia.nuxtjs.org/
 learn_more: https://algolia.nuxtjs.org/
-category: Libraries
+category: Utilities
 type: community
 maintainers:
   - name: Jakub Andrzejewski
@@ -18,6 +18,6 @@ maintainers:
     github: yassilah
     avatar: https://avatars.githubusercontent.com/u/13403295?v=4
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: ^2.16.0 || >=3.0.0-rc.9
   requires:
     bridge: true

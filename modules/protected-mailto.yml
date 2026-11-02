@@ -1,5 +1,5 @@
 name: protected-mailto
-description: Nuxt component to generate encoded mailto links
+description: Component to generate encoded mailto links
 repo: mmoollllee/nuxt-protected-mailto
 npm: nuxt-protected-mailto
 icon: ''

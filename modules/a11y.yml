@@ -1,0 +1,24 @@
+name: a11y
+description: >-
+  Real-time accessibility feedback and automated testing in your browser during
+  development.
+repo: nuxt/a11y
+npm: '@nuxt/a11y'
+icon: nuxt.svg
+github: https://github.com/nuxt/a11y
+website: https://github.com/nuxt/a11y
+learn_more: ''
+category: Devtools
+type: official
+maintainers:
+  - name: Tim Damen
+    github: timdamen
+    twitter: timdamen_io
+    bluesky: timdamen.io
+  - name: Daniel Roe
+    github: danielroe
+    twitter: danielcroe
+    bluesky: danielroe.dev
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

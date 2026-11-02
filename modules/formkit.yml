@@ -1,12 +1,12 @@
 name: formkit
-description: Seamless FormKit integration for Nuxt
+description: Seamless FormKit integration
 repo: formkit/formkit#master/packages/nuxt
 npm: '@formkit/nuxt'
 icon: formkit.png
 github: https://github.com/formkit/formkit
 website: https://formkit.com
 learn_more: https://formkit.com/getting-started/installation
-category: Libraries
+category: Forms & Validation
 type: 3rd-party
 maintainers:
   - name: Justin Schroeder
@@ -16,5 +16,5 @@ maintainers:
     github: andrew-boyd
     twitter: 0xBOYD
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.0.0 <5.0.0'
   requires: {}

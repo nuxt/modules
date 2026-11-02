@@ -1,7 +1,7 @@
 name: matomo
 description: >-
-  Add Matomo analytics to your nuxt.js application. This plugin automatically
-  sends first page and route change events to matomo
+  Add Matomo analytics to your app. This plugin automatically sends first page
+  and route change events to Matomo
 repo: pimlie/nuxt-matomo
 npm: nuxt-matomo
 icon: matomo.png

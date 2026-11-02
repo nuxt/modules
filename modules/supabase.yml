@@ -6,12 +6,13 @@ icon: supabase.png
 github: https://github.com/nuxt-modules/supabase
 website: https://supabase.nuxtjs.org
 learn_more: https://supabase.com
-category: Database
+category: Backend & Database
 type: community
 maintainers:
   - name: Baptiste Leproux
     github: larbish
-    twitter: baptistelprx
+    twitter: _larbish
+    bluesky: larbish.bsky.social
   - name: Sébastien Chopin
     github: Atinux
     twitter: atinux
@@ -20,5 +21,5 @@ maintainers:
     github: scottrobertson
     twitter: scottymeuk
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: '>=3.0.0'
   requires: {}

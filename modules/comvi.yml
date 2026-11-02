@@ -1,0 +1,18 @@
+name: comvi
+description: >-
+  i18n with type-checked keys, ICU plurals and a <T> component for markup inside
+  translations.
+repo: comvi-io/comvi-js#main/packages/nuxt
+npm: '@comvi/nuxt'
+icon: comvi.svg
+github: https://github.com/comvi-io/comvi-js
+website: https://comvi.io/docs/i18n/nuxt
+learn_more: https://comvi.io/docs/i18n/nuxt
+category: i18n
+type: 3rd-party
+maintainers:
+  - name: Eugene Balabai
+    github: EugeneBalabai
+compatibility:
+  nuxt: ^3.0.0 || ^4.0.0
+  requires: {}

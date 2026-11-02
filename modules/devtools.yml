@@ -4,7 +4,7 @@ repo: nuxt/devtools#main/packages/devtools
 npm: '@nuxt/devtools'
 icon: nuxt.svg
 github: https://github.com/nuxt/devtools
-website: https://devtools.nuxt.com
+website: https://nuxt.com/modules/devtools
 learn_more: ''
 category: Devtools
 type: official

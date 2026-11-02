@@ -1,16 +1,16 @@
 name: purgecss
-description: Drop superfluous CSS! A neat PurgeCSS wrapper for Nuxt
+description: Drop superfluous CSS! A neat PurgeCSS wrapper
 repo: Developmint/nuxt-purgecss#main
 npm: nuxt-purgecss
 icon: purgecss.png
 github: https://github.com/Developmint/nuxt-purgecss
 website: https://github.com/Developmint/nuxt-purgecss
 learn_more: https://purgecss.com/
-category: CSS
+category: CSS & Theming
 type: 3rd-party
 maintainers:
   - name: Developmint
     github: Developmint
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: ^3.0.0-rc.11
   requires: {}

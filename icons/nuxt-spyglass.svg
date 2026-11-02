@@ -1,0 +1,11 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>nuxt-spyglass</title>
+  <!-- handle -->
+  <path d="M156 156 L214 214" stroke="#020420" stroke-width="28" stroke-linecap="round"/>
+  <!-- lens -->
+  <circle cx="104" cy="104" r="74" fill="#FFFFFF" stroke="#020420" stroke-width="18"/>
+  <!-- log lines seen through the lens; the latest highlighted in Nuxt green -->
+  <rect x="68" y="76" width="72" height="11" rx="5.5" fill="#00DC82"/>
+  <rect x="68" y="99" width="72" height="11" rx="5.5" fill="#020420"/>
+  <rect x="68" y="122" width="52" height="11" rx="5.5" fill="#020420"/>
+</svg>

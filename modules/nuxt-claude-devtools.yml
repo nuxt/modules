@@ -1,0 +1,16 @@
+name: nuxt-claude-devtools
+description: Nuxt DevTools integration for Claude Code AI assistant
+repo: oro-ad/nuxt-claude-devtools
+npm: '@oro.ad/nuxt-claude-devtools'
+icon: ''
+github: https://github.com/oro-ad/nuxt-claude-devtools
+website: https://github.com/oro-ad/nuxt-claude-devtools
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: oro-ad
+    github: oro-ad
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

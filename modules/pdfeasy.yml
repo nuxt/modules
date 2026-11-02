@@ -6,13 +6,13 @@ icon: pdfeasy.png
 github: https://github.com/betterwrite/pdfeasy
 website: https://github.com/betterwrite/pdfeasy
 learn_more: https://github.com/betterwrite/pdfeasy
-category: Extensions
+category: Utilities
 type: 3rd-party
 maintainers:
-  - name: Giovane Cardoso
+  - name: Giovane Silva
     github: novout
     twitter: novoutttttt
     avatar: https://avatars.githubusercontent.com/novout?v=4
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: ^3.0.0
   requires: {}

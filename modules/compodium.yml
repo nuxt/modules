@@ -1,5 +1,5 @@
 name: compodium
-description: A plug an play component playground for Nuxt.
+description: A plug and play component playground.
 repo: romhml/compodium#main/packages/nuxt
 npm: '@compodium/nuxt'
 icon: compodium.svg
@@ -11,7 +11,7 @@ type: 3rd-party
 maintainers:
   - name: Romain Hamel
     github: romhml
-    bluesky: rohm.bsky.social
+    bluesky: rohm.dev
 compatibility:
   nuxt: '>=3.0.0'
   requires: {}

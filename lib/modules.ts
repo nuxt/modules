@@ -5,21 +5,28 @@ import * as yml from 'js-yaml'
 import { globby } from 'globby'
 import defu from 'defu'
 import pLimit from 'p-limit'
-import { $fetch } from 'ofetch'
-import { isCI } from 'std-env'
 import { Octokit } from '@octokit/rest'
-import dotenv from 'dotenv'
+import { ofetch } from 'ofetch'
 
-import { categories } from './categories'
-import type { ModuleInfo } from './types'
-import { fetchGithubPkg, modulesDir, distDir, distFile, rootDir } from './utils'
+import { categories } from './categories.ts'
+import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback, SyncWarning } from './types.ts'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, isValidModuleName, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY, userAgent } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
-dotenv.config()
+export interface SyncOptions {
+  /** Drop `aliases`, which are maintained by the Nuxt team rather than contributors */
+  stripAliases?: boolean
+}
 
-export async function sync(name: string, repo?: string, isNew: boolean = false) {
+export async function sync(name: string, repo?: string, isNew: boolean = false, options: SyncOptions = {}): Promise<SyncResult> {
   const mod = await getModule(name)
+  const regressions: SyncRegression[] = []
+  const warnings: string[] = []
+
+  // Store original values for regression detection
+  const originalWebsite = mod.website
+  const originalCompatibility = mod.compatibility.nuxt
 
   // Repo
   if (repo) {
@@ -34,19 +41,34 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
   if (!mod.repo && repo) {
     mod.repo = repo
   }
-  if (!mod.github) {
-    mod.github = `https://github.com/${mod.repo.replace('#', '/tree/')}`
+  // Check if the GitHub org/repo has been moved/renamed
+  try {
+    const newOwnerRepo = await checkGithubRepoRedirect(mod.repo)
+    if (newOwnerRepo) {
+      // Preserve any #branch/path suffix
+      const hashIndex = mod.repo.indexOf('#')
+      const suffix = hashIndex !== -1 ? mod.repo.slice(hashIndex) : ''
+      mod.repo = newOwnerRepo + suffix
+    }
   }
+  catch (err) {
+    warnings.push(`Could not check repo redirect for ${mod.repo}: ${err}`)
+  }
+
+  // Always derive github URL from repo
+  mod.github = `https://github.com/${mod.repo.split('#')[0]}`
   if (!mod.website) {
     mod.website = mod.github
   }
+
+  await sleep(FETCH_DELAY)
 
   // Fetch latest package.json from github
   const pkg = await fetchGithubPkg(mod.repo)
   mod.npm = pkg.name || mod.npm
 
   // Type
-  if (mod.repo.startsWith('nuxt-community/') || mod.repo.startsWith('nuxt-modules/')) {
+  if (mod.repo.startsWith('nuxt-community/') || mod.repo.startsWith('nuxt-modules/') || mod.repo.startsWith('nuxt-content/')) {
     mod.type = 'community'
   }
   else if (mod.repo.startsWith('nuxt/')) {
@@ -62,7 +84,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
       throw new Error(`No category for ${name}`)
     }
     else {
-      console.log(`[TODO] Add a category to ./modules/${name}.yml`)
+      warnings.push(`[TODO] Add a category to ./modules/${name}.yml`)
     }
   }
   else if (!categories.includes(mod.category)) {
@@ -78,15 +100,33 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     }
   }
 
-  // ci is flaky with external links
-  if (!isCI) {
-    for (const key of ['website', 'learn_more'] as const) {
-      if (mod[key] && !mod[key].includes('github.com')) {
-        // we just need to test that we get a 200 response (or a valid redirect)
-        await $fetch(mod[key]).catch((err) => {
-          throw new Error(`${key} link is invalid for ${mod.name}: ${err}`)
-        })
+  for (const key of ['website', 'learn_more'] as const) {
+    if (mod[key]) {
+      const npmPackage = parseNpmUrl(mod[key])
+      if (npmPackage) {
+        try {
+          const exists = await npmPackageExists(npmPackage)
+          if (!exists) {
+            warnings.push(`${key} link references non-existent npm package "${npmPackage}"`)
+          }
+        }
+        catch (err) {
+          warnings.push(`Could not check npm package "${npmPackage}": ${err}`)
+        }
       }
+      else {
+        try {
+          // Validate the URL and check for redirects in a single request
+          const redirectedUrl = await checkWebsiteRedirect(mod[key])
+          if (redirectedUrl) {
+            mod[key] = redirectedUrl
+          }
+        }
+        catch (err) {
+          warnings.push(`Could not validate ${key} URL: ${err}`)
+        }
+      }
+      await sleep(FETCH_DELAY)
     }
   }
 
@@ -96,6 +136,10 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     if (!existsSync(file)) {
       throw new Error(`Icon ${mod.icon} does not exist for ${mod.name}`)
     }
+  }
+
+  if (mod.providers !== undefined) {
+    await validateProviders(mod, warnings)
   }
 
   // TODO: Remove extra fields
@@ -108,12 +152,15 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     'github',
     'website',
     'learn_more',
+    'mcp',
+    'providers',
     'category',
     'type',
     'maintainers',
     'compatibility',
     'sponsor',
     'aliases',
+    'archived',
   ]
   const invalidFields = []
   for (const key in mod) {
@@ -126,7 +173,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     }
   }
   if (invalidFields.length) {
-    console.warn(`Invalid fields for ./modules/${mod.name}.yml`, invalidFields)
+    warnings.push(`Invalid fields in ./modules/${mod.name}.yml: ${invalidFields.join(', ')}`)
   }
 
   // Auto name
@@ -134,6 +181,15 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     mod.name = (pkg.name.startsWith('@') ? pkg.name.split('/')[1] : pkg.name)
       .replace('nuxt-', '')
       .replace('-module', '')
+  }
+
+  if (!isValidModuleName(mod.name)) {
+    throw new Error(`Invalid module name \`${mod.name}\`: use lowercase letters, numbers, hyphens and dots (usually the npm package name)`)
+  }
+
+  if (options.stripAliases && mod.aliases) {
+    delete mod.aliases
+    warnings.push(`Removed \`aliases\` from ./modules/${name}.yml (new modules can't set aliases)`)
   }
 
   if (mod.aliases) {
@@ -157,7 +213,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
       throw new Error(`No maintainer for ${mod.name}`)
     }
     else {
-      console.log(`[TODO] Add a maintainer to ./modules/${name}.yml`)
+      warnings.push(`[TODO] Add a maintainer to ./modules/${name}.yml`)
     }
   }
 
@@ -165,7 +221,6 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
     const client = new Octokit({ auth: `Bearer ${process.env.GITHUB_TOKEN}` })
     for (const maintainer of mod.maintainers) {
       if (!(maintainer.github in maintainerSocialCache)) {
-        console.log('Syncing maintainer socials with GitHub')
         maintainerSocialCache[maintainer.github] = await client.graphql<{ user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }>({
           query: `
               query ($login: String!) {
@@ -200,19 +255,166 @@ export async function sync(name: string, repo?: string, isNew: boolean = false) 
         }
       }
     }
+
+    const repoParts = mod.repo.split('#')[0]?.split('/') || []
+    const [owner, repoName] = repoParts
+    if (owner && repoName) {
+      try {
+        const { data } = await client.repos.get({ owner, repo: repoName })
+        mod.archived = data.archived || undefined // only set if true
+      }
+      catch (err) {
+        warnings.push(`Could not check archived status for ${mod.repo}: ${err}`)
+      }
+    }
   }
 
   // Default description
   if (!mod.description) {
     mod.description = pkg.description
   }
+  if (/\bnuxt(?:\.?js)?\s*v?[234]\b|\bnuxt\.js\b/i.test(mod.description || '')) {
+    warnings.push(`Description in ./modules/${name}.yml mentions a Nuxt version; describe what the module does instead`)
+  }
 
-  // Compatibility
+  let majorVersions: string[] = []
+  try {
+    majorVersions = await getMajorVersions(mod.npm)
+  }
+  catch (err) {
+    warnings.push(`Could not fetch major versions for ${mod.npm}: ${err}`)
+  }
+
+  const nuxtCompatibilities: string[] = []
+  let latestModuleJson: { docs?: string, compatibility?: { nuxt?: string } } | null = null
+
+  for (const version of majorVersions) {
+    await sleep(FETCH_DELAY)
+    const moduleJson = await fetchModuleJson(mod.npm, version)
+    if (moduleJson) {
+      // Keep the latest module.json for other metadata
+      if (!latestModuleJson) {
+        latestModuleJson = moduleJson
+      }
+
+      if (moduleJson.compatibility?.nuxt) {
+        nuxtCompatibilities.push(moduleJson.compatibility.nuxt)
+      }
+    }
+  }
+
+  if (nuxtCompatibilities.length > 0) {
+    const mergedCompatibility = mergeCompatibilityRanges(nuxtCompatibilities)
+    if (mergedCompatibility) {
+      mod.compatibility.nuxt = mergedCompatibility
+
+      const wasNuxt4Compatible = isNuxt4Compatible(originalCompatibility)
+      const isNowNuxt4Compatible = isNuxt4Compatible(mergedCompatibility)
+      if (wasNuxt4Compatible && !isNowNuxt4Compatible) {
+        regressions.push({
+          type: 'compatibility',
+          moduleName: mod.name,
+          repo: mod.repo,
+          currentValue: originalCompatibility,
+          moduleValue: mergedCompatibility,
+          description: `Module was marked as Nuxt 4 compatible (${originalCompatibility}) but module.json indicates only ${mergedCompatibility}`,
+        })
+      }
+    }
+  }
+
+  // Always use docs URL from module.json if present (module is source of truth)
+  if (latestModuleJson?.docs) {
+    let newWebsite = latestModuleJson.docs
+
+    // Re-validate docs URL for redirects before using it
+    await sleep(FETCH_DELAY)
+    try {
+      const redirectedUrl = await checkWebsiteRedirect(newWebsite)
+      if (redirectedUrl) {
+        newWebsite = redirectedUrl
+      }
+    }
+    catch {
+      // If we can't validate the docs URL, use it as-is
+    }
+
+    // Detect docs URL regression: was a real docs site, now it's just GitHub
+    const wasRealDocsUrl = isRealDocsUrl(originalWebsite)
+    const isNowRealDocsUrl = isRealDocsUrl(newWebsite)
+    if (wasRealDocsUrl && !isNowRealDocsUrl) {
+      regressions.push({
+        type: 'docs-url',
+        moduleName: mod.name,
+        repo: mod.repo,
+        currentValue: originalWebsite,
+        moduleValue: newWebsite,
+        description: `Module had a documentation site (${originalWebsite}) but module.json now points to ${newWebsite}`,
+      })
+    }
+
+    mod.website = newWebsite
+  }
 
   // Write module
   await writeModule(mod)
 
-  return mod
+  return { module: mod, regressions, warnings }
+}
+
+const providerFields = ['name', 'label', 'icon', 'category', 'docs']
+
+async function validateProviders(mod: ModuleInfo, warnings: string[]) {
+  const file = `./modules/${mod.name}.yml`
+  if (!Array.isArray(mod.providers)) {
+    throw new TypeError(`\`providers\` in ${file} must be a list`)
+  }
+
+  const names = new Set<string>()
+  const icons: Record<string, string[]> = {}
+  for (const provider of mod.providers) {
+    if (typeof provider?.name !== 'string' || !provider.name || typeof provider.label !== 'string' || !provider.label) {
+      throw new Error(`Each provider in ${file} needs a \`name\` and a \`label\``)
+    }
+    if (names.has(provider.name)) {
+      throw new Error(`Duplicate provider \`${provider.name}\` in ${file}`)
+    }
+    names.add(provider.name)
+
+    const invalidFields = Object.keys(provider).filter(key => !providerFields.includes(key))
+    if (invalidFields.length) {
+      throw new Error(`Invalid fields for provider \`${provider.name}\` in ${file}: ${invalidFields.join(', ')}`)
+    }
+    if (provider.docs && !URL.canParse(provider.docs)) {
+      throw new Error(`Invalid docs URL for provider \`${provider.name}\` in ${file}: ${provider.docs}`)
+    }
+    if (provider.icon) {
+      if (!/^[a-z0-9-]+:[a-z0-9-]+$/.test(provider.icon)) {
+        throw new Error(`Invalid icon for provider \`${provider.name}\` in ${file}: use an Iconify name like \`simple-icons:github\``)
+      }
+      const [prefix, icon] = provider.icon.split(':') as [string, string]
+      icons[prefix] ||= []
+      icons[prefix].push(icon)
+    }
+  }
+
+  // Check the icons exist, one request per Iconify collection
+  for (const [prefix, iconNames] of Object.entries(icons)) {
+    try {
+      const { not_found: notFound = [] } = await ofetch<{ not_found?: string[] }>(`https://api.iconify.design/${prefix}.json`, {
+        query: { icons: iconNames.join(',') },
+        headers: { 'user-agent': userAgent },
+        timeout: 10_000,
+      })
+      if (notFound.length) {
+        warnings.push(`Unknown Iconify icons in ${file}: ${notFound.map(icon => `${prefix}:${icon}`).join(', ')}`)
+      }
+    }
+    catch (err) {
+      warnings.push(`Could not check Iconify icons for \`${prefix}\` in ${file}: ${err}`)
+    }
+    await sleep(FETCH_DELAY)
+  }
 }
 
 export async function getModule(name: string): Promise<ModuleInfo> {
@@ -229,7 +431,7 @@ export async function getModule(name: string): Promise<ModuleInfo> {
     type: '3rd-party', // official, community, 3rd-party
     maintainers: [],
     compatibility: {
-      nuxt: '^3.0.0',
+      nuxt: '>=3.0.0',
       requires: {},
     },
   }
@@ -237,6 +439,12 @@ export async function getModule(name: string): Promise<ModuleInfo> {
   const file = resolve(modulesDir, name + '.yml')
   if (existsSync(file)) {
     mod = defu(yml.load(await fsp.readFile(file, 'utf-8')) as object, mod)
+    if (mod.name !== name) {
+      throw new Error(`Module name \`${mod.name}\` in ./modules/${name}.yml must match the filename`)
+    }
+    if (!isValidModuleName(name)) {
+      throw new Error(`Invalid module name \`${name}\`: use lowercase letters, numbers, hyphens and dots (usually the npm package name)`)
+    }
   }
 
   return mod
@@ -248,6 +456,11 @@ export async function writeModule(module: ModuleInfo) {
 }
 
 export async function readModules() {
+  const invalidFiles = (await fsp.readdir(modulesDir)).filter(file => extname(file) !== '.yml')
+  if (invalidFiles.length) {
+    throw new Error(`Module files must use the .yml extension: ${invalidFiles.map(file => `./modules/${file}`).join(', ')}`)
+  }
+
   const globPattern = join(modulesDir, '*.yml').replace(/\\/g, '/')
   const names = (await globby(globPattern)).map(p => basename(p, extname(p))).filter(_ => _)
 
@@ -255,19 +468,47 @@ export async function readModules() {
     .then(modules => modules.filter(m => m.name))
 }
 
-export async function syncAll() {
-  const modules = await readModules()
+export async function syncAll(onProgress?: SyncProgressCallback, only?: string[], added: string[] = []): Promise<SyncAllResult> {
+  const allModules = await readModules()
+  const modules = only ? allModules.filter(module => only.includes(module.name)) : allModules
+  const total = modules.length
+  const synced: string[] = []
+  const errors: SyncError[] = []
+  const regressions: SyncRegression[] = []
+  const archivedModules: string[] = []
+  const warnings: SyncWarning[] = []
+
+  let completed = 0
   const limit = pLimit(10)
-  let success = true
-  const updatedModules = await Promise.allSettled(modules.map(module => limit(() => {
-    console.log(`Syncing ${module.name}`)
-    return sync(module.name, module.repo).catch((err) => {
-      console.error(`Error syncing ${module.name}`)
-      console.error(err)
-      success = false
-    })
+
+  await Promise.all(modules.map(module => limit(async () => {
+    try {
+      const result = await sync(module.name, module.repo, false, { stripAliases: added.includes(module.name) })
+      synced.push(module.name)
+
+      if (result.regressions.length > 0) {
+        regressions.push(...result.regressions)
+      }
+      if (result.module.archived) {
+        archivedModules.push(module.name)
+      }
+      for (const message of result.warnings) {
+        warnings.push({ moduleName: module.name, message })
+      }
+    }
+    catch (err) {
+      errors.push({
+        moduleName: module.name,
+        error: err instanceof Error ? err : new Error(String(err)),
+      })
+    }
+    finally {
+      completed++
+      onProgress?.(completed, total, module.name)
+    }
   })))
-  return { count: updatedModules.length, success }
+
+  return { total, synced, errors, regressions, archivedModules, warnings }
 }
 
 export async function build() {

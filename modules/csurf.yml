@@ -1,5 +1,5 @@
 name: csurf
-description: Cross-Site Request Forgery (CSRF) Prevention for Nuxt
+description: Cross-Site Request Forgery (CSRF) prevention
 repo: morgbn/nuxt-csurf
 npm: nuxt-csurf
 icon: csurf.svg

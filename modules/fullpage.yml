@@ -1,12 +1,12 @@
 name: fullpage
-description: Nuxt module for fullpage-vue plugin
+description: Integration for the fullpage-vue plugin
 repo: vaso2/fullpage-nuxt
 npm: fullpage-nuxt
 icon: ''
 github: https://github.com/vaso2/fullpage-nuxt
 website: https://github.com/vaso2/fullpage-nuxt
 learn_more: ''
-category: CSS
+category: Animation
 type: 3rd-party
 maintainers:
   - name: Vasyl Iatsenko

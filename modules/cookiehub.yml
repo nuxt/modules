@@ -1,0 +1,19 @@
+name: cookiehub
+description: >-
+  Nuxt module for the CookieHub consent platform: loads the consent dialog from
+  nuxt.config, exposes a useCookieHub composable, and provides consent-blocked
+  script components.
+repo: cookiehub-com/nuxt-cookiehub
+npm: nuxt-cookiehub
+icon: cookiehub.svg
+github: https://github.com/cookiehub-com/nuxt-cookiehub
+website: https://www.cookiehub.com
+learn_more: https://github.com/cookiehub-com/nuxt-cookiehub#readme
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Hinrik Snær
+    github: Hinriks
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

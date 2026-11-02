@@ -1,0 +1,20 @@
+name: kirby
+description: Fetch Kirby CMS data via KQL or the REST API
+repo: johannschopplich/nuxt-kirby
+npm: nuxt-kirby
+icon: kirby.svg
+github: https://github.com/johannschopplich/nuxt-kirby
+website: https://nuxt-kirby.byjohann.dev/
+learn_more: ''
+category: CMS & Content
+type: 3rd-party
+maintainers:
+  - name: Johann Schopplich
+    github: johannschopplich
+    twitter: jschopplich
+    avatar: https://avatars.githubusercontent.com/johannschopplich?v=4
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
+aliases:
+  - kql

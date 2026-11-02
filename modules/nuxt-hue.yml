@@ -1,5 +1,5 @@
 name: nuxt-hue
-description: Enlighten your Nuxt experience
+description: Sync Philips Hue lights with your dev server's build and error status.
 repo: lihbr/nuxt-hue
 npm: nuxt-hue
 icon: nuxt-hue.svg
@@ -14,6 +14,5 @@ maintainers:
     twitter: li_hbr
     bluesky: lihbr.com
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
-  requires:
-    bridge: optional
+  nuxt: '>=3.0.0'
+  requires: {}

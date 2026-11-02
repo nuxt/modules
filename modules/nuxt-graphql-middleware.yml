@@ -6,7 +6,7 @@ icon: nuxt-graphql-middleware.svg
 github: https://github.com/dulnan/nuxt-graphql-middleware
 website: https://github.com/dulnan/nuxt-graphql-middleware
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Jan Hug
@@ -17,5 +17,5 @@ maintainers:
     github: ayalon
     avatar: https://avatars.githubusercontent.com/ayalon?v=4
 compatibility:
-  nuxt: ^2.0.0 || >=3.0.0
+  nuxt: '>=3.13.0'
   requires: {}

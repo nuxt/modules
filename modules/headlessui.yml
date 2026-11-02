@@ -1,14 +1,14 @@
 name: headlessui
 description: >-
-  Headless UI integration for Nuxt. Completely unstyled, fully accessible UI
-  components, designed to integrate beautifully with Tailwind CSS.
+  Headless UI integration. Completely unstyled, fully accessible UI components,
+  designed to integrate beautifully with Tailwind CSS.
 repo: P4sca1/nuxt-headlessui
 npm: nuxt-headlessui
 icon: headlessui.png
 github: https://github.com/P4sca1/nuxt-headlessui
 website: https://github.com/P4sca1/nuxt-headlessui
 learn_more: https://headlessui.com
-category: UI
+category: UI Frameworks
 type: 3rd-party
 maintainers:
   - name: Pascal Sthamer

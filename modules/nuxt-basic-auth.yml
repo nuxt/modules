@@ -1,12 +1,12 @@
 name: nuxt-basic-auth
-description: Nuxt Module for Basic Authentication
+description: HTTP Basic Authentication
 repo: kgierke/nuxt-basic-auth
 npm: '@kgierke/nuxt-basic-auth'
 icon: ''
 github: https://github.com/kgierke/nuxt-basic-auth
 website: https://github.com/kgierke/nuxt-basic-auth
 learn_more: ''
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Kurt Gierke
