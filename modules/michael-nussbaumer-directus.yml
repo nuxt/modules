@@ -1,5 +1,5 @@
 name: michael-nussbaumer-directus
-description: Nuxt 4 module for Directus SDK with auth and TypeScript type generation
+description: Directus SDK integration with authentication
 repo: Michael-Nussbaumer/nuxt-directus-module
 npm: '@michael-nussbaumer/nuxt-directus'
 icon: ''
