@@ -1,0 +1,16 @@
+name: sharekit
+description: Accessible, headless-friendly social sharing for Nuxt 4.
+repo: Ray0907/nuxt-sharekit#main/packages/nuxt
+npm: nuxt-sharekit
+icon: ''
+github: https://github.com/Ray0907/nuxt-sharekit
+website: https://ray0907.github.io/nuxt-sharekit/
+learn_more: ''
+category: Widgets & Embeds
+type: 3rd-party
+maintainers:
+  - name: Ray Tien
+    github: Ray0907
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
