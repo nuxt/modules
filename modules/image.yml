@@ -23,7 +23,6 @@ compatibility:
   nuxt: '>=3.1.0'
   requires:
     bridge: optional
-mcp: https://image.nuxt.com/mcp
 providers:
   - name: aliyun
     label: Aliyun
