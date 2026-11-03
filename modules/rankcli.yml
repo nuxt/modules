@@ -1,0 +1,17 @@
+name: rankcli
+description: Audits what nuxi generate produced with 280+ SEO and AI-search checks and fails the build on the findings you choose.
+repo: integrallis/rankcli#main/packages/nuxt-plugin
+npm: nuxt-rankcli
+icon: rankcli.svg
+github: https://github.com/integrallis/rankcli/tree/main/packages/nuxt-plugin
+website: https://rankcli.dev
+learn_more: https://rankcli.dev/seo/nuxt
+category: SEO
+type: community
+maintainers:
+  - name: Brian Sam-Bodden
+    github: bsbodden
+    avatar: https://avatars.githubusercontent.com/bsbodden?v=4
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
