@@ -7,13 +7,13 @@ npm: nuxt-intlayer
 icon: intlayer.svg
 github: https://github.com/aymericzip/intlayer
 website: https://intlayer.org
-learn_more: "https://intlayer.org/doc/why"
+learn_more: https://intlayer.org/doc/why
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: aymericzip
+  - name: Aymeric PINEAU
     github: aymericzip
-    twitter: intlayer_org
+    twitter: aymericzip
 compatibility:
-  nuxt: ">=3.0.0"
+  nuxt: '>=3.0.0'
   requires: {}
