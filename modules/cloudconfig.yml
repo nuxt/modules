@@ -1,0 +1,19 @@
+name: cloudconfig
+description: >-
+  Backend from one TypeScript config: typed REST API, SSR-safe client, auth and
+  deploys to your own cloud.
+repo: dennisadriaans/cloudconfig#main/packages/nuxt
+npm: '@cloudconfig/nuxt'
+icon: cloudconfig.svg
+github: https://github.com/dennisadriaans/cloudconfig
+website: https://cloudconfig.dev/docs/quickstart
+learn_more: ''
+category: Backend & Database
+type: 3rd-party
+maintainers:
+  - name: Dennis Adriaansen
+    github: dennisadriaans
+    twitter: DennisAdriaans
+compatibility:
+  nuxt: '>=3.13.0'
+  requires: {}
