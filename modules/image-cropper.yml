@@ -1,0 +1,18 @@
+name: image-cropper
+description: >-
+  A Nuxt wrapper around "vue-advanced-cropper" with ready-to-use image cropping
+  components.
+repo: DanielQolami/nuxt-image-cropper
+npm: nuxt-image-cropper
+icon: nuxt-image-cropper.svg
+github: https://github.com/DanielQolami/nuxt-image-cropper
+website: https://github.com/DanielQolami/nuxt-image-cropper
+learn_more: ''
+category: UI Components
+type: 3rd-party
+maintainers:
+  - name: DanielQolami
+    github: DanielQolami
+compatibility:
+  nuxt: '>=4.4.0'
+  requires: {}
