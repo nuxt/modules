@@ -11,7 +11,7 @@ learn_more: ''
 category: UI Components
 type: 3rd-party
 maintainers:
-  - name: DanielQolami
+  - name: Daniel Qolami
     github: DanielQolami
 compatibility:
   nuxt: '>=4.4.0'
