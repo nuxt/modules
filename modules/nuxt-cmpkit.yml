@@ -1,7 +1,8 @@
 name: nuxt-cmpkit
 description: >-
-  Install the CMPKit consent widget in a Nuxt app: one public key, SSR-safe
-  script tag, and a cookie settings link component.
+  CMPKit consent management platform (CMP): GDPR cookie banner and cookie
+  consent with one public key, a server-rendered script and a cookie settings
+  link.
 repo: kendrick-k/nuxt-cmpkit
 npm: nuxt-cmpkit
 icon: ''
@@ -16,3 +17,8 @@ maintainers:
 compatibility:
   nuxt: '>=3.15.0'
   requires: {}
+providers:
+  - name: cmpkit
+    label: CMPKit
+    category: Security
+    docs: https://cmpkit.com/nuxt
