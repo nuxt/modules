@@ -1,8 +1,8 @@
-name: da-icons
+name: codex-icons
 description: 150+ rounded outline SVG icons as a typed, server-rendered component.
 repo: davidabou/icons#master/packages/nuxt
 npm: '@davidabou/nuxt-icons'
-icon: da-icons.svg
+icon: codex-icons.svg
 github: https://github.com/davidabou/icons
 website: https://github.com/davidabou/icons/tree/master/packages/nuxt
 learn_more: ''
