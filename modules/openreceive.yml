@@ -1,5 +1,7 @@
 name: openreceive
-description: Accept Bitcoin Lightning payments, plus optional USDT, USDC, SOL and ETH swaps, straight into your own wallet with OpenReceive.
+description: >-
+  Accept Bitcoin Lightning payments, plus optional USDT, USDC, SOL and ETH
+  swaps, straight into your own wallet with OpenReceive.
 repo: aisoul-dev/nuxt-openreceive
 npm: nuxt-openreceive
 icon: ''
@@ -9,7 +11,7 @@ learn_more: https://openreceive.org
 category: Ecommerce & Payments
 type: 3rd-party
 maintainers:
-  - name: Grygorii Liashenko
+  - name: Grygoriy Lyashenko
     github: frontender-ua
 compatibility:
   nuxt: '>=3.13.0'
