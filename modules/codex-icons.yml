@@ -4,7 +4,7 @@ repo: davidabou/icons#master/packages/nuxt
 npm: '@davidabou/nuxt-icons'
 icon: codex-icons.svg
 github: https://github.com/davidabou/icons
-website: https://github.com/davidabou/icons/tree/master/packages/nuxt
+website: https://icons.abou.dev
 learn_more: ''
 category: Icons & Fonts
 type: 3rd-party
