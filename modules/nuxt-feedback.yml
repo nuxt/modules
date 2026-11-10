@@ -1,0 +1,16 @@
+name: nuxt-feedback
+description: Easily integrate a feedback widget into your Nuxt app.
+repo: oneminch/nuxt-feedback#main/packages/nuxt-feedback
+npm: '@minch/nuxt-feedback'
+icon: 'nuxt-feedback.svg'
+github: https://github.com/oneminch/nuxt-feedback
+website: https://nuxt-feedback.minch.dev
+learn_more: ''
+category: 'Widgets & Embeds'
+type: 3rd-party
+maintainers:
+  - name: oneminch
+    github: oneminch
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
