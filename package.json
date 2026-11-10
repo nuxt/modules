@@ -28,9 +28,9 @@
     "@nuxt/eslint-config": "^1.17.0",
     "@octokit/rest": "^22.0.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^24.19.2",
+    "@types/node": "^26.6.6",
     "defu": "^6.1.7",
-    "eslint": "^10.13.0",
+    "eslint": "^10.14.0",
     "globby": "^16.2.4",
     "hasha": "^7.0.0",
     "js-yaml": "^5.5.0",
@@ -44,12 +44,12 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.22.1",
+      "version": "^26.13.0",
       "onFail": "download"
     },
     "packageManager": {
       "name": "pnpm",
-      "version": "12.15.0",
+      "version": "12.18.0",
       "onFail": "download"
     }
   }

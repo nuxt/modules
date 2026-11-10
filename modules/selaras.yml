@@ -1,0 +1,18 @@
+name: selaras
+description: >-
+  A UI component library built on Reka UI and Tailwind CSS v4 with customizable
+  components and CSS-first theming.
+repo: sewadahapp/selaras#master
+npm: '@sewadah/selaras'
+icon: selaras.svg
+github: https://github.com/sewadahapp/selaras
+website: https://selarasui.my.id/
+learn_more: https://selarasui.my.id/
+category: UI Frameworks
+type: 3rd-party
+maintainers:
+  - name: Wicaksana Pratama
+    github: sewadahdev
+compatibility:
+  nuxt: ^4.5.2
+  requires: {}

@@ -4,7 +4,7 @@ repo: nuxt/fonts
 npm: '@nuxt/fonts'
 icon: nuxt.svg
 github: https://github.com/nuxt/fonts
-website: https://fonts.nuxt.com
+website: https://nuxt.com/modules/fonts
 learn_more: ''
 category: Icons & Fonts
 type: official
@@ -19,30 +19,30 @@ compatibility:
 providers:
   - name: local
     label: Local
-    docs: https://fonts.nuxt.com/get-started/providers#local
+    docs: https://nuxt.com/modules/fonts/providers#local
   - name: google
     label: Google Fonts
     icon: simple-icons:googlefonts
-    docs: https://fonts.nuxt.com/get-started/providers#google
+    docs: https://nuxt.com/modules/fonts/providers#google
   - name: googleicons
     label: Google Fonts Icons
     icon: simple-icons:materialdesign
-    docs: https://fonts.nuxt.com/get-started/providers#googleicons
+    docs: https://nuxt.com/modules/fonts/providers#googleicons
   - name: bunny
     label: Bunny Fonts
     icon: simple-icons:bunnydotnet
-    docs: https://fonts.nuxt.com/get-started/providers#bunny
+    docs: https://nuxt.com/modules/fonts/providers#bunny
   - name: fontshare
     label: Fontshare
-    docs: https://fonts.nuxt.com/get-started/providers#fontshare
+    docs: https://nuxt.com/modules/fonts/providers#fontshare
   - name: fontsource
     label: Fontsource
-    docs: https://fonts.nuxt.com/get-started/providers#fontsource
+    docs: https://nuxt.com/modules/fonts/providers#fontsource
   - name: npm
     label: npm
     icon: simple-icons:npm
-    docs: https://fonts.nuxt.com/get-started/providers#npm
+    docs: https://nuxt.com/modules/fonts/providers#npm
   - name: adobe
     label: Adobe Fonts
     icon: logos:adobe-icon
-    docs: https://fonts.nuxt.com/get-started/providers#adobe
+    docs: https://nuxt.com/modules/fonts/providers#adobe
