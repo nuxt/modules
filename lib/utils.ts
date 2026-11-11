@@ -2,7 +2,7 @@ import { execFileSync } from 'node:child_process'
 import { basename, extname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { ofetch } from 'ofetch'
-import { compare, findMinimumForRange, isGreaterThanOrEqual, normalizeRange, satisfies } from 'verkit'
+import { compare, findMinimumForRange, isGreaterThanOrEqual, normalizeRange, rangesIntersect } from 'verkit'
 import type { Packument } from '@npm/types'
 
 export const rootDir = fileURLToPath(new URL('..', import.meta.url))
@@ -422,8 +422,7 @@ export function isValidModuleName(name: string): boolean {
 export function isNuxt4Compatible(range: string): boolean {
   if (!range) return false
   try {
-    // Test against a Nuxt 4 version
-    return satisfies('4.0.0', range)
+    return rangesIntersect(range, '^4.0.0')
   }
   catch {
     return false
