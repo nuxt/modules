@@ -88,6 +88,28 @@ Field Name      | Auto sync | Description
 `maintainers`   | Yes       | List of maintainers each item has `name`, `github` and `avatar`
 `compatibility` | No        | Module compatibility status. `nuxt` field specifies semver of supported nuxt version. `requires.bridge: true\|optional` can be used to specify Nuxt 2 bridge compatibility.
 `mcp`           | No        | MCP Server URL
+`providers`     | No        | Third-party services the module integrates with (see below)
+
+#### Providers
+
+Modules that integrate with many third-party services (image CDNs, font providers, analytics scripts...) can list them so they can be found when searching for the service:
+
+```yaml
+providers:
+  - name: plausibleAnalytics
+    label: Plausible Analytics
+    icon: simple-icons:plausibleanalytics
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/plausible-analytics
+```
+
+Field Name | Required | Description
+-----------|----------|--------------
+`name`     | Yes      | Unique within the module, ideally the key used in the module options
+`label`    | Yes      | Display name
+`icon`     | No       | [Iconify](https://icones.js.org) icon name, `collection:icon`
+`category` | No       | Free-form grouping within the module
+`docs`     | No       | Full URL to the provider docs
 
 
 ## Maintenance

@@ -4,8 +4,8 @@ repo: nuxt/eslint
 npm: '@nuxt/eslint'
 icon: nuxt.svg
 github: https://github.com/nuxt/eslint
-website: https://eslint.nuxt.com
-learn_more: https://eslint.nuxt.com/packages/module
+website: https://nuxt.com/modules/eslint
+learn_more: ''
 category: Devtools
 type: official
 maintainers:
