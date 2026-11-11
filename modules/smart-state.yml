@@ -12,8 +12,8 @@ learn_more: ''
 category: State Management
 type: 3rd-party
 maintainers:
-  - name: Luigi Davide Micca
+  - name: Luigi Micca
     github: LuigiDavideMicca
 compatibility:
-  nuxt: ^3.15.0 || ^4.0.0
+  nuxt: '>=3.15.0'
   requires: {}
