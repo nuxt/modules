@@ -6,7 +6,7 @@ icon: regle.svg
 github: https://github.com/victorgarciaesgi/regle
 website: https://reglejs.dev/
 learn_more: https://reglejs.dev/integrations/nuxt
-category: Libraries
+category: Forms & Validation
 type: 3rd-party
 maintainers:
   - name: Victor Garcia

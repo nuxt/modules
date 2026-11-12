@@ -1,12 +1,12 @@
 name: prepare
-description: Initialization steps at build time – like Nuxt 2 server init
+description: Initialization steps at build time, like nuxtServerInit
 repo: johannschopplich/nuxt-prepare
 npm: nuxt-prepare
 icon: prepare.svg
 github: https://github.com/johannschopplich/nuxt-prepare
 website: https://nuxt-prepare.byjohann.dev
 learn_more: ''
-category: Devtools
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Johann Schopplich

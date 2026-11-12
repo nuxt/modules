@@ -1,14 +1,12 @@
 name: nuxt-highlight
-description: >-
-  Nuxt module for Highlight.io with session replay, error monitoring, and
-  logging
+description: Highlight.io integration with session replay, error monitoring, and logging
 repo: nuxtaid/nuxt-highlight
 npm: nuxt-highlight
 icon: nuxt-highlight.svg
 github: https://github.com/nuxtaid/nuxt-highlight
 website: https://github.com/nuxtaid/nuxt-highlight#readme
 learn_more: https://launchdarkly.com/
-category: Monitoring
+category: Monitoring & Logging
 type: 3rd-party
 maintainers:
   - name: Arash Ari Sheyda

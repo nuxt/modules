@@ -1,12 +1,12 @@
 name: xui
-description: Light module to help design websites with Nuxt.
+description: Light module to help design websites.
 repo: MetaCorp/xui-module
 npm: xui-module
 icon: ''
 github: https://github.com/MetaCorp/xui-module
 website: https://github.com/MetaCorp/xui-module
 learn_more: ''
-category: UI
+category: UI Frameworks
 type: 3rd-party
 maintainers:
   - name: Léopold Szabatura

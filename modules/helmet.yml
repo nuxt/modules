@@ -1,5 +1,5 @@
 name: helmet
-description: Easy Helmet module with Nuxt'
+description: Easy Helmet integration
 repo: victor-perez/nuxt-helmet
 npm: nuxt-helmet
 icon: ''

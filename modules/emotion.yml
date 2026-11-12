@@ -1,12 +1,12 @@
 name: emotion
-description: The Next Generation of CSS-in-JS for Nuxt
+description: The next generation of CSS-in-JS
 repo: nuxt-modules/emotion
 npm: '@nuxtjs/emotion'
 icon: emotion.png
 github: https://github.com/nuxt-modules/emotion
 website: https://github.com/nuxt-modules/emotion
 learn_more: https://emotion.sh/docs/introduction
-category: Extensions
+category: CSS & Theming
 type: community
 maintainers:
   - name: Pooya Parsa

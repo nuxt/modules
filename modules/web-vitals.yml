@@ -1,5 +1,5 @@
 name: web-vitals
-description: Web Vitals for Nuxt
+description: Web Vitals integration
 repo: nuxt-modules/web-vitals
 npm: '@nuxtjs/web-vitals'
 icon: web-vitals.png

@@ -1,12 +1,12 @@
 name: jsonapi
-description: Easy JSON:API client integration for Nuxt
+description: Easy JSON:API client integration
 repo: patrickcate/nuxt-jsonapi
 npm: nuxt-jsonapi
 icon: jsonapi.svg
 github: https://github.com/patrickcate/nuxt-jsonapi
 website: https://github.com/patrickcate/nuxt-jsonapi
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Patrick Cate

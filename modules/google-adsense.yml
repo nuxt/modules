@@ -1,5 +1,5 @@
 name: google-adsense
-description: Google Adsense Module for Nuxt
+description: Google AdSense integration
 repo: nuxt-modules/google-adsense
 npm: '@nuxtjs/google-adsense'
 icon: google-adsense.png

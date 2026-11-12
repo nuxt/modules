@@ -1,12 +1,12 @@
 name: es-toolkit
-description: Es-toolkit auto import module for Nuxt
+description: Auto-imports for es-toolkit
 repo: bubblesortt/nuxt-es-toolkit
 npm: '@bubblesortt/nuxt-es-toolkit'
 icon: es-toolkit.png
 github: https://github.com/bubblesortt/nuxt-es-toolkit
 website: https://github.com/bubblesortt/nuxt-es-toolkit
 learn_more: https://es-toolkit.dev/
-category: Libraries
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Alexandr Bychkin

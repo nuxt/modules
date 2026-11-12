@@ -8,7 +8,7 @@ icon: reka-ui.svg
 github: https://github.com/unovue/reka-ui
 website: https://www.reka-ui.com/
 learn_more: https://reka-ui.com/docs/overview/installation#nuxt-modules
-category: UI
+category: UI Frameworks
 type: 3rd-party
 maintainers:
   - name: zernonia

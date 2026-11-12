@@ -1,5 +1,5 @@
 name: mailpit
-description: Integrates Mailpit web UI in Nuxt devtools
+description: Integrates Mailpit web UI in Nuxt DevTools
 repo: tdolsen/nuxt-mailpit
 npm: nuxt-mailpit
 icon: mailpit.svg

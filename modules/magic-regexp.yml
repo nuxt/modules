@@ -6,7 +6,7 @@ icon: magic-regexp.svg
 github: https://github.com/unjs/magic-regexp
 website: https://regexp.dev/
 learn_more: https://regexp.dev/
-category: Libraries
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Daniel Roe

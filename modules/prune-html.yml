@@ -1,7 +1,5 @@
 name: prune-html
-description: >-
-  Nuxt module to prune html before sending it to the browser for boosting
-  performance.
+description: Prune HTML before sending it to the browser for boosting performance.
 repo: LuXDAmore/nuxt-prune-html
 npm: '@luxdamore/nuxt-prune-html'
 icon: ''

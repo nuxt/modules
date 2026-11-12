@@ -6,7 +6,7 @@ icon: workflow.svg
 github: https://github.com/vercel/workflow
 website: https://workflow-sdk.dev/
 learn_more: ''
-category: Devtools
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: vercel

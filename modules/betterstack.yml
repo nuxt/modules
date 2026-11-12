@@ -1,12 +1,12 @@
 name: betterstack
-description: A Nuxt module for integrating BetterStack into your Nuxt application
+description: BetterStack integration
 repo: nicogenz/nuxt-betterstack
 npm: nuxt-betterstack
 icon: betterstack.svg
 github: https://github.com/nicogenz/nuxt-betterstack
 website: https://github.com/nicogenz/nuxt-betterstack
 learn_more: https://betterstack.com
-category: Extensions
+category: Monitoring & Logging
 type: 3rd-party
 maintainers:
   - name: Nico Genz

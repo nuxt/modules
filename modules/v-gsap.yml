@@ -6,7 +6,7 @@ icon: v-gsap.svg
 github: https://github.com/holux-design/v-gsap-nuxt
 website: https://v-gsap-nuxt.vercel.app/
 learn_more: https://v-gsap-nuxt.vercel.app/playground
-category: Libraries
+category: Animation
 type: 3rd-party
 maintainers:
   - name: Lukas Hofstätter

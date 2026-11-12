@@ -3,6 +3,7 @@ import c from 'picocolors'
 import { sync, syncAll, build } from './modules.ts'
 import { getChangedModuleNames } from './utils.ts'
 import { version } from './version.ts'
+import type { SyncAllResult } from './types.ts'
 
 async function main() {
   const [command, ...args] = process.argv.splice(2)
@@ -89,8 +90,10 @@ async function runSyncAll(failOnArchived: boolean = false, base?: string) {
   p.intro(c.bgCyan(c.black(' Nuxt Modules Sync ')))
 
   let only: string[] | undefined
+  let added: string[] = []
   if (base) {
     only = getChangedModuleNames(base)
+    added = getChangedModuleNames(base, 'A')
     if (only.length === 0) {
       p.outro(c.green('No modules changed'))
       return
@@ -102,14 +105,23 @@ async function runSyncAll(failOnArchived: boolean = false, base?: string) {
   progress.start('Starting sync...')
 
   let lastPercent = 0
-  const result = await syncAll((current, total, moduleName) => {
-    const percent = Math.round((current / total) * 100)
-    const delta = percent - lastPercent
-    if (delta > 0) {
-      progress.advance(delta, `Syncing ${c.cyan(moduleName)} ${c.dim(`(${current}/${total})`)}`)
-      lastPercent = percent
-    }
-  }, only)
+  let result: SyncAllResult
+  try {
+    result = await syncAll((current, total, moduleName) => {
+      const percent = Math.round((current / total) * 100)
+      const delta = percent - lastPercent
+      if (delta > 0) {
+        progress.advance(delta, `Syncing ${c.cyan(moduleName)} ${c.dim(`(${current}/${total})`)}`)
+        lastPercent = percent
+      }
+    }, only, added)
+  }
+  catch (err) {
+    progress.error(c.red('Errors found:'))
+    p.log.error(err instanceof Error ? err.message : String(err))
+    p.outro(c.red('Sync failed'))
+    process.exit(1)
+  }
 
   progress.stop(`Synced ${c.green(c.bold(result.synced.length))}${c.dim('/')}${result.total} modules`)
 

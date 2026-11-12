@@ -6,7 +6,7 @@ icon: pinia-plugin-unstorage.svg
 github: https://github.com/litingyes/pinia-plugin-unstorage
 website: https://github.com/litingyes/pinia-plugin-unstorage?tab=readme-ov-file#pinia-plugin-unstorage
 learn_more: ''
-category: Extensions
+category: State Management
 type: 3rd-party
 maintainers:
   - name: Liting

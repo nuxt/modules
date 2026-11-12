@@ -1,5 +1,5 @@
 name: security
-description: Security Module for Nuxt based on OWASP Top 10 and Helmet
+description: Security module based on OWASP Top 10 and Helmet
 repo: Baroshem/nuxt-security
 npm: nuxt-security
 icon: nuxt-security.svg

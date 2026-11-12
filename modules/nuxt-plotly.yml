@@ -1,12 +1,12 @@
 name: nuxt-plotly
-description: nuxt-plotly is a thin Nuxt wrapper for plotly.js
+description: Thin wrapper for plotly.js
 repo: superdev-tech/nuxt-plotly
 npm: nuxt-plotly
 icon: nuxt-plotly.svg
 github: https://github.com/superdev-tech/nuxt-plotly
 website: https://github.com/superdev-tech/nuxt-plotly
 learn_more: https://www.npmjs.com/package/nuxt-plotly
-category: Libraries
+category: Charts & Maps
 type: 3rd-party
 maintainers:
   - name: Supanut Weerachotthakorn

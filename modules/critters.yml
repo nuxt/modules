@@ -1,5 +1,5 @@
 name: critters
-description: CSS optimization using beasties (formerly critters) for Nuxt
+description: Inline critical CSS with beasties (formerly critters).
 repo: nuxt-modules/critters
 npm: '@nuxtjs/critters'
 icon: critters.png

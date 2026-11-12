@@ -1,11 +1,11 @@
 name: robots
-description: Tame the robots crawling and indexing your Nuxt site.
+description: Tame the robots crawling and indexing your site.
 repo: nuxt-modules/robots
 npm: '@nuxtjs/robots'
 icon: simple-robots.svg
 github: https://github.com/nuxt-modules/robots
-website: https://github.com/nuxt-modules/robots
-learn_more: ''
+website: https://nuxtseo.com/docs/robots/getting-started/installation
+learn_more: https://nuxtseo.com/docs/robots/getting-started/installation
 category: SEO
 type: community
 maintainers:
@@ -18,5 +18,4 @@ maintainers:
     avatar: https://avatars.githubusercontent.com/harlan-zw?v=4
 compatibility:
   nuxt: '>=3.6.1'
-  requires:
-    bridge: optional
+  requires: {}

@@ -1,7 +1,5 @@
 name: nuxt-meta-pixel
-description: >-
-  Meta (Facebook) pixel integration for Nuxt. Multi-pixel, auto page view and
-  more.
+description: Meta (Facebook) pixel integration. Multi-pixel, auto page view and more.
 repo: tanukijs/meta-pixel#dev/packages/nuxt-meta-pixel
 npm: nuxt-meta-pixel
 icon: ''

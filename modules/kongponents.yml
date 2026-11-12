@@ -6,7 +6,7 @@ icon: kong.svg
 github: https://github.com/kong/kongponents
 website: https://kongponents.konghq.com/
 learn_more: https://kongponents.konghq.com/guide/usage.html#nuxt-module
-category: UI
+category: UI Frameworks
 type: 3rd-party
 maintainers:
   - name: Kong

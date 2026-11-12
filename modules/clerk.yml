@@ -6,7 +6,7 @@ icon: clerk.svg
 github: https://github.com/clerk/javascript
 website: https://clerk.com/docs/reference/nuxt/overview
 learn_more: https://clerk.com
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Clerk
@@ -14,5 +14,5 @@ maintainers:
     twitter: clerkdev
     bluesky: clerk.com
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=4.0.0'
   requires: {}

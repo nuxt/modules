@@ -1,5 +1,5 @@
 name: doppler
-description: Integrate your Doppler secrets into your Nuxt build
+description: Integrate your Doppler secrets into your build
 repo: JamieCurnow/nuxt-doppler
 npm: nuxt-doppler
 icon: doppler.png

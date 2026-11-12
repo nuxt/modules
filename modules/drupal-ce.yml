@@ -1,12 +1,12 @@
 name: drupal-ce
-description: Connects Nuxt with Drupal via the Lupus Custom Elements Renderer
+description: Drupal integration via the Lupus Custom Elements Renderer
 repo: drunomics/nuxtjs-drupal-ce
 npm: nuxtjs-drupal-ce
 icon: drupal-ce.png
 github: https://github.com/drunomics/nuxtjs-drupal-ce
 website: https://lupus-decoupled.org
 learn_more: https://lupus-decoupled.org/get-started/how-it-works
-category: CMS
+category: CMS & Content
 type: 3rd-party
 maintainers:
   - name: Wolfgang Ziegler

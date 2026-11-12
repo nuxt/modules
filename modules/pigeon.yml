@@ -8,7 +8,7 @@ icon: pigeon.svg
 github: https://github.com/Flo0806/nuxt-pigeon
 website: https://pigeon.fh-softdev.de
 learn_more: https://pigeon.fh-softdev.de/getting-started/installation
-category: Libraries
+category: Email & Notifications
 type: 3rd-party
 maintainers:
   - name: Florian Heuberger

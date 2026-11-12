@@ -6,7 +6,7 @@ icon: mojocss.svg
 github: https://github.com/mojocss/mojocss-nuxt-module
 website: https://github.com/mojocss/mojocss-nuxt-module
 learn_more: ''
-category: UI
+category: CSS & Theming
 type: 3rd-party
 maintainers:
   - name: mojocss

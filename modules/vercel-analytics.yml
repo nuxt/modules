@@ -1,5 +1,5 @@
 name: vercel-analytics
-description: Privacy-friendly, real-time traffic insights for your Nuxt app
+description: Privacy-friendly, real-time traffic insights
 repo: vercel/analytics#main/packages/web
 npm: '@vercel/analytics'
 icon: vercel.svg

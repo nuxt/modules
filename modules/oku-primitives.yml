@@ -9,7 +9,7 @@ icon: oku.svg
 github: https://github.com/oku-ui/primitives
 website: https://primitives.oku-ui.com
 learn_more: https://primitives.oku-ui.com/overview/installation#nuxt-modules
-category: UI
+category: UI Frameworks
 type: 3rd-party
 maintainers:
   - name: Валентин Степанов

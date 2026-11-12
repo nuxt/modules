@@ -6,7 +6,7 @@ icon: vuefire.svg
 github: https://github.com/vuejs/vuefire
 website: https://vuefire.vuejs.org/
 learn_more: ''
-category: Database
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: Eduardo San Martin Morote
