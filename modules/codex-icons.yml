@@ -1,0 +1,16 @@
+name: codex-icons
+description: 150+ rounded outline SVG icons as a typed, server-rendered component.
+repo: davidabou/icons#master/packages/nuxt
+npm: '@davidabou/nuxt-icons'
+icon: codex-icons.svg
+github: https://github.com/davidabou/icons
+website: https://icons.abou.dev
+learn_more: ''
+category: Icons & Fonts
+type: 3rd-party
+maintainers:
+  - name: David Abou
+    github: davidabou
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
