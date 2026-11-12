@@ -1,0 +1,18 @@
+name: skeletonizer
+description: >-
+  Automatically turn any component into a layout-preserving skeleton loader.
+  Inspired by Flutter Skeletonizer.
+repo: CodeCube0/nuxt-skeletonizer-dev
+npm: nuxt-skeletonizer
+icon: skeletonizer.png
+github: https://github.com/CodeCube0/nuxt-skeletonizer-dev
+website: https://codecube0.github.io/nuxt-skeletonizer-docs/
+learn_more: https://codecube0.github.io/nuxt-skeletonizer-docs/
+category: UI Components
+type: 3rd-party
+maintainers:
+  - name: CodeCube
+    github: CodeCube0
+compatibility:
+  nuxt: '>=3.10.0'
+  requires: {}
