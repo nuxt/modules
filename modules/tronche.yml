@@ -1,0 +1,20 @@
+name: tronche
+description: >-
+  Generate customizable SVG avatars from usernames with multiple visual styles
+  and color palettes.
+repo: rootasjey/tronche
+npm: tronche
+icon: tronche.png
+github: https://github.com/rootasjey/tronche
+website: https://github.com/rootasjey/tronche
+learn_more: ''
+category: Images & Media
+type: 3rd-party
+maintainers:
+  - name: Jeremie Corpinot
+    github: rootasjey
+    twitter: rootasjey
+    bluesky: corpinot.bsky.social
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
