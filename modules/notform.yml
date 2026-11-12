@@ -4,7 +4,7 @@ repo: favorodera/notform#main/packages/nuxt
 npm: '@notform/nuxt'
 icon: notform.svg
 github: https://github.com/favorodera/notform
-website: https://notform.favorodera.dev
+website: https://notform.favorodera.dev/
 learn_more: https://notform.favorodera.dev/docs/getting-started/nuxt-module
 category: Forms & Validation
 type: 3rd-party

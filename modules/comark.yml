@@ -1,11 +1,11 @@
 name: comark
 description: Components in Markdown (Comark) parser with streaming support.
-repo: comarkdown/comark#main/packages/comark-nuxt
-npm: '@comark/nuxt'
+repo: comarkdown/comark#main/packages/comark-vue
+npm: '@comark/vue'
 icon: comark.svg
 github: https://github.com/comarkdown/comark
 website: https://comark.dev/
-learn_more: https://comark.dev/rendering/nuxt
+learn_more: https://comark.dev/rendering/vue#nuxt
 category: CMS & Content
 type: 3rd-party
 maintainers:
