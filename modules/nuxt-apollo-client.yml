@@ -1,0 +1,16 @@
+name: nuxt-apollo-client
+description: Nuxt module for Apollo Client with SSR, Codegen & Offline Support.
+repo: safdar-azeem/nuxt-apollo-client
+npm: nuxt-apollo-client
+icon: nuxt-apollo-client.svg
+github: https://github.com/safdar-azeem/nuxt-apollo-client
+website: https://github.com/safdar-azeem/nuxt-apollo-client
+learn_more: https://github.com/safdar-azeem/nuxt-apollo-client
+category: API & Data Fetching
+type: 3rd-party
+maintainers:
+  - name: Safdar Azeem
+    github: safdar-azeem
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
