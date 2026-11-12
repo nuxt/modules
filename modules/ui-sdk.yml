@@ -1,0 +1,23 @@
+name: ui-sdk
+description: >-
+  Unstyled, accessible components with keyboard, focus, and screen reader
+  support built in.
+repo: vercel-labs/ui#main/packages/vue
+npm: '@ui-sdk/vue'
+icon: vercel.svg
+github: https://github.com/vercel-labs/ui
+website: https://ui-sdk.dev/docs/vue
+learn_more: https://ui-sdk.dev/docs/vue/installation#use-with-nuxt
+category: UI Components
+type: 3rd-party
+maintainers:
+  - name: shadcn
+    github: shadcn
+    twitter: shadcn
+  - name: Benjamin Canac
+    github: benjamincanac
+    twitter: benjamincanac
+    bluesky: benjamincanac.dev
+compatibility:
+  nuxt: ^4.0.0
+  requires: {}
