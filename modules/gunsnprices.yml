@@ -1,0 +1,16 @@
+name: gunsnprices
+description: Product specs from a gun or ammo listing title, caliber badges and cost per round
+repo: gunsnprices/nuxt-gunsnprices
+npm: nuxt-gunsnprices
+icon: gunsnprices.png
+github: https://github.com/gunsnprices/nuxt-gunsnprices
+website: https://github.com/gunsnprices/nuxt-gunsnprices
+learn_more: https://gunsnprices.com
+category: UI Components
+type: 3rd-party
+maintainers:
+  - name: gunsnprices
+    github: gunsnprices
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
