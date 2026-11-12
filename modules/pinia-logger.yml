@@ -1,0 +1,18 @@
+name: pinia-logger
+description: >-
+  Logs Pinia actions to the browser console, with the state before and after
+  each action.
+repo: cwdx/pinia-logger#main/packages/pinia-logger
+npm: pinia-logger
+icon: ''
+github: https://github.com/cwdx/pinia-logger
+website: https://github.com/cwdx/pinia-logger/tree/main/packages/pinia-logger#readme
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Chris
+    github: cwdx
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
