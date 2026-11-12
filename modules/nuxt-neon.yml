@@ -1,0 +1,17 @@
+name: nuxt-neon
+description: Nuxt framework integration with Neon database
+repo: AloisSeckar/nuxt-neon
+npm: nuxt-neon
+icon: nuxt-neon.svg
+github: https://github.com/AloisSeckar/nuxt-neon
+website: https://github.com/AloisSeckar/nuxt-neon
+learn_more: https://nuxt-neon.netlify.app/
+category: Backend & Database
+type: 3rd-party
+maintainers:
+  - name: Alois Sečkár
+    github: AloisSeckar
+    bluesky: alois-seckar.cz
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
