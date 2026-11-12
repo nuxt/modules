@@ -1,0 +1,19 @@
+name: smart-state
+description: >-
+  useState persisted to cookies, localStorage or sessionStorage: SSR-safe
+  hydration, server-side cookie writes, cross-tab sync, TTL, versioned
+  migrations and schema validation.
+repo: LuigiDavideMicca/nuxt-smart-state
+npm: nuxt-smart-state
+icon: ''
+github: https://github.com/LuigiDavideMicca/nuxt-smart-state
+website: https://github.com/LuigiDavideMicca/nuxt-smart-state
+learn_more: ''
+category: State Management
+type: 3rd-party
+maintainers:
+  - name: Luigi Micca
+    github: LuigiDavideMicca
+compatibility:
+  nuxt: '>=3.15.0'
+  requires: {}
