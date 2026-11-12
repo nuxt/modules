@@ -1,0 +1,16 @@
+name: vue3-grid-board
+description: A draggable, resizable board for Vue 3
+repo: attilakosztindev/vue3-grid-board
+npm: vue3-grid-board
+icon: vue3-grid-board.svg
+github: https://github.com/attilakosztindev/vue3-grid-board
+website: https://attilakosztindev.github.io/vue3-grid-board
+learn_more: https://attilakosztindev.github.io/vue3-grid-board/#nuxt
+category: UI Components
+type: 3rd-party
+maintainers:
+  - name: Attila Kosztin
+    github: attilakosztindev
+compatibility:
+  nuxt: '>=3.13.0'
+  requires: {}
