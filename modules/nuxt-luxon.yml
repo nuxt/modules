@@ -1,0 +1,17 @@
+name: nuxt-luxon
+description: Easy DateTime formatting & parsing using Luxon, with i18n and SSR support
+repo: dnldsht/nuxt-luxon
+npm: nuxt-luxon
+icon: ''
+github: https://github.com/dnldsht/nuxt-luxon
+website: https://nuxt-luxon.donld.me
+learn_more: https://moment.github.io/luxon
+category: Utilities
+type: 3rd-party
+maintainers:
+  - name: Donald Shtjefni
+    github: dnldsht
+    twitter: Donald__SH
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
