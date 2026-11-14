@@ -1,0 +1,16 @@
+name: svg-scroll-draw
+description: Scroll-driven SVG line drawing, reveal, counters, text splitting and video scrub, as auto-imported components and composables.
+repo: DhruvilChauahan0210/ink-scroll#main/packages/svg-scroll-draw
+npm: svg-scroll-draw
+icon: svg-scroll-draw.svg
+github: https://github.com/DhruvilChauahan0210/ink-scroll
+website: https://svg-scroll-draw.vercel.app/nuxt-scroll-animation
+learn_more: https://svg-scroll-draw.vercel.app/docs
+category: Animation
+type: 3rd-party
+maintainers:
+  - name: DhruvilChauahan0210
+    github: DhruvilChauahan0210
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
