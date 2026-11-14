@@ -13,5 +13,5 @@ maintainers:
     github: dnldsht
     twitter: Donald__SH
 compatibility:
-  nuxt: '>=4.0.0'
+  nuxt: '>=3.0.0'
   requires: {}
