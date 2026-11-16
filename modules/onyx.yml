@@ -4,7 +4,7 @@ repo: SchwarzIT/onyx#main/packages/nuxt
 npm: '@sit-onyx/nuxt'
 icon: onyx.svg
 github: https://github.com/SchwarzIT/onyx
-website: https://onyx.schwarz/development/packages/nuxt.html
+website: https://onyx.schwarz/docs/getting-started/installation
 learn_more: https://onyx.schwarz
 category: UI Frameworks
 type: 3rd-party

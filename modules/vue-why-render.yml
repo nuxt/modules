@@ -6,7 +6,7 @@ repo: dadashi44/vue-why-render
 npm: vue-why-render
 icon: vue-why-render.svg
 github: https://github.com/dadashi44/vue-why-render
-website: https://dadashi44.github.io/vue-why-render/
+website: https://vue-why-render.js.org/
 learn_more: https://github.com/dadashi44/vue-why-render#nuxt
 category: Devtools
 type: 3rd-party
