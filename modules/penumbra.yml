@@ -2,8 +2,8 @@ name: penumbra
 description: >-
   Animated theme switching on View Transitions, with @nuxtjs/color-mode, Nuxt UI
   or on its own
-repo: jantursky/nuxt-penumbra
-npm: nuxt-penumbra-monorepo
+repo: jantursky/nuxt-penumbra/packages/nuxt-penumbra
+npm: nuxt-penumbra
 icon: penumbra.svg
 github: https://github.com/jantursky/nuxt-penumbra
 website: https://nuxt-penumbra-docs.vercel.app
