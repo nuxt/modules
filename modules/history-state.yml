@@ -1,12 +1,12 @@
 name: history-state
-description: Nuxt module to backup or restore historical states
+description: Back up or restore historical states
 repo: hidekatsu-izuno/nuxt-history-state
 npm: nuxt-history-state
 icon: ''
 github: https://github.com/hidekatsu-izuno/nuxt-history-state
 website: https://github.com/hidekatsu-izuno/nuxt-history-state
 learn_more: ''
-category: Extensions
+category: State Management
 type: 3rd-party
 maintainers:
   - name: Hidekatsu Izuno

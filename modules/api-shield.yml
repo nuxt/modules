@@ -1,5 +1,5 @@
 name: api-shield
-description: Nuxt API Shield - Rate Limiting
+description: IP-based rate limiting and temporary bans for your API routes.
 repo: rrd108/nuxt-api-shield
 npm: nuxt-api-shield
 icon: api-shield.png

@@ -1,5 +1,5 @@
 name: nuxt-legacy
-description: A Nuxt module for supporting legacy browsers.
+description: Legacy browser support.
 repo: teages/nuxt-legacy
 npm: '@teages/nuxt-legacy'
 icon: nuxt-legacy.svg

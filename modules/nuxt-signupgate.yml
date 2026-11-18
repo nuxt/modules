@@ -1,12 +1,12 @@
 name: nuxt-signupgate
-description: Easily integrate SignupGate into your Nuxt app.
+description: Check signup emails, domains and IPs against the SignupGate risk API.
 repo: Mokkapps/nuxt-signupgate
 npm: nuxt-signupgate
 icon: nuxt-signupgate.png
 github: https://github.com/Mokkapps/nuxt-signupgate
 website: https://github.com/Mokkapps/nuxt-signupgate
 learn_more: https://github.com/Mokkapps/nuxt-signupgate
-category: Libraries
+category: Security
 type: 3rd-party
 maintainers:
   - name: Michael Hoffmann
@@ -14,5 +14,5 @@ maintainers:
     twitter: mokkapps
     avatar: https://avatars.githubusercontent.com/u/3127210?v=4
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=3.11.0'
   requires: {}

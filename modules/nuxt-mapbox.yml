@@ -1,12 +1,12 @@
 name: nuxt-mapbox
-description: Elegant Mapbox integration with Nuxt
+description: Elegant Mapbox integration
 repo: AlexLavoie42/Nuxt-Mapbox
 npm: nuxt-mapbox
 icon: nuxt-mapbox.svg
 github: https://github.com/AlexLavoie42/Nuxt-Mapbox
 website: https://github.com/AlexLavoie42/Nuxt-Mapbox
 learn_more: https://github.com/AlexLavoie42/Nuxt-Mapbox
-category: Libraries
+category: Charts & Maps
 type: 3rd-party
 maintainers:
   - name: Alex Lavoie

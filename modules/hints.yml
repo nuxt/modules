@@ -1,12 +1,12 @@
 name: hints
 description: >-
-  Nuxt module that shows hints for aspects of your application such as
-  Performance, Security, and more!
+  Shows hints for aspects of your application such as performance, security, and
+  more!
 repo: nuxt/hints
 npm: '@nuxt/hints'
 icon: nuxt.svg
 github: https://github.com/nuxt/hints
-website: https://github.com/nuxt/hints
+website: https://nuxt.com/modules/hints
 learn_more: ''
 category: Devtools
 type: official

@@ -1,12 +1,12 @@
 name: github-api
-description: Nuxt module for GitHub v4 API
+description: GitHub v4 API integration
 repo: lindsaykwardell/nuxt-github-api
 npm: nuxt-github-api
 icon: github.svg
 github: https://github.com/lindsaykwardell/nuxt-github-api
 website: https://github.com/lindsaykwardell/nuxt-github-api
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Lindsay Wardell

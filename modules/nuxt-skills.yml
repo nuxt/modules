@@ -1,0 +1,20 @@
+name: nuxt-skills
+description: >-
+  Expose a local skills/ directory as Agent Skills discovery files under
+  /.well-known/skills/.
+repo: Barbapapazes/unplugin-skills#main/packages/nuxt-skills
+npm: nuxt-skills
+icon: ''
+github: https://github.com/Barbapapazes/unplugin-skills
+website: https://github.com/Barbapapazes/unplugin-skills/tree/main/packages/nuxt-skills#readme
+learn_more: https://github.com/Barbapapazes/unplugin-skills/blob/main/packages/nuxt-skills/README.md
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Estéban
+    github: Barbapapazes
+    twitter: soubiran_
+    bluesky: soubiran.dev
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}

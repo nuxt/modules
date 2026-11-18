@@ -6,7 +6,7 @@ icon: custom-elements.png
 github: https://github.com/GrabarzUndPartner/nuxt-custom-elements
 website: https://grabarzundpartner.github.io/nuxt-custom-elements/
 learn_more: https://github.com/karol-f/vue-custom-element
-category: Extensions
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Thorn Walli

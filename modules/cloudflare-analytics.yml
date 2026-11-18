@@ -1,5 +1,5 @@
 name: cloudflare-analytics
-description: Cloudflare Web Analytics Module for Nuxt
+description: Cloudflare Web Analytics integration
 repo: hamlogic/nuxt-cloudflare-analytics
 npm: nuxt-cloudflare-analytics
 icon: cloudflare.svg

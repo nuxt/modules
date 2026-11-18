@@ -1,12 +1,12 @@
 name: tradingview
-description: Use the TradingView Widgets in your Nuxt Application
+description: Use TradingView widgets
 repo: volkanakkus/nuxt-tradingview
 npm: nuxt-tradingview
 icon: tradingview.svg
 github: https://github.com/volkanakkus/nuxt-tradingview
 website: https://nuxt-tradingview.volkanakkus.com
 learn_more: https://nuxt-tradingview.volkanakkus.com/documentation/getting-started/setup
-category: Extensions
+category: Charts & Maps
 type: 3rd-party
 maintainers:
   - name: Volkan Akkuş

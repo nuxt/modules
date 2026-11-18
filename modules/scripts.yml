@@ -5,7 +5,7 @@ npm: '@nuxt/scripts'
 icon: nuxt.svg
 github: https://github.com/nuxt/scripts
 website: https://scripts.nuxt.com
-learn_more: ''
+learn_more: https://scripts.nuxt.com/docs/getting-started
 category: Performance
 type: official
 maintainers:
@@ -15,3 +15,212 @@ maintainers:
 compatibility:
   nuxt: '>=3.16.0'
   requires: {}
+providers:
+  - name: ahrefsAnalytics
+    label: Ahrefs Web Analytics
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/ahrefs-analytics
+  - name: clarity
+    label: Clarity
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/clarity
+  - name: cloudflareWebAnalytics
+    label: Cloudflare Web Analytics
+    icon: simple-icons:cloudflare
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/cloudflare-web-analytics
+  - name: databuddyAnalytics
+    label: Databuddy Analytics
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/databuddy-analytics
+  - name: fathomAnalytics
+    label: Fathom Analytics
+    icon: simple-icons:fathom
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/fathom-analytics
+  - name: googleAnalytics
+    label: Google Analytics
+    icon: simple-icons:googleanalytics
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/google-analytics
+  - name: hotjar
+    label: Hotjar
+    icon: simple-icons:hotjar
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/hotjar
+  - name: matomoAnalytics
+    label: Matomo Analytics
+    icon: simple-icons:matomo
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/matomo-analytics
+  - name: mixpanelAnalytics
+    label: Mixpanel
+    icon: simple-icons:mixpanel
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/mixpanel-analytics
+  - name: plausibleAnalytics
+    label: Plausible Analytics
+    icon: simple-icons:plausibleanalytics
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/plausible-analytics
+  - name: posthog
+    label: PostHog
+    icon: simple-icons:posthog
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/posthog
+  - name: rybbitAnalytics
+    label: Rybbit Analytics
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/rybbit-analytics
+  - name: segment
+    label: Segment
+    icon: logos:segment-icon
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/segment
+  - name: speedcurve
+    label: SpeedCurve LUX
+    icon: logos:speedcurve
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/speedcurve
+  - name: umamiAnalytics
+    label: Umami Analytics
+    icon: simple-icons:umami
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/umami-analytics
+  - name: vercelAnalytics
+    label: Vercel Analytics
+    icon: simple-icons:vercel
+    category: Analytics
+    docs: https://scripts.nuxt.com/scripts/vercel-analytics
+  - name: bingUet
+    label: Bing UET
+    icon: logos:bing
+    category: Advertising
+    docs: https://scripts.nuxt.com/scripts/bing-uet
+  - name: carbonAds
+    label: Carbon Ads
+    category: Advertising
+    docs: https://scripts.nuxt.com/scripts/carbon-ads
+  - name: googleAdsense
+    label: Google Adsense
+    icon: simple-icons:googleadsense
+    category: Advertising
+    docs: https://scripts.nuxt.com/scripts/google-adsense
+  - name: linkedinInsight
+    label: LinkedIn Insight Tag
+    icon: logos:linkedin-icon
+    category: Advertising
+    docs: https://scripts.nuxt.com/scripts/linkedin-insight
+  - name: metaPixel
+    label: Meta Pixel
+    icon: simple-icons:meta
+    category: Advertising
+    docs: https://scripts.nuxt.com/scripts/meta-pixel
+  - name: redditPixel
+    label: Reddit Pixel
+    icon: simple-icons:reddit
+    category: Advertising
+    docs: https://scripts.nuxt.com/scripts/reddit-pixel
+  - name: snapchatPixel
+    label: Snapchat Pixel
+    icon: simple-icons:snapchat
+    category: Advertising
+    docs: https://scripts.nuxt.com/scripts/snapchat-pixel
+  - name: tiktokPixel
+    label: TikTok Pixel
+    icon: simple-icons:tiktok
+    category: Advertising
+    docs: https://scripts.nuxt.com/scripts/tiktok-pixel
+  - name: xPixel
+    label: X Pixel
+    icon: simple-icons:x
+    category: Advertising
+    docs: https://scripts.nuxt.com/scripts/x-pixel
+  - name: googleTagManager
+    label: Google Tag Manager
+    icon: simple-icons:googletagmanager
+    category: Tag Manager
+    docs: https://scripts.nuxt.com/scripts/google-tag-manager
+  - name: vimeoPlayer
+    label: Vimeo Player
+    icon: simple-icons:vimeo
+    category: Video
+    docs: https://scripts.nuxt.com/scripts/vimeo-player
+  - name: youtubePlayer
+    label: YouTube Player
+    icon: simple-icons:youtube
+    category: Video
+    docs: https://scripts.nuxt.com/scripts/youtube-player
+  - name: blueskyEmbed
+    label: Bluesky Embed
+    icon: simple-icons:bluesky
+    category: Content
+    docs: https://scripts.nuxt.com/scripts/bluesky-embed
+  - name: googleMaps
+    label: Google Maps
+    icon: simple-icons:googlemaps
+    category: Content
+    docs: https://scripts.nuxt.com/scripts/google-maps
+  - name: instagramEmbed
+    label: Instagram Embed
+    icon: simple-icons:instagram
+    category: Content
+    docs: https://scripts.nuxt.com/scripts/instagram-embed
+  - name: xEmbed
+    label: X Embed
+    icon: simple-icons:x
+    category: Content
+    docs: https://scripts.nuxt.com/scripts/x-embed
+  - name: crisp
+    label: Crisp
+    category: Support
+    docs: https://scripts.nuxt.com/scripts/crisp
+  - name: intercom
+    label: Intercom
+    icon: simple-icons:intercom
+    category: Support
+    docs: https://scripts.nuxt.com/scripts/intercom
+  - name: npm
+    label: NPM
+    icon: simple-icons:npm
+    category: CDN
+    docs: https://scripts.nuxt.com/scripts/npm
+  - name: calendly
+    label: Calendly
+    icon: simple-icons:calendly
+    category: Utility
+    docs: https://scripts.nuxt.com/scripts/calendly
+  - name: googleRecaptcha
+    label: Google reCAPTCHA
+    icon: logos:recaptcha
+    category: Utility
+    docs: https://scripts.nuxt.com/scripts/google-recaptcha
+  - name: googleSignIn
+    label: Google Sign-In
+    icon: simple-icons:google
+    category: Utility
+    docs: https://scripts.nuxt.com/scripts/google-sign-in
+  - name: gravatar
+    label: Gravatar
+    icon: simple-icons:gravatar
+    category: Utility
+    docs: https://scripts.nuxt.com/scripts/gravatar
+  - name: usercentrics
+    label: Usercentrics
+    category: Utility
+    docs: https://scripts.nuxt.com/scripts/usercentrics
+  - name: lemonSqueezy
+    label: Lemon Squeezy
+    icon: simple-icons:lemonsqueezy
+    category: Payments
+    docs: https://scripts.nuxt.com/scripts/lemon-squeezy
+  - name: paypal
+    label: PayPal
+    icon: simple-icons:paypal
+    category: Payments
+    docs: https://scripts.nuxt.com/scripts/paypal
+  - name: stripe
+    label: Stripe
+    icon: simple-icons:stripe
+    category: Payments
+    docs: https://scripts.nuxt.com/scripts/stripe

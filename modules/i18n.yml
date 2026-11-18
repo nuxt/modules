@@ -1,14 +1,12 @@
 name: i18n
-description: >-
-  i18n features for your Nuxt project so you can easily add
-  internationalization.
+description: i18n features so you can easily add internationalization.
 repo: nuxt-modules/i18n
 npm: '@nuxtjs/i18n'
 icon: i18n.png
 github: https://github.com/nuxt-modules/i18n
 website: https://i18n.nuxtjs.org
 learn_more: https://vue-i18n.intlify.dev/
-category: Extensions
+category: i18n
 type: community
 maintainers:
   - name: Rafał Chłodnicki

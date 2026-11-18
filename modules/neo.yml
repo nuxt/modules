@@ -1,14 +1,14 @@
 name: neo
 description: >-
-  A nuxt.js module that implements a universal api layer, same-way compatible
-  between server and client side.
+  Implements a universal API layer, same-way compatible between server and
+  client side.
 repo: ezypeeze/nuxt-neo
 npm: nuxt-neo
 icon: ''
 github: https://github.com/ezypeeze/nuxt-neo
 website: https://ezypeeze.github.io/nuxt-neo
 learn_more: ''
-category: Request
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: Pedro Miguel Da Silva Pereira

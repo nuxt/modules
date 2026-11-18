@@ -6,7 +6,7 @@ icon: ''
 github: https://github.com/barbapapazes/nuxt-authorization
 website: https://github.com/barbapapazes/nuxt-authorization
 learn_more: https://soubiran.dev/posts/nuxt-going-full-stack-how-to-handle-authorization
-category: Security
+category: Authentication
 type: 3rd-party
 maintainers:
   - name: Estéban

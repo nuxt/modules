@@ -6,7 +6,7 @@ icon: vue-macros.svg
 github: https://github.com/vue-macros/vue-macros
 website: https://vue-macros.dev/
 learn_more: https://github.com/vue-macros/vue-macros
-category: Extensions
+category: Utilities
 type: 3rd-party
 maintainers:
   - name: Kevin Deng

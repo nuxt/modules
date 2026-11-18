@@ -1,18 +1,18 @@
 name: tresjs
-description: Create 3D experiences in your Nuxt application using TresJS.
+description: Create 3D experiences using TresJS.
 repo: tresjs/tres#main/packages/nuxt
 npm: '@tresjs/nuxt'
 icon: tresjs.svg
 github: https://github.com/tresjs/tres
 website: https://docs.tresjs.org/getting-started/installation#nuxt-project
 learn_more: https://tresjs.org/
-category: Libraries
+category: Animation
 type: 3rd-party
 maintainers:
   - name: Alvaro Saburido
     github: alvarosabu
     twitter: alvarosabu
-    bluesky: alvarosaburido.dev
+    bluesky: alvarosabu.dev
   - name: Jaime A Torrealba C
     github: JaimeTorrealba
     twitter: Jaimebboyjt

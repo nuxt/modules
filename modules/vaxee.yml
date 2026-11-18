@@ -6,7 +6,7 @@ icon: vaxee.svg
 github: https://github.com/letstri/vaxee
 website: https://vaxee.letstri.dev/
 learn_more: ''
-category: Extensions
+category: State Management
 type: 3rd-party
 maintainers:
   - name: Valerii Strilets

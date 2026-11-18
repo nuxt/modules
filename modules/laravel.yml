@@ -1,12 +1,12 @@
 name: laravel
-description: Nuxt cli extension for use with laravel as backend
+description: Nuxt CLI extension for using Laravel as a backend
 repo: m2sd/nuxt-laravel
 npm: nuxt-laravel
 icon: laravel.png
 github: https://github.com/m2sd/nuxt-laravel
 website: https://github.com/m2sd/nuxt-laravel
 learn_more: https://laravel.com/
-category: CMS
+category: Backend & Database
 type: 3rd-party
 maintainers:
   - name: m2sd

@@ -5,7 +5,7 @@ icon: ''
 github: https://github.com/tuarrep/nuxt-graphql-playground
 website: https://github.com/tuarrep/nuxt-graphql-playground
 learn_more: ''
-category: Devtools
+category: API & Data Fetching
 type: 3rd-party
 maintainers:
   - name: pinpon-dev

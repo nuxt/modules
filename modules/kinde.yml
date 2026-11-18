@@ -1,12 +1,12 @@
 name: kinde
-description: Kinde authentication integration for Nuxt
+description: Kinde authentication integration
 repo: nuxt-modules/kinde
 npm: '@nuxtjs/kinde'
 icon: kinde.svg
 github: https://github.com/nuxt-modules/kinde
 website: https://www.kinde.com/docs/developer-tools/nuxt-module/
 learn_more: https://www.kinde.com/
-category: Security
+category: Authentication
 type: community
 maintainers:
   - name: Daniel Roe
@@ -17,6 +17,6 @@ maintainers:
     github: DaveOrDead
     twitter: dave_or_dead
 compatibility:
-  nuxt: '>=3.0.0'
+  nuxt: '>=4.0.0'
   requires: {}
 sponsor: true

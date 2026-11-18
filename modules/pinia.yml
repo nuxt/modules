@@ -6,7 +6,7 @@ icon: pinia.svg
 github: https://github.com/vuejs/pinia
 website: https://pinia.vuejs.org/
 learn_more: ''
-category: Extensions
+category: State Management
 type: 3rd-party
 maintainers:
   - name: Eduardo San Martin Morote

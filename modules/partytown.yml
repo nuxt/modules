@@ -1,7 +1,7 @@
 name: partytown
 description: >-
-  Partytown integration for Nuxt - relocate resource intensive scripts into a
-  web worker, and off of the main thread.
+  Partytown integration: relocate resource-intensive scripts into a web worker,
+  and off of the main thread.
 repo: nuxt-modules/partytown
 npm: '@nuxtjs/partytown'
 icon: partytown.svg

@@ -1,12 +1,12 @@
 name: bcms
-description: Nuxt BCMS module
+description: BCMS integration
 repo: bcms/nuxt-module
 npm: '@thebcms/nuxt'
 icon: bcms.png
 github: https://github.com/bcms/nuxt-module
 website: https://www.thebcms.com/
 learn_more: https://www.thebcms.com/docs/integrations/nuxt-js/
-category: CMS
+category: CMS & Content
 type: 3rd-party
 maintainers:
   - name: Branislav Vajagic
