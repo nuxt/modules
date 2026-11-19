@@ -1,0 +1,18 @@
+name: nuxt-time-zone
+description: The visitor's time zone, the same on the server and the client
+repo: onmax/nuxt-time-zone
+npm: nuxt-time-zone
+icon: nuxt-time-zone.svg
+github: https://github.com/onmax/nuxt-time-zone
+website: https://github.com/onmax/nuxt-time-zone#readme
+learn_more: ''
+category: Utilities
+type: 3rd-party
+maintainers:
+  - name: Max
+    github: onmax
+    twitter: _onmax
+    bluesky: onmax.bsky.social
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}

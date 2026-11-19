@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 128 128" role="img" aria-labelledby="t">
+<title id="t">nuxt-time-zone</title>
+<style>.bg{fill:#ffffff}.rim,.hand{stroke:#171717}.grid{stroke:#a3a3a3;opacity:.55}.lead{stroke:#00c16a}.pin{fill:#171717}@media (prefers-color-scheme:dark){.bg{fill:#0a0a0a}.rim,.hand{stroke:#ffffff}.grid{stroke:#737373;opacity:.55}.lead{stroke:#00dc82}.pin{fill:#ffffff}}</style>
+<rect class="bg" width="128" height="128" rx="28"/>
+<ellipse class="grid" cx="64" cy="64" rx="18" ry="44" fill="none" stroke-width="4"/>
+<path class="grid" d="M20 64 H108" stroke-width="4"/>
+<circle class="rim" cx="64" cy="64" r="44" fill="none" stroke-width="7"/>
+<path class="hand" d="M64 64 V34" stroke-width="7" stroke-linecap="round"/>
+<path class="lead" d="M64 64 L86 76" stroke-width="8" stroke-linecap="round"/>
+<circle class="pin" cx="64" cy="64" r="6"/>
+</svg>
