@@ -1,0 +1,19 @@
+name: nuxtdashboard
+description: >-
+  Admin UI from your CloudConfig models: server tables, forms, filters and pages
+  on Nuxt UI.
+repo: dennisadriaans/nuxt-dashboard-oss#main/packages/nuxt-dashboard
+npm: nuxt-dashboard
+icon: nuxtdashboard.svg
+github: https://github.com/dennisadriaans/nuxt-dashboard-oss
+website: https://nuxtdashboard.com/docs/admin/overview
+learn_more: ''
+category: UI Components
+type: 3rd-party
+maintainers:
+  - name: Dennis Adriaansen
+    github: dennisadriaans
+    twitter: DennisAdriaans
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
