@@ -1,0 +1,23 @@
+name: nuxt-cmpkit-debug
+description: >-
+  Development-only debug panel for the CMPKit consent widget on localhost:
+  configuration, what loads and how fast, consent state, cookies and storage.
+repo: kendrick-k/nuxt-cmpkit-debug
+npm: nuxt-cmpkit-debug
+icon: ''
+github: https://github.com/kendrick-k/nuxt-cmpkit-debug
+website: https://github.com/kendrick-k/nuxt-cmpkit-debug
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Kendrick
+    github: kendrick-k
+compatibility:
+  nuxt: '>=3.15.0'
+  requires: {}
+providers:
+  - name: cmpkit
+    label: CMPKit
+    category: Security
+    docs: https://cmpkit.com/nuxt
