@@ -1,0 +1,19 @@
+name: intlayer
+description: >-
+  Easily internationalize i18n your Nuxt applications with type-safe
+  multilingual content management.
+repo: aymericzip/intlayer#main/packages/nuxt-intlayer
+npm: nuxt-intlayer
+icon: intlayer.svg
+github: https://github.com/aymericzip/intlayer
+website: https://intlayer.org
+learn_more: https://intlayer.org/doc/why
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Aymeric PINEAU
+    github: aymericzip
+    twitter: aymericzip
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
