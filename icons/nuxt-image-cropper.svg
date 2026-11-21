@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="stealth-title stealth-desc">
+  <title id="stealth-title">Futuristic cropper — Stealth monochrome</title>
+  <desc id="stealth-desc">A minimal high-contrast white geometric crop-frame icon with an angular energy cut in its center.</desc>
+  <!-- Flat monochrome version for toolbars and very small sizes. -->
+  <path d="M42 17 51 29 43 105 101 95 106 108 20 130Z" fill="#FFFFFF"/>
+  <path d="M53 35 136 17 120 125 106 108 116 36 54 48Z" fill="#FFFFFF"/>
+  <path d="M57 92 88 53 79 76 104 63 67 106 74 84Z" fill="#FFFFFF"/>
+</svg>
