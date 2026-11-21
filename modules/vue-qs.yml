@@ -1,0 +1,17 @@
+name: vue-qs
+description: Type-safe search params state with useQueryState, a port of nuqs
+repo: iamsomraj/vue-qs
+npm: vue-qs
+icon: ''
+github: https://github.com/iamsomraj/vue-qs
+website: https://iamsomraj.github.io/vue-qs/
+learn_more: https://iamsomraj.github.io/vue-qs/guide/adapters#nuxt
+category: State Management
+type: 3rd-party
+maintainers:
+  - name: Somraj Mukherjee
+    github: iamsomraj
+    twitter: isomraj
+compatibility:
+  nuxt: ^3.0.0 || ^4.0.0
+  requires: {}
