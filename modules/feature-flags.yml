@@ -1,0 +1,17 @@
+name: feature-flags
+description: Type-safe feature flags with gradual rollouts and sticky A/B/n testing
+repo: roberthgnz/nuxt-feature-flags
+npm: nuxt-feature-flags
+icon: feature-flags.svg
+github: https://github.com/roberthgnz/nuxt-feature-flags
+website: https://nuxt-feature-flags-docs.vercel.app/
+learn_more: https://nuxt-feature-flags-docs.vercel.app/guide/
+category: Deployment
+type: 3rd-party
+maintainers:
+  - name: Roberth González
+    github: roberthgnz
+    twitter: rxb3rth
+compatibility:
+  nuxt: '>=3.1.0'
+  requires: {}
