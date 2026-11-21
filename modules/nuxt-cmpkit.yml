@@ -1,0 +1,24 @@
+name: nuxt-cmpkit
+description: >-
+  CMPKit consent management platform (CMP): GDPR cookie banner and cookie
+  consent with one public key, a server-rendered script and a cookie settings
+  link.
+repo: kendrick-k/nuxt-cmpkit
+npm: nuxt-cmpkit
+icon: ''
+github: https://github.com/kendrick-k/nuxt-cmpkit
+website: https://github.com/kendrick-k/nuxt-cmpkit
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Kendrick
+    github: kendrick-k
+compatibility:
+  nuxt: '>=3.15.0'
+  requires: {}
+providers:
+  - name: cmpkit
+    label: CMPKit
+    category: Security
+    docs: https://cmpkit.com/nuxt
