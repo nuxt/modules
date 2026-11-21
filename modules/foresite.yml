@@ -1,0 +1,17 @@
+name: foresite
+description: 'Foresite for Nuxt: privacy-first website analytics with no cookies.'
+repo: devontheriault/nuxt-foresite
+npm: nuxt-foresite
+icon: foresite.svg
+github: https://github.com/devontheriault/nuxt-foresite
+website: https://foresite.dev/docs/nuxt
+learn_more: https://foresite.dev
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Devon Theriault
+    github: devontheriault
+    avatar: https://avatars.githubusercontent.com/devontheriault
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
