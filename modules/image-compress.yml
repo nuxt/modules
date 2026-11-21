@@ -1,0 +1,18 @@
+name: image-compress
+description: >-
+  Easy and performant file upload + image compression for Nuxt 3. Supports
+  images, PDFs and custom MIME types with Web Worker support
+repo: mesahach/nuxt-image-compress
+npm: nuxt-image-compress
+icon: image-compress.png
+github: https://github.com/mesahach/nuxt-image-compress
+website: https://github.com/mesahach/nuxt-image-compress
+learn_more: ''
+category: Images & Media
+type: 3rd-party
+maintainers:
+  - name: Meshach Friday
+    github: mesahach
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
