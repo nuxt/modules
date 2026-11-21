@@ -1,0 +1,18 @@
+name: openapi-meta
+description: >-
+  Auto-generate Nitro defineRouteMeta (OpenAPI) for Nuxt server routes from
+  JSDoc + Zod/Valibot schemas
+repo: davidtheheroes/nuxt-openapi-meta
+npm: nuxt-openapi-meta
+icon: ''
+github: https://github.com/davidtheheroes/nuxt-openapi-meta
+website: https://github.com/davidtheheroes/nuxt-openapi-meta
+learn_more: ''
+category: API & Data Fetching
+type: 3rd-party
+maintainers:
+  - name: David Pham
+    github: davidtheheroes
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
