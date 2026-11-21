@@ -1,0 +1,9 @@
+name: nuxt-multiple-themes
+description: Multi-theme engine with CSS custom properties, TailwindCSS plugins, WCAG contrast utilities, and white-label brand contexts
+repo: pooyagolchian/vue-multiple-themes
+npm: nuxt-multiple-themes
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Pooya Golchian
+    github: pooyagolchian
