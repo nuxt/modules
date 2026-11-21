@@ -1,0 +1,19 @@
+name: nuxt-auto-api
+description: >-
+  Secure REST APIs for Nuxt from your Drizzle schema: deny-by-default
+  authorization, multi-tenancy, validation, soft delete, M2M and TanStack Query
+  composables
+repo: websideproject/nuxt-auto#main/packages/nuxt-auto-api
+npm: '@websideproject/nuxt-auto-api'
+icon: websideproject.png
+github: https://github.com/websideproject/nuxt-auto
+website: https://websideproject.com/docs/nuxt-auto
+learn_more: ''
+category: API & Data Fetching
+type: 3rd-party
+maintainers:
+  - name: websideproject
+    github: websideproject
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
