@@ -1,0 +1,18 @@
+name: smart-loading-kit
+description: >-
+  Turn real components into their own skeleton with one directive, plus
+  spinners, progress bars and a route progress bar. SSR-safe.
+repo: navidjaberi/vue-smart-loading-kit#main/nuxt
+npm: nuxt-smart-loading-kit
+icon: smart-loading-kit.svg
+github: https://github.com/navidjaberi/vue-smart-loading-kit
+website: https://navidjaberi.github.io/vue-smart-loading-kit/
+learn_more: https://github.com/navidjaberi/vue-smart-loading-kit/tree/main/nuxt#readme
+category: UI Components
+type: 3rd-party
+maintainers:
+  - name: Navid Jaberi
+    github: navidjaberi
+compatibility:
+  nuxt: '>=3.21.0'
+  requires: {}
