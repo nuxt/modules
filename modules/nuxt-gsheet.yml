@@ -1,0 +1,18 @@
+name: nuxt-gsheet
+description: >-
+  Zero-config, high-performance, secure Google Sheets integration for Nuxt 3, 4
+  and 5 with built-in stampede protection and DevTools dashboard.
+repo: narr07/nuxt-gsheet#master
+npm: nuxt-gsheet
+icon: gsheet.svg
+github: https://github.com/narr07/nuxt-gsheet
+website: https://nuxtgsheet.permadi.dev
+learn_more: https://nuxtgsheet.permadi.dev
+category: Backend & Database
+type: 3rd-party
+maintainers:
+  - name: Dinar, Permadi
+    github: narr07
+compatibility:
+  nuxt: '>=3.10.0'
+  requires: {}
