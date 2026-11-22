@@ -1,0 +1,18 @@
+name: poveste
+description: A component playground for Nuxt — a drop-in fork of histoire.
+repo: poveste-dev/poveste#main/packages/poveste-plugin-nuxt
+npm: '@poveste/plugin-nuxt'
+icon: poveste.svg
+github: https://github.com/poveste-dev/poveste
+website: https://poveste.dev
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Soryn
+    github: 50rayn
+    twitter: 50rayn
+    bluesky: poveste.dev
+compatibility:
+  nuxt: '>=4.5.0'
+  requires: {}
