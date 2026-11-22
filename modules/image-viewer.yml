@@ -1,0 +1,19 @@
+name: image-viewer
+description: >-
+  Full-screen image viewer that opens from the image on the page: swipe through
+  an endless strip, zoom with a pinch, wheel or double tap, drag to close. No
+  dependencies.
+repo: kukson777/nuxt-image-viewer
+npm: nuxt-image-viewer
+icon: image-viewer.svg
+github: https://github.com/kukson777/nuxt-image-viewer
+website: https://kukson777.github.io/nuxt-image-viewer/
+learn_more: ''
+category: Images & Media
+type: 3rd-party
+maintainers:
+  - name: kukson777
+    github: kukson777
+compatibility:
+  nuxt: '>=3.13.0'
+  requires: {}
