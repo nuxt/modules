@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" stroke="#21c45d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" filter="url(#neon-glow)">
+    <path d="M 32 32 L 64 64 L 32 96" />
+    <line x1="72" y1="96" x2="104" y2="96">
+      <animate
+        attributeName="opacity"
+        values="1; 0; 1"
+        dur="1s"
+        repeatCount="indefinite"
+        calcMode="discrete"
+        keyTimes="0; 0.5; 1" />
+    </line>
+  </g>
+</svg>
