@@ -1,0 +1,18 @@
+name: metricraven
+description: >-
+  Privacy-friendly web analytics with revenue attribution: see which traffic
+  actually pays.
+repo: Dual-Ninja-LLC/metricraven-nuxt
+npm: '@metricraven/nuxt'
+icon: metricraven.svg
+github: https://github.com/Dual-Ninja-LLC/metricraven-nuxt
+website: https://metricraven.com/docs/install-vue-nuxt#nuxt-module
+learn_more: https://metricraven.com
+category: Analytics
+type: 3rd-party
+maintainers:
+  - name: Dual Ninja LLC
+    github: Dual-Ninja-LLC
+compatibility:
+  nuxt: '>=3.7.0'
+  requires: {}
