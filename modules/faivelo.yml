@@ -11,7 +11,7 @@ learn_more: https://faivelo.com
 category: Email & Notifications
 type: 3rd-party
 maintainers:
-  - name: Faivelo
+  - name: Ethan
     github: ethannschwartz
 compatibility:
   nuxt: '>=3.10.0'
