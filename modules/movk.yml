@@ -11,7 +11,7 @@ learn_more: ''
 category: UI Components
 type: 3rd-party
 maintainers:
-  - name: YiXuan
+  - name: mhaibaraai
     github: mhaibaraai
 compatibility:
   nuxt: '>=4.2.0'
