@@ -1,0 +1,19 @@
+name: movk
+description: >-
+  Schema-driven forms (Zod v4), configurable data tables, reusable UI
+  components, composables, and API integration.
+repo: mhaibaraai/movk-nuxt
+npm: '@movk/nuxt'
+icon: movk.svg
+github: https://github.com/mhaibaraai/movk-nuxt
+website: https://nuxt.mhaibaraai.cn
+learn_more: ''
+category: UI Components
+type: 3rd-party
+maintainers:
+  - name: YiXuan
+    github: mhaibaraai
+compatibility:
+  nuxt: '>=4.2.0'
+  requires: {}
+mcp: https://nuxt.mhaibaraai.cn/mcp
