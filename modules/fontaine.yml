@@ -4,8 +4,8 @@ repo: nuxt-modules/fontaine
 npm: '@nuxtjs/fontaine'
 icon: fontaine.png
 github: https://github.com/nuxt-modules/fontaine
-website: https://github.com/unjs/fontaine
-learn_more: https://github.com/unjs/fontaine
+website: https://github.com/danielroe/fontaine
+learn_more: https://github.com/danielroe/fontaine
 category: Icons & Fonts
 type: community
 maintainers:
