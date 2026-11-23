@@ -1,0 +1,18 @@
+name: faivelo
+description: >-
+  Send transactional email from your own domain with Faivelo, and receive
+  replies as typed webhooks
+repo: ethannschwartz/faivelo-js#main/sdk-nuxt
+npm: '@faivelo/nuxt'
+icon: faivelo.svg
+github: https://github.com/ethannschwartz/faivelo-js
+website: https://faivelo.com/docs/developers/nuxt
+learn_more: https://faivelo.com
+category: Email & Notifications
+type: 3rd-party
+maintainers:
+  - name: Faivelo
+    github: ethannschwartz
+compatibility:
+  nuxt: '>=3.10.0'
+  requires: {}
