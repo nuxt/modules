@@ -1,0 +1,19 @@
+name: movoa
+description: >-
+  Unlimited AI video generator with sound: on paid plans the tenth take of a
+  shot costs what the first did, and your first clip is free to make right now.
+  Auto-imported Nuxt server utilities for Movoa text-to-video and photo-to-video.
+repo: sonyadennisubno4-oss/nuxt-movoa
+npm: nuxt-movoa
+icon: ''
+github: https://github.com/sonyadennisubno4-oss/nuxt-movoa
+website: https://movoa.ai/
+learn_more: https://movoa.ai/video/text-to-video
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Movoa
+    github: sonyadennisubno4-oss
+compatibility:
+  nuxt: '>=3.13.0'
+  requires: {}
