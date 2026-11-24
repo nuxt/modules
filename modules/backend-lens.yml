@@ -1,0 +1,18 @@
+name: backend-lens
+description: >-
+  Debugbar-like panel for SPAs: the SQL, logs and timing behind every backend
+  request (Clockwork, Laravel Debugbar)
+repo: DmitrySkibitsky/nuxt-backend-lens#main/packages/nuxt-backend-lens
+npm: nuxt-backend-lens
+icon: ''
+github: https://github.com/DmitrySkibitsky/nuxt-backend-lens
+website: https://github.com/DmitrySkibitsky/nuxt-backend-lens
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Dmitry Skibitsky
+    github: DmitrySkibitsky
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
