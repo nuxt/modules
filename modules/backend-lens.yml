@@ -11,7 +11,7 @@ learn_more: ''
 category: Devtools
 type: 3rd-party
 maintainers:
-  - name: DmitrySkibitsky
+  - name: Dmitry Skibitsky
     github: DmitrySkibitsky
 compatibility:
   nuxt: '>=4.0.0'
