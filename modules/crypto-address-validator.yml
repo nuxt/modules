@@ -1,0 +1,18 @@
+name: crypto-address-validator
+description: >-
+  Zero-dependency multi-chain cryptocurrency wallet address, Memo/Tag routing,
+  and address-poisoning validator across 46+ blockchains
+repo: zhangglnuo-art/nuxt-crypto-address-validator
+npm: nuxt-crypto-address-validator
+icon: ''
+github: https://github.com/zhangglnuo-art/nuxt-crypto-address-validator
+website: https://allswap.io/tools/address-validator
+learn_more: https://allswap.io/
+category: Security
+type: 3rd-party
+maintainers:
+  - name: Nuo Zhang
+    github: zhangglnuo-art
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}
