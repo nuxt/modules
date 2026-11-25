@@ -1,0 +1,20 @@
+name: agent-discovery
+description: >-
+  Markdown content negotiation, CDN-level rewrites and discovery documents for
+  AI agents on Nuxt documentation sites
+repo: benjamincanac/nuxt-agent-discovery
+npm: nuxt-agent-discovery
+icon: ''
+github: https://github.com/benjamincanac/nuxt-agent-discovery
+website: https://github.com/benjamincanac/nuxt-agent-discovery
+learn_more: ''
+category: AI
+type: 3rd-party
+maintainers:
+  - name: Benjamin Canac
+    github: benjamincanac
+    twitter: benjamincanac
+    bluesky: benjamincanac.dev
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

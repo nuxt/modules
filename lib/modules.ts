@@ -6,10 +6,11 @@ import { globby } from 'globby'
 import defu from 'defu'
 import pLimit from 'p-limit'
 import { Octokit } from '@octokit/rest'
+import { ofetch } from 'ofetch'
 
 import { categories } from './categories.ts'
 import type { ModuleInfo, SyncRegression, SyncResult, SyncAllResult, SyncError, SyncProgressCallback, SyncWarning } from './types.ts'
-import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, isValidModuleName, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY } from './utils.ts'
+import { fetchGithubPkg, fetchModuleJson, modulesDir, distDir, distFile, rootDir, getMajorVersions, mergeCompatibilityRanges, isNuxt4Compatible, isRealDocsUrl, isValidModuleName, parseNpmUrl, npmPackageExists, checkGithubRepoRedirect, checkWebsiteRedirect, sleep, FETCH_DELAY, userAgent } from './utils.ts'
 
 const maintainerSocialCache: Record<string, null | { user: { name: string, email: string, socialAccounts: { nodes: Array<{ displayName: string, provider: string, url: string }> } } }> = {}
 
@@ -137,6 +138,10 @@ export async function sync(name: string, repo?: string, isNew: boolean = false, 
     }
   }
 
+  if (mod.providers !== undefined) {
+    await validateProviders(mod, warnings)
+  }
+
   // TODO: Remove extra fields
   const validFields = [
     'name',
@@ -148,6 +153,7 @@ export async function sync(name: string, repo?: string, isNew: boolean = false, 
     'website',
     'learn_more',
     'mcp',
+    'providers',
     'category',
     'type',
     'maintainers',
@@ -354,6 +360,61 @@ export async function sync(name: string, repo?: string, isNew: boolean = false, 
   await writeModule(mod)
 
   return { module: mod, regressions, warnings }
+}
+
+const providerFields = ['name', 'label', 'icon', 'category', 'docs']
+
+async function validateProviders(mod: ModuleInfo, warnings: string[]) {
+  const file = `./modules/${mod.name}.yml`
+  if (!Array.isArray(mod.providers)) {
+    throw new TypeError(`\`providers\` in ${file} must be a list`)
+  }
+
+  const names = new Set<string>()
+  const icons: Record<string, string[]> = {}
+  for (const provider of mod.providers) {
+    if (typeof provider?.name !== 'string' || !provider.name || typeof provider.label !== 'string' || !provider.label) {
+      throw new Error(`Each provider in ${file} needs a \`name\` and a \`label\``)
+    }
+    if (names.has(provider.name)) {
+      throw new Error(`Duplicate provider \`${provider.name}\` in ${file}`)
+    }
+    names.add(provider.name)
+
+    const invalidFields = Object.keys(provider).filter(key => !providerFields.includes(key))
+    if (invalidFields.length) {
+      throw new Error(`Invalid fields for provider \`${provider.name}\` in ${file}: ${invalidFields.join(', ')}`)
+    }
+    if (provider.docs && !URL.canParse(provider.docs)) {
+      throw new Error(`Invalid docs URL for provider \`${provider.name}\` in ${file}: ${provider.docs}`)
+    }
+    if (provider.icon) {
+      if (!/^[a-z0-9-]+:[a-z0-9-]+$/.test(provider.icon)) {
+        throw new Error(`Invalid icon for provider \`${provider.name}\` in ${file}: use an Iconify name like \`simple-icons:github\``)
+      }
+      const [prefix, icon] = provider.icon.split(':') as [string, string]
+      icons[prefix] ||= []
+      icons[prefix].push(icon)
+    }
+  }
+
+  // Check the icons exist, one request per Iconify collection
+  for (const [prefix, iconNames] of Object.entries(icons)) {
+    try {
+      const { not_found: notFound = [] } = await ofetch<{ not_found?: string[] }>(`https://api.iconify.design/${prefix}.json`, {
+        query: { icons: iconNames.join(',') },
+        headers: { 'user-agent': userAgent },
+        timeout: 10_000,
+      })
+      if (notFound.length) {
+        warnings.push(`Unknown Iconify icons in ${file}: ${notFound.map(icon => `${prefix}:${icon}`).join(', ')}`)
+      }
+    }
+    catch (err) {
+      warnings.push(`Could not check Iconify icons for \`${prefix}\` in ${file}: ${err}`)
+    }
+    await sleep(FETCH_DELAY)
+  }
 }
 
 export async function getModule(name: string): Promise<ModuleInfo> {
