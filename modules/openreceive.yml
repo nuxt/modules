@@ -1,0 +1,19 @@
+name: openreceive
+description: >-
+  Bitcoin Lightning checkout paid straight into your own wallet, with no
+  account. Optional swaps take USDT, USDC, SOL and ETH and settle as bitcoin
+  over Lightning.
+repo: OpenReceive/openreceive#master/packages/js/nuxt
+npm: '@openreceive/nuxt'
+icon: openreceive.png
+github: https://github.com/OpenReceive/openreceive
+website: https://openreceive.org/integrations/nuxt
+learn_more: https://openreceive.org
+category: Ecommerce & Payments
+type: 3rd-party
+maintainers:
+  - name: OpenReceive
+    github: OpenReceive
+compatibility:
+  nuxt: ^4.0.0
+  requires: {}
