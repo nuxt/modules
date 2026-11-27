@@ -1,0 +1,18 @@
+name: easy-cms
+description: >-
+  Code-first CMS and app backend that runs inside your app: admin UI, REST API
+  and a typed local API from one config file.
+repo: maritonx/easy-cms#main/packages/nuxt
+npm: '@easy-cms/nuxt'
+icon: easy-cms.svg
+github: https://github.com/maritonx/easy-cms
+website: https://easycms.dev/docs/nuxt
+learn_more: https://easycms.dev
+category: CMS & Content
+type: 3rd-party
+maintainers:
+  - name: maritonx
+    github: maritonx
+compatibility:
+  nuxt: '>=4.0.0'
+  requires: {}
